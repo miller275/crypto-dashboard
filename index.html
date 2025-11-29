@@ -771,14 +771,7 @@
                 fearGreedTitle: 'Индекс Страха и Жадности',
                 page: 'Страница',
                 tradingView: 'TradingView',
-                details: 'Детали',
-                coin: 'Монета',
-                price: 'Цена',
-                change24h: '24ч',
-                marketCap: 'Капитализация',
-                volume24h: 'Объем (24ч)',
-                chart7d: 'График (7д)',
-                actions: 'Действия'
+                details: 'Детали'
             },
             en: {
                 siteLogo: 'CryptoDrom',
@@ -788,20 +781,12 @@
                 fearGreedTitle: 'Fear & Greed Index',
                 page: 'Page',
                 tradingView: 'TradingView',
-                details: 'Details',
-                coin: 'Coin',
-                price: 'Price',
-                change24h: '24h',
-                marketCap: 'Market Cap',
-                volume24h: 'Volume (24h)',
-                chart7d: 'Chart (7d)',
-                actions: 'Actions'
+                details: 'Details'
             }
         };
 
-        // ===== ТЕСТОВЫЕ ДАННЫЕ (50+ МОНЕТ) =====
+        // ===== ТЕСТОВЫЕ ДАННЫЕ (50 МОНЕТ) =====
         const TEST_COINS = [
-            // Топ 10 монет
             createCoin(1, "Bitcoin", "BTC", 58728.42, 2.5, 1150000000000, 28500000000),
             createCoin(2, "Ethereum", "ETH", 2935.51, -1.2, 352000000000, 15200000000),
             createCoin(3, "Tether", "USDT", 1.00, 0.0, 95600000000, 45200000000),
@@ -812,52 +797,41 @@
             createCoin(8, "Dogecoin", "DOGE", 0.12, -0.5, 17200000000, 850000000),
             createCoin(9, "Avalanche", "AVAX", 34.56, 3.1, 13000000000, 450000000),
             createCoin(10, "Polkadot", "DOT", 6.98, -2.1, 8900000000, 280000000),
-
-            // Дополнительные популярные монеты
             createCoin(11, "Chainlink", "LINK", 14.23, 1.5, 8100000000, 350000000),
             createCoin(12, "Polygon", "MATIC", 0.78, -0.8, 6900000000, 220000000),
             createCoin(13, "Litecoin", "LTC", 68.45, 0.9, 5100000000, 380000000),
             createCoin(14, "Uniswap", "UNI", 6.12, 2.3, 4600000000, 120000000),
             createCoin(15, "Shiba Inu", "SHIB", 0.000009, 5.7, 5300000000, 150000000),
-
-            // Другие монеты
             createCoin(16, "Bitcoin Cash", "BCH", 245.67, -1.2, 4800000000, 180000000),
             createCoin(17, "Stellar", "XLM", 0.115, 0.7, 3200000000, 85000000),
             createCoin(18, "Monero", "XMR", 166.78, -0.4, 3000000000, 45000000),
             createCoin(19, "Ethereum Classic", "ETC", 23.45, 1.8, 3400000000, 120000000),
             createCoin(20, "Algorand", "ALGO", 0.18, -2.3, 1400000000, 35000000),
-
-            // Еще больше монет
             createCoin(21, "Filecoin", "FIL", 4.56, 3.2, 2200000000, 95000000),
             createCoin(22, "VeChain", "VET", 0.028, 1.1, 2000000000, 65000000),
             createCoin(23, "Internet Computer", "ICP", 12.34, -3.4, 5600000000, 45000000),
             createCoin(24, "Theta Network", "THETA", 1.23, 0.5, 1200000000, 18000000),
             createCoin(25, "Aave", "AAVE", 86.54, 2.7, 1200000000, 75000000),
-
             createCoin(26, "Cosmos", "ATOM", 8.90, -1.6, 3400000000, 95000000),
             createCoin(27, "Tezos", "XTZ", 0.85, 0.3, 830000000, 25000000),
             createCoin(28, "EOS", "EOS", 0.67, -2.1, 750000000, 45000000),
             createCoin(29, "Neo", "NEO", 11.23, 1.4, 790000000, 12000000),
             createCoin(30, "Dash", "DASH", 27.89, -0.9, 320000000, 18000000),
-
             createCoin(31, "Zcash", "ZEC", 22.34, 2.1, 350000000, 45000000),
             createCoin(32, "Decred", "DCR", 15.67, -1.3, 220000000, 8500000),
             createCoin(33, "Basic Attention Token", "BAT", 0.23, 0.8, 340000000, 25000000),
             createCoin(34, "0x", "ZRX", 0.31, -2.4, 260000000, 15000000),
             createCoin(35, "Augur", "REP", 5.43, 1.7, 58000000, 4500000),
-
             createCoin(36, "Golem", "GLM", 0.28, 0.6, 280000000, 12000000),
             createCoin(37, "Status", "SNT", 0.034, -1.2, 130000000, 8500000),
             createCoin(38, "Loopring", "LRC", 0.25, 3.5, 340000000, 45000000),
             createCoin(39, "Kyber Network", "KNC", 0.67, -0.8, 120000000, 25000000),
             createCoin(40, "Bancor", "BNT", 0.45, 1.9, 63000000, 18000000),
-
             createCoin(41, "Civic", "CVC", 0.12, -2.7, 48000000, 9500000),
             createCoin(42, "District0x", "DNT", 0.023, 4.1, 23000000, 4500000),
             createCoin(43, "FunFair", "FUN", 0.0045, -1.8, 45000000, 12000000),
             createCoin(44, "Salt", "SALT", 0.18, 0.9, 22000000, 850000),
             createCoin(45, "Power Ledger", "POWR", 0.34, 2.3, 170000000, 25000000),
-
             createCoin(46, "Request Network", "REQ", 0.078, -0.5, 78000000, 4500000),
             createCoin(47, "Iconomi", "ICN", 0.45, 1.2, 45000000, 1200000),
             createCoin(48, "SingularDTV", "SNGLS", 0.023, -3.1, 23000000, 850000),
@@ -1068,4 +1042,7 @@
         }
 
         // Запуск приложения
-        document.addEventListener('DOMContent
+        document.addEventListener('DOMContentLoaded', initApp);
+    </script>
+</body>
+</html>
