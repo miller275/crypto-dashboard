@@ -1,34 +1,75 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<title>Crypto Dashboard</title>
-<link rel="stylesheet" href="styles.css">
-</head>
-<body>
+<!-- FIRST_CONTAINER НАЧАЛО -->
+<section class="section coins-section" id="coinsSection">
+ <div class="container">
+ <h2 class="section-title">Топ Криптовалют</h2>
 
-<header class="header">
-  <h1 id="siteTitle">Crypto Dashboard</h1>
+ <!-- Fear & Greed Index -->
+ <div class="fear-greed-widget">
+ <h3 class="fear-greed-title">Индекс Страха и Жадности</h3>
+ <div class="fear-greed-container">
+ <!-- Шкала -->
+ <div class="fear-greed-scale">
+ <div class="scale-labels">
+ <span>0</span><span>25</span><span>50</span><span>75</span><span>100</span>
+ </div>
+ <div class="scale-bar">
+ <div class="scale-gradient">
+ <div class="scale-segment extreme-fear"></div>
+ <div class="scale-segment fear"></div>
+ <div class="scale-segment neutral"></div>
+ <div class="scale-segment greed"></div>
+ <div class="scale-segment extreme-greed"></div>
+ </div>
+ <!-- Указатель -->
+ <div class="fear-greed-indicator" id="fearGreedIndicator">
+ <div class="indicator-arrow"></div>
+ <div class="indicator-line"></div>
+ </div>
+ </div>
+ <div class="scale-states">
+ <span class="state-label">Крайний страх</span>
+ <span class="state-label">Страх</span>
+ <span class="state-label">Нейтрально</span>
+ <span class="state-label">Жадность</span>
+ <span class="state-label">Крайняя жадность</span>
+ </div>
+ </div>
+ <!-- Инфо -->
+ <div class="fear-greed-info">
+ <div class="current-value">
+ <span class="value-number" id="fearGreedValue">-</span>
+ <span class="value-label">Текущее значение</span>
+ </div>
+ <div class="current-state">
+ <span class="state-text" id="fearGreedText">Загрузка...</span>
+ <span class="state-label">Состояние рынка</span>
+ </div>
+ <div class="last-update">
+ <span class="update-text" id="lastUpdate">Обновлено: -</span>
+ </div>
+ </div>
+ </div>
+ </div>
 
-  <div class="controls">
-    <button id="themeToggle">🌓</button>
+ <!-- Поиск -->
+ <div class="search-section">
+ <div class="search-container">
+ <div class="search-wrapper">
+ <input type="text" class="search-input" id="mainSearch" placeholder="Поиск криптовалют...">
+ <div class="search-icon">🔍</div>
+ </div>
+ </div>
+ </div>
 
-    <select id="langSelect">
-      <option value="en">EN</option>
-      <option value="ru">RU</option>
-      <option value="ro">RO</option>
-    </select>
-  </div>
-</header>
+ <!-- Сетка монет -->
+ <div class="coin-grid" id="coinGrid"></div>
 
-<section class="search-section">
-  <input id="searchInput" placeholder="Search coin...">
+ <!-- Пагинация -->
+ <div class="pagination">
+ <button class="page-btn disabled" id="prevPage">← Назад</button>
+ <span class="page-info" id="pageInfo">Страница 1</span>
+ <button class="page-btn" id="nextPage">Вперёд →</button>
+ </div>
+ </div>
 </section>
-
-<section class="coin-grid" id="coinGrid">
-  <!-- JS generates cards -->
-</section>
-
-<script src="script.js"></script>
-</body>
-</html>
+<!-- FIRST_CONTAINER КОНЕЦ -->
