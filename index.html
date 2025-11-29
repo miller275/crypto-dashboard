@@ -3,40 +3,120 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Криптовалютный Дашборд</title>
-    <link rel="stylesheet" href="style.css">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <title>Crypto Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="container">
-        <header>
-            <h1><i class="fas fa-chart-line"></i> Криптовалютный Дашборд</h1>
-            <div class="last-update" id="lastUpdate"></div>
-        </header>
-
-        <div class="controls">
-            <input type="text" id="searchInput" placeholder="Поиск криптовалюты...">
-            <select id="currencySelect">
-                <option value="usd">USD</option>
-                <option value="eur">EUR</option>
-                <option value="rub">RUB</option>
-            </select>
-            <button id="refreshBtn"><i class="fas fa-sync-alt"></i> Обновить</button>
+    <!-- HEADER -->
+    <header class="site-header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo" id="siteLogo">CryptoDrom</div>
+                <div class="control-panel">
+                    <div class="lang-switcher">
+                        <button class="lang-btn active" data-lang="ru">RU</button>
+                        <button class="lang-btn" data-lang="en">EN</button>
+                    </div>
+                    <div class="theme-control">
+                        <span class="theme-label" id="themeText">Тёмная</span>
+                        <label class="theme-switch">
+                            <input type="checkbox" id="themeToggle" checked>
+                            <span class="theme-slider"></span>
+                        </label>
+                    </div>
+                </div>
+            </div>
         </div>
+    </header>
 
-        <div class="stats-grid" id="statsGrid">
-            <!-- Статистика будет загружена через JavaScript -->
+    <!-- PROMO СЕКЦИЯ -->
+    <section class="promo-section">
+        <div class="container">
+            <h1 class="promo-title" id="promoTitle">Добро пожаловать в Crypto Dashboard</h1>
+            <p class="promo-subtitle" id="promoSubtitle">Ваш центр для анализа рынка и кастомизации интерфейса.</p>
+            <button class="promo-btn" id="promoBtn">Вперёд</button>
         </div>
+    </section>
 
-        <div class="crypto-grid" id="cryptoGrid">
-            <!-- Данные о криптовалютах будут загружены через JavaScript -->
+    <!-- СЕКЦИЯ МОНЕТ -->
+    <section class="section coins-section" id="coinsSection">
+        <div class="container">
+            <h2 class="section-title" id="coinsTitle">Топ Криптовалют</h2>
+
+            <!-- Fear & Greed Index -->
+            <div class="fear-greed-widget">
+                <h3 class="fear-greed-title">Индекс Страха и Жадности</h3>
+                <div class="fear-greed-container">
+                    <div class="fear-greed-scale">
+                        <div class="scale-labels">
+                            <span>0</span><span>25</span><span>50</span><span>75</span><span>100</span>
+                        </div>
+                        <div class="scale-bar">
+                            <div class="scale-gradient">
+                                <div class="scale-segment extreme-fear"></div>
+                                <div class="scale-segment fear"></div>
+                                <div class="scale-segment neutral"></div>
+                                <div class="scale-segment greed"></div>
+                                <div class="scale-segment extreme-greed"></div>
+                            </div>
+                            <div class="fear-greed-indicator" id="fearGreedIndicator">
+                                <div class="indicator-arrow"></div>
+                                <div class="indicator-line"></div>
+                            </div>
+                        </div>
+                        <div class="scale-states">
+                            <span class="state-label">Крайний страх</span>
+                            <span class="state-label">Страх</span>
+                            <span class="state-label">Нейтрально</span>
+                            <span class="state-label">Жадность</span>
+                            <span class="state-label">Крайняя жадность</span>
+                        </div>
+                    </div>
+                    <div class="fear-greed-info">
+                        <div class="current-value">
+                            <span class="value-number" id="fearGreedValue">75</span>
+                            <span class="value-label">Текущее значение</span>
+                        </div>
+                        <div class="current-state">
+                            <span class="state-text" id="fearGreedText">Жадность</span>
+                            <span class="state-label">Состояние рынка</span>
+                        </div>
+                        <div class="last-update">
+                            <span class="update-text" id="lastUpdate">Обновлено: только что</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Поиск -->
+            <div class="search-section">
+                <div class="search-container">
+                    <div class="search-wrapper">
+                        <input type="text" class="search-input" id="mainSearch" placeholder="Поиск криптовалют...">
+                        <div class="search-icon">🔍</div>
+                        <button class="search-clear" id="searchClear">×</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Состояние загрузки/ошибки -->
+            <div class="content-state" id="contentState"></div>
+
+            <!-- Сетка монет -->
+            <div class="coin-grid" id="coinGrid">
+                <!-- Монеты будут здесь -->
+            </div>
+
+            <!-- Пагинация -->
+            <div class="pagination">
+                <button class="page-btn disabled" id="prevPage">← Назад</button>
+                <span class="page-info" id="pageInfo">Страница 1</span>
+                <button class="page-btn" id="nextPage">Вперёд →</button>
+            </div>
         </div>
+    </section>
 
-        <div class="loading" id="loading">
-            <i class="fas fa-spinner fa-spin"></i> Загрузка данных...
-        </div>
-    </div>
-
-    <script src="script.js"></script>
+    <script src="config.js"></script>
+    <script src="app.js"></script>
 </body>
 </html>
