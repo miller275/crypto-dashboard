@@ -1,25 +1,30 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>CryptoDashboard</title>
-  <link rel="stylesheet" href="style.css" />
+  <!-- В uCoz стили обычно подключаются отдельно; IDs/классы ниже соответствуют твоим CSS/JS -->
 </head>
 <body data-theme="light">
-  <!-- Шапка -->
+
+  <!-- ШАПКА -->
   <header class="site-header">
     <div class="container header-content">
       <div id="siteLogo" class="logo">CryptoDashboard</div>
+
       <div class="control-panel">
+        <!-- Переключение языка -->
         <div class="lang-switcher">
           <button class="lang-btn active" data-lang="ru">RU</button>
           <button class="lang-btn" data-lang="en">EN</button>
         </div>
+
+        <!-- Переключение темы -->
         <div class="theme-control">
           <span id="themeText" class="theme-label">Светлая</span>
           <label class="theme-switch">
-            <input type="checkbox" id="themeToggle" />
+            <input type="checkbox" id="themeToggle">
             <span class="theme-slider"></span>
           </label>
         </div>
@@ -27,7 +32,7 @@
     </div>
   </header>
 
-  <!-- Промо-блок -->
+  <!-- PROMO-БЛОК -->
   <section class="promo-section">
     <div class="container">
       <h1 id="promoTitle" class="promo-title">Криптовалютный Дашборд</h1>
@@ -36,55 +41,159 @@
     </div>
   </section>
 
-  <!-- Основной блок -->
+  <!-- ОСНОВНОЙ КОНТЕЙНЕР (FIRST_CONTAINER) -->
   <section class="section coins-section" id="coinsSection">
     <div class="container">
       <h2 id="coinsTitle" class="section-title">Топ Криптовалют</h2>
 
-      <!-- Fear & Greed -->
+      <!-- Fear & Greed Index -->
       <div class="fear-greed-widget">
         <h3 class="fear-greed-title">Индекс Страха и Жадности</h3>
-        <div class="scale-bar">
-          <div class="scale-gradient">
-            <div class="scale-segment extreme-fear"></div>
-            <div class="scale-segment fear"></div>
-            <div class="scale-segment neutral"></div>
-            <div class="scale-segment greed"></div>
-            <div class="scale-segment extreme-greed"></div>
+
+        <div class="fear-greed-container">
+          <div class="fear-greed-scale">
+            <div class="scale-labels">
+              <span>0</span><span>25</span><span>50</span><span>75</span><span>100</span>
+            </div>
+
+            <div class="scale-bar">
+              <div class="scale-gradient">
+                <div class="scale-segment extreme-fear"></div>
+                <div class="scale-segment fear"></div>
+                <div class="scale-segment neutral"></div>
+                <div class="scale-segment greed"></div>
+                <div class="scale-segment extreme-greed"></div>
+              </div>
+
+              <div class="fear-greed-indicator" id="fearGreedIndicator" style="left: 50%;">
+                <div class="indicator-arrow"></div>
+                <div class="indicator-line"></div>
+              </div>
+            </div>
+
+            <div class="scale-states">
+              <span class="state-label">Экстримальный страх</span>
+              <span class="state-label">Страх</span>
+              <span class="state-label">Нейтрально</span>
+              <span class="state-label">Жадность</span>
+              <span class="state-label">Экстримальная жадность</span>
+            </div>
           </div>
-          <div class="fear-greed-indicator" id="fearGreedIndicator">
-            <div class="indicator-arrow"></div>
-            <div class="indicator-line"></div>
+
+          <div class="fear-greed-info">
+            <div class="current-value">
+              <span id="fearGreedValue" class="value-number">-</span>
+              <span class="value-label">Текущее значение</span>
+            </div>
+            <div class="current-state">
+              <span id="fearGreedText" class="state-text">Загрузка...</span>
+              <span class="state-label">Состояние рынка</span>
+            </div>
+            <div class="last-update">
+              <span id="lastUpdate" class="update-text">Обновлено: -</span>
+            </div>
           </div>
         </div>
-        <p>Значение: <span id="fearGreedValue">-</span> (<span id="fearGreedText">Загрузка...</span>)</p>
-        <p id="lastUpdate">Обновлено: -</p>
       </div>
 
       <!-- Поиск -->
       <div class="search-section">
-        <input type="text" id="mainSearch" class="search-input" placeholder="Поиск криптовалют..." />
+        <div class="search-container">
+          <div class="search-wrapper">
+            <input type="text" id="mainSearch" class="search-input" placeholder="Поиск криптовалют...">
+            <span class="search-icon">🔍</span>
+          </div>
+          <div id="searchResults"></div>
+        </div>
       </div>
 
       <!-- Сетка монет -->
-      <div class="coin-grid" id="coinGrid"></div>
+      <div class="coin-grid" id="coinGrid">
+        <!-- Карточки монет генерируются JS -->
+      </div>
 
       <!-- Пагинация -->
       <div class="pagination">
         <button class="page-btn" id="prevPage">← Назад</button>
-        <span id="pageInfo">Страница 1</span>
+        <span id="pageInfo" class="page-info">Страница 1</span>
         <button class="page-btn" id="nextPage">Вперёд →</button>
+      </div>
+
+      <!-- Счётчик посетителей -->
+      <div id="visitorCounter"></div>
+    </div>
+  </section>
+
+  <!-- СЛАЙДЕР (для совместимости с твоим JS) -->
+  <section class="section slider-section">
+    <div class="container">
+      <div class="slider-container">
+        <div id="sliderTrack" class="slider-track">
+          <div class="slide">
+            <h3 class="slide-title">Аналитика рынка</h3>
+            <p class="slide-text">Следи за трендом: стоимость, динамика, капитализация.</p>
+          </div>
+          <div class="slide">
+            <h3 class="slide-title">Индекс эмоций</h3>
+            <p class="slide-text">Fear & Greed помогает оценить настроение рынка.</p>
+          </div>
+          <div class="slide">
+            <h3 class="slide-title">Глубокий разбор</h3>
+            <p class="slide-text">Открывай графики в TradingView и изучай детали в CoinGecko.</p>
+          </div>
+        </div>
+        <div class="slider-nav">
+          <span class="slider-dot active"></span>
+          <span class="slider-dot"></span>
+          <span class="slider-dot"></span>
+        </div>
       </div>
     </div>
   </section>
 
-  <!-- Подвал -->
+  <!-- FAQ (для совместимости с твоим JS) -->
+  <section class="section faq-section">
+    <div class="container">
+      <div class="faq-item">
+        <div class="faq-question">
+          <span>Как работает поиск по монетам?</span>
+          <span class="faq-toggle">+</span>
+        </div>
+        <div class="faq-answer">
+          Поиск фильтрует загруженные монеты по названию и символу в реальном времени.
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-question">
+          <span>Откуда берутся данные?</span>
+          <span class="faq-toggle">+</span>
+        </div>
+        <div class="faq-answer">
+          Цены и метрики получаются с API CoinGecko, индекс эмоций — с Alternative.me.
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-question">
+          <span>Можно подключить свои графики?</span>
+          <span class="faq-toggle">+</span>
+        </div>
+        <div class="faq-answer">
+          Да. В карточках есть ссылки на TradingView и CoinGecko, можно добавить виджеты.
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ПОДВАЛ -->
   <footer class="site-footer">
     <div class="container">
       <p id="footerText" class="footer-text">© 2024 CryptoDashboard. Все права защищены.</p>
     </div>
   </footer>
 
-  <script src="script.js"></script>
+  <!-- В uCoz ты вставлял JS в нижнюю часть сайта; здесь оставляем подключение внешнего файла -->
+  <!-- <script src="/path/to/your/script.js"></script> -->
 </body>
 </html>
