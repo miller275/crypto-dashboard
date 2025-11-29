@@ -849,8 +849,7 @@
             'compound': 'https://assets.coingecko.com/coins/images/10775/small/COMP.png',
             'maker': 'https://assets.coingecko.com/coins/images/1364/small/Mark_Maker.png',
             'dai': 'https://assets.coingecko.com/coins/images/9956/small/dai-multi-collateral-mcd.png',
-            'theta-fuel': 'https://assets.coingecko.com/coins/images/8029/small/1_0YukMf0Id3DatB
-                            'theta-fuel': 'https://assets.coingecko.com/coins/images/8029/small/1_0YukMf0Id3DatB.png',
+            'theta-fuel': 'https://assets.coingecko.com/coins/images/8029/small/1_0YukMf0Id3DatB.png',
             'kusama': 'https://assets.coingecko.com/coins/images/9568/small/m4zRhP5e_400x400.png',
             'celo': 'https://assets.coingecko.com/coins/images/11090/small/icon-celo-CELO-color-500.png',
             'chiliz': 'https://assets.coingecko.com/coins/images/8834/small/CHZ_Token_updated.png',
@@ -1126,8 +1125,24 @@
 
         function renderCoinsTable(coins) {
             const tbody = document.getElementById('coinsTableBody');
-            if (!tbody) return;
+            if (!tbody) {
+                console.error('❌ Не найден элемент coinsTableBody');
+                return;
+            }
 
+            if (!coins || coins.length === 0) {
+                tbody.innerHTML = `
+                    <tr>
+                        <td colspan="8" style="text-align: center; padding: 40px; color: var(--text-secondary);">
+                            Монеты не найдены
+                        </td>
+                    </tr>
+                `;
+                return;
+            }
+
+            console.log(`📊 Рендерим ${coins.length} монет`);
+            
             const t = TRANSLATIONS[CONFIG.currentLang];
             
             tbody.innerHTML = coins.map((coin, index) => {
@@ -1233,8 +1248,16 @@
         function initApp() {
             console.log('🚀 Инициализация приложения...');
             
+            // Проверяем данные
+            if (!TEST_COINS || TEST_COINS.length === 0) {
+                console.error('❌ Нет тестовых данных');
+                return;
+            }
+            
             allCoinsCache = TEST_COINS;
             currentCoins = TEST_COINS.slice(0, CONFIG.coinsPerPage);
+            
+            console.log(`✅ Загружено ${TEST_COINS.length} монет`);
             
             renderCoinsTable(currentCoins);
             initSearch();
@@ -1244,7 +1267,6 @@
             if (indicator) indicator.style.left = '75%';
             
             console.log('✅ Приложение успешно запущено!');
-            console.log(`📊 Загружено ${TEST_COINS.length} монет`);
         }
 
         // Запуск приложения
