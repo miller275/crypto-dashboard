@@ -1,3 +1,5 @@
+body { background: yellow; }
+
 /* ===== Сброс ===== */
 * {
   margin: 0;
@@ -343,3 +345,4 @@ input:checked + .theme-slider:before {
 .footer-text {
   color: var(--text-secondary);
 }
+
