@@ -749,12 +749,10 @@
     <script>
         // ===== КОНФИГУРАЦИЯ =====
         const CONFIG = {
-            coinsPerPage: 50,
+            coinsPerPage: 100,
             currentPage: 1,
             currentLang: 'ru',
-            currentTheme: 'dark',
-            currentSort: 'market_cap_rank',
-            sortDirection: 'asc'
+            currentTheme: 'dark'
         };
 
         // ===== ДАННЫЕ =====
@@ -785,8 +783,98 @@
             }
         };
 
-        // ===== ТЕСТОВЫЕ ДАННЫЕ (50 МОНЕТ) =====
+        // ===== БАЗА ДАННЫХ ИКОНОК МОНЕТ =====
+        const COIN_IMAGES = {
+            'bitcoin': 'https://assets.coingecko.com/coins/images/1/small/bitcoin.png',
+            'ethereum': 'https://assets.coingecko.com/coins/images/279/small/ethereum.png',
+            'tether': 'https://assets.coingecko.com/coins/images/325/small/Tether.png',
+            'bnb': 'https://assets.coingecko.com/coins/images/825/small/bnb-icon2_2x.png',
+            'solana': 'https://assets.coingecko.com/coins/images/4128/small/solana.png',
+            'ripple': 'https://assets.coingecko.com/coins/images/44/small/xrp-symbol-white-128.png',
+            'cardano': 'https://assets.coingecko.com/coins/images/975/small/cardano.png',
+            'dogecoin': 'https://assets.coingecko.com/coins/images/5/small/dogecoin.png',
+            'avalanche': 'https://assets.coingecko.com/coins/images/12559/small/coin-round-red.png',
+            'polkadot': 'https://assets.coingecko.com/coins/images/12171/small/polkadot.png',
+            'chainlink': 'https://assets.coingecko.com/coins/images/877/small/chainlink-new-logo.png',
+            'polygon': 'https://assets.coingecko.com/coins/images/4713/small/matic-token-icon.png',
+            'litecoin': 'https://assets.coingecko.com/coins/images/2/small/litecoin.png',
+            'uniswap': 'https://assets.coingecko.com/coins/images/12504/small/uniswap-uni.png',
+            'shiba-inu': 'https://assets.coingecko.com/coins/images/11939/small/shiba.png',
+            'bitcoin-cash': 'https://assets.coingecko.com/coins/images/780/small/bitcoin-cash-circle.png',
+            'stellar': 'https://assets.coingecko.com/coins/images/100/small/Stellar_symbol_black_RGB.png',
+            'monero': 'https://assets.coingecko.com/coins/images/69/small/monero_logo.png',
+            'ethereum-classic': 'https://assets.coingecko.com/coins/images/453/small/ethereum-classic-logo.png',
+            'algorand': 'https://assets.coingecko.com/coins/images/4380/small/algorand-algo.png',
+            'filecoin': 'https://assets.coingecko.com/coins/images/12817/small/filecoin.png',
+            'vechain': 'https://assets.coingecko.com/coins/images/1167/small/VeChain-Logo-768x725.png',
+            'internet-computer': 'https://assets.coingecko.com/coins/images/14495/small/Internet_Computer_logo.png',
+            'theta-network': 'https://assets.coingecko.com/coins/images/2538/small/theta-token-logo.png',
+            'aave': 'https://assets.coingecko.com/coins/images/12645/small/AAVE.png',
+            'cosmos': 'https://assets.coingecko.com/coins/images/1481/small/cosmos_hub.png',
+            'tezos': 'https://assets.coingecko.com/coins/images/976/small/Tezos-logo.png',
+            'eos': 'https://assets.coingecko.com/coins/images/738/small/eos-eos-logo.png',
+            'neo': 'https://assets.coingecko.com/coins/images/480/small/NEO_512_512.png',
+            'dash': 'https://assets.coingecko.com/coins/images/19/small/dash-logo.png',
+            'zcash': 'https://assets.coingecko.com/coins/images/486/small/circle-zcash-color.png',
+            'decred': 'https://assets.coingecko.com/coins/images/329/small/decred.png',
+            'basic-attention-token': 'https://assets.coingecko.com/coins/images/677/small/basic-attention-token.png',
+            '0x': 'https://assets.coingecko.com/coins/images/863/small/0x.png',
+            'augur': 'https://assets.coingecko.com/coins/images/309/small/reputation.png',
+            'golem': 'https://assets.coingecko.com/coins/images/542/small/Golem_Submark_Positive_RGB.png',
+            'status': 'https://assets.coingecko.com/coins/images/779/small/status.png',
+            'loopring': 'https://assets.coingecko.com/coins/images/913/small/LRC.png',
+            'kyber-network': 'https://assets.coingecko.com/coins/images/947/small/kyber-logo.png',
+            'bancor': 'https://assets.coingecko.com/coins/images/736/small/bancor.png',
+            'civic': 'https://assets.coingecko.com/coins/images/788/small/civic.png',
+            'district0x': 'https://assets.coingecko.com/coins/images/849/small/district0x.png',
+            'funfair': 'https://assets.coingecko.com/coins/images/761/small/funfair.png',
+            'salt': 'https://assets.coingecko.com/coins/images/962/small/salt.png',
+            'power-ledger': 'https://assets.coingecko.com/coins/images/1104/small/power-ledger.png',
+            'request-network': 'https://assets.coingecko.com/coins/images/1031/small/Request_icon_green.png',
+            'iconomi': 'https://assets.coingecko.com/coins/images/683/small/iconomi.png',
+            'singulardtv': 'https://assets.coingecko.com/coins/images/521/small/singulardtv.png',
+            'firstblood': 'https://assets.coingecko.com/coins/images/522/small/firstblood.png',
+            'melon': 'https://assets.coingecko.com/coins/images/605/small/melon.png',
+            'tron': 'https://assets.coingecko.com/coins/images/1094/small/tron-logo.png',
+            'waves': 'https://assets.coingecko.com/coins/images/425/small/waves.png',
+            'ontology': 'https://assets.coingecko.com/coins/images/3447/small/ont.png',
+            'icon': 'https://assets.coingecko.com/coins/images/1060/small/icon.png',
+            'zilliqa': 'https://assets.coingecko.com/coins/images/2687/small/Zilliqa-logo.png',
+            'qtum': 'https://assets.coingecko.com/coins/images/684/small/Qtum_Logo_blue_CeX.png',
+            'bytecoin': 'https://assets.coingecko.com/coins/images/92/small/bytecoin.png',
+            'siacoin': 'https://assets.coingecko.com/coins/images/289/small/siacoin.png',
+            'digibyte': 'https://assets.coingecko.com/coins/images/63/small/digibyte.png',
+            'decentraland': 'https://assets.coingecko.com/coins/images/878/small/decentraland-mana.png',
+            'matic-network': 'https://assets.coingecko.com/coins/images/4713/small/matic-token-icon.png',
+            'compound': 'https://assets.coingecko.com/coins/images/10775/small/COMP.png',
+            'maker': 'https://assets.coingecko.com/coins/images/1364/small/Mark_Maker.png',
+            'dai': 'https://assets.coingecko.com/coins/images/9956/small/dai-multi-collateral-mcd.png',
+            'theta-fuel': 'https://assets.coingecko.com/coins/images/8029/small/1_0YukMf0Id3DatB
+                            'theta-fuel': 'https://assets.coingecko.com/coins/images/8029/small/1_0YukMf0Id3DatB.png',
+            'kusama': 'https://assets.coingecko.com/coins/images/9568/small/m4zRhP5e_400x400.png',
+            'celo': 'https://assets.coingecko.com/coins/images/11090/small/icon-celo-CELO-color-500.png',
+            'chiliz': 'https://assets.coingecko.com/coins/images/8834/small/CHZ_Token_updated.png',
+            'enjincoin': 'https://assets.coingecko.com/coins/images/1102/small/enjin-coin-logo.png',
+            'holotoken': 'https://assets.coingecko.com/coins/images/3348/small/Holologo_Profile.png',
+            'bittorrent': 'https://assets.coingecko.com/coins/images/7595/small/BTT_Token_Graphic.png',
+            'hedera-hashgraph': 'https://assets.coingecko.com/coins/images/3688/small/hbar.png',
+            'elrond-egld': 'https://assets.coingecko.com/coins/images/12335/small/elrond3_360.png',
+            'the-sandbox': 'https://assets.coingecko.com/coins/images/12129/small/sandbox_logo.jpg',
+            'dexe': 'https://assets.coingecko.com/coins/images/12754/small/DEXE_token.png',
+            'uma': 'https://assets.coingecko.com/coins/images/10951/small/UMA.png',
+            'sushi': 'https://assets.coingecko.com/coins/images/12271/small/512x512_Logo_no_chop.png',
+            'serum': 'https://assets.coingecko.com/coins/images/11970/small/serum-logo.png',
+            'ren': 'https://assets.coingecko.com/coins/images/3139/small/REN.png',
+            'balancer': 'https://assets.coingecko.com/coins/images/11683/small/Balancer.png',
+            'curve-dao-token': 'https://assets.coingecko.com/coins/images/12124/small/Curve.png',
+            'yearn-finance': 'https://assets.coingecko.com/coins/images/11849/small/yfi-192x192.png',
+            'synthetix-network-token': 'https://assets.coingecko.com/coins/images/3406/small/SNX.png',
+            'havven': 'https://assets.coingecko.com/coins/images/3406/small/SNX.png'
+        };
+
+        // ===== ТЕСТОВЫЕ ДАННЫЕ (100+ МОНЕТ) =====
         const TEST_COINS = [
+            // Топ 20 монет
             createCoin(1, "Bitcoin", "BTC", 58728.42, 2.5, 1150000000000, 28500000000),
             createCoin(2, "Ethereum", "ETH", 2935.51, -1.2, 352000000000, 15200000000),
             createCoin(3, "Tether", "USDT", 1.00, 0.0, 95600000000, 45200000000),
@@ -807,6 +895,8 @@
             createCoin(18, "Monero", "XMR", 166.78, -0.4, 3000000000, 45000000),
             createCoin(19, "Ethereum Classic", "ETC", 23.45, 1.8, 3400000000, 120000000),
             createCoin(20, "Algorand", "ALGO", 0.18, -2.3, 1400000000, 35000000),
+
+            // Дополнительные популярные монеты
             createCoin(21, "Filecoin", "FIL", 4.56, 3.2, 2200000000, 95000000),
             createCoin(22, "VeChain", "VET", 0.028, 1.1, 2000000000, 65000000),
             createCoin(23, "Internet Computer", "ICP", 12.34, -3.4, 5600000000, 45000000),
@@ -827,6 +917,8 @@
             createCoin(38, "Loopring", "LRC", 0.25, 3.5, 340000000, 45000000),
             createCoin(39, "Kyber Network", "KNC", 0.67, -0.8, 120000000, 25000000),
             createCoin(40, "Bancor", "BNT", 0.45, 1.9, 63000000, 18000000),
+
+            // Еще больше монет
             createCoin(41, "Civic", "CVC", 0.12, -2.7, 48000000, 9500000),
             createCoin(42, "District0x", "DNT", 0.023, 4.1, 23000000, 4500000),
             createCoin(43, "FunFair", "FUN", 0.0045, -1.8, 45000000, 12000000),
@@ -836,35 +928,107 @@
             createCoin(47, "Iconomi", "ICN", 0.45, 1.2, 45000000, 1200000),
             createCoin(48, "SingularDTV", "SNGLS", 0.023, -3.1, 23000000, 850000),
             createCoin(49, "FirstBlood", "1ST", 0.067, 0.7, 12000000, 450000),
-            createCoin(50, "Melon", "MLN", 18.90, -2.4, 78000000, 2500000)
+            createCoin(50, "Melon", "MLN", 18.90, -2.4, 78000000, 2500000),
+
+            // Новые популярные монеты
+            createCoin(51, "Tron", "TRX", 0.105, 1.2, 9500000000, 350000000),
+            createCoin(52, "Waves", "WAVES", 2.34, -1.5, 2300000000, 85000000),
+            createCoin(53, "Ontology", "ONT", 0.28, 0.8, 250000000, 15000000),
+            createCoin(54, "Icon", "ICX", 0.23, -0.7, 220000000, 12000000),
+            createCoin(55, "Zilliqa", "ZIL", 0.021, 2.1, 370000000, 25000000),
+            createCoin(56, "Qtum", "QTUM", 3.45, -1.8, 360000000, 18000000),
+            createCoin(57, "Bytecoin", "BCN", 0.00012, 3.5, 220000000, 4500000),
+            createCoin(58, "Siacoin", "SC", 0.0045, -2.3, 250000000, 8500000),
+            createCoin(59, "DigiByte", "DGB", 0.012, 1.7, 200000000, 12000000),
+            createCoin(60, "Decentraland", "MANA", 0.45, 4.2, 830000000, 150000000),
+
+            // DeFi монеты
+            createCoin(61, "Compound", "COMP", 58.90, -2.1, 450000000, 35000000),
+            createCoin(62, "Maker", "MKR", 1250.67, 1.8, 1200000000, 45000000),
+            createCoin(63, "Dai", "DAI", 1.00, 0.0, 8900000000, 280000000),
+            createCoin(64, "Theta Fuel", "TFUEL", 0.067, 3.2, 450000000, 25000000),
+            createCoin(65, "Kusama", "KSM", 32.45, -1.4, 280000000, 18000000),
+            createCoin(66, "Celo", "CELO", 0.78, 2.3, 390000000, 22000000),
+            createCoin(67, "Chiliz", "CHZ", 0.098, -0.8, 870000000, 45000000),
+            createCoin(68, "Enjin Coin", "ENJ", 0.34, 1.9, 340000000, 25000000),
+            createCoin(69, "Holo", "HOT", 0.0012, 4.5, 210000000, 15000000),
+            createCoin(70, "BitTorrent", "BTT", 0.000001, -2.7, 950000000, 28000000),
+
+            // Дополнительные
+            createCoin(71, "Hedera Hashgraph", "HBAR", 0.078, 0.9, 2200000000, 45000000),
+            createCoin(72, "Elrond", "EGLD", 45.67, -1.2, 1200000000, 35000000),
+            createCoin(73, "The Sandbox", "SAND", 0.45, 3.4, 830000000, 120000000),
+            createCoin(74, "DeXe", "DEXE", 8.90, -2.1, 340000000, 8500000),
+            createCoin(75, "UMA", "UMA", 4.56, 1.7, 360000000, 22000000),
+            createCoin(76, "Sushi", "SUSHI", 1.23, -0.8, 230000000, 45000000),
+            createCoin(77, "Serum", "SRM", 0.45, 2.3, 110000000, 15000000),
+            createCoin(78, "Ren", "REN", 0.12, -1.5, 120000000, 8500000),
+            createCoin(79, "Balancer", "BAL", 3.45, 0.7, 180000000, 12000000),
+            createCoin(80, "Curve DAO Token", "CRV", 0.67, -2.4, 710000000, 45000000),
+
+            // И еще
+            createCoin(81, "Yearn Finance", "YFI", 7856.78, 1.9, 260000000, 45000000),
+            createCoin(82, "Synthetix", "SNX", 2.34, -1.2, 730000000, 35000000),
+            createCoin(83, "Harmony", "ONE", 0.023, 2.8, 290000000, 18000000),
+            createCoin(84, "IOST", "IOST", 0.012, -0.9, 230000000, 12000000),
+            createCoin(85, "WAX", "WAXP", 0.067, 1.4, 180000000, 8500000),
+            createCoin(86, "Arweave", "AR", 12.34, 3.1, 820000000, 25000000),
+            createCoin(87, "Bancor", "BNT", 0.45, -1.8, 120000000, 8500000),
+            createCoin(88, "Reserve Rights", "RSR", 0.0056, 4.2, 280000000, 15000000),
+            createCoin(89, "Celsius", "CEL", 0.78, -2.3, 180000000, 12000000),
+            createCoin(90, "Nexo", "NEXO", 0.89, 1.7, 500000000, 18000000),
+
+            // Последние
+            createCoin(91, "SwissBorg", "CHSB", 0.12, -0.5, 120000000, 8500000),
+            createCoin(92, "Ankr", "ANKR", 0.034, 2.1, 340000000, 22000000),
+            createCoin(93, "Origin Protocol", "OGN", 0.23, -1.8, 120000000, 8500000),
+            createCoin(94, "Numeraire", "NMR", 23.45, 3.4, 160000000, 12000000),
+            createCoin(95, "API3", "API3", 2.34, -2.1, 200000000, 15000000),
+            createCoin(96, "Keep Network", "KEEP", 0.12, 1.7, 120000000, 8500000),
+            createCoin(97, "Mirror Protocol", "MIR", 1.23, -0.8, 83000000, 4500000),
+            createCoin(98, "Badger DAO", "BADGER", 8.90, 2.3, 180000000, 12000000),
+            createCoin(99, "Alchemix", "ALCX", 45.67, -1.4, 90000000, 8500000),
+            createCoin(100, "Convex Finance", "CVX", 3.45, 0.9, 340000000, 22000000)
         ];
 
         function createCoin(rank, name, symbol, price, change24h, marketCap, volume) {
+            const coinId = name.toLowerCase().replace(/\s+/g, '-');
+            const imageUrl = COIN_IMAGES[coinId] || `https://via.placeholder.com/32/2962ff/ffffff?text=${symbol.substring(0, 3)}`;
+            
             return {
-                id: symbol.toLowerCase(),
+                id: coinId,
                 name: name,
                 symbol: symbol,
-                image: `https://assets.coingecko.com/coins/images/1/small/bitcoin.png`,
+                image: imageUrl,
                 current_price: price,
                 price_change_percentage_24h: change24h,
                 market_cap: marketCap,
                 total_volume: volume,
                 market_cap_rank: rank,
                 sparkline_in_7d: {
-                    price: generateMockSparklineData(price, change24h, 20)
+                    price: generateMockSparklineData(price, change24h, 25)
                 }
             };
         }
 
         // ===== ФУНКЦИИ ДЛЯ ГРАФИКОВ =====
-        function generateMockSparklineData(currentPrice, changePercent, points = 20) {
-            const data = [currentPrice];
+        function generateMockSparklineData(currentPrice, changePercent, points = 25) {
+            const data = [];
             let lastPrice = currentPrice;
-            const volatility = Math.abs(changePercent) / 100 * 2;
+            const volatility = Math.abs(changePercent) / 100 * 3;
+            const trend = changePercent >= 0 ? 1 : -1;
             
-            for (let i = 1; i < points; i++) {
-                const randomChange = (Math.random() - 0.5) * volatility * currentPrice;
-                lastPrice = Math.max(lastPrice + randomChange, currentPrice * 0.8);
+            // Начинаем с более старой цены и идем к текущей
+            let startingPrice = currentPrice * (1 - (trend * volatility * 0.5));
+            
+            for (let i = 0; i < points; i++) {
+                const progress = i / (points - 1);
+                const trendEffect = trend * volatility * currentPrice * progress;
+                const randomEffect = (Math.random() - 0.5) * volatility * currentPrice * 0.3;
+                
+                lastPrice = startingPrice + trendEffect + randomEffect;
+                // Гарантируем, что цена не уйдет в отрицательные значения
+                lastPrice = Math.max(lastPrice, currentPrice * 0.1);
                 data.push(lastPrice);
             }
             
@@ -872,26 +1036,66 @@
         }
 
         function createSparklineChart(canvasId, data, isPositive) {
-            const ctx = document.getElementById(canvasId).getContext('2d');
+            const canvas = document.getElementById(canvasId);
+            if (!canvas) return null;
+            
+            const ctx = canvas.getContext('2d');
+            
+            // Очищаем предыдущий график
+            const existingChart = Chart.getChart(canvasId);
+            if (existingChart) {
+                existingChart.destroy();
+            }
+
             return new Chart(ctx, {
                 type: 'line',
                 data: {
-                    labels: data.map((_, i) => i),
+                    labels: data.map((_, i) => ''),
                     datasets: [{
                         data: data,
                         borderColor: isPositive ? '#00c853' : '#ff1744',
                         backgroundColor: 'transparent',
-                        borderWidth: 1.5,
+                        borderWidth: 2,
                         fill: false,
                         tension: 0.4,
-                        pointRadius: 0
+                        pointRadius: 0,
+                        pointHoverRadius: 0
                     }]
                 },
                 options: {
                     responsive: true,
                     maintainAspectRatio: false,
-                    plugins: { legend: { display: false }, tooltip: { enabled: false } },
-                    scales: { x: { display: false }, y: { display: false } }
+                    plugins: {
+                        legend: {
+                            display: false
+                        },
+                        tooltip: {
+                            enabled: false
+                        }
+                    },
+                    scales: {
+                        x: {
+                            display: false,
+                            grid: {
+                                display: false
+                            }
+                        },
+                        y: {
+                            display: false,
+                            grid: {
+                                display: false
+                            }
+                        }
+                    },
+                    elements: {
+                        line: {
+                            borderWidth: 2
+                        }
+                    },
+                    interaction: {
+                        intersect: false,
+                        mode: 'index'
+                    }
                 }
             });
         }
@@ -930,14 +1134,15 @@
                 const change = coin.price_change_percentage_24h || 0;
                 const changeClass = change >= 0 ? 'change-positive' : 'change-negative';
                 const changeSymbol = change >= 0 ? '+' : '';
-                const chartId = `chart-${coin.id}-${Date.now()}`;
+                // Уникальный ID для каждого графика
+                const chartId = `chart-${coin.id}-${index}-${Date.now()}`;
 
                 return `
                     <tr>
                         <td class="coin-rank">${coin.market_cap_rank}</td>
                         <td>
                             <div class="coin-info">
-                                <img src="${coin.image}" alt="${coin.name}" class="coin-icon" onerror="this.src='https://via.placeholder.com/32/2962ff/ffffff?text=?'">
+                                <img src="${coin.image}" alt="${coin.name}" class="coin-icon" onerror="this.src='https://via.placeholder.com/32/2962ff/ffffff?text=${coin.symbol.substring(0, 3)}'">
                                 <div class="coin-name-symbol">
                                     <div class="coin-name">${coin.name}</div>
                                     <div class="coin-symbol">${coin.symbol.toUpperCase()}</div>
@@ -965,12 +1170,12 @@
                 `;
             }).join('');
 
-            // Создаем графики
+            // Создаем графики после рендеринга таблицы
             setTimeout(() => {
                 coins.forEach((coin, index) => {
                     const change = coin.price_change_percentage_24h || 0;
                     const chartData = coin.sparkline_in_7d ? coin.sparkline_in_7d.price : [];
-                    const chartId = `chart-${coin.id}-${Date.now()}`;
+                    const chartId = `chart-${coin.id}-${index}-${Date.now()}`;
                     
                     if (chartData.length > 0) {
                         createSparklineChart(chartId, chartData, change >= 0);
@@ -985,13 +1190,13 @@
             }
             
             if (!query) {
-                currentCoins = allCoinsCache;
+                currentCoins = allCoinsCache.slice(0, CONFIG.coinsPerPage);
             } else {
                 const searchTerm = query.toLowerCase();
                 currentCoins = allCoinsCache.filter(coin => 
                     coin.name.toLowerCase().includes(searchTerm) ||
                     coin.symbol.toLowerCase().includes(searchTerm)
-                );
+                ).slice(0, CONFIG.coinsPerPage);
             }
             
             renderCoinsTable(currentCoins);
@@ -1029,7 +1234,7 @@
             console.log('🚀 Инициализация приложения...');
             
             allCoinsCache = TEST_COINS;
-            currentCoins = TEST_COINS;
+            currentCoins = TEST_COINS.slice(0, CONFIG.coinsPerPage);
             
             renderCoinsTable(currentCoins);
             initSearch();
@@ -1039,6 +1244,7 @@
             if (indicator) indicator.style.left = '75%';
             
             console.log('✅ Приложение успешно запущено!');
+            console.log(`📊 Загружено ${TEST_COINS.length} монет`);
         }
 
         // Запуск приложения
