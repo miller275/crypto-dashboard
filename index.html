@@ -82,6 +82,7 @@
       display: inline-flex; align-items: center; gap: 8px;
       background: var(--table-even); border: 1px solid var(--border);
       padding: 8px 12px; border-radius: 10px;
+      position: relative;
     }
     .control input[type="text"] {
       background: transparent; border: none; outline: none; color: var(--text);
@@ -219,6 +220,49 @@
       border: none; color: white; font-weight: 700;
     }
 
+    /* Search dropdown */
+    .search-results {
+      position: absolute;
+      top: 100%;
+      left: 0;
+      right: 0;
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-top: none;
+      border-radius: 0 0 10px 10px;
+      max-height: 300px;
+      overflow-y: auto;
+      z-index: 100;
+      display: none;
+      box-shadow: var(--shadow);
+    }
+    .search-result-item {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      padding: 10px;
+      cursor: pointer;
+      border-bottom: 1px solid var(--border);
+    }
+    .search-result-item:hover {
+      background: rgba(76,201,240,0.08);
+    }
+    .search-result-item:last-child {
+      border-bottom: none;
+    }
+    .search-result-item img {
+      width: 20px;
+      height: 20px;
+      border-radius: 10px;
+    }
+    .search-result-item .coin-name {
+      font-weight: 700;
+    }
+    .search-result-item .coin-symbol {
+      color: var(--muted);
+      font-size: 12px;
+    }
+
     /* Responsive */
     @media (max-width: 900px) {
       .stats { grid-template-columns: repeat(2, 1fr); }
@@ -239,14 +283,15 @@
   <div class="nav">
     <div class="brand">
       <div class="logo" aria-hidden="true"></div>
-      <h1>Crypto Hub</h1>
-      <span class="badge">Independent</span>
+      <h1 id="brandTitle">Crypto Hub</h1>
+      <span class="badge" id="langBadge">RU</span>
     </div>
 
     <div class="controls">
-      <div class="control" title="Поиск по названию/тикеру">
+      <div class="control" title="Поиск по названию/тикеру" id="searchContainer">
         <svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M21 21l-4.35-4.35M10.5 18a7.5 7.5 0 1 1 0-15 7.5 7.5 0 0 1 0 15Z" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
         <input id="search" type="text" placeholder="Поиск монет..." />
+        <div class="search-results" id="searchResults"></div>
       </div>
 
       <div class="control" title="Сортировка">
@@ -272,6 +317,14 @@
         <span>Показывать избранное</span>
         <input id="favOnly" type="checkbox"/>
       </div>
+
+      <div class="control" title="Язык">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20ZM2 12h4M18 12h4M4.9 4.9l2.8 2.8M16.3 16.3l2.8 2.8M4.9 19.1l2.8-2.8M16.3 7.7l2.8-2.8" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+        <select id="language">
+          <option value="ru">Русский</option>
+          <option value="en">English</option>
+        </select>
+      </div>
     </div>
 
     <div class="links">
@@ -283,19 +336,19 @@
 
   <div class="stats" id="globalStats">
     <div class="stat">
-      <div class="label">Рынок</div>
+      <div class="label" id="statDominanceLabel">Рынок</div>
       <div class="value" id="statDominance">BTC доминирование</div>
     </div>
     <div class="stat">
-      <div class="label">Капитализация</div>
+      <div class="label" id="statMarketCapLabel">Капитализация</div>
       <div class="value" id="statMarketCap">—</div>
     </div>
     <div class="stat">
-      <div class="label">24ч объём</div>
+      <div class="label" id="statVolumeLabel">24ч объём</div>
       <div class="value" id="statVolume">—</div>
     </div>
     <div class="stat">
-      <div class="label">Монет</div>
+      <div class="label" id="statCountLabel">Монет</div>
       <div class="value" id="statCount">—</div>
     </div>
   </div>
@@ -307,14 +360,14 @@
       <thead>
         <tr>
           <th data-key="rank">#</th>
-          <th>Монета</th>
-          <th data-key="price">Цена</th>
-          <th data-key="change">24ч</th>
-          <th data-key="market_cap">Капитализация</th>
-          <th data-key="volume">Объём 24ч</th>
-          <th>Спарк</th>
-          <th>Бирки</th>
-          <th>Избр.</th>
+          <th id="coinHeader">Монета</th>
+          <th data-key="price" id="priceHeader">Цена</th>
+          <th data-key="change" id="changeHeader">24ч</th>
+          <th data-key="market_cap" id="marketCapHeader">Капитализация</th>
+          <th data-key="volume" id="volumeHeader">Объём 24ч</th>
+          <th id="sparkHeader">Спарк</th>
+          <th id="badgesHeader">Бирки</th>
+          <th id="favHeader">Избр.</th>
         </tr>
       </thead>
       <tbody id="coinsBody">
@@ -329,7 +382,7 @@
         <button id="nextPage">Вперёд</button>
       </div>
       <div class="page-size">
-        <span class="badge">На странице</span>
+        <span class="badge" id="pageSizeLabel">На странице</span>
         <select id="pageSize">
           <option>25</option>
           <option selected>50</option>
@@ -353,12 +406,12 @@
     </div>
     <div class="modal-content">
       <div class="kv">
-        <div class="item"><div class="label">Цена</div><div class="value" id="mPrice">—</div></div>
-        <div class="item"><div class="label">24ч изм.</div><div class="value" id="mChange">—</div></div>
-        <div class="item"><div class="label">Капа</div><div class="value" id="mCap">—</div></div>
-        <div class="item"><div class="label">Объём 24ч</div><div class="value" id="mVol">—</div></div>
-        <div class="item"><div class="label">Поставка</div><div class="value" id="mSupply">—</div></div>
-        <div class="item"><div class="label">Ранг</div><div class="value" id="mRank">—</div></div>
+        <div class="item"><div class="label" id="mPriceLabel">Цена</div><div class="value" id="mPrice">—</div></div>
+        <div class="item"><div class="label" id="mChangeLabel">24ч изм.</div><div class="value" id="mChange">—</div></div>
+        <div class="item"><div class="label" id="mCapLabel">Капа</div><div class="value" id="mCap">—</div></div>
+        <div class="item"><div class="label" id="mVolLabel">Объём 24ч</div><div class="value" id="mVol">—</div></div>
+        <div class="item"><div class="label" id="mSupplyLabel">Поставка</div><div class="value" id="mSupply">—</div></div>
+        <div class="item"><div class="label" id="mRankLabel">Ранг</div><div class="value" id="mRank">—</div></div>
       </div>
 
       <div class="modal-section">
@@ -366,12 +419,12 @@
       </div>
 
       <div class="modal-section">
-        <h4 style="margin-top:0">Описание</h4>
+        <h4 style="margin-top:0" id="descriptionHeader">Описание</h4>
         <div id="mDescription" style="color:var(--muted); line-height:1.5">—</div>
       </div>
 
       <div class="modal-section">
-        <h4 style="margin-top:0">Ссылки</h4>
+        <h4 style="margin-top:0" id="linksHeader">Ссылки</h4>
         <div id="mLinks" style="display:flex; gap:10px; flex-wrap:wrap"></div>
       </div>
     </div>
@@ -387,9 +440,9 @@
 
 <footer class="container" style="margin-bottom:40px">
   <section class="panel" style="padding:14px">
-    <h3 style="margin-top:0">О проекте</h3>
-    <p>Независимый хаб в стиле CoinGecko. Данные — реальный API CoinGecko, графики — TradingView. Никаких сборок, только чистый HTML/CSS/JS. Готов к размещению на GitHub Pages, Netlify или любом хостинге.</p>
-    <p>Советы: не обновляйте слишком часто, уважайте лимиты API. Избранное и тема — сохраняются в LocalStorage. В модалке — расширенные детали и график с автоподбором тикера.</p>
+    <h3 style="margin-top:0" id="aboutHeader">О проекте</h3>
+    <p id="aboutText1">Независимый хаб в стиле CoinGecko. Данные — реальный API CoinGecko, графики — TradingView. Никаких сборок, только чистый HTML/CSS/JS. Готов к размещению на GitHub Pages, Netlify или любом хостинге.</p>
+    <p id="aboutText2">Советы: не обновляйте слишком часто, уважайте лимиты API. Избранное и тема — сохраняются в LocalStorage. В модалке — расширенные детали и график с автоподбором тикера.</p>
   </section>
 </footer>
 
@@ -411,11 +464,132 @@
     lastUpdate: null,
     global: null,
     modal: { id: null, symbol: null, tvTheme: 'dark' },
+    language: localStorage.getItem('language') || 'ru',
+  };
+
+  // Language texts
+  const texts = {
+    ru: {
+      brandTitle: 'Crypto Hub',
+      searchPlaceholder: 'Поиск монет...',
+      sortOptions: [
+        {value: 'market_cap_desc', text: 'Рыночная капа ↓'},
+        {value: 'market_cap_asc', text: 'Рыночная капа ↑'},
+        {value: 'volume_desc', text: 'Объём ↓'},
+        {value: 'volume_asc', text: 'Объём ↑'},
+        {value: 'price_desc', text: 'Цена ↓'},
+        {value: 'price_asc', text: 'Цена ↑'},
+        {value: 'change_desc', text: 'Изм. 24ч ↓'},
+        {value: 'change_asc', text: 'Изм. 24ч ↑'}
+      ],
+      toggleTheme: 'Сменить тему',
+      showFavorites: 'Показывать избранное',
+      coinHeader: 'Монета',
+      priceHeader: 'Цена',
+      changeHeader: '24ч',
+      marketCapHeader: 'Капитализация',
+      volumeHeader: 'Объём 24ч',
+      sparkHeader: 'Спарк',
+      badgesHeader: 'Бирки',
+      favHeader: 'Избр.',
+      prevPage: 'Назад',
+      nextPage: 'Вперёд',
+      pageSizeLabel: 'На странице',
+      refreshBtn: 'Обновить',
+      statDominanceLabel: 'Рынок',
+      statMarketCapLabel: 'Капитализация',
+      statVolumeLabel: '24ч объём',
+      statCountLabel: 'Монет',
+      mPriceLabel: 'Цена',
+      mChangeLabel: '24ч изм.',
+      mCapLabel: 'Капа',
+      mVolLabel: 'Объём 24ч',
+      mSupplyLabel: 'Поставка',
+      mRankLabel: 'Ранг',
+      descriptionHeader: 'Описание',
+      linksHeader: 'Ссылки',
+      modalFavToggle: 'В избранное',
+      openOnCG: 'Открыть на CoinGecko',
+      copySymbol: 'Скопировать тикер',
+      modalTheme: 'Тёмная тема графика',
+      modalRefresh: 'Обновить данные',
+      closeModal: 'Закрыть',
+      aboutHeader: 'О проекте',
+      aboutText1: 'Независимый хаб в стиле CoinGecko. Данные — реальный API CoinGecko, графики — TradingView. Никаких сборок, только чистый HTML/CSS/JS. Готов к размещению на GitHub Pages, Netlify или любом хостинге.',
+      aboutText2: 'Советы: не обновляйте слишком часто, уважайте лимиты API. Избранное и тема — сохраняются в LocalStorage. В модалке — расширенные детали и график с автоподбором тикера.',
+      noResults: 'Ничего не найдено',
+      favoritesOnly: 'Только избранные',
+      removeFromFavorites: 'Убрать из избранного',
+      addToFavorites: 'В избранное',
+      copied: 'Скопировано',
+      copyTicker: 'Скопировать тикер',
+      darkChartTheme: 'Тёмная тема графика',
+      lightChartTheme: 'Светлая тема графика'
+    },
+    en: {
+      brandTitle: 'Crypto Hub',
+      searchPlaceholder: 'Search coins...',
+      sortOptions: [
+        {value: 'market_cap_desc', text: 'Market Cap ↓'},
+        {value: 'market_cap_asc', text: 'Market Cap ↑'},
+        {value: 'volume_desc', text: 'Volume ↓'},
+        {value: 'volume_asc', text: 'Volume ↑'},
+        {value: 'price_desc', text: 'Price ↓'},
+        {value: 'price_asc', text: 'Price ↑'},
+        {value: 'change_desc', text: '24h Change ↓'},
+        {value: 'change_asc', text: '24h Change ↑'}
+      ],
+      toggleTheme: 'Toggle Theme',
+      showFavorites: 'Show Favorites',
+      coinHeader: 'Coin',
+      priceHeader: 'Price',
+      changeHeader: '24h',
+      marketCapHeader: 'Market Cap',
+      volumeHeader: '24h Volume',
+      sparkHeader: 'Spark',
+      badgesHeader: 'Badges',
+      favHeader: 'Fav',
+      prevPage: 'Previous',
+      nextPage: 'Next',
+      pageSizeLabel: 'Per Page',
+      refreshBtn: 'Refresh',
+      statDominanceLabel: 'Market',
+      statMarketCapLabel: 'Market Cap',
+      statVolumeLabel: '24h Volume',
+      statCountLabel: 'Coins',
+      mPriceLabel: 'Price',
+      mChangeLabel: '24h Change',
+      mCapLabel: 'Cap',
+      mVolLabel: '24h Volume',
+      mSupplyLabel: 'Supply',
+      mRankLabel: 'Rank',
+      descriptionHeader: 'Description',
+      linksHeader: 'Links',
+      modalFavToggle: 'Add to Favorites',
+      openOnCG: 'Open on CoinGecko',
+      copySymbol: 'Copy Symbol',
+      modalTheme: 'Dark Chart Theme',
+      modalRefresh: 'Refresh Data',
+      closeModal: 'Close',
+      aboutHeader: 'About',
+      aboutText1: 'Independent hub in CoinGecko style. Data - real CoinGecko API, charts - TradingView. No builds, just pure HTML/CSS/JS. Ready for deployment on GitHub Pages, Netlify or any hosting.',
+      aboutText2: 'Tips: do not update too often, respect API limits. Favorites and theme are saved in LocalStorage. In the modal - extended details and a chart with automatic ticker selection.',
+      noResults: 'No results found',
+      favoritesOnly: 'Favorites only',
+      removeFromFavorites: 'Remove from Favorites',
+      addToFavorites: 'Add to Favorites',
+      copied: 'Copied',
+      copyTicker: 'Copy Ticker',
+      darkChartTheme: 'Dark Chart Theme',
+      lightChartTheme: 'Light Chart Theme'
+    }
   };
 
   const dom = {
     body: document.body,
     search: document.getElementById('search'),
+    searchContainer: document.getElementById('searchContainer'),
+    searchResults: document.getElementById('searchResults'),
     sort: document.getElementById('sort'),
     favOnly: document.getElementById('favOnly'),
     pageSize: document.getElementById('pageSize'),
@@ -429,6 +603,10 @@
     statMarketCap: document.getElementById('statMarketCap'),
     statVolume: document.getElementById('statVolume'),
     statCount: document.getElementById('statCount'),
+    statDominanceLabel: document.getElementById('statDominanceLabel'),
+    statMarketCapLabel: document.getElementById('statMarketCapLabel'),
+    statVolumeLabel: document.getElementById('statVolumeLabel'),
+    statCountLabel: document.getElementById('statCountLabel'),
     toggleTheme: document.getElementById('toggleTheme'),
     exportZip: document.getElementById('exportZip'),
     modalBackdrop: document.getElementById('modalBackdrop'),
@@ -449,10 +627,34 @@
     copySymbol: document.getElementById('copySymbol'),
     modalTheme: document.getElementById('modalTheme'),
     modalRefresh: document.getElementById('modalRefresh'),
+    brandTitle: document.getElementById('brandTitle'),
+    coinHeader: document.getElementById('coinHeader'),
+    priceHeader: document.getElementById('priceHeader'),
+    changeHeader: document.getElementById('changeHeader'),
+    marketCapHeader: document.getElementById('marketCapHeader'),
+    volumeHeader: document.getElementById('volumeHeader'),
+    sparkHeader: document.getElementById('sparkHeader'),
+    badgesHeader: document.getElementById('badgesHeader'),
+    favHeader: document.getElementById('favHeader'),
+    pageSizeLabel: document.getElementById('pageSizeLabel'),
+    mPriceLabel: document.getElementById('mPriceLabel'),
+    mChangeLabel: document.getElementById('mChangeLabel'),
+    mCapLabel: document.getElementById('mCapLabel'),
+    mVolLabel: document.getElementById('mVolLabel'),
+    mSupplyLabel: document.getElementById('mSupplyLabel'),
+    mRankLabel: document.getElementById('mRankLabel'),
+    descriptionHeader: document.getElementById('descriptionHeader'),
+    linksHeader: document.getElementById('linksHeader'),
+    aboutHeader: document.getElementById('aboutHeader'),
+    aboutText1: document.getElementById('aboutText1'),
+    aboutText2: document.getElementById('aboutText2'),
+    language: document.getElementById('language'),
+    langBadge: document.getElementById('langBadge')
   };
 
-  // Apply initial theme
+  // Apply initial theme and language
   document.body.setAttribute('data-theme', state.theme);
+  setLanguage(state.language);
 
   // Utils
   const fmt = {
@@ -546,6 +748,69 @@
     }
   };
 
+  // Language functions
+  function setLanguage(lang) {
+    state.language = lang;
+    localStorage.setItem('language', lang);
+    dom.language.value = lang;
+    dom.langBadge.textContent = lang.toUpperCase();
+    
+    const t = texts[lang];
+    
+    // Update UI texts
+    dom.brandTitle.textContent = t.brandTitle;
+    dom.search.placeholder = t.searchPlaceholder;
+    dom.toggleTheme.textContent = t.toggleTheme;
+    dom.favOnly.nextSibling.textContent = t.showFavorites;
+    dom.coinHeader.textContent = t.coinHeader;
+    dom.priceHeader.textContent = t.priceHeader;
+    dom.changeHeader.textContent = t.changeHeader;
+    dom.marketCapHeader.textContent = t.marketCapHeader;
+    dom.volumeHeader.textContent = t.volumeHeader;
+    dom.sparkHeader.textContent = t.sparkHeader;
+    dom.badgesHeader.textContent = t.badgesHeader;
+    dom.favHeader.textContent = t.favHeader;
+    dom.prevPage.textContent = t.prevPage;
+    dom.nextPage.textContent = t.nextPage;
+    dom.pageSizeLabel.textContent = t.pageSizeLabel;
+    dom.refreshBtn.textContent = t.refreshBtn;
+    dom.statDominanceLabel.textContent = t.statDominanceLabel;
+    dom.statMarketCapLabel.textContent = t.statMarketCapLabel;
+    dom.statVolumeLabel.textContent = t.statVolumeLabel;
+    dom.statCountLabel.textContent = t.statCountLabel;
+    dom.mPriceLabel.textContent = t.mPriceLabel;
+    dom.mChangeLabel.textContent = t.mChangeLabel;
+    dom.mCapLabel.textContent = t.mCapLabel;
+    dom.mVolLabel.textContent = t.mVolLabel;
+    dom.mSupplyLabel.textContent = t.mSupplyLabel;
+    dom.mRankLabel.textContent = t.mRankLabel;
+    dom.descriptionHeader.textContent = t.descriptionHeader;
+    dom.linksHeader.textContent = t.linksHeader;
+    dom.modalFavToggle.textContent = state.modal.id && state.favorites.has(state.modal.id) ? t.removeFromFavorites : t.addToFavorites;
+    dom.openOnCG.textContent = t.openOnCG;
+    dom.copySymbol.textContent = t.copyTicker;
+    dom.modalTheme.textContent = state.modal.tvTheme === 'dark' ? t.darkChartTheme : t.lightChartTheme;
+    dom.modalRefresh.textContent = t.modalRefresh;
+    dom.closeModal.textContent = t.closeModal;
+    dom.aboutHeader.textContent = t.aboutHeader;
+    dom.aboutText1.textContent = t.aboutText1;
+    dom.aboutText2.textContent = t.aboutText2;
+    
+    // Update sort options
+    dom.sort.innerHTML = '';
+    t.sortOptions.forEach(option => {
+      const opt = document.createElement('option');
+      opt.value = option.value;
+      opt.textContent = option.text;
+      if (option.value === state.sort) opt.selected = true;
+      dom.sort.appendChild(opt);
+    });
+    
+    // Update page info
+    const max = Math.max(1, Math.ceil(state.filtered.length / state.pageSize));
+    dom.pageInfo.textContent = `${state.language === 'ru' ? 'Стр.' : 'Page'} ${state.page} / ${max}`;
+  }
+
   // State persistence
   function saveFavorites() {
     localStorage.setItem('favorites', JSON.stringify([...state.favorites]));
@@ -588,7 +853,7 @@
   function setPage(p) {
     const max = Math.max(1, Math.ceil(state.filtered.length / state.pageSize));
     state.page = Math.min(Math.max(1, p), max);
-    dom.pageInfo.textContent = `Стр. ${state.page} / ${max}`;
+    dom.pageInfo.textContent = `${state.language === 'ru' ? 'Стр.' : 'Page'} ${state.page} / ${max}`;
     dom.prevPage.disabled = state.page <= 1;
     dom.nextPage.disabled = state.page >= max;
     renderTable();
@@ -629,7 +894,7 @@
           <td>${fmt.money(c.total_volume)}</td>
           <td><canvas class="spark" id="${sparkId}" width="120" height="36"></canvas></td>
           <td>${badges}</td>
-          <td><span class="fav" data-fav="${c.id}" title="Избранное">${fav}</span></td>
+          <td><span class="fav" data-fav="${c.id}" title="${state.language === 'ru' ? 'Избранное' : 'Favorites'}">${fav}</span></td>
         </tr>
       `;
     }).join('');
@@ -672,6 +937,52 @@
       if (i === 0) ctx.moveTo(x,y); else ctx.lineTo(x,y);
     });
     ctx.stroke();
+  }
+
+  // Interactive search
+  function showSearchResults() {
+    const q = state.search.trim().toLowerCase();
+    if (!q) {
+      dom.searchResults.style.display = 'none';
+      return;
+    }
+    
+    const results = state.coins.filter(c =>
+      c.name.toLowerCase().includes(q) ||
+      c.symbol.toLowerCase().includes(q)
+    ).slice(0, 10); // Limit to 10 results
+    
+    if (results.length === 0) {
+      dom.searchResults.innerHTML = `<div class="search-result-item">${texts[state.language].noResults}</div>`;
+      dom.searchResults.style.display = 'block';
+      return;
+    }
+    
+    dom.searchResults.innerHTML = results.map(c => `
+      <div class="search-result-item" data-id="${c.id}">
+        <img src="${c.image}" alt="${c.name}">
+        <div>
+          <div class="coin-name">${c.name}</div>
+          <div class="coin-symbol">${c.symbol.toUpperCase()}</div>
+        </div>
+      </div>
+    `).join('');
+    dom.searchResults.style.display = 'block';
+    
+    // Bind click events to search results
+    [...dom.searchResults.querySelectorAll('.search-result-item')].forEach(el => {
+      el.addEventListener('click', () => {
+        const id = el.getAttribute('data-id');
+        if (id !== 'no-results') {
+          state.search = '';
+          dom.search.value = '';
+          dom.searchResults.style.display = 'none';
+          applyFilters();
+          setPage(1);
+          openModal(id);
+        }
+      });
+    });
   }
 
   // Favorites
@@ -724,10 +1035,17 @@
       // Buttons
       dom.openOnCG.onclick = () => window.open('https://www.coingecko.com/coins/' + detail.id, '_blank');
       dom.copySymbol.onclick = async () => {
-        try { await navigator.clipboard.writeText(state.modal.symbol); dom.copySymbol.textContent = 'Скопировано'; setTimeout(() => dom.copySymbol.textContent = 'Скопировать тикер', 1200); } catch(e){}
+        try { 
+          await navigator.clipboard.writeText(state.modal.symbol); 
+          dom.copySymbol.textContent = texts[state.language].copied; 
+          setTimeout(() => dom.copySymbol.textContent = texts[state.language].copyTicker, 1200); 
+        } catch(e){}
       };
-      dom.modalFavToggle.textContent = state.favorites.has(id) ? 'Убрать из избранного' : 'В избранное';
-      dom.modalFavToggle.onclick = () => { toggleFav(id); dom.modalFavToggle.textContent = state.favorites.has(id) ? 'Убрать из избранного' : 'В избранное'; };
+      dom.modalFavToggle.textContent = state.favorites.has(id) ? texts[state.language].removeFromFavorites : texts[state.language].addToFavorites;
+      dom.modalFavToggle.onclick = () => { 
+        toggleFav(id); 
+        dom.modalFavToggle.textContent = state.favorites.has(id) ? texts[state.language].removeFromFavorites : texts[state.language].addToFavorites; 
+      };
 
       // TradingView
       renderTVChart(state.modal.symbol);
@@ -744,7 +1062,7 @@
       };
     } catch (e) {
       console.error(e);
-      alert('Не удалось открыть данные монеты. Попробуйте позже.');
+      alert(state.language === 'ru' ? 'Не удалось открыть данные монеты. Попробуйте позже.' : 'Failed to open coin data. Please try again later.');
       closeModal();
     }
   }
@@ -770,7 +1088,7 @@
       timezone: 'Etc/UTC',
       theme: theme,
       style: '1',
-      locale: 'ru',
+      locale: state.language,
       toolbar_bg: 'rgba(0,0,0,0)',
       enable_publishing: false,
       hide_side_toolbar: false,
@@ -792,7 +1110,7 @@
   dom.closeModal.addEventListener('click', closeModal);
   dom.modalTheme.addEventListener('click', () => {
     state.modal.tvTheme = state.modal.tvTheme === 'dark' ? 'light' : 'dark';
-    dom.modalTheme.textContent = state.modal.tvTheme === 'dark' ? 'Тёмная тема графика' : 'Светлая тема графика';
+    dom.modalTheme.textContent = state.modal.tvTheme === 'dark' ? texts[state.language].darkChartTheme : texts[state.language].lightChartTheme;
     if (state.modal.symbol) renderTVChart(state.modal.symbol);
   });
   dom.modalBackdrop.addEventListener('click', (e) => {
@@ -832,12 +1150,12 @@
       const data = await API.markets({ page: pageForAPI, perPage, order });
       state.coins = data;
       state.lastUpdate = Date.now();
-      dom.lastUpdate.textContent = 'Обновлено: ' + fmt.time(state.lastUpdate);
+      dom.lastUpdate.textContent = (state.language === 'ru' ? 'Обновлено: ' : 'Updated: ') + fmt.time(state.lastUpdate);
       applyFilters();
       setPage(1);
     } catch(e) {
       console.error('Error loading market data:', e);
-      alert('Ошибка загрузки данных CoinGecko. Попробуйте позже.');
+      alert(state.language === 'ru' ? 'Ошибка загрузки данных CoinGecko. Попробуйте позже.' : 'Error loading CoinGecko data. Please try again later.');
     } finally {
       dom.refreshBtn.disabled = false;
     }
@@ -848,7 +1166,16 @@
     state.search = e.target.value;
     applyFilters();
     setPage(1);
+    showSearchResults();
   });
+  
+  // Hide search results when clicking outside
+  document.addEventListener('click', (e) => {
+    if (!dom.searchContainer.contains(e.target)) {
+      dom.searchResults.style.display = 'none';
+    }
+  });
+  
   dom.sort.addEventListener('change', (e) => {
     state.sort = e.target.value;
     applyFilters();
@@ -869,18 +1196,30 @@
   document.getElementById('toggleTheme').addEventListener('click', () => {
     setTheme(state.theme === 'dark' ? 'light' : 'dark');
   });
+  
+  // Language change
+  dom.language.addEventListener('change', (e) => {
+    setLanguage(e.target.value);
+  });
 
   // Deploy guide (download hints)
   dom.exportZip.addEventListener('click', (e) => {
     e.preventDefault();
-    alert(
+    alert(state.language === 'ru' ? 
 `Как разместить:
 1. Сохраните этот файл как index.html.
 2. Загрузите на GitHub Pages (репозиторий -> Settings -> Pages) или Netlify (drag & drop).
 3. TradingView виджет грузится с CDN, CoinGecko API не требует ключа.
 4. Для кросс-доменных ограничений ничего не нужно — CoinGecko отдаёт CORS-заголовки.
 5. При необходимости статики — положите favicon, изображения и robots.txt рядом.
-Удачного деплоя!`
+Удачного деплоя!` :
+`How to deploy:
+1. Save this file as index.html.
+2. Upload to GitHub Pages (repository -> Settings -> Pages) or Netlify (drag & drop).
+3. TradingView widget loads from CDN, CoinGecko API doesn't require a key.
+4. No need for cross-domain restrictions - CoinGecko sends CORS headers.
+5. If you need static files - put favicon, images and robots.txt nearby.
+Happy deploying!`
     );
   });
 
