@@ -49,6 +49,8 @@ body {
   --gradient-secondary: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   --skeleton-bg: #f3f4f6;
   --skeleton-shine: #e5e7eb;
+  --glass-bg: rgba(255, 255, 255, 0.1);
+  --glass-border: rgba(255, 255, 255, 0.2);
 }
 
 [data-theme="dark"] {
@@ -78,6 +80,8 @@ body {
   --gradient-secondary: linear-gradient(135deg, #6366f1 0%, #a855f7 100%);
   --skeleton-bg: #374151;
   --skeleton-shine: #4b5563;
+  --glass-bg: rgba(255, 255, 255, 0.05);
+  --glass-border: rgba(255, 255, 255, 0.1);
 }
 
 /* ===== ПРИМЕНЕНИЕ ТЕМЫ ===== */
@@ -125,10 +129,13 @@ body {
   z-index: 1000;
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
+  transition: all 0.3s ease;
 }
 
 .site-header.scrolled {
   box-shadow: var(--shadow-lg);
+  background: var(--glass-bg);
+  border-bottom-color: var(--glass-border);
 }
 
 .header-content {
@@ -147,6 +154,12 @@ body {
   align-items: center;
   gap: 8px;
   letter-spacing: -0.5px;
+  transition: all 0.3s ease;
+}
+
+.logo:hover {
+  transform: translateY(-1px);
+  filter: brightness(1.1);
 }
 
 .logo-icon {
@@ -177,6 +190,11 @@ body {
   border-radius: 12px;
   padding: 4px;
   box-shadow: var(--shadow);
+  transition: all 0.3s ease;
+}
+
+.lang-switcher:hover {
+  box-shadow: var(--shadow-md);
 }
 
 .lang-btn {
@@ -190,6 +208,23 @@ body {
   font-weight: 500;
   font-size: 14px;
   min-width: 60px;
+  position: relative;
+  overflow: hidden;
+}
+
+.lang-btn::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(59, 130, 246, 0.1), transparent);
+  transition: left 0.5s ease;
+}
+
+.lang-btn:hover::before {
+  left: 100%;
 }
 
 .lang-btn.active {
@@ -244,6 +279,7 @@ body {
   display: flex;
   align-items: center;
   padding: 0 4px;
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .theme-slider::before {
@@ -256,6 +292,7 @@ body {
   transition: .4s;
   border-radius: 50%;
   box-shadow: var(--shadow);
+  z-index: 2;
 }
 
 .theme-slider::after {
@@ -263,6 +300,7 @@ body {
   font-size: 12px;
   margin-left: auto;
   margin-right: 6px;
+  transition: all 0.3s ease;
 }
 
 input:checked + .theme-slider {
@@ -298,6 +336,12 @@ input:checked + .theme-slider::after {
   bottom: 0;
   background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000"><polygon fill="rgba(255,255,255,0.05)" points="0,1000 1000,0 1000,1000"/></svg>');
   background-size: cover;
+  animation: float 20s ease-in-out infinite;
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0px) rotate(0deg); }
+  50% { transform: translateY(-20px) rotate(1deg); }
 }
 
 .promo-content {
@@ -313,6 +357,7 @@ input:checked + .theme-slider::after {
   font-weight: 800;
   line-height: 1.1;
   letter-spacing: -1px;
+  animation: slideInUp 0.8s ease-out;
 }
 
 .promo-subtitle {
@@ -321,6 +366,7 @@ input:checked + .theme-slider::after {
   opacity: 0.9;
   line-height: 1.6;
   font-weight: 400;
+  animation: slideInUp 0.8s ease-out 0.2s both;
 }
 
 .promo-stats {
@@ -329,6 +375,7 @@ input:checked + .theme-slider::after {
   gap: 40px;
   margin-bottom: 40px;
   flex-wrap: wrap;
+  animation: slideInUp 0.8s ease-out 0.4s both;
 }
 
 .promo-stat {
@@ -354,6 +401,7 @@ input:checked + .theme-slider::after {
   gap: 16px;
   justify-content: center;
   flex-wrap: wrap;
+  animation: slideInUp 0.8s ease-out 0.6s both;
 }
 
 .promo-btn {
@@ -371,6 +419,23 @@ input:checked + .theme-slider::after {
   transition: all 0.3s ease;
   font-size: 1rem;
   box-shadow: var(--shadow-lg);
+  position: relative;
+  overflow: hidden;
+}
+
+.promo-btn::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.4), transparent);
+  transition: left 0.5s ease;
+}
+
+.promo-btn:hover::before {
+  left: 100%;
 }
 
 .promo-btn:hover {
@@ -418,6 +483,12 @@ input:checked + .theme-slider::after {
   height: 4px;
   background: var(--accent-color);
   border-radius: 2px;
+  animation: expandWidth 0.8s ease-out 0.5s both;
+}
+
+@keyframes expandWidth {
+  from { width: 0; }
+  to { width: 80px; }
 }
 
 .section-subtitle {
@@ -935,6 +1006,7 @@ input:checked + .theme-slider::after {
   padding: 20px;
   backdrop-filter: blur(5px);
   -webkit-backdrop-filter: blur(5px);
+  animation: fadeIn 0.3s ease-out;
 }
 
 .modal-content {
@@ -1043,6 +1115,12 @@ input:checked + .theme-slider::after {
   padding: 15px;
   border-radius: 12px;
   text-align: center;
+  transition: all 0.3s ease;
+}
+
+.stat-item:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
 }
 
 .stat-item .stat-label {
@@ -1079,6 +1157,23 @@ input:checked + .theme-slider::after {
   align-items: center;
   justify-content: center;
   gap: 6px;
+  position: relative;
+  overflow: hidden;
+}
+
+.action-btn::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+  transition: left 0.5s ease;
+}
+
+.action-btn:hover::before {
+  left: 100%;
 }
 
 .action-btn:hover {
@@ -1123,6 +1218,23 @@ input:checked + .theme-slider::after {
   gap: 8px;
   min-width: 120px;
   justify-content: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.page-btn::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+  transition: left 0.5s ease;
+}
+
+.page-btn:hover::before {
+  left: 100%;
 }
 
 .page-btn:hover:not(.disabled) {
@@ -1167,6 +1279,23 @@ input:checked + .theme-slider::after {
   font-size: 0.875rem;
   min-width: 44px;
   text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.page-number::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(59, 130, 246, 0.1), transparent);
+  transition: left 0.5s ease;
+}
+
+.page-number:hover::before {
+  left: 100%;
 }
 
 .page-number:hover:not(.active) {
@@ -1209,6 +1338,17 @@ input:checked + .theme-slider::after {
   from {
     opacity: 0;
     transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideInUp {
+  from {
+    opacity: 0;
+    transform: translateY(50px);
   }
   to {
     opacity: 1;
