@@ -593,6 +593,42 @@
           margin-bottom: 16px;
         }
 
+        /* ===== ПАГИНАЦИЯ ===== */
+        .pagination {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+            margin-top: 40px;
+        }
+
+        .page-btn {
+            padding: 12px 24px;
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            color: var(--text-primary);
+            cursor: pointer;
+            transition: all 0.3s ease;
+            font-weight: 500;
+        }
+
+        .page-btn:hover:not(:disabled) {
+            background: var(--accent-color);
+            color: white;
+            border-color: var(--accent-color);
+        }
+
+        .page-btn:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+        }
+
+        .page-info {
+            color: var(--text-secondary);
+            font-weight: 500;
+        }
+
         /* ===== МОДАЛЬНОЕ ОКНО ===== */
         .modal-overlay {
           position: fixed;
@@ -1078,11 +1114,287 @@
         ];
 
         // ===== ОСНОВНОЙ JavaScript КОД =====
-        // ... (JavaScript код будет следующим файлом)
+        document.addEventListener('DOMContentLoaded', function() {
+            // Инициализация приложения
+            initializeApp();
+            
+            // Загрузка тестовых данных
+            loadTestData();
+            
+            // Настройка обработчиков событий
+            setupEventListeners();
+        });
+
+        function initializeApp() {
+            // Установка начальной темы
+            document.documentElement.setAttribute('data-theme', CONFIG.currentTheme);
+            updateThemeText();
+            
+            // Обновление индекса страха и жадности
+            updateFearGreedIndex();
+        }
+
+        function loadTestData() {
+            allCoinsCache = TEST_COINS;
+            renderCoins(TEST_COINS);
+            updatePaginationInfo();
+        }
+
+        function setupEventListeners() {
+            // Переключатель темы
+            const themeToggle = document.getElementById('themeToggle');
+            if (themeToggle) {
+                themeToggle.addEventListener('change', toggleTheme);
+            }
+
+            // Переключатели языка
+            const langButtons = document.querySelectorAll('.lang-btn');
+            langButtons.forEach(btn => {
+                btn.addEventListener('click', function() {
+                    const lang = this.getAttribute('data-lang');
+                    switchLanguage(lang);
+                });
+            });
+
+            // Кнопки пагинации
+            const prevBtn = document.getElementById('prevPage');
+            const nextBtn = document.getElementById('nextPage');
+            
+            if (prevBtn) prevBtn.addEventListener('click', goToPrevPage);
+            if (nextBtn) nextBtn.addEventListener('click', goToNextPage);
+
+            // Кнопка "Вперёд" в промо-секции
+            const promoBtn = document.getElementById('promoBtn');
+            if (promoBtn) {
+                promoBtn.addEventListener('click', function() {
+                    document.getElementById('coinsSection').scrollIntoView({ 
+                        behavior: 'smooth' 
+                    });
+                });
+            }
+        }
+
+        function toggleTheme() {
+            const isDark = document.documentElement.getAttribute('data-theme') === 'dark';
+            const newTheme = isDark ? 'light' : 'dark';
+            
+            document.documentElement.setAttribute('data-theme', newTheme);
+            CONFIG.currentTheme = newTheme;
+            updateThemeText();
+        }
+
+        function updateThemeText() {
+            const themeText = document.getElementById('themeText');
+            if (themeText) {
+                themeText.textContent = CONFIG.currentTheme === 'dark' 
+                    ? TRANSLATIONS[CONFIG.currentLang].themeText 
+                    : 'Светлая';
+            }
+        }
+
+        function switchLanguage(lang) {
+            CONFIG.currentLang = lang;
+            
+            // Обновляем активную кнопку языка
+            document.querySelectorAll('.lang-btn').forEach(btn => {
+                btn.classList.toggle('active', btn.getAttribute('data-lang') === lang);
+            });
+            
+            // Обновляем тексты на странице
+            updatePageTexts();
+        }
+
+        function updatePageTexts() {
+            const t = TRANSLATIONS[CONFIG.currentLang];
+            
+            // Обновляем основные тексты
+            const elementsToUpdate = {
+                'siteLogo': t.siteLogo,
+                'themeText': CONFIG.currentTheme === 'dark' ? t.themeText : 'Светлая',
+                'promoTitle': t.promoTitle,
+                'promoSubtitle': t.promoSubtitle,
+                'promoBtn': t.promoBtn,
+                'coinsTitle': t.coinsTitle,
+                'fearGreedTitle': t.fearGreedTitle
+            };
+            
+            Object.keys(elementsToUpdate).forEach(id => {
+                const element = document.getElementById(id);
+                if (element) element.textContent = elementsToUpdate[id];
+            });
+        }
+
+        function updateFearGreedIndex() {
+            const indicator = document.getElementById('fearGreedIndicator');
+            const valueElement = document.getElementById('fearGreedValue');
+            const textElement = document.getElementById('fearGreedText');
+            
+            if (indicator && valueElement && textElement) {
+                const value = CONFIG.fearGreedValue;
+                const position = (value / 100) * 100;
+                
+                indicator.style.left = `${position}%`;
+                valueElement.textContent = value;
+                
+                // Определяем состояние
+                let stateText = '';
+                if (value <= 25) stateText = TRANSLATIONS[CONFIG.currentLang].extremeFear;
+                else if (value <= 45) stateText = TRANSLATIONS[CONFIG.currentLang].fear;
+                else if (value <= 55) stateText = TRANSLATIONS[CONFIG.currentLang].neutral;
+                else if (value <= 75) stateText = TRANSLATIONS[CONFIG.currentLang].greed;
+                else stateText = TRANSLATIONS[CONFIG.currentLang].extremeGreed;
+                
+                textElement.textContent = stateText;
+            }
+        }
+
+        function renderCoins(coins) {
+            const coinGrid = document.getElementById('coinGrid');
+            if (!coinGrid) return;
+            
+            coinGrid.innerHTML = '';
+            
+            coins.forEach(coin => {
+                const coinCard = createCoinCard(coin);
+                coinGrid.appendChild(coinCard);
+            });
+        }
+
+        function createCoinCard(coin) {
+            const t = TRANSLATIONS[CONFIG.currentLang];
+            const changeClass = coin.price_change_percentage_24h >= 0 ? 'change-positive' : 'change-negative';
+            const changeSign = coin.price_change_percentage_24h >= 0 ? '+' : '';
+            
+            const card = document.createElement('div');
+            card.className = 'coin-card';
+            card.innerHTML = `
+                <div class="coin-rank">${coin.market_cap_rank}</div>
+                <div class="coin-header">
+                    <img src="${coin.image}" alt="${coin.name}" class="coin-icon" onerror="this.src='https://via.placeholder.com/48'">
+                    <div class="coin-info">
+                        <div class="coin-name">${coin.name}</div>
+                        <div class="coin-symbol">${coin.symbol.toUpperCase()}</div>
+                    </div>
+                </div>
+                <div class="coin-price">$${coin.current_price.toLocaleString()}</div>
+                <div class="coin-change ${changeClass}">
+                    ${changeSign}${coin.price_change_percentage_24h.toFixed(2)}%
+                </div>
+                <div class="coin-stats">
+                    <div class="coin-stat">
+                        <div class="stat-value">$${(coin.market_cap / 1000000000).toFixed(2)}B</div>
+                        <div class="stat-label">${t.marketCap}</div>
+                    </div>
+                    <div class="coin-stat">
+                        <div class="stat-value">$${(coin.total_volume / 1000000).toFixed(2)}M</div>
+                        <div class="stat-label">${t.volume}</div>
+                    </div>
+                </div>
+                <canvas class="coin-sparkline" width="300" height="60"></canvas>
+            `;
+            
+            // Добавляем обработчик клика
+            card.addEventListener('click', () => showCoinModal(coin));
+            
+            return card;
+        }
+
+        function showCoinModal(coin) {
+            // Создаем модальное окно для монеты
+            const modal = document.createElement('div');
+            modal.className = 'modal-overlay';
+            modal.innerHTML = `
+                <div class="modal-content">
+                    <button class="modal-close">&times;</button>
+                    <div class="modal-header">
+                        <div style="display: flex; align-items: center; gap: 12px;">
+                            <img src="${coin.image}" alt="${coin.name}" class="coin-icon-large">
+                            <div>
+                                <h3 style="margin: 0; color: var(--text-primary);">${coin.name}</h3>
+                                <div style="color: var(--text-secondary); text-transform: uppercase;">${coin.symbol}</div>
+                            </div>
+                        </div>
+                        <div class="coin-rank-large">#${coin.market_cap_rank}</div>
+                    </div>
+                    
+                    <div class="price-section">
+                        <div class="current-price">$${coin.current_price.toLocaleString()}</div>
+                        <div class="coin-change ${coin.price_change_percentage_24h >= 0 ? 'change-positive' : 'change-negative'}">
+                            ${coin.price_change_percentage_24h >= 0 ? '+' : ''}${coin.price_change_percentage_24h.toFixed(2)}%
+                        </div>
+                    </div>
+                    
+                    <div class="stats-grid">
+                        <div class="stat-item">
+                            <div class="stat-label">${TRANSLATIONS[CONFIG.currentLang].marketCap}</div>
+                            <div class="stat-value">$${(coin.market_cap / 1000000000).toFixed(2)}B</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-label">${TRANSLATIONS[CONFIG.currentLang].volume}</div>
+                            <div class="stat-value">$${(coin.total_volume / 1000000).toFixed(2)}M</div>
+                        </div>
+                    </div>
+                    
+                    <div class="action-buttons">
+                        <a href="https://www.tradingview.com/symbols/${coin.symbol.toUpperCase()}USD/" 
+                           target="_blank" class="action-btn">
+                            ${TRANSLATIONS[CONFIG.currentLang].tradingView}
+                        </a>
+                        <button class="action-btn secondary" onclick="this.closest('.modal-overlay').remove()">
+                            ${TRANSLATIONS[CONFIG.currentLang].details}
+                        </button>
+                    </div>
+                </div>
+            `;
+            
+            document.body.appendChild(modal);
+            
+            // Обработчик закрытия
+            modal.querySelector('.modal-close').addEventListener('click', () => {
+                modal.remove();
+            });
+            
+            // Закрытие по клику вне модального окна
+            modal.addEventListener('click', (e) => {
+                if (e.target === modal) {
+                    modal.remove();
+                }
+            });
+        }
+
+        function goToPrevPage() {
+            if (CONFIG.currentPage > 1) {
+                CONFIG.currentPage--;
+                updatePaginationInfo();
+            }
+        }
+
+        function goToNextPage() {
+            const totalPages = Math.ceil(allCoinsCache.length / CONFIG.coinsPerPage);
+            if (CONFIG.currentPage < totalPages) {
+                CONFIG.currentPage++;
+                updatePaginationInfo();
+            }
+        }
+
+        function updatePaginationInfo() {
+            const pageInfo = document.getElementById('pageInfo');
+            const prevBtn = document.getElementById('prevPage');
+            const nextBtn = document.getElementById('nextPage');
+            
+            if (pageInfo) {
+                pageInfo.textContent = `${TRANSLATIONS[CONFIG.currentLang].page} ${CONFIG.currentPage}`;
+            }
+            
+            if (prevBtn) {
+                prevBtn.disabled = CONFIG.currentPage === 1;
+            }
+            
+            if (nextBtn) {
+                const totalPages = Math.ceil(allCoinsCache.length / CONFIG.coinsPerPage);
+                nextBtn.disabled = CONFIG.currentPage === totalPages;
+            }
+        }
     </script>
-   <script src="config.js"></script>
-<script src="app.js"></script>
 </body>
 </html>
-
-
