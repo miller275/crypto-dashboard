@@ -4,28 +4,162 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Crypto Hub — в стиле CoinGecko</title>
-  <meta name="description" content="Лёгкий, независимый крипто-дэшборд с данными CoinGecko и графиками TradingView"/>
-  <link rel="stylesheet" href="style.css"/>
+  <meta name="description" content="Независимый крипто-дэшборд с CoinGecko и TradingView"/>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body data-theme="dark">
   <header>
-    <!-- навигация, поиск, сортировка, ссылки -->
-    <!-- ... оставляем как в твоём коде ... -->
+    <div class="nav">
+      <div class="brand">
+        <div class="logo" aria-hidden="true"></div>
+        <h1>Crypto Hub</h1>
+        <span class="badge">Independent</span>
+      </div>
+
+      <div class="controls">
+        <div class="control" title="Поиск по названию/тикеру">
+          <input id="search" type="text" placeholder="Поиск монет..." />
+        </div>
+
+        <div class="control" title="Сортировка">
+          <select id="sort">
+            <option value="market_cap_desc">Рыночная капа ↓</option>
+            <option value="market_cap_asc">Рыночная капа ↑</option>
+            <option value="volume_desc">Объём ↓</option>
+            <option value="volume_asc">Объём ↑</option>
+            <option value="price_desc">Цена ↓</option>
+            <option value="price_asc">Цена ↑</option>
+            <option value="change_desc">Изм. 24ч ↓</option>
+            <option value="change_asc">Изм. 24ч ↑</option>
+          </select>
+        </div>
+
+        <div class="control" title="Тема">
+          <button id="toggleTheme">Сменить тему</button>
+        </div>
+
+        <div class="control" title="Избранное">
+          <span>Показывать избранное</span>
+          <input id="favOnly" type="checkbox"/>
+        </div>
+      </div>
+
+      <div class="links">
+        <a href="https://www.coingecko.com" target="_blank">CoinGecko</a>
+        <a href="https://www.tradingview.com" target="_blank">TradingView</a>
+      </div>
+    </div>
+
+    <div class="stats" id="globalStats">
+      <div class="stat">
+        <div class="label">Рынок</div>
+        <div class="value" id="statDominance">—</div>
+      </div>
+      <div class="stat">
+        <div class="label">Капитализация</div>
+        <div class="value" id="statMarketCap">—</div>
+      </div>
+      <div class="stat">
+        <div class="label">24ч объём</div>
+        <div class="value" id="statVolume">—</div>
+      </div>
+      <div class="stat">
+        <div class="label">Монет</div>
+        <div class="value" id="statCount">—</div>
+      </div>
+    </div>
   </header>
 
   <main class="container">
-    <!-- таблица монет -->
-    <!-- ... -->
+    <section class="panel">
+      <table id="coinsTable" aria-label="Список криптовалют">
+        <thead>
+          <tr>
+            <th data-key="rank">#</th>
+            <th>Монета</th>
+            <th data-key="price">Цена</th>
+            <th data-key="change">24ч</th>
+            <th data-key="market_cap">Капитализация</th>
+            <th data-key="volume">Объём 24ч</th>
+            <th>Спарк</th>
+            <th>Бирки</th>
+            <th>Избр.</th>
+          </tr>
+        </thead>
+        <tbody id="coinsBody">
+          <!-- JS рендер -->
+        </tbody>
+      </table>
+
+      <div class="footer-controls">
+        <div class="pager">
+          <button id="prevPage">Назад</button>
+          <span id="pageInfo" class="badge">Стр. 1</span>
+          <button id="nextPage">Вперёд</button>
+        </div>
+        <div class="page-size">
+          <span class="badge">На странице</span>
+          <select id="pageSize">
+            <option>25</option>
+            <option selected>50</option>
+            <option>100</option>
+          </select>
+        </div>
+        <div class="refresh">
+          <button id="refreshBtn" class="btn">Обновить</button>
+          <span class="badge" id="lastUpdate">—</span>
+        </div>
+      </div>
+    </section>
   </main>
 
-  <!-- модалка -->
-  <!-- ... -->
+  <div class="modal-backdrop" id="modalBackdrop" role="dialog" aria-modal="true" aria-hidden="true">
+    <div class="modal">
+      <div class="modal-header">
+        <h3><img id="modalIcon" src="" alt="" style="width:20px;height:20px;border-radius:10px;border:1px solid var(--border)"> <span id="modalTitle">Монета</span></h3>
+        <button id="closeModal" class="btn">Закрыть</button>
+      </div>
+      <div class="modal-content">
+        <div class="kv">
+          <div class="item"><div class="label">Цена</div><div class="value" id="mPrice">—</div></div>
+          <div class="item"><div class="label">24ч изм.</div><div class="value" id="mChange">—</div></div>
+          <div class="item"><div class="label">Капа</div><div class="value" id="mCap">—</div></div>
+          <div class="item"><div class="label">Объём 24ч</div><div class="value" id="mVol">—</div></div>
+          <div class="item"><div class="label">Поставка</div><div class="value" id="mSupply">—</div></div>
+          <div class="item"><div class="label">Ранг</div><div class="value" id="mRank">—</div></div>
+        </div>
 
-  <footer class="container">
-    <!-- описание проекта -->
+        <div class="modal-section">
+          <div id="tvWidget" style="height: 420px;"></div>
+        </div>
+
+        <div class="modal-section">
+          <h4>Описание</h4>
+          <div id="mDescription" style="color:var(--muted); line-height:1.5">—</div>
+        </div>
+
+        <div class="modal-section">
+          <h4>Ссылки</h4>
+          <div id="mLinks" style="display:flex; gap:10px; flex-wrap:wrap"></div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button id="modalFavToggle" class="btn">В избранное</button>
+        <button id="openOnCG" class="btn">Открыть на CoinGecko</button>
+        <button id="copySymbol" class="btn">Скопировать тикер</button>
+        <button id="modalTheme" class="btn">Тёмная тема графика</button>
+        <button id="modalRefresh" class="btn primary">Обновить данные</button>
+      </div>
+    </div>
+  </div>
+
+  <footer class="container" style="margin-bottom:40px">
+    <section class="panel" style="padding:14px">
+      <h3>О проекте</h3>
+      <p>Независимый хаб в стиле CoinGecko. Данные — API CoinGecko, графики — TradingView. Готов к размещению на GitHub Pages, Netlify или любом хостинге.</p>
+    </section>
   </footer>
 
-  <!-- TradingView Widget -->
   <script src="https://s3.tradingview.com/tv.js"></script>
   <script src="script.js"></script>
 </body>
