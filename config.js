@@ -1,7 +1,7 @@
 // ===== КОНФИГУРАЦИЯ ПРИЛОЖЕНИЯ =====
 const CONFIG = {
     // Настройки отображения
-    coinsPerPage: 20,
+    coinsPerPage: 10,
     currentPage: 1,
     
     // Язык и тема
@@ -35,6 +35,7 @@ const TRANSLATIONS = {
         // Основные элементы
         siteLogo: 'CryptoDrom',
         themeText: 'Тёмная',
+        lightThemeText: 'Светлая',
         promoTitle: 'Добро пожаловать в Crypto Dashboard',
         promoSubtitle: 'Ваш центр для анализа рынка и кастомизации интерфейса.',
         promoBtn: 'Вперёд',
@@ -50,6 +51,7 @@ const TRANSLATIONS = {
         // Действия
         tradingView: 'TradingView',
         details: 'Детали',
+        close: 'Закрыть',
         loading: 'Загрузка...',
         error: 'Ошибка загрузки',
         retry: 'Повторить',
@@ -83,12 +85,16 @@ const TRANSLATIONS = {
         
         // Модальное окно
         marketShare: 'Рыночная доля',
-        priceChange24h: 'Изменение цены за 24ч'
+        priceChange24h: 'Изменение цены за 24ч',
+        totalVolume: 'Общий объем',
+        high24h: 'Макс за 24ч',
+        low24h: 'Мин за 24ч'
     },
     en: {
         // Main elements
         siteLogo: 'CryptoDrom',
         themeText: 'Dark',
+        lightThemeText: 'Light',
         promoTitle: 'Welcome to Crypto Dashboard',
         promoSubtitle: 'Your hub for market analysis and interface customization.',
         promoBtn: 'Get Started',
@@ -104,6 +110,7 @@ const TRANSLATIONS = {
         // Actions
         tradingView: 'TradingView',
         details: 'Details',
+        close: 'Close',
         loading: 'Loading...',
         error: 'Load error',
         retry: 'Retry',
@@ -137,7 +144,10 @@ const TRANSLATIONS = {
         
         // Modal
         marketShare: 'Market Share',
-        priceChange24h: 'Price Change 24h'
+        priceChange24h: 'Price Change 24h',
+        totalVolume: 'Total Volume',
+        high24h: '24h High',
+        low24h: '24h Low'
     }
 };
 
@@ -153,6 +163,8 @@ const TEST_COINS = [
         market_cap: 1150000000000,
         total_volume: 28500000000,
         market_cap_rank: 1,
+        high_24h: 59000,
+        low_24h: 58000,
         sparkline_in_7d: {
             price: [56900, 57200, 57500, 57800, 58100, 58300, 58500, 58600, 58700, 58728]
         }
@@ -167,6 +179,8 @@ const TEST_COINS = [
         market_cap: 352000000000,
         total_volume: 15200000000,
         market_cap_rank: 2,
+        high_24h: 2980,
+        low_24h: 2900,
         sparkline_in_7d: {
             price: [2980, 2970, 2960, 2950, 2945, 2940, 2938, 2936, 2935, 2935.51]
         }
@@ -181,6 +195,8 @@ const TEST_COINS = [
         market_cap: 95600000000,
         total_volume: 45200000000,
         market_cap_rank: 3,
+        high_24h: 1.001,
+        low_24h: 0.999,
         sparkline_in_7d: {
             price: [1.00, 1.00, 1.00, 1.00, 1.00, 1.00, 1.00, 1.00, 1.00, 1.00]
         }
@@ -195,6 +211,8 @@ const TEST_COINS = [
         market_cap: 28500000000,
         total_volume: 1250000000,
         market_cap_rank: 4,
+        high_24h: 0.525,
+        low_24h: 0.515,
         sparkline_in_7d: {
             price: [0.51, 0.515, 0.518, 0.519, 0.520, 0.521, 0.522, 0.521, 0.520, 0.52]
         }
@@ -209,6 +227,8 @@ const TEST_COINS = [
         market_cap: 17000000000,
         total_volume: 450000000,
         market_cap_rank: 5,
+        high_24h: 0.485,
+        low_24h: 0.475,
         sparkline_in_7d: {
             price: [0.47, 0.472, 0.474, 0.476, 0.477, 0.478, 0.479, 0.480, 0.481, 0.48]
         }
@@ -223,64 +243,10 @@ const TEST_COINS = [
         market_cap: 17200000000,
         total_volume: 850000000,
         market_cap_rank: 6,
+        high_24h: 0.122,
+        low_24h: 0.118,
         sparkline_in_7d: {
             price: [0.121, 0.1205, 0.1202, 0.1201, 0.1200, 0.1198, 0.1195, 0.1190, 0.1185, 0.12]
-        }
-    },
-    {
-        id: "solana",
-        name: "Solana",
-        symbol: "sol",
-        image: "https://assets.coingecko.com/coins/images/4128/small/solana.png",
-        current_price: 146.28,
-        price_change_percentage_24h: 4.2,
-        market_cap: 65000000000,
-        total_volume: 2850000000,
-        market_cap_rank: 7,
-        sparkline_in_7d: {
-            price: [140, 142, 143, 144, 145, 145.5, 146, 146.2, 146.25, 146.28]
-        }
-    },
-    {
-        id: "polkadot",
-        name: "Polkadot",
-        symbol: "dot",
-        image: "https://assets.coingecko.com/coins/images/12171/small/polkadot.png",
-        current_price: 6.98,
-        price_change_percentage_24h: -2.1,
-        market_cap: 8900000000,
-        total_volume: 280000000,
-        market_cap_rank: 8,
-        sparkline_in_7d: {
-            price: [7.10, 7.05, 7.02, 7.00, 6.98, 6.97, 6.96, 6.97, 6.98, 6.98]
-        }
-    },
-    {
-        id: "chainlink",
-        name: "Chainlink",
-        symbol: "link",
-        image: "https://assets.coingecko.com/coins/images/877/small/chainlink-new-logo.png",
-        current_price: 14.23,
-        price_change_percentage_24h: 1.5,
-        market_cap: 8100000000,
-        total_volume: 350000000,
-        market_cap_rank: 9,
-        sparkline_in_7d: {
-            price: [14.00, 14.05, 14.10, 14.15, 14.18, 14.20, 14.22, 14.23, 14.23, 14.23]
-        }
-    },
-    {
-        id: "litecoin",
-        name: "Litecoin",
-        symbol: "ltc",
-        image: "https://assets.coingecko.com/coins/images/2/small/litecoin.png",
-        current_price: 68.45,
-        price_change_percentage_24h: 0.9,
-        market_cap: 5100000000,
-        total_volume: 380000000,
-        market_cap_rank: 10,
-        sparkline_in_7d: {
-            price: [67.80, 67.90, 68.00, 68.10, 68.20, 68.30, 68.35, 68.40, 68.43, 68.45]
         }
     }
 ];
@@ -291,16 +257,18 @@ const CONSTANTS = {
     CHART_COLORS: {
         positive: '#10b981',
         negative: '#ef4444',
-        neutral: '#6b7280'
+        neutral: '#6b7280',
+        background: 'transparent',
+        border: '#3b82f6'
     },
     
     // Fear & Greed диапазоны
     FEAR_GREED_RANGES: {
-        extremeFear: { min: 0, max: 25 },
-        fear: { min: 26, max: 45 },
-        neutral: { min: 46, max: 55 },
-        greed: { min: 56, max: 75 },
-        extremeGreed: { min: 76, max: 100 }
+        extremeFear: { min: 0, max: 25, color: '#dc2626' },
+        fear: { min: 26, max: 45, color: '#f59e0b' },
+        neutral: { min: 46, max: 55, color: '#eab308' },
+        greed: { min: 56, max: 75, color: '#84cc16' },
+        extremeGreed: { min: 76, max: 100, color: '#16a34a' }
     },
     
     // Breakpoints для адаптивности
@@ -312,9 +280,25 @@ const CONSTANTS = {
     
     // URL для внешних сервисов
     EXTERNAL_URLS: {
-        tradingView: 'https://www.tradingview.com/symbols',
+        tradingView: 'https://www.tradingview.com/chart',
         coinGecko: 'https://www.coingecko.com/en/coins',
         coinMarketCap: 'https://coinmarketcap.com/currencies'
+    },
+    
+    // Форматы чисел
+    NUMBER_FORMATS: {
+        currency: {
+            minimumFractionDigits: 2,
+            maximumFractionDigits: 2
+        },
+        percentage: {
+            minimumFractionDigits: 2,
+            maximumFractionDigits: 2
+        },
+        compact: {
+            notation: 'compact',
+            compactDisplay: 'short'
+        }
     }
 };
 
@@ -326,11 +310,16 @@ const ConfigUtils = {
             const configToSave = {
                 currentLang: CONFIG.currentLang,
                 currentTheme: CONFIG.currentTheme,
-                coinsPerPage: CONFIG.coinsPerPage
+                coinsPerPage: CONFIG.coinsPerPage,
+                sortField: CONFIG.sortField,
+                sortDirection: CONFIG.sortDirection,
+                autoRefresh: CONFIG.autoRefresh
             };
             localStorage.setItem('cryptoDashboardConfig', JSON.stringify(configToSave));
+            return true;
         } catch (error) {
             console.error('Ошибка сохранения конфигурации:', error);
+            return false;
         }
     },
 
@@ -342,20 +331,29 @@ const ConfigUtils = {
                 const config = JSON.parse(savedConfig);
                 CONFIG.currentLang = config.currentLang || 'ru';
                 CONFIG.currentTheme = config.currentTheme || 'dark';
-                CONFIG.coinsPerPage = config.coinsPerPage || 20;
+                CONFIG.coinsPerPage = config.coinsPerPage || 10;
+                CONFIG.sortField = config.sortField || 'market_cap_rank';
+                CONFIG.sortDirection = config.sortDirection || 'asc';
+                CONFIG.autoRefresh = config.autoRefresh !== undefined ? config.autoRefresh : true;
+                return true;
             }
         } catch (error) {
             console.error('Ошибка загрузки конфигурации:', error);
         }
+        return false;
     },
 
     // Сброс настроек к значениям по умолчанию
     resetToDefaults: function() {
         CONFIG.currentLang = 'ru';
         CONFIG.currentTheme = 'dark';
-        CONFIG.coinsPerPage = 20;
+        CONFIG.coinsPerPage = 10;
         CONFIG.currentPage = 1;
+        CONFIG.sortField = 'market_cap_rank';
+        CONFIG.sortDirection = 'asc';
+        CONFIG.autoRefresh = true;
         this.saveToStorage();
+        return true;
     },
 
     // Проверка поддержки localStorage
@@ -368,6 +366,21 @@ const ConfigUtils = {
         } catch (e) {
             return false;
         }
+    },
+
+    // Обновление конфигурации
+    updateConfig: function(newConfig) {
+        Object.keys(newConfig).forEach(key => {
+            if (CONFIG.hasOwnProperty(key)) {
+                CONFIG[key] = newConfig[key];
+            }
+        });
+        return this.saveToStorage();
+    },
+
+    // Получение текущей конфигурации
+    getConfig: function() {
+        return { ...CONFIG };
     }
 };
 
@@ -377,7 +390,8 @@ const API_CONFIG = {
         coins: '/coins/markets',
         coinDetails: '/coins/{id}',
         global: '/global',
-        trends: '/search/trending'
+        trends: '/search/trending',
+        fearGreed: '/fear_and_greed'
     },
     
     parameters: {
@@ -392,10 +406,103 @@ const API_CONFIG = {
     headers: {
         'Accept': 'application/json',
         'Content-Type': 'application/json'
+    },
+
+    // Методы для работы с API
+    methods: {
+        // Получение URL для endpoint
+        getUrl: function(endpoint, params = {}) {
+            let url = CONFIG.apiUrl + this.endpoints[endpoint];
+            
+            // Замена параметров в URL
+            Object.keys(params).forEach(key => {
+                url = url.replace(`{${key}}`, params[key]);
+            });
+            
+            return url;
+        },
+
+        // Получение параметров запроса
+        getParams: function(additionalParams = {}) {
+            return { ...this.parameters, ...additionalParams };
+        },
+
+        // Создание полного URL с параметрами
+        buildRequest: function(endpoint, urlParams = {}, queryParams = {}) {
+            const url = this.getUrl(endpoint, urlParams);
+            const params = this.getParams(queryParams);
+            
+            const queryString = new URLSearchParams(params).toString();
+            return queryString ? `${url}?${queryString}` : url;
+        }
+    }
+};
+
+// ===== УТИЛИТЫ ДЛЯ РАБОТЫ С ДАННЫМИ =====
+const DataUtils = {
+    // Форматирование валюты
+    formatCurrency: function(value, currency = 'USD') {
+        return new Intl.NumberFormat(CONFIG.currentLang === 'ru' ? 'ru-RU' : 'en-US', {
+            style: 'currency',
+            currency: currency,
+            minimumFractionDigits: 2,
+            maximumFractionDigits: value < 1 ? 6 : 2
+        }).format(value);
+    },
+
+    // Форматирование процентов
+    formatPercentage: function(value) {
+        return new Intl.NumberFormat(CONFIG.currentLang === 'ru' ? 'ru-RU' : 'en-US', {
+            style: 'percent',
+            minimumFractionDigits: 2,
+            maximumFractionDigits: 2
+        }).format(value / 100);
+    },
+
+    // Форматирование больших чисел
+    formatNumber: function(value) {
+        if (value >= 1000000000) {
+            return (value / 1000000000).toFixed(2) + 'B';
+        } else if (value >= 1000000) {
+            return (value / 1000000).toFixed(2) + 'M';
+        } else if (value >= 1000) {
+            return (value / 1000).toFixed(2) + 'K';
+        }
+        return value.toString();
+    },
+
+    // Получение класса для изменения цены
+    getChangeClass: function(change) {
+        if (change > 0) return 'change-positive';
+        if (change < 0) return 'change-negative';
+        return 'change-neutral';
+    },
+
+    // Получение состояния Fear & Greed по значению
+    getFearGreedState: function(value) {
+        const ranges = CONSTANTS.FEAR_GREED_RANGES;
+        if (value <= ranges.extremeFear.max) return 'extremeFear';
+        if (value <= ranges.fear.max) return 'fear';
+        if (value <= ranges.neutral.max) return 'neutral';
+        if (value <= ranges.greed.max) return 'greed';
+        return 'extremeGreed';
     }
 };
 
 // Инициализация конфигурации при загрузке
 if (typeof window !== 'undefined') {
     ConfigUtils.loadFromStorage();
+}
+
+// Экспорт для использования в других модулях
+if (typeof module !== 'undefined' && module.exports) {
+    module.exports = {
+        CONFIG,
+        TRANSLATIONS,
+        TEST_COINS,
+        CONSTANTS,
+        ConfigUtils,
+        API_CONFIG,
+        DataUtils
+    };
 }
