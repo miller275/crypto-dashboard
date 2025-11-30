@@ -753,6 +753,14 @@
     const tvTicker = toTVSymbol(symbol);
     dom.tvWidget.innerHTML = '';
     const theme = (state.modal.tvTheme === 'dark') ? 'dark' : 'light';
+    
+    // Проверяем, загружена ли библиотека TradingView
+    if (typeof TradingView === 'undefined') {
+      console.error('TradingView library not loaded');
+      dom.tvWidget.innerHTML = '<div style="display:flex;align-items:center;justify-content:center;height:100%;color:var(--muted)">График временно недоступен</div>';
+      return;
+    }
+    
     // TradingView Chart
     tvChart = new TradingView.widget({
       container_id: 'tvWidget',
@@ -806,6 +814,7 @@
       dom.statDominance.textContent = (btcDom != null ? btcDom.toFixed(2) + '%' : '—');
       dom.statCount.textContent = fmt.num(coins);
     } catch(e) {
+      console.error('Error loading global stats:', e);
       dom.statDominance.textContent = '—';
       dom.statMarketCap.textContent = '—';
       dom.statVolume.textContent = '—';
@@ -827,6 +836,7 @@
       applyFilters();
       setPage(1);
     } catch(e) {
+      console.error('Error loading market data:', e);
       alert('Ошибка загрузки данных CoinGecko. Попробуйте позже.');
     } finally {
       dom.refreshBtn.disabled = false;
