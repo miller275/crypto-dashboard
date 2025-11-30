@@ -1,87 +1,385 @@
-<!-- Обнови секцию модального окна в index.html -->
-
-<!-- MODAL WINDOW -->
-<div id="coinModal" class="modal-overlay" style="display: none;" role="dialog" aria-modal="true" aria-labelledby="modalCoinName">
-    <div class="modal-content">
-        <button class="modal-close" id="modalClose" aria-label="Закрыть модальное окно">
-            <span aria-hidden="true">×</span>
-        </button>
-        <div class="modal-header">
-            <div class="col-name">
-                <img id="modalCoinIcon" class="coin-icon-large" src="" alt="">
-                <div class="coin-name-table">
-                    <span id="modalCoinName" class="coin-name-main"></span>
-                    <span id="modalCoinSymbol" class="coin-symbol-table"></span>
+<!DOCTYPE html>
+<html lang="ru" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crypto Dashboard - Реальный мониторинг крипторынка</title>
+    <meta name="description" content="Crypto Dashboard - передовая платформа для мониторинга и анализа криптовалютного рынка с реальными данными и продвинутой аналитикой">
+    <meta name="keywords" content="криптовалюты, биткоин, ethereum, мониторинг, анализ, рынок, трейдинг">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>₿</text></svg>">
+</head>
+<body>
+    <!-- HEADER -->
+    <header class="site-header" role="banner">
+        <div class="container">
+            <div class="header-content">
+                <a href="#" class="logo" id="siteLogo" aria-label="CryptoDrom - главная страница">
+                    <div class="logo-icon" aria-hidden="true">₿</div>
+                    <span class="logo-text">CryptoDrom</span>
+                </a>
+                
+                <div class="control-panel">
+                    <div class="lang-switcher" role="group" aria-label="Выбор языка">
+                        <button class="lang-btn active" data-lang="ru" aria-label="Русский язык" aria-pressed="true">RU</button>
+                        <button class="lang-btn" data-lang="en" aria-label="Английский язык" aria-pressed="false">EN</button>
+                    </div>
+                    
+                    <div class="theme-control">
+                        <span class="theme-label" id="themeText">Тёмная</span>
+                        <label class="theme-switch">
+                            <input type="checkbox" id="themeToggle" checked aria-label="Переключить тему">
+                            <span class="theme-slider" aria-hidden="true"></span>
+                        </label>
+                    </div>
                 </div>
             </div>
-            <div class="coin-rank-large" id="modalCoinRank" aria-label="Ранг"></div>
         </div>
-        <div class="price-section">
-            <div class="current-price" id="modalCoinPrice"></div>
-            <div class="price-change" id="modalCoinChange"></div>
-        </div>
-        <div class="stats-grid">
-            <div class="stat-item">
-                <div class="stat-label">Капитализация</div>
-                <div class="stat-value" id="modalCoinMarketCap"></div>
-            </div>
-            <div class="stat-item">
-                <div class="stat-label">Объем 24ч</div>
-                <div class="stat-value" id="modalCoinVolume"></div>
-            </div>
-            <div class="stat-item">
-                <div class="stat-label">Циркулирующее предложение</div>
-                <div class="stat-value" id="modalCoinSupply"></div>
-            </div>
-            <div class="stat-item">
-                <div class="stat-label">Максимальное предложение</div>
-                <div class="stat-value" id="modalCoinMaxSupply"></div>
-            </div>
-        </div>
-        <div class="action-buttons">
-            <button class="action-btn" id="modalChartBtn">
-                <span class="btn-text">Показать график</span>
-            </button>
-            <button class="action-btn secondary" id="modalDetailsBtn">
-                <span class="btn-text">Подробное описание</span>
-            </button>
-        </div>
-    </div>
-</div>
+    </header>
 
-<!-- Обнови секцию Fear & Greed в index.html -->
-<div class="fear-greed-scale" aria-labelledby="fearGreedScaleDesc">
-    <div class="gauge-container">
-        <div class="gauge-background" role="img" aria-label="Шкала индекса страха и жадности"></div>
-        <div class="gauge-indicator" id="fearGreedIndicator" role="slider" 
-             aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"
-             aria-valuetext="75 - Жадность">
-            <div class="indicator-arrow" aria-hidden="true"></div>
-            <div class="indicator-line" aria-hidden="true"></div>
+    <!-- PROMO SECTION -->
+    <section class="promo-section" aria-labelledby="promoTitle">
+        <div class="container">
+            <div class="promo-content">
+                <h1 class="promo-title" id="promoTitle">Добро пожаловать в Crypto Dashboard</h1>
+                <p class="promo-subtitle" id="promoSubtitle">Реальный мониторинг крипторынка с продвинутой аналитикой</p>
+                
+                <div class="promo-stats" role="group" aria-label="Статистика рынка">
+                    <div class="promo-stat">
+                        <span class="stat-number" id="totalMarketCap">$2.1T</span>
+                        <span class="stat-label">Общая капитализация</span>
+                    </div>
+                    <div class="promo-stat">
+                        <span class="stat-number" id="totalVolume">$85.3B</span>
+                        <span class="stat-label">Объем 24ч</span>
+                    </div>
+                    <div class="promo-stat">
+                        <span class="stat-number" id="activeCoins">12,456</span>
+                        <span class="stat-label">Активные монеты</span>
+                    </div>
+                    <div class="promo-stat">
+                        <span class="stat-number" id="btcDominance">48.2%</span>
+                        <span class="stat-label">Доминирование BTC</span>
+                    </div>
+                </div>
+                
+                <div class="promo-buttons">
+                    <button class="promo-btn" id="exploreBtn">
+                        <span class="btn-text">Исследовать рынок</span>
+                    </button>
+                    <button class="promo-btn secondary" id="featuresBtn">
+                        <span class="btn-text">Возможности</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- MAIN CONTENT -->
+    <main id="main-content" class="main-content" role="main">
+        <!-- FEAR & GREED INDEX -->
+        <section class="section" aria-labelledby="fearGreedTitle">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title" id="fearGreedTitle">Индекс Страха и Жадности</h2>
+                    <p class="section-subtitle">Индикатор настроений крипторынка в реальном времени</p>
+                </div>
+
+                <div class="fear-greed-widget">
+                    <div class="fear-greed-container">
+                        <div class="fear-greed-scale">
+                            <div class="gauge-container">
+                                <div class="gauge-background">
+                                    <div class="gauge-segment extreme-fear"></div>
+                                    <div class="gauge-segment fear"></div>
+                                    <div class="gauge-segment neutral"></div>
+                                    <div class="gauge-segment greed"></div>
+                                    <div class="gauge-segment extreme-greed"></div>
+                                </div>
+                                <div class="gauge-indicator" id="fearGreedIndicator">
+                                    <div class="indicator-arrow"></div>
+                                    <div class="indicator-line"></div>
+                                </div>
+                            </div>
+                            <div class="gauge-labels">
+                                <span>0</span>
+                                <span>25</span>
+                                <span>50</span>
+                                <span>75</span>
+                                <span>100</span>
+                            </div>
+                            <div class="gauge-states">
+                                <span class="state-label">Крайний страх</span>
+                                <span class="state-label">Страх</span>
+                                <span class="state-label">Нейтрально</span>
+                                <span class="state-label">Жадность</span>
+                                <span class="state-label">Крайняя жадность</span>
+                            </div>
+                        </div>
+                        <div class="fear-greed-info">
+                            <div class="current-value">
+                                <span class="value-number" id="fearGreedValue">75</span>
+                                <span class="value-label">Текущее значение</span>
+                            </div>
+                            <div class="current-state">
+                                <span class="state-text" id="fearGreedText">Жадность</span>
+                                <span class="state-label">Состояние рынка</span>
+                            </div>
+                            <div class="last-update">
+                                <span class="update-text" id="fearGreedUpdate">Обновлено только что</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="fear-greed-description">
+                        <p>Индекс показывает текущие настроения на крипторынке. Значения ниже 25 указывают на страх, выше 75 - на жадность.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CRYPTOCURRENCIES TABLE -->
+        <section class="section coins-section" aria-labelledby="coinsTitle">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title" id="coinsTitle">Топ Криптовалют</h2>
+                    <p class="section-subtitle">Рейтинг по рыночной капитализации в реальном времени</p>
+                </div>
+
+                <!-- Search and Controls -->
+                <div class="table-controls">
+                    <div class="search-container">
+                        <div class="search-wrapper">
+                            <input type="text" 
+                                   class="search-input" 
+                                   id="searchInput" 
+                                   placeholder="Поиск по названию или символу..."
+                                   aria-label="Поиск криптовалют">
+                            <div class="search-icon">🔍</div>
+                            <button class="search-clear" id="searchClear" aria-label="Очистить поиск" style="display: none;">×</button>
+                        </div>
+                    </div>
+                    
+                    <div class="table-actions">
+                        <button class="action-btn secondary" id="refreshBtn">
+                            <span class="btn-text">Обновить</span>
+                        </button>
+                        <button class="action-btn secondary" id="sortBtn">
+                            <span class="btn-text">Сортировка</span>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Results Count -->
+                <div class="search-results-count" id="searchResultsCount" style="display: none;">
+                    Найдено <span id="resultsCount">0</span> монет
+                </div>
+
+                <!-- Table Container -->
+                <div class="coins-table-container">
+                    <!-- Table Header -->
+                    <div class="coins-table-header">
+                        <div class="table-row header-row">
+                            <div class="col-rank">#</div>
+                            <div class="col-name">Монета</div>
+                            <div class="col-price">Цена</div>
+                            <div class="col-change">Изменение 24ч</div>
+                            <div class="col-marketcap">Капитализация</div>
+                            <div class="col-volume">Объем 24ч</div>
+                            <div class="col-sparkline">График 7д</div>
+                            <div class="col-action"></div>
+                        </div>
+                    </div>
+
+                    <!-- Table Body -->
+                    <div class="coins-table" id="coinsTable">
+                        <!-- Coins will be loaded here by JavaScript -->
+                    </div>
+                </div>
+
+                <!-- Loading State -->
+                <div class="loading-state" id="loadingState" style="display: none;">
+                    <div class="loading-spinner"></div>
+                    <p>Загрузка данных...</p>
+                </div>
+
+                <!-- Error State -->
+                <div class="error-state" id="errorState" style="display: none;">
+                    <div class="error-icon">⚠️</div>
+                    <h3 class="error-title">Ошибка загрузки</h3>
+                    <p class="error-text">Не удалось загрузить данные. Пожалуйста, проверьте подключение к интернету.</p>
+                    <button class="action-btn" id="retryBtn">
+                        <span class="btn-text">Повторить попытку</span>
+                    </button>
+                </div>
+
+                <!-- Pagination -->
+                <div class="pagination">
+                    <button class="page-btn" id="prevPage">
+                        <span class="btn-text">← Назад</span>
+                    </button>
+                    
+                    <div class="page-info">
+                        <span id="pageInfo">Страница 1 из 10</span>
+                        <span class="page-stats" id="pageStats">Показано 1-20 из 100</span>
+                    </div>
+                    
+                    <button class="page-btn" id="nextPage">
+                        <span class="btn-text">Вперёд →</span>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- MARKET OVERVIEW -->
+        <section class="section market-overview">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Обзор рынка</h2>
+                    <p class="section-subtitle">Ключевые метрики и показатели крипторынка</p>
+                </div>
+
+                <div class="market-stats-grid">
+                    <div class="market-stat-card">
+                        <div class="stat-icon">📈</div>
+                        <div class="stat-content">
+                            <h3 class="stat-title">Общая капитализация</h3>
+                            <div class="stat-value">$2.14T</div>
+                            <div class="stat-change positive">+2.3%</div>
+                        </div>
+                    </div>
+                    
+                    <div class="market-stat-card">
+                        <div class="stat-icon">💹</div>
+                        <div class="stat-content">
+                            <h3 class="stat-title">Общий объем 24ч</h3>
+                            <div class="stat-value">$85.67B</div>
+                            <div class="stat-change positive">+5.1%</div>
+                        </div>
+                    </div>
+                    
+                    <div class="market-stat-card">
+                        <div class="stat-icon">₿</div>
+                        <div class="stat-content">
+                            <h3 class="stat-title">Доминирование BTC</h3>
+                            <div class="stat-value">48.2%</div>
+                            <div class="stat-change negative">-0.8%</div>
+                        </div>
+                    </div>
+                    
+                    <div class="market-stat-card">
+                        <div class="stat-icon">🔮</div>
+                        <div class="stat-content">
+                            <h3 class="stat-title">Доминирование ETH</h3>
+                            <div class="stat-value">16.8%</div>
+                            <div class="stat-change positive">+0.3%</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="logo">
+                        <div class="logo-icon">₿</div>
+                        <span class="logo-text">CryptoDrom</span>
+                    </div>
+                    <p class="footer-description">
+                        Передовая платформа для мониторинга и анализа криптовалютного рынка
+                    </p>
+                </div>
+                
+                <div class="footer-links">
+                    <div class="footer-section">
+                        <h4 class="footer-title">Продукт</h4>
+                        <a href="#" class="footer-link">Функции</a>
+                        <a href="#" class="footer-link">API</a>
+                        <a href="#" class="footer-link">Мобильное приложение</a>
+                    </div>
+                    
+                    <div class="footer-section">
+                        <h4 class="footer-title">Компания</h4>
+                        <a href="#" class="footer-link">О нас</a>
+                        <a href="#" class="footer-link">Блог</a>
+                        <a href="#" class="footer-link">Карьера</a>
+                    </div>
+                    
+                    <div class="footer-section">
+                        <h4 class="footer-title">Поддержка</h4>
+                        <a href="#" class="footer-link">Помощь</a>
+                        <a href="#" class="footer-link">Контакты</a>
+                        <a href="#" class="footer-link">Сообщество</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <div class="footer-text">© 2024 CryptoDashboard. Все права защищены.</div>
+                <div class="footer-legal">
+                    <a href="#" class="footer-link">Политика конфиденциальности</a>
+                    <a href="#" class="footer-link">Условия использования</a>
+                    <a href="#" class="footer-link">Cookie</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- MODAL WINDOW -->
+    <div id="coinModal" class="modal-overlay" style="display: none;">
+        <div class="modal-content">
+            <button class="modal-close" id="modalClose">×</button>
+            <div class="modal-header">
+                <div class="col-name">
+                    <img id="modalCoinIcon" class="coin-icon-large" src="" alt="">
+                    <div class="coin-name-table">
+                        <span id="modalCoinName" class="coin-name-main"></span>
+                        <span id="modalCoinSymbol" class="coin-symbol-table"></span>
+                    </div>
+                </div>
+                <div class="coin-rank-large" id="modalCoinRank">#1</div>
+            </div>
+            <div class="price-section">
+                <div class="current-price" id="modalCoinPrice">$43,250.67</div>
+                <div class="price-change" id="modalCoinChange">+2.34%</div>
+            </div>
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <div class="stat-label">Капитализация</div>
+                    <div class="stat-value" id="modalCoinMarketCap">$847.26B</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-label">Объем 24ч</div>
+                    <div class="stat-value" id="modalCoinVolume">$25.46B</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-label">Циркулирующее предложение</div>
+                    <div class="stat-value" id="modalCoinSupply">19,629,318</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-label">Максимальное предложение</div>
+                    <div class="stat-value" id="modalCoinMaxSupply">21,000,000</div>
+                </div>
+            </div>
+            <div class="action-buttons">
+                <button class="action-btn" id="modalChartBtn">
+                    <span class="btn-text">Показать график</span>
+                </button>
+                <button class="action-btn secondary" id="modalDetailsBtn">
+                    <span class="btn-text">Подробное описание</span>
+                </button>
+            </div>
         </div>
     </div>
-    <div class="gauge-labels">
-        <span>0</span>
-        <span>25</span>
-        <span>50</span>
-        <span>75</span>
-        <span>100</span>
-    </div>
-    <div class="gauge-states">
-        <span class="state-label">Крайний страх</span>
-        <span class="state-label">Страх</span>
-        <span class="state-label">Нейтрально</span>
-        <span class="state-label">Жадность</span>
-        <span class="state-label">Крайняя жадность</span>
-    </div>
-    <div id="fearGreedScaleDesc" class="visually-hidden">
-        Шкала индекса страха и жадности от 0 до 100. 0-24: Крайний страх, 25-49: Страх, 50: Нейтрально, 51-74: Жадность, 75-100: Крайняя жадность.
-    </div>
-</div>
 
-<!-- Обнови скрипты в index.html -->
-<script src="config.js"></script>
-<script src="fear-greed.js"></script>
-<script src="coins-manager.js"></script>
-<script src="modal-manager.js"></script>
-<script src="app.js"></script>
+    <!-- Scripts -->
+    <script src="app.js"></script>
+</body>
+</html>
