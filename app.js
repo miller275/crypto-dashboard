@@ -3,17 +3,21 @@
 // ===== ГЛОБАЛЬНЫЕ ПЕРЕМЕННЫЕ =====
 let allCoinsCache = [];
 let currentCharts = new Map();
+let refreshInterval = null;
 
 // ===== СИСТЕМА ТЕМ =====
 function initTheme() {
   try {
-    const savedTheme = localStorage.getItem('cryptoTheme') || 'dark';
+    const savedTheme = localStorage.getItem('cryptoTheme') || CONFIG.currentTheme;
     CONFIG.currentTheme = savedTheme;
     
     document.documentElement.setAttribute('data-theme', savedTheme);
     
     const themeToggle = document.getElementById('themeToggle');
-    if (themeToggle) themeToggle.checked = savedTheme === 'dark';
+    if (themeToggle) {
+      themeToggle.checked = savedTheme === 'dark';
+    }
+    
     updateThemeText();
     
   } catch (e) {
@@ -30,14 +34,14 @@ function toggleTheme() {
   
   updateThemeText();
   updateCharts();
+  ConfigUtils.saveToStorage();
 }
 
 function updateThemeText() {
   const themeText = document.getElementById('themeText');
   if (themeText) {
-    const text = CONFIG.currentTheme === 'dark' 
-      ? (CONFIG.currentLang === 'ru' ? 'Тёмная' : 'Dark')
-      : (CONFIG.currentLang === 'ru' ? 'Светлая' : 'Light');
+    const t = TRANSLATIONS[CONFIG.currentLang];
+    const text = CONFIG.currentTheme === 'dark' ? t.themeText : t.lightThemeText;
     themeText.textContent = text;
   }
 }
@@ -45,7 +49,7 @@ function updateThemeText() {
 // ===== СИСТЕМА ЯЗЫКА =====
 function initLanguage() {
   try {
-    const savedLang = localStorage.getItem('cryptoLang') || 'ru';
+    const savedLang = localStorage.getItem('cryptoLang') || CONFIG.currentLang;
     CONFIG.currentLang = savedLang;
     
     updateLanguageButtons();
@@ -73,6 +77,7 @@ function changeLanguage(lang) {
   updateAllTranslations();
   loadCoins();
   loadFearGreedIndex();
+  ConfigUtils.saveToStorage();
 }
 
 function updateAllTranslations() {
@@ -82,22 +87,24 @@ function updateAllTranslations() {
     
     // Обновляем все тексты
     updateElementText('#siteLogo', t.siteLogo);
-    updateElementText('#themeText', CONFIG.currentTheme === 'dark' 
-      ? (CONFIG.currentLang === 'ru' ? 'Тёмная' : 'Dark')
-      : (CONFIG.currentLang === 'ru' ? 'Светлая' : 'Light'));
+    updateElementText('#themeText', CONFIG.currentTheme === 'dark' ? t.themeText : t.lightThemeText);
     updateElementText('#promoTitle', t.promoTitle);
     updateElementText('#promoSubtitle', t.promoSubtitle);
     updateElementText('#promoBtn', t.promoBtn);
     updateElementText('#coinsTitle', t.coinsTitle);
     updateElementText('.fear-greed-title', t.fearGreedTitle);
-    updateElementText('#prevPage', '← ' + (CONFIG.currentLang === 'ru' ? 'Назад' : 'Previous'));
-    updateElementText('#nextPage', (CONFIG.currentLang === 'ru' ? 'Вперёд' : 'Next') + ' →');
+    updateElementText('#prevPage', '← ' + t.prevPage);
+    updateElementText('#nextPage', t.nextPage + ' →');
     updateElementText('#pageInfo', `${t.page} ${CONFIG.currentPage}`);
-    updateElementText('#fearGreedValue', CONFIG.fearGreedValue.toString());
-    updateElementText('#fearGreedText', t[CONFIG.fearGreedState]);
     
     // Обновляем состояния Fear & Greed
     updateFearGreedStates();
+    
+    // Обновляем значения Fear & Greed
+    const valueDisplay = document.getElementById('fearGreedValue');
+    const textDisplay = document.getElementById('fearGreedText');
+    if (valueDisplay) valueDisplay.textContent = CONFIG.fearGreedValue;
+    if (textDisplay) textDisplay.textContent = t[CONFIG.fearGreedState];
     
   } catch (e) {
     console.error('Ошибка обновления переводов:', e);
@@ -106,7 +113,7 @@ function updateAllTranslations() {
 
 function updateFearGreedStates() {
   const t = TRANSLATIONS[CONFIG.currentLang];
-  const stateLabels = document.querySelectorAll('.state-label');
+  const stateLabels = document.querySelectorAll('.scale-states .state-label');
   if (stateLabels.length === 5) {
     stateLabels[0].textContent = t.extremeFear;
     stateLabels[1].textContent = t.fear;
@@ -132,7 +139,7 @@ function createSkeletonLoader() {
   const coinGrid = document.getElementById('coinGrid');
   if (!coinGrid) return;
   
-  const skeletonCount = 6;
+  const skeletonCount = CONFIG.coinsPerPage;
   let skeletonHTML = '';
   
   for (let i = 0; i < skeletonCount; i++) {
@@ -167,18 +174,31 @@ function createSkeletonLoader() {
 }
 
 // ===== ЗАГРУЗКА МОНЕТ =====
-async function loadCoins() {
+async function loadCoins(showLoading = true) {
   const coinGrid = document.getElementById('coinGrid');
   if (!coinGrid) return;
   
   try {
-    createSkeletonLoader();
+    if (showLoading) {
+      createSkeletonLoader();
+    }
     
     // Пробуем API, если не получается - используем тестовые данные
     try {
-      const response = await fetch(
-        `https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&order=market_cap_desc&per_page=${CONFIG.coinsPerPage}&page=${CONFIG.currentPage}&sparkline=true&price_change_percentage=24h`
-      );
+      const apiUrl = API_CONFIG.methods.buildRequest('coins', {}, {
+        vs_currency: 'usd',
+        order: 'market_cap_desc',
+        per_page: CONFIG.coinsPerPage,
+        page: CONFIG.currentPage,
+        sparkline: true,
+        price_change_percentage: '24h'
+      });
+      
+      const response = await fetch(apiUrl, {
+        method: 'GET',
+        headers: API_CONFIG.headers,
+        signal: AbortSignal.timeout(CONFIG.apiTimeout)
+      });
       
       if (response.ok) {
         const coins = await response.json();
@@ -190,10 +210,34 @@ async function loadCoins() {
         }));
         renderCoins(allCoinsCache);
         updatePagination();
+        
+        // Сохраняем в кэш если включено
+        if (CONFIG.enableCache) {
+          const cacheData = {
+            coins: allCoinsCache,
+            timestamp: Date.now()
+          };
+          localStorage.setItem('cryptoCoinsCache', JSON.stringify(cacheData));
+        }
+        
         return;
       }
     } catch (apiError) {
-      console.log('API недоступен, используем тестовые данные');
+      console.log('API недоступен, пробуем кэш или тестовые данные:', apiError);
+    }
+    
+    // Пробуем загрузить из кэша
+    if (CONFIG.enableCache) {
+      const cachedData = localStorage.getItem('cryptoCoinsCache');
+      if (cachedData) {
+        const { coins, timestamp } = JSON.parse(cachedData);
+        if (Date.now() - timestamp < CONFIG.cacheDuration) {
+          allCoinsCache = coins;
+          renderCoins(allCoinsCache);
+          updatePagination();
+          return;
+        }
+      }
     }
     
     // Используем тестовые данные с улучшенными sparkline данными
@@ -243,7 +287,7 @@ function renderCoins(coins) {
     
     coinGrid.innerHTML = coins.map((coin, index) => {
       const change = coin.price_change_percentage_24h || 0;
-      const changeClass = change >= 0 ? 'change-positive' : 'change-negative';
+      const changeClass = DataUtils.getChangeClass(change);
       const changeSymbol = change >= 0 ? '+' : '';
       const chartId = `chart-${coin.id}-${index}`;
       
@@ -261,19 +305,19 @@ function renderCoins(coins) {
               <div class="coin-symbol">${coin.symbol.toUpperCase()}</div>
             </div>
           </div>
-          <div class="coin-price" aria-label="${t.price}: ${formatPrice(coin.current_price)}">
-            ${formatPrice(coin.current_price)}
+          <div class="coin-price" aria-label="${t.price}: ${DataUtils.formatCurrency(coin.current_price)}">
+            ${DataUtils.formatCurrency(coin.current_price)}
           </div>
           <div class="coin-change ${changeClass}" aria-label="${t.change24h}: ${changeSymbol}${change.toFixed(2)}%">
             ${changeSymbol}${change.toFixed(2)}%
           </div>
           <div class="coin-stats">
             <div class="coin-stat">
-              <div class="stat-value">${formatCurrency(coin.market_cap)}</div>
+              <div class="stat-value">${DataUtils.formatNumber(coin.market_cap)}</div>
               <div class="stat-label">${t.marketCap}</div>
             </div>
             <div class="coin-stat">
-              <div class="stat-value">${formatCurrency(coin.total_volume)}</div>
+              <div class="stat-value">${DataUtils.formatNumber(coin.total_volume)}</div>
               <div class="stat-label">${t.volume}</div>
             </div>
           </div>
@@ -313,7 +357,7 @@ function createSparklineChart(canvasId, data, isPositive) {
         labels: data.map((_, i) => ''),
         datasets: [{
           data: data,
-          borderColor: isPositive ? '#10b981' : '#ef4444',
+          borderColor: isPositive ? CONSTANTS.CHART_COLORS.positive : CONSTANTS.CHART_COLORS.negative,
           backgroundColor: 'transparent',
           borderWidth: 2,
           fill: false,
@@ -357,31 +401,14 @@ function showErrorState() {
   
   if (coinGrid) {
     coinGrid.innerHTML = `
-      <div class="error-state" role="alert" style="text-align: center; padding: 3rem; color: var(--text-secondary);">
+      <div class="error-state" role="alert" style="text-align: center; padding: 3rem; color: var(--text-secondary); grid-column: 1 / -1;">
         <div style="font-size: 3rem; margin-bottom: 1rem;">⚠️</div>
         <h3 style="margin-bottom: 1rem; color: var(--text-primary);">${t.error}</h3>
+        <p style="margin-bottom: 1.5rem; opacity: 0.8;">${t.changeSearch}</p>
         <button onclick="loadCoins()" class="action-btn">${t.retry}</button>
       </div>
     `;
   }
-}
-
-// ===== УТИЛИТЫ ФОРМАТИРОВАНИЯ =====
-function formatCurrency(amount) {
-  if (!amount) return '$0';
-  if (amount >= 1e12) return `$${(amount / 1e12).toFixed(2)}T`;
-  if (amount >= 1e9) return `$${(amount / 1e9).toFixed(2)}B`;
-  if (amount >= 1e6) return `$${(amount / 1e6).toFixed(2)}M`;
-  if (amount >= 1e3) return `$${(amount / 1e3).toFixed(2)}K`;
-  return `$${amount.toFixed(2)}`;
-}
-
-function formatPrice(price) {
-  if (!price) return '$0';
-  if (price >= 1000) return `$${price.toLocaleString('en-US', { maximumFractionDigits: 0 })}`;
-  if (price >= 1) return `$${price.toLocaleString('en-US', { maximumFractionDigits: 2 })}`;
-  if (price >= 0.01) return `$${price.toFixed(4)}`;
-  return `$${price.toFixed(8)}`;
 }
 
 // ===== ОБРАБОТЧИК КЛИКА ПО МОНЕТЕ =====
@@ -389,21 +416,20 @@ function handleCoinClick(coinId) {
   const coin = allCoinsCache.find(c => c.id === coinId);
   if (!coin) return;
   
-  // Показываем модальное окно с деталями монеты
   showCoinDetails(coin);
 }
 
 // ===== МОДАЛЬНОЕ ОКНО С ДЕТАЛЯМИ МОНЕТЫ =====
 function showCoinDetails(coin) {
   const change = coin.price_change_percentage_24h || 0;
-  const changeClass = change >= 0 ? 'change-positive' : 'change-negative';
+  const changeClass = DataUtils.getChangeClass(change);
   const changeSymbol = change >= 0 ? '+' : '';
   const t = TRANSLATIONS[CONFIG.currentLang];
   
   const modalHTML = `
     <div class="modal-overlay" id="coinModal" onclick="closeModal()">
       <div class="modal-content" onclick="event.stopPropagation()">
-        <button class="modal-close" onclick="closeModal()" aria-label="Close">
+        <button class="modal-close" onclick="closeModal()" aria-label="${t.close}">
           &times;
         </button>
         
@@ -421,7 +447,7 @@ function showCoinDetails(coin) {
         
         <div class="modal-body">
           <div class="price-section">
-            <div class="current-price">${formatPrice(coin.current_price)}</div>
+            <div class="current-price">${DataUtils.formatCurrency(coin.current_price)}</div>
             <div class="price-change ${changeClass}">
               ${changeSymbol}${change.toFixed(2)}% (24ч)
             </div>
@@ -430,28 +456,40 @@ function showCoinDetails(coin) {
           <div class="stats-grid">
             <div class="stat-item">
               <div class="stat-label">${t.marketCap}</div>
-              <div class="stat-value">${formatCurrency(coin.market_cap)}</div>
+              <div class="stat-value">${DataUtils.formatNumber(coin.market_cap)}</div>
             </div>
             <div class="stat-item">
               <div class="stat-label">${t.volume}</div>
-              <div class="stat-value">${formatCurrency(coin.total_volume)}</div>
+              <div class="stat-value">${DataUtils.formatNumber(coin.total_volume)}</div>
             </div>
             <div class="stat-item">
-              <div class="stat-label">Рыночная доля</div>
+              <div class="stat-label">${t.marketShare}</div>
               <div class="stat-value">${((coin.market_cap / 2500000000000) * 100).toFixed(2)}%</div>
             </div>
             <div class="stat-item">
-              <div class="stat-label">Изменение 24ч</div>
+              <div class="stat-label">${t.priceChange24h}</div>
               <div class="stat-value ${changeClass}">${changeSymbol}${change.toFixed(2)}%</div>
             </div>
+            ${coin.high_24h ? `
+            <div class="stat-item">
+              <div class="stat-label">${t.high24h}</div>
+              <div class="stat-value">${DataUtils.formatCurrency(coin.high_24h)}</div>
+            </div>
+            ` : ''}
+            ${coin.low_24h ? `
+            <div class="stat-item">
+              <div class="stat-label">${t.low24h}</div>
+              <div class="stat-value">${DataUtils.formatCurrency(coin.low_24h)}</div>
+            </div>
+            ` : ''}
           </div>
           
           <div class="action-buttons">
-            <a href="https://www.tradingview.com/symbols/${coin.symbol.toUpperCase()}USD/" 
+            <a href="${CONSTANTS.EXTERNAL_URLS.tradingView}?symbol=${coin.symbol.toUpperCase()}USD" 
                target="_blank" class="action-btn" rel="noopener noreferrer">
               📊 ${t.tradingView}
             </a>
-            <a href="https://www.coingecko.com/en/coins/${coin.id}" 
+            <a href="${CONSTANTS.EXTERNAL_URLS.coinGecko}/${coin.id}" 
                target="_blank" class="action-btn secondary" rel="noopener noreferrer">
               🔍 ${t.details}
             </a>
@@ -466,6 +504,12 @@ function showCoinDetails(coin) {
   
   // Блокируем прокрутку body
   document.body.style.overflow = 'hidden';
+  
+  // Фокусируемся на модальном окне для доступности
+  const modal = document.getElementById('coinModal');
+  if (modal) {
+    modal.focus();
+  }
 }
 
 function closeModal() {
@@ -481,29 +525,30 @@ async function loadFearGreedIndex() {
   try {
     // В реальном приложении здесь был бы API запрос
     const mockData = {
-      value: 75,
-      classification: "greed",
+      value: CONFIG.fearGreedValue,
+      classification: CONFIG.fearGreedState,
       timestamp: new Date().toISOString()
     };
     
-    CONFIG.fearGreedValue = mockData.value;
-    CONFIG.fearGreedState = mockData.classification;
-    
-    const indicator = document.getElementById('fearGreedIndicator');
-    const valueDisplay = document.getElementById('fearGreedValue');
-    const textDisplay = document.getElementById('fearGreedText');
-    const t = TRANSLATIONS[CONFIG.currentLang];
-    
-    if (indicator) {
-      indicator.style.left = `${mockData.value}%`;
-      indicator.setAttribute('aria-valuenow', mockData.value);
-    }
-    if (valueDisplay) valueDisplay.textContent = mockData.value;
-    if (textDisplay) textDisplay.textContent = t[mockData.classification];
+    updateFearGreedDisplay(mockData.value, mockData.classification);
     
   } catch (error) {
     console.error('Ошибка Fear & Greed:', error);
   }
+}
+
+function updateFearGreedDisplay(value, classification) {
+  const indicator = document.getElementById('fearGreedIndicator');
+  const valueDisplay = document.getElementById('fearGreedValue');
+  const textDisplay = document.getElementById('fearGreedText');
+  const t = TRANSLATIONS[CONFIG.currentLang];
+  
+  if (indicator) {
+    indicator.style.left = `${value}%`;
+    indicator.setAttribute('aria-valuenow', value);
+  }
+  if (valueDisplay) valueDisplay.textContent = value;
+  if (textDisplay) textDisplay.textContent = t[classification];
 }
 
 // ===== ПАГИНАЦИЯ =====
@@ -520,7 +565,6 @@ function updatePagination() {
     
     if (prevBtn) {
       const isDisabled = CONFIG.currentPage === 1;
-      prevBtn.classList.toggle('disabled', isDisabled);
       prevBtn.disabled = isDisabled;
       prevBtn.setAttribute('aria-disabled', isDisabled);
     }
@@ -528,7 +572,6 @@ function updatePagination() {
     if (nextBtn) {
       const totalPages = Math.ceil(allCoinsCache.length / CONFIG.coinsPerPage);
       const isDisabled = CONFIG.currentPage >= totalPages;
-      nextBtn.classList.toggle('disabled', isDisabled);
       nextBtn.disabled = isDisabled;
       nextBtn.setAttribute('aria-disabled', isDisabled);
     }
@@ -550,6 +593,34 @@ function changePage(direction) {
   
   loadCoins();
   updatePagination();
+  ConfigUtils.saveToStorage();
+}
+
+// ===== АВТООБНОВЛЕНИЕ =====
+function initAutoRefresh() {
+  if (CONFIG.autoRefresh && !refreshInterval) {
+    refreshInterval = setInterval(() => {
+      loadCoins(false); // false - не показывать скелетон при автообновлении
+      loadFearGreedIndex();
+    }, CONFIG.refreshInterval);
+  }
+}
+
+function stopAutoRefresh() {
+  if (refreshInterval) {
+    clearInterval(refreshInterval);
+    refreshInterval = null;
+  }
+}
+
+function toggleAutoRefresh() {
+  CONFIG.autoRefresh = !CONFIG.autoRefresh;
+  if (CONFIG.autoRefresh) {
+    initAutoRefresh();
+  } else {
+    stopAutoRefresh();
+  }
+  ConfigUtils.saveToStorage();
 }
 
 // ===== ИНИЦИАЛИЗАЦИЯ =====
@@ -604,6 +675,15 @@ function initEventListeners() {
       closeModal();
     }
   });
+
+  // Видимость страницы для автообновления
+  document.addEventListener('visibilitychange', function() {
+    if (document.hidden) {
+      stopAutoRefresh();
+    } else if (CONFIG.autoRefresh) {
+      initAutoRefresh();
+    }
+  });
 }
 
 function debounce(func, wait) {
@@ -622,12 +702,20 @@ function initApp() {
   console.log('🚀 Инициализация приложения...');
   
   try {
+    // Загружаем конфигурацию
+    ConfigUtils.loadFromStorage();
+    
     initTheme();
     initLanguage();
     initEventListeners();
     
     loadCoins();
     loadFearGreedIndex();
+    
+    // Запускаем автообновление если включено
+    if (CONFIG.autoRefresh) {
+      initAutoRefresh();
+    }
     
     console.log('✅ Приложение успешно запущено!');
     
@@ -650,3 +738,4 @@ window.handleCoinClick = handleCoinClick;
 window.closeModal = closeModal;
 window.changePage = changePage;
 window.loadCoins = loadCoins;
+window.toggleAutoRefresh = toggleAutoRefresh;
