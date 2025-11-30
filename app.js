@@ -8,17 +8,12 @@ let currentCharts = new Map();
 function initTheme() {
   try {
     const savedTheme = localStorage.getItem('cryptoTheme') || 'dark';
-    const systemTheme = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
-    const theme = savedTheme === 'system' ? systemTheme : savedTheme;
+    CONFIG.currentTheme = savedTheme;
     
-    CONFIG.currentTheme = theme;
-    
-    document.documentElement.setAttribute('data-theme', theme);
+    document.documentElement.setAttribute('data-theme', savedTheme);
     
     const themeToggle = document.getElementById('themeToggle');
-    const themeText = document.getElementById('themeText');
-    
-    if (themeToggle) themeToggle.checked = theme === 'dark';
+    if (themeToggle) themeToggle.checked = savedTheme === 'dark';
     updateThemeText();
     
   } catch (e) {
@@ -94,7 +89,6 @@ function updateAllTranslations() {
     updateElementText('#promoSubtitle', t.promoSubtitle);
     updateElementText('#promoBtn', t.promoBtn);
     updateElementText('#coinsTitle', t.coinsTitle);
-    updateElementText('#mainSearch', t.searchPlaceholder, 'placeholder');
     updateElementText('.fear-greed-title', t.fearGreedTitle);
     updateElementText('#prevPage', '← ' + (CONFIG.currentLang === 'ru' ? 'Назад' : 'Previous'));
     updateElementText('#nextPage', (CONFIG.currentLang === 'ru' ? 'Вперёд' : 'Next') + ' →');
@@ -144,150 +138,32 @@ function createSkeletonLoader() {
   for (let i = 0; i < skeletonCount; i++) {
     skeletonHTML += `
       <div class="coin-card loading" aria-label="Loading cryptocurrency data">
-        <div class="coin-rank skeleton"></div>
+        <div class="coin-rank skeleton" style="background: var(--skeleton-bg);"></div>
         <div class="coin-header">
-          <div class="coin-icon-skeleton skeleton"></div>
+          <div class="skeleton" style="width: 48px; height: 48px; border-radius: 50%; background: var(--skeleton-bg);"></div>
           <div class="coin-info">
-            <div class="coin-name-skeleton skeleton"></div>
-            <div class="coin-symbol-skeleton skeleton"></div>
+            <div class="skeleton" style="width: 120px; height: 20px; background: var(--skeleton-bg); margin-bottom: 8px;"></div>
+            <div class="skeleton" style="width: 60px; height: 16px; background: var(--skeleton-bg);"></div>
           </div>
         </div>
-        <div class="coin-price-skeleton skeleton"></div>
-        <div class="coin-change-skeleton skeleton"></div>
+        <div class="skeleton" style="width: 100px; height: 28px; background: var(--skeleton-bg); margin-bottom: 12px;"></div>
+        <div class="skeleton" style="width: 80px; height: 32px; border-radius: 8px; background: var(--skeleton-bg); margin-bottom: 16px;"></div>
         <div class="coin-stats">
           <div class="coin-stat">
-            <div class="stat-value skeleton"></div>
-            <div class="stat-label skeleton"></div>
+            <div class="skeleton" style="width: 100%; height: 16px; background: var(--skeleton-bg); margin-bottom: 4px;"></div>
+            <div class="skeleton" style="width: 60%; height: 14px; background: var(--skeleton-bg);"></div>
           </div>
           <div class="coin-stat">
-            <div class="stat-value skeleton"></div>
-            <div class="stat-label skeleton"></div>
+            <div class="skeleton" style="width: 100%; height: 16px; background: var(--skeleton-bg); margin-bottom: 4px;"></div>
+            <div class="skeleton" style="width: 60%; height: 14px; background: var(--skeleton-bg);"></div>
           </div>
         </div>
-        <div class="coin-actions">
-          <div class="action-btn-skeleton skeleton"></div>
-          <div class="action-btn-skeleton skeleton"></div>
-        </div>
+        <div class="skeleton" style="width: 100%; height: 60px; border-radius: 8px; background: var(--skeleton-bg);"></div>
       </div>
     `;
   }
   
   coinGrid.innerHTML = skeletonHTML;
-}
-
-// ===== ПОИСК =====
-function initSearch() {
-  const searchInput = document.getElementById('mainSearch');
-  const searchClear = document.getElementById('searchClear');
-  
-  if (!searchInput) return;
-  
-  // Поиск с задержкой
-  let searchTimeout;
-  searchInput.addEventListener('input', function(e) {
-    const hasValue = this.value.length > 0;
-    
-    if (searchClear) {
-      searchClear.style.display = hasValue ? 'block' : 'none';
-      searchClear.setAttribute('aria-hidden', !hasValue);
-    }
-    
-    clearTimeout(searchTimeout);
-    searchTimeout = setTimeout(() => {
-      performSearch(this.value.trim());
-    }, 300);
-  });
-  
-  // Очистка поиска
-  if (searchClear) {
-    searchClear.addEventListener('click', function() {
-      searchInput.value = '';
-      searchInput.focus();
-      this.style.display = 'none';
-      this.setAttribute('aria-hidden', 'true');
-      performSearch('');
-    });
-    
-    // Скрыть кнопку очистки изначально
-    searchClear.style.display = 'none';
-    searchClear.setAttribute('aria-hidden', 'true');
-  }
-  
-  // Обработка клавиш
-  searchInput.addEventListener('keydown', function(e) {
-    if (e.key === 'Escape') {
-      this.value = '';
-      performSearch('');
-      if (searchClear) {
-        searchClear.style.display = 'none';
-        searchClear.setAttribute('aria-hidden', 'true');
-      }
-    }
-  });
-}
-
-function performSearch(query) {
-  if (!allCoinsCache.length) {
-    allCoinsCache = TEST_COINS;
-  }
-  
-  const coinGrid = document.getElementById('coinGrid');
-  if (!coinGrid) return;
-  
-  if (!query) {
-    renderCoins(allCoinsCache);
-    updateSearchResultsCount(allCoinsCache.length);
-    return;
-  }
-  
-  const searchTerm = query.toLowerCase();
-  const filteredCoins = allCoinsCache.filter(coin => 
-    coin.name.toLowerCase().includes(searchTerm) ||
-    coin.symbol.toLowerCase().includes(searchTerm)
-  );
-  
-  renderFilteredCoins(filteredCoins, query);
-  updateSearchResultsCount(filteredCoins.length, query);
-}
-
-function updateSearchResultsCount(count, query = '') {
-  const resultsElement = document.getElementById('searchResultsCount');
-  if (!resultsElement) return;
-  
-  const t = TRANSLATIONS[CONFIG.currentLang];
-  let text = '';
-  
-  if (query) {
-    text = `${t.showing} ${count} ${t.results} ${t.for} "${query}"`;
-  } else {
-    text = `${t.showing} ${count} ${t.results}`;
-  }
-  
-  resultsElement.textContent = text;
-  resultsElement.setAttribute('aria-live', 'polite');
-}
-
-function renderFilteredCoins(coins, query) {
-  const coinGrid = document.getElementById('coinGrid');
-  if (!coinGrid) return;
-  
-  const t = TRANSLATIONS[CONFIG.currentLang];
-  
-  if (coins.length === 0) {
-    coinGrid.innerHTML = `
-      <div class="search-no-results" role="status" aria-live="polite">
-        <div class="no-results-icon" aria-hidden="true">🔍</div>
-        <h3 class="no-results-title">${t.noResults}</h3>
-        <p class="no-results-text">${t.changeSearch} "<span class="search-highlight">${query}</span>"</p>
-        <button onclick="performSearch('')" class="action-btn" style="margin-top: 1rem;">
-          ${t.showAll}
-        </button>
-      </div>
-    `;
-    return;
-  }
-  
-  renderCoins(coins);
 }
 
 // ===== ЗАГРУЗКА МОНЕТ =====
@@ -372,7 +248,10 @@ function renderCoins(coins) {
       const chartId = `chart-${coin.id}-${index}`;
       
       return `
-        <div class="coin-card" data-coin-id="${coin.id}" role="article">
+        <div class="coin-card" data-coin-id="${coin.id}" role="article" 
+             onclick="handleCoinClick('${coin.id}')" 
+             onkeypress="if(event.key === 'Enter') handleCoinClick('${coin.id}')"
+             tabindex="0">
           <div class="coin-rank" aria-label="${t.rank} ${coin.market_cap_rank}">${coin.market_cap_rank}</div>
           <div class="coin-header">
             <img src="${coin.image}" alt="${coin.name}" class="coin-icon" 
@@ -400,16 +279,6 @@ function renderCoins(coins) {
           </div>
           <div class="coin-sparkline" aria-label="${t.sparkline}">
             <canvas id="${chartId}" role="img" aria-label="${coin.name} price chart"></canvas>
-          </div>
-          <div class="coin-actions">
-            <a href="https://www.tradingview.com/symbols/${coin.symbol.toUpperCase()}USD/" 
-               target="_blank" class="action-btn" rel="noopener noreferrer">
-              📊 ${t.tradingView}
-            </a>
-            <a href="https://www.coingecko.com/en/coins/${coin.id}" 
-               target="_blank" class="action-btn secondary" rel="noopener noreferrer">
-              🔍 ${t.details}
-            </a>
           </div>
         </div>
       `;
@@ -488,10 +357,9 @@ function showErrorState() {
   
   if (coinGrid) {
     coinGrid.innerHTML = `
-      <div class="error-state" role="alert">
-        <div class="error-icon" aria-hidden="true">⚠️</div>
-        <h3>${t.error}</h3>
-        <p>${t.tryAgain}</p>
+      <div class="error-state" role="alert" style="text-align: center; padding: 3rem; color: var(--text-secondary);">
+        <div style="font-size: 3rem; margin-bottom: 1rem;">⚠️</div>
+        <h3 style="margin-bottom: 1rem; color: var(--text-primary);">${t.error}</h3>
         <button onclick="loadCoins()" class="action-btn">${t.retry}</button>
       </div>
     `;
@@ -514,6 +382,128 @@ function formatPrice(price) {
   if (price >= 1) return `$${price.toLocaleString('en-US', { maximumFractionDigits: 2 })}`;
   if (price >= 0.01) return `$${price.toFixed(4)}`;
   return `$${price.toFixed(8)}`;
+}
+
+// ===== ОБРАБОТЧИК КЛИКА ПО МОНЕТЕ =====
+function handleCoinClick(coinId) {
+  const coin = allCoinsCache.find(c => c.id === coinId);
+  if (!coin) return;
+  
+  // Показываем модальное окно с деталями монеты
+  showCoinDetails(coin);
+}
+
+// ===== МОДАЛЬНОЕ ОКНО С ДЕТАЛЯМИ МОНЕТЫ =====
+function showCoinDetails(coin) {
+  const change = coin.price_change_percentage_24h || 0;
+  const changeClass = change >= 0 ? 'change-positive' : 'change-negative';
+  const changeSymbol = change >= 0 ? '+' : '';
+  const t = TRANSLATIONS[CONFIG.currentLang];
+  
+  const modalHTML = `
+    <div class="modal-overlay" id="coinModal" onclick="closeModal()">
+      <div class="modal-content" onclick="event.stopPropagation()">
+        <button class="modal-close" onclick="closeModal()" aria-label="Close">
+          &times;
+        </button>
+        
+        <div class="modal-header">
+          <div class="coin-header">
+            <img src="${coin.image}" alt="${coin.name}" class="coin-icon-large"
+                 onerror="this.src='https://via.placeholder.com/60/2962ff/ffffff?text=${coin.symbol.substring(0, 3).toUpperCase()}'">
+            <div class="coin-info">
+              <h2 class="coin-name">${coin.name}</h2>
+              <div class="coin-symbol">${coin.symbol.toUpperCase()}</div>
+            </div>
+          </div>
+          <div class="coin-rank-large">#${coin.market_cap_rank}</div>
+        </div>
+        
+        <div class="modal-body">
+          <div class="price-section">
+            <div class="current-price">${formatPrice(coin.current_price)}</div>
+            <div class="price-change ${changeClass}">
+              ${changeSymbol}${change.toFixed(2)}% (24ч)
+            </div>
+          </div>
+          
+          <div class="stats-grid">
+            <div class="stat-item">
+              <div class="stat-label">${t.marketCap}</div>
+              <div class="stat-value">${formatCurrency(coin.market_cap)}</div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-label">${t.volume}</div>
+              <div class="stat-value">${formatCurrency(coin.total_volume)}</div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-label">Рыночная доля</div>
+              <div class="stat-value">${((coin.market_cap / 2500000000000) * 100).toFixed(2)}%</div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-label">Изменение 24ч</div>
+              <div class="stat-value ${changeClass}">${changeSymbol}${change.toFixed(2)}%</div>
+            </div>
+          </div>
+          
+          <div class="action-buttons">
+            <a href="https://www.tradingview.com/symbols/${coin.symbol.toUpperCase()}USD/" 
+               target="_blank" class="action-btn" rel="noopener noreferrer">
+              📊 ${t.tradingView}
+            </a>
+            <a href="https://www.coingecko.com/en/coins/${coin.id}" 
+               target="_blank" class="action-btn secondary" rel="noopener noreferrer">
+              🔍 ${t.details}
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  `;
+  
+  // Добавляем модальное окно в DOM
+  document.body.insertAdjacentHTML('beforeend', modalHTML);
+  
+  // Блокируем прокрутку body
+  document.body.style.overflow = 'hidden';
+}
+
+function closeModal() {
+  const modal = document.getElementById('coinModal');
+  if (modal) {
+    modal.remove();
+    document.body.style.overflow = '';
+  }
+}
+
+// ===== FEAR & GREED INDEX =====
+async function loadFearGreedIndex() {
+  try {
+    // В реальном приложении здесь был бы API запрос
+    const mockData = {
+      value: 75,
+      classification: "greed",
+      timestamp: new Date().toISOString()
+    };
+    
+    CONFIG.fearGreedValue = mockData.value;
+    CONFIG.fearGreedState = mockData.classification;
+    
+    const indicator = document.getElementById('fearGreedIndicator');
+    const valueDisplay = document.getElementById('fearGreedValue');
+    const textDisplay = document.getElementById('fearGreedText');
+    const t = TRANSLATIONS[CONFIG.currentLang];
+    
+    if (indicator) {
+      indicator.style.left = `${mockData.value}%`;
+      indicator.setAttribute('aria-valuenow', mockData.value);
+    }
+    if (valueDisplay) valueDisplay.textContent = mockData.value;
+    if (textDisplay) textDisplay.textContent = t[mockData.classification];
+    
+  } catch (error) {
+    console.error('Ошибка Fear & Greed:', error);
+  }
 }
 
 // ===== ПАГИНАЦИЯ =====
@@ -562,40 +552,6 @@ function changePage(direction) {
   updatePagination();
 }
 
-// ===== FEAR & GREED INDEX =====
-async function loadFearGreedIndex() {
-  try {
-    // В реальном приложении здесь был бы API запрос
-    const mockData = {
-      value: 75,
-      classification: "greed",
-      timestamp: new Date().toISOString()
-    };
-    
-    CONFIG.fearGreedValue = mockData.value;
-    CONFIG.fearGreedState = mockData.classification;
-    
-    const indicator = document.getElementById('fearGreedIndicator');
-    const valueDisplay = document.getElementById('fearGreedValue');
-    const textDisplay = document.getElementById('fearGreedText');
-    const updateElement = document.querySelector('.update-text');
-    const t = TRANSLATIONS[CONFIG.currentLang];
-    
-    if (indicator) {
-      indicator.style.left = `${mockData.value}%`;
-      indicator.setAttribute('aria-valuenow', mockData.value);
-    }
-    if (valueDisplay) valueDisplay.textContent = mockData.value;
-    if (textDisplay) textDisplay.textContent = t[mockData.classification];
-    if (updateElement) {
-      updateElement.textContent = `${t.lastUpdate}: ${new Date().toLocaleTimeString()}`;
-    }
-    
-  } catch (error) {
-    console.error('Ошибка Fear & Greed:', error);
-  }
-}
-
 // ===== ИНИЦИАЛИЗАЦИЯ =====
 function initEventListeners() {
   // Переключатель темы
@@ -641,6 +597,13 @@ function initEventListeners() {
   window.addEventListener('resize', debounce(() => {
     updateCharts();
   }, 250));
+
+  // Обработка клавиши Escape для модального окна
+  document.addEventListener('keydown', function(event) {
+    if (event.key === 'Escape') {
+      closeModal();
+    }
+  });
 }
 
 function debounce(func, wait) {
@@ -661,7 +624,6 @@ function initApp() {
   try {
     initTheme();
     initLanguage();
-    initSearch();
     initEventListeners();
     
     loadCoins();
@@ -684,6 +646,7 @@ if (document.readyState === 'loading') {
 // Экспорт функций для глобального использования
 window.toggleTheme = toggleTheme;
 window.changeLanguage = changeLanguage;
-window.performSearch = performSearch;
+window.handleCoinClick = handleCoinClick;
+window.closeModal = closeModal;
 window.changePage = changePage;
 window.loadCoins = loadCoins;
