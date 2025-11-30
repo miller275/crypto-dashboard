@@ -147,6 +147,8 @@
     }
     .spark {
       height: 36px; width: 120px;
+      position: relative;
+      cursor: pointer;
     }
     .price-up { color: var(--green); }
     .price-down { color: var(--red); }
@@ -261,6 +263,42 @@
     .search-result-item .coin-symbol {
       color: var(--muted);
       font-size: 12px;
+    }
+
+    /* Sparkline tooltip */
+    .spark-tooltip {
+      position: absolute;
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 10px;
+      box-shadow: var(--shadow);
+      z-index: 10;
+      min-width: 180px;
+      font-size: 12px;
+      pointer-events: none;
+      opacity: 0;
+      transition: opacity 0.2s;
+    }
+    .spark-tooltip.show {
+      opacity: 1;
+    }
+    .spark-tooltip .tooltip-header {
+      font-weight: 700;
+      margin-bottom: 6px;
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 4px;
+    }
+    .spark-tooltip .tooltip-row {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 4px;
+    }
+    .spark-tooltip .tooltip-label {
+      color: var(--muted);
+    }
+    .spark-tooltip .tooltip-value {
+      font-weight: 600;
     }
 
     /* Responsive */
@@ -524,7 +562,13 @@
       copied: 'Скопировано',
       copyTicker: 'Скопировать тикер',
       darkChartTheme: 'Тёмная тема графика',
-      lightChartTheme: 'Светлая тема графика'
+      lightChartTheme: 'Светлая тема графика',
+      tooltipCurrentPrice: 'Текущая цена',
+      tooltip24hChange: 'Изменение за 24ч',
+      tooltip7dChange: 'Изменение за 7д',
+      tooltip1hChange: 'Изменение за 1ч',
+      tooltipMarketCap: 'Рыночная капитализация',
+      tooltipVolume: 'Объём за 24ч'
     },
     en: {
       brandTitle: 'Crypto Hub',
@@ -581,7 +625,13 @@
       copied: 'Copied',
       copyTicker: 'Copy Ticker',
       darkChartTheme: 'Dark Chart Theme',
-      lightChartTheme: 'Light Chart Theme'
+      lightChartTheme: 'Light Chart Theme',
+      tooltipCurrentPrice: 'Current Price',
+      tooltip24hChange: '24h Change',
+      tooltip7dChange: '7d Change',
+      tooltip1hChange: '1h Change',
+      tooltipMarketCap: 'Market Cap',
+      tooltipVolume: '24h Volume'
     }
   };
 
@@ -859,6 +909,82 @@
     renderTable();
   }
 
+  // Sparkline tooltip functionality
+  function createSparkTooltip(c) {
+    const tooltip = document.createElement('div');
+    tooltip.className = 'spark-tooltip';
+    tooltip.id = `tooltip-${c.id}`;
+    
+    const t = texts[state.language];
+    
+    const change24h = c.price_change_percentage_24h || 0;
+    const change7d = c.price_change_percentage_7d_in_currency || 0;
+    const change1h = c.price_change_percentage_1h_in_currency || 0;
+    
+    tooltip.innerHTML = `
+      <div class="tooltip-header">${c.name} (${c.symbol.toUpperCase()})</div>
+      <div class="tooltip-row">
+        <span class="tooltip-label">${t.tooltipCurrentPrice}</span>
+        <span class="tooltip-value">${fmt.money(c.current_price)}</span>
+      </div>
+      <div class="tooltip-row">
+        <span class="tooltip-label">${t.tooltip24hChange}</span>
+        <span class="tooltip-value ${change24h >= 0 ? 'price-up' : 'price-down'}">${fmt.pct(change24h)}</span>
+      </div>
+      <div class="tooltip-row">
+        <span class="tooltip-label">${t.tooltip7dChange}</span>
+        <span class="tooltip-value ${change7d >= 0 ? 'price-up' : 'price-down'}">${fmt.pct(change7d)}</span>
+      </div>
+      <div class="tooltip-row">
+        <span class="tooltip-label">${t.tooltip1hChange}</span>
+        <span class="tooltip-value ${change1h >= 0 ? 'price-up' : 'price-down'}">${fmt.pct(change1h)}</span>
+      </div>
+      <div class="tooltip-row">
+        <span class="tooltip-label">${t.tooltipMarketCap}</span>
+        <span class="tooltip-value">${fmt.money(c.market_cap)}</span>
+      </div>
+      <div class="tooltip-row">
+        <span class="tooltip-label">${t.tooltipVolume}</span>
+        <span class="tooltip-value">${fmt.money(c.total_volume)}</span>
+      </div>
+    `;
+    
+    document.body.appendChild(tooltip);
+    return tooltip;
+  }
+
+  function showSparkTooltip(c, canvas) {
+    const tooltip = document.getElementById(`tooltip-${c.id}`) || createSparkTooltip(c);
+    
+    // Position tooltip near the sparkline
+    const rect = canvas.getBoundingClientRect();
+    const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+    const scrollLeft = window.pageXOffset || document.documentElement.scrollLeft;
+    
+    let top = rect.top + scrollTop - tooltip.offsetHeight - 10;
+    let left = rect.left + scrollLeft + rect.width / 2 - tooltip.offsetWidth / 2;
+    
+    // Adjust if tooltip goes off screen
+    if (left < 10) left = 10;
+    if (left + tooltip.offsetWidth > window.innerWidth - 10) {
+      left = window.innerWidth - tooltip.offsetWidth - 10;
+    }
+    if (top < 10) {
+      top = rect.bottom + scrollTop + 10;
+    }
+    
+    tooltip.style.top = `${top}px`;
+    tooltip.style.left = `${left}px`;
+    tooltip.classList.add('show');
+  }
+
+  function hideSparkTooltip(c) {
+    const tooltip = document.getElementById(`tooltip-${c.id}`);
+    if (tooltip) {
+      tooltip.classList.remove('show');
+    }
+  }
+
   function renderTable() {
     const start = (state.page - 1) * state.pageSize;
     const view = state.filtered.slice(start, start + state.pageSize);
@@ -915,8 +1041,15 @@
         e.stopPropagation();
       });
     });
-    // Render sparklines
-    view.forEach(c => drawSpark(c));
+    // Render sparklines and bind tooltip events
+    view.forEach(c => {
+      drawSpark(c);
+      const canvas = document.getElementById(`spark-${c.id}`);
+      if (canvas) {
+        canvas.addEventListener('mouseenter', () => showSparkTooltip(c, canvas));
+        canvas.addEventListener('mouseleave', () => hideSparkTooltip(c));
+      }
+    });
   }
 
   function drawSpark(c) {
