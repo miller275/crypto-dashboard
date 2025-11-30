@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="ru" data-theme="dark">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,18 +7,24 @@
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <style>
         /* ===== СБРОС И БАЗОВЫЕ СТИЛИ ===== */
-        * {
+        *, *::before, *::after {
           margin: 0;
           padding: 0;
           box-sizing: border-box;
         }
 
+        html {
+          scroll-behavior: smooth;
+        }
+
         body {
-          font-family: 'Arial', sans-serif;
+          font-family: 'Arial', 'Segoe UI', system-ui, -apple-system, sans-serif;
           line-height: 1.6;
           background: #0f1421;
           color: #ffffff;
           transition: all 0.3s ease;
+          -webkit-font-smoothing: antialiased;
+          -moz-osx-font-smoothing: grayscale;
         }
 
         /* ===== ПЕРЕМЕННЫЕ ДЛЯ ТЕМ ===== */
@@ -26,47 +32,68 @@
           --bg-primary: #ffffff;
           --bg-secondary: #f8f9fa;
           --bg-card: #ffffff;
-          --text-primary: #333333;
-          --text-secondary: #666666;
-          --border-color: #e1e5e9;
+          --bg-overlay: rgba(0, 0, 0, 0.5);
+          --text-primary: #1f2937;
+          --text-secondary: #6b7280;
+          --text-tertiary: #9ca3af;
+          --border-color: #e5e7eb;
+          --border-light: #f3f4f6;
           --accent-color: #2962ff;
-          --positive-color: #00c853;
-          --negative-color: #ff1744;
-          --shadow: 0 2px 10px rgba(0,0,0,0.1);
-          --shadow-hover: 0 4px 20px rgba(0,0,0,0.15);
-          --table-header-bg: #f8f9fa;
-          --table-row-even: #ffffff;
-          --table-row-odd: #f8f9fa;
-          --table-hover: #e3f2fd;
+          --accent-hover: #1e40af;
+          --accent-light: #dbeafe;
+          --positive-color: #10b981;
+          --positive-light: #d1fae5;
+          --negative-color: #ef4444;
+          --negative-light: #fee2e2;
+          --warning-color: #f59e0b;
+          --warning-light: #fef3c7;
+          --shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+          --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+          --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+          --shadow-hover: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+          --gradient-primary: linear-gradient(135deg, #2962ff 0%, #7c4dff 100%);
+          --skeleton-bg: #f3f4f6;
+          --skeleton-shine: #e5e7eb;
         }
 
         [data-theme="dark"] {
           --bg-primary: #0f1421;
           --bg-secondary: #1a1f2e;
           --bg-card: #1a1f2e;
-          --text-primary: #ffffff;
-          --text-secondary: #b0b7c3;
-          --border-color: #2a2f3e;
-          --accent-color: #2962ff;
-          --positive-color: #00c853;
-          --negative-color: #ff1744;
-          --shadow: 0 2px 10px rgba(0,0,0,0.3);
-          --shadow-hover: 0 4px 20px rgba(0,0,0,0.4);
-          --table-header-bg: #2a2f3e;
-          --table-row-even: #1a1f2e;
-          --table-row-odd: #151a28;
-          --table-hover: #2a2f3e;
+          --bg-overlay: rgba(0, 0, 0, 0.7);
+          --text-primary: #f9fafb;
+          --text-secondary: #d1d5db;
+          --text-tertiary: #9ca3af;
+          --border-color: #374151;
+          --border-light: #4b5563;
+          --accent-color: #3b82f6;
+          --accent-hover: #2563eb;
+          --accent-light: #1e3a8a;
+          --positive-color: #10b981;
+          --positive-light: #065f46;
+          --negative-color: #ef4444;
+          --negative-light: #7f1d1d;
+          --warning-color: #f59e0b;
+          --warning-light: #78350f;
+          --shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.3), 0 1px 2px 0 rgba(0, 0, 0, 0.2);
+          --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.3), 0 2px 4px -1px rgba(0, 0, 0, 0.2);
+          --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.3), 0 4px 6px -2px rgba(0, 0, 0, 0.2);
+          --shadow-hover: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+          --gradient-primary: linear-gradient(135deg, #3b82f6 0%, #8b5cf6 100%);
+          --skeleton-bg: #374151;
+          --skeleton-shine: #4b5563;
         }
 
         /* ===== ПРИМЕНЕНИЕ ТЕМЫ ===== */
         body {
           background-color: var(--bg-primary);
           color: var(--text-primary);
+          min-height: 100vh;
         }
 
         /* ===== КОНТЕЙНЕРЫ ===== */
         .container {
-          max-width: 1400px;
+          max-width: 1200px;
           margin: 0 auto;
           padding: 0 20px;
         }
@@ -75,22 +102,28 @@
         .site-header {
           background: var(--bg-secondary);
           border-bottom: 1px solid var(--border-color);
-          padding: 15px 0;
+          padding: 16px 0;
           position: sticky;
           top: 0;
           z-index: 1000;
+          backdrop-filter: blur(10px);
         }
 
         .header-content {
           display: flex;
           justify-content: space-between;
           align-items: center;
+          gap: 20px;
         }
 
         .logo {
-          font-size: 24px;
-          font-weight: bold;
+          font-size: 28px;
+          font-weight: 800;
           color: var(--accent-color);
+          text-decoration: none;
+          display: flex;
+          align-items: center;
+          gap: 8px;
         }
 
         /* ===== ПАНЕЛЬ УПРАВЛЕНИЯ ===== */
@@ -105,18 +138,19 @@
           display: flex;
           background: var(--bg-card);
           border: 1px solid var(--border-color);
-          border-radius: 8px;
+          border-radius: 12px;
           padding: 4px;
         }
 
         .lang-btn {
-          padding: 6px 12px;
+          padding: 8px 16px;
           border: none;
           background: none;
           color: var(--text-secondary);
           cursor: pointer;
-          border-radius: 4px;
+          border-radius: 8px;
           transition: all 0.3s ease;
+          font-weight: 500;
         }
 
         .lang-btn.active {
@@ -132,19 +166,21 @@
         .theme-control {
           display: flex;
           align-items: center;
-          gap: 10px;
+          gap: 12px;
         }
 
         .theme-label {
           font-size: 14px;
           color: var(--text-secondary);
+          font-weight: 500;
+          min-width: 60px;
         }
 
         .theme-switch {
           position: relative;
           display: inline-block;
-          width: 50px;
-          height: 24px;
+          width: 60px;
+          height: 28px;
         }
 
         .theme-switch input {
@@ -160,16 +196,16 @@
           left: 0;
           right: 0;
           bottom: 0;
-          background-color: #ccc;
+          background: var(--border-color);
           transition: .4s;
-          border-radius: 24px;
+          border-radius: 34px;
         }
 
         .theme-slider:before {
           position: absolute;
           content: "";
-          height: 16px;
-          width: 16px;
+          height: 20px;
+          width: 20px;
           left: 4px;
           bottom: 4px;
           background-color: white;
@@ -178,134 +214,141 @@
         }
 
         input:checked + .theme-slider {
-          background-color: var(--accent-color);
+          background: var(--accent-color);
         }
 
         input:checked + .theme-slider:before {
-          transform: translateX(26px);
+          transform: translateX(32px);
         }
 
-        /* ===== ПОИСК В HEADER ===== */
-        .header-search {
-          display: flex;
-          align-items: center;
-          gap: 10px;
-        }
-
-        .search-wrapper {
+        /* ===== PROMO СЕКЦИЯ ===== */
+        .promo-section {
+          background: var(--gradient-primary);
+          color: white;
+          text-align: center;
+          padding: 120px 0;
           position: relative;
-          display: flex;
+          overflow: hidden;
+        }
+
+        .promo-content {
+          position: relative;
+          z-index: 2;
+          max-width: 800px;
+          margin: 0 auto;
+        }
+
+        .promo-title {
+          font-size: 3.5rem;
+          margin-bottom: 24px;
+          font-weight: 800;
+          line-height: 1.1;
+        }
+
+        .promo-subtitle {
+          font-size: 1.25rem;
+          margin-bottom: 40px;
+          opacity: 0.9;
+          line-height: 1.6;
+        }
+
+        .promo-btn {
+          display: inline-flex;
           align-items: center;
-        }
-
-        .search-input {
-          width: 300px;
-          padding: 10px 40px 10px 15px;
-          border: 1px solid var(--border-color);
-          border-radius: 20px;
-          background: var(--bg-card);
-          color: var(--text-primary);
-          font-size: 14px;
-          transition: all 0.3s ease;
-          outline: none;
-        }
-
-        .search-input:focus {
-          border-color: var(--accent-color);
-          box-shadow: 0 0 0 2px rgba(41, 98, 255, 0.1);
-          width: 350px;
-        }
-
-        .search-input::placeholder {
-          color: var(--text-secondary);
-        }
-
-        .search-icon {
-          position: absolute;
-          right: 12px;
-          top: 50%;
-          transform: translateY(-50%);
-          color: var(--text-secondary);
-          pointer-events: none;
-        }
-
-        .search-clear {
-          position: absolute;
-          right: 35px;
-          background: none;
+          gap: 8px;
+          padding: 16px 32px;
+          background: white;
+          color: var(--accent-color);
+          text-decoration: none;
+          border-radius: 12px;
+          font-weight: 600;
           border: none;
-          font-size: 1.2rem;
-          color: var(--text-secondary);
           cursor: pointer;
-          padding: 2px;
-          border-radius: 50%;
-          transition: all 0.2s ease;
-          display: none;
+          transition: all 0.3s ease;
+          font-size: 1rem;
+          box-shadow: var(--shadow-lg);
         }
 
-        .search-clear:hover {
-          background: var(--bg-secondary);
-          color: var(--text-primary);
+        .promo-btn:hover {
+          transform: translateY(-2px);
+          box-shadow: var(--shadow-hover);
         }
 
-        .search-clear.visible {
-          display: block;
-        }
-
-        /* ===== СЕКЦИЯ МОНЕТ ===== */
+        /* ===== ОСНОВНЫЕ СЕКЦИИ ===== */
         .section {
-          padding: 20px 0;
+          padding: 80px 0;
         }
 
         .section-title {
-          font-size: 28px;
-          margin-bottom: 20px;
+          font-size: 2.5rem;
+          text-align: center;
+          margin-bottom: 48px;
           color: var(--text-primary);
+          position: relative;
+          font-weight: 700;
+        }
+
+        .section-title::after {
+          content: '';
+          position: absolute;
+          bottom: -16px;
+          left: 50%;
+          transform: translateX(-50%);
+          width: 80px;
+          height: 4px;
+          background: var(--accent-color);
+          border-radius: 2px;
         }
 
         /* ===== FEAR & GREED INDEX ===== */
         .fear-greed-widget {
           background: var(--bg-card);
           border: 1px solid var(--border-color);
-          border-radius: 12px;
-          padding: 20px;
-          margin: 20px 0;
-          box-shadow: var(--shadow);
+          border-radius: 20px;
+          padding: 32px;
+          margin: 40px 0;
+          box-shadow: var(--shadow-lg);
+          transition: all 0.3s ease;
+        }
+
+        .fear-greed-widget:hover {
+          box-shadow: var(--shadow-hover);
         }
 
         .fear-greed-title {
-          font-size: 20px;
-          margin-bottom: 20px;
+          text-align: center;
+          font-size: 1.75rem;
+          margin-bottom: 32px;
           color: var(--text-primary);
-          font-weight: 600;
+          font-weight: 700;
         }
 
         .fear-greed-container {
           display: grid;
           grid-template-columns: 2fr 1fr;
-          gap: 20px;
+          gap: 32px;
           align-items: start;
         }
 
         .fear-greed-scale {
           display: flex;
           flex-direction: column;
-          gap: 10px;
+          gap: 16px;
         }
 
         .scale-labels {
           display: flex;
           justify-content: space-between;
-          font-size: 11px;
+          font-size: 0.75rem;
           color: var(--text-secondary);
-          font-weight: 500;
+          font-weight: 600;
         }
 
         .scale-bar {
           position: relative;
-          height: 24px;
+          height: 32px;
           background: var(--bg-secondary);
-          border-radius: 12px;
+          border-radius: 16px;
           overflow: hidden;
         }
 
@@ -328,42 +371,49 @@
 
         .fear-greed-indicator {
           position: absolute;
-          top: -4px;
+          top: -8px;
           transform: translateX(-50%);
+          transition: left 0.8s ease;
           z-index: 10;
         }
 
         .indicator-arrow {
           width: 0;
           height: 0;
-          border-left: 6px solid transparent;
-          border-right: 6px solid transparent;
-          border-bottom: 8px solid var(--accent-color);
+          border-left: 10px solid transparent;
+          border-right: 10px solid transparent;
+          border-bottom: 12px solid var(--accent-color);
           margin: 0 auto;
         }
 
         .indicator-line {
-          width: 2px;
-          height: 28px;
+          width: 4px;
+          height: 44px;
           background: var(--accent-color);
           margin: 0 auto;
+          border-radius: 2px;
         }
 
         .scale-states {
           display: flex;
           justify-content: space-between;
-          font-size: 10px;
+          font-size: 0.75rem;
           color: var(--text-secondary);
           text-align: center;
+        }
+
+        .state-label {
+          flex: 1;
+          padding: 0 8px;
         }
 
         .fear-greed-info {
           display: flex;
           flex-direction: column;
-          gap: 15px;
-          padding: 15px;
+          gap: 24px;
+          padding: 24px;
           background: var(--bg-secondary);
-          border-radius: 8px;
+          border-radius: 16px;
         }
 
         .current-value, .current-state {
@@ -372,318 +422,412 @@
 
         .value-number {
           display: block;
-          font-size: 24px;
-          font-weight: bold;
+          font-size: 3rem;
+          font-weight: 800;
           color: var(--accent-color);
+          line-height: 1;
         }
 
         .state-text {
           display: block;
-          font-size: 16px;
-          font-weight: 600;
+          font-size: 1.5rem;
+          font-weight: 700;
           color: var(--text-primary);
+          line-height: 1.2;
         }
 
         .value-label, .state-label {
           display: block;
-          font-size: 11px;
+          font-size: 0.875rem;
           color: var(--text-secondary);
-          margin-top: 4px;
+          margin-top: 5px;
         }
 
-        /* ===== ТАБЛИЦА МОНЕТ ===== */
-        .coins-table-container {
+        /* ===== КЛИКАБЕЛЬНЫЕ МОНЕТЫ ===== */
+        .coin-grid {
+          display: grid;
+          grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+          gap: 24px;
+          margin-bottom: 48px;
+        }
+
+        .coin-card {
           background: var(--bg-card);
-          border-radius: 12px;
           border: 1px solid var(--border-color);
+          border-radius: 16px;
+          padding: 24px;
+          transition: all 0.3s ease;
+          position: relative;
           overflow: hidden;
           box-shadow: var(--shadow);
-          overflow-x: auto;
-        }
-
-        .coins-table {
-          width: 100%;
-          border-collapse: collapse;
-          min-width: 800px;
-        }
-
-        .coins-table th {
-          background: var(--table-header-bg);
-          padding: 15px 12px;
-          text-align: left;
-          font-weight: 600;
-          font-size: 14px;
-          color: var(--text-secondary);
-          border-bottom: 1px solid var(--border-color);
           cursor: pointer;
-          transition: background-color 0.2s ease;
-          user-select: none;
-          white-space: nowrap;
         }
 
-        .coins-table th:hover {
-          background: var(--table-hover);
+        .coin-card:hover {
+          transform: translateY(-4px);
+          box-shadow: var(--shadow-hover);
+          border-color: var(--accent-color);
         }
 
-        .coins-table th.sort-asc::after {
-          content: " ↑";
-          color: var(--accent-color);
-        }
-
-        .coins-table th.sort-desc::after {
-          content: " ↓";
-          color: var(--accent-color);
-        }
-
-        .coins-table td {
-          padding: 15px 12px;
-          border-bottom: 1px solid var(--border-color);
-          font-size: 14px;
-          white-space: nowrap;
-        }
-
-        .coins-table tbody tr:nth-child(even) {
-          background: var(--table-row-even);
-        }
-
-        .coins-table tbody tr:nth-child(odd) {
-          background: var(--table-row-odd);
-        }
-
-        .coins-table tbody tr:hover {
-          background: var(--table-hover);
-        }
-
-        .coins-table tbody tr:last-child td {
-          border-bottom: none;
-        }
-
-        /* Стили для колонок таблицы */
-        .coin-rank {
-          width: 60px;
-          text-align: center;
-          font-weight: 600;
+        .coin-card::after {
+          content: '→';
+          position: absolute;
+          top: 20px;
+          right: 20px;
           color: var(--text-secondary);
+          font-size: 18px;
+          font-weight: bold;
+          opacity: 0;
+          transition: all 0.3s ease;
         }
 
-        .coin-info {
+        .coin-card:hover::after {
+          opacity: 1;
+          transform: translateX(3px);
+        }
+
+        .coin-rank {
+          position: absolute;
+          top: 16px;
+          right: 16px;
+          background: var(--accent-color);
+          color: white;
+          width: 28px;
+          height: 28px;
+          border-radius: 50%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          font-size: 0.75rem;
+          font-weight: 700;
+        }
+
+        .coin-header {
           display: flex;
           align-items: center;
           gap: 12px;
+          margin-bottom: 16px;
         }
 
         .coin-icon {
-          width: 32px;
-          height: 32px;
+          width: 48px;
+          height: 48px;
           border-radius: 50%;
           object-fit: cover;
+          border: 2px solid var(--border-light);
         }
 
-        .coin-name-symbol {
-          display: flex;
-          flex-direction: column;
+        .coin-info {
+          flex: 1;
         }
 
         .coin-name {
-          font-weight: 600;
+          font-size: 1.125rem;
+          font-weight: 700;
           color: var(--text-primary);
+          margin-bottom: 2px;
         }
 
         .coin-symbol {
-          font-size: 12px;
           color: var(--text-secondary);
           text-transform: uppercase;
+          font-size: 0.875rem;
+          font-weight: 600;
         }
 
         .coin-price {
-          font-weight: 600;
-          color: var(--text-primary);
+          font-size: 1.5rem;
+          font-weight: 800;
+          color: var(--accent-color);
+          margin-bottom: 8px;
         }
 
         .coin-change {
-          font-weight: 600;
-          padding: 4px 8px;
-          border-radius: 4px;
-          text-align: center;
+          display: inline-flex;
+          align-items: center;
+          gap: 4px;
+          padding: 8px 12px;
+          border-radius: 8px;
+          font-size: 0.875rem;
+          font-weight: 700;
+          margin-bottom: 16px;
         }
 
         .change-positive {
-          background: rgba(0, 200, 83, 0.1);
+          background: var(--positive-light);
           color: var(--positive-color);
         }
 
         .change-negative {
-          background: rgba(255, 23, 68, 0.1);
+          background: var(--negative-light);
           color: var(--negative-color);
         }
 
-        .coin-market-cap, .coin-volume {
+        .coin-stats {
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+          gap: 12px;
+          margin-bottom: 20px;
+        }
+
+        .coin-stat {
+          display: flex;
+          flex-direction: column;
+          gap: 2px;
+        }
+
+        .stat-value {
+          font-size: 0.875rem;
+          font-weight: 600;
           color: var(--text-primary);
+        }
+
+        .stat-label {
+          font-size: 0.75rem;
+          color: var(--text-tertiary);
         }
 
         .coin-sparkline {
-          width: 120px;
-          height: 40px;
+          width: 100%;
+          height: 60px;
+          margin-bottom: 16px;
         }
 
-        .coin-actions {
+        /* ===== МОДАЛЬНОЕ ОКНО ===== */
+        .modal-overlay {
+          position: fixed;
+          top: 0;
+          left: 0;
+          right: 0;
+          bottom: 0;
+          background: var(--bg-overlay);
           display: flex;
-          gap: 8px;
-        }
-
-        .action-btn {
-          padding: 6px 12px;
-          background: var(--accent-color);
-          color: white;
-          text-decoration: none;
-          border-radius: 4px;
-          font-size: 12px;
-          transition: all 0.2s ease;
-          border: none;
-          cursor: pointer;
-          white-space: nowrap;
-        }
-
-        .action-btn:hover {
-          background: #1e40af;
-          transform: translateY(-1px);
-        }
-
-        /* ===== ПАГИНАЦИЯ ===== */
-        .pagination {
-          display: flex;
-          justify-content: center;
           align-items: center;
-          gap: 15px;
-          margin-top: 20px;
+          justify-content: center;
+          z-index: 10000;
           padding: 20px;
+          backdrop-filter: blur(5px);
         }
 
-        .page-btn {
-          padding: 10px 16px;
-          border: 1px solid var(--border-color);
+        .modal-content {
           background: var(--bg-card);
-          color: var(--text-primary);
-          border-radius: 6px;
-          cursor: pointer;
-          transition: all 0.2s ease;
+          border-radius: 20px;
+          padding: 30px;
+          max-width: 500px;
+          width: 100%;
+          max-height: 90vh;
+          overflow-y: auto;
+          position: relative;
+          border: 1px solid var(--border-color);
+          box-shadow: var(--shadow-hover);
+          animation: modalSlideIn 0.3s ease-out;
         }
 
-        .page-btn:hover:not(.disabled) {
+        @keyframes modalSlideIn {
+          from {
+            opacity: 0;
+            transform: translateY(-20px) scale(0.95);
+          }
+          to {
+            opacity: 1;
+            transform: translateY(0) scale(1);
+          }
+        }
+
+        .modal-close {
+          position: absolute;
+          top: 15px;
+          right: 20px;
+          background: none;
+          border: none;
+          font-size: 28px;
+          color: var(--text-secondary);
+          cursor: pointer;
+          width: 40px;
+          height: 40px;
+          border-radius: 50%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          transition: all 0.3s ease;
+        }
+
+        .modal-close:hover {
+          background: var(--bg-secondary);
+          color: var(--text-primary);
+        }
+
+        .modal-header {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          margin-bottom: 25px;
+          padding-bottom: 20px;
+          border-bottom: 1px solid var(--border-color);
+        }
+
+        .coin-icon-large {
+          width: 60px;
+          height: 60px;
+          border-radius: 50%;
+          object-fit: cover;
+        }
+
+        .coin-rank-large {
           background: var(--accent-color);
           color: white;
-          border-color: var(--accent-color);
-        }
-
-        .page-btn.disabled {
-          opacity: 0.5;
-          cursor: not-allowed;
-        }
-
-        .page-info {
-          color: var(--text-secondary);
+          padding: 8px 16px;
+          border-radius: 20px;
+          font-weight: bold;
           font-size: 14px;
         }
 
-        /* ===== АДАПТИВНОСТЬ ===== */
-        @media (max-width: 1200px) {
-          .container {
-            padding: 0 15px;
-          }
-          
-          .search-input {
-            width: 250px;
-          }
-          
-          .search-input:focus {
-            width: 300px;
-          }
+        .price-section {
+          text-align: center;
+          margin-bottom: 25px;
         }
 
+        .current-price {
+          font-size: 2.5rem;
+          font-weight: 800;
+          color: var(--accent-color);
+          margin-bottom: 8px;
+        }
+
+        .stats-grid {
+          display: grid;
+          grid-template-columns: repeat(2, 1fr);
+          gap: 15px;
+          margin-bottom: 25px;
+        }
+
+        .stat-item {
+          background: var(--bg-secondary);
+          padding: 15px;
+          border-radius: 12px;
+          text-align: center;
+        }
+
+        .stat-item .stat-label {
+          font-size: 0.875rem;
+          color: var(--text-secondary);
+          margin-bottom: 5px;
+        }
+
+        .stat-item .stat-value {
+          font-size: 1.1rem;
+          font-weight: 600;
+          color: var(--text-primary);
+        }
+
+        .action-buttons {
+          display: flex;
+          gap: 12px;
+          justify-content: center;
+        }
+
+        .action-btn {
+          padding: 12px 24px;
+          background: var(--accent-color);
+          color: white;
+          text-decoration: none;
+          border-radius: 8px;
+          font-size: 0.875rem;
+          transition: all 0.3s ease;
+          border: none;
+          cursor: pointer;
+          font-weight: 600;
+          text-align: center;
+        }
+
+        .action-btn:hover {
+          background: var(--accent-hover);
+          transform: translateY(-1px);
+        }
+
+        .action-btn.secondary {
+          background: var(--bg-secondary);
+          color: var(--text-primary);
+          border: 1px solid var(--border-color);
+        }
+
+        .action-btn.secondary:hover {
+          background: var(--border-color);
+        }
+
+        /* ===== АДАПТИВНОСТЬ ===== */
         @media (max-width: 768px) {
           .header-content {
             flex-direction: column;
             gap: 15px;
           }
           
-          .control-panel {
-            width: 100%;
-            justify-content: space-between;
+          .promo-title {
+            font-size: 2.5rem;
           }
           
-          .header-search {
-            width: 100%;
+          .coin-grid {
+            grid-template-columns: 1fr;
           }
           
-          .search-input {
-            width: 100%;
-          }
-          
-          .search-input:focus {
-            width: 100%;
+          .section {
+            padding: 60px 0;
           }
           
           .fear-greed-container {
             grid-template-columns: 1fr;
-            gap: 15px;
+            gap: 20px;
           }
           
-          .coins-table {
-            font-size: 12px;
+          .section-title {
+            font-size: 2rem;
           }
           
-          .coins-table th,
-          .coins-table td {
-            padding: 10px 8px;
+          .modal-content {
+            margin: 10px;
+            padding: 20px;
           }
           
-          .coin-actions {
+          .stats-grid {
+            grid-template-columns: 1fr;
+          }
+          
+          .action-buttons {
             flex-direction: column;
-            gap: 4px;
+          }
+        }
+
+        @media (max-width: 480px) {
+          .container {
+            padding: 0 16px;
           }
           
-          .action-btn {
-            padding: 4px 8px;
-            font-size: 10px;
+          .fear-greed-widget {
+            padding: 20px;
           }
-        }
-
-        /* ===== LOADING STATES ===== */
-        .loading {
-          opacity: 0.6;
-          pointer-events: none;
-        }
-
-        .skeleton {
-          background: linear-gradient(90deg, var(--bg-secondary) 25%, var(--border-color) 50%, var(--bg-secondary) 75%);
-          background-size: 200% 100%;
-          animation: loading 1.5s infinite;
-          border-radius: 4px;
-        }
-
-        @keyframes loading {
-          0% { background-position: 200% 0; }
-          100% { background-position: -200% 0; }
+          
+          .coin-card {
+            padding: 20px;
+          }
+          
+          .promo-section {
+            padding: 80px 0;
+          }
+          
+          .promo-title {
+            font-size: 2rem;
+          }
         }
     </style>
 </head>
-<body data-theme="dark">
-    <!-- HEADER С ПОИСКОМ -->
+<body>
+    <!-- HEADER -->
     <header class="site-header">
         <div class="container">
             <div class="header-content">
                 <div class="logo" id="siteLogo">CryptoDrom</div>
                 
                 <div class="control-panel">
-                    <!-- Поиск в header -->
-                    <div class="header-search">
-                        <div class="search-wrapper">
-                            <input type="text" class="search-input" id="mainSearch" placeholder="Поиск монет...">
-                            <div class="search-icon">🔍</div>
-                            <button class="search-clear" id="searchClear">×</button>
-                        </div>
-                    </div>
-
                     <!-- Переключатели -->
                     <div class="lang-switcher">
                         <button class="lang-btn active" data-lang="ru">RU</button>
@@ -701,6 +845,17 @@
             </div>
         </div>
     </header>
+
+    <!-- PROMO СЕКЦИЯ -->
+    <section class="promo-section">
+        <div class="container">
+            <div class="promo-content">
+                <h1 class="promo-title" id="promoTitle">Добро пожаловать в Crypto Dashboard</h1>
+                <p class="promo-subtitle" id="promoSubtitle">Ваш центр для анализа рынка и кастомизации интерфейса.</p>
+                <button class="promo-btn" id="promoBtn">Вперёд</button>
+            </div>
+        </div>
+    </section>
 
     <!-- СЕКЦИЯ МОНЕТ -->
     <section class="section coins-section" id="coinsSection">
@@ -749,30 +904,14 @@
                 </div>
             </div>
 
-            <!-- Таблица монет -->
-            <div class="coins-table-container">
-                <table class="coins-table" id="coinsTable">
-                    <thead>
-                        <tr>
-                            <th class="coin-rank" data-sort="market_cap_rank">#</th>
-                            <th data-sort="name">Монета</th>
-                            <th data-sort="current_price">Цена</th>
-                            <th data-sort="price_change_percentage_24h">24ч</th>
-                            <th data-sort="market_cap">Капитализация</th>
-                            <th data-sort="total_volume">Объем (24ч)</th>
-                            <th>График (7д)</th>
-                            <th>Действия</th>
-                        </tr>
-                    </thead>
-                    <tbody id="coinsTableBody">
-                        <!-- Монеты будут здесь -->
-                    </tbody>
-                </table>
+            <!-- Сетка монет -->
+            <div class="coin-grid" id="coinGrid">
+                <!-- Монеты будут загружены через JavaScript -->
             </div>
 
             <!-- Пагинация -->
             <div class="pagination">
-                <button class="page-btn disabled" id="prevPage">← Назад</button>
+                <button class="page-btn" id="prevPage">← Назад</button>
                 <span class="page-info" id="pageInfo">Страница 1</span>
                 <button class="page-btn" id="nextPage">Вперёд →</button>
             </div>
@@ -780,470 +919,167 @@
     </section>
 
     <script>
-        // ===== КОНФИГУРАЦИЯ =====
+        // ===== КОНФИГУРАЦИЯ ПРИЛОЖЕНИЯ =====
         const CONFIG = {
-            coinsPerPage: 100,
+            coinsPerPage: 20,
             currentPage: 1,
             currentLang: 'ru',
             currentTheme: 'dark',
-            sortField: 'market_cap_rank',
-            sortDirection: 'asc'
+            fearGreedValue: 75,
+            fearGreedState: 'greed'
         };
 
-        // ===== ДАННЫЕ =====
+        // ===== ДАННЫЕ ДЛЯ ПОИСКА =====
         let allCoinsCache = [];
-        let currentCoins = [];
-        let charts = {};
+        let currentCharts = new Map();
 
         // ===== ПЕРЕВОДЫ =====
         const TRANSLATIONS = {
             ru: {
                 siteLogo: 'CryptoDrom',
                 themeText: 'Тёмная',
+                promoTitle: 'Добро пожаловать в Crypto Dashboard',
+                promoSubtitle: 'Ваш центр для анализа рынка и кастомизации интерфейса.',
+                promoBtn: 'Вперёд',
                 coinsTitle: 'Топ Криптовалют',
-                searchPlaceholder: 'Поиск монет...',
                 fearGreedTitle: 'Индекс Страха и Жадности',
                 page: 'Страница',
                 tradingView: 'TradingView',
                 details: 'Детали',
-                noCoinsFound: 'Монеты не найдены',
-                loading: 'Загрузка...'
+                loading: 'Загрузка...',
+                error: 'Ошибка загрузки',
+                retry: 'Повторить',
+                noResults: 'Ничего не найдено',
+                changeSearch: 'Попробуйте изменить запрос',
+                marketCap: 'Капитализация',
+                volume: 'Объем 24ч',
+                lastUpdate: 'Обновлено',
+                extremeFear: 'Крайний страх',
+                fear: 'Страх',
+                neutral: 'Нейтрально',
+                greed: 'Жадность',
+                extremeGreed: 'Крайняя жадность',
+                currentValue: 'Текущее значение',
+                marketState: 'Состояние рынка',
+                price: 'Цена',
+                change24h: 'Изменение 24ч',
+                rank: 'Ранг',
+                sparkline: 'График 7д',
+                showing: 'Показано',
+                of: 'из',
+                results: 'результатов',
+                for: 'для'
             },
             en: {
                 siteLogo: 'CryptoDrom',
                 themeText: 'Dark',
+                promoTitle: 'Welcome to Crypto Dashboard',
+                promoSubtitle: 'Your hub for market analysis and interface customization.',
+                promoBtn: 'Get Started',
                 coinsTitle: 'Top Cryptocurrencies',
-                searchPlaceholder: 'Search coins...',
                 fearGreedTitle: 'Fear & Greed Index',
                 page: 'Page',
                 tradingView: 'TradingView',
                 details: 'Details',
-                noCoinsFound: 'No coins found',
-                loading: 'Loading...'
+                loading: 'Loading...',
+                error: 'Load error',
+                retry: 'Retry',
+                noResults: 'No results found',
+                changeSearch: 'Try changing your search',
+                marketCap: 'Market Cap',
+                volume: '24h Volume',
+                lastUpdate: 'Last update',
+                extremeFear: 'Extreme Fear',
+                fear: 'Fear',
+                neutral: 'Neutral',
+                greed: 'Greed',
+                extremeGreed: 'Extreme Greed',
+                currentValue: 'Current Value',
+                marketState: 'Market State',
+                price: 'Price',
+                change24h: '24h Change',
+                rank: 'Rank',
+                sparkline: '7D Chart',
+                showing: 'Showing',
+                of: 'of',
+                results: 'results',
+                for: 'for'
             }
         };
 
-        // ===== БАЗА ДАННЫХ ИКОНОК МОНЕТ =====
-        const COIN_IMAGES = {
-            'bitcoin': 'https://assets.coingecko.com/coins/images/1/small/bitcoin.png',
-            'ethereum': 'https://assets.coingecko.com/coins/images/279/small/ethereum.png',
-            'tether': 'https://assets.coingecko.com/coins/images/325/small/Tether.png',
-            'bnb': 'https://assets.coingecko.com/coins/images/825/small/bnb-icon2_2x.png',
-            'solana': 'https://assets.coingecko.com/coins/images/4128/small/solana.png',
-            'ripple': 'https://assets.coingecko.com/coins/images/44/small/xrp-symbol-white-128.png',
-            'cardano': 'https://assets.coingecko.com/coins/images/975/small/cardano.png',
-            'dogecoin': 'https://assets.coingecko.com/coins/images/5/small/dogecoin.png',
-            // ... остальные иконки из вашего кода
-        };
-
-        // ===== ТЕСТОВЫЕ ДАННЫЕ (100+ МОНЕТ) =====
+        // ===== ТЕСТОВЫЕ ДАННЫЕ =====
         const TEST_COINS = [
-            // Топ 20 монет
-            createCoin(1, "Bitcoin", "BTC", 58728.42, 2.5, 1150000000000, 28500000000),
-            createCoin(2, "Ethereum", "ETH", 2935.51, -1.2, 352000000000, 15200000000),
-            createCoin(3, "Tether", "USDT", 1.00, 0.0, 95600000000, 45200000000),
-            createCoin(4, "BNB", "BNB", 585.32, 1.8, 88000000000, 1850000000),
-            createCoin(5, "Solana", "SOL", 146.28, 4.2, 65000000000, 2850000000),
-            // ... остальные монеты из вашего кода
+            {
+                id: "bitcoin",
+                name: "Bitcoin",
+                symbol: "btc",
+                image: "https://assets.coingecko.com/coins/images/1/small/bitcoin.png",
+                current_price: 58728.42,
+                price_change_percentage_24h: 2.5,
+                market_cap: 1150000000000,
+                total_volume: 28500000000,
+                market_cap_rank: 1
+            },
+            {
+                id: "ethereum",
+                name: "Ethereum", 
+                symbol: "eth",
+                image: "https://assets.coingecko.com/coins/images/279/small/ethereum.png",
+                current_price: 2935.51,
+                price_change_percentage_24h: -1.2,
+                market_cap: 352000000000,
+                total_volume: 15200000000,
+                market_cap_rank: 2
+            },
+            {
+                id: "tether",
+                name: "Tether",
+                symbol: "usdt",
+                image: "https://assets.coingecko.com/coins/images/325/small/Tether.png",
+                current_price: 1.00,
+                price_change_percentage_24h: 0.0,
+                market_cap: 95600000000,
+                total_volume: 45200000000,
+                market_cap_rank: 3
+            },
+            {
+                id: "ripple",
+                name: "XRP",
+                symbol: "xrp",
+                image: "https://assets.coingecko.com/coins/images/44/small/xrp-symbol-white-128.png",
+                current_price: 0.52,
+                price_change_percentage_24h: 0.39,
+                market_cap: 28500000000,
+                total_volume: 1250000000,
+                market_cap_rank: 4
+            },
+            {
+                id: "cardano",
+                name: "Cardano",
+                symbol: "ada",
+                image: "https://assets.coingecko.com/coins/images/975/small/cardano.png",
+                current_price: 0.48,
+                price_change_percentage_24h: 1.8,
+                market_cap: 17000000000,
+                total_volume: 450000000,
+                market_cap_rank: 5
+            },
+            {
+                id: "dogecoin",
+                name: "Dogecoin",
+                symbol: "doge",
+                image: "https://assets.coingecko.com/coins/images/5/small/dogecoin.png",
+                current_price: 0.12,
+                price_change_percentage_24h: -0.5,
+                market_cap: 17200000000,
+                total_volume: 850000000,
+                market_cap_rank: 6
+            }
         ];
 
-        function createCoin(rank, name, symbol, price, change24h, marketCap, volume) {
-            const coinId = name.toLowerCase().replace(/\s+/g, '-');
-            const imageUrl = COIN_IMAGES[coinId] || `https://via.placeholder.com/32/2962ff/ffffff?text=${symbol.substring(0, 3)}`;
-            
-            return {
-                id: coinId,
-                name: name,
-                symbol: symbol,
-                image: imageUrl,
-                current_price: price,
-                price_change_percentage_24h: change24h,
-                market_cap: marketCap,
-                total_volume: volume,
-                market_cap_rank: rank,
-                sparkline_in_7d: {
-                    price: generateMockSparklineData(price, change24h, 25)
-                }
-            };
-        }
-
-        // ===== ФУНКЦИИ ДЛЯ ГРАФИКОВ =====
-        function generateMockSparklineData(currentPrice, changePercent, points = 25) {
-            const data = [];
-            let lastPrice = currentPrice;
-            const volatility = Math.abs(changePercent) / 100 * 3;
-            const trend = changePercent >= 0 ? 1 : -1;
-            
-            let startingPrice = currentPrice * (1 - (trend * volatility * 0.5));
-            
-            for (let i = 0; i < points; i++) {
-                const progress = i / (points - 1);
-                const trendEffect = trend * volatility * currentPrice * progress;
-                const randomEffect = (Math.random() - 0.5) * volatility * currentPrice * 0.3;
-                
-                lastPrice = startingPrice + trendEffect + randomEffect;
-                lastPrice = Math.max(lastPrice, currentPrice * 0.1);
-                data.push(lastPrice);
-            }
-            
-            return data;
-        }
-
-        function createSparklineChart(canvasId, data, isPositive) {
-            const canvas = document.getElementById(canvasId);
-            if (!canvas) return null;
-            
-            const ctx = canvas.getContext('2d');
-            
-            // Очищаем предыдущий график
-            const existingChart = Chart.getChart(canvasId);
-            if (existingChart) {
-                existingChart.destroy();
-            }
-
-            return new Chart(ctx, {
-                type: 'line',
-                data: {
-                    labels: data.map((_, i) => ''),
-                    datasets: [{
-                        data: data,
-                        borderColor: isPositive ? '#00c853' : '#ff1744',
-                        backgroundColor: 'transparent',
-                        borderWidth: 2,
-                        fill: false,
-                        tension: 0.4,
-                        pointRadius: 0,
-                        pointHoverRadius: 0
-                    }]
-                },
-                options: {
-                    responsive: true,
-                    maintainAspectRatio: false,
-                    plugins: {
-                        legend: {
-                            display: false
-                        },
-                        tooltip: {
-                            enabled: false
-                        }
-                    },
-                    scales: {
-                        x: {
-                            display: false,
-                            grid: {
-                                display: false
-                            }
-                        },
-                        y: {
-                            display: false,
-                            grid: {
-                                display: false
-                            }
-                        }
-                    },
-                    elements: {
-                        line: {
-                            borderWidth: 2
-                        }
-                    },
-                    interaction: {
-                        intersect: false,
-                        mode: 'index'
-                    }
-                }
-            });
-        }
-
-        // ===== ОСНОВНЫЕ ФУНКЦИИ =====
-        function formatCurrency(amount) {
-            if (amount >= 1000000000) {
-                return '$' + (amount / 1000000000).toFixed(2) + 'B';
-            } else if (amount >= 1000000) {
-                return '$' + (amount / 1000000).toFixed(2) + 'M';
-            } else if (amount >= 1000) {
-                return '$' + (amount / 1000).toFixed(2) + 'K';
-            }
-            return '$' + amount.toFixed(2);
-        }
-
-        function formatPrice(price) {
-            if (price >= 1000) {
-                return '$' + price.toLocaleString('en-US', { maximumFractionDigits: 0 });
-            } else if (price >= 1) {
-                return '$' + price.toLocaleString('en-US', { maximumFractionDigits: 2 });
-            } else if (price >= 0.01) {
-                return '$' + price.toFixed(4);
-            } else {
-                return '$' + price.toFixed(8);
-            }
-        }
-
-        function sortCoins(coins, field, direction) {
-            return [...coins].sort((a, b) => {
-                let aVal = a[field];
-                let bVal = b[field];
-                
-                if (typeof aVal === 'string') {
-                    aVal = aVal.toLowerCase();
-                    bVal = bVal.toLowerCase();
-                }
-                
-                if (direction === 'asc') {
-                    return aVal > bVal ? 1 : -1;
-                } else {
-                    return aVal < bVal ? 1 : -1;
-                }
-            });
-        }
-
-        function renderCoinsTable(coins) {
-            const tbody = document.getElementById('coinsTableBody');
-            if (!tbody) {
-                console.error('❌ Не найден элемент coinsTableBody');
-                return;
-            }
-
-            if (!coins || coins.length === 0) {
-                const t = TRANSLATIONS[CONFIG.currentLang];
-                tbody.innerHTML = `
-                    <tr>
-                        <td colspan="8" style="text-align: center; padding: 40px; color: var(--text-secondary);">
-                            ${t.noCoinsFound}
-                        </td>
-                    </tr>
-                `;
-                return;
-            }
-
-            console.log(`📊 Рендерим ${coins.length} монет`);
-            
-            const t = TRANSLATIONS[CONFIG.currentLang];
-            
-            tbody.innerHTML = coins.map((coin, index) => {
-                const change = coin.price_change_percentage_24h || 0;
-                const changeClass = change >= 0 ? 'change-positive' : 'change-negative';
-                const changeSymbol = change >= 0 ? '+' : '';
-                const chartId = `chart-${coin.id}-${index}`;
-
-                return `
-                    <tr>
-                        <td class="coin-rank">${coin.market_cap_rank}</td>
-                        <td>
-                            <div class="coin-info">
-                                <img src="${coin.image}" alt="${coin.name}" class="coin-icon" onerror="this.src='https://via.placeholder.com/32/2962ff/ffffff?text=${coin.symbol.substring(0, 3)}'">
-                                <div class="coin-name-symbol">
-                                    <div class="coin-name">${coin.name}</div>
-                                    <div class="coin-symbol">${coin.symbol.toUpperCase()}</div>
-                                </div>
-                            </div>
-                        </td>
-                        <td class="coin-price">${formatPrice(coin.current_price)}</td>
-                        <td class="coin-change ${changeClass}">
-                            ${changeSymbol}${change.toFixed(2)}%
-                        </td>
-                        <td class="coin-market-cap">${formatCurrency(coin.market_cap)}</td>
-                        <td class="coin-volume">${formatCurrency(coin.total_volume)}</td>
-                        <td>
-                            <div class="coin-sparkline">
-                                <canvas id="${chartId}"></canvas>
-                            </div>
-                        </td>
-                        <td>
-                            <div class="coin-actions">
-                                <a href="https://www.tradingview.com/symbols/${coin.symbol.toUpperCase()}USD/" target="_blank" class="action-btn">${t.tradingView}</a>
-                                <a href="https://www.coingecko.com/en/coins/${coin.id}" target="_blank" class="action-btn">${t.details}</a>
-                            </div>
-                        </td>
-                    </tr>
-                `;
-            }).join('');
-
-            // Создаем графики после рендеринга таблицы
-            setTimeout(() => {
-                coins.forEach((coin, index) => {
-                    const change = coin.price_change_percentage_24h || 0;
-                    const chartData = coin.sparkline_in_7d ? coin.sparkline_in_7d.price : [];
-                    const chartId = `chart-${coin.id}-${index}`;
-                    
-                    if (chartData.length > 0) {
-                        charts[chartId] = createSparklineChart(chartId, chartData, change >= 0);
-                    }
-                });
-            }, 100);
-        }
-
-        function performSearch(query) {
-            if (!allCoinsCache.length) {
-                allCoinsCache = TEST_COINS;
-            }
-            
-            if (!query) {
-                currentCoins = sortCoins(allCoinsCache, CONFIG.sortField, CONFIG.sortDirection)
-                    .slice(0, CONFIG.coinsPerPage);
-            } else {
-                const searchTerm = query.toLowerCase();
-                currentCoins = allCoinsCache.filter(coin => 
-                    coin.name.toLowerCase().includes(searchTerm) ||
-                    coin.symbol.toLowerCase().includes(searchTerm)
-                );
-                currentCoins = sortCoins(currentCoins, CONFIG.sortField, CONFIG.sortDirection)
-                    .slice(0, CONFIG.coinsPerPage);
-            }
-            
-            renderCoinsTable(currentCoins);
-        }
-
-        function initSearch() {
-            const searchInput = document.getElementById('mainSearch');
-            const searchClear = document.getElementById('searchClear');
-            
-            if (!searchInput) return;
-            
-            let searchTimeout;
-            searchInput.addEventListener('input', function(e) {
-                if (searchClear) {
-                    searchClear.style.display = this.value.length > 0 ? 'block' : 'none';
-                }
-                
-                clearTimeout(searchTimeout);
-                searchTimeout = setTimeout(() => {
-                    performSearch(this.value.trim());
-                }, 300);
-            });
-            
-            if (searchClear) {
-                searchClear.addEventListener('click', function() {
-                    searchInput.value = '';
-                    searchInput.focus();
-                    this.style.display = 'none';
-                    performSearch('');
-                });
-            }
-        }
-
-        function initSorting() {
-            const tableHeaders = document.querySelectorAll('.coins-table th[data-sort]');
-            
-            tableHeaders.forEach(header => {
-                header.addEventListener('click', function() {
-                    const field = this.getAttribute('data-sort');
-                    
-                    // Сбрасываем сортировку у всех заголовков
-                    tableHeaders.forEach(h => {
-                        h.classList.remove('sort-asc', 'sort-desc');
-                    });
-                    
-                    // Устанавливаем новую сортировку
-                    if (CONFIG.sortField === field) {
-                        CONFIG.sortDirection = CONFIG.sortDirection === 'asc' ? 'desc' : 'asc';
-                    } else {
-                        CONFIG.sortField = field;
-                        CONFIG.sortDirection = 'asc';
-                    }
-                    
-                    this.classList.add(CONFIG.sortDirection === 'asc' ? 'sort-asc' : 'sort-desc');
-                    
-                    performSearch(document.getElementById('mainSearch').value);
-                });
-            });
-        }
-
-        function initThemeToggle() {
-            const themeToggle = document.getElementById('themeToggle');
-            const themeText = document.getElementById('themeText');
-            
-            if (!themeToggle) return;
-            
-            themeToggle.addEventListener('change', function() {
-                const newTheme = this.checked ? 'dark' : 'light';
-                document.body.setAttribute('data-theme', newTheme);
-                CONFIG.currentTheme = newTheme;
-                
-                const t = TRANSLATIONS[CONFIG.currentLang];
-                themeText.textContent = this.checked ? 
-                    (CONFIG.currentLang === 'ru' ? 'Тёмная' : 'Dark') : 
-                    (CONFIG.currentLang === 'ru' ? 'Светлая' : 'Light');
-                
-                // Обновляем графики при смене темы
-                setTimeout(() => {
-                    Object.keys(charts).forEach(chartId => {
-                        const chart = charts[chartId];
-                        if (chart) {
-                            chart.update();
-                        }
-                    });
-                }, 100);
-            });
-        }
-
-        function initLanguageToggle() {
-            const langButtons = document.querySelectorAll('.lang-btn');
-            
-            langButtons.forEach(btn => {
-                btn.addEventListener('click', function() {
-                    const lang = this.getAttribute('data-lang');
-                    
-                    // Обновляем активную кнопку
-                    langButtons.forEach(b => b.classList.remove('active'));
-                    this.classList.add('active');
-                    
-                    CONFIG.currentLang = lang;
-                    updateTranslations();
-                });
-            });
-        }
-
-        function updateTranslations() {
-            const t = TRANSLATIONS[CONFIG.currentLang];
-            
-            // Обновляем тексты
-            document.getElementById('siteLogo').textContent = t.siteLogo;
-            document.getElementById('coinsTitle').textContent = t.coinsTitle;
-            document.getElementById('mainSearch').placeholder = t.searchPlaceholder;
-            document.querySelector('.fear-greed-title').textContent = t.fearGreedTitle;
-            
-            // Обновляем тему
-            const themeText = document.getElementById('themeText');
-            if (themeText) {
-                themeText.textContent = CONFIG.currentTheme === 'dark' ? 
-                    (CONFIG.currentLang === 'ru' ? 'Тёмная' : 'Dark') : 
-                    (CONFIG.currentLang === 'ru' ? 'Светлая' : 'Light');
-            }
-            
-            // Перерисовываем таблицу для обновления переводов в кнопках
-            renderCoinsTable(currentCoins);
-        }
-
-        function initApp() {
-            console.log('🚀 Инициализация приложения...');
-            
-            // Проверяем данные
-            if (!TEST_COINS || TEST_COINS.length === 0) {
-                console.error('❌ Нет тестовых данных');
-                return;
-            }
-            
-            allCoinsCache = TEST_COINS;
-            currentCoins = sortCoins(TEST_COINS, CONFIG.sortField, CONFIG.sortDirection)
-                .slice(0, CONFIG.coinsPerPage);
-            
-            console.log(`✅ Загружено ${TEST_COINS.length} монет`);
-            
-            renderCoinsTable(currentCoins);
-            initSearch();
-            initSorting();
-            initThemeToggle();
-            initLanguageToggle();
-            
-            // Инициализация Fear & Greed
-            const indicator = document.getElementById('fearGreedIndicator');
-            if (indicator) indicator.style.left = '75%';
-            
-            console.log('✅ Приложение успешно запущено!');
-        }
-
-        // Запуск приложения
-        document.addEventListener('DOMContentLoaded', initApp);
+        // ===== ОСНОВНОЙ JavaScript КОД =====
+        // ... (JavaScript код будет следующим файлом)
     </script>
+    <script src="app.js"></script>
 </body>
 </html>
