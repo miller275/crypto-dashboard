@@ -262,6 +262,274 @@ const majorCryptocurrencies = [
     }
 ];
 
+// Переводы
+const TRANSLATIONS = {
+    ru: {
+        // Header
+        themeDark: "Тёмная",
+        themeLight: "Светлая",
+        
+        // Promo section
+        promoTitle: "Добро пожаловать в Crypto Dashboard",
+        promoSubtitle: "Реальный мониторинг крипторынка с продвинутой аналитикой",
+        totalMarketCap: "Общая капитализация",
+        totalVolume: "Объем 24ч",
+        activeCoins: "Активные монеты",
+        btcDominance: "Доминирование BTC",
+        exploreMarket: "Исследовать рынок",
+        features: "Возможности",
+        
+        // Fear & Greed
+        fearGreedTitle: "Индекс Страха и Жадности",
+        fearGreedSubtitle: "Индикатор настроений крипторынка в реальном времени",
+        currentValue: "Текущее значение",
+        marketState: "Состояние рынка",
+        updatedJustNow: "Обновлено только что",
+        fearGreedDescription: "Индекс показывает текущие настроения на крипторынке. Значения ниже 25 указывают на страх, выше 75 - на жадность.",
+        
+        // Coins table
+        coinsTitle: "Топ Криптовалют",
+        coinsSubtitle: "Рейтинг по рыночной капитализации в реальном времени",
+        searchPlaceholder: "Поиск по названию или символу...",
+        refresh: "Обновить",
+        sort: "Сортировка",
+        foundCoins: "Найдено {count} монет",
+        
+        // Table headers
+        rank: "#",
+        coin: "Монета",
+        price: "Цена",
+        change24h: "Изменение 24ч",
+        marketCap: "Капитализация",
+        volume24h: "Объем 24ч",
+        chart7d: "График 7д",
+        action: "",
+        
+        // Buttons
+        details: "Детали",
+        addToWatchlist: "Добавить в отслеживаемые",
+        share: "Поделиться",
+        
+        // Market overview
+        marketOverviewTitle: "Обзор рынка",
+        marketOverviewSubtitle: "Ключевые метрики и показатели крипторынка",
+        totalMarketCapOverview: "Общая капитализация",
+        totalVolume24h: "Общий объем 24ч",
+        btcDominanceOverview: "Доминирование BTC",
+        ethDominance: "Доминирование ETH",
+        
+        // Pagination
+        previous: "← Назад",
+        next: "Вперёд →",
+        pageInfo: "Страница {current} из {total}",
+        pageStats: "Показано {start}-{end} из {total}",
+        
+        // Modal
+        capitalization: "Капитализация",
+        volume24hModal: "Объем 24ч",
+        circulatingSupply: "Циркулирующее предложение",
+        maxSupply: "Максимальное предложение",
+        
+        // Footer
+        copyright: "© 2024 CryptoDashboard. Все права защищены.",
+        product: "Продукт",
+        company: "Компания",
+        support: "Поддержка",
+        functions: "Функции",
+        mobileApp: "Мобильное приложение",
+        about: "О нас",
+        blog: "Блог",
+        career: "Карьера",
+        help: "Помощь",
+        contacts: "Контакты",
+        community: "Сообщество"
+    },
+    en: {
+        // Header
+        themeDark: "Dark",
+        themeLight: "Light",
+        
+        // Promo section
+        promoTitle: "Welcome to Crypto Dashboard",
+        promoSubtitle: "Real-time cryptocurrency market monitoring with advanced analytics",
+        totalMarketCap: "Total Market Cap",
+        totalVolume: "24h Volume",
+        activeCoins: "Active Coins",
+        btcDominance: "BTC Dominance",
+        exploreMarket: "Explore Market",
+        features: "Features",
+        
+        // Fear & Greed
+        fearGreedTitle: "Fear & Greed Index",
+        fearGreedSubtitle: "Real-time cryptocurrency market sentiment indicator",
+        currentValue: "Current Value",
+        marketState: "Market State",
+        updatedJustNow: "Updated just now",
+        fearGreedDescription: "The index shows current market sentiment. Values below 25 indicate fear, above 75 indicate greed.",
+        
+        // Coins table
+        coinsTitle: "Top Cryptocurrencies",
+        coinsSubtitle: "Real-time ranking by market capitalization",
+        searchPlaceholder: "Search by name or symbol...",
+        refresh: "Refresh",
+        sort: "Sort",
+        foundCoins: "Found {count} coins",
+        
+        // Table headers
+        rank: "#",
+        coin: "Coin",
+        price: "Price",
+        change24h: "24h Change",
+        marketCap: "Market Cap",
+        volume24h: "24h Volume",
+        chart7d: "7d Chart",
+        action: "",
+        
+        // Buttons
+        details: "Details",
+        addToWatchlist: "Add to Watchlist",
+        share: "Share",
+        
+        // Market overview
+        marketOverviewTitle: "Market Overview",
+        marketOverviewSubtitle: "Key cryptocurrency market metrics and indicators",
+        totalMarketCapOverview: "Total Market Cap",
+        totalVolume24h: "Total 24h Volume",
+        btcDominanceOverview: "BTC Dominance",
+        ethDominance: "ETH Dominance",
+        
+        // Pagination
+        previous: "← Previous",
+        next: "Next →",
+        pageInfo: "Page {current} of {total}",
+        pageStats: "Showing {start}-{end} of {total}",
+        
+        // Modal
+        capitalization: "Capitalization",
+        volume24hModal: "24h Volume",
+        circulatingSupply: "Circulating Supply",
+        maxSupply: "Max Supply",
+        
+        // Footer
+        copyright: "© 2024 CryptoDashboard. All rights reserved.",
+        product: "Product",
+        company: "Company",
+        support: "Support",
+        functions: "Features",
+        mobileApp: "Mobile App",
+        about: "About",
+        blog: "Blog",
+        career: "Career",
+        help: "Help",
+        contacts: "Contacts",
+        community: "Community"
+    }
+};
+
+// Текущий язык
+let currentLanguage = 'ru';
+
+// Функция смены языка
+function changeLanguage(lang) {
+    currentLanguage = lang;
+    localStorage.setItem('crypto_dashboard_language', lang);
+    applyTranslations();
+    updateLanguageSwitcher();
+}
+
+// Функция применения переводов
+function applyTranslations() {
+    const t = TRANSLATIONS[currentLanguage];
+    
+    // Header
+    document.getElementById('themeText').textContent = document.documentElement.getAttribute('data-theme') === 'dark' ? t.themeDark : t.themeLight;
+    
+    // Promo section
+    document.getElementById('promoTitle').textContent = t.promoTitle;
+    document.getElementById('promoSubtitle').textContent = t.promoSubtitle;
+    document.querySelector('.promo-stat:nth-child(1) .stat-label').textContent = t.totalMarketCap;
+    document.querySelector('.promo-stat:nth-child(2) .stat-label').textContent = t.totalVolume;
+    document.querySelector('.promo-stat:nth-child(3) .stat-label').textContent = t.activeCoins;
+    document.querySelector('.promo-stat:nth-child(4) .stat-label').textContent = t.btcDominance;
+    document.getElementById('exploreBtn').querySelector('span').textContent = t.exploreMarket;
+    document.getElementById('featuresBtn').querySelector('span').textContent = t.features;
+    
+    // Fear & Greed
+    document.getElementById('fearGreedTitle').textContent = t.fearGreedTitle;
+    document.querySelector('#fearGreedTitle + .section-subtitle').textContent = t.fearGreedSubtitle;
+    document.querySelector('.current-value .value-label').textContent = t.currentValue;
+    document.querySelector('.current-state .state-label').textContent = t.marketState;
+    document.querySelector('.fear-greed-description p').textContent = t.fearGreedDescription;
+    
+    // Coins table
+    document.getElementById('coinsTitle').textContent = t.coinsTitle;
+    document.querySelector('#coinsTitle + .section-subtitle').textContent = t.coinsSubtitle;
+    document.getElementById('searchInput').placeholder = t.searchPlaceholder;
+    document.getElementById('refreshBtn').querySelector('span').textContent = t.refresh;
+    document.getElementById('sortBtn').querySelector('span').textContent = t.sort;
+    
+    // Table headers
+    const headerRow = document.querySelector('.header-row');
+    if (headerRow) {
+        headerRow.querySelector('.col-rank').textContent = t.rank;
+        headerRow.querySelector('.col-name').textContent = t.coin;
+        headerRow.querySelector('.col-price').textContent = t.price;
+        headerRow.querySelector('.col-change').textContent = t.change24h;
+        headerRow.querySelector('.col-marketcap').textContent = t.marketCap;
+        headerRow.querySelector('.col-volume').textContent = t.volume24h;
+        headerRow.querySelector('.col-sparkline').textContent = t.chart7d;
+    }
+    
+    // Market overview
+    document.getElementById('marketOverviewTitle').textContent = t.marketOverviewTitle;
+    document.querySelector('#marketOverviewTitle + .section-subtitle').textContent = t.marketOverviewSubtitle;
+    document.querySelectorAll('.stat-title')[0].textContent = t.totalMarketCapOverview;
+    document.querySelectorAll('.stat-title')[1].textContent = t.totalVolume24h;
+    document.querySelectorAll('.stat-title')[2].textContent = t.btcDominanceOverview;
+    document.querySelectorAll('.stat-title')[3].textContent = t.ethDominance;
+    
+    // Footer
+    document.getElementById('footerText').textContent = t.copyright;
+    document.querySelectorAll('.footer-title')[0].textContent = t.product;
+    document.querySelectorAll('.footer-title')[1].textContent = t.company;
+    document.querySelectorAll('.footer-title')[2].textContent = t.support;
+    
+    const footerLinks = document.querySelectorAll('.footer-link');
+    footerLinks[0].textContent = t.functions;
+    footerLinks[2].textContent = t.mobileApp;
+    footerLinks[3].textContent = t.about;
+    footerLinks[4].textContent = t.blog;
+    footerLinks[5].textContent = t.career;
+    footerLinks[6].textContent = t.help;
+    footerLinks[7].textContent = t.contacts;
+    footerLinks[8].textContent = t.community;
+    
+    // Обновляем кнопки в таблице
+    document.querySelectorAll('.action-btn-table').forEach(btn => {
+        btn.textContent = t.details;
+    });
+    
+    // Обновляем пагинацию
+    updatePaginationText();
+}
+
+// Функция обновления переключателя языка
+function updateLanguageSwitcher() {
+    document.querySelectorAll('.lang-btn').forEach(btn => {
+        btn.classList.remove('active');
+        if (btn.dataset.lang === currentLanguage) {
+            btn.classList.add('active');
+        }
+    });
+}
+
+// Функция обновления текста пагинации
+function updatePaginationText() {
+    const t = TRANSLATIONS[currentLanguage];
+    document.getElementById('prevPage').querySelector('span').textContent = t.previous;
+    document.getElementById('nextPage').querySelector('span').textContent = t.next;
+}
+
 // Функция форматирования чисел
 function formatNumber(num, decimals = 2) {
     if (num === null || num === undefined) return 'N/A';
@@ -352,11 +620,7 @@ function renderCoinsTable(coins, container) {
         row.innerHTML = `
             <div class="col-rank">${coin.rank}</div>
             <div class="col-name">
-                <img class="coin-icon-table" src="https://cryptoicons.org/api/icon/${coin.symbol.toLowerCase()}/50" alt="${coin.name}" onerror="this.src='data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzIiIGhlaWdodD0iMzIiIHZpZXdCb3g9IjAgMCAzMiAzMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPGNpcmNsZSBjeD0iMTYiIGN5PSIxNiIgcj0iMTYiIGZpbGw9IiMzMzMiLz4KPHN2ZyB4PSI4IiB5PSI4IiB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTggMTZMMTIgOEg0TDggMTZaIiBmaWxsPSJ3aGl0ZSIvPgo8L3N2Zz4KPC9zdmc+'">
-                <div class="coin-name-table">
-                    <span class="coin-name-main">${coin.name}</span>
-                    <span class="coin-symbol-table">${coin.symbol}</span>
-                </div>
+                <img class="coin-icon-table" src="https://coinicons-api.vercel.app/api/icon/${coin.symbol.toLowerCase()}" alt="${coin.name}" onerror="this.onerror=null; this.src='data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzIiIGhlaWdodD0iMzIiIHZpZXdCb3g9IjAgMCAzMiAzMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48Y2lyY2xlIGN4PSIxNiIgY3k9IjE2IiByPSIxNiIgZmlsbD0iIzMzMyIvPjx0ZXh0IHg9IjE2IiB5PSIyMSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0id2hpdGUiIGZvbnQtc2l6ZT0iMTQiIGZvbnQtZmFtaWx5PSJBcmlhbCI+${coin.symbol.charAt(0)}</                </div>
             </div>
             <div class="col-price">$${coin.price.toLocaleString('en-US', {minimumFractionDigits: 2, maximumFractionDigits: 2})}</div>
             <div class="col-change">
@@ -366,7 +630,7 @@ function renderCoinsTable(coins, container) {
             <div class="col-volume">${formatNumber(coin.volume24h)}</div>
             <div class="col-sparkline"></div>
             <div class="col-action">
-                <button class="action-btn-table" data-coin-id="${coin.id}">Детали</button>
+                <button class="action-btn-table" data-coin-id="${coin.id}">${TRANSLATIONS[currentLanguage].details}</button>
             </div>
         `;
         
@@ -397,10 +661,16 @@ function showCoinModal(coin) {
     const modal = document.getElementById('coinModal');
     const isPositive = coin.change24h >= 0;
     const changeClass = isPositive ? 'positive' : 'negative';
+    const t = TRANSLATIONS[currentLanguage];
     
     // Заполняем данные в модальном окне
-    document.getElementById('modalCoinIcon').src = `https://cryptoicons.org/api/icon/${coin.symbol.toLowerCase()}/50`;
+    document.getElementById('modalCoinIcon').src = `https://coinicons-api.vercel.app/api/icon/${coin.symbol.toLowerCase()}`;
     document.getElementById('modalCoinIcon').alt = coin.name;
+    document.getElementById('modalCoinIcon').onerror = function() {
+        this.onerror = null;
+        this.src = 'data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHZpZXdCb3g9IjAgMCA2MCA2MCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48Y2lyY2xlIGN4PSIzMCIgY3k9IjMwIiByPSIzMCIgZmlsbD0iIzMzMyIvPjx0ZXh0IHg9IjMwIiB5PSIzOCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0id2hpdGUiIGZvbnQtc2l6ZT0iMjQiIGZvbnQtZmFtaWx5PSJBcmlhbCI+' + coin.symbol.charAt(0) + '</text></svg>';
+    };
+    
     document.getElementById('modalCoinName').textContent = coin.name;
     document.getElementById('modalCoinSymbol').textContent = coin.symbol;
     document.getElementById('modalCoinRank').textContent = `#${coin.rank}`;
@@ -410,10 +680,20 @@ function showCoinModal(coin) {
     changeElement.textContent = formatPercent(coin.change24h);
     changeElement.className = `price-change ${changeClass}`;
     
+    // Обновляем labels в модальном окне
+    document.querySelectorAll('.stat-item .stat-label')[0].textContent = t.capitalization;
+    document.querySelectorAll('.stat-item .stat-label')[1].textContent = t.volume24hModal;
+    document.querySelectorAll('.stat-item .stat-label')[2].textContent = t.circulatingSupply;
+    document.querySelectorAll('.stat-item .stat-label')[3].textContent = t.maxSupply;
+    
     document.getElementById('modalCoinMarketCap').textContent = formatNumber(coin.marketCap);
     document.getElementById('modalCoinVolume').textContent = formatNumber(coin.volume24h);
     document.getElementById('modalCoinSupply').textContent = coin.circulatingSupply ? coin.circulatingSupply.toLocaleString() : 'N/A';
     document.getElementById('modalCoinMaxSupply').textContent = coin.maxSupply ? coin.maxSupply.toLocaleString() : 'N/A';
+    
+    // Обновляем кнопки в модальном окне
+    document.getElementById('modalWatchlistBtn').querySelector('span').textContent = t.addToWatchlist;
+    document.getElementById('modalShareBtn').querySelector('span').textContent = t.share;
     
     // Показываем модальное окно
     modal.style.display = 'flex';
@@ -512,7 +792,9 @@ function showNotification(message) {
     setTimeout(() => {
         notification.style.animation = 'slideOutRight 0.3s ease-out';
         setTimeout(() => {
-            document.body.removeChild(notification);
+            if (document.body.contains(notification)) {
+                document.body.removeChild(notification);
+            }
         }, 300);
     }, 3000);
 }
@@ -560,7 +842,23 @@ function sortCoins(coins, sortBy, ascending = true) {
     return sortedCoins;
 }
 
-// Инициализация приложения
+// Инициализация переключателя языка
+function initLanguageSwitcher() {
+    const langButtons = document.querySelectorAll('.lang-btn');
+    
+    langButtons.forEach(btn => {
+        btn.addEventListener('click', () => {
+            const lang = btn.dataset.lang;
+            changeLanguage(lang);
+        });
+    });
+    
+    // Восстановление языка из localStorage
+    const savedLanguage = localStorage.getItem('crypto_dashboard_language') || 'ru';
+    changeLanguage(savedLanguage);
+}
+
+// Обновленная функция initApp
 function initApp() {
     const coinsTable = document.getElementById('coinsTable');
     const searchInput = document.getElementById('searchInput');
@@ -582,6 +880,9 @@ function initApp() {
     let currentPage = 1;
     const coinsPerPage = 10;
     
+    // Инициализация переключателя языка
+    initLanguageSwitcher();
+    
     // Инициализация данных
     function initializeData() {
         loadingState.style.display = 'block';
@@ -602,8 +903,9 @@ function initApp() {
         const startCoin = (currentPage - 1) * coinsPerPage + 1;
         const endCoin = Math.min(currentPage * coinsPerPage, totalCoins);
         
-        pageInfo.textContent = `Страница ${currentPage} из ${totalPages}`;
-        pageStats.textContent = `Показано ${startCoin}-${endCoin} из ${totalCoins}`;
+        const t = TRANSLATIONS[currentLanguage];
+        pageInfo.textContent = t.pageInfo.replace('{current}', currentPage).replace('{total}', totalPages);
+        pageStats.textContent = t.pageStats.replace('{start}', startCoin).replace('{end}', endCoin).replace('{total}', totalCoins);
         
         prevPage.disabled = currentPage === 1;
         nextPage.disabled = currentPage === totalPages;
@@ -625,6 +927,12 @@ function initApp() {
         const endIndex = startIndex + coinsPerPage;
         const coinsToShow = majorCryptocurrencies.slice(startIndex, endIndex);
         renderCoinsTable(coinsToShow, coinsTable);
+        
+        // Прокручиваем к началу таблицы
+        const coinsSection = document.querySelector('.coins-section');
+        if (coinsSection) {
+            coinsSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
     }
     
     // Обработчик поиска
@@ -638,7 +946,9 @@ function initApp() {
             
             // Показываем количество результатов
             searchResultsCount.style.display = 'block';
+            const t = TRANSLATIONS[currentLanguage];
             resultsCount.textContent = filteredCoins.length;
+            searchResultsCount.innerHTML = t.foundCoins.replace('{count}', `<span id="resultsCount">${filteredCoins.length}</span>`);
         } else {
             searchClear.style.display = 'none';
             searchResultsCount.style.display = 'none';
@@ -693,6 +1003,12 @@ function initApp() {
         if (currentPage > 1) {
             currentPage--;
             updatePagination();
+            
+            // Прокручиваем к началу секции
+            document.querySelector('.coins-section').scrollIntoView({ 
+                behavior: 'smooth', 
+                block: 'start' 
+            });
         }
     });
     
@@ -701,6 +1017,12 @@ function initApp() {
         if (currentPage < totalPages) {
             currentPage++;
             updatePagination();
+            
+            // Прокручиваем к началу секции
+            document.querySelector('.coins-section').scrollIntoView({ 
+                behavior: 'smooth', 
+                block: 'start' 
+            });
         }
     });
     
@@ -714,7 +1036,7 @@ function initApp() {
     themeToggle.addEventListener('change', (e) => {
         const isDark = e.target.checked;
         document.documentElement.setAttribute('data-theme', isDark ? 'dark' : 'light');
-        themeText.textContent = isDark ? 'Тёмная' : 'Светлая';
+        themeText.textContent = isDark ? TRANSLATIONS[currentLanguage].themeDark : TRANSLATIONS[currentLanguage].themeLight;
         
         // Сохраняем выбор темы
         localStorage.setItem('theme', isDark ? 'dark' : 'light');
@@ -724,7 +1046,7 @@ function initApp() {
     const savedTheme = localStorage.getItem('theme') || 'dark';
     document.documentElement.setAttribute('data-theme', savedTheme);
     themeToggle.checked = savedTheme === 'dark';
-    themeText.textContent = savedTheme === 'dark' ? 'Тёмная' : 'Светлая';
+    themeText.textContent = savedTheme === 'dark' ? TRANSLATIONS[currentLanguage].themeDark : TRANSLATIONS[currentLanguage].themeLight;
     
     // Инициализация данных
     initializeData();
