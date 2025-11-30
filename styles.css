@@ -1,4 +1,4 @@
-/* ===== CSS СБРОС И БАЗОВЫЕ СТИЛИ ===== */
+/* ===== СБРОС И БАЗОВЫЕ СТИЛИ ===== */
 *, *::before, *::after {
   margin: 0;
   padding: 0;
@@ -21,7 +21,7 @@ body {
   min-height: 100vh;
 }
 
-/* ===== CSS ПЕРЕМЕННЫЕ ДЛЯ ТЕМ ===== */
+/* ===== ПЕРЕМЕННЫЕ ДЛЯ ТЕМ ===== */
 [data-theme="light"] {
   --bg-primary: #ffffff;
   --bg-secondary: #f8f9fa;
@@ -463,10 +463,14 @@ input:checked + .theme-slider::after {
   padding: 40px 0;
 }
 
-.section-title {
-  font-size: 2.5rem;
+.section-header {
   text-align: center;
   margin-bottom: 48px;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  margin-bottom: 16px;
   color: var(--text-primary);
   position: relative;
   font-weight: 700;
@@ -492,13 +496,10 @@ input:checked + .theme-slider::after {
 }
 
 .section-subtitle {
-  text-align: center;
   font-size: 1.125rem;
   color: var(--text-secondary);
-  margin-bottom: 48px;
   max-width: 600px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
   line-height: 1.6;
 }
 
@@ -716,14 +717,29 @@ input:checked + .theme-slider::after {
   color: var(--text-tertiary);
 }
 
-/* ===== ПОИСК ===== */
-.search-section {
-  margin: 40px 0;
+.fear-greed-description {
+  text-align: center;
+  margin-top: 24px;
+  padding-top: 24px;
+  border-top: 1px solid var(--border-light);
+  color: var(--text-secondary);
+  font-size: 0.875rem;
+  line-height: 1.6;
+}
+
+/* ===== ТАБЛИЦА МОНЕТ ===== */
+.table-controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 24px;
+  flex-wrap: wrap;
 }
 
 .search-container {
-  max-width: 600px;
-  margin: 0 auto;
+  flex: 1;
+  max-width: 400px;
   position: relative;
 }
 
@@ -735,9 +751,9 @@ input:checked + .theme-slider::after {
 
 .search-input {
   width: 100%;
-  padding: 20px 60px 20px 24px;
+  padding: 16px 50px 16px 20px;
   border: 2px solid var(--border-color);
-  border-radius: 16px;
+  border-radius: 12px;
   background: var(--bg-card);
   color: var(--text-primary);
   font-size: 1rem;
@@ -760,7 +776,7 @@ input:checked + .theme-slider::after {
 
 .search-icon {
   position: absolute;
-  right: 55px;
+  right: 20px;
   top: 50%;
   transform: translateY(-50%);
   color: var(--text-tertiary);
@@ -775,7 +791,7 @@ input:checked + .theme-slider::after {
 
 .search-clear {
   position: absolute;
-  right: 20px;
+  right: 45px;
   background: none;
   border: none;
   font-size: 1.5rem;
@@ -801,6 +817,11 @@ input:checked + .theme-slider::after {
   display: flex;
 }
 
+.table-actions {
+  display: flex;
+  gap: 12px;
+}
+
 .search-results-count {
   text-align: center;
   margin: 16px 0;
@@ -809,186 +830,363 @@ input:checked + .theme-slider::after {
   font-weight: 500;
 }
 
-/* ===== КАРТОЧКИ МОНЕТ ===== */
-.coin-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
-  gap: 24px;
-  margin-bottom: 48px;
+.coins-table-container {
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: var(--shadow);
+  margin-bottom: 32px;
 }
 
-.coin-card {
+.coins-table-header {
+  background: var(--bg-secondary);
+}
+
+.coins-table {
+  background: var(--bg-card);
+}
+
+.table-row {
+  display: grid;
+  grid-template-columns: 60px 1fr 140px 120px 160px 160px 120px 60px;
+  gap: 16px;
+  padding: 16px 20px;
+  align-items: center;
+  border-bottom: 1px solid var(--border-light);
+  transition: all 0.3s ease;
+}
+
+.table-row:last-child {
+  border-bottom: none;
+}
+
+.table-row:hover {
+  background: var(--bg-secondary);
+}
+
+.header-row {
+  background: var(--bg-secondary);
+  font-weight: 600;
+  font-size: 0.875rem;
+  color: var(--text-secondary);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  border-bottom: 2px solid var(--border-color);
+}
+
+.header-row:hover {
+  background: var(--bg-secondary);
+}
+
+.coin-row {
+  cursor: pointer;
+  position: relative;
+}
+
+.coin-row::after {
+  content: '→';
+  position: absolute;
+  right: 20px;
+  color: var(--text-tertiary);
+  opacity: 0;
+  transition: all 0.3s ease;
+  font-weight: bold;
+}
+
+.coin-row:hover::after {
+  opacity: 1;
+  transform: translateX(3px);
+}
+
+/* Колонки таблицы */
+.col-rank {
+  text-align: center;
+  font-weight: 600;
+  color: var(--text-secondary);
+  font-size: 0.875rem;
+}
+
+.col-name {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.coin-name-table {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.coin-name-main {
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.coin-symbol-table {
+  font-size: 0.75rem;
+  color: var(--text-secondary);
+  text-transform: uppercase;
+}
+
+.coin-icon-table {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid var(--border-light);
+}
+
+.col-price {
+  text-align: right;
+  font-weight: 600;
+  color: var(--accent-color);
+  font-size: 0.875rem;
+}
+
+.col-change {
+  text-align: right;
+}
+
+.change-table {
+  padding: 6px 10px;
+  border-radius: 6px;
+  font-size: 0.875rem;
+  font-weight: 600;
+  text-align: center;
+  display: inline-block;
+  min-width: 80px;
+}
+
+.change-table.positive {
+  background: var(--positive-light);
+  color: var(--positive-color);
+}
+
+.change-table.negative {
+  background: var(--negative-light);
+  color: var(--negative-color);
+}
+
+.col-marketcap,
+.col-volume {
+  text-align: right;
+  font-weight: 600;
+  color: var(--text-primary);
+  font-size: 0.875rem;
+}
+
+.col-sparkline {
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sparkline-chart {
+  width: 100px;
+  height: 30px;
+}
+
+.col-action {
+  text-align: center;
+}
+
+.action-btn-table {
+  background: none;
+  border: 1px solid var(--border-color);
+  color: var(--text-secondary);
+  padding: 6px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-size: 0.75rem;
+  font-weight: 500;
+}
+
+.action-btn-table:hover {
+  background: var(--accent-color);
+  color: white;
+  border-color: var(--accent-color);
+}
+
+/* Скелетон для таблицы */
+.table-skeleton {
+  display: grid;
+  grid-template-columns: 60px 1fr 140px 120px 160px 160px 120px 60px;
+  gap: 16px;
+  padding: 16px 20px;
+  align-items: center;
+}
+
+.skeleton-cell {
+  height: 20px;
+  background: linear-gradient(90deg, var(--skeleton-bg) 25%, var(--skeleton-shine) 50%, var(--skeleton-bg) 75%);
+  background-size: 200% 100%;
+  animation: loading 1.5s infinite;
+  border-radius: 4px;
+}
+
+.skeleton-cell.short {
+  width: 60%;
+}
+
+.skeleton-cell.medium {
+  width: 80%;
+}
+
+/* ===== MARKET OVERVIEW ===== */
+.market-overview {
+  background: var(--bg-secondary);
+}
+
+.market-stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 24px;
+  margin-top: 40px;
+}
+
+.market-stat-card {
   background: var(--bg-card);
   border: 1px solid var(--border-color);
   border-radius: 16px;
   padding: 24px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
   transition: all 0.3s ease;
+  box-shadow: var(--shadow);
+}
+
+.market-stat-card:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-hover);
+}
+
+.stat-icon {
+  font-size: 2rem;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--gradient-primary);
+  border-radius: 12px;
+}
+
+.stat-content {
+  flex: 1;
+}
+
+.stat-title {
+  font-size: 0.875rem;
+  color: var(--text-secondary);
+  margin-bottom: 8px;
+  font-weight: 600;
+}
+
+.stat-value {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin-bottom: 4px;
+}
+
+.stat-change {
+  font-size: 0.875rem;
+  font-weight: 600;
+  padding: 4px 8px;
+  border-radius: 6px;
+  display: inline-block;
+}
+
+.stat-change.positive {
+  background: var(--positive-light);
+  color: var(--positive-color);
+}
+
+.stat-change.negative {
+  background: var(--negative-light);
+  color: var(--negative-color);
+}
+
+/* ===== ПАГИНАЦИЯ ===== */
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  margin-top: 48px;
+  flex-wrap: wrap;
+}
+
+.page-btn {
+  padding: 14px 24px;
+  border: 2px solid var(--accent-color);
+  background: var(--accent-color);
+  color: white;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-weight: 600;
+  font-size: 0.875rem;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  min-width: 120px;
+  justify-content: center;
   position: relative;
   overflow: hidden;
-  box-shadow: var(--shadow);
-  cursor: pointer;
-  animation: slideIn 0.4s ease-out;
 }
 
-.coin-card:hover {
-  transform: translateY(-4px);
-  box-shadow: var(--shadow-hover);
-  border-color: var(--accent-color);
-}
-
-.coin-card::before {
+.page-btn::before {
   content: '';
   position: absolute;
   top: 0;
   left: -100%;
   width: 100%;
   height: 100%;
-  background: linear-gradient(90deg, transparent, rgba(59, 130, 246, 0.05), transparent);
-  transition: left 0.6s ease;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+  transition: left 0.5s ease;
 }
 
-.coin-card:hover::before {
+.page-btn:hover::before {
   left: 100%;
 }
 
-.coin-card::after {
-  content: '→';
-  position: absolute;
-  top: 20px;
-  right: 20px;
+.page-btn:hover:not(.disabled) {
+  background: var(--accent-hover);
+  border-color: var(--accent-hover);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(59, 130, 246, 0.3);
+}
+
+.page-btn.disabled {
+  background: var(--bg-secondary);
+  border-color: var(--border-color);
+  color: var(--text-tertiary);
+  cursor: not-allowed;
+  transform: none;
+  box-shadow: none;
+  opacity: 0.6;
+}
+
+.page-info {
   color: var(--text-secondary);
-  font-size: 18px;
-  font-weight: bold;
-  opacity: 0;
-  transition: all 0.3s ease;
-}
-
-.coin-card:hover::after {
-  opacity: 1;
-  transform: translateX(3px);
-}
-
-.coin-rank {
-  position: absolute;
-  top: 16px;
-  right: 16px;
-  background: var(--accent-color);
-  color: white;
-  width: 28px;
-  height: 28px;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 0.75rem;
-  font-weight: 700;
-  box-shadow: var(--shadow);
-}
-
-.coin-header {
-  display: flex;
-  align-items: center;
-  gap: 12px;
-  margin-bottom: 16px;
-}
-
-.coin-icon {
-  width: 48px;
-  height: 48px;
-  border-radius: 50%;
-  object-fit: cover;
-  border: 2px solid var(--border-light);
-  transition: transform 0.3s ease;
-}
-
-.coin-card:hover .coin-icon {
-  transform: scale(1.1);
-}
-
-.coin-info {
-  flex: 1;
-}
-
-.coin-name {
-  font-size: 1.125rem;
-  font-weight: 700;
-  color: var(--text-primary);
-  margin-bottom: 2px;
-  letter-spacing: -0.3px;
-}
-
-.coin-symbol {
-  color: var(--text-secondary);
-  text-transform: uppercase;
-  font-size: 0.875rem;
   font-weight: 600;
-}
-
-.coin-price {
-  font-size: 1.5rem;
-  font-weight: 800;
-  color: var(--accent-color);
-  margin-bottom: 8px;
-  letter-spacing: -0.5px;
-}
-
-.coin-change {
-  display: inline-flex;
-  align-items: center;
-  gap: 4px;
-  padding: 8px 12px;
-  border-radius: 8px;
   font-size: 0.875rem;
-  font-weight: 700;
-  margin-bottom: 16px;
-  transition: all 0.3s ease;
-}
-
-.change-positive {
-  background: var(--positive-light);
-  color: var(--positive-color);
-  border: 1px solid rgba(16, 185, 129, 0.2);
-}
-
-.change-negative {
-  background: var(--negative-light);
-  color: var(--negative-color);
-  border: 1px solid rgba(239, 68, 68, 0.2);
-}
-
-.coin-stats {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 12px;
-  margin-bottom: 20px;
-  padding: 16px 0;
-  border-top: 1px solid var(--border-light);
-  border-bottom: 1px solid var(--border-light);
-}
-
-.coin-stat {
+  padding: 0 16px;
   display: flex;
   flex-direction: column;
-  gap: 2px;
+  align-items: center;
+  gap: 4px;
 }
 
-.stat-value {
-  font-size: 0.875rem;
-  font-weight: 600;
-  color: var(--text-primary);
-}
-
-.stat-label {
+.page-stats {
   font-size: 0.75rem;
   color: var(--text-tertiary);
-  text-transform: uppercase;
-  letter-spacing: 0.5px;
-}
-
-.coin-sparkline {
-  width: 100%;
-  height: 60px;
-  margin-bottom: 16px;
 }
 
 /* ===== МОДАЛЬНОЕ ОКНО ===== */
@@ -1103,6 +1301,16 @@ input:checked + .theme-slider::after {
   display: inline-block;
 }
 
+.price-change.positive {
+  background: var(--positive-light);
+  color: var(--positive-color);
+}
+
+.price-change.negative {
+  background: var(--negative-light);
+  color: var(--negative-color);
+}
+
 .stats-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -1193,123 +1401,28 @@ input:checked + .theme-slider::after {
   border-color: var(--accent-color);
 }
 
-/* ===== ПАГИНАЦИЯ ===== */
-.pagination {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 16px;
-  margin-top: 48px;
-  flex-wrap: wrap;
-}
-
-.page-btn {
-  padding: 14px 24px;
-  border: 2px solid var(--accent-color);
-  background: var(--accent-color);
-  color: white;
-  border-radius: 12px;
-  cursor: pointer;
-  transition: all 0.3s ease;
-  font-weight: 600;
-  font-size: 0.875rem;
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  min-width: 120px;
-  justify-content: center;
-  position: relative;
-  overflow: hidden;
-}
-
-.page-btn::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: -100%;
-  width: 100%;
-  height: 100%;
-  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
-  transition: left 0.5s ease;
-}
-
-.page-btn:hover::before {
-  left: 100%;
-}
-
-.page-btn:hover:not(.disabled) {
-  background: var(--accent-hover);
-  border-color: var(--accent-hover);
-  transform: translateY(-2px);
-  box-shadow: 0 8px 20px rgba(59, 130, 246, 0.3);
-}
-
-.page-btn.disabled {
-  background: var(--bg-secondary);
-  border-color: var(--border-color);
-  color: var(--text-tertiary);
-  cursor: not-allowed;
-  transform: none;
-  box-shadow: none;
-  opacity: 0.6;
-}
-
-.page-info {
-  color: var(--text-secondary);
-  font-weight: 600;
-  font-size: 0.875rem;
-  padding: 0 16px;
-}
-
-.page-numbers {
-  display: flex;
-  gap: 8px;
-  align-items: center;
-}
-
-.page-number {
-  padding: 10px 16px;
-  border: 1px solid var(--border-color);
-  background: var(--bg-card);
-  color: var(--text-primary);
-  border-radius: 8px;
-  cursor: pointer;
-  transition: all 0.3s ease;
-  font-weight: 500;
-  font-size: 0.875rem;
-  min-width: 44px;
-  text-align: center;
-  position: relative;
-  overflow: hidden;
-}
-
-.page-number::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: -100%;
-  width: 100%;
-  height: 100%;
-  background: linear-gradient(90deg, transparent, rgba(59, 130, 246, 0.1), transparent);
-  transition: left 0.5s ease;
-}
-
-.page-number:hover::before {
-  left: 100%;
-}
-
-.page-number:hover:not(.active) {
-  background: var(--bg-secondary);
-  border-color: var(--accent-color);
-}
-
-.page-number.active {
-  background: var(--accent-color);
-  color: white;
-  border-color: var(--accent-color);
-}
-
 /* ===== СКЕЛЕТОН ЗАГРУЗКИ ===== */
+.loading-state {
+  text-align: center;
+  padding: 4rem 2rem;
+  display: none;
+}
+
+.loading-spinner {
+  width: 40px;
+  height: 40px;
+  border: 4px solid var(--border-color);
+  border-top: 4px solid var(--accent-color);
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+  margin: 0 auto 1rem;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
 .coin-card.loading {
   background: var(--bg-card);
   border: 1px solid var(--border-color);
@@ -1411,6 +1524,81 @@ input:checked + .theme-slider::after {
   font-size: 0.875rem;
 }
 
+/* ===== ФУТЕР ===== */
+.site-footer {
+  background: var(--bg-secondary);
+  border-top: 1px solid var(--border-color);
+  padding: 60px 0 30px;
+  margin-top: 80px;
+}
+
+.footer-content {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 60px;
+  margin-bottom: 40px;
+}
+
+.footer-brand {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.footer-description {
+  color: var(--text-secondary);
+  line-height: 1.6;
+  font-size: 0.875rem;
+}
+
+.footer-links {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+}
+
+.footer-section {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.footer-title {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin-bottom: 8px;
+}
+
+.footer-link {
+  color: var(--text-secondary);
+  text-decoration: none;
+  font-size: 0.875rem;
+  transition: color 0.3s ease;
+}
+
+.footer-link:hover {
+  color: var(--accent-color);
+}
+
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 30px;
+  border-top: 1px solid var(--border-color);
+}
+
+.footer-text {
+  color: var(--text-secondary);
+  font-size: 0.875rem;
+}
+
+.footer-legal {
+  display: flex;
+  gap: 20px;
+}
+
 /* ===== УТИЛИТЫ ===== */
 .visually-hidden {
   position: absolute;
@@ -1450,6 +1638,14 @@ input:checked + .theme-slider::after {
   animation: slideIn 0.5s ease-out;
 }
 
+.mobile-only {
+  display: none;
+}
+
+.desktop-only {
+  display: inline-block;
+}
+
 /* ===== ДОСТУПНОСТЬ ===== */
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after {
@@ -1475,13 +1671,19 @@ input:checked + .theme-slider::after {
     padding: 0 20px;
   }
   
-  .coin-grid {
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    gap: 20px;
+  .table-row {
+    grid-template-columns: 50px 1fr 120px 100px 140px 140px 100px 50px;
+    gap: 12px;
+    padding: 14px 16px;
+  }
+  
+  .col-marketcap,
+  .col-volume {
+    font-size: 0.8rem;
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 968px) {
   .header-content {
     flex-direction: column;
     gap: 16px;
@@ -1502,11 +1704,6 @@ input:checked + .theme-slider::after {
   
   .promo-stats {
     gap: 24px;
-  }
-  
-  .coin-grid {
-    grid-template-columns: 1fr;
-    gap: 16px;
   }
   
   .section {
@@ -1530,9 +1727,106 @@ input:checked + .theme-slider::after {
     font-size: 0.7rem;
   }
   
-  .search-input {
-    font-size: 0.875rem;
-    padding: 16px 50px 16px 20px;
+  .table-controls {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  
+  .search-container {
+    max-width: 100%;
+  }
+  
+  .table-actions {
+    justify-content: center;
+  }
+  
+  .coins-table-header {
+    display: none;
+  }
+  
+  .coins-table-container {
+    background: transparent;
+    border: none;
+    box-shadow: none;
+  }
+  
+  .table-row {
+    grid-template-columns: 1fr;
+    gap: 12px;
+    padding: 20px;
+    background: var(--bg-card);
+    border: 1px solid var(--border-color);
+    border-radius: 12px;
+    margin-bottom: 12px;
+    box-shadow: var(--shadow);
+  }
+  
+  .coin-row::after {
+    display: none;
+  }
+  
+  .col-rank {
+    display: none;
+  }
+  
+  .col-name {
+    grid-column: 1;
+    order: 1;
+  }
+  
+  .col-price {
+    grid-column: 1;
+    order: 2;
+    text-align: left;
+    font-size: 1.25rem;
+  }
+  
+  .col-change {
+    grid-column: 1;
+    order: 3;
+    text-align: left;
+  }
+  
+  .col-marketcap {
+    grid-column: 1;
+    order: 4;
+    text-align: left;
+  }
+  
+  .col-volume {
+    grid-column: 1;
+    order: 5;
+    text-align: left;
+  }
+  
+  .col-sparkline {
+    grid-column: 1;
+    order: 6;
+    justify-content: flex-start;
+  }
+  
+  .col-action {
+    grid-column: 1;
+    order: 7;
+    text-align: left;
+  }
+  
+  .mobile-only {
+    display: inline-block;
+  }
+  
+  .desktop-only {
+    display: none;
+  }
+  
+  .footer-content {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+  
+  .footer-links {
+    grid-template-columns: 1fr;
+    gap: 30px;
   }
   
   .pagination {
@@ -1543,10 +1837,6 @@ input:checked + .theme-slider::after {
   .page-btn {
     width: 100%;
     max-width: 200px;
-  }
-  
-  .page-numbers {
-    order: -1;
   }
   
   .section-title::after {
@@ -1588,10 +1878,6 @@ input:checked + .theme-slider::after {
     margin: 24px 0;
   }
   
-  .coin-card {
-    padding: 20px;
-  }
-  
   .promo-section {
     padding: 80px 0;
   }
@@ -1621,6 +1907,26 @@ input:checked + .theme-slider::after {
     width: 100%;
     justify-content: space-between;
   }
+  
+  .market-stats-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .market-stat-card {
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .footer-bottom {
+    flex-direction: column;
+    gap: 16px;
+    text-align: center;
+  }
+  
+  .footer-legal {
+    flex-direction: column;
+    gap: 12px;
+  }
 }
 
 /* ===== CUSTOM SCROLLBAR ===== */
@@ -1646,7 +1952,8 @@ input:checked + .theme-slider::after {
   .site-header,
   .promo-section,
   .pagination,
-  .action-buttons {
+  .action-buttons,
+  .site-footer {
     display: none !important;
   }
   
@@ -1655,7 +1962,7 @@ input:checked + .theme-slider::after {
     break-inside: avoid;
   }
   
-  .coin-card {
+  .coins-table-container {
     break-inside: avoid;
     box-shadow: none !important;
     border: 1px solid #ccc !important;
@@ -1665,4 +1972,28 @@ input:checked + .theme-slider::after {
     background: white !important;
     color: black !important;
   }
+}
+
+/* ===== NOTIFICATION STYLES ===== */
+.notification {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background: var(--accent-color);
+  color: white;
+  padding: 12px 20px;
+  border-radius: 8px;
+  box-shadow: var(--shadow-lg);
+  z-index: 10001;
+  animation: slideInRight 0.3s ease-out;
+}
+
+@keyframes slideInRight {
+  from { transform: translateX(100%); opacity: 0; }
+  to { transform: translateX(0); opacity: 1; }
+}
+
+@keyframes slideOutRight {
+  from { transform: translateX(0); opacity: 1; }
+  to { transform: translateX(100%); opacity: 0; }
 }
