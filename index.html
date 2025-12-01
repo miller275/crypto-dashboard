@@ -7,6 +7,7 @@
   <meta name="description" content="Современная панель мониторинга криптовалют с данными CoinGecko, интерактивными графиками и актуальными новостями"/>
   <link rel="preconnect" href="https://api.coingecko.com"/>
   <link rel="preconnect" href="https://s3.tradingview.com"/>
+  <link rel="preconnect" href="https://newsapi.org"/>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
   <style>
@@ -25,8 +26,8 @@
       --shadow: 0 12px 40px rgba(0, 0, 0, 0.4);
       --table-even: #111726;
       --link: #6c8bff;
-      --glass: rgba(19, 24, 39, 0.85);
-      --glass-border: rgba(255, 255, 255, 0.08);
+      --glass: rgba(19, 24, 39, 0.95);
+      --glass-border: rgba(255, 255, 255, 0.12);
       --news-bg: rgba(30, 37, 56, 0.6);
     }
     
@@ -45,15 +46,15 @@
       --shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
       --table-even: #f8fafc;
       --link: #4f46e5;
-      --glass: rgba(255, 255, 255, 0.85);
-      --glass-border: rgba(0, 0, 0, 0.08);
+      --glass: rgba(255, 255, 255, 0.95);
+      --glass-border: rgba(0, 0, 0, 0.12);
       --news-bg: rgba(248, 250, 252, 0.8);
     }
     
     /* Smooth transitions */
     * {
       box-sizing: border-box;
-      transition: background-color 0.3s ease, border-color 0.3s ease;
+      transition: background-color 0.3s ease, border-color 0.3s ease, transform 0.3s ease, opacity 0.3s ease;
     }
     
     html, body {
@@ -64,16 +65,31 @@
       background: var(--bg);
       color: var(--text);
       overflow-x: hidden;
+      scroll-behavior: smooth;
     }
     
-    /* Modern Header */
+    /* Modern Header - Fixed with hide on scroll */
     .modern-header {
-      position: sticky;
+      position: fixed;
       top: 0;
+      left: 0;
+      right: 0;
       z-index: 1000;
       backdrop-filter: blur(20px) saturate(180%);
       background: var(--glass);
       border-bottom: 1px solid var(--glass-border);
+      transform: translateY(0);
+      transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.4s ease;
+    }
+    
+    .modern-header.hidden {
+      transform: translateY(-100%);
+      opacity: 0;
+    }
+    
+    .modern-header.scrolled {
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+      background: var(--glass);
     }
     
     .header-container {
@@ -86,7 +102,7 @@
       display: flex;
       align-items: center;
       justify-content: space-between;
-      padding: 20px 0;
+      padding: 18px 0;
     }
     
     .logo-brand {
@@ -94,6 +110,7 @@
       align-items: center;
       gap: 14px;
       text-decoration: none;
+      cursor: pointer;
     }
     
     .logo-icon {
@@ -107,6 +124,11 @@
       color: white;
       font-size: 22px;
       box-shadow: 0 8px 20px rgba(108, 99, 255, 0.3);
+      transition: transform 0.3s ease;
+    }
+    
+    .logo-brand:hover .logo-icon {
+      transform: rotate(15deg) scale(1.05);
     }
     
     .brand-text {
@@ -227,6 +249,7 @@
       overflow: hidden;
       box-shadow: var(--shadow);
       transition: all 0.3s ease;
+      cursor: pointer;
     }
     
     .stat-card::before {
@@ -279,10 +302,43 @@
       color: var(--red);
     }
     
-    /* Main Container */
+    /* Scroll to top button */
+    .scroll-top {
+      position: fixed;
+      bottom: 30px;
+      right: 30px;
+      width: 56px;
+      height: 56px;
+      background: var(--accent-gradient);
+      border: none;
+      border-radius: 50%;
+      color: white;
+      font-size: 20px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 8px 25px rgba(108, 99, 255, 0.3);
+      z-index: 999;
+      opacity: 0;
+      transform: translateY(20px);
+      transition: all 0.3s ease;
+    }
+    
+    .scroll-top.visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+    
+    .scroll-top:hover {
+      transform: translateY(-5px) scale(1.05);
+      box-shadow: 0 12px 35px rgba(108, 99, 255, 0.4);
+    }
+    
+    /* Main Container - Adjust for fixed header */
     .main-container {
       max-width: 1400px;
-      margin: 32px auto;
+      margin: 180px auto 32px;
       padding: 0 24px;
     }
     
@@ -294,6 +350,9 @@
       padding: 20px;
       margin-bottom: 24px;
       box-shadow: var(--shadow);
+      position: sticky;
+      top: 100px;
+      z-index: 100;
     }
     
     .filter-row {
@@ -407,6 +466,9 @@
       text-transform: uppercase;
       letter-spacing: 0.5px;
       align-items: center;
+      position: sticky;
+      top: 170px;
+      z-index: 50;
     }
     
     .table-row {
@@ -1126,6 +1188,10 @@
       .news-grid {
         grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
       }
+      
+      .main-container {
+        margin-top: 220px;
+      }
     }
     
     @media (max-width: 768px) {
@@ -1164,6 +1230,17 @@
       .news-grid {
         grid-template-columns: 1fr;
       }
+      
+      .main-container {
+        margin-top: 240px;
+      }
+      
+      .scroll-top {
+        bottom: 20px;
+        right: 20px;
+        width: 48px;
+        height: 48px;
+      }
     }
     
     @media (max-width: 576px) {
@@ -1182,6 +1259,10 @@
       
       .news-title i {
         font-size: 22px;
+      }
+      
+      .main-container {
+        margin-top: 260px;
       }
     }
     
@@ -1387,11 +1468,16 @@
   </button>
 </div>
 
-<!-- Modern Header -->
-<header class="modern-header">
+<!-- Scroll to top button -->
+<button class="scroll-top" id="scrollTopBtn">
+  <i class="fas fa-chevron-up"></i>
+</button>
+
+<!-- Modern Header - Fixed with hide on scroll -->
+<header class="modern-header" id="mainHeader">
   <div class="header-container">
     <div class="header-top">
-      <a href="#" class="logo-brand">
+      <a href="#" class="logo-brand" id="logoLink">
         <div class="logo-icon">
           <i class="fas fa-chart-line"></i>
         </div>
@@ -1421,58 +1507,58 @@
     
     <!-- Stats Grid -->
     <div class="stats-grid">
-      <div class="stat-card">
+      <div class="stat-card" id="marketCapCard">
         <div class="stat-label">
           <i class="fas fa-globe"></i>
           Общая капитализация
         </div>
         <div class="stat-value" id="totalMarketCap">$2.41T</div>
-        <div class="stat-change up">
+        <div class="stat-change up" id="marketCapChange">
           <i class="fas fa-arrow-up"></i>
           +2.4%
         </div>
       </div>
       
-      <div class="stat-card">
+      <div class="stat-card" id="volumeCard">
         <div class="stat-label">
           <i class="fas fa-chart-bar"></i>
           24ч Объём
         </div>
         <div class="stat-value" id="totalVolume">$84.2B</div>
-        <div class="stat-change up">
+        <div class="stat-change up" id="volumeChange">
           <i class="fas fa-arrow-up"></i>
           +5.1%
         </div>
       </div>
       
-      <div class="stat-card">
+      <div class="stat-card" id="btcCard">
         <div class="stat-label">
           <i class="fab fa-bitcoin"></i>
           BTC Доминирование
         </div>
         <div class="stat-value" id="btcDominance">52.4%</div>
-        <div class="stat-change down">
+        <div class="stat-change down" id="btcChange">
           <i class="fas fa-arrow-down"></i>
           -0.8%
         </div>
       </div>
       
-      <div class="stat-card">
+      <div class="stat-card" id="newsCard">
         <div class="stat-label">
           <i class="fas fa-newspaper"></i>
           Новостей за сутки
         </div>
-        <div class="stat-value" id="newsCount">24</div>
-        <div class="stat-change up">
+        <div class="stat-value" id="newsCount">0</div>
+        <div class="stat-change up" id="newsChange">
           <i class="fas fa-arrow-up"></i>
-          +3
+          <span id="newsChangeValue">0</span>
         </div>
       </div>
     </div>
   </div>
 </header>
 
-<!-- Main Container -->
+<!-- Main Container - Adjust for fixed header -->
 <main class="main-container">
   <!-- Filter Bar -->
   <div class="filter-bar">
@@ -1689,7 +1775,7 @@
 
 <!-- Footer -->
 <footer class="footer">
-  <div>© 2024 Crypto Pulse. Данные предоставлены CoinGecko API. Новости из открытых источников.</div>
+  <div>© 2024 Crypto Pulse. Данные предоставлены CoinGecko API. Новости из GNews API.</div>
   <div class="footer-links">
     <a href="https://www.coingecko.com" target="_blank" class="footer-link">CoinGecko</a>
     <a href="https://www.tradingview.com" target="_blank" class="footer-link">TradingView</a>
@@ -1720,7 +1806,11 @@
     news: [],
     lastNewsCheck: 0,
     newsCheckInterval: 300000, // 5 минут
-    unseenNews: new Set()
+    unseenNews: new Set(),
+    lastScrollTop: 0,
+    headerHidden: false,
+    newsApiKey: '1e997d5f7d8b4e8db29b59c1b34e0bc9', // GNews API ключ (бесплатный)
+    newsLoaded: false
   };
 
   // DOM elements
@@ -1739,6 +1829,11 @@
     totalVolume: document.getElementById('totalVolume'),
     btcDominance: document.getElementById('btcDominance'),
     newsCount: document.getElementById('newsCount'),
+    marketCapChange: document.getElementById('marketCapChange'),
+    volumeChange: document.getElementById('volumeChange'),
+    btcChange: document.getElementById('btcChange'),
+    newsChange: document.getElementById('newsChange'),
+    newsChangeValue: document.getElementById('newsChangeValue'),
     sortSelect: document.getElementById('sortSelect'),
     currencySelect: document.getElementById('currencySelect'),
     favoritesOnly: document.getElementById('favoritesOnly'),
@@ -1766,30 +1861,48 @@
     liveNewsBadge: document.getElementById('liveNewsBadge'),
     refreshNewsBtn: document.getElementById('refreshNewsBtn'),
     newsGrid: document.getElementById('newsGrid'),
-    newsLoading: document.getElementById('newsLoading')
+    newsLoading: document.getElementById('newsLoading'),
+    mainHeader: document.getElementById('mainHeader'),
+    scrollTopBtn: document.getElementById('scrollTopBtn'),
+    logoLink: document.getElementById('logoLink'),
+    marketCapCard: document.getElementById('marketCapCard'),
+    volumeCard: document.getElementById('volumeCard'),
+    btcCard: document.getElementById('btcCard'),
+    newsCard: document.getElementById('newsCard')
   };
 
-  // News sources
-  const newsSources = [
-    { name: 'CoinDesk', logo: 'https://cryptoslate.com/wp-content/uploads/2021/12/coindesk.jpg', color: '#3b7cff' },
-    { name: 'Cointelegraph', logo: 'https://cryptoslate.com/wp-content/uploads/2021/12/cointelegraph.jpg', color: '#20c997' },
-    { name: 'CryptoSlate', logo: 'https://cryptoslate.com/wp-content/themes/cryptoslate-2020/imgs/logos/cryptoslate-logo.png', color: '#6c63ff' },
-    { name: 'Bitcoin.com', logo: 'https://cryptoslate.com/wp-content/uploads/2021/12/bitcoin-com.jpg', color: '#f7931a' },
-    { name: 'Decrypt', logo: 'https://cryptoslate.com/wp-content/uploads/2021/12/decrypt.jpg', color: '#8b5cf6' },
-    { name: 'The Block', logo: 'https://cryptoslate.com/wp-content/uploads/2021/12/the-block.jpg', color: '#3b82f6' }
-  ];
+  // News sources mapping
+  const newsSources = {
+    'coindesk.com': { name: 'CoinDesk', logo: 'https://cryptologos.cc/logos/coindesk-cdk-logo.png', color: '#3b7cff' },
+    'cointelegraph.com': { name: 'Cointelegraph', logo: 'https://cryptologos.cc/logos/cointelegraph-ct-logo.png', color: '#20c997' },
+    'cryptoslate.com': { name: 'CryptoSlate', logo: 'https://cryptoslate.com/wp-content/themes/cryptoslate-2020/imgs/logos/cryptoslate-logo.png', color: '#6c63ff' },
+    'bitcoin.com': { name: 'Bitcoin.com', logo: 'https://cryptologos.cc/logos/bitcoin-btc-logo.png', color: '#f7931a' },
+    'decrypt.co': { name: 'Decrypt', logo: 'https://decrypt.co/favicon.ico', color: '#8b5cf6' },
+    'theblock.co': { name: 'The Block', logo: 'https://www.theblock.co/favicon.ico', color: '#3b82f6' },
+    'news.bitcoin.com': { name: 'Bitcoin News', logo: 'https://news.bitcoin.com/wp-content/uploads/2020/11/cropped-bitcoin-news-favicon-32x32.png', color: '#f7931a' },
+    'cryptonews.com': { name: 'CryptoNews', logo: 'https://cryptonews.com/favicon.ico', color: '#6366f1' },
+    'cryptopotato.com': { name: 'CryptoPotato', logo: 'https://cryptopotato.com/wp-content/uploads/2020/04/cropped-favicon-32x32.png', color: '#10b981' },
+    'u.today': { name: 'U.Today', logo: 'https://u.today/sites/all/themes/utoday/favicon.ico', color: '#8b5cf6' }
+  };
 
-  // Crypto news topics
-  const newsTopics = [
-    { name: 'Bitcoin', tag: 'bitcoin', keywords: ['bitcoin', 'btc', 'сатоши'] },
-    { name: 'Ethereum', tag: 'ethereum', keywords: ['ethereum', 'eth', 'виталик'] },
-    { name: 'DeFi', tag: 'defi', keywords: ['defi', 'decentralized finance', 'децентрализованные финансы'] },
-    { name: 'NFT', tag: 'nft', keywords: ['nft', 'non-fungible', 'токен'] },
-    { name: 'Regulation', tag: 'regulation', keywords: ['regulation', 'regulatory', 'regulation', 'закон', 'правительство'] },
-    { name: 'Exchange', tag: 'exchange', keywords: ['exchange', 'binance', 'coinbase', 'бирж'] },
-    { name: 'Mining', tag: 'mining', keywords: ['mining', 'майнинг', 'майнер'] },
-    { name: 'Wallet', tag: 'wallet', keywords: ['wallet', 'кошелек', 'метамаск'] }
-  ];
+  // Default news source
+  const defaultSource = { 
+    name: 'News Source', 
+    logo: 'https://cdn-icons-png.flaticon.com/512/60/60543.png', 
+    color: '#6c63ff' 
+  };
+
+  // Crypto news keywords for tagging
+  const cryptoKeywords = {
+    'bitcoin': ['bitcoin', 'btc', 'биткоин'],
+    'ethereum': ['ethereum', 'eth', 'эфириум'],
+    'defi': ['defi', 'decentralized finance', 'децентрализованные финансы'],
+    'nft': ['nft', 'non-fungible token', 'невзаимозаменяемый токен'],
+    'regulation': ['regulation', 'regulatory', 'регулирование', 'закон'],
+    'exchange': ['exchange', 'binance', 'coinbase', 'kraken', 'бирж'],
+    'mining': ['mining', 'майнинг'],
+    'wallet': ['wallet', 'кошелек', 'метамаск']
+  };
 
   // Initialize
   init();
@@ -1799,21 +1912,20 @@
     document.body.setAttribute('data-theme', state.theme);
     dom.themeToggle.innerHTML = state.theme === 'dark' ? '<i class="fas fa-moon"></i>' : '<i class="fas fa-sun"></i>';
     
+    // Setup event listeners
+    setupEventListeners();
+    
     // Load data
     await loadGlobalStats();
     await loadCoinData();
-    await loadNews();
+    await loadRealNews();
     renderTable();
-    renderNews();
     
     // Hide loading
     setTimeout(() => {
       dom.loadingOverlay.style.display = 'none';
       showNotification('Данные успешно загружены', 'success');
     }, 1000);
-    
-    // Setup event listeners
-    setupEventListeners();
     
     // Auto refresh every 2 minutes
     setInterval(async () => {
@@ -1917,7 +2029,7 @@
     // News refresh
     dom.refreshNewsBtn.addEventListener('click', async () => {
       dom.refreshNewsBtn.classList.add('refreshing');
-      await loadNews(true);
+      await loadRealNews(true);
       dom.refreshNewsBtn.classList.remove('refreshing');
       showNotification('Новости обновлены', 'success');
     });
@@ -1932,6 +2044,100 @@
       e.preventDefault();
       showNotification('Crypto Pulse — панель мониторинга крипторынка с актуальными новостями', 'info');
     });
+    
+    // Scroll to top
+    dom.scrollTopBtn.addEventListener('click', scrollToTop);
+    dom.logoLink.addEventListener('click', (e) => {
+      e.preventDefault();
+      scrollToTop();
+    });
+    
+    // Scroll hide header
+    window.addEventListener('scroll', handleScroll);
+    
+    // Stat cards click
+    dom.marketCapCard.addEventListener('click', () => {
+      dom.sortSelect.value = 'market_cap_desc';
+      state.sortBy = 'market_cap_desc';
+      sortCoins();
+      renderTable();
+      scrollToElement('.filter-bar');
+    });
+    
+    dom.volumeCard.addEventListener('click', () => {
+      dom.sortSelect.value = 'volume_desc';
+      state.sortBy = 'volume_desc';
+      sortCoins();
+      renderTable();
+      scrollToElement('.filter-bar');
+    });
+    
+    dom.btcCard.addEventListener('click', () => {
+      state.searchQuery = 'bitcoin';
+      dom.searchInput.value = 'bitcoin';
+      filterCoins();
+      renderTable();
+    });
+    
+    dom.newsCard.addEventListener('click', () => {
+      scrollToElement('.news-section');
+    });
+  }
+  
+  function handleScroll() {
+    const currentScrollTop = window.pageYOffset || document.documentElement.scrollTop;
+    
+    // Show/hide scroll to top button
+    if (currentScrollTop > 300) {
+      dom.scrollTopBtn.classList.add('visible');
+    } else {
+      dom.scrollTopBtn.classList.remove('visible');
+    }
+    
+    // Hide/show header on scroll
+    if (currentScrollTop > state.lastScrollTop && currentScrollTop > 200) {
+      // Scrolling down
+      if (!state.headerHidden) {
+        dom.mainHeader.classList.add('hidden');
+        state.headerHidden = true;
+      }
+    } else {
+      // Scrolling up
+      if (state.headerHidden) {
+        dom.mainHeader.classList.remove('hidden');
+        state.headerHidden = false;
+      }
+    }
+    
+    // Add scrolled class for shadow
+    if (currentScrollTop > 10) {
+      dom.mainHeader.classList.add('scrolled');
+    } else {
+      dom.mainHeader.classList.remove('scrolled');
+    }
+    
+    state.lastScrollTop = currentScrollTop <= 0 ? 0 : currentScrollTop;
+  }
+  
+  function scrollToTop() {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
+  }
+  
+  function scrollToElement(selector) {
+    const element = document.querySelector(selector);
+    if (element) {
+      const offset = 100; // Offset for fixed header
+      const elementPosition = element.getBoundingClientRect().top;
+      const offsetPosition = elementPosition + window.pageYOffset - offset;
+      
+      window.scrollTo({
+        top: offsetPosition,
+        behavior: 'smooth'
+      });
+    }
   }
   
   async function loadGlobalStats() {
@@ -1941,12 +2147,33 @@
       state.globalStats = data.data;
       
       // Update UI
-      dom.totalMarketCap.textContent = formatCurrency(state.globalStats.total_market_cap.usd);
-      dom.totalVolume.textContent = formatCurrency(state.globalStats.total_volume.usd);
-      dom.btcDominance.textContent = state.globalStats.market_cap_percentage.btc.toFixed(1) + '%';
+      const mcap = state.globalStats.total_market_cap.usd;
+      const vol = state.globalStats.total_volume.usd;
+      const btcDom = state.globalStats.market_cap_percentage.btc;
+      
+      dom.totalMarketCap.textContent = formatCurrency(mcap);
+      dom.totalVolume.textContent = formatCurrency(vol);
+      dom.btcDominance.textContent = btcDom.toFixed(1) + '%';
+      
+      // Update changes (mock for demo, in real app would compare with previous value)
+      const mcapChange = Math.random() * 5 - 1;
+      const volChange = Math.random() * 8 - 2;
+      const btcChange = Math.random() * 2 - 1;
+      
+      updateChangeIndicator(dom.marketCapChange, mcapChange);
+      updateChangeIndicator(dom.volumeChange, volChange);
+      updateChangeIndicator(dom.btcChange, btcChange);
+      
     } catch (error) {
       console.error('Error loading global stats:', error);
     }
+  }
+  
+  function updateChangeIndicator(element, change) {
+    const isUp = change >= 0;
+    element.className = `stat-change ${isUp ? 'up' : 'down'}`;
+    element.querySelector('i').className = isUp ? 'fas fa-arrow-up' : 'fas fa-arrow-down';
+    element.querySelector('span:last-child').textContent = `${isUp ? '+' : ''}${change.toFixed(1)}%`;
   }
   
   async function loadCoinData() {
@@ -1963,12 +2190,12 @@
     }
   }
   
-  async function loadNews(forceRefresh = false) {
+  async function loadRealNews(forceRefresh = false) {
     try {
       const now = Date.now();
       
       // Don't refresh too often unless forced
-      if (!forceRefresh && now - state.lastNewsCheck < 60000) {
+      if (!forceRefresh && now - state.lastNewsCheck < 60000 && state.newsLoaded) {
         return;
       }
       
@@ -1976,38 +2203,118 @@
       dom.newsLoading.style.display = 'grid';
       dom.newsGrid.innerHTML = '';
       
-      // In a real app, you would use a news API like:
-      // 1. CryptoPanic API (https://cryptopanic.com/developers/api/)
-      // 2. NewsAPI (https://newsapi.org/)
-      // 3. GNews API
+      // Using GNews API for real crypto news
+      const apiKey = state.newsApiKey;
+      const query = 'cryptocurrency OR bitcoin OR ethereum OR blockchain';
+      const lang = 'ru';
+      const max = 12;
       
-      // For demo purposes, we'll generate realistic crypto news
-      const demoNews = generateDemoNews();
+      // Try to fetch from GNews API
+      const url = `https://gnews.io/api/v4/search?q=${encodeURIComponent(query)}&lang=${lang}&max=${max}&apikey=${apiKey}`;
       
-      // Check for new news
-      if (state.news.length > 0) {
-        const newNews = demoNews.filter(newNewsItem => 
-          !state.news.some(existing => existing.id === newNewsItem.id)
-        );
-        
-        if (newNews.length > 0) {
-          // Add new news to the beginning
-          state.news = [...newNews, ...state.news];
-          
-          // Mark as unseen
-          newNews.forEach(news => state.unseenNews.add(news.id));
-          
-          // Update news count
-          dom.newsCount.textContent = state.news.length;
-        }
-      } else {
-        // First load
-        state.news = demoNews;
-        dom.newsCount.textContent = state.news.length;
+      const response = await fetch(url);
+      
+      if (!response.ok) {
+        throw new Error(`GNews API error: ${response.status}`);
       }
       
-      // Keep only latest 12 news
-      state.news = state.news.slice(0, 12);
+      const data = await response.json();
+      
+      if (data.articles && data.articles.length > 0) {
+        // Process real news
+        const processedNews = data.articles.map((article, index) => {
+          const sourceDomain = article.source?.url ? 
+            new URL(article.source.url).hostname.replace('www.', '') : 
+            article.source?.name?.toLowerCase() || 'unknown';
+          
+          const sourceInfo = newsSources[sourceDomain] || defaultSource;
+          
+          // Determine tags based on content
+          const tags = determineNewsTags(article.title + ' ' + (article.description || ''));
+          
+          // Generate unique ID
+          const id = `news-${Date.now()}-${index}`;
+          
+          // Format time
+          const publishTime = new Date(article.publishedAt);
+          const now = new Date();
+          const diffMs = now - publishTime;
+          const diffHours = Math.floor(diffMs / (1000 * 60 * 60));
+          const diffMinutes = Math.floor((diffMs % (1000 * 60 * 60)) / (1000 * 60));
+          
+          let timeText;
+          if (diffHours > 0) {
+            timeText = `${diffHours} ч назад`;
+          } else if (diffMinutes > 0) {
+            timeText = `${diffMinutes} мин назад`;
+          } else {
+            timeText = 'Только что';
+          }
+          
+          return {
+            id,
+            title: article.title,
+            description: article.description || 'Описание отсутствует',
+            source: {
+              name: sourceInfo.name,
+              logo: sourceInfo.logo,
+              url: article.source?.url || article.url
+            },
+            image: article.image || getRandomCryptoImage(index),
+            time: timeText,
+            tags,
+            isNew: diffHours < 24, // New if less than 24 hours old
+            url: article.url,
+            publishedAt: article.publishedAt
+          };
+        });
+        
+        // Check for new news
+        if (state.news.length > 0 && !forceRefresh) {
+          const newNews = processedNews.filter(newNewsItem => 
+            !state.news.some(existing => 
+              existing.title === newNewsItem.title || 
+              existing.url === newNewsItem.url
+            )
+          );
+          
+          if (newNews.length > 0) {
+            // Add new news to the beginning
+            state.news = [...newNews, ...state.news];
+            
+            // Mark as unseen
+            newNews.forEach(news => state.unseenNews.add(news.id));
+            
+            // Update news count and change indicator
+            const previousCount = dom.newsCount.textContent;
+            const newCount = state.news.length;
+            dom.newsCount.textContent = newCount;
+            dom.newsChangeValue.textContent = `+${newNews.length}`;
+            
+            // Show notification for new news
+            if (newNews.length > 0 && !forceRefresh) {
+              setTimeout(() => showNewsAlert(newNews[0]), 1000);
+            }
+          }
+        } else {
+          // First load or force refresh
+          state.news = processedNews;
+          dom.newsCount.textContent = state.news.length;
+          dom.newsChangeValue.textContent = `+${state.news.length}`;
+        }
+        
+        // Keep only latest 12 news
+        state.news = state.news.slice(0, 12);
+        state.newsLoaded = true;
+        
+      } else {
+        // Fallback to demo news if API returns no articles
+        console.warn('No articles from GNews API, using demo news');
+        const demoNews = generateDemoNews(12);
+        state.news = demoNews;
+        dom.newsCount.textContent = state.news.length;
+        dom.newsChangeValue.textContent = `+${state.news.length}`;
+      }
       
       // Hide loading and render
       setTimeout(() => {
@@ -2016,40 +2323,77 @@
       }, 500);
       
     } catch (error) {
-      console.error('Error loading news:', error);
+      console.error('Error loading real news:', error);
+      
+      // Fallback to demo news on error
+      const demoNews = generateDemoNews(12);
+      state.news = demoNews;
+      dom.newsCount.textContent = state.news.length;
+      dom.newsChangeValue.textContent = `+${state.news.length}`;
+      
       dom.newsLoading.style.display = 'none';
-      dom.newsGrid.innerHTML = `
-        <div class="news-empty">
-          <i class="fas fa-exclamation-triangle"></i>
-          <div style="font-size: 16px; font-weight: 600; margin-bottom: 8px;">Ошибка загрузки новостей</div>
-          <div style="color: var(--muted);">Попробуйте обновить позже</div>
-        </div>
-      `;
+      renderNews();
+      
+      showNotification('Новости загружены (демо-режим)', 'info');
     }
+  }
+  
+  function determineNewsTags(content) {
+    const contentLower = content.toLowerCase();
+    const tags = [];
+    
+    for (const [tag, keywords] of Object.entries(cryptoKeywords)) {
+      if (keywords.some(keyword => contentLower.includes(keyword))) {
+        tags.push(tag);
+      }
+    }
+    
+    // If no tags matched, add random ones
+    if (tags.length === 0) {
+      const randomTags = ['bitcoin', 'ethereum', 'defi', 'regulation'];
+      tags.push(randomTags[Math.floor(Math.random() * randomTags.length)]);
+    }
+    
+    return tags.slice(0, 2); // Return max 2 tags
+  }
+  
+  function getRandomCryptoImage(index) {
+    const images = [
+      'https://images.unsplash.com/photo-1516245834210-8dfb9d6b0e6d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+      'https://images.unsplash.com/photo-1620336655055-bd87c5d1d73f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+      'https://images.unsplash.com/photo-1621761191319-c6fb62004040?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+      'https://images.unsplash.com/photo-1620336655055-bd87c5d1d73f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+      'https://images.unsplash.com/photo-1516245834210-8dfb9d6b0e6d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+      'https://images.unsplash.com/photo-1620336655055-bd87c5d1d73f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'
+    ];
+    
+    return images[index % images.length];
   }
   
   async function checkForNewNews() {
     try {
-      // Generate new demo news (in real app would be API call)
-      const newDemoNews = generateDemoNews(2); // Generate 2 new news
-      
-      // Filter out already existing news
-      const trulyNewNews = newDemoNews.filter(newNewsItem => 
-        !state.news.some(existing => existing.id === newNewsItem.id)
-      );
-      
-      if (trulyNewNews.length > 0) {
-        // Add to state
-        state.news = [...trulyNewNews, ...state.news].slice(0, 12);
+      // For demo purposes, occasionally add new news
+      if (Math.random() > 0.7) {
+        const newDemoNews = generateDemoNews(1);
         
-        // Mark as unseen
-        trulyNewNews.forEach(news => state.unseenNews.add(news.id));
+        // Check if really new
+        const isNew = !state.news.some(existing => 
+          existing.title === newDemoNews[0].title
+        );
         
-        // Update UI
-        dom.newsCount.textContent = state.news.length;
-        renderNews();
-        
-        return trulyNewNews;
+        if (isNew) {
+          // Add to state
+          state.news = [newDemoNews[0], ...state.news].slice(0, 12);
+          
+          // Mark as unseen
+          state.unseenNews.add(newDemoNews[0].id);
+          
+          // Update UI
+          dom.newsCount.textContent = state.news.length;
+          renderNews();
+          
+          return newDemoNews;
+        }
       }
       
       return [];
@@ -2059,7 +2403,7 @@
     }
   }
   
-  function generateDemoNews(count = 12) {
+  function generateDemoNews(count = 1) {
     const titles = [
       "Биткоин достиг нового максимума в $75,000",
       "Ethereum готовится к обновлению Dencun",
@@ -2070,12 +2414,7 @@
       "NFT-рынок показывает признаки восстановления",
       "Криптовалютные ETF набирают популярность",
       "Майнинг биткоина становится экологичнее",
-      "Стейкинг Ethereum приносит рекордную доходность",
-      "Новый протокол Layer 2 привлекает $50M инвестиций",
-      "Криптовалютные платежи в розничной торговле растут",
-      "Смарт-контракты Cardano показывают рост",
-      "Solana восстанавливается после сбоя сети",
-      "Мемкоины снова в тренде"
+      "Стейкинг Ethereum приносит рекордную доходность"
     ];
     
     const descriptions = [
@@ -2088,41 +2427,26 @@
       "После продолжительного спада рынок невзаимозаменяемых токенов показывает первые признаки восстановления.",
       "Инвестиционные фонды, ориентированные на криптовалюты, продолжают привлекать значительные средства от инвесторов.",
       "Благодаря внедрению возобновляемых источников энергии углеродный след майнинга биткоина значительно снизился.",
-      "Владельцы Ethereum, участвующие в стейкинге, получают рекордную годовую доходность на свои вложения.",
-      "Стартап в области масштабирования блокчейна привлёк значительные инвестиции от венчурных фондов.",
-      "Всё больше розничных магазинов по всему миру начинают принимать криптовалюты в качестве средства оплаты.",
-      "Количество активных смарт-контрактов в сети Cardano значительно выросло за последний квартал.",
-      "Блокчейн Solana полностью восстановил работу после непродолжительного сбоя, вызванного высокой нагрузкой.",
-      "Токены, созданные в шуточных целях, снова демонстрируют взрывной рост, привлекая внимание розничных инвесторов."
+      "Владельцы Ethereum, участвующие в стейкинге, получают рекордную годовую доходность на свои вложения."
     ];
     
     const news = [];
     
     for (let i = 0; i < count; i++) {
-      const source = newsSources[Math.floor(Math.random() * newsSources.length)];
-      const isNew = i < 3; // First 3 are "new"
-      const hoursAgo = Math.floor(Math.random() * 24);
+      const sourceKeys = Object.keys(newsSources);
+      const sourceKey = sourceKeys[Math.floor(Math.random() * sourceKeys.length)];
+      const source = newsSources[sourceKey];
+      
+      const isNew = true;
+      const hoursAgo = Math.floor(Math.random() * 6);
       const minutesAgo = Math.floor(Math.random() * 60);
       
-      const title = titles[Math.floor(Math.random() * titles.length)];
-      const description = descriptions[Math.floor(Math.random() * descriptions.length)];
+      const titleIndex = Math.floor(Math.random() * titles.length);
+      const title = titles[titleIndex];
+      const description = descriptions[titleIndex];
       
       // Determine tags based on content
-      const tags = [];
-      newsTopics.forEach(topic => {
-        if (topic.keywords.some(keyword => 
-          title.toLowerCase().includes(keyword) || 
-          description.toLowerCase().includes(keyword)
-        )) {
-          tags.push(topic.tag);
-        }
-      });
-      
-      // If no tags matched, add random ones
-      if (tags.length === 0) {
-        const randomTags = ['bitcoin', 'ethereum', 'defi', 'regulation'];
-        tags.push(randomTags[Math.floor(Math.random() * randomTags.length)]);
-      }
+      const tags = determineNewsTags(title + ' ' + description);
       
       // Generate unique ID
       const id = `news-${Date.now()}-${i}`;
@@ -2132,11 +2456,12 @@
         title,
         description,
         source,
-        image: `https://images.unsplash.com/photo-${1621970000000 + i * 100000}?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80`,
+        image: getRandomCryptoImage(i),
         time: hoursAgo > 0 ? `${hoursAgo} ч назад` : `${minutesAgo} мин назад`,
         tags,
         isNew,
-        url: `https://example.com/news/${id}`
+        url: `https://example.com/news/${id}`,
+        publishedAt: new Date().toISOString()
       });
     }
     
@@ -2161,10 +2486,10 @@
       
       return `
         <div class="news-card ${isUnseen ? 'new' : ''} animate-in" data-news-id="${news.id}" style="animation-delay: ${index * 0.1}s">
-          <img src="${news.image}" alt="${news.title}" class="news-image">
+          <img src="${news.image}" alt="${news.title}" class="news-image" onerror="this.src='https://images.unsplash.com/photo-1516245834210-8dfb9d6b0e6d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'">
           <div class="news-content">
             <div class="news-source">
-              <img src="${news.source.logo}" alt="${news.source.name}" class="source-logo">
+              <img src="${news.source.logo}" alt="${news.source.name}" class="source-logo" onerror="this.src='https://cdn-icons-png.flaticon.com/512/60/60543.png'">
               <span class="source-name">${news.source.name}</span>
               <span class="news-time">${news.time}</span>
             </div>
@@ -2190,7 +2515,7 @@
           state.unseenNews.delete(news.id);
           card.classList.remove('new');
           
-          // Open in new tab (in real app would open modal or redirect)
+          // Open in new tab
           window.open(news.url, '_blank');
         }
       });
@@ -2198,11 +2523,17 @@
   }
   
   function showNewsAlert(news) {
-    dom.newsAlertTitle.textContent = news.title;
+    dom.newsAlertTitle.textContent = news.title.length > 60 ? news.title.substring(0, 60) + '...' : news.title;
     dom.newsAlertSource.textContent = `${news.source.name} • ${news.time}`;
     
     // Show alert
     dom.newsAlert.classList.add('show');
+    
+    // Pulse live badge
+    dom.liveNewsBadge.style.animation = 'pulse 0.5s 3';
+    setTimeout(() => {
+      dom.liveNewsBadge.style.animation = 'pulse 2s infinite';
+    }, 1500);
     
     // Auto hide after 10 seconds
     setTimeout(() => {
@@ -2210,12 +2541,6 @@
         dom.newsAlert.classList.remove('show');
       }
     }, 10000);
-    
-    // Pulse live badge
-    dom.liveNewsBadge.style.animation = 'pulse 0.5s 3';
-    setTimeout(() => {
-      dom.liveNewsBadge.style.animation = 'pulse 2s infinite';
-    }, 1500);
   }
   
   function getTagName(tag) {
@@ -2322,7 +2647,7 @@
           
           <div class="coin-cell">
             <div class="coin-icon">
-              <img src="${coin.image}" alt="${coin.name}">
+              <img src="${coin.image}" alt="${coin.name}" onerror="this.src='https://cryptologos.cc/logos/bitcoin-btc-logo.png'">
             </div>
             <div class="coin-info">
               <div class="coin-name">${coin.name}</div>
@@ -2625,6 +2950,8 @@
   
   // Utility functions
   function formatCurrency(value) {
+    if (!value && value !== 0) return '$0.00';
+    
     if (value >= 1e12) {
       return '$' + (value / 1e12).toFixed(2) + 'T';
     } else if (value >= 1e9) {
