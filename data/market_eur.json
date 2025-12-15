@@ -1,0 +1,10 @@
+{
+  "source": "coinmarketcap-pro",
+  "convert": "EUR",
+  "updated_at": null,
+  "global": null,
+  "trending": {
+    "coins": []
+  },
+  "coins": []
+}

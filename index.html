@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>CryptoWatch — Crypto Market Dashboard</title>
+
+  <!-- Tailwind (optional, used for a few utilities; dark mode controlled by .dark class on <html>) -->
+  <script>
+    window.tailwind = window.tailwind || {};
+    window.tailwind.config = Object.assign({}, window.tailwind.config || {}, { darkMode: 'class' });
+  </script>
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Fonts + Icons -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+  <!-- App styles -->
+  <link rel="stylesheet" href="assets/css/variables.css" />
+  <link rel="stylesheet" href="assets/css/base.css" />
+  <link rel="stylesheet" href="assets/css/components.css" />
+  <link rel="stylesheet" href="assets/css/layout.css" />
+
+  <!-- Chart.js for sparklines -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+  <!-- TradingView widget loader -->
+  <script src="https://s3.tradingview.com/tv.js"></script>
+</head>
+
+<body>
+  <!-- Loader -->
+  <div id="loading-overlay" class="loader">
+    <div class="surface box">
+      <div class="flex items-center justify-between gap-3">
+        <div class="flex items-center gap-3">
+          <div class="logo" style="width:40px;height:40px;border-radius:12px"><i class="fa-solid fa-chart-line"></i></div>
+          <div>
+            <div style="font-weight:1000" data-i18n="loading-title">Loading market data…</div>
+            <div class="muted" style="font-size:12px" data-i18n="loading-sub">Fetching prices, trending coins and charts</div>
+          </div>
+        </div>
+        <span class="kbd">Esc</span>
+      </div>
+      <div style="margin-top:14px" class="progress"><div></div></div>
+    </div>
+  </div>
+
+  <!-- Topbar -->
+  <div class="topbar">
+    <div class="container">
+      <div class="nav">
+        <div class="brand">
+          <a class="logo" href="index.html" aria-label="CryptoWatch">
+            <i class="fa-solid fa-chart-line"></i>
+          </a>
+          <div>
+            <div class="title">CryptoWatch</div>
+            <div class="tagline" data-i18n="tagline">Live crypto prices • Watchlist • Charts</div>
+          </div>
+        </div>
+
+        <div class="nav-links desktop-only">
+          <a href="#market" data-i18n="nav-market">Market</a>
+          <a href="#chart" data-i18n="nav-chart">Chart</a>
+          <a href="#trending" data-i18n="nav-trending">Trending</a>
+          <a href="#sentiment" data-i18n="nav-fear-greed">Fear &amp; Greed</a>
+          <a href="#news" data-i18n="nav-news">News</a>
+        </div>
+
+        <div class="nav-actions">
+          <select id="lang-select" class="select" style="width:140px" aria-label="Language">
+            <option value="en">EN</option>
+            <option value="ru">RU</option>
+          </select>
+          <button id="theme-toggle" class="btn icon-btn" aria-label="Toggle theme" title="Theme">
+            <i class="fa-solid fa-moon"></i>
+          </button>
+          <a class="btn primary" href="#market">
+            <i class="fa-solid fa-arrow-trend-up"></i>
+            <span data-i18n="cta-market">Open market</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <main class="container">
+    <!-- Global Stats -->
+    <section class="section" id="overview">
+      <div class="surface stat">
+        <div class="flex items-start justify-between gap-4 flex-wrap">
+          <div>
+            <div class="pill"><i class="fa-solid fa-bolt"></i> <span data-i18n="overview-pill">Market snapshot</span></div>
+            <h2 style="margin-top:10px" data-i18n="overview-title">Today’s crypto market</h2>
+            <div class="muted" data-i18n="overview-sub">Fast overview: total market cap, volume and BTC dominance</div>
+          </div>
+          <div class="muted" style="font-weight:800; font-size:12px">
+            <i class="fa-regular fa-clock"></i> <span id="updated-at" data-i18n="updated-just-now">just now</span>
+          </div>
+        </div>
+
+        <div class="cards" style="margin-top:14px">
+          <div class="surface flat stat card">
+            <div class="label" data-i18n="stat-marketcap">Total Market Cap</div>
+            <div class="value" id="stat-marketcap">$—</div>
+            <div class="sub"><span data-i18n="stat-change-24h">24h change</span>: <span id="stat-marketcap-change">—</span></div>
+          </div>
+          <div class="surface flat stat card">
+            <div class="label" data-i18n="stat-volume">24h Volume</div>
+            <div class="value" id="stat-volume">$—</div>
+            <div class="sub"><span data-i18n="stat-active">Active cryptocurrencies</span>: <span id="stat-active">—</span></div>
+          </div>
+          <div class="surface flat stat card">
+            <div class="label" data-i18n="stat-btc-dom">BTC Dominance</div>
+            <div class="value" id="stat-btcdom">—%</div>
+            <div class="sub"><span data-i18n="stat-markets">Markets</span>: <span id="stat-markets">—</span></div>
+          </div>
+          <div class="surface flat stat card">
+            <div class="label" data-i18n="stat-top-gainers">Top 24h gainer</div>
+            <div class="value" id="stat-top-gainer">—</div>
+            <div class="sub"><span data-i18n="stat-top-losers">Top 24h loser</span>: <span id="stat-top-loser">—</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Market -->
+    <section class="section" id="market">
+      <div class="flex items-center justify-between gap-3 flex-wrap">
+        <h2 data-i18n="market-title">Coins (by Market Cap)</h2>
+        <div class="muted" style="font-weight:800; font-size:12px">
+          <span id="coins-count">—</span> <span data-i18n="market-count">coins</span>
+        </div>
+      </div>
+
+      <div class="surface" style="padding:14px">
+        <div class="toolbar">
+          <div class="grow">
+            <input id="coin-search" class="input" type="search" placeholder="Search coins…" data-i18n-placeholder="search-placeholder" />
+          </div>
+
+          <select id="coin-sort" class="select" style="width:220px">
+            <option value="market_cap_desc" data-i18n="sort-mcap-desc">Market cap (high → low)</option>
+            <option value="market_cap_asc" data-i18n="sort-mcap-asc">Market cap (low → high)</option>
+            <option value="price_desc" data-i18n="sort-price-desc">Price (high → low)</option>
+            <option value="price_asc" data-i18n="sort-price-asc">Price (low → high)</option>
+            <option value="change_desc" data-i18n="sort-change-desc">24h change (high → low)</option>
+            <option value="change_asc" data-i18n="sort-change-asc">24h change (low → high)</option>
+            <option value="volume_desc" data-i18n="sort-vol-desc">Volume (high → low)</option>
+          </select>
+
+          <select id="vs-currency" class="select" style="width:140px" aria-label="Currency">
+            <option value="usd">USD</option>
+            <option value="eur">EUR</option>
+          </select>
+
+          <select id="rows-per-page" class="select" style="width:140px" aria-label="Rows">
+            <option value="25">25</option>
+            <option value="50">50</option>
+            <option value="100">100</option>
+          </select>
+
+          <button id="watchlist-only" class="btn" aria-pressed="false">
+            <i class="fa-solid fa-star"></i>
+            <span data-i18n="watchlist-only">Watchlist</span>
+          </button>
+
+          <button id="refresh-data" class="btn">
+            <i class="fa-solid fa-rotate"></i>
+            <span data-i18n="refresh">Refresh</span>
+          </button>
+        </div>
+
+        <div id="setup-banner" class="setup-banner hidden" role="status" aria-live="polite">
+          <div class="setup-banner-title" data-i18n="setup-title">CoinMarketCap data not loaded yet</div>
+          <div class="setup-banner-body" data-i18n="setup-body">To show real data on GitHub Pages, add Actions secret CMC_PRO_API_KEY and run workflow "Update market data". After it finishes, reload the page.</div>
+          <a class="setup-banner-link" href="README.md" target="_blank" rel="noopener" data-i18n="setup-open-readme">Open setup instructions</a>
+        </div>
+
+        <div class="desktop-only table-wrap" aria-label="Coins table">
+          <table>
+            <thead>
+              <tr>
+                <th>#</th>
+                <th data-i18n="table-coin">Coin</th>
+                <th data-i18n="table-price">Price</th>
+                <th data-i18n="table-1h-change">1h %</th>
+                <th data-i18n="table-24h-change">24h %</th>
+                <th data-i18n="table-7d-change">7d %</th>
+                <th data-i18n="table-24h-volume">Vol 24h</th>
+                <th data-i18n="table-market-cap">Market Cap</th>
+                <th data-i18n="table-last-7-days">Last 7d</th>
+                <th data-i18n="table-action">Action</th>
+              </tr>
+            </thead>
+            <tbody id="coins-table-body"></tbody>
+          </table>
+        </div>
+
+        <div class="mobile-only mobile-cards" id="coins-mobile"></div>
+
+        <div class="flex items-center justify-between gap-3 flex-wrap" style="margin-top:12px">
+          <div class="muted" style="font-size:12px">
+            <span id="pager-info">—</span>
+          </div>
+          <div class="flex items-center gap-10 flex-wrap">
+            <div class="flex items-center gap-10" id="pager"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Chart -->
+    <section class="section" id="chart">
+      <div class="flex items-center justify-between gap-3 flex-wrap">
+        <h2 data-i18n="chart-title">BTC/USDT Chart</h2>
+        <span class="pill"><i class="fa-solid fa-chart-area"></i> <span data-i18n="chart-pill">TradingView (toolbar hidden)</span></span>
+      </div>
+
+      <div class="surface" style="padding:14px">
+        <div id="tv-chart" style="height:520px; border-radius:14px; overflow:hidden; border:1px solid var(--border)"></div>
+        <div class="muted" style="margin-top:10px; font-size:12px" data-i18n="chart-note">
+          Tip: click a coin in the table to open a detailed page.
+        </div>
+      </div>
+    </section>
+
+    <!-- Trending -->
+    <section class="section" id="trending">
+      <div class="flex items-center justify-between gap-3 flex-wrap">
+        <h2 data-i18n="trending-title">Trending</h2>
+        <span class="pill"><i class="fa-solid fa-fire"></i> <span data-i18n="trending-pill">Top searches</span></span>
+      </div>
+
+      <div class="surface" style="padding:14px">
+        <div id="trending-list" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3"></div>
+      </div>
+    </section>
+
+    <!-- Fear & Greed -->
+    <section class="section" id="sentiment">
+      <div class="flex items-center justify-between gap-3 flex-wrap">
+        <h2 data-i18n="fng-title">Fear &amp; Greed Index</h2>
+        <span class="pill"><i class="fa-regular fa-face-smile"></i> <span data-i18n="fng-pill">Sentiment</span></span>
+      </div>
+
+      <div class="surface" style="padding:14px">
+        <div class="flex items-center justify-between gap-4 flex-wrap">
+          <div>
+            <div class="muted" style="font-weight:800" data-i18n="fng-now">Current</div>
+            <div style="display:flex; gap:12px; align-items:baseline; flex-wrap:wrap">
+              <div id="fng-value" style="font-size:46px; font-weight:1000">—</div>
+              <div id="fng-label" class="badge">—</div>
+            </div>
+            <div class="muted" style="font-size:12px">
+              <span data-i18n="fng-updated">Updated</span>: <span id="fng-updated-at">—</span>
+            </div>
+          </div>
+          <div style="min-width:min(420px, 100%)">
+            <div class="muted" style="font-weight:900; margin-bottom:8px" data-i18n="fng-scale">Scale</div>
+            <div class="progress"><div id="fng-bar" style="width:50%"></div></div>
+            <div class="flex items-center justify-between muted" style="font-size:12px; margin-top:8px">
+              <span data-i18n="fng-fear">Fear</span>
+              <span data-i18n="fng-neutral">Neutral</span>
+              <span data-i18n="fng-greed">Greed</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- News (mock) -->
+    <section class="section" id="news">
+      <div class="flex items-center justify-between gap-3 flex-wrap">
+        <h2 data-i18n="news-title">News</h2>
+        <span class="pill"><i class="fa-regular fa-newspaper"></i> <span data-i18n="news-pill">Sample feed (mock)</span></span>
+      </div>
+
+      <div class="surface" style="padding:14px">
+        <div id="news-container" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3"></div>
+      </div>
+    </section>
+
+    <div class="footer">
+      <div class="muted">
+        <span>©</span> <span id="year"></span> CryptoWatch • <span data-i18n="footer-note">Educational dashboard. Data from public APIs.</span>
+      </div>
+    </div>
+  </main>
+
+  <!-- Scripts -->
+  <script src="assets/js/api.js"></script>
+  <script src="assets/js/bus.js"></script>
+  <script src="assets/js/theme.js"></script>
+  <script src="assets/js/language.js"></script>
+  <script src="assets/js/ui.js"></script>
+  <script src="assets/js/watchlist.js"></script>
+  <script src="assets/js/charts.js"></script>
+  <script src="assets/js/table.js"></script>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>
