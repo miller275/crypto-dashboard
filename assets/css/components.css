@@ -1,0 +1,140 @@
+/* CryptoWatch — components */
+.surface{
+  background:var(--card);
+  border:1px solid var(--border);
+  border-radius:16px;
+  box-shadow:var(--shadow);
+}
+.surface.flat{box-shadow:none}
+.pill{
+  display:inline-flex; align-items:center; gap:8px;
+  padding:6px 10px; border-radius:999px;
+  background:var(--chip); color:var(--chip-text);
+  font-size:12px; font-weight:600;
+  border:1px solid rgba(99,102,241,.08);
+}
+.muted{color:var(--muted)}
+.btn{
+  display:inline-flex; align-items:center; justify-content:center; gap:8px;
+  padding:10px 12px; border-radius:12px;
+  border:1px solid var(--border);
+  background:var(--card);
+  cursor:pointer;
+  transition:transform .06s ease, border-color .15s ease, background .15s ease;
+}
+.btn:hover{border-color:rgba(124,58,237,.45)}
+.btn:active{transform:translateY(1px)}
+.btn.primary{
+  background:linear-gradient(135deg, var(--accent), var(--accent-2));
+  border-color:transparent;
+  color:white;
+}
+.btn.ghost{background:transparent}
+.icon-btn{width:42px; height:42px; padding:0}
+.input, .select{
+  width:100%;
+  padding:10px 12px;
+  border-radius:12px;
+  border:1px solid var(--border);
+  background:var(--card);
+  color:var(--text);
+}
+.kbd{
+  font-size:12px; padding:3px 8px; border-radius:10px;
+  border:1px solid var(--border); background:rgba(2,6,23,.04);
+}
+html.dark .kbd{background:rgba(255,255,255,.06)}
+.badge{
+  display:inline-flex; align-items:center; gap:6px;
+  padding:6px 10px; border-radius:999px;
+  border:1px solid var(--border);
+  font-size:12px; font-weight:700;
+}
+.badge.up{color:var(--success)}
+.badge.down{color:var(--danger)}
+.table-wrap{overflow:auto; border-radius:16px; border:1px solid var(--border)}
+table{width:100%; border-collapse:separate; border-spacing:0; min-width:980px}
+thead th{
+  position:sticky; top:0;
+  background:var(--card);
+  border-bottom:1px solid var(--border);
+  text-align:left;
+  font-size:12px;
+  letter-spacing:.02em;
+  color:var(--muted);
+  padding:12px 12px;
+  white-space:nowrap;
+}
+tbody td{
+  padding:12px 12px;
+  border-bottom:1px solid rgba(148,163,184,.18);
+  vertical-align:middle;
+}
+tbody tr:hover{background:rgba(124,58,237,.05)}
+html.dark tbody tr:hover{background:rgba(167,139,250,.08)}
+.coin-cell{display:flex; align-items:center; gap:10px}
+.coin-logo{width:28px; height:28px; border-radius:999px}
+.rank{color:var(--muted); font-variant-numeric:tabular-nums}
+.spark{width:120px; height:34px}
+.star{cursor:pointer}
+.star.active{color: #f59e0b}
+.toast{
+  position:fixed; right:18px; bottom:18px;
+  min-width:240px;
+  padding:12px 14px;
+  border-radius:14px;
+  border:1px solid var(--border);
+  background:var(--card);
+  box-shadow:var(--shadow);
+  z-index:9999;
+}
+.loader{
+  position:fixed; inset:0;
+  display:flex; align-items:center; justify-content:center;
+  background:rgba(2,6,23,.55);
+  z-index:9998;
+  backdrop-filter: blur(6px);
+}
+.loader .box{
+  width:min(560px, calc(100% - 32px));
+  padding:18px;
+}
+.progress{
+  height:10px; border-radius:999px; overflow:hidden;
+  background:rgba(148,163,184,.2);
+  border:1px solid rgba(148,163,184,.25);
+}
+.progress > div{
+  height:100%;
+  width:40%;
+  background:linear-gradient(90deg, var(--accent), var(--accent-2));
+  border-radius:999px;
+  animation:slide 1.2s ease-in-out infinite alternate;
+}
+@keyframes slide { from{transform:translateX(-30%)} to{transform:translateX(130%)} }
+.cards{
+  display:grid;
+  grid-template-columns:repeat(12, 1fr);
+  gap:14px;
+}
+.card{grid-column:span 12}
+@media (min-width: 700px){ .card{grid-column:span 4} }
+@media (min-width: 980px){ .card{grid-column:span 3} }
+.stat{
+  padding:14px;
+}
+.stat .label{font-size:12px; color:var(--muted); font-weight:700}
+.stat .value{font-size:20px; font-weight:900; margin-top:6px}
+.stat .sub{margin-top:6px; font-size:12px; color:var(--muted)}
+/* mobile coin cards */
+.mobile-cards{display:grid; gap:12px}
+.mobile-card{
+  display:flex; gap:12px; align-items:flex-start;
+  padding:12px;
+}
+.mobile-card .right{margin-left:auto; text-align:right}
+.mobile-card .price{font-weight:900}
+.mobile-card .name{font-weight:900}
+.mobile-card .sym{color:var(--muted); font-weight:700; font-size:12px}
+@media (min-width: 900px){ .mobile-only{display:none !important} }
+@media (max-width: 899px){ .desktop-only{display:none !important} }
