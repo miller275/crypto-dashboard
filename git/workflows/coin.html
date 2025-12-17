@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Coin — CryptoWatch</title>
+
+  <script>
+    window.tailwind = window.tailwind || {};
+    window.tailwind.config = Object.assign({}, window.tailwind.config || {}, { darkMode: 'class' });
+  </script>
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+  <link rel="stylesheet" href="assets/css/variables.css" />
+  <link rel="stylesheet" href="assets/css/base.css" />
+  <link rel="stylesheet" href="assets/css/components.css" />
+  <link rel="stylesheet" href="assets/css/layout.css" />
+  <script src="https://s3.tradingview.com/tv.js"></script>
+</head>
+
+<body>
+  <div class="topbar">
+    <div class="container">
+      <div class="nav">
+        <div class="brand">
+          <a class="logo" href="index.html" aria-label="CryptoWatch">
+            <i class="fa-solid fa-chart-line"></i>
+          </a>
+          <div>
+            <div class="title">CryptoWatch</div>
+            <div class="tagline" data-i18n="tagline">Live crypto prices • Watchlist • Charts</div>
+          </div>
+        </div>
+
+        <div class="nav-actions">
+          <select id="lang-select" class="select" style="width:140px" aria-label="Language">
+            <option value="en">EN</option>
+            <option value="ru">RU</option>
+          </select>
+          <button id="theme-toggle" class="btn icon-btn" aria-label="Toggle theme" title="Theme">
+            <i class="fa-solid fa-moon"></i>
+          </button>
+          <a class="btn" href="index.html#market">
+            <i class="fa-solid fa-arrow-left"></i>
+            <span data-i18n="back-to-market">Back</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <main class="container">
+    <section class="section">
+      <div class="surface" style="padding:14px">
+        <div class="flex items-start justify-between gap-3 flex-wrap">
+          <div class="flex items-center gap-3">
+            <img id="coin-logo" class="coin-logo" alt="" />
+            <div>
+              <div style="font-weight:1000; font-size:22px" id="coin-name">—</div>
+              <div class="muted" style="font-weight:800">
+                <span id="coin-symbol">—</span> • <span class="rank">#<span id="coin-rank">—</span></span>
+              </div>
+            </div>
+          </div>
+
+          <div style="text-align:right">
+            <div class="muted" style="font-weight:900" data-i18n="coin-price">Price</div>
+            <div style="font-size:28px; font-weight:1000" id="coin-price">—</div>
+            <div id="coin-change" class="badge">—</div>
+          </div>
+        </div>
+
+        <div class="cards" style="margin-top:14px">
+          <div class="surface flat stat card">
+            <div class="label" data-i18n="coin-mcap">Market Cap</div>
+            <div class="value" id="coin-mcap">—</div>
+            <div class="sub muted" data-i18n="coin-mcap-note">Current valuation</div>
+          </div>
+          <div class="surface flat stat card">
+            <div class="label" data-i18n="coin-vol">24h Volume</div>
+            <div class="value" id="coin-vol">—</div>
+            <div class="sub muted" data-i18n="coin-vol-note">Trading activity</div>
+          </div>
+          <div class="surface flat stat card">
+            <div class="label" data-i18n="coin-supply">Circulating Supply</div>
+            <div class="value" id="coin-supply">—</div>
+            <div class="sub muted" id="coin-supply-sub">—</div>
+          </div>
+          <div class="surface flat stat card">
+            <div class="label" data-i18n="coin-ath">All-Time High</div>
+            <div class="value" id="coin-ath">—</div>
+            <div class="sub muted" id="coin-ath-date">—</div>
+          </div>
+        </div>
+
+        <div style="margin-top:14px">
+          <div class="flex items-center justify-between gap-3 flex-wrap">
+            <h2 data-i18n="coin-chart">Price (7 days)</h2>
+            <span class="pill"><i class="fa-solid fa-wave-square"></i> <span data-i18n="coin-chart-pill">Chart.js</span></span>
+          </div>
+          <div style="margin-top:10px; border:1px solid var(--border); border-radius:14px; overflow:hidden; padding:10px">
+            <div id="coin-tv-chart" style="height:220px"></div>
+          </div>
+        </div>
+
+        <div style="margin-top:14px">
+          <h2 data-i18n="coin-about">About</h2>
+          <div id="coin-about" class="muted" style="line-height:1.55"></div>
+        </div>
+
+        <div style="margin-top:14px" class="flex items-center gap-10 flex-wrap">
+          <a id="coin-website" class="btn" href="#" target="_blank" rel="noopener">
+            <i class="fa-solid fa-link"></i> <span data-i18n="coin-website">Website</span>
+          </a>
+          <a id="coin-explorer" class="btn" href="#" target="_blank" rel="noopener">
+            <i class="fa-solid fa-magnifying-glass"></i> <span data-i18n="coin-explorer">Explorer</span>
+          </a>
+          <button id="coin-watch" class="btn">
+            <i class="fa-solid fa-star"></i> <span data-i18n="coin-watch">Watchlist</span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <div class="footer">
+      <div class="muted">
+        <span>©</span> <span id="year"></span> CryptoWatch
+      </div>
+    </div>
+  </main>
+
+  <script src="assets/js/api.js"></script>
+  <script src="assets/js/bus.js"></script>
+  <script src="assets/js/theme.js"></script>
+  <script src="assets/js/language.js"></script>
+  <script src="assets/js/ui.js"></script>
+  <script src="assets/js/watchlist.js"></script>
+  <script src="assets/js/coin.js"></script>
+</body>
+</html>
