@@ -203,82 +203,49 @@ function makeGlobalLikeCG(globalResp, vsLower, convert) {
   };
 }
 
-async function fetchCurrencies(convert) {
-  const currencyStyles = convert ? [{ currency: convert }, { convert: convert }, { quote: convert }, {}] : [{}];
-
-  // CryptoRank v2 validates `limit` strictly (your logs show allowed values like 100/500/1000).
-  // To keep it compatible with free/sandbox plans, use the smallest allowed chunk and paginate.
+async function fetchCurrencies() {
+  // CryptoRank public API is strict:
+  // - limit must be one of: 100, 500, 1000
+  // - do NOT send offset/currency/convert/quote for this endpoint (your logs show they are rejected)
+  // - do NOT send include=... (enum validation fails on public plans)
   const LIMIT = 100;
-  const DESIRED = 250;
 
   function extractList(resp) {
     const unwrapped = unwrapData(resp);
     if (Array.isArray(unwrapped)) return unwrapped;
     if (unwrapped && Array.isArray(unwrapped.data)) return unwrapped.data;
     if (unwrapped && Array.isArray(unwrapped.items)) return unwrapped.items;
-    return [];
+    if (resp && Array.isArray(resp.data)) return resp.data;
+    if (resp && resp.data && Array.isArray(resp.data.data)) return resp.data.data;
+    return null;
   }
 
-  // 1) find a working "convert" param style (or none)
-  let style = null;
-  let firstList = null;
-  let lastErr = null;
-
-  for (const curStyle of currencyStyles) {
-    try {
-      const resp = await cr("/currencies", { limit: LIMIT, offset: 0, ...curStyle });
-      const list = extractList(resp);
-      if (Array.isArray(list) && list.length) {
-        style = curStyle;
-        firstList = list;
-        break;
-      }
-    } catch (e) {
-      lastErr = e;
-    }
+  // Preferred: sorted by market cap (if supported)
+  try {
+    const resp = await cr("/currencies", {
+      limit: LIMIT,
+      sortBy: "marketCap",
+      sortDirection: "DESC",
+    });
+    const list = extractList(resp);
+    return Array.isArray(list) ? list : [];
+  } catch (e) {
+    console.warn("⚠️ /currencies sorted request failed; retrying with only limit:", e.message);
+    const resp = await cr("/currencies", { limit: LIMIT });
+    const list = extractList(resp);
+    return Array.isArray(list) ? list : [];
   }
-
-  if (!style) {
-    throw lastErr || new Error("Failed to fetch /currencies");
-  }
-
-  // 2) paginate until we have enough
-  const all = (firstList || []).slice();
-  for (let offset = LIMIT; all.length < DESIRED; offset += LIMIT) {
-    try {
-      const resp = await cr("/currencies", { limit: LIMIT, offset, ...style });
-      const list = extractList(resp);
-      if (!Array.isArray(list) || list.length === 0) break;
-      all.push(...list);
-      if (list.length < LIMIT) break;
-      await sleep(250);
-    } catch (e) {
-      console.warn("⚠️ Paging /currencies failed at offset", offset, ":", e.message);
-      break;
-    }
-  }
-
-  return all.slice(0, DESIRED);
 }
 
 
-async function fetchGlobal(convert) {
-  const tries = [
-    { currency: convert },
-    { convert: convert },
-    { quote: convert },
-    {},
-  ];
-  let lastErr = null;
-  for (const params of tries) {
-    try {
-      return await cr("/global", params);
-    } catch (e) {
-      lastErr = e;
-      await sleep(300);
-    }
+async function fetchGlobal() {
+  // Public API: avoid passing currency/convert/quote params (they are rejected in your logs).
+  try {
+    return await cr("/global", {});
+  } catch (e) {
+    console.warn("⚠️ /global request failed:", e.message);
+    return null;
   }
-  throw lastErr || new Error("Failed to fetch /global");
 }
 
 async function build(convert) {
@@ -306,17 +273,107 @@ async function build(convert) {
 }
 
 
+function deepClone(x) {
+  try { return JSON.parse(JSON.stringify(x)); } catch { return x; }
+}
+
+async function fetchEurToUsdRate() {
+  // Prefer ECB (1 EUR = X USD). Fallback to a public JSON endpoint.
+  const tryFetchText = async (url) => {
+    const res = await fetch(url, { headers: { "Accept": "application/xml,text/xml,text/plain,*/*" } });
+    if (!res.ok) throw new Error(`FX HTTP ${res.status}`);
+    return await res.text();
+  };
+  const tryFetchJson = async (url) => {
+    const res = await fetch(url, { headers: { "Accept": "application/json" } });
+    if (!res.ok) throw new Error(`FX HTTP ${res.status}`);
+    return await res.json();
+  };
+
+  // 1) ECB XML: contains <Cube currency='USD' rate='...'/>
+  try {
+    const xml = await tryFetchText("https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml");
+    const m = xml.match(/currency=['"]USD['"]\s+rate=['"]([0-9.]+)['"]/i);
+    if (m) {
+      const eurToUsd = Number(m[1]);
+      if (Number.isFinite(eurToUsd) && eurToUsd > 0) return eurToUsd;
+    }
+  } catch (_) {}
+
+  // 2) open.er-api: gives USD->EUR
+  try {
+    const j = await tryFetchJson("https://open.er-api.com/v6/latest/USD");
+    const usdToEur = j && j.rates && j.rates.EUR;
+    const n = Number(usdToEur);
+    if (Number.isFinite(n) && n > 0) return 1 / n;
+  } catch (_) {}
+
+  throw new Error("Failed to fetch EUR/USD FX rate");
+}
+
+function convertSnapshotUsdToEur(snapshotUsd, eurToUsd) {
+  const snap = deepClone(snapshotUsd || {});
+  snap.convert = "EUR";
+
+  const toEur = (n) => (typeof n === "number" && Number.isFinite(n)) ? (n / eurToUsd) : n;
+
+  // Convert coins
+  if (Array.isArray(snap.coins)) {
+    snap.coins = snap.coins.map((c) => {
+      const out = Object.assign({}, c);
+      // currency-valued fields
+      for (const k of ["current_price", "market_cap", "total_volume", "high_24h", "low_24h", "ath", "atl"]) {
+        if (k in out) out[k] = toEur(out[k]);
+      }
+      if (out.sparkline_in_7d && Array.isArray(out.sparkline_in_7d.price)) {
+        out.sparkline_in_7d.price = out.sparkline_in_7d.price.map(toEur);
+      }
+      return out;
+    });
+  }
+
+  // Convert global
+  if (snap.global && snap.global.data) {
+    const d = snap.global.data;
+
+    if (d.total_market_cap && typeof d.total_market_cap === "object") {
+      const usd = d.total_market_cap.usd;
+      d.total_market_cap.eur = toEur(usd);
+    }
+    if (d.total_volume && typeof d.total_volume === "object") {
+      const usd = d.total_volume.usd;
+      d.total_volume.eur = toEur(usd);
+    }
+  }
+
+  // Recompute trending (based on converted coins)
+  if (typeof makeTrendingLikeCG === "function") {
+    snap.trending = makeTrendingLikeCG(snap.coins || []);
+  }
+
+  return snap;
+}
+
 async function main() {
   if (!fs.existsSync(OUT_DIR)) fs.mkdirSync(OUT_DIR, { recursive: true });
 
+  // Build USD snapshot (CryptoRank returns USD on public plans)
   const usd = await build("USD");
   fs.writeFileSync(path.join(OUT_DIR, "market_usd.json"), JSON.stringify(usd, null, 2), "utf8");
 
+  // Build EUR snapshot by converting USD->EUR server-side (no CryptoRank fiat conversion params)
   try {
-    const eur = await build("EUR");
+    const eurToUsd = await fetchEurToUsdRate(); // 1 EUR = X USD
+    const eur = convertSnapshotUsdToEur(usd, eurToUsd);
+    eur.updated_at = new Date().toISOString();
+    eur._fx = { provider: "ECB/open.er-api", eur_to_usd: eurToUsd };
     fs.writeFileSync(path.join(OUT_DIR, "market_eur.json"), JSON.stringify(eur, null, 2), "utf8");
   } catch (e) {
-    console.warn("⚠️ EUR snapshot failed (your plan might not support fiat conversion). Keeping placeholder market_eur.json.");
+    console.warn("⚠️ EUR snapshot conversion failed. Keeping existing placeholder market_eur.json:", e.message);
+    if (!fs.existsSync(path.join(OUT_DIR, "market_eur.json"))) {
+      const placeholder = { source: "cryptorank", convert: "EUR", updated_at: null, global: null, trending: { coins: [] }, coins: [] };
+      fs.writeFileSync(path.join(OUT_DIR, "market_eur.json"), JSON.stringify(placeholder, null, 2), "utf8");
+    }
   }
 
   console.log("✅ Updated snapshots in /data");
