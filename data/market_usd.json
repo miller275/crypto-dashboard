@@ -1,5 +1,5 @@
 {
-  "updated_at": "2025-12-25T10:51:08.148Z",
+  "updated_at": "2025-12-25T11:36:47.431Z",
   "convert": "USD",
   "global": {
     "data": {
@@ -17,7 +17,7 @@
         "btc": 57.4508016625666
       },
       "market_cap_change_percentage_24h_usd": null,
-      "updated_at": 1766659868
+      "updated_at": 1766662607
     }
   },
   "trending": {
