@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-03T03:07:00.731Z",
+  "updated_at": "2026-01-03T04:06:27.029Z",
   "convert": "EUR",
   "global": {
     "data": {
@@ -17,7 +17,7 @@
         "btc": 56.86349879512061
       },
       "market_cap_change_percentage_24h_usd": null,
-      "updated_at": 1767409620
+      "updated_at": 1767413187
     }
   },
   "trending": {
