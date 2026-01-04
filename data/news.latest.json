@@ -1,6 +1,6 @@
 {
   "source": "rss",
-  "updatedAt": "2026-01-04T22:36:03.598Z",
+  "updatedAt": "2026-01-04T22:57:25.626Z",
   "items": [
     {
       "title": "Report: How Nations Are Reshaping Global Finance with Crypto",
@@ -63,6 +63,12 @@
       "publishedAt": "Sat, 03 Jan 2026 13:50:57 +0000"
     },
     {
+      "title": "Here’s what happened in crypto today",
+      "url": "<![CDATA[https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound]]>",
+      "source": "Cointelegraph.com News",
+      "publishedAt": "Sun, 04 Jan 2026 22:41:35 +0000"
+    },
+    {
       "title": "Crypto Fear and Greed Index flips to 'neutral' for first time since Oct",
       "url": "<![CDATA[https://cointelegraph.com/news/crypto-fear-greed-flips-neutral-first-time-oct?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound]]>",
       "source": "Cointelegraph.com News",
@@ -85,12 +91,6 @@
       "url": "<![CDATA[https://cointelegraph.com/news/bitcoin-will-move-tradfi-reacts-venezuela-btc-price-nears-92k?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound]]>",
       "source": "Cointelegraph.com News",
       "publishedAt": "Sun, 04 Jan 2026 16:40:50 +0000"
-    },
-    {
-      "title": "Crypto rich threaten to leave California after new tax: Is it a bluff?",
-      "url": "<![CDATA[https://cointelegraph.com/news/crypto-rich-leave-california-new-tax-bluff?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound]]>",
-      "source": "Cointelegraph.com News",
-      "publishedAt": "Sun, 04 Jan 2026 13:00:00 +0000"
     }
   ]
 }

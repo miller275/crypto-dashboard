@@ -4,16 +4,16 @@
   "name": "Tether Gold",
   "slug": "tether-gold",
   "rank": 45,
-  "price": 4347.568719762309,
-  "marketCap": 1779101818.6298203,
-  "volume24h": 125554293.03818616,
+  "price": 4342.143777731861,
+  "marketCap": 1776881836.6457608,
+  "volume24h": 128951409.88169795,
   "circulating": 409217.6417,
   "totalSupply": 520089.3,
   "maxSupply": null,
-  "percentChange1h": -0.1684035,
-  "percentChange24h": 0.16797185,
-  "percentChange7d": -4.23477733,
-  "lastUpdated": "2026-01-04T22:23:00.000Z",
+  "percentChange1h": -0.42250676,
+  "percentChange24h": 0.0719265,
+  "percentChange7d": -4.32591961,
+  "lastUpdated": "2026-01-04T22:44:00.000Z",
   "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/5176.png",
   "tags": [
     "ethereum-ecosystem",
@@ -33,6 +33,6 @@
     "token_address": "0x68749665FF8D2d112Fa859AA293F07A622782F38"
   },
   "selfReportedCirculatingSupply": 48450,
-  "selfReportedMarketCap": 210639704.47248387,
+  "selfReportedMarketCap": 210376866.03110865,
   "geckoId": "tether-gold"
 }

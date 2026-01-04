@@ -4,16 +4,16 @@
   "name": "Shiba Inu",
   "slug": "shiba-inu",
   "rank": 25,
-  "price": 0.0000090130375523173,
-  "marketCap": 5310878740.761209,
-  "volume24h": 303029053.5473301,
+  "price": 0.000009044299444401323,
+  "marketCap": 5329299624.630967,
+  "volume24h": 305888614.8164101,
   "circulating": 589244048960580.9,
   "totalSupply": 589500536628448.9,
   "maxSupply": 589552695333683,
-  "percentChange1h": -0.59062892,
-  "percentChange24h": 12.08861587,
-  "percentChange7d": 23.39594413,
-  "lastUpdated": "2026-01-04T22:23:00.000Z",
+  "percentChange1h": 0.85283413,
+  "percentChange24h": 12.03790248,
+  "percentChange7d": 23.23953867,
+  "lastUpdated": "2026-01-04T22:44:00.000Z",
   "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/5994.png",
   "tags": [
     "memes",
@@ -35,6 +35,6 @@
     "token_address": "0x95ad61b0a150d79219dcf64e1e6cc01f0b64c4ce"
   },
   "selfReportedCirculatingSupply": 589551575078137,
-  "selfReportedMarketCap": 5313650485.207061,
+  "selfReportedMarketCap": 5332080982.925119,
   "geckoId": "shiba-inu"
 }

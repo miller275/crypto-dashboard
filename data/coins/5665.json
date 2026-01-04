@@ -4,16 +4,16 @@
   "name": "Helium",
   "slug": "helium",
   "rank": 137,
-  "price": 1.567772412743263,
-  "marketCap": 292109610.86303467,
-  "volume24h": 6465343.35272983,
+  "price": 1.5691997605011507,
+  "marketCap": 292375556.3502328,
+  "volume24h": 6298152.46412178,
   "circulating": 186321438.2959488,
   "totalSupply": 186321438.2959488,
   "maxSupply": 223000000,
-  "percentChange1h": 0.14612168,
-  "percentChange24h": -1.05582599,
-  "percentChange7d": 4.08980635,
-  "lastUpdated": "2026-01-04T22:22:00.000Z",
+  "percentChange1h": 0.01202775,
+  "percentChange24h": -2.62399608,
+  "percentChange7d": 4.16343841,
+  "lastUpdated": "2026-01-04T22:43:00.000Z",
   "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/5665.png",
   "tags": [
     "mineable",
@@ -37,6 +37,6 @@
     "token_address": "hntyVP6YFm1Hg25TN9WGLqM12b8TQmcknKrdu1oxWux"
   },
   "selfReportedCirculatingSupply": 186321438.09,
-  "selfReportedMarketCap": 292109610.5401538,
+  "selfReportedMarketCap": 292375556.027058,
   "geckoId": "helium"
 }

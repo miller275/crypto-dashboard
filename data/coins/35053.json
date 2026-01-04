@@ -3,17 +3,17 @@
   "symbol": "PIPPIN",
   "name": "pippin",
   "slug": "pippin",
-  "rank": 93,
-  "price": 0.5090887816460661,
-  "marketCap": 509086874.09040123,
-  "volume24h": 42847731.33987385,
+  "rank": 91,
+  "price": 0.5243178503342648,
+  "marketCap": 524315885.71527964,
+  "volume24h": 43473926.64379112,
   "circulating": 999996253,
   "totalSupply": 999996253,
   "maxSupply": null,
-  "percentChange1h": 1.34394946,
-  "percentChange24h": 13.5220194,
-  "percentChange7d": 21.39078247,
-  "lastUpdated": "2026-01-04T22:23:00.000Z",
+  "percentChange1h": 3.99068352,
+  "percentChange24h": 17.82657021,
+  "percentChange7d": 23.81999478,
+  "lastUpdated": "2026-01-04T22:44:00.000Z",
   "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/35053.png",
   "tags": [
     "memes",
@@ -32,6 +32,6 @@
     "token_address": "Dfh5DzRgSvvCFDoYc2ciTkMrbDfRKybA4SoFbPmApump"
   },
   "selfReportedCirculatingSupply": 999996253,
-  "selfReportedMarketCap": 509086874.09040123,
+  "selfReportedMarketCap": 524315885.71527964,
   "geckoId": "pippin"
 }
