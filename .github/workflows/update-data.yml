@@ -1,9 +1,9 @@
-name: Update market data
+name: Update data snapshots
 
 on:
   workflow_dispatch:
   schedule:
-    - cron: "15 * * * *"  # every hour
+    - cron: "*/30 * * * *" # every 30 minutes
 
 permissions:
   contents: write
@@ -20,14 +20,11 @@ jobs:
         with:
           node-version: "20"
 
-      - name: Fetch CryptoRank snapshots
-        env:
-          CRYPTORANK_API_KEY: ${{ secrets.CRYPTORANK_API_KEY }}
-        run: node scripts/fetch-cryptorank.js
+      - name: Update snapshots
+        run: node scripts/update-data.js
 
-      - name: Commit & push if changed
-        run: |
-          git config user.name "cryptowatch-bot"
-          git config user.email "actions@users.noreply.github.com"
-          git add data/*.json
-          git diff --cached --quiet || (git commit -m "chore: update market data" && git push)
+      - name: Commit & push
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: update snapshots"
+          branch: main
