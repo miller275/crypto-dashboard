@@ -4,16 +4,16 @@
   "name": "Bonk",
   "slug": "bonk1",
   "rank": 64,
-  "price": 0.000012075889738147508,
-  "marketCap": 1062620520.653009,
-  "volume24h": 726259149.7891003,
+  "price": 0.000012099697138464993,
+  "marketCap": 1064715457.9759994,
+  "volume24h": 728721188.2841972,
   "circulating": 87995215565459.4,
   "totalSupply": 87995215565459.4,
   "maxSupply": 88872433754423.19,
-  "percentChange1h": 0.69091844,
-  "percentChange24h": 33.09143116,
-  "percentChange7d": 52.93314323,
-  "lastUpdated": "2026-01-04T20:30:00.000Z",
+  "percentChange1h": 0.69633291,
+  "percentChange24h": 33.00624587,
+  "percentChange7d": 53.18564374,
+  "lastUpdated": "2026-01-04T20:44:00.000Z",
   "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/23095.png",
   "tags": [
     "memes",
@@ -42,6 +42,6 @@
     "token_address": "DezXAZ8z7PnrnRJjz3wXBoRgixCa6xjnB7YaB1pPB263"
   },
   "selfReportedCirculatingSupply": 87995215566039.38,
-  "selfReportedMarketCap": 1062620520.6600127,
+  "selfReportedMarketCap": 1064715457.9830168,
   "geckoId": "bonk"
 }

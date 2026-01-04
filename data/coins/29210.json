@@ -4,16 +4,16 @@
   "name": "Jupiter",
   "slug": "jupiter-ag",
   "rank": 76,
-  "price": 0.2171496668506288,
-  "marketCap": 692798438.7420111,
-  "volume24h": 30798810.79478739,
+  "price": 0.21719387383245634,
+  "marketCap": 692939477.5399784,
+  "volume24h": 31150533.41822029,
   "circulating": 3190419072.66,
   "totalSupply": 6863983089.292471,
   "maxSupply": 7000000000,
-  "percentChange1h": 0.67378008,
-  "percentChange24h": 4.2559412,
-  "percentChange7d": 10.4307318,
-  "lastUpdated": "2026-01-04T20:30:00.000Z",
+  "percentChange1h": 0.56001073,
+  "percentChange24h": 3.88074972,
+  "percentChange7d": 10.31033526,
+  "lastUpdated": "2026-01-04T20:44:00.000Z",
   "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/29210.png",
   "tags": [
     "decentralized-exchange-dex-token",
@@ -36,6 +36,6 @@
     "token_address": "JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN"
   },
   "selfReportedCirculatingSupply": 2951327777.76,
-  "selfReportedMarketCap": 640879843.7075907,
+  "selfReportedMarketCap": 641010313.0010293,
   "geckoId": "jupiter-exchange-solana"
 }

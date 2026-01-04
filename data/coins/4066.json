@@ -4,16 +4,16 @@
   "name": "Chiliz",
   "slug": "chiliz",
   "rank": 98,
-  "price": 0.0449035729335004,
-  "marketCap": 457924629.94535553,
-  "volume24h": 68223374.18670496,
-  "circulating": 10197955308,
-  "totalSupply": 10197955308,
+  "price": 0.044943176743904766,
+  "marketCap": 458332071.1985971,
+  "volume24h": 67603851.98515727,
+  "circulating": 10198034594,
+  "totalSupply": 10198034594,
   "maxSupply": null,
-  "percentChange1h": 0.37073553,
-  "percentChange24h": -1.20122259,
-  "percentChange7d": 24.73848418,
-  "lastUpdated": "2026-01-04T20:30:00.000Z",
+  "percentChange1h": 0.30004697,
+  "percentChange24h": -1.38587838,
+  "percentChange7d": 24.58804415,
+  "lastUpdated": "2026-01-04T20:44:00.000Z",
   "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/4066.png",
   "tags": [
     "sports",
@@ -35,6 +35,6 @@
     "token_address": "0x3506424f91fd33084466f402d5d97f05f8e3b4af"
   },
   "selfReportedCirculatingSupply": 10197875880,
-  "selfReportedMarketCap": 457921063.3443645,
+  "selfReportedMarketCap": 458324938.0872433,
   "geckoId": "chiliz"
 }

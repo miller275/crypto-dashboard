@@ -3,17 +3,17 @@
   "symbol": "FET",
   "name": "Artificial Superintelligence Alliance",
   "slug": "artificial-superintelligence-alliance",
-  "rank": 82,
-  "price": 0.26311408394269803,
-  "marketCap": 608353232.658763,
-  "volume24h": 145334691.7832323,
+  "rank": 83,
+  "price": 0.26267269342289506,
+  "marketCap": 607332681.6279579,
+  "volume24h": 146548980.69197065,
   "circulating": 2312127209.3942814,
   "totalSupply": 2714384546.672,
   "maxSupply": 2719493897,
-  "percentChange1h": 2.54216992,
-  "percentChange24h": 13.94742812,
-  "percentChange7d": 23.33865023,
-  "lastUpdated": "2026-01-04T20:30:00.000Z",
+  "percentChange1h": 1.94681456,
+  "percentChange24h": 13.13895154,
+  "percentChange7d": 22.88521539,
+  "lastUpdated": "2026-01-04T20:44:00.000Z",
   "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/3773.png",
   "tags": [
     "cosmos-ecosystem",
@@ -40,6 +40,6 @@
     "token_address": "0xaea46A60368A7bD060eec7DF8CBa43b7EF41Ad85"
   },
   "selfReportedCirculatingSupply": 2389296911,
-  "selfReportedMarketCap": 628657668.004883,
+  "selfReportedMarketCap": 627603054.9993732,
   "geckoId": "fetch-ai"
 }

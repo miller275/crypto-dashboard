@@ -4,16 +4,16 @@
   "name": "SPX6900",
   "slug": "spx6900",
   "rank": 84,
-  "price": 0.6451247765180028,
-  "marketCap": 600606709.1712136,
-  "volume24h": 29618495.48915277,
+  "price": 0.6429410735132906,
+  "marketCap": 598573696.7630614,
+  "volume24h": 29606824.39806526,
   "circulating": 930993090.07,
   "totalSupply": 930993090.07,
   "maxSupply": 1000000000,
-  "percentChange1h": 0.92071751,
-  "percentChange24h": 17.92032687,
-  "percentChange7d": 31.24871648,
-  "lastUpdated": "2026-01-04T20:30:00.000Z",
+  "percentChange1h": 0.20260198,
+  "percentChange24h": 17.02550154,
+  "percentChange7d": 30.26194468,
+  "lastUpdated": "2026-01-04T20:44:00.000Z",
   "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/28081.png",
   "tags": [
     "memes",
@@ -33,6 +33,6 @@
     "token_address": "0xe0f63a424a4439cbe457d80e4f4b51ad25b2c56c"
   },
   "selfReportedCirculatingSupply": 930993090.07,
-  "selfReportedMarketCap": 600606709.1712136,
+  "selfReportedMarketCap": 598573696.7630614,
   "geckoId": "spx6900"
 }

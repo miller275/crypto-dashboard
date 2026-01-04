@@ -4,16 +4,16 @@
   "name": "Midnight",
   "slug": "midnight-network",
   "rank": 50,
-  "price": 0.0904816826411453,
-  "marketCap": 1502665442.0960286,
-  "volume24h": 39150584.12310505,
+  "price": 0.09036779274006225,
+  "marketCap": 1500774027.021002,
+  "volume24h": 39082008.33957794,
   "circulating": 16607399401,
   "totalSupply": 24000000000,
   "maxSupply": 24000000000,
-  "percentChange1h": -0.47984892,
-  "percentChange24h": -2.30931505,
-  "percentChange7d": 3.41625535,
-  "lastUpdated": "2026-01-04T20:30:00.000Z",
+  "percentChange1h": -0.40597672,
+  "percentChange24h": -2.3730363,
+  "percentChange7d": 2.97028927,
+  "lastUpdated": "2026-01-04T20:44:00.000Z",
   "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/39064.png",
   "tags": [
     "privacy",
@@ -35,6 +35,6 @@
     "token_address": "0691b2fecca1ac4f53cb6dfb00b7013e561d1f34403b957cbb5af1fa4e49474854"
   },
   "selfReportedCirculatingSupply": 10800000000,
-  "selfReportedMarketCap": 977202172.5243692,
+  "selfReportedMarketCap": 975972161.5926723,
   "geckoId": "midnight"
 }
