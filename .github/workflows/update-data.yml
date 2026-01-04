@@ -5,6 +5,10 @@ on:
   schedule:
     - cron: "*/30 * * * *"  # every 30 minutes
 
+concurrency:
+  group: update-market-data
+  cancel-in-progress: true
+
 permissions:
   contents: write
 
@@ -14,6 +18,9 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
 
       - name: Setup Node
         uses: actions/setup-node@v4
@@ -29,5 +36,29 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          # Sync main to avoid non-fast-forward pushes (and avoid overlapping runs)
+          git fetch origin main
+          git checkout main
+          git pull --rebase --autostash origin main
+
           git add data/market_usd.json data/market_eur.json
-          git diff --cached --quiet || (git commit -m "chore: update market snapshots" && git push)
+
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+            exit 0
+          fi
+
+          git commit -m "chore: update market snapshots"
+
+          # Retry push in case another commit landed while we were running
+          for i in 1 2 3; do
+            if git push; then
+              exit 0
+            fi
+            echo "Push failed, rebasing and retrying... ($i/3)"
+            git pull --rebase --autostash origin main
+          done
+
+          echo "Push failed after retries."
+          exit 1
