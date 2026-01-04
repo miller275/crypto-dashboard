@@ -1,7 +1,13 @@
 {
   "source": "rss",
-  "updatedAt": "2026-01-04T21:53:44.199Z",
+  "updatedAt": "2026-01-04T22:36:03.598Z",
   "items": [
+    {
+      "title": "Report: How Nations Are Reshaping Global Finance with Crypto",
+      "url": "https://cryptopotato.com/report-how-nations-are-reshaping-global-finance-with-crypto/",
+      "source": "CryptoPotato",
+      "publishedAt": "Sun, 04 Jan 2026 22:02:05 +0000"
+    },
     {
       "title": "BitMine Seeks Major Share Authorization Hike for Ethereum-Led Growth",
       "url": "https://cryptopotato.com/bitmine-seeks-major-share-authorization-hike-for-ethereum-led-growth/",
@@ -25,12 +31,6 @@
       "url": "https://cryptopotato.com/bitcoin-price-analysis-what-are-btcs-next-targets-after-reclaiming-90k/",
       "source": "CryptoPotato",
       "publishedAt": "Sun, 04 Jan 2026 14:26:49 +0000"
-    },
-    {
-      "title": "Top Bitcoin (BTC) Price Predictions for 2026",
-      "url": "https://cryptopotato.com/top-bitcoin-btc-price-predictions-for-2026/",
-      "source": "CryptoPotato",
-      "publishedAt": "Sun, 04 Jan 2026 12:23:07 +0000"
     },
     {
       "title": "Neobanks will fuel Ethereum's 2026 growth, says ether.fi CEO",
@@ -63,6 +63,12 @@
       "publishedAt": "Sat, 03 Jan 2026 13:50:57 +0000"
     },
     {
+      "title": "Crypto Fear and Greed Index flips to 'neutral' for first time since Oct",
+      "url": "<![CDATA[https://cointelegraph.com/news/crypto-fear-greed-flips-neutral-first-time-oct?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound]]>",
+      "source": "Cointelegraph.com News",
+      "publishedAt": "Sun, 04 Jan 2026 21:54:58 +0000"
+    },
+    {
       "title": "Altcoins hold 'crucial' support, set for 'big leg' up, says analyst",
       "url": "<![CDATA[https://cointelegraph.com/news/altcoins-hold-crucial-support-big-leg-up?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound]]>",
       "source": "Cointelegraph.com News",
@@ -85,12 +91,6 @@
       "url": "<![CDATA[https://cointelegraph.com/news/crypto-rich-leave-california-new-tax-bluff?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound]]>",
       "source": "Cointelegraph.com News",
       "publishedAt": "Sun, 04 Jan 2026 13:00:00 +0000"
-    },
-    {
-      "title": "Wrench attacks against crypto holders are rising and growing ‘more violent’",
-      "url": "<![CDATA[https://cointelegraph.com/news/wrench-attacks-crypto-holders-rising-more-violent?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound]]>",
-      "source": "Cointelegraph.com News",
-      "publishedAt": "Sun, 04 Jan 2026 12:54:51 +0000"
     }
   ]
 }

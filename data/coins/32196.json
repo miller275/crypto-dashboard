@@ -4,16 +4,16 @@
   "name": "Hyperliquid",
   "slug": "hyperliquid",
   "rank": 13,
-  "price": 26.706949722729455,
-  "marketCap": 9062940333.299946,
-  "volume24h": 185083798.38666558,
+  "price": 26.47352998410645,
+  "marketCap": 8983729896.10223,
+  "volume24h": 180302841.7460521,
   "circulating": 339347639,
   "totalSupply": 961671487.86,
   "maxSupply": 961671487.86,
-  "percentChange1h": 1.87094664,
-  "percentChange24h": 6.75726192,
-  "percentChange7d": 6.7686816,
-  "lastUpdated": "2026-01-04T21:39:00.000Z",
+  "percentChange1h": -0.81773428,
+  "percentChange24h": 4.36977017,
+  "percentChange7d": 5.78287787,
+  "lastUpdated": "2026-01-04T22:23:00.000Z",
   "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/32196.png",
   "tags": [
     "decentralized-exchange-dex-token",
@@ -34,6 +34,6 @@
     "token_address": "0x0d01dc56dcaaca66ad901c959b4011ec"
   },
   "selfReportedCirculatingSupply": 333931719,
-  "selfReportedMarketCap": 8899637363.585796,
+  "selfReportedMarketCap": 8840351375.59071,
   "geckoId": "hyperliquid"
 }

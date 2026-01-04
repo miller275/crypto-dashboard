@@ -3,17 +3,17 @@
   "symbol": "TIA",
   "name": "Celestia",
   "slug": "celestia",
-  "rank": 97,
-  "price": 0.5710984416401763,
-  "marketCap": 492643456.2803567,
-  "volume24h": 63879901.17842636,
+  "rank": 96,
+  "price": 0.574108084193195,
+  "marketCap": 495239647.41201055,
+  "volume24h": 64452713.00017232,
   "circulating": 862624410.015024,
   "totalSupply": 1158585199.46999,
   "maxSupply": null,
-  "percentChange1h": 0.04767702,
-  "percentChange24h": 8.38987532,
-  "percentChange7d": 21.96312788,
-  "lastUpdated": "2026-01-04T21:39:00.000Z",
+  "percentChange1h": -0.00744178,
+  "percentChange24h": 8.9966956,
+  "percentChange7d": 22.86829596,
+  "lastUpdated": "2026-01-04T22:22:00.000Z",
   "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/22861.png",
   "tags": [
     "platform",
@@ -35,6 +35,6 @@
     "token_address": "ibc/D79E7D83AB399BFFF93433E54FAA480C191248FC556924A2A8351AE2638B3877"
   },
   "selfReportedCirculatingSupply": 141043527.75,
-  "selfReportedMarketCap": 80473500.80586703,
+  "selfReportedMarketCap": 80974229.50440224,
   "geckoId": "celestia"
 }

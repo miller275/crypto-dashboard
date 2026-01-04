@@ -4,16 +4,16 @@
   "name": "Terra Classic",
   "slug": "terra-luna",
   "rank": 147,
-  "price": 0.00004457599915530009,
-  "marketCap": 243554917.01797864,
-  "volume24h": 30694117.5691579,
-  "circulating": 5463812850710.268,
-  "totalSupply": 6471052611446.743,
+  "price": 0.00004424768973563292,
+  "marketCap": 241762828.4776945,
+  "volume24h": 30406722.80530277,
+  "circulating": 5463852009498.284,
+  "totalSupply": 6471052293398.305,
   "maxSupply": null,
-  "percentChange1h": -0.09886753,
-  "percentChange24h": 1.29598116,
-  "percentChange7d": 10.77968023,
-  "lastUpdated": "2026-01-04T21:39:00.000Z",
+  "percentChange1h": -0.81242995,
+  "percentChange24h": 0.36727134,
+  "percentChange7d": 10.22627683,
+  "lastUpdated": "2026-01-04T22:22:00.000Z",
   "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/4172.png",
   "tags": [
     "cosmos-ecosystem",
@@ -48,6 +48,6 @@
     "token_address": "0xbd31ea8212119f94a611fa969881cba3ea06fa3d"
   },
   "selfReportedCirculatingSupply": 5463829858862.47,
-  "selfReportedMarketCap": 243555675.17335686,
+  "selfReportedMarketCap": 241761848.36323357,
   "geckoId": "luna-wormhole"
 }

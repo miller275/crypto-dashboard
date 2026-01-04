@@ -4,16 +4,16 @@
   "name": "Pump.fun",
   "slug": "pump-fun",
   "rank": 72,
-  "price": 0.0023457180932658045,
-  "marketCap": 830384205.0160948,
-  "volume24h": 143049685.21874988,
+  "price": 0.002337032953079489,
+  "marketCap": 827309665.3901392,
+  "volume24h": 140052660.19897822,
   "circulating": 354000000000,
   "totalSupply": 1000000000000,
   "maxSupply": 1000000000000,
-  "percentChange1h": 0.3915013,
-  "percentChange24h": 2.52352345,
-  "percentChange7d": 27.24501409,
-  "lastUpdated": "2026-01-04T21:40:00.000Z",
+  "percentChange1h": -0.59507881,
+  "percentChange24h": 1.07988333,
+  "percentChange7d": 26.40568846,
+  "lastUpdated": "2026-01-04T22:22:00.000Z",
   "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/36507.png",
   "tags": [
     "launchpad",
@@ -31,6 +31,6 @@
     "token_address": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn"
   },
   "selfReportedCirculatingSupply": 590000000000,
-  "selfReportedMarketCap": 1383973675.0268247,
+  "selfReportedMarketCap": 1378849442.3168986,
   "geckoId": "pump-fun"
 }
