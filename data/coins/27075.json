@@ -4,16 +4,16 @@
   "name": "Mantle",
   "slug": "mantle",
   "rank": 32,
-  "price": 1.0356153077739745,
-  "marketCap": 3368798659.349868,
-  "volume24h": 87353583.32383782,
+  "price": 1.0386155678679814,
+  "marketCap": 3378558337.588032,
+  "volume24h": 86235832.95518447,
   "circulating": 3252944055.636841,
   "totalSupply": 6219316794.89,
   "maxSupply": 6219316795,
-  "percentChange1h": -1.47428326,
-  "percentChange24h": 1.58420859,
-  "percentChange7d": -0.11481126,
-  "lastUpdated": "2026-01-04T22:43:00.000Z",
+  "percentChange1h": 0.00805952,
+  "percentChange24h": 2.22634622,
+  "percentChange7d": -0.05623123,
+  "lastUpdated": "2026-01-04T23:22:00.000Z",
   "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/27075.png",
   "tags": [
     "ethereum-ecosystem",
@@ -31,6 +31,6 @@
     "token_address": "0x3c3a81e81dc49a522a592e7622a7e711c06bf354"
   },
   "selfReportedCirculatingSupply": 3252944055.64,
-  "selfReportedMarketCap": 3368798659.3531394,
+  "selfReportedMarketCap": 3378558337.591313,
   "geckoId": "mantle"
 }

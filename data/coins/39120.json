@@ -4,16 +4,16 @@
   "name": "United Stables",
   "slug": "united-stables",
   "rank": 108,
-  "price": 0.999385996331976,
-  "marketCap": 409648337.9353942,
-  "volume24h": 6894902.62904411,
+  "price": 0.999488247356883,
+  "marketCap": 409690250.63234925,
+  "volume24h": 6861461.08053781,
   "circulating": 409900018.05,
   "totalSupply": 409900018.05,
   "maxSupply": null,
-  "percentChange1h": -0.01278418,
-  "percentChange24h": -0.01231358,
-  "percentChange7d": -0.02688069,
-  "lastUpdated": "2026-01-04T22:43:00.000Z",
+  "percentChange1h": 0.00669603,
+  "percentChange24h": -0.00719119,
+  "percentChange7d": -0.0005119,
+  "lastUpdated": "2026-01-04T23:22:00.000Z",
   "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/39120.png",
   "tags": [
     "stablecoin"
@@ -27,6 +27,6 @@
     "token_address": "0xcE24439F2D9C6a2289F741120FE202248B666666"
   },
   "selfReportedCirculatingSupply": 10000000,
-  "selfReportedMarketCap": 9993859.96331976,
+  "selfReportedMarketCap": 9994882.47356883,
   "geckoId": "united-stables"
 }

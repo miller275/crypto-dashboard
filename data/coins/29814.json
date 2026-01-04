@@ -3,17 +3,17 @@
   "symbol": "ETHFI",
   "name": "ether.fi",
   "slug": "ether-fi-ethfi",
-  "rank": 95,
-  "price": 0.773568298801487,
-  "marketCap": 504956262.1582975,
-  "volume24h": 33888410.57658187,
+  "rank": 94,
+  "price": 0.7761238410753691,
+  "marketCap": 506624423.9436322,
+  "volume24h": 34842221.39080461,
   "circulating": 652762352,
   "totalSupply": 1000000000,
   "maxSupply": 1000000000,
-  "percentChange1h": 0.20038724,
-  "percentChange24h": 0.93532945,
-  "percentChange7d": 10.30937078,
-  "lastUpdated": "2026-01-04T22:43:00.000Z",
+  "percentChange1h": 0.0520617,
+  "percentChange24h": 1.05405464,
+  "percentChange7d": 10.12634726,
+  "lastUpdated": "2026-01-04T23:22:00.000Z",
   "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/29814.png",
   "tags": [
     "defi",
@@ -36,6 +36,6 @@
     "token_address": "0xFe0c30065B384F05761f15d0CC899D4F9F9Cc0eB"
   },
   "selfReportedCirculatingSupply": 652762352,
-  "selfReportedMarketCap": 504956262.1582975,
+  "selfReportedMarketCap": 506624423.9436322,
   "geckoId": "ether-fi"
 }

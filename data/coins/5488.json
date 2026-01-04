@@ -3,17 +3,17 @@
   "symbol": "JST",
   "name": "JUST",
   "slug": "just",
-  "rank": 115,
-  "price": 0.04129561074346759,
-  "marketCap": 385705502.2859149,
-  "volume24h": 25803243.37944116,
+  "rank": 116,
+  "price": 0.04095459072517768,
+  "marketCap": 382520338.1709885,
+  "volume24h": 26412976.7700939,
   "circulating": 9340108920.581306,
   "totalSupply": 9340108920.581306,
   "maxSupply": null,
-  "percentChange1h": 1.89528908,
-  "percentChange24h": 5.4410946,
-  "percentChange7d": 6.14536191,
-  "lastUpdated": "2026-01-04T22:44:00.000Z",
+  "percentChange1h": 0.00862734,
+  "percentChange24h": 4.41942533,
+  "percentChange7d": 5.19448648,
+  "lastUpdated": "2026-01-04T23:23:00.000Z",
   "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/5488.png",
   "tags": [
     "defi",
@@ -31,6 +31,6 @@
     "token_address": "TCFLL5dx5ZJdKnWuesXxi1VPwjLVmWZZy9"
   },
   "selfReportedCirculatingSupply": 9900000000,
-  "selfReportedMarketCap": 408826546.36032915,
+  "selfReportedMarketCap": 405450448.17925906,
   "geckoId": "just"
 }
