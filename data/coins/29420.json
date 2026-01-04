@@ -3,17 +3,17 @@
   "symbol": "VIRTUAL",
   "name": "Virtuals Protocol",
   "slug": "virtual-protocol",
-  "rank": 86,
-  "price": 0.8930079809849667,
-  "marketCap": 585903767.6118876,
-  "volume24h": 153222810.11220863,
+  "rank": 85,
+  "price": 0.8963563174970032,
+  "marketCap": 588100615.814152,
+  "volume24h": 154449952.47912687,
   "circulating": 656101378.8092347,
   "totalSupply": 1000000000,
   "maxSupply": 1000000000,
-  "percentChange1h": 0.8493763,
-  "percentChange24h": 5.88522465,
-  "percentChange7d": 29.1292286,
-  "lastUpdated": "2026-01-04T20:44:00.000Z",
+  "percentChange1h": 0.41339491,
+  "percentChange24h": 6.23060526,
+  "percentChange7d": 29.81505415,
+  "lastUpdated": "2026-01-04T21:39:00.000Z",
   "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/29420.png",
   "tags": [
     "ai-big-data",
@@ -39,6 +39,6 @@
     "token_address": "0x44ff8620b8cA30902395A7bD3F2407e1A091BF73"
   },
   "selfReportedCirculatingSupply": 1000000000,
-  "selfReportedMarketCap": 893007980.9849668,
+  "selfReportedMarketCap": 895259216.3562309,
   "geckoId": "virtual-protocol"
 }

@@ -3,17 +3,17 @@
   "symbol": "H",
   "name": "Humanity Protocol",
   "slug": "humanity-protocol",
-  "rank": 114,
-  "price": 0.1678387875103295,
-  "marketCap": 386928347.6593973,
-  "volume24h": 38994866.41429236,
+  "rank": 112,
+  "price": 0.16893096593575474,
+  "marketCap": 389446208.9938819,
+  "volume24h": 37548862.34468912,
   "circulating": 2305357143,
   "totalSupply": 10000000000,
   "maxSupply": 10000000000,
-  "percentChange1h": -0.30126092,
-  "percentChange24h": -1.22637009,
-  "percentChange7d": 0.50167629,
-  "lastUpdated": "2026-01-04T20:45:00.000Z",
+  "percentChange1h": 0.48418949,
+  "percentChange24h": -0.33002841,
+  "percentChange7d": 3.00399255,
+  "lastUpdated": "2026-01-04T21:41:00.000Z",
   "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/36922.png",
   "tags": [
     "privacy",
@@ -38,6 +38,6 @@
     "token_address": "0xcf5104D094e3864CfCBDa43B82e1cEFD26A016eB"
   },
   "selfReportedCirculatingSupply": 1825000000,
-  "selfReportedMarketCap": 306305787.20635134,
+  "selfReportedMarketCap": 308299012.8327524,
   "geckoId": "humanity"
 }
