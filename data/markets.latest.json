@@ -1,0 +1,100 @@
+{
+  "source": "sample",
+  "updatedAt": "2026-01-04T17:52:45Z",
+  "global": {
+    "marketCapUsd": 3110000000000,
+    "marketCapChange24h": 1.97,
+    "volumeUsd24h": 96620000000,
+    "btcDominance": 52.1,
+    "ethDominance": 18.3
+  },
+  "coins": [
+    {
+      "id": "bitcoin",
+      "symbol": "BTC",
+      "name": "Bitcoin",
+      "image": "https://assets.coingecko.com/coins/images/1/large/bitcoin.png",
+      "rank": 1,
+      "price": 45000,
+      "marketCap": 890000000000,
+      "volume24h": 32000000000,
+      "change1h": 0.1,
+      "change24h": -0.6,
+      "change7d": 2.4,
+      "supply": 19500000,
+      "totalSupply": 21000000,
+      "sparkline7d": [
+        44000,
+        44500,
+        44800,
+        44650,
+        44720,
+        44900,
+        45200,
+        45100,
+        45000
+      ],
+      "ath": 69000,
+      "atl": 67,
+      "lastUpdated": "2026-01-04T17:52:45Z"
+    },
+    {
+      "id": "ethereum",
+      "symbol": "ETH",
+      "name": "Ethereum",
+      "image": "https://assets.coingecko.com/coins/images/279/large/ethereum.png",
+      "rank": 2,
+      "price": 2300,
+      "marketCap": 280000000000,
+      "volume24h": 18000000000,
+      "change1h": -0.05,
+      "change24h": 0.8,
+      "change7d": 3.9,
+      "supply": 120000000,
+      "totalSupply": null,
+      "sparkline7d": [
+        2200,
+        2230,
+        2250,
+        2270,
+        2260,
+        2290,
+        2310,
+        2320,
+        2300
+      ],
+      "ath": 4900,
+      "atl": 0.43,
+      "lastUpdated": "2026-01-04T17:52:45Z"
+    },
+    {
+      "id": "solana",
+      "symbol": "SOL",
+      "name": "Solana",
+      "image": "https://assets.coingecko.com/coins/images/4128/large/solana.png",
+      "rank": 3,
+      "price": 110,
+      "marketCap": 49000000000,
+      "volume24h": 2000000000,
+      "change1h": 0.23,
+      "change24h": 1.9,
+      "change7d": -4.2,
+      "supply": 430000000,
+      "totalSupply": 560000000,
+      "sparkline7d": [
+        120,
+        118,
+        116,
+        114,
+        112,
+        111,
+        110,
+        109,
+        110
+      ],
+      "ath": 260,
+      "atl": 0.5,
+      "lastUpdated": "2026-01-04T17:52:45Z"
+    }
+  ]
+}
