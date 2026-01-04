@@ -1,64 +1,62 @@
-name: Update market data
-
-on:
-  workflow_dispatch:
-  schedule:
-    - cron: "*/30 * * * *"  # every 30 minutes
-
-concurrency:
-  group: update-market-data
-  cancel-in-progress: true
-
-permissions:
-  contents: write
-
-jobs:
-  update:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-        with:
-          ref: main
-          fetch-depth: 0
-
-      - name: Setup Node
-        uses: actions/setup-node@v4
-        with:
-          node-version: "20"
-
-      - name: Fetch CryptoRank snapshots
-        run: node scripts/fetch-cryptorank.js
-        env:
-          CRYPTORANK_API_KEY: ${{ secrets.CRYPTORANK_API_KEY }}
-
-      - name: Commit & push if changed
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-
-          # Sync main to avoid non-fast-forward pushes (and avoid overlapping runs)
-          git fetch origin main
-          git checkout main
-          git pull --rebase --autostash origin main
-
-          git add data/market_usd.json data/market_eur.json
-
-          if git diff --cached --quiet; then
-            echo "No changes to commit."
-            exit 0
-          fi
-
-          git commit -m "chore: update market snapshots"
-
-          # Retry push in case another commit landed while we were running
-          for i in 1 2 3; do
-            if git push; then
-              exit 0
-            fi
-            echo "Push failed, rebasing and retrying... ($i/3)"
-            git pull --rebase --autostash origin main
-          done
-
-          echo "Push failed after retries."
-          exit 1
+ (cd "$(git rev-parse --show-toplevel)" && git apply --3way <<'EOF' 
+diff --git a/.github/workflows/update-data.yml b/.github/workflows/update-data.yml
+index 7491837078e4cbbc2061f70e293a77a8d69c0dc4..0e3984d156bd3c7aeae7df33b5f1593631ca6e68 100644
+--- a/.github/workflows/update-data.yml
++++ b/.github/workflows/update-data.yml
+@@ -10,50 +10,53 @@ concurrency:
+   cancel-in-progress: true
+ 
+ permissions:
+   contents: write
+ 
+ jobs:
+   update:
+     runs-on: ubuntu-latest
+     steps:
+       - name: Checkout
+         uses: actions/checkout@v4
+         with:
+           ref: main
+           fetch-depth: 0
+ 
+       - name: Setup Node
+         uses: actions/setup-node@v4
+         with:
+           node-version: "20"
+ 
+       - name: Fetch CryptoRank snapshots
+         run: node scripts/fetch-cryptorank.js
+         env:
+           CRYPTORANK_API_KEY: ${{ secrets.CRYPTORANK_API_KEY }}
+ 
++      - name: Validate snapshots
++        run: node scripts/validate-snapshots.js
++
+       - name: Commit & push if changed
+         run: |
+           git config user.name "github-actions[bot]"
+           git config user.email "github-actions[bot]@users.noreply.github.com"
+ 
+           # Sync main to avoid non-fast-forward pushes (and avoid overlapping runs)
+           git fetch origin main
+           git checkout main
+           git pull --rebase --autostash origin main
+ 
+           git add data/market_usd.json data/market_eur.json
+ 
+           if git diff --cached --quiet; then
+             echo "No changes to commit."
+             exit 0
+           fi
+ 
+           git commit -m "chore: update market snapshots"
+ 
+           # Retry push in case another commit landed while we were running
+           for i in 1 2 3; do
+             if git push; then
+               exit 0
+             fi
+             echo "Push failed, rebasing and retrying... ($i/3)"
+ 
+EOF
+)
