@@ -36,5 +36,11 @@
 
   function list() { return read(); }
 
-  NS.watchlist = { has, toggle, list };
+  // Optional init hook for pages that want it
+  function init() {
+    // No-op by default; kept for backward compatibility
+    return true;
+  }
+
+  NS.watchlist = { has, toggle, list, init };
 })();
