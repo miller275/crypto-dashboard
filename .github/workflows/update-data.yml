@@ -1,9 +1,9 @@
-name: Update data snapshots
+name: Update data snapshots (CMC)
 
 on:
   workflow_dispatch:
   schedule:
-    - cron: "*/30 * * * *" # every 30 minutes
+    - cron: "0 */6 * * *" # every 6 hours
 
 permissions:
   contents: write
@@ -21,10 +21,15 @@ jobs:
           node-version: "20"
 
       - name: Update snapshots
+        env:
+          CMC_PRO_API_KEY: ${{ secrets.CMC_PRO_API_KEY }}
+          TOP_LIMIT: "150"
+          CHART_LIMIT: "25"
+          LOGO_LIMIT: "150"
         run: node scripts/update-data.js
 
       - name: Commit & push
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "chore: update snapshots"
+          commit_message: "chore: update snapshots [skip ci]"
           branch: main
