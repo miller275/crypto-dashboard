@@ -4,16 +4,16 @@
   "name": "AINFT",
   "slug": "apenft",
   "rank": 123,
-  "price": 3.628169998856672e-7,
-  "marketCap": 362813371.7156684,
-  "volume24h": 16460282.47675228,
+  "price": 3.6292781406329135e-7,
+  "marketCap": 362924184.7851507,
+  "volume24h": 16629661.89994366,
   "circulating": 999990000000000,
   "totalSupply": 999990000000000,
   "maxSupply": 999990000000000,
-  "percentChange1h": -0.10276298,
-  "percentChange24h": 0.12126749,
-  "percentChange7d": 3.84517369,
-  "lastUpdated": "2026-01-04T23:22:00.000Z",
+  "percentChange1h": -0.03106334,
+  "percentChange24h": 0.15875931,
+  "percentChange7d": 3.88514923,
+  "lastUpdated": "2026-01-04T23:40:00.000Z",
   "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/9816.png",
   "tags": [
     "art",
@@ -33,6 +33,6 @@
     "token_address": "0x198d14f2ad9ce69e76ea330b374de4957c3f850a"
   },
   "selfReportedCirculatingSupply": 19999800000000,
-  "selfReportedMarketCap": 7256267.434313367,
+  "selfReportedMarketCap": 7258483.695703015,
   "geckoId": "apenft"
 }

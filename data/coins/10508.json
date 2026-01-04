@@ -4,16 +4,16 @@
   "name": "Fluid",
   "slug": "instadapp",
   "rank": 149,
-  "price": 3.0342796635474247,
-  "marketCap": 234397581.71016496,
-  "volume24h": 9652162.26524788,
+  "price": 3.0335985301330393,
+  "marketCap": 234344964.27114904,
+  "volume24h": 9559057.23288481,
   "circulating": 77249827.8672596,
   "totalSupply": 100000000,
   "maxSupply": null,
-  "percentChange1h": 0.03473672,
-  "percentChange24h": -2.37457096,
-  "percentChange7d": 17.84392865,
-  "lastUpdated": "2026-01-04T23:22:00.000Z",
+  "percentChange1h": 0.18740733,
+  "percentChange24h": -2.3145763,
+  "percentChange7d": 17.84055025,
+  "lastUpdated": "2026-01-04T23:40:00.000Z",
   "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/10508.png",
   "tags": [
     "defi",
@@ -36,6 +36,6 @@
     "token_address": "0x6f40d4A6237C257fff2dB00FA0510DeEECd303eb"
   },
   "selfReportedCirculatingSupply": 39436803,
-  "selfReportedMarketCap": 119662289.33822607,
+  "selfReportedMarketCap": 119635427.61394623,
   "geckoId": "instadapp"
 }

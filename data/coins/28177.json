@@ -4,16 +4,16 @@
   "name": "Pyth Network",
   "slug": "pyth-network",
   "rank": 112,
-  "price": 0.06814382100633565,
-  "marketCap": 391825790.956714,
-  "volume24h": 21168303.60522113,
+  "price": 0.06782443678725592,
+  "marketCap": 389989337.22676575,
+  "volume24h": 21246612.77634882,
   "circulating": 5749982686.181981,
   "totalSupply": 9999982686.18198,
   "maxSupply": 10000000000,
-  "percentChange1h": 0.82645462,
-  "percentChange24h": 6.75193227,
-  "percentChange7d": 12.63664525,
-  "lastUpdated": "2026-01-04T23:22:00.000Z",
+  "percentChange1h": 0.51458461,
+  "percentChange24h": 6.36407113,
+  "percentChange7d": 12.05063691,
+  "lastUpdated": "2026-01-04T23:40:00.000Z",
   "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/28177.png",
   "tags": [
     "defi",
@@ -33,6 +33,6 @@
     "token_address": "HZ1JovNiVvGrGNiiYvEozEVgZ58xaU3RKwX8eACQBCt3"
   },
   "selfReportedCirculatingSupply": 1500000000,
-  "selfReportedMarketCap": 102215731.50950347,
+  "selfReportedMarketCap": 101736655.18088387,
   "geckoId": "pyth-network"
 }

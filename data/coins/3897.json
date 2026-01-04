@@ -4,16 +4,16 @@
   "name": "OKB",
   "slug": "okb",
   "rank": 38,
-  "price": 113.63821715020872,
-  "marketCap": 2386402560.154383,
-  "volume24h": 36265036.85732412,
+  "price": 113.54406612589715,
+  "marketCap": 2384425388.64384,
+  "volume24h": 36390306.51550178,
   "circulating": 21000000,
   "totalSupply": 21000000,
   "maxSupply": 21000000,
-  "percentChange1h": 0.0009317,
-  "percentChange24h": 0.06298751,
-  "percentChange7d": 6.15463134,
-  "lastUpdated": "2026-01-04T23:22:00.000Z",
+  "percentChange1h": -0.11951348,
+  "percentChange24h": -0.05091613,
+  "percentChange7d": 6.08076783,
+  "lastUpdated": "2026-01-04T23:41:00.000Z",
   "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/3897.png",
   "tags": [
     "marketplace",
@@ -36,6 +36,6 @@
     "token_address": "0x75231f58b43240c9718dd58b4967c5114342a86c"
   },
   "selfReportedCirculatingSupply": 246638974,
-  "selfReportedMarketCap": 28027613285.11668,
+  "selfReportedMarketCap": 28004391973.079426,
   "geckoId": "okb"
 }
