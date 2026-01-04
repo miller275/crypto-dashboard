@@ -1,5 +1,9 @@
 name: Update data snapshots (CMC)
 
+concurrency:
+  group: update-data-snapshots
+  cancel-in-progress: true
+
 on:
   workflow_dispatch:
   schedule:
@@ -7,10 +11,6 @@ on:
 
 permissions:
   contents: write
-
-concurrency:
-  group: update-data-snapshots
-  cancel-in-progress: true
 
 jobs:
   update:
