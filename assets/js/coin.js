@@ -200,7 +200,7 @@
     // theme/lang init
     if (NS.theme) NS.theme.init();
     if (NS.lang) NS.lang.init();
-    if (NS.watchlist) NS.watchlist.init();
+    if (NS.watchlist) if (NS.watchlist && typeof NS.watchlist.init === "function") NS.watchlist.init();
 
     // re-mount chart on theme/lang changes
     if (NS.bus) {
