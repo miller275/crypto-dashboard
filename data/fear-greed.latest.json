@@ -1,11 +1,16 @@
 {
-  "source": "sample",
-  "updatedAt": "2026-01-04T17:52:45Z",
+  "source": "alternative.me",
+  "updatedAt": "2026-01-04T19:39:47.093Z",
+  "name": "Fear and Greed Index",
   "data": [
     {
-      "value": "55",
-      "value_classification": "Neutral",
-      "timestamp": "1767549165"
+      "value": "25",
+      "value_classification": "Extreme Fear",
+      "timestamp": "1767484800",
+      "time_until_update": "15214"
     }
-  ]
+  ],
+  "metadata": {
+    "error": null
+  }
 }

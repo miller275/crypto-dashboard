@@ -1,0 +1,60 @@
+{
+  "id": 7083,
+  "symbol": "UNI",
+  "name": "Uniswap",
+  "image": {
+    "large": "assets/img/coins/7083.png",
+    "small": "assets/img/coins/7083.png",
+    "thumb": "assets/img/coins/7083.png"
+  },
+  "market_cap_rank": 29,
+  "asset_platform_id": "Ethereum",
+  "description": {
+    "en": "Uniswap (UNI) is a cryptocurrency launched in 2020and operates on the Ethereum platform. Uniswap has a current supply of 899,882,420.03708885 with 630,247,562.74698885 in circulation. The last known price of Uniswap is 5.8397235 USD and is down -1.05 over the last 24 hours. It is currently trading on 1371 active market(s) with $309,121,954.68 traded over the last 24 hours. More information can be found at https://uniswap.org/blog/uni/."
+  },
+  "links": {
+    "homepage": [
+      "https://uniswap.org/blog/uni/",
+      "https://uniswap.org/"
+    ],
+    "blockchain_site": [
+      "https://etherscan.io/token/0x1f9840a85d5af5bf1d1762f925bdaddc4201f984",
+      "https://app.nansen.ai/token-god-mode?chain=ethereum&tab=transactions&tokenAddress=0x1f9840a85d5af5bf1d1762f925bdaddc4201f984",
+      "https://solscan.io/token/8FU95xFJhUUkyyCLU13HSzDLs7oC4QZdXQHL6SCeab36",
+      "https://nearblocks.io/token/1f9840a85d5af5bf1d1762f925bdaddc4201f984.factory.bridge.near"
+    ],
+    "official_forum_url": [
+      "https://uniswap.org/blog/"
+    ],
+    "chat_url": [
+      "https://discord.gg/FCfyBSbCU5"
+    ],
+    "announcement_url": [],
+    "twitter_screen_name": "Uniswap",
+    "facebook_username": "",
+    "subreddit_url": "https://reddit.com/r/Uniswap",
+    "repos_url": {
+      "github": []
+    }
+  },
+  "market_data": {
+    "current_price": {
+      "usd": 5.852887455844152
+    },
+    "market_cap": {
+      "usd": 3688768054.0782013
+    },
+    "total_volume": {
+      "usd": 309424995.2763058
+    },
+    "price_change_percentage_1h_in_currency": {
+      "usd": -0.69316895
+    },
+    "price_change_percentage_24h": -0.81016169,
+    "price_change_percentage_7d": -4.82770777,
+    "circulating_supply": 630247562.7469889,
+    "total_supply": 899882420.0370889,
+    "max_supply": null
+  },
+  "last_updated": "2026-01-04T19:39:00.000Z"
+}

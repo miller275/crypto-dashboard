@@ -1,0 +1,65 @@
+{
+  "id": 1437,
+  "symbol": "ZEC",
+  "name": "Zcash",
+  "image": {
+    "large": "assets/img/coins/1437.png",
+    "small": "assets/img/coins/1437.png",
+    "thumb": "assets/img/coins/1437.png"
+  },
+  "market_cap_rank": 14,
+  "asset_platform_id": "BNB",
+  "description": {
+    "en": "Zcash (ZEC) is a cryptocurrency . Users are able to generate ZEC through the process of mining. Zcash has a current supply of 16,470,443.1655448 with 16,470,371.6655448 in circulation. The last known price of Zcash is 506.77627316 USD and is down -0.39 over the last 24 hours. It is currently trading on 559 active market(s) with $498,772,835.76 traded over the last 24 hours. More information can be found at https://z.cash/."
+  },
+  "links": {
+    "homepage": [
+      "https://z.cash/"
+    ],
+    "blockchain_site": [
+      "https://zcashblockexplorer.com/",
+      "https://app.nansen.ai/token-god-mode?chain=bnb&tab=transactions&tokenAddress=0x1ba42e5193dfa8b03d15dd1b86a3113bbbef8eeb",
+      "https://www.oklink.com/bsc/token/0x1ba42e5193dfa8b03d15dd1b86a3113bbbef8eeb",
+      "https://blockchair.com/zcash",
+      "https://bscscan.com/token/0x1ba42e5193dfa8b03d15dd1b86a3113bbbef8eeb"
+    ],
+    "official_forum_url": [
+      "https://forum.z.cash/"
+    ],
+    "chat_url": [
+      "https://t.me/Zcash_Community",
+      "https://discord.com/invite/PhJY6Pm"
+    ],
+    "announcement_url": [
+      "https://discord.com/invite/na6QZNd"
+    ],
+    "twitter_screen_name": "electriccoinco",
+    "facebook_username": "",
+    "subreddit_url": "https://reddit.com/r/zec",
+    "repos_url": {
+      "github": [
+        "https://github.com/zcash/zcash"
+      ]
+    }
+  },
+  "market_data": {
+    "current_price": {
+      "usd": 506.9214906172374
+    },
+    "market_cap": {
+      "usd": 8349185355.717881
+    },
+    "total_volume": {
+      "usd": 496703354.17515314
+    },
+    "price_change_percentage_1h_in_currency": {
+      "usd": 0.08496807
+    },
+    "price_change_percentage_24h": -1.01183519,
+    "price_change_percentage_7d": -4.47534359,
+    "circulating_supply": 16470371.6655448,
+    "total_supply": 16470443.1655448,
+    "max_supply": 21000000
+  },
+  "last_updated": "2026-01-04T19:38:00.000Z"
+}

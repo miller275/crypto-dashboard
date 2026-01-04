@@ -3,46 +3,58 @@
   "symbol": "BTC",
   "name": "Bitcoin",
   "image": {
-    "large": "assets/img/coin.svg",
-    "small": "assets/img/coin.svg",
-    "thumb": "assets/img/coin.svg"
+    "large": "assets/img/coins/1.png",
+    "small": "assets/img/coins/1.png",
+    "thumb": "assets/img/coins/1.png"
   },
   "market_cap_rank": 1,
   "asset_platform_id": null,
   "description": {
-    "en": "Sample snapshot for Bitcoin. Run GitHub Actions to fetch real CoinMarketCap data."
+    "en": "Bitcoin (BTC) is a cryptocurrency launched in 2010. Users are able to generate BTC through the process of mining. Bitcoin has a current supply of 19,971,531. The last known price of Bitcoin is 91,074.70457005 USD and is up 1.09 over the last 24 hours. It is currently trading on 12510 active market(s) with $28,205,138,571.80 traded over the last 24 hours. More information can be found at https://bitcoin.org/."
   },
   "links": {
-    "homepage": [],
-    "blockchain_site": [],
-    "official_forum_url": [],
+    "homepage": [
+      "https://bitcoin.org/"
+    ],
+    "blockchain_site": [
+      "https://blockchain.info/",
+      "https://live.blockcypher.com/btc/",
+      "https://blockchair.com/bitcoin",
+      "https://explorer.viabtc.com/btc",
+      "https://www.okx.com/web3/explorer/btc"
+    ],
+    "official_forum_url": [
+      "https://bitcointalk.org"
+    ],
     "chat_url": [],
     "announcement_url": [],
     "twitter_screen_name": "",
     "facebook_username": "",
-    "subreddit_url": "",
+    "subreddit_url": "https://reddit.com/r/bitcoin",
     "repos_url": {
-      "github": []
+      "github": [
+        "https://github.com/bitcoin/bitcoin"
+      ]
     }
   },
   "market_data": {
     "current_price": {
-      "usd": 41099.59
+      "usd": 91103.28417007804
     },
     "market_cap": {
-      "usd": null
+      "usd": 1819472064004.523
     },
     "total_volume": {
-      "usd": null
+      "usd": 28216338249.706905
     },
     "price_change_percentage_1h_in_currency": {
-      "usd": null
+      "usd": 0.07805574
     },
-    "price_change_percentage_24h": null,
-    "price_change_percentage_7d": null,
-    "circulating_supply": null,
-    "total_supply": null,
-    "max_supply": null
+    "price_change_percentage_24h": 1.1323967,
+    "price_change_percentage_7d": 4.05981742,
+    "circulating_supply": 19971531,
+    "total_supply": 19971531,
+    "max_supply": 21000000
   },
-  "last_updated": "2026-01-04T18:40:57.963081Z"
+  "last_updated": "2026-01-04T19:38:00.000Z"
 }

@@ -1,0 +1,61 @@
+{
+  "id": 11092,
+  "symbol": "BGB",
+  "name": "Bitget Token",
+  "image": {
+    "large": "assets/img/coins/11092.png",
+    "small": "assets/img/coins/11092.png",
+    "thumb": "assets/img/coins/11092.png"
+  },
+  "market_cap_rank": 37,
+  "asset_platform_id": "Ethereum",
+  "description": {
+    "en": "Bitget Token (BGB) is a cryptocurrency and operates on the Ethereum platform. Bitget Token has a current supply of 919,992,035.97879069 with 699,006,080.59095991 in circulation. The last known price of Bitget Token is 3.5522017 USD and is up 0.58 over the last 24 hours. It is currently trading on 43 active market(s) with $26,037,390.58 traded over the last 24 hours. More information can be found at https://www.bitget.com/."
+  },
+  "links": {
+    "homepage": [
+      "https://www.bitget.com/"
+    ],
+    "blockchain_site": [
+      "https://etherscan.io/token/0x54D2252757e1672EEaD234D27B1270728fF90581",
+      "https://app.nansen.ai/token-god-mode?chain=ethereum&tab=transactions&tokenAddress=0x54D2252757e1672EEaD234D27B1270728fF90581",
+      "https://www.okx.com/web3/explorer/eth/token/0x54D2252757e1672EEaD234D27B1270728fF90581",
+      "https://explorer.morphl2.io/token/0x55d1f1879969bdbB9960d269974564C58DBc3238"
+    ],
+    "official_forum_url": [
+      "https://www.instagram.com/bitget_official/"
+    ],
+    "chat_url": [
+      "https://t.me/Bitget_NewMarket_Bot"
+    ],
+    "announcement_url": [
+      "https://medium.com/bitgetglobal"
+    ],
+    "twitter_screen_name": "bitgetglobal",
+    "facebook_username": "https://www.facebook.com/BitgetGlobalOfficial",
+    "subreddit_url": "",
+    "repos_url": {
+      "github": []
+    }
+  },
+  "market_data": {
+    "current_price": {
+      "usd": 3.5519324123397817
+    },
+    "market_cap": {
+      "usd": 2482822354.073624
+    },
+    "total_volume": {
+      "usd": 25914827.8153826
+    },
+    "price_change_percentage_1h_in_currency": {
+      "usd": 0.08912573
+    },
+    "price_change_percentage_24h": 0.54616198,
+    "price_change_percentage_7d": 2.40416347,
+    "circulating_supply": 699006080.5909599,
+    "total_supply": 919992035.9787906,
+    "max_supply": 919992035.98
+  },
+  "last_updated": "2026-01-04T19:39:00.000Z"
+}

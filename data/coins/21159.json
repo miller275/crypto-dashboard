@@ -1,0 +1,61 @@
+{
+  "id": 21159,
+  "symbol": "ONDO",
+  "name": "Ondo",
+  "image": {
+    "large": "assets/img/coins/21159.png",
+    "small": "assets/img/coins/21159.png",
+    "thumb": "assets/img/coins/21159.png"
+  },
+  "market_cap_rank": 55,
+  "asset_platform_id": "Ethereum",
+  "description": {
+    "en": "Ondo (ONDO) is a cryptocurrency launched in 2021and operates on the Ethereum platform. Ondo has a current supply of 10,000,000,000 with 3,159,107,529 in circulation. The last known price of Ondo is 0.43494325 USD and is up 2.79 over the last 24 hours. It is currently trading on 398 active market(s) with $71,934,658.16 traded over the last 24 hours. More information can be found at https://ondo.foundation/."
+  },
+  "links": {
+    "homepage": [
+      "https://ondo.foundation/"
+    ],
+    "blockchain_site": [
+      "https://etherscan.io/token/0xfAbA6f8e4a5E8Ab82F62fe7C39859FA577269BE3",
+      "https://app.nansen.ai/token-god-mode?chain=ethereum&tab=transactions&tokenAddress=0xfaba6f8e4a5e8ab82f62fe7c39859fa577269be3",
+      "https://www.okx.com/web3/explorer/eth/token/0xfAbA6f8e4a5E8Ab82F62fe7C39859FA577269BE3"
+    ],
+    "official_forum_url": [
+      "https://blog.ondo.foundation/"
+    ],
+    "chat_url": [
+      "https://discord.ondo.foundation/",
+      "https://t.me/ondofinance"
+    ],
+    "announcement_url": [],
+    "twitter_screen_name": "OndoFoundation",
+    "facebook_username": "",
+    "subreddit_url": "",
+    "repos_url": {
+      "github": [
+        "https://github.com/ondoprotocol"
+      ]
+    }
+  },
+  "market_data": {
+    "current_price": {
+      "usd": 0.4361316535047078
+    },
+    "market_cap": {
+      "usd": 1377786790.2219417
+    },
+    "total_volume": {
+      "usd": 72030271.58839695
+    },
+    "price_change_percentage_1h_in_currency": {
+      "usd": -0.26006319
+    },
+    "price_change_percentage_24h": 3.08613329,
+    "price_change_percentage_7d": 13.5530537,
+    "circulating_supply": 3159107529,
+    "total_supply": 10000000000,
+    "max_supply": null
+  },
+  "last_updated": "2026-01-04T19:38:00.000Z"
+}

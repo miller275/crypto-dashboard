@@ -1,0 +1,59 @@
+{
+  "id": 29270,
+  "symbol": "AERO",
+  "name": "Aerodrome Finance",
+  "image": {
+    "large": "assets/img/coins/29270.png",
+    "small": "assets/img/coins/29270.png",
+    "thumb": "assets/img/coins/29270.png"
+  },
+  "market_cap_rank": 91,
+  "asset_platform_id": "Base",
+  "description": {
+    "en": "Aerodrome Finance (AERO) is a cryptocurrency and operates on the Base platform. Aerodrome Finance has a current supply of 1,814,169,285.44618814 with 911,396,457.71142592 in circulation. The last known price of Aerodrome Finance is 0.564734 USD and is up 2.92 over the last 24 hours. It is currently trading on 434 active market(s) with $39,774,525.64 traded over the last 24 hours. More information can be found at https://aerodrome.finance/."
+  },
+  "links": {
+    "homepage": [
+      "https://aerodrome.finance/"
+    ],
+    "blockchain_site": [
+      "https://basescan.org/token/0x940181a94A35A4569E4529A3CDfB74e38FD98631",
+      "https://app.nansen.ai/token-god-mode?chain=base&tab=transactions&tokenAddress=0x940181a94a35a4569e4529a3cdfb74e38fd98631"
+    ],
+    "official_forum_url": [
+      "https://medium.com/@aerodromefi"
+    ],
+    "chat_url": [
+      "https://discord.gg/aerodrome"
+    ],
+    "announcement_url": [],
+    "twitter_screen_name": "aerodromefi",
+    "facebook_username": "",
+    "subreddit_url": "",
+    "repos_url": {
+      "github": [
+        "https://github.com/aerodrome-finance"
+      ]
+    }
+  },
+  "market_data": {
+    "current_price": {
+      "usd": 0.5644712719261624
+    },
+    "market_cap": {
+      "usd": 514455082.37349486
+    },
+    "total_volume": {
+      "usd": 39672955.1170558
+    },
+    "price_change_percentage_1h_in_currency": {
+      "usd": -0.96936149
+    },
+    "price_change_percentage_24h": 2.98649421,
+    "price_change_percentage_7d": 21.85332881,
+    "circulating_supply": 911392851.9657062,
+    "total_supply": 1814169285.4461882,
+    "max_supply": null
+  },
+  "last_updated": "2026-01-04T19:38:00.000Z"
+}

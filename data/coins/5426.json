@@ -3,46 +3,64 @@
   "symbol": "SOL",
   "name": "Solana",
   "image": {
-    "large": "assets/img/coin.svg",
-    "small": "assets/img/coin.svg",
-    "thumb": "assets/img/coin.svg"
+    "large": "assets/img/coins/5426.png",
+    "small": "assets/img/coins/5426.png",
+    "thumb": "assets/img/coins/5426.png"
   },
-  "market_cap_rank": 5,
-  "asset_platform_id": null,
+  "market_cap_rank": 7,
+  "asset_platform_id": "Solana",
   "description": {
-    "en": "Sample snapshot for Solana. Run GitHub Actions to fetch real CoinMarketCap data."
+    "en": "Solana (SOL) is a cryptocurrency launched in 2020. Solana has a current supply of 617,545,769.13077581 with 563,277,476.37188113 in circulation. The last known price of Solana is 133.44351176 USD and is up 1.34 over the last 24 hours. It is currently trading on 1070 active market(s) with $2,998,572,432.78 traded over the last 24 hours. More information can be found at https://solana.com."
   },
   "links": {
-    "homepage": [],
-    "blockchain_site": [],
-    "official_forum_url": [],
-    "chat_url": [],
-    "announcement_url": [],
-    "twitter_screen_name": "",
+    "homepage": [
+      "https://solana.com"
+    ],
+    "blockchain_site": [
+      "https://solscan.io/token/So11111111111111111111111111111111111111111",
+      "https://app.nansen.ai/token-god-mode?chain=solana&tab=transactions&tokenAddress=So11111111111111111111111111111111111111112",
+      "https://explorer.solana.com",
+      "https://solana.fm/",
+      "https://solscan.io/"
+    ],
+    "official_forum_url": [
+      "https://solana.com/news",
+      "https://forums.solana.com"
+    ],
+    "chat_url": [
+      "https://solana.com/discord",
+      "https://t.me/solana"
+    ],
+    "announcement_url": [
+      "https://coinmarketcap.com/community/profile/Solana/"
+    ],
+    "twitter_screen_name": "solana",
     "facebook_username": "",
-    "subreddit_url": "",
+    "subreddit_url": "https://reddit.com/r/solana",
     "repos_url": {
-      "github": []
+      "github": [
+        "https://github.com/solana-labs"
+      ]
     }
   },
   "market_data": {
     "current_price": {
-      "usd": 103.49
+      "usd": 133.64565123595946
     },
     "market_cap": {
-      "usd": null
+      "usd": 75279585156.26782
     },
     "total_volume": {
-      "usd": null
+      "usd": 3007879146.5934315
     },
     "price_change_percentage_1h_in_currency": {
-      "usd": null
+      "usd": -0.27851949
     },
-    "price_change_percentage_24h": null,
-    "price_change_percentage_7d": null,
-    "circulating_supply": null,
-    "total_supply": null,
+    "price_change_percentage_24h": 1.46080079,
+    "price_change_percentage_7d": 8.41180506,
+    "circulating_supply": 563277476.3718811,
+    "total_supply": 617545769.1307758,
     "max_supply": null
   },
-  "last_updated": "2026-01-04T18:40:57.963081Z"
+  "last_updated": "2026-01-04T19:38:00.000Z"
 }

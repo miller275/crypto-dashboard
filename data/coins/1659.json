@@ -1,0 +1,63 @@
+{
+  "id": 1659,
+  "symbol": "GNO",
+  "name": "Gnosis",
+  "image": {
+    "large": "assets/img/coins/1659.png",
+    "small": "assets/img/coins/1659.png",
+    "thumb": "assets/img/coins/1659.png"
+  },
+  "market_cap_rank": 120,
+  "asset_platform_id": "Ethereum",
+  "description": {
+    "en": "Gnosis (GNO) is a cryptocurrency and operates on the Ethereum platform. Gnosis has a current supply of 2,999,934.74577209 with 2,639,253.26453084 in circulation. The last known price of Gnosis is 138.22491303 USD and is up 0.77 over the last 24 hours. It is currently trading on 245 active market(s) with $5,703,390.97 traded over the last 24 hours. More information can be found at https://gnosis.io/."
+  },
+  "links": {
+    "homepage": [
+      "https://gnosis.io/"
+    ],
+    "blockchain_site": [
+      "https://etherscan.io/token/0x6810e776880c02933d47db1b9fc05908e5386b96",
+      "https://app.nansen.ai/token-god-mode?chain=ethereum&tab=transactions&tokenAddress=0x6810e776880c02933d47db1b9fc05908e5386b96",
+      "https://www.oklink.com/eth/token/0x6810e776880c02933d47db1b9fc05908e5386b96",
+      "https://arbiscan.io/token/0xa0b862f60edef4452f25b4160f177db44deb6cf1",
+      "https://blockscout.com/xdai/mainnet/tokens/0x9C58BAcC331c9aa871AFD802DB6379a98e80CEdb/token-transfers"
+    ],
+    "official_forum_url": [
+      "https://forum.gnosis.io",
+      "https://blog.gnosis.io/"
+    ],
+    "chat_url": [
+      "https://chat.gnosis.io/"
+    ],
+    "announcement_url": [
+      "https://bitcointalk.org/index.php?topic=1529098.0"
+    ],
+    "twitter_screen_name": "gnosisdao",
+    "facebook_username": "",
+    "subreddit_url": "https://reddit.com/r/gnosisPM",
+    "repos_url": {
+      "github": []
+    }
+  },
+  "market_data": {
+    "current_price": {
+      "usd": 138.37731691350484
+    },
+    "market_cap": {
+      "usd": 365212785.40098625
+    },
+    "total_volume": {
+      "usd": 5710025.98926477
+    },
+    "price_change_percentage_1h_in_currency": {
+      "usd": -0.21384614
+    },
+    "price_change_percentage_24h": 0.84359439,
+    "price_change_percentage_7d": 10.76204983,
+    "circulating_supply": 2639253.26453084,
+    "total_supply": 2999934.74577209,
+    "max_supply": null
+  },
+  "last_updated": "2026-01-04T19:38:00.000Z"
+}

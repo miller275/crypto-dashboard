@@ -1,0 +1,65 @@
+{
+  "id": 2563,
+  "symbol": "TUSD",
+  "name": "TrueUSD",
+  "image": {
+    "large": "assets/img/coins/2563.png",
+    "small": "assets/img/coins/2563.png",
+    "thumb": "assets/img/coins/2563.png"
+  },
+  "market_cap_rank": 96,
+  "asset_platform_id": "Ethereum",
+  "description": {
+    "en": "TrueUSD (TUSD) is a cryptocurrency and operates on the Ethereum platform. TrueUSD has a current supply of 494,515,083. The last known price of TrueUSD is 0.9978736 USD and is down -0.01 over the last 24 hours. It is currently trading on 580 active market(s) with $11,463,643.09 traded over the last 24 hours. More information can be found at https://tusd.io/."
+  },
+  "links": {
+    "homepage": [
+      "https://tusd.io/"
+    ],
+    "blockchain_site": [
+      "https://etherscan.io/token/0x0000000000085d4780B73119b644AE5ecd22b376",
+      "https://app.nansen.ai/token-god-mode?chain=ethereum&tab=transactions&tokenAddress=0x0000000000085d4780B73119b644AE5ecd22b376",
+      "https://bscscan.com/token/0x40af3827f39d0eacbf4a168f8d4ee67c121d11c9",
+      "https://tronscan.org/#/token20/TUpMhErZL2fhh4sVNULAbNKLokS4GjC1F4",
+      "https://snowtrace.io/token/0x1c20e891bab6b1727d14da358fae2984ed9b59eb"
+    ],
+    "official_forum_url": [
+      "https://trueusd.medium.com/"
+    ],
+    "chat_url": [
+      "https://discord.gg/tusdio",
+      "https://t.me/TUSDofficial_EN"
+    ],
+    "announcement_url": [
+      "https://t.me/TUSDofficialChannel"
+    ],
+    "twitter_screen_name": "tusdio",
+    "facebook_username": "",
+    "subreddit_url": "",
+    "repos_url": {
+      "github": [
+        "https://github.com/trusttoken/smart-contracts"
+      ]
+    }
+  },
+  "market_data": {
+    "current_price": {
+      "usd": 0.9976890612223318
+    },
+    "market_cap": {
+      "usd": 493372288.9185535
+    },
+    "total_volume": {
+      "usd": 11468189.13002597
+    },
+    "price_change_percentage_1h_in_currency": {
+      "usd": 0.01976375
+    },
+    "price_change_percentage_24h": -0.01234032,
+    "price_change_percentage_7d": -0.07877708,
+    "circulating_supply": 494515083,
+    "total_supply": 494515083,
+    "max_supply": null
+  },
+  "last_updated": "2026-01-04T19:39:00.000Z"
+}

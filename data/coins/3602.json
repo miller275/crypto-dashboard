@@ -1,0 +1,58 @@
+{
+  "id": 3602,
+  "symbol": "BSV",
+  "name": "Bitcoin SV",
+  "image": {
+    "large": "assets/img/coins/3602.png",
+    "small": "assets/img/coins/3602.png",
+    "thumb": "assets/img/coins/3602.png"
+  },
+  "market_cap_rank": 119,
+  "asset_platform_id": null,
+  "description": {
+    "en": "Bitcoin SV (BSV) is a cryptocurrency . Users are able to generate BSV through the process of mining. Bitcoin SV has a current supply of 19,970,184.375. The last known price of Bitcoin SV is 18.52943515 USD and is up 0.12 over the last 24 hours. It is currently trading on 295 active market(s) with $13,593,939.59 traded over the last 24 hours. More information can be found at https://www.bsvblockchain.org/."
+  },
+  "links": {
+    "homepage": [
+      "https://www.bsvblockchain.org/"
+    ],
+    "blockchain_site": [
+      "https://whatsonchain.com/",
+      "https://www.oklink.com/bsv",
+      "https://explorer.viabtc.com/bsv"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [
+      "https://www.bsvblockchain.org/news"
+    ],
+    "twitter_screen_name": "BSVBlockchain",
+    "facebook_username": "",
+    "subreddit_url": "",
+    "repos_url": {
+      "github": [
+        "https://github.com/bitcoin-sv/bitcoin-sv"
+      ]
+    }
+  },
+  "market_data": {
+    "current_price": {
+      "usd": 18.542020754874137
+    },
+    "market_cap": {
+      "usd": 370287573.1599132
+    },
+    "total_volume": {
+      "usd": 13594344.54518371
+    },
+    "price_change_percentage_1h_in_currency": {
+      "usd": -0.51664839
+    },
+    "price_change_percentage_24h": 0.15956793,
+    "price_change_percentage_7d": 3.86525002,
+    "circulating_supply": 19970184.375,
+    "total_supply": 19970184.375,
+    "max_supply": null
+  },
+  "last_updated": "2026-01-04T19:38:00.000Z"
+}

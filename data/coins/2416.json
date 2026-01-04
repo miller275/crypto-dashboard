@@ -1,0 +1,58 @@
+{
+  "id": 2416,
+  "symbol": "THETA",
+  "name": "Theta Network",
+  "image": {
+    "large": "assets/img/coins/2416.png",
+    "small": "assets/img/coins/2416.png",
+    "thumb": "assets/img/coins/2416.png"
+  },
+  "market_cap_rank": 135,
+  "asset_platform_id": null,
+  "description": {
+    "en": "Theta Network (THETA) is a cryptocurrency . Theta Network has a current supply of 1,000,000,000. The last known price of Theta Network is 0.29681759 USD and is up 2.44 over the last 24 hours. It is currently trading on 271 active market(s) with $11,254,499.28 traded over the last 24 hours. More information can be found at https://www.thetatoken.org/."
+  },
+  "links": {
+    "homepage": [
+      "https://www.thetatoken.org/"
+    ],
+    "blockchain_site": [
+      "https://explorer.thetatoken.org/"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.com/invite/QfMpeZBfKB"
+    ],
+    "announcement_url": [
+      "https://bitcointalk.org/index.php?topic=2451089.0"
+    ],
+    "twitter_screen_name": "Theta_Network",
+    "facebook_username": "",
+    "subreddit_url": "https://reddit.com/r/theta_network",
+    "repos_url": {
+      "github": [
+        "https://github.com/thetatoken"
+      ]
+    }
+  },
+  "market_data": {
+    "current_price": {
+      "usd": 0.29746438891099525
+    },
+    "market_cap": {
+      "usd": 297464388.91099524
+    },
+    "total_volume": {
+      "usd": 11290626.03266794
+    },
+    "price_change_percentage_1h_in_currency": {
+      "usd": -0.4421929
+    },
+    "price_change_percentage_24h": 2.66822214,
+    "price_change_percentage_7d": 9.87364657,
+    "circulating_supply": 1000000000,
+    "total_supply": 1000000000,
+    "max_supply": 1000000000
+  },
+  "last_updated": "2026-01-04T19:38:00.000Z"
+}

@@ -1,0 +1,59 @@
+{
+  "id": 36507,
+  "symbol": "PUMP",
+  "name": "Pump.fun",
+  "image": {
+    "large": "assets/img/coins/36507.png",
+    "small": "assets/img/coins/36507.png",
+    "thumb": "assets/img/coins/36507.png"
+  },
+  "market_cap_rank": 72,
+  "asset_platform_id": "Solana",
+  "description": {
+    "en": "Pump.fun (PUMP) is a cryptocurrency launched in 2025and operates on the Solana platform. Pump.fun has a current supply of 1,000,000,000,000 with 354,000,000,000 in circulation. The last known price of Pump.fun is 0.00230101 USD and is up 0.39 over the last 24 hours. It is currently trading on 320 active market(s) with $143,934,104.29 traded over the last 24 hours. More information can be found at https://pump.fun/."
+  },
+  "links": {
+    "homepage": [
+      "https://pump.fun/"
+    ],
+    "blockchain_site": [
+      "https://solscan.io/token/pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
+      "https://app.nansen.ai/token-god-mode?chain=solana&tab=transactions&tokenAddress=pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn"
+    ],
+    "official_forum_url": [
+      "https://x.com/pumpfun"
+    ],
+    "chat_url": [],
+    "announcement_url": [
+      "https://x.com/pumpfun"
+    ],
+    "twitter_screen_name": "pumpfun",
+    "facebook_username": "",
+    "subreddit_url": "",
+    "repos_url": {
+      "github": [
+        "https://github.com/pump-fun/pump-public-docs"
+      ]
+    }
+  },
+  "market_data": {
+    "current_price": {
+      "usd": 0.00230670760406189
+    },
+    "market_cap": {
+      "usd": 816574491.8379091
+    },
+    "total_volume": {
+      "usd": 143925061.37586007
+    },
+    "price_change_percentage_1h_in_currency": {
+      "usd": -0.30013706
+    },
+    "price_change_percentage_24h": 0.88214369,
+    "price_change_percentage_7d": 24.65584473,
+    "circulating_supply": 354000000000,
+    "total_supply": 1000000000000,
+    "max_supply": 1000000000000
+  },
+  "last_updated": "2026-01-04T19:38:00.000Z"
+}

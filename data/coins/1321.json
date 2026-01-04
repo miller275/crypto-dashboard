@@ -1,0 +1,67 @@
+{
+  "id": 1321,
+  "symbol": "ETC",
+  "name": "Ethereum Classic",
+  "image": {
+    "large": "assets/img/coins/1321.png",
+    "small": "assets/img/coins/1321.png",
+    "thumb": "assets/img/coins/1321.png"
+  },
+  "market_cap_rank": 41,
+  "asset_platform_id": "BNB",
+  "description": {
+    "en": "Ethereum Classic (ETC) is a cryptocurrency launched in 2015. Users are able to generate ETC through the process of mining. Ethereum Classic has a current supply of 210,700,000 with 154,992,575.4447952 in circulation. The last known price of Ethereum Classic is 12.75758314 USD and is up 2.19 over the last 24 hours. It is currently trading on 687 active market(s) with $65,688,382.67 traded over the last 24 hours. More information can be found at https://ethereumclassic.org/."
+  },
+  "links": {
+    "homepage": [
+      "https://ethereumclassic.org/"
+    ],
+    "blockchain_site": [
+      "https://etc.blockscout.com",
+      "https://app.nansen.ai/token-god-mode?chain=bnb&tab=transactions&tokenAddress=0x3d6545b08693dae087e957cb1180ee38b9e3c25e",
+      "https://etc.tokenview.io/",
+      "https://blockchair.com/ethereum-classic",
+      "https://www.okx.com/web3/explorer/etc"
+    ],
+    "official_forum_url": [
+      "https://ethereumclassic.org/news"
+    ],
+    "chat_url": [
+      "https://twitter.com/etc_network",
+      "https://ethereumclassic.org/discord",
+      "https://telegram.me/ethclassic",
+      "https://t.me/ETCnetwork"
+    ],
+    "announcement_url": [
+      "https://ethereumclassic.org/blog/2016-08-13-declaration-of-independence"
+    ],
+    "twitter_screen_name": "eth_classic",
+    "facebook_username": "",
+    "subreddit_url": "https://reddit.com/r/EthereumClassic",
+    "repos_url": {
+      "github": [
+        "https://github.com/ethereumclassic/ethereumclassic.github.io"
+      ]
+    }
+  },
+  "market_data": {
+    "current_price": {
+      "usd": 12.77537427597947
+    },
+    "market_cap": {
+      "usd": 1980088161.3052437
+    },
+    "total_volume": {
+      "usd": 65834290.34280659
+    },
+    "price_change_percentage_1h_in_currency": {
+      "usd": -0.4580999
+    },
+    "price_change_percentage_24h": 2.34294937,
+    "price_change_percentage_7d": 5.84867185,
+    "circulating_supply": 154992575.4447952,
+    "total_supply": 210700000,
+    "max_supply": 210700000
+  },
+  "last_updated": "2026-01-04T19:38:00.000Z"
+}

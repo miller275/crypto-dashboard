@@ -1,0 +1,59 @@
+{
+  "id": 36148,
+  "symbol": "USD1",
+  "name": "World Liberty Financial USD",
+  "image": {
+    "large": "assets/img/coins/36148.png",
+    "small": "assets/img/coins/36148.png",
+    "thumb": "assets/img/coins/36148.png"
+  },
+  "market_cap_rank": 33,
+  "asset_platform_id": "Ethereum",
+  "description": {
+    "en": "World Liberty Financial USD (USD1) is a cryptocurrency and operates on the Ethereum platform. World Liberty Financial USD has a current supply of 3,311,188,793.15553498. The last known price of World Liberty Financial USD is 1.00037678 USD and is up 0.00 over the last 24 hours. It is currently trading on 779 active market(s) with $743,370,157.38 traded over the last 24 hours. More information can be found at https://www.worldlibertyfinancial.com/."
+  },
+  "links": {
+    "homepage": [
+      "https://www.worldlibertyfinancial.com/"
+    ],
+    "blockchain_site": [
+      "https://etherscan.io/token/0x8d0D000Ee44948FC98c9B98A4FA4921476f08B0d",
+      "https://app.nansen.ai/token-god-mode?chain=ethereum&tab=transactions&tokenAddress=0x8d0D000Ee44948FC98c9B98A4FA4921476f08B0d",
+      "https://solscan.io/token/USD1ttGY1N17NEEHLmELoaybftRBUSErhqYiQzvEmuB",
+      "https://etherscan.io/address/0x8d0d000ee44948fc98c9b98a4fa4921476f08b0d"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://t.me/defiant1s"
+    ],
+    "announcement_url": [],
+    "twitter_screen_name": "worldlibertyfi",
+    "facebook_username": "",
+    "subreddit_url": "",
+    "repos_url": {
+      "github": [
+        "https://github.com/worldliberty/usd1-smart-contracts"
+      ]
+    }
+  },
+  "market_data": {
+    "current_price": {
+      "usd": 1.0004067551852696
+    },
+    "market_cap": {
+      "usd": 3312535636.366557
+    },
+    "total_volume": {
+      "usd": 742944478.691509
+    },
+    "price_change_percentage_1h_in_currency": {
+      "usd": 0.00685014
+    },
+    "price_change_percentage_24h": 0.0110398,
+    "price_change_percentage_7d": 0.01529416,
+    "circulating_supply": 3311188793.1555347,
+    "total_supply": 3311188793.1555347,
+    "max_supply": null
+  },
+  "last_updated": "2026-01-04T19:38:00.000Z"
+}

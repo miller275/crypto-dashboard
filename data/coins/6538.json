@@ -1,0 +1,63 @@
+{
+  "id": 6538,
+  "symbol": "CRV",
+  "name": "Curve DAO Token",
+  "image": {
+    "large": "assets/img/coins/6538.png",
+    "small": "assets/img/coins/6538.png",
+    "thumb": "assets/img/coins/6538.png"
+  },
+  "market_cap_rank": 82,
+  "asset_platform_id": "Ethereum",
+  "description": {
+    "en": "Curve DAO Token (CRV) is a cryptocurrency and operates on the Ethereum platform. Curve DAO Token has a current supply of 2,338,722,088.01123146 with 1,449,813,211.74197851 in circulation. The last known price of Curve DAO Token is 0.41858777 USD and is down -1.46 over the last 24 hours. It is currently trading on 936 active market(s) with $77,451,056.00 traded over the last 24 hours. More information can be found at https://www.curve.finance/."
+  },
+  "links": {
+    "homepage": [
+      "https://www.curve.finance/"
+    ],
+    "blockchain_site": [
+      "https://etherscan.io/token/0xD533a949740bb3306d119CC777fa900bA034cd52",
+      "https://app.nansen.ai/token-god-mode?chain=ethereum&tab=transactions&tokenAddress=0xD533a949740bb3306d119CC777fa900bA034cd52",
+      "https://arbiscan.io/token/0x11cDb42B0EB46D95f990BeDD4695A6e3fA034978",
+      "https://optimistic.etherscan.io/token/0x0994206dfE8De6Ec6920FF4D779B0d950605Fb53",
+      "https://gnosisscan.io/token/0x712b3d230f3c1c19db860d80619288b1f0bdd0bd"
+    ],
+    "official_forum_url": [
+      "https://news.curve.fi/"
+    ],
+    "chat_url": [
+      "https://t.me/curvefi",
+      "https://discord.gg/rgrfS7W"
+    ],
+    "announcement_url": [],
+    "twitter_screen_name": "curvefinance",
+    "facebook_username": "",
+    "subreddit_url": "https://reddit.com/r/CurveDAO",
+    "repos_url": {
+      "github": [
+        "https://github.com/curvefi/curve-contract"
+      ]
+    }
+  },
+  "market_data": {
+    "current_price": {
+      "usd": 0.4189690703841267
+    },
+    "market_cap": {
+      "usd": 607426893.5541617
+    },
+    "total_volume": {
+      "usd": 76494290.26565546
+    },
+    "price_change_percentage_1h_in_currency": {
+      "usd": -0.70360785
+    },
+    "price_change_percentage_24h": -1.35374831,
+    "price_change_percentage_7d": 7.46396959,
+    "circulating_supply": 1449813211.7419784,
+    "total_supply": 2338722088.0112314,
+    "max_supply": 3030303030.299
+  },
+  "last_updated": "2026-01-04T19:38:00.000Z"
+}

@@ -1,0 +1,64 @@
+{
+  "id": 7326,
+  "symbol": "DEXE",
+  "name": "DeXe",
+  "image": {
+    "large": "assets/img/coins/7326.png",
+    "small": "assets/img/coins/7326.png",
+    "thumb": "assets/img/coins/7326.png"
+  },
+  "market_cap_rank": 139,
+  "asset_platform_id": "Ethereum",
+  "description": {
+    "en": "DeXe (DEXE) is a cryptocurrency launched in 2020and operates on the Ethereum platform. DeXe has a current supply of 96,504,599.33609451 with 83,733,673.98919194 in circulation. The last known price of DeXe is 3.34998183 USD and is down -0.06 over the last 24 hours. It is currently trading on 155 active market(s) with $4,038,077.85 traded over the last 24 hours. More information can be found at https://dexe.network/."
+  },
+  "links": {
+    "homepage": [
+      "https://dexe.network/"
+    ],
+    "blockchain_site": [
+      "https://etherscan.io/token/0xde4EE8057785A7e8e800Db58F9784845A5C2Cbd6",
+      "https://app.nansen.ai/token-god-mode?chain=ethereum&tab=transactions&tokenAddress=0xde4EE8057785A7e8e800Db58F9784845A5C2Cbd6",
+      "https://bscscan.com/token/0x6E88056E8376Ae7709496Ba64d37fa2f8015ce3e",
+      "https://ethplorer.io/address/0xde4EE8057785A7e8e800Db58F9784845A5C2Cbd6",
+      "https://binplorer.com/address/0x6E88056E8376Ae7709496Ba64d37fa2f8015ce3e#"
+    ],
+    "official_forum_url": [
+      "http://dexenetwork.medium.com/"
+    ],
+    "chat_url": [
+      "https://t.me/dexe_network_official_chat"
+    ],
+    "announcement_url": [
+      "https://t.me/Dexe_network"
+    ],
+    "twitter_screen_name": "DexeNetwork",
+    "facebook_username": "",
+    "subreddit_url": "",
+    "repos_url": {
+      "github": [
+        "https://github.com/dexe-network/DeXe-Protocol/"
+      ]
+    }
+  },
+  "market_data": {
+    "current_price": {
+      "usd": 3.3577525332115656
+    },
+    "market_cap": {
+      "usd": 281156955.9523206
+    },
+    "total_volume": {
+      "usd": 4043881.13662622
+    },
+    "price_change_percentage_1h_in_currency": {
+      "usd": -0.40202285
+    },
+    "price_change_percentage_24h": 0.3243836,
+    "price_change_percentage_7d": 10.66158578,
+    "circulating_supply": 83733673.98919193,
+    "total_supply": 96504599.33609451,
+    "max_supply": null
+  },
+  "last_updated": "2026-01-04T19:38:00.000Z"
+}

@@ -1,0 +1,62 @@
+{
+  "id": 10603,
+  "symbol": "IMX",
+  "name": "Immutable",
+  "image": {
+    "large": "assets/img/coins/10603.png",
+    "small": "assets/img/coins/10603.png",
+    "thumb": "assets/img/coins/10603.png"
+  },
+  "market_cap_rank": 87,
+  "asset_platform_id": "Ethereum",
+  "description": {
+    "en": "Immutable (IMX) is a cryptocurrency launched in 2021and operates on the Ethereum platform. Immutable has a current supply of 2,000,000,000 with 1,988,972,529.20981415 in circulation. The last known price of Immutable is 0.27747586 USD and is up 3.87 over the last 24 hours. It is currently trading on 418 active market(s) with $28,233,704.20 traded over the last 24 hours. More information can be found at https://www.immutable.com/."
+  },
+  "links": {
+    "homepage": [
+      "https://www.immutable.com/",
+      "https://imx.community/"
+    ],
+    "blockchain_site": [
+      "https://etherscan.io/token/0xf57e7e7c23978c3caec3c3548e3d615c346e79ff",
+      "https://app.nansen.ai/token-god-mode?chain=ethereum&tab=transactions&tokenAddress=0xf57e7e7c23978c3caec3c3548e3d615c346e79ff",
+      "https://www.oklink.com/cn/eth/token/0xf57e7e7c23978c3caec3c3548e3d615c346e79ff"
+    ],
+    "official_forum_url": [
+      "https://www.immutable.com/blog",
+      "https://www.immutable.com/blog"
+    ],
+    "chat_url": [
+      "https://discord.com/invite/TUa8a9A"
+    ],
+    "announcement_url": [
+      "https://www.immutable.com/token"
+    ],
+    "twitter_screen_name": "Immutable",
+    "facebook_username": "",
+    "subreddit_url": "https://reddit.com/r/ImmutableX/",
+    "repos_url": {
+      "github": []
+    }
+  },
+  "market_data": {
+    "current_price": {
+      "usd": 0.2784247191999185
+    },
+    "market_cap": {
+      "usd": 553779117.9415942
+    },
+    "total_volume": {
+      "usd": 28288119.69724591
+    },
+    "price_change_percentage_1h_in_currency": {
+      "usd": -0.6631984
+    },
+    "price_change_percentage_24h": 4.22039122,
+    "price_change_percentage_7d": 18.11252318,
+    "circulating_supply": 1988972529.209814,
+    "total_supply": 2000000000,
+    "max_supply": 2000000000
+  },
+  "last_updated": "2026-01-04T19:38:00.000Z"
+}

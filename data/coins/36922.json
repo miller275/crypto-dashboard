@@ -1,0 +1,64 @@
+{
+  "id": 36922,
+  "symbol": "H",
+  "name": "Humanity Protocol",
+  "image": {
+    "large": "assets/img/coins/36922.png",
+    "small": "assets/img/coins/36922.png",
+    "thumb": "assets/img/coins/36922.png"
+  },
+  "market_cap_rank": 112,
+  "asset_platform_id": "Ethereum",
+  "description": {
+    "en": "Humanity Protocol (H) is a cryptocurrency launched in 2024and operates on the Ethereum platform. Humanity Protocol has a current supply of 10,000,000,000 with 2,305,357,143 in circulation. The last known price of Humanity Protocol is 0.16918076 USD and is up 3.04 over the last 24 hours. It is currently trading on 156 active market(s) with $41,498,279.51 traded over the last 24 hours. More information can be found at https://www.humanity.org/."
+  },
+  "links": {
+    "homepage": [
+      "https://www.humanity.org/",
+      "https://drive.google.com/file/d/1VutrqjTF8pFYzYCst87a29HmPsXZNjCJ/view?usp=drive_link"
+    ],
+    "blockchain_site": [
+      "https://etherscan.io/token/0xcf5104D094e3864CfCBDa43B82e1cEFD26A016eB",
+      "https://app.nansen.ai/token-god-mode?chain=ethereum&tab=transactions&tokenAddress=0xcf5104D094e3864CfCBDa43B82e1cEFD26A016eB",
+      "https://explorer.humanity.org/mainnet/overview",
+      "https://etherscan.io/token/0xcf5104d094e3864cfcbda43b82e1cefd26a016eb?"
+    ],
+    "official_forum_url": [
+      "https://www.humanity.org/blog"
+    ],
+    "chat_url": [
+      "https://x.com/Humanityprot"
+    ],
+    "announcement_url": [
+      "https://www.humanity.org/blog/humanity-protocol-acquires-moongate-to-accelerate-real-world-adoption-of-decentralized-identity"
+    ],
+    "twitter_screen_name": "Humanityprot",
+    "facebook_username": "",
+    "subreddit_url": "",
+    "repos_url": {
+      "github": [
+        "https://github.com/humanity-org/hp-basic-token/tree/master"
+      ]
+    }
+  },
+  "market_data": {
+    "current_price": {
+      "usd": 0.1695587667363071
+    },
+    "market_cap": {
+      "usd": 390893514.0538164
+    },
+    "total_volume": {
+      "usd": 41830429.00522615
+    },
+    "price_change_percentage_1h_in_currency": {
+      "usd": 0.58486167
+    },
+    "price_change_percentage_24h": 3.25571591,
+    "price_change_percentage_7d": 5.60128827,
+    "circulating_supply": 2305357143,
+    "total_supply": 10000000000,
+    "max_supply": 10000000000
+  },
+  "last_updated": "2026-01-04T19:38:00.000Z"
+}

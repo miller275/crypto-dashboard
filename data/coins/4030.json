@@ -1,0 +1,67 @@
+{
+  "id": 4030,
+  "symbol": "ALGO",
+  "name": "Algorand",
+  "image": {
+    "large": "assets/img/coins/4030.png",
+    "small": "assets/img/coins/4030.png",
+    "thumb": "assets/img/coins/4030.png"
+  },
+  "market_cap_rank": 60,
+  "asset_platform_id": "Algorand",
+  "description": {
+    "en": "Algorand (ALGO) is a cryptocurrency launched in 2019. Algorand has a current supply of 10,000,000,000 with 8,837,606,993.363454 in circulation. The last known price of Algorand is 0.13478459 USD and is up 5.90 over the last 24 hours. It is currently trading on 554 active market(s) with $48,704,593.96 traded over the last 24 hours. More information can be found at http://algorand.foundation."
+  },
+  "links": {
+    "homepage": [
+      "http://algorand.foundation",
+      "https://algorandtechnologies.com/"
+    ],
+    "blockchain_site": [
+      "https://allo.info/",
+      "https://explorer.perawallet.app/",
+      "https://lora.algokit.io/mainnet",
+      "https://explorer.bitquery.io/algorand"
+    ],
+    "official_forum_url": [
+      "https://forum.algorand.org/"
+    ],
+    "chat_url": [
+      "https://www.discord.gg/algorand",
+      "https://t.me/algorand",
+      "https://www.youtube.com/channel/UCYqAUajjZd0PuHyHslY_8Ww",
+      "https://www.youtube.com/@algodevs"
+    ],
+    "announcement_url": [
+      "https://algorand.foundation/algorand-foundation-marks-new-chapter-in-global-economics-with-inaugural-auction"
+    ],
+    "twitter_screen_name": "AlgoFoundation",
+    "facebook_username": "",
+    "subreddit_url": "https://reddit.com/r/AlgorandOfficial",
+    "repos_url": {
+      "github": [
+        "https://github.com/algorand"
+      ]
+    }
+  },
+  "market_data": {
+    "current_price": {
+      "usd": 0.13519304219085868
+    },
+    "market_cap": {
+      "usd": 1194783554.2437184
+    },
+    "total_volume": {
+      "usd": 48838074.46953502
+    },
+    "price_change_percentage_1h_in_currency": {
+      "usd": -0.71059888
+    },
+    "price_change_percentage_24h": 6.26185272,
+    "price_change_percentage_7d": 13.92389232,
+    "circulating_supply": 8837611277.043264,
+    "total_supply": 10000000000,
+    "max_supply": 10000000000
+  },
+  "last_updated": "2026-01-04T19:39:00.000Z"
+}

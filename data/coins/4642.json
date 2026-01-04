@@ -1,0 +1,65 @@
+{
+  "id": 4642,
+  "symbol": "HBAR",
+  "name": "Hedera",
+  "image": {
+    "large": "assets/img/coins/4642.png",
+    "small": "assets/img/coins/4642.png",
+    "thumb": "assets/img/coins/4642.png"
+  },
+  "market_cap_rank": 23,
+  "asset_platform_id": null,
+  "description": {
+    "en": "Hedera (HBAR) is a cryptocurrency launched in 2017. Hedera has a current supply of 50,000,000,000 with 42,793,137,592.68784832 in circulation. The last known price of Hedera is 0.12513505 USD and is up 4.39 over the last 24 hours. It is currently trading on 409 active market(s) with $187,915,750.49 traded over the last 24 hours. More information can be found at https://www.hedera.com/."
+  },
+  "links": {
+    "homepage": [
+      "https://www.hedera.com/"
+    ],
+    "blockchain_site": [
+      "https://app.dragonglass.me/hedera/home",
+      "https://app.metrika.co/hedera/dashboard/network-overview?tr=1d",
+      "https://ledger.hashlog.io/",
+      "https://hashscan.io/"
+    ],
+    "official_forum_url": [
+      "https://hedera.com/blog",
+      "https://medium.com/hashgraph"
+    ],
+    "chat_url": [
+      "https://t.me/hederahashgraph",
+      "https://hedera.com/discord"
+    ],
+    "announcement_url": [
+      "https://hedera.com/news"
+    ],
+    "twitter_screen_name": "hedera",
+    "facebook_username": "",
+    "subreddit_url": "https://reddit.com/r/hedera",
+    "repos_url": {
+      "github": [
+        "https://github.com/hashgraph"
+      ]
+    }
+  },
+  "market_data": {
+    "current_price": {
+      "usd": 0.12554624540574363
+    },
+    "market_cap": {
+      "usd": 5372517753.893342
+    },
+    "total_volume": {
+      "usd": 188555747.3579988
+    },
+    "price_change_percentage_1h_in_currency": {
+      "usd": -0.58932993
+    },
+    "price_change_percentage_24h": 4.76657943,
+    "price_change_percentage_7d": 9.95047873,
+    "circulating_supply": 42793137592.68785,
+    "total_supply": 50000000000,
+    "max_supply": 50000000000
+  },
+  "last_updated": "2026-01-04T19:39:00.000Z"
+}

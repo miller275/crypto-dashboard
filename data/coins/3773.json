@@ -1,0 +1,65 @@
+{
+  "id": 3773,
+  "symbol": "FET",
+  "name": "Artificial Superintelligence Alliance",
+  "image": {
+    "large": "assets/img/coins/3773.png",
+    "small": "assets/img/coins/3773.png",
+    "thumb": "assets/img/coins/3773.png"
+  },
+  "market_cap_rank": 84,
+  "asset_platform_id": "Ethereum",
+  "description": {
+    "en": "Artificial Superintelligence Alliance (FET) is a cryptocurrency launched in 2018. Artificial Superintelligence Alliance has a current supply of 2,714,384,546.672 with 2,312,127,209.39428135 in circulation. The last known price of Artificial Superintelligence Alliance is 0.2565911 USD and is up 10.03 over the last 24 hours. It is currently trading on 530 active market(s) with $142,754,987.59 traded over the last 24 hours. More information can be found at https://superintelligence.io/."
+  },
+  "links": {
+    "homepage": [
+      "https://superintelligence.io/",
+      "https://docs.superintelligence.io/artificial-superintelligence-alliance"
+    ],
+    "blockchain_site": [
+      "https://etherscan.io/token/0xaea46A60368A7bD060eec7DF8CBa43b7EF41Ad85",
+      "https://app.nansen.ai/token-god-mode?chain=ethereum&tab=transactions&tokenAddress=0xaea46A60368A7bD060eec7DF8CBa43b7EF41Ad85",
+      "https://www.mintscan.io/fetchai",
+      "https://explore-fetchhub.fetch.ai/",
+      "https://bscscan.com/token/0x031b41e504677879370e9dbcf937283a8691fa7f"
+    ],
+    "official_forum_url": [
+      "https://x.com/ASI_Alliance"
+    ],
+    "chat_url": [
+      "https://t.me/ASI_Alliance"
+    ],
+    "announcement_url": [
+      "https://superintelligence.io/"
+    ],
+    "twitter_screen_name": "ASI_Alliance",
+    "facebook_username": "",
+    "subreddit_url": "",
+    "repos_url": {
+      "github": [
+        "https://github.com/fetchai"
+      ]
+    }
+  },
+  "market_data": {
+    "current_price": {
+      "usd": 0.2577721904030879
+    },
+    "market_cap": {
+      "usd": 596002095.256143
+    },
+    "total_volume": {
+      "usd": 143331845.512024
+    },
+    "price_change_percentage_1h_in_currency": {
+      "usd": -0.97836608
+    },
+    "price_change_percentage_24h": 10.40657262,
+    "price_change_percentage_7d": 20.59569841,
+    "circulating_supply": 2312127209.3942814,
+    "total_supply": 2714384546.672,
+    "max_supply": 2719493897
+  },
+  "last_updated": "2026-01-04T19:38:00.000Z"
+}

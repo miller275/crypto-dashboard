@@ -1,0 +1,63 @@
+{
+  "id": 8000,
+  "symbol": "LDO",
+  "name": "Lido DAO",
+  "image": {
+    "large": "assets/img/coins/8000.png",
+    "small": "assets/img/coins/8000.png",
+    "thumb": "assets/img/coins/8000.png"
+  },
+  "market_cap_rank": 90,
+  "asset_platform_id": "Ethereum",
+  "description": {
+    "en": "Lido DAO (LDO) is a cryptocurrency and operates on the Ethereum platform. Lido DAO has a current supply of 1,000,000,000 with 846,566,802.59278898 in circulation. The last known price of Lido DAO is 0.63157234 USD and is up 3.10 over the last 24 hours. It is currently trading on 600 active market(s) with $43,228,212.61 traded over the last 24 hours. More information can be found at https://lido.fi/."
+  },
+  "links": {
+    "homepage": [
+      "https://lido.fi/"
+    ],
+    "blockchain_site": [
+      "https://etherscan.io/token/0x5a98fcbea516cf06857215779fd812ca3bef1b32",
+      "https://app.nansen.ai/token-god-mode?chain=ethereum&tab=transactions&tokenAddress=0x5a98fcbea516cf06857215779fd812ca3bef1b32",
+      "https://solscan.io/token/HZRCwxP2Vq9PCpPXooayhJ2bxTpo5xfpQrwB1svh332p",
+      "https://www.oklink.com/eth/token/0x5A98FcBEA516Cf06857215779Fd812CA3beF1B32",
+      "https://explorer.solana.com/address/HZRCwxP2Vq9PCpPXooayhJ2bxTpo5xfpQrwB1svh332p"
+    ],
+    "official_forum_url": [
+      "https://blog.lido.fi/"
+    ],
+    "chat_url": [
+      "https://t.me/lidofinance",
+      "https://discord.gg/vgdPfhZ"
+    ],
+    "announcement_url": [],
+    "twitter_screen_name": "lidofinance",
+    "facebook_username": "",
+    "subreddit_url": "https://reddit.com/r/lidofinance",
+    "repos_url": {
+      "github": [
+        "https://github.com/lidofinance"
+      ]
+    }
+  },
+  "market_data": {
+    "current_price": {
+      "usd": 0.6329207100337559
+    },
+    "market_cap": {
+      "usd": 535809661.7880345
+    },
+    "total_volume": {
+      "usd": 43255840.16143121
+    },
+    "price_change_percentage_1h_in_currency": {
+      "usd": -0.57259651
+    },
+    "price_change_percentage_24h": 3.32540543,
+    "price_change_percentage_7d": 9.24654498,
+    "circulating_supply": 846566802.5927889,
+    "total_supply": 1000000000,
+    "max_supply": null
+  },
+  "last_updated": "2026-01-04T19:39:00.000Z"
+}

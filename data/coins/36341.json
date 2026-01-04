@@ -1,0 +1,60 @@
+{
+  "id": 36341,
+  "symbol": "ASTER",
+  "name": "Aster",
+  "image": {
+    "large": "assets/img/coins/36341.png",
+    "small": "assets/img/coins/36341.png",
+    "thumb": "assets/img/coins/36341.png"
+  },
+  "market_cap_rank": 42,
+  "asset_platform_id": "BNB",
+  "description": {
+    "en": "Aster (ASTER) is a cryptocurrency launched in 2025and operates on the BNB Smart Chain (BEP20) platform. Aster has a current supply of 7,922,139,508.10849398 with 2,495,479,180.10849398 in circulation. The last known price of Aster is 0.77522768 USD and is up 3.86 over the last 24 hours. It is currently trading on 395 active market(s) with $187,172,788.78 traded over the last 24 hours. More information can be found at https://www.asterdex.com/."
+  },
+  "links": {
+    "homepage": [
+      "https://www.asterdex.com/"
+    ],
+    "blockchain_site": [
+      "https://bscscan.com/token/0x000Ae314E2A2172a039B26378814C252734f556A",
+      "https://app.nansen.ai/token-god-mode?chain=bnb&tab=transactions&tokenAddress=0x000Ae314E2A2172a039B26378814C252734f556A"
+    ],
+    "official_forum_url": [
+      "https://medium.com/asterdex"
+    ],
+    "chat_url": [
+      "https://t.me/AsterDEX",
+      "http://discord.gg/invite/HzrgVv7n64"
+    ],
+    "announcement_url": [
+      "https://x.com/Aster_DEX/status/1964931762930520489"
+    ],
+    "twitter_screen_name": "Aster_DEX",
+    "facebook_username": "",
+    "subreddit_url": "",
+    "repos_url": {
+      "github": []
+    }
+  },
+  "market_data": {
+    "current_price": {
+      "usd": 0.7765584993974837
+    },
+    "market_cap": {
+      "usd": 1937885567.3827147
+    },
+    "total_volume": {
+      "usd": 187416531.03694758
+    },
+    "price_change_percentage_1h_in_currency": {
+      "usd": -0.23496674
+    },
+    "price_change_percentage_24h": 4.08088611,
+    "price_change_percentage_7d": 9.23203536,
+    "circulating_supply": 2495479180.108494,
+    "total_supply": 7922139508.108494,
+    "max_supply": 8000000000
+  },
+  "last_updated": "2026-01-04T19:38:00.000Z"
+}

@@ -1,0 +1,59 @@
+{
+  "id": 8526,
+  "symbol": "RAY",
+  "name": "Raydium",
+  "image": {
+    "large": "assets/img/coins/8526.png",
+    "small": "assets/img/coins/8526.png",
+    "thumb": "assets/img/coins/8526.png"
+  },
+  "market_cap_rank": 134,
+  "asset_platform_id": "Solana",
+  "description": {
+    "en": "Raydium (RAY) is a cryptocurrency and operates on the Solana platform. Raydium has a current supply of 554,997,846.184751 with 268,581,313.918168 in circulation. The last known price of Raydium is 1.11263608 USD and is up 2.48 over the last 24 hours. It is currently trading on 525 active market(s) with $28,878,069.16 traded over the last 24 hours. More information can be found at https://raydium.io/#/."
+  },
+  "links": {
+    "homepage": [
+      "https://raydium.io/#/"
+    ],
+    "blockchain_site": [
+      "https://solscan.io/token/4k3Dyjzvzp8eMZWUXbBCjEvwSkkk59S5iCNLY3QrkX6R",
+      "https://app.nansen.ai/token-god-mode?chain=solana&tab=transactions&tokenAddress=4k3Dyjzvzp8eMZWUXbBCjEvwSkkk59S5iCNLY3QrkX6R",
+      "https://explorer.solana.com/address/4k3Dyjzvzp8eMZWUXbBCjEvwSkkk59S5iCNLY3QrkX6R",
+      "https://bscscan.com/token/0x13b6a55662f6591f8b8408af1c73b017e32eedb8"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://t.me/raydiumprotocol",
+      "https://t.me/raydium",
+      "https://discord.com/invite/raydium"
+    ],
+    "announcement_url": [],
+    "twitter_screen_name": "raydiumprotocol",
+    "facebook_username": "",
+    "subreddit_url": "",
+    "repos_url": {
+      "github": []
+    }
+  },
+  "market_data": {
+    "current_price": {
+      "usd": 1.1158742248010678
+    },
+    "market_cap": {
+      "usd": 299702965.46448797
+    },
+    "total_volume": {
+      "usd": 28919650.77630692
+    },
+    "price_change_percentage_1h_in_currency": {
+      "usd": -0.9354146
+    },
+    "price_change_percentage_24h": 2.89054486,
+    "price_change_percentage_7d": 21.83410208,
+    "circulating_supply": 268581313.918168,
+    "total_supply": 554997846.184751,
+    "max_supply": 555000000
+  },
+  "last_updated": "2026-01-04T19:38:00.000Z"
+}

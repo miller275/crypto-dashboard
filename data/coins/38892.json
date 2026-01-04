@@ -1,0 +1,61 @@
+{
+  "id": 38892,
+  "symbol": "STABLE",
+  "name": "Stable",
+  "image": {
+    "large": "assets/img/coins/38892.png",
+    "small": "assets/img/coins/38892.png",
+    "thumb": "assets/img/coins/38892.png"
+  },
+  "market_cap_rank": 136,
+  "asset_platform_id": "BNB",
+  "description": {
+    "en": "Stable (STABLE) is a cryptocurrency and operates on the BNB Smart Chain (BEP20) platform. Stable has a current supply of 100,000,000,000 with 17,600,000,000 in circulation. The last known price of Stable is 0.01649214 USD and is down -0.96 over the last 24 hours. It is currently trading on 122 active market(s) with $288,133,946.65 traded over the last 24 hours. More information can be found at https://www.stable.xyz/."
+  },
+  "links": {
+    "homepage": [
+      "https://www.stable.xyz/"
+    ],
+    "blockchain_site": [
+      "https://stablescan.xyz/token/0x0000000000000000000000000000000000001003",
+      "https://app.nansen.ai/token-god-mode?chain=bnb&tab=transactions&tokenAddress=0x011EBe7d75E2C9D1E0bD0be0bEf5C36f0A90075F",
+      "https://bscscan.com/token/0x011EBe7d75E2C9D1E0bD0be0bEf5C36f0A90075F"
+    ],
+    "official_forum_url": [
+      "https://blog.stable.xyz/"
+    ],
+    "chat_url": [
+      "https://discord.gg/stablexyz",
+      "https://t.me/stablechainofficial"
+    ],
+    "announcement_url": [],
+    "twitter_screen_name": "stable",
+    "facebook_username": "",
+    "subreddit_url": "",
+    "repos_url": {
+      "github": [
+        "https://github.com/stablelabs/stable"
+      ]
+    }
+  },
+  "market_data": {
+    "current_price": {
+      "usd": 0.01662282385586672
+    },
+    "market_cap": {
+      "usd": 292561699.86325425
+    },
+    "total_volume": {
+      "usd": 288341401.58471525
+    },
+    "price_change_percentage_1h_in_currency": {
+      "usd": 0.02955078
+    },
+    "price_change_percentage_24h": 0.04329909,
+    "price_change_percentage_7d": 34.16924758,
+    "circulating_supply": 17600000000,
+    "total_supply": 100000000000,
+    "max_supply": 100000000000
+  },
+  "last_updated": "2026-01-04T19:39:00.000Z"
+}

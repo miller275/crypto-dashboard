@@ -1,0 +1,65 @@
+{
+  "id": 16086,
+  "symbol": "BTT",
+  "name": "BitTorrent [New]",
+  "image": {
+    "large": "assets/img/coins/16086.png",
+    "small": "assets/img/coins/16086.png",
+    "thumb": "assets/img/coins/16086.png"
+  },
+  "market_cap_rank": 107,
+  "asset_platform_id": "TRON",
+  "description": {
+    "en": "BitTorrent [New] (BTT) is a cryptocurrency and operates on the Tron20 platform. BitTorrent [New] has a current supply of 990,000,000,000,000 with 986,061,142,857,000 in circulation. The last known price of BitTorrent [New] is 0.00000042 USD and is up 3.02 over the last 24 hours. It is currently trading on 206 active market(s) with $14,296,055.26 traded over the last 24 hours. More information can be found at https://bt.io/."
+  },
+  "links": {
+    "homepage": [
+      "https://bt.io/"
+    ],
+    "blockchain_site": [
+      "https://tronscan.org/#/token20/TAFjULxiVgT4qWk6UZwjqwZXTSaGaqnVp4",
+      "https://app.nansen.ai/token-god-mode?chain=tron&tab=transactions&tokenAddress=TAFjULxiVgT4qWk6UZwjqwZXTSaGaqnVp4",
+      "https://www.oklink.com/eth/token/0xc669928185dbce49d2230cc9b0979be6dc797957",
+      "https://bscscan.com/token/0x352Cb5E19b12FC216548a2677bD0fce83BaE434B",
+      "https://bttcscan.com/"
+    ],
+    "official_forum_url": [
+      "http://blog.bittorrent.com/",
+      "https://forum.bittorrent.com/"
+    ],
+    "chat_url": [
+      "https://t.me/BTTBitTorrent"
+    ],
+    "announcement_url": [
+      "https://medium.com/bittorrent/bittorrent-foundation-unveils-more-details-regarding-bittorrent-btt-airdrops-for-tron-trx-8bbd194f8a87"
+    ],
+    "twitter_screen_name": "BitTorrent",
+    "facebook_username": "",
+    "subreddit_url": "https://reddit.com/r/BittorrentToken",
+    "repos_url": {
+      "github": [
+        "https://github.com/bittorrent"
+      ]
+    }
+  },
+  "market_data": {
+    "current_price": {
+      "usd": 4.1717360506316936e-7
+    },
+    "market_cap": {
+      "usd": 411358681.7783635
+    },
+    "total_volume": {
+      "usd": 14438336.70568637
+    },
+    "price_change_percentage_1h_in_currency": {
+      "usd": -0.34661075
+    },
+    "price_change_percentage_24h": 2.92551959,
+    "price_change_percentage_7d": 6.13119025,
+    "circulating_supply": 986061142857000,
+    "total_supply": 990000000000000,
+    "max_supply": null
+  },
+  "last_updated": "2026-01-04T19:38:00.000Z"
+}

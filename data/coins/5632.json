@@ -1,0 +1,58 @@
+{
+  "id": 5632,
+  "symbol": "AR",
+  "name": "Arweave",
+  "image": {
+    "large": "assets/img/coins/5632.png",
+    "small": "assets/img/coins/5632.png",
+    "thumb": "assets/img/coins/5632.png"
+  },
+  "market_cap_rank": 146,
+  "asset_platform_id": null,
+  "description": {
+    "en": "Arweave (AR) is a cryptocurrency launched in 2018. Arweave has a current supply of 65,652,466. The last known price of Arweave is 3.94732854 USD and is up 1.95 over the last 24 hours. It is currently trading on 229 active market(s) with $25,173,208.90 traded over the last 24 hours. More information can be found at https://www.arweave.org."
+  },
+  "links": {
+    "homepage": [
+      "https://www.arweave.org"
+    ],
+    "blockchain_site": [
+      "https://viewblock.io/arweave"
+    ],
+    "official_forum_url": [
+      "https://medium.com/@arweave"
+    ],
+    "chat_url": [
+      "https://discord.gg/BXk8tq7"
+    ],
+    "announcement_url": [],
+    "twitter_screen_name": "ArweaveEco",
+    "facebook_username": "",
+    "subreddit_url": "https://reddit.com/r/Arweave",
+    "repos_url": {
+      "github": [
+        "https://github.com/ArweaveTeam/arweave"
+      ]
+    }
+  },
+  "market_data": {
+    "current_price": {
+      "usd": 3.9632317551592564
+    },
+    "market_cap": {
+      "usd": 260195938.05571342
+    },
+    "total_volume": {
+      "usd": 25231808.8815235
+    },
+    "price_change_percentage_1h_in_currency": {
+      "usd": -0.6072308
+    },
+    "price_change_percentage_24h": 2.59497931,
+    "price_change_percentage_7d": 7.96617928,
+    "circulating_supply": 65652466,
+    "total_supply": 65652466,
+    "max_supply": 66000000
+  },
+  "last_updated": "2026-01-04T19:38:00.000Z"
+}

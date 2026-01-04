@@ -1,0 +1,65 @@
+{
+  "id": 2,
+  "symbol": "LTC",
+  "name": "Litecoin",
+  "image": {
+    "large": "assets/img/coins/2.png",
+    "small": "assets/img/coins/2.png",
+    "thumb": "assets/img/coins/2.png"
+  },
+  "market_cap_rank": 20,
+  "asset_platform_id": "Huobi Token",
+  "description": {
+    "en": "Litecoin (LTC) is a cryptocurrency . Users are able to generate LTC through the process of mining. Litecoin has a current supply of 84,000,000 with 76,701,158.23347135 in circulation. The last known price of Litecoin is 81.92973206 USD and is down -0.44 over the last 24 hours. It is currently trading on 1485 active market(s) with $317,860,360.44 traded over the last 24 hours. More information can be found at https://litecoin.org/."
+  },
+  "links": {
+    "homepage": [
+      "https://litecoin.org/"
+    ],
+    "blockchain_site": [
+      "https://blockchair.com/litecoin",
+      "https://app.nansen.ai/token-god-mode?chain=bnb&tab=transactions&tokenAddress=0x4338665cbb7b2485a8855a139b75d5e34ab0db94",
+      "https://chainz.cryptoid.info/ltc/",
+      "http://explorer.litecoin.net/chain/Litecoin",
+      "https://www.okx.com/web3/explorer/ltc"
+    ],
+    "official_forum_url": [
+      "https://litecointalk.io/",
+      "https://litecoin-foundation.org/"
+    ],
+    "chat_url": [
+      "https://telegram.me/litecoin"
+    ],
+    "announcement_url": [
+      "https://bitcointalk.org/index.php?topic=47417.0"
+    ],
+    "twitter_screen_name": "litecoin",
+    "facebook_username": "",
+    "subreddit_url": "https://reddit.com/r/litecoin",
+    "repos_url": {
+      "github": [
+        "https://github.com/litecoin-project/litecoin"
+      ]
+    }
+  },
+  "market_data": {
+    "current_price": {
+      "usd": 82.12197710568657
+    },
+    "market_cap": {
+      "usd": 6298850760.428777
+    },
+    "total_volume": {
+      "usd": 319179788.5686796
+    },
+    "price_change_percentage_1h_in_currency": {
+      "usd": -0.22532516
+    },
+    "price_change_percentage_24h": -0.17802643,
+    "price_change_percentage_7d": 4.96616839,
+    "circulating_supply": 76701158.23347135,
+    "total_supply": 84000000,
+    "max_supply": 84000000
+  },
+  "last_updated": "2026-01-04T19:39:00.000Z"
+}

@@ -1,0 +1,60 @@
+{
+  "id": 4269,
+  "symbol": "GT",
+  "name": "GateToken",
+  "image": {
+    "large": "assets/img/coins/4269.png",
+    "small": "assets/img/coins/4269.png",
+    "thumb": "assets/img/coins/4269.png"
+  },
+  "market_cap_rank": 71,
+  "asset_platform_id": "Ethereum",
+  "description": {
+    "en": "GateToken (GT) is a cryptocurrency launched in 2019and operates on the Ethereum platform. GateToken has a current supply of 117,344,473.53114802 with 80,163,385.20817135 in circulation. The last known price of GateToken is 10.61112696 USD and is up 1.53 over the last 24 hours. It is currently trading on 41 active market(s) with $3,680,181.72 traded over the last 24 hours. More information can be found at https://gatechain.io/."
+  },
+  "links": {
+    "homepage": [
+      "https://gatechain.io/",
+      "https://gatechain.io/gatelayer"
+    ],
+    "blockchain_site": [
+      "https://www.gatescan.org/gatelayer",
+      "https://app.nansen.ai/token-god-mode?chain=ethereum&tab=transactions&tokenAddress=0xe66747a101bff2dba3697199dcce5b743b454759",
+      "https://solscan.io/token/ABAq2R9gSpDDGguQxBk4u13s4ZYW6zbwKVBx15mCMG8",
+      "https://etherscan.io/token/0xe66747a101bff2dba3697199dcce5b743b454759"
+    ],
+    "official_forum_url": [
+      "https://medium.com/@gatechain"
+    ],
+    "chat_url": [],
+    "announcement_url": [],
+    "twitter_screen_name": "GateLayer",
+    "facebook_username": "",
+    "subreddit_url": "",
+    "repos_url": {
+      "github": [
+        "https://github.com/gatechain"
+      ]
+    }
+  },
+  "market_data": {
+    "current_price": {
+      "usd": 10.603123969372641
+    },
+    "market_cap": {
+      "usd": 849982311.1668139
+    },
+    "total_volume": {
+      "usd": 3679310.81465886
+    },
+    "price_change_percentage_1h_in_currency": {
+      "usd": -0.12766079
+    },
+    "price_change_percentage_24h": 1.40334799,
+    "price_change_percentage_7d": 2.53474244,
+    "circulating_supply": 80163385.20817135,
+    "total_supply": 117344473.53114802,
+    "max_supply": 300000000
+  },
+  "last_updated": "2026-01-04T19:39:00.000Z"
+}

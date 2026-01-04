@@ -1,0 +1,61 @@
+{
+  "id": 2280,
+  "symbol": "FIL",
+  "name": "Filecoin",
+  "image": {
+    "large": "assets/img/coins/2280.png",
+    "small": "assets/img/coins/2280.png",
+    "thumb": "assets/img/coins/2280.png"
+  },
+  "market_cap_rank": 62,
+  "asset_platform_id": "BNB",
+  "description": {
+    "en": "Filecoin (FIL) is a cryptocurrency launched in 2020. Users are able to generate FIL through the process of mining. Filecoin has a current supply of 1,958,599,350 with 733,255,913 in circulation. The last known price of Filecoin is 1.48919944 USD and is up 0.99 over the last 24 hours. It is currently trading on 674 active market(s) with $150,095,272.15 traded over the last 24 hours. More information can be found at https://filecoin.io/."
+  },
+  "links": {
+    "homepage": [
+      "https://filecoin.io/"
+    ],
+    "blockchain_site": [
+      "https://filfox.io/en?utm_source=cmc",
+      "https://app.nansen.ai/token-god-mode?chain=bnb&tab=transactions&tokenAddress=0x0d8ce2a99bb6e3b7db580ed848240e4a0f9ae153",
+      "https://bscscan.com/token/0x0d8ce2a99bb6e3b7db580ed848240e4a0f9ae153",
+      "https://www.okx.com/web3/explorer/bsc/token/0x0d8ce2a99bb6e3b7db580ed848240e4a0f9ae153"
+    ],
+    "official_forum_url": [
+      "https://filecoin.io/blog"
+    ],
+    "chat_url": [],
+    "announcement_url": [
+      "https://bitcointalk.org/index.php?topic=2080871.0"
+    ],
+    "twitter_screen_name": "Filecoin",
+    "facebook_username": "",
+    "subreddit_url": "",
+    "repos_url": {
+      "github": [
+        "https://github.com/filecoin-project/"
+      ]
+    }
+  },
+  "market_data": {
+    "current_price": {
+      "usd": 1.4914045154701217
+    },
+    "market_cap": {
+      "usd": 1093581179.6433666
+    },
+    "total_volume": {
+      "usd": 150390240.86226124
+    },
+    "price_change_percentage_1h_in_currency": {
+      "usd": -0.29530787
+    },
+    "price_change_percentage_24h": 1.2299699,
+    "price_change_percentage_7d": 13.32255679,
+    "circulating_supply": 733255913,
+    "total_supply": 1958599350,
+    "max_supply": null
+  },
+  "last_updated": "2026-01-04T19:38:00.000Z"
+}

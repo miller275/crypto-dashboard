@@ -3,46 +3,64 @@
   "symbol": "ETH",
   "name": "Ethereum",
   "image": {
-    "large": "assets/img/coin.svg",
-    "small": "assets/img/coin.svg",
-    "thumb": "assets/img/coin.svg"
+    "large": "assets/img/coins/1027.png",
+    "small": "assets/img/coins/1027.png",
+    "thumb": "assets/img/coins/1027.png"
   },
   "market_cap_rank": 2,
   "asset_platform_id": null,
   "description": {
-    "en": "Sample snapshot for Ethereum. Run GitHub Actions to fetch real CoinMarketCap data."
+    "en": "Ethereum (ETH) is a cryptocurrency . Ethereum has a current supply of 120,694,861.17537918. The last known price of Ethereum is 3,129.37312778 USD and is up 0.59 over the last 24 hours. It is currently trading on 11350 active market(s) with $13,348,774,249.20 traded over the last 24 hours. More information can be found at https://www.ethereum.org/."
   },
   "links": {
-    "homepage": [],
-    "blockchain_site": [],
-    "official_forum_url": [],
-    "chat_url": [],
-    "announcement_url": [],
-    "twitter_screen_name": "",
+    "homepage": [
+      "https://www.ethereum.org/",
+      "https://en.wikipedia.org/wiki/Ethereum"
+    ],
+    "blockchain_site": [
+      "https://etherscan.io/",
+      "https://app.nansen.ai/token-god-mode?chain=ethereum&tab=transactions&tokenAddress=0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+      "https://solscan.io/token/2FPyTwcZLUg1MDrwsyoP4D6s1tM7hAkHYRjkNb5w6Pxk",
+      "https://bscscan.com/token/0x2170ed0880ac9a755fd29b2688956bd959f933f8",
+      "https://www.okx.com/web3/explorer/eth"
+    ],
+    "official_forum_url": [
+      "https://forum.ethereum.org/",
+      "https://ethresear.ch/"
+    ],
+    "chat_url": [
+      "https://gitter.im/orgs/ethereum/rooms"
+    ],
+    "announcement_url": [
+      "https://bitcointalk.org/index.php?topic=428589.0"
+    ],
+    "twitter_screen_name": "ethereum",
     "facebook_username": "",
-    "subreddit_url": "",
+    "subreddit_url": "https://reddit.com/r/ethereum",
     "repos_url": {
-      "github": []
+      "github": [
+        "https://github.com/ethereum/go-ethereum"
+      ]
     }
   },
   "market_data": {
     "current_price": {
-      "usd": 2284.58
+      "usd": 3130.637692010708
     },
     "market_cap": {
-      "usd": null
+      "usd": 377851881627.6419
     },
     "total_volume": {
-      "usd": null
+      "usd": 13418315037.777111
     },
     "price_change_percentage_1h_in_currency": {
-      "usd": null
+      "usd": 0.1231506
     },
-    "price_change_percentage_24h": null,
-    "price_change_percentage_7d": null,
-    "circulating_supply": null,
-    "total_supply": null,
+    "price_change_percentage_24h": 0.63686185,
+    "price_change_percentage_7d": 6.71070088,
+    "circulating_supply": 120694861.17537919,
+    "total_supply": 120694861.17537919,
     "max_supply": null
   },
-  "last_updated": "2026-01-04T18:40:57.963081Z"
+  "last_updated": "2026-01-04T19:38:00.000Z"
 }

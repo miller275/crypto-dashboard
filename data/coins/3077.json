@@ -1,0 +1,65 @@
+{
+  "id": 3077,
+  "symbol": "VET",
+  "name": "VeChain",
+  "image": {
+    "large": "assets/img/coins/3077.png",
+    "small": "assets/img/coins/3077.png",
+    "thumb": "assets/img/coins/3077.png"
+  },
+  "market_cap_rank": 65,
+  "asset_platform_id": null,
+  "description": {
+    "en": "VeChain (VET) is a cryptocurrency launched in 2018. VeChain has a current supply of 85,985,041,177. The last known price of VeChain is 0.0120045 USD and is up 2.80 over the last 24 hours. It is currently trading on 380 active market(s) with $22,367,946.07 traded over the last 24 hours. More information can be found at https://www.vechain.org/."
+  },
+  "links": {
+    "homepage": [
+      "https://www.vechain.org/"
+    ],
+    "blockchain_site": [
+      "https://vechainstats.com",
+      "https://explore.vechain.org/",
+      "https://www.veblocks.net/",
+      "https://insight.vecha.in"
+    ],
+    "official_forum_url": [
+      "https://vechainofficial.medium.com/"
+    ],
+    "chat_url": [
+      "https://t.me/vechainandfriends",
+      "https://discord.gg/vechain",
+      "https://vechain.discourse.group"
+    ],
+    "announcement_url": [
+      "https://x.com/vechainofficial"
+    ],
+    "twitter_screen_name": "vechainofficial",
+    "facebook_username": "https://www.facebook.com/vechainOfficial",
+    "subreddit_url": "https://reddit.com/r/vechain",
+    "repos_url": {
+      "github": [
+        "https://github.com/vechain"
+      ]
+    }
+  },
+  "market_data": {
+    "current_price": {
+      "usd": 0.012049825550135423
+    },
+    "market_cap": {
+      "usd": 1036104746.104061
+    },
+    "total_volume": {
+      "usd": 22423284.99588668
+    },
+    "price_change_percentage_1h_in_currency": {
+      "usd": -0.43068786
+    },
+    "price_change_percentage_24h": 3.22528132,
+    "price_change_percentage_7d": 8.77494671,
+    "circulating_supply": 85985041177,
+    "total_supply": 85985041177,
+    "max_supply": 86712634466
+  },
+  "last_updated": "2026-01-04T19:39:00.000Z"
+}

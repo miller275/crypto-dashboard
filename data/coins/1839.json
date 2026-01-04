@@ -1,0 +1,61 @@
+{
+  "id": 1839,
+  "symbol": "BNB",
+  "name": "BNB",
+  "image": {
+    "large": "assets/img/coins/1839.png",
+    "small": "assets/img/coins/1839.png",
+    "thumb": "assets/img/coins/1839.png"
+  },
+  "market_cap_rank": 5,
+  "asset_platform_id": null,
+  "description": {
+    "en": "BNB (BNB) is a cryptocurrency . BNB has a current supply of 137,734,409.81. The last known price of BNB is 891.82563876 USD and is up 1.77 over the last 24 hours. It is currently trading on 3045 active market(s) with $1,833,339,216.63 traded over the last 24 hours. More information can be found at https://bnbchain.org/en."
+  },
+  "links": {
+    "homepage": [
+      "https://bnbchain.org/en"
+    ],
+    "blockchain_site": [
+      "https://explorer.bnbchain.org/",
+      "https://app.nansen.ai/token-god-mode?chain=ethereum&tab=transactions&tokenAddress=0xb8c77482e45f1f44de1745f52c74426c631bdd52",
+      "https://bsctrace.com/",
+      "https://bscscan.com/token/0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "https://www.okx.com/web3/explorer/bsc"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://t.me/BNBchaincommunity",
+      "https://t.me/bnbchain"
+    ],
+    "announcement_url": [],
+    "twitter_screen_name": "bnbchain",
+    "facebook_username": "",
+    "subreddit_url": "https://reddit.com/r/bnbchainofficial",
+    "repos_url": {
+      "github": [
+        "https://github.com/bnb-chain"
+      ]
+    }
+  },
+  "market_data": {
+    "current_price": {
+      "usd": 891.5371231494629
+    },
+    "market_cap": {
+      "usd": 122795339480.69656
+    },
+    "total_volume": {
+      "usd": 1838079917.4859285
+    },
+    "price_change_percentage_1h_in_currency": {
+      "usd": -0.60687829
+    },
+    "price_change_percentage_24h": 1.73692612,
+    "price_change_percentage_7d": 3.65600886,
+    "circulating_supply": 137734409.81,
+    "total_supply": 137734409.81,
+    "max_supply": 137734409.81
+  },
+  "last_updated": "2026-01-04T19:38:00.000Z"
+}

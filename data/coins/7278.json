@@ -1,0 +1,66 @@
+{
+  "id": 7278,
+  "symbol": "AAVE",
+  "name": "Aave",
+  "image": {
+    "large": "assets/img/coins/7278.png",
+    "small": "assets/img/coins/7278.png",
+    "thumb": "assets/img/coins/7278.png"
+  },
+  "market_cap_rank": 36,
+  "asset_platform_id": "Ethereum",
+  "description": {
+    "en": "Aave (AAVE) is a cryptocurrency and operates on the Ethereum platform. Aave has a current supply of 16,000,000 with 15,312,038.86236434 in circulation. The last known price of Aave is 162.46377275 USD and is up 1.29 over the last 24 hours. It is currently trading on 1221 active market(s) with $185,580,034.48 traded over the last 24 hours. More information can be found at https://aave.com/."
+  },
+  "links": {
+    "homepage": [
+      "https://aave.com/",
+      "https://ethlend.io"
+    ],
+    "blockchain_site": [
+      "https://etherscan.io/token/0x7fc66500c84a76ad7e9c93437bfc5ac33e2ddae9",
+      "https://app.nansen.ai/token-god-mode?chain=ethereum&tab=transactions&tokenAddress=0x7Fc66500c84A76Ad7e9c93437bFc5Ac33E2DDaE9",
+      "https://solscan.io/token/3vAs4D1WE6Na4tCgt4BApgFfENbm8WY7q4cSPD1yM4Cg",
+      "https://explorer-mainnet.maticvigil.com/tokens/0xd6df932a45c0f255f85145f286ea0b292b21c90b/token-transfers",
+      "https://scan.hecochain.com/address/0x202b4936fe1a82a4965220860ae46d7d3939bb25"
+    ],
+    "official_forum_url": [
+      "https://medium.com/aave"
+    ],
+    "chat_url": [
+      "https://aave.com/discord",
+      "https://t.me/Aavesome"
+    ],
+    "announcement_url": [
+      "https://bitcointalk.org/index.php?topic=2090735.0"
+    ],
+    "twitter_screen_name": "aave",
+    "facebook_username": "",
+    "subreddit_url": "https://reddit.com/r/Aave_Official",
+    "repos_url": {
+      "github": [
+        "https://github.com/aave"
+      ]
+    }
+  },
+  "market_data": {
+    "current_price": {
+      "usd": 162.80983787577975
+    },
+    "market_cap": {
+      "usd": 2492950564.7291775
+    },
+    "total_volume": {
+      "usd": 185854768.2610423
+    },
+    "price_change_percentage_1h_in_currency": {
+      "usd": -0.57203369
+    },
+    "price_change_percentage_24h": 1.46325098,
+    "price_change_percentage_7d": 6.1230463,
+    "circulating_supply": 15312038.86236434,
+    "total_supply": 16000000,
+    "max_supply": null
+  },
+  "last_updated": "2026-01-04T19:38:00.000Z"
+}

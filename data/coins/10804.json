@@ -1,0 +1,62 @@
+{
+  "id": 10804,
+  "symbol": "FLOKI",
+  "name": "FLOKI",
+  "image": {
+    "large": "assets/img/coins/10804.png",
+    "small": "assets/img/coins/10804.png",
+    "thumb": "assets/img/coins/10804.png"
+  },
+  "market_cap_rank": 88,
+  "asset_platform_id": "Ethereum",
+  "description": {
+    "en": "FLOKI (FLOKI) is a cryptocurrency launched in 2021and operates on the Ethereum platform. FLOKI has a current supply of 9,653,333,932,062.17111328 with 9,539,871,922,520.95308565 in circulation. The last known price of FLOKI is 0.00005673 USD and is up 14.43 over the last 24 hours. It is currently trading on 686 active market(s) with $195,611,692.58 traded over the last 24 hours. More information can be found at https://floki.com/."
+  },
+  "links": {
+    "homepage": [
+      "https://floki.com/"
+    ],
+    "blockchain_site": [
+      "https://etherscan.io/token/0xcf0c122c6b73ff809c693db761e7baebe62b6a2e",
+      "https://app.nansen.ai/token-god-mode?chain=ethereum&tab=transactions&tokenAddress=0xcf0c122c6b73ff809c693db761e7baebe62b6a2e",
+      "https://bscscan.com/token/0xfb5b838b6cfeedc2873ab27866079ac55363d37e",
+      "https://www.oklink.com/eth/token/0xcf0c122c6b73ff809c693db761e7baebe62b6a2e"
+    ],
+    "official_forum_url": [
+      "https://realflokiinu.medium.com/"
+    ],
+    "chat_url": [
+      "https://t.me/FlokiInuToken",
+      "https://discord.gg/floki"
+    ],
+    "announcement_url": [],
+    "twitter_screen_name": "RealFlokiInu",
+    "facebook_username": "https://www.facebook.com/theflokiinu/",
+    "subreddit_url": "https://reddit.com/r/Floki",
+    "repos_url": {
+      "github": [
+        "https://github.com/floki-inu"
+      ]
+    }
+  },
+  "market_data": {
+    "current_price": {
+      "usd": 0.000057047985136278574
+    },
+    "market_cap": {
+      "usd": 544230471.6379766
+    },
+    "total_volume": {
+      "usd": 196126295.05328697
+    },
+    "price_change_percentage_1h_in_currency": {
+      "usd": -0.72627942
+    },
+    "price_change_percentage_24h": 15.24283563,
+    "price_change_percentage_7d": 41.63888488,
+    "circulating_supply": 9539871922520.953,
+    "total_supply": 9653333932062.172,
+    "max_supply": null
+  },
+  "last_updated": "2026-01-04T19:38:00.000Z"
+}

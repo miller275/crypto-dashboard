@@ -1,0 +1,63 @@
+{
+  "id": 3794,
+  "symbol": "ATOM",
+  "name": "Cosmos",
+  "image": {
+    "large": "assets/img/coins/3794.png",
+    "small": "assets/img/coins/3794.png",
+    "thumb": "assets/img/coins/3794.png"
+  },
+  "market_cap_rank": 61,
+  "asset_platform_id": "BNB",
+  "description": {
+    "en": "Cosmos (ATOM) is a cryptocurrency . Cosmos has a current supply of 486,136,450. The last known price of Cosmos is 2.30296472 USD and is up 3.49 over the last 24 hours. It is currently trading on 943 active market(s) with $66,431,853.69 traded over the last 24 hours. More information can be found at https://cosmos.network/."
+  },
+  "links": {
+    "homepage": [
+      "https://cosmos.network/"
+    ],
+    "blockchain_site": [
+      "https://www.mintscan.io/",
+      "https://app.nansen.ai/token-god-mode?chain=bnb&tab=transactions&tokenAddress=0x0eb3a705fc54725037cc9e008bdede697f62f335",
+      "https://atomscan.com",
+      "https://atom.tokenview.com/en",
+      "https://bscscan.com/token/0x0eb3a705fc54725037cc9e008bdede697f62f335"
+    ],
+    "official_forum_url": [
+      "https://blog.cosmos.network/",
+      "https://forum.cosmos.network/"
+    ],
+    "chat_url": [
+      "https://t.me/cosmosproject"
+    ],
+    "announcement_url": [],
+    "twitter_screen_name": "cosmos",
+    "facebook_username": "",
+    "subreddit_url": "https://reddit.com/r/cosmosnetwork",
+    "repos_url": {
+      "github": [
+        "https://github.com/cosmos"
+      ]
+    }
+  },
+  "market_data": {
+    "current_price": {
+      "usd": 2.302550388228985
+    },
+    "market_cap": {
+      "usd": 1119353671.6797607
+    },
+    "total_volume": {
+      "usd": 66599395.6609761
+    },
+    "price_change_percentage_1h_in_currency": {
+      "usd": -0.59114294
+    },
+    "price_change_percentage_24h": 3.43697116,
+    "price_change_percentage_7d": 11.5736704,
+    "circulating_supply": 486136450,
+    "total_supply": 486136450,
+    "max_supply": null
+  },
+  "last_updated": "2026-01-04T19:38:00.000Z"
+}

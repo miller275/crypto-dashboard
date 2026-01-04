@@ -1,0 +1,64 @@
+{
+  "id": 27075,
+  "symbol": "MNT",
+  "name": "Mantle",
+  "image": {
+    "large": "assets/img/coins/27075.png",
+    "small": "assets/img/coins/27075.png",
+    "thumb": "assets/img/coins/27075.png"
+  },
+  "market_cap_rank": 32,
+  "asset_platform_id": "Ethereum",
+  "description": {
+    "en": "Mantle (MNT) is a cryptocurrency launched in 2021and operates on the Ethereum platform. Mantle has a current supply of 6,219,316,794.89 with 3,252,944,055.636841 in circulation. The last known price of Mantle is 1.04972887 USD and is up 5.75 over the last 24 hours. It is currently trading on 214 active market(s) with $85,898,905.18 traded over the last 24 hours. More information can be found at https://group.mantle.xyz/."
+  },
+  "links": {
+    "homepage": [
+      "https://group.mantle.xyz/"
+    ],
+    "blockchain_site": [
+      "https://mantlescan.xyz/",
+      "https://app.nansen.ai/token-god-mode?chain=ethereum&tab=transactions&tokenAddress=0x3c3a81e81dc49a522a592e7622a7e711c06bf354",
+      "https://explorer.mantle.xyz/"
+    ],
+    "official_forum_url": [
+      "https://group.mantle.xyz/blog",
+      "https://forum.mantle.xyz/"
+    ],
+    "chat_url": [
+      "https://discord.com/invite/0xMantle",
+      "https://t.me/mantlenetwork"
+    ],
+    "announcement_url": [
+      "https://x.com/Mantle_Official/status/1915375616914055661"
+    ],
+    "twitter_screen_name": "Mantle_Official",
+    "facebook_username": "",
+    "subreddit_url": "",
+    "repos_url": {
+      "github": [
+        "https://github.com/mantlenetworkio"
+      ]
+    }
+  },
+  "market_data": {
+    "current_price": {
+      "usd": 1.0509878575734386
+    },
+    "market_cap": {
+      "usd": 3418804703.840016
+    },
+    "total_volume": {
+      "usd": 85917303.42136286
+    },
+    "price_change_percentage_1h_in_currency": {
+      "usd": -1.03680428
+    },
+    "price_change_percentage_24h": 5.8029841,
+    "price_change_percentage_7d": 1.90843243,
+    "circulating_supply": 3252944055.636841,
+    "total_supply": 6219316794.89,
+    "max_supply": 6219316795
+  },
+  "last_updated": "2026-01-04T19:38:00.000Z"
+}

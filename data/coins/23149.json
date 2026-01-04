@@ -1,0 +1,58 @@
+{
+  "id": 23149,
+  "symbol": "SEI",
+  "name": "Sei",
+  "image": {
+    "large": "assets/img/coins/23149.png",
+    "small": "assets/img/coins/23149.png",
+    "thumb": "assets/img/coins/23149.png"
+  },
+  "market_cap_rank": 73,
+  "asset_platform_id": "Sei",
+  "description": {
+    "en": "Sei (SEI) is a cryptocurrency . Sei has a current supply of 10,000,000,000 with 6,491,111,111 in circulation. The last known price of Sei is 0.1234296 USD and is up 2.06 over the last 24 hours. It is currently trading on 344 active market(s) with $58,924,070.04 traded over the last 24 hours. More information can be found at https://www.sei.io/."
+  },
+  "links": {
+    "homepage": [
+      "https://www.sei.io/"
+    ],
+    "blockchain_site": [],
+    "official_forum_url": [
+      "https://medium.com/@seinetwork",
+      "https://blog.sei.io/"
+    ],
+    "chat_url": [
+      "https://t.me/seinetwork",
+      "https://discord.com/invite/sei"
+    ],
+    "announcement_url": [],
+    "twitter_screen_name": "SeiNetwork",
+    "facebook_username": "",
+    "subreddit_url": "https://reddit.com/r/Sei_Network",
+    "repos_url": {
+      "github": [
+        "https://github.com/sei-protocol"
+      ]
+    }
+  },
+  "market_data": {
+    "current_price": {
+      "usd": 0.12359523774026379
+    },
+    "market_cap": {
+      "usd": 802270420.9625129
+    },
+    "total_volume": {
+      "usd": 59388372.68397604
+    },
+    "price_change_percentage_1h_in_currency": {
+      "usd": -0.9289721
+    },
+    "price_change_percentage_24h": 2.16737433,
+    "price_change_percentage_7d": 8.55767082,
+    "circulating_supply": 6491111111,
+    "total_supply": 10000000000,
+    "max_supply": null
+  },
+  "last_updated": "2026-01-04T19:38:00.000Z"
+}

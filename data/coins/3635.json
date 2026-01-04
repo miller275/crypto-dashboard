@@ -1,0 +1,63 @@
+{
+  "id": 3635,
+  "symbol": "CRO",
+  "name": "Cronos",
+  "image": {
+    "large": "assets/img/coins/3635.png",
+    "small": "assets/img/coins/3635.png",
+    "thumb": "assets/img/coins/3635.png"
+  },
+  "market_cap_rank": 28,
+  "asset_platform_id": "Ethereum",
+  "description": {
+    "en": "Cronos (CRO) is a cryptocurrency launched in 2021. Cronos has a current supply of 98,288,409,305.05998 with 38,588,408,684.46831 in circulation. The last known price of Cronos is 0.10520795 USD and is up 6.01 over the last 24 hours. It is currently trading on 335 active market(s) with $22,442,580.08 traded over the last 24 hours. More information can be found at https://cronos.org/."
+  },
+  "links": {
+    "homepage": [
+      "https://cronos.org/"
+    ],
+    "blockchain_site": [
+      "https://explorer.cronos.org/",
+      "https://app.nansen.ai/token-god-mode?chain=ethereum&tab=transactions&tokenAddress=0xa0b73e1ff0b80914ab6fe0444e65848c4c34450b",
+      "https://solscan.io/token/DvjMYMVeXgKxaixGKpzQThLoG98nc7HSU7eanzsdCboA",
+      "https://etherscan.io/token/0xa0b73e1ff0b80914ab6fe0444e65848c4c34450b"
+    ],
+    "official_forum_url": [
+      "https://blog.cronos.org/"
+    ],
+    "chat_url": [
+      "https://discord.com/invite/pahqHz26q4"
+    ],
+    "announcement_url": [
+      "https://blog.cronos.org/"
+    ],
+    "twitter_screen_name": "cronos_chain",
+    "facebook_username": "",
+    "subreddit_url": "",
+    "repos_url": {
+      "github": [
+        "https://github.com/crypto-org-chain/cronos"
+      ]
+    }
+  },
+  "market_data": {
+    "current_price": {
+      "usd": 0.1053492302598055
+    },
+    "market_cap": {
+      "usd": 4065259151.85953
+    },
+    "total_volume": {
+      "usd": 22586872.73400812
+    },
+    "price_change_percentage_1h_in_currency": {
+      "usd": -0.25093332
+    },
+    "price_change_percentage_24h": 6.07409268,
+    "price_change_percentage_7d": 13.65278973,
+    "circulating_supply": 38588408684.46831,
+    "total_supply": 98288409305.05998,
+    "max_supply": 100000000000
+  },
+  "last_updated": "2026-01-04T19:39:00.000Z"
+}

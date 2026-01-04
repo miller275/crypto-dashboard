@@ -1,0 +1,61 @@
+{
+  "id": 1697,
+  "symbol": "BAT",
+  "name": "Basic Attention Token",
+  "image": {
+    "large": "assets/img/coins/1697.png",
+    "small": "assets/img/coins/1697.png",
+    "thumb": "assets/img/coins/1697.png"
+  },
+  "market_cap_rank": 129,
+  "asset_platform_id": "Ethereum",
+  "description": {
+    "en": "Basic Attention Token (BAT) is a cryptocurrency launched in 2017and operates on the Ethereum platform. Basic Attention Token has a current supply of 1,500,000,000 with 1,495,713,456.95260575 in circulation. The last known price of Basic Attention Token is 0.21962428 USD and is up 0.04 over the last 24 hours. It is currently trading on 555 active market(s) with $12,182,708.76 traded over the last 24 hours. More information can be found at https://basicattentiontoken.org/."
+  },
+  "links": {
+    "homepage": [
+      "https://basicattentiontoken.org/",
+      "https://brave.com/"
+    ],
+    "blockchain_site": [
+      "https://etherscan.io/token/0x0d8775f648430679a709e98d2b0cb6250d2887ef",
+      "https://app.nansen.ai/token-god-mode?chain=ethereum&tab=transactions&tokenAddress=0x0d8775f648430679a709e98d2b0cb6250d2887ef",
+      "https://solscan.io/token/EPeUFDgHRxs9xxEPVaL6kfGQvCon7jmAWKVUHuux1Tpz",
+      "https://nearblocks.io/token/0d8775f648430679a709e98d2b0cb6250d2887ef.factory.bridge.near",
+      "https://bscscan.com/token/0x101d82428437127bf1608f699cd651e6abf9766e"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.com/invite/batbrigade"
+    ],
+    "announcement_url": [],
+    "twitter_screen_name": "attentiontoken",
+    "facebook_username": "https://www.facebook.com/attentiontoken",
+    "subreddit_url": "https://reddit.com/r/BATProject",
+    "repos_url": {
+      "github": [
+        "https://github.com/brave-intl/bat-ledger"
+      ]
+    }
+  },
+  "market_data": {
+    "current_price": {
+      "usd": 0.22017602509187034
+    },
+    "market_cap": {
+      "usd": 329320243.62824506
+    },
+    "total_volume": {
+      "usd": 12207465.24700589
+    },
+    "price_change_percentage_1h_in_currency": {
+      "usd": -0.47080867
+    },
+    "price_change_percentage_24h": 0.30955249,
+    "price_change_percentage_7d": 0.8681486,
+    "circulating_supply": 1495713456.9526057,
+    "total_supply": 1500000000,
+    "max_supply": null
+  },
+  "last_updated": "2026-01-04T19:38:00.000Z"
+}

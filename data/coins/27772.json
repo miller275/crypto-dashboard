@@ -1,0 +1,65 @@
+{
+  "id": 27772,
+  "symbol": "PYUSD",
+  "name": "PayPal USD",
+  "image": {
+    "large": "assets/img/coins/27772.png",
+    "small": "assets/img/coins/27772.png",
+    "thumb": "assets/img/coins/27772.png"
+  },
+  "market_cap_rank": 30,
+  "asset_platform_id": "Ethereum",
+  "description": {
+    "en": "PayPal USD (PYUSD) is a cryptocurrency launched in 2023and operates on the Ethereum platform. PayPal USD has a current supply of 3,628,642,939.8642612. The last known price of PayPal USD is 0.99954312 USD and is up 0.01 over the last 24 hours. It is currently trading on 145 active market(s) with $39,734,483.04 traded over the last 24 hours. More information can be found at https://www.paypal.com/pyusd."
+  },
+  "links": {
+    "homepage": [
+      "https://www.paypal.com/pyusd"
+    ],
+    "blockchain_site": [
+      "https://etherscan.io/token/0x6c3ea9036406852006290770bedfcaba0e23a0e8",
+      "https://app.nansen.ai/token-god-mode?chain=ethereum&tab=transactions&tokenAddress=0x6c3ea9036406852006290770bedfcaba0e23a0e8",
+      "https://solscan.io/token/2b1kV6DkPAnxd5ixfnxCpjxmKwqjjaYmCZfHsFu24GXo",
+      "https://arbiscan.io/token/0x46850ad61c2b7d64d08c9c754f45254596696984",
+      "https://stellar.expert/explorer/public/asset/PYUSD-GDQE7IXJ4HUHV6RQHIUPRJSEZE4DRS5WY577O2FY6YQ5LVWZ7JZTU2V5"
+    ],
+    "official_forum_url": [
+      "https://newsroom.paypal-corp.com/2024-05-29-PayPal-USD-Stablecoin-Now-Available-on-Solana-Blockchain,-Providing-Faster,-Cheaper-Transactions-for-Consumers",
+      "https://newsroom.paypal-corp.com/2023-08-07-PayPal-Launches-U-S-Dollar-Stablecoin"
+    ],
+    "chat_url": [
+      "https://www.paypal.com/us/cshelp/article/how-do-i-contact-paypal-customer-service--help378"
+    ],
+    "announcement_url": [
+      "https://newsroom.paypal-corp.com/2023-08-07-PayPal-Launches-U-S-Dollar-Stablecoin"
+    ],
+    "twitter_screen_name": "PayPal",
+    "facebook_username": "",
+    "subreddit_url": "",
+    "repos_url": {
+      "github": [
+        "https://github.com/paxosglobal/pyusd-contract"
+      ]
+    }
+  },
+  "market_data": {
+    "current_price": {
+      "usd": 0.9994476803982203
+    },
+    "market_cap": {
+      "usd": 3626638769.2407146
+    },
+    "total_volume": {
+      "usd": 39835183.19487304
+    },
+    "price_change_percentage_1h_in_currency": {
+      "usd": 0.00085242
+    },
+    "price_change_percentage_24h": 0.00693753,
+    "price_change_percentage_7d": -0.009114,
+    "circulating_supply": 3628642939.864261,
+    "total_supply": 3628642939.864261,
+    "max_supply": null
+  },
+  "last_updated": "2026-01-04T19:39:00.000Z"
+}

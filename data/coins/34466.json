@@ -1,0 +1,61 @@
+{
+  "id": 34466,
+  "symbol": "PENGU",
+  "name": "Pudgy Penguins",
+  "image": {
+    "large": "assets/img/coins/34466.png",
+    "small": "assets/img/coins/34466.png",
+    "thumb": "assets/img/coins/34466.png"
+  },
+  "market_cap_rank": 74,
+  "asset_platform_id": "Solana",
+  "description": {
+    "en": "Pudgy Penguins (PENGU) is a cryptocurrency launched in 2024and operates on the Solana platform. Pudgy Penguins has a current supply of 88,888,888,888 with 62,860,396,090.04 in circulation. The last known price of Pudgy Penguins is 0.0125116 USD and is up 15.20 over the last 24 hours. It is currently trading on 457 active market(s) with $420,792,709.51 traded over the last 24 hours. More information can be found at https://www.pengu.pudgypenguins.com."
+  },
+  "links": {
+    "homepage": [
+      "https://www.pengu.pudgypenguins.com",
+      "https://www.pudgypenguins.com"
+    ],
+    "blockchain_site": [
+      "https://solscan.io/token/2zMMhcVQEXDtdE6vsFS7S7D5oUodfJHE8vd1gnBouauv",
+      "https://app.nansen.ai/token-god-mode?chain=solana&tab=transactions&tokenAddress=2zMMhcVQEXDtdE6vsFS7S7D5oUodfJHE8vd1gnBouauv"
+    ],
+    "official_forum_url": [
+      "https://www.tiktok.com/@pudgykindness"
+    ],
+    "chat_url": [
+      "https://discord.gg/pudgypenguins",
+      "https://instagram.com/pudgypenguins",
+      "https://giphy.com/pudgypenguins/",
+      "https://www.tiktok.com/@pudgypenguins"
+    ],
+    "announcement_url": [],
+    "twitter_screen_name": "pudgypenguins",
+    "facebook_username": "https://www.facebook.com/p/Pudgy-Penguins-61556686464196/",
+    "subreddit_url": "https://reddit.com/r/pudgypenguins",
+    "repos_url": {
+      "github": []
+    }
+  },
+  "market_data": {
+    "current_price": {
+      "usd": 0.012570893653819448
+    },
+    "market_cap": {
+      "usd": 790211354.2848607
+    },
+    "total_volume": {
+      "usd": 422009280.318172
+    },
+    "price_change_percentage_1h_in_currency": {
+      "usd": -0.43264852
+    },
+    "price_change_percentage_24h": 15.78396286,
+    "price_change_percentage_7d": 36.08740181,
+    "circulating_supply": 62860396090.04,
+    "total_supply": 88888888888,
+    "max_supply": null
+  },
+  "last_updated": "2026-01-04T19:38:00.000Z"
+}

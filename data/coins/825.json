@@ -1,0 +1,59 @@
+{
+  "id": 825,
+  "symbol": "USDT",
+  "name": "Tether USDt",
+  "image": {
+    "large": "assets/img/coins/825.png",
+    "small": "assets/img/coins/825.png",
+    "thumb": "assets/img/coins/825.png"
+  },
+  "market_cap_rank": 3,
+  "asset_platform_id": "Ethereum",
+  "description": {
+    "en": "Tether USDt (USDT) is a cryptocurrency and operates on the Ethereum platform. Tether USDt has a current supply of 189,845,194,215.02133424 with 187,110,343,448.63970665 in circulation. The last known price of Tether USDt is 0.99945134 USD and is up 0.01 over the last 24 hours. It is currently trading on 164952 active market(s) with $67,399,241,754.49 traded over the last 24 hours. More information can be found at https://tether.to."
+  },
+  "links": {
+    "homepage": [
+      "https://tether.to"
+    ],
+    "blockchain_site": [
+      "https://www.omniexplorer.info/asset/31",
+      "https://app.nansen.ai/token-god-mode?chain=ethereum&tab=transactions&tokenAddress=0xdac17f958d2ee523a2206206994597c13d831ec7",
+      "https://solscan.io/token/Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB",
+      "https://etherscan.io/token/0xdac17f958d2ee523a2206206994597c13d831ec7"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://t.me/OfficialTether"
+    ],
+    "announcement_url": [
+      "https://tether.to/en/news"
+    ],
+    "twitter_screen_name": "tether_to",
+    "facebook_username": "",
+    "subreddit_url": "",
+    "repos_url": {
+      "github": []
+    }
+  },
+  "market_data": {
+    "current_price": {
+      "usd": 0.9994666582337716
+    },
+    "market_cap": {
+      "usd": 187010549687.5852
+    },
+    "total_volume": {
+      "usd": 67528774211.50965
+    },
+    "price_change_percentage_1h_in_currency": {
+      "usd": 0.0042288
+    },
+    "price_change_percentage_24h": 0.00189557,
+    "price_change_percentage_7d": 0.02395772,
+    "circulating_supply": 187110343448.6397,
+    "total_supply": 189845194215.02133,
+    "max_supply": null
+  },
+  "last_updated": "2026-01-04T19:38:00.000Z"
+}

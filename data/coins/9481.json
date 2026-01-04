@@ -1,0 +1,62 @@
+{
+  "id": 9481,
+  "symbol": "PENDLE",
+  "name": "Pendle",
+  "image": {
+    "large": "assets/img/coins/9481.png",
+    "small": "assets/img/coins/9481.png",
+    "thumb": "assets/img/coins/9481.png"
+  },
+  "market_cap_rank": 118,
+  "asset_platform_id": "Ethereum",
+  "description": {
+    "en": "Pendle (PENDLE) is a cryptocurrency launched in 2021and operates on the Ethereum platform. Pendle has a current supply of 281,527,448.45853144 with 169,156,993.64884686 in circulation. The last known price of Pendle is 2.18944176 USD and is down -1.48 over the last 24 hours. It is currently trading on 554 active market(s) with $38,786,620.55 traded over the last 24 hours. More information can be found at https://pendle.finance/."
+  },
+  "links": {
+    "homepage": [
+      "https://pendle.finance/"
+    ],
+    "blockchain_site": [
+      "https://etherscan.io/token/0x808507121b80c02388fad14726482e061b8da827",
+      "https://app.nansen.ai/token-god-mode?chain=ethereum&tab=transactions&tokenAddress=0x808507121b80c02388fad14726482e061b8da827",
+      "https://arbiscan.io/token/0x0c880f6761f1af8d9aa9c466984b80dab9a8c9e8",
+      "https://bscscan.com/token/0xb3ed0a426155b79b898849803e3b36552f7ed507",
+      "https://www.okx.com/web3/explorer/eth/token/0x808507121b80c02388fad14726482e061b8da827"
+    ],
+    "official_forum_url": [
+      "https://medium.com/pendle"
+    ],
+    "chat_url": [
+      "https://discord.gg/EAujvncY2R"
+    ],
+    "announcement_url": [],
+    "twitter_screen_name": "pendle_fi",
+    "facebook_username": "",
+    "subreddit_url": "",
+    "repos_url": {
+      "github": [
+        "https://github.com/pendle-finance"
+      ]
+    }
+  },
+  "market_data": {
+    "current_price": {
+      "usd": 2.193246853206485
+    },
+    "market_cap": {
+      "usd": 371003044.0182027
+    },
+    "total_volume": {
+      "usd": 38917812.62620688
+    },
+    "price_change_percentage_1h_in_currency": {
+      "usd": -0.64866155
+    },
+    "price_change_percentage_24h": -1.3750151,
+    "price_change_percentage_7d": 16.9519345,
+    "circulating_supply": 169156993.64884686,
+    "total_supply": 281527448.45853144,
+    "max_supply": null
+  },
+  "last_updated": "2026-01-04T19:39:00.000Z"
+}

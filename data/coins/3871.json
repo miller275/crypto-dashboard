@@ -1,0 +1,62 @@
+{
+  "id": 3871,
+  "symbol": "AB",
+  "name": "AB",
+  "image": {
+    "large": "assets/img/coins/3871.png",
+    "small": "assets/img/coins/3871.png",
+    "thumb": "assets/img/coins/3871.png"
+  },
+  "market_cap_rank": 104,
+  "asset_platform_id": "BNB",
+  "description": {
+    "en": "AB (AB) is a cryptocurrency launched in 2018and operates on the BNB Smart Chain (BEP20) platform. Users are able to generate AB through the process of mining. AB has a current supply of 98,823,661,261.46 with 94,638,765,531.95 in circulation. The last known price of AB is 0.00449557 USD and is up 0.09 over the last 24 hours. It is currently trading on 69 active market(s) with $7,407,137.60 traded over the last 24 hours. More information can be found at https://ab.org."
+  },
+  "links": {
+    "homepage": [
+      "https://ab.org"
+    ],
+    "blockchain_site": [
+      "https://bscscan.com/token/0x95034f653d5d161890836ad2b6b8cc49d14e029a",
+      "https://app.nansen.ai/token-god-mode?chain=bnb&tab=transactions&tokenAddress=0x95034f653d5d161890836ad2b6b8cc49d14e029a",
+      "https://explorer.ab.org/"
+    ],
+    "official_forum_url": [
+      "https://www.ab.org/announcements/"
+    ],
+    "chat_url": [
+      "https://t.me/Newtonproject"
+    ],
+    "announcement_url": [
+      "https://www.ab.org/announcements/"
+    ],
+    "twitter_screen_name": "ABDAO_Global",
+    "facebook_username": "",
+    "subreddit_url": "",
+    "repos_url": {
+      "github": [
+        "https://github.com/ABFoundationGlobal"
+      ]
+    }
+  },
+  "market_data": {
+    "current_price": {
+      "usd": 0.004494895360695661
+    },
+    "market_cap": {
+      "usd": 425391348.1315265
+    },
+    "total_volume": {
+      "usd": 7413209.43230329
+    },
+    "price_change_percentage_1h_in_currency": {
+      "usd": -0.21563451
+    },
+    "price_change_percentage_24h": 0.08142215,
+    "price_change_percentage_7d": -1.76105777,
+    "circulating_supply": 94638765531.95,
+    "total_supply": 98823661261.46,
+    "max_supply": 98823661261.46
+  },
+  "last_updated": "2026-01-04T19:38:00.000Z"
+}

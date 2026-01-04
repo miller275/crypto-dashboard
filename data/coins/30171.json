@@ -1,0 +1,61 @@
+{
+  "id": 30171,
+  "symbol": "ENA",
+  "name": "Ethena",
+  "image": {
+    "large": "assets/img/coins/30171.png",
+    "small": "assets/img/coins/30171.png",
+    "thumb": "assets/img/coins/30171.png"
+  },
+  "market_cap_rank": 43,
+  "asset_platform_id": "Ethereum",
+  "description": {
+    "en": "Ethena (ENA) is a cryptocurrency and operates on the Ethereum platform. Ethena has a current supply of 15,000,000,000 with 7,690,625,000 in circulation. The last known price of Ethena is 0.24493409 USD and is up 3.00 over the last 24 hours. It is currently trading on 407 active market(s) with $161,202,841.80 traded over the last 24 hours. More information can be found at https://www.ethena.fi/."
+  },
+  "links": {
+    "homepage": [
+      "https://www.ethena.fi/"
+    ],
+    "blockchain_site": [
+      "https://etherscan.io/token/0x57e114B691Db790C35207b2e685D4A43181e6061",
+      "https://app.nansen.ai/token-god-mode?chain=ethereum&tab=transactions&tokenAddress=0x57e114B691Db790C35207b2e685D4A43181e6061",
+      "https://www.okx.com/web3/explorer/eth/token/0x57e114B691Db790C35207b2e685D4A43181e6061"
+    ],
+    "official_forum_url": [
+      "https://mirror.xyz/0xF99d0E4E3435cc9C9868D1C6274DfaB3e2721341"
+    ],
+    "chat_url": [
+      "https://t.me/ethena_labs",
+      "https://discord.com/ethena"
+    ],
+    "announcement_url": [],
+    "twitter_screen_name": "ethena_labs",
+    "facebook_username": "",
+    "subreddit_url": "",
+    "repos_url": {
+      "github": [
+        "https://github.com/ethena-labs"
+      ]
+    }
+  },
+  "market_data": {
+    "current_price": {
+      "usd": 0.24564689573940982
+    },
+    "market_cap": {
+      "usd": 1889178157.5458987
+    },
+    "total_volume": {
+      "usd": 161284931.5681358
+    },
+    "price_change_percentage_1h_in_currency": {
+      "usd": -1.24342219
+    },
+    "price_change_percentage_24h": 3.43801147,
+    "price_change_percentage_7d": 18.70134376,
+    "circulating_supply": 7690625000,
+    "total_supply": 15000000000,
+    "max_supply": 15000000000
+  },
+  "last_updated": "2026-01-04T19:38:00.000Z"
+}

@@ -1,0 +1,58 @@
+{
+  "id": 5488,
+  "symbol": "JST",
+  "name": "JUST",
+  "image": {
+    "large": "assets/img/coins/5488.png",
+    "small": "assets/img/coins/5488.png",
+    "thumb": "assets/img/coins/5488.png"
+  },
+  "market_cap_rank": 117,
+  "asset_platform_id": "TRON",
+  "description": {
+    "en": "JUST (JST) is a cryptocurrency launched in 2020and operates on the Tron20 platform. JUST has a current supply of 9,340,108,920.5813064. The last known price of JUST is 0.03997086 USD and is up 2.21 over the last 24 hours. It is currently trading on 214 active market(s) with $23,131,706.68 traded over the last 24 hours. More information can be found at https://just.network/#/."
+  },
+  "links": {
+    "homepage": [
+      "https://just.network/#/"
+    ],
+    "blockchain_site": [
+      "https://tronscan.org/#/token20/TCFLL5dx5ZJdKnWuesXxi1VPwjLVmWZZy9",
+      "https://app.nansen.ai/token-god-mode?chain=tron&tab=transactions&tokenAddress=TCFLL5dx5ZJdKnWuesXxi1VPwjLVmWZZy9",
+      "https://www.oklink.com/trx/token/TCFLL5dx5ZJdKnWuesXxi1VPwjLVmWZZy9"
+    ],
+    "official_forum_url": [
+      "https://medium.com/@TronFoundation/the-testnet-of-the-tron-based-stablecoins-lending-platform-successfully-completed-platform-662e0649209f"
+    ],
+    "chat_url": [
+      "https://t.me/just_defi"
+    ],
+    "announcement_url": [],
+    "twitter_screen_name": "defi_just",
+    "facebook_username": "",
+    "subreddit_url": "",
+    "repos_url": {
+      "github": []
+    }
+  },
+  "market_data": {
+    "current_price": {
+      "usd": 0.03998720548708508
+    },
+    "market_cap": {
+      "usd": 373484854.6790411
+    },
+    "total_volume": {
+      "usd": 23161080.05112065
+    },
+    "price_change_percentage_1h_in_currency": {
+      "usd": 0.20078736
+    },
+    "price_change_percentage_24h": 2.26373225,
+    "price_change_percentage_7d": 3.06608689,
+    "circulating_supply": 9340108920.581306,
+    "total_supply": 9340108920.581306,
+    "max_supply": null
+  },
+  "last_updated": "2026-01-04T19:39:00.000Z"
+}

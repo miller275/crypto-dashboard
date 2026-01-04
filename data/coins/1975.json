@@ -1,0 +1,63 @@
+{
+  "id": 1975,
+  "symbol": "LINK",
+  "name": "Chainlink",
+  "image": {
+    "large": "assets/img/coins/1975.png",
+    "small": "assets/img/coins/1975.png",
+    "thumb": "assets/img/coins/1975.png"
+  },
+  "market_cap_rank": 12,
+  "asset_platform_id": "Ethereum",
+  "description": {
+    "en": "Chainlink (LINK) is a cryptocurrency launched in 2017and operates on the Ethereum platform. Chainlink has a current supply of 1,000,000,000 with 708,099,970.45258671 in circulation. The last known price of Chainlink is 13.36477031 USD and is up 1.42 over the last 24 hours. It is currently trading on 2175 active market(s) with $573,873,189.48 traded over the last 24 hours. More information can be found at https://chain.link/."
+  },
+  "links": {
+    "homepage": [
+      "https://chain.link/"
+    ],
+    "blockchain_site": [
+      "https://etherscan.io/token/0x514910771af9ca656af840dff83e8264ecf986ca",
+      "https://app.nansen.ai/token-god-mode?chain=ethereum&tab=transactions&tokenAddress=0x514910771af9ca656af840dff83e8264ecf986ca",
+      "https://solscan.io/token/CWE8jPTUYhdCTZYWPTe1o5DFqfdjzWKc9WKz6rSjQUdG",
+      "https://bscscan.com/token/0xf8a0bf9cf54bb92f17374d9e9a321e6a111a51bd"
+    ],
+    "official_forum_url": [
+      "https://blog.chain.link/"
+    ],
+    "chat_url": [
+      "https://t.me/chainlinkofficial"
+    ],
+    "announcement_url": [
+      "https://blog.chain.link/"
+    ],
+    "twitter_screen_name": "Chainlink",
+    "facebook_username": "https://www.facebook.com/chainlink.smartcontract",
+    "subreddit_url": "https://reddit.com/r/chainlink",
+    "repos_url": {
+      "github": [
+        "https://github.com/smartcontractkit/chainlink"
+      ]
+    }
+  },
+  "market_data": {
+    "current_price": {
+      "usd": 13.387200189762614
+    },
+    "market_cap": {
+      "usd": 9479476058.81377
+    },
+    "total_volume": {
+      "usd": 574760873.4474007
+    },
+    "price_change_percentage_1h_in_currency": {
+      "usd": -0.28195706
+    },
+    "price_change_percentage_24h": 1.59256959,
+    "price_change_percentage_7d": 8.37494355,
+    "circulating_supply": 708099970.4525867,
+    "total_supply": 1000000000,
+    "max_supply": 1000000000
+  },
+  "last_updated": "2026-01-04T19:38:00.000Z"
+}

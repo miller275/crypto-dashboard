@@ -1,0 +1,60 @@
+{
+  "id": 36462,
+  "symbol": "A",
+  "name": "Vaulta",
+  "image": {
+    "large": "assets/img/coins/36462.png",
+    "small": "assets/img/coins/36462.png",
+    "thumb": "assets/img/coins/36462.png"
+  },
+  "market_cap_rank": 138,
+  "asset_platform_id": "Vaulta",
+  "description": {
+    "en": "Vaulta (A) is a cryptocurrency launched in 2025. Vaulta has a current supply of 2,100,000,000 with 1,614,180,300.496 in circulation. The last known price of Vaulta is 0.17649734 USD and is up 1.71 over the last 24 hours. It is currently trading on 188 active market(s) with $20,173,411.27 traded over the last 24 hours. More information can be found at https://www.vaulta.com."
+  },
+  "links": {
+    "homepage": [
+      "https://www.vaulta.com"
+    ],
+    "blockchain_site": [
+      "https://unicove.com/en/vaulta/account/core.vaulta"
+    ],
+    "official_forum_url": [
+      "https://www.vaulta.com/resources"
+    ],
+    "chat_url": [
+      "https://t.me/vaulta/"
+    ],
+    "announcement_url": [
+      "https://www.vaulta.com/resources/opening-the-gateway-to-web3-banking"
+    ],
+    "twitter_screen_name": "vaulta_",
+    "facebook_username": "https://www.facebook.com/VaultaFoundation",
+    "subreddit_url": "https://reddit.com/r/vaulta",
+    "repos_url": {
+      "github": [
+        "https://github.com/VaultaFoundation/vaulta-system-contract"
+      ]
+    }
+  },
+  "market_data": {
+    "current_price": {
+      "usd": 0.1767427412016727
+    },
+    "market_cap": {
+      "usd": 285294651.1034028
+    },
+    "total_volume": {
+      "usd": 20232697.8815961
+    },
+    "price_change_percentage_1h_in_currency": {
+      "usd": -0.55361878
+    },
+    "price_change_percentage_24h": 1.84861233,
+    "price_change_percentage_7d": 12.97080281,
+    "circulating_supply": 1614180300.496,
+    "total_supply": 2100000000,
+    "max_supply": 2100000000
+  },
+  "last_updated": "2026-01-04T19:38:00.000Z"
+}

@@ -1,0 +1,63 @@
+{
+  "id": 22861,
+  "symbol": "TIA",
+  "name": "Celestia",
+  "image": {
+    "large": "assets/img/coins/22861.png",
+    "small": "assets/img/coins/22861.png",
+    "thumb": "assets/img/coins/22861.png"
+  },
+  "market_cap_rank": 97,
+  "asset_platform_id": "Osmosis",
+  "description": {
+    "en": "Celestia (TIA) is a cryptocurrency and operates on the Osmosis platform. Celestia has a current supply of 1,158,585,199.46999 with 862,624,410.015024 in circulation. The last known price of Celestia is 0.56655011 USD and is up 7.45 over the last 24 hours. It is currently trading on 335 active market(s) with $61,922,537.21 traded over the last 24 hours. More information can be found at https://www.celestia.org."
+  },
+  "links": {
+    "homepage": [
+      "https://www.celestia.org"
+    ],
+    "blockchain_site": [
+      "https://www.mintscan.io/osmosis/assets/ibc/D79E7D83AB399BFFF93433E54FAA480C191248FC556924A2A8351AE2638B3877",
+      "https://www.mintscan.io/celestia",
+      "https://celenium.io/",
+      "https://explorer.modular.cloud/"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://t.me/CelestiaCommunity",
+      "https://discord.com/invite/YsnTPcSfWQ",
+      "https://www.youtube.com/watch?v=r1Ftl24xu6Q"
+    ],
+    "announcement_url": [
+      "https://blog.celestia.org/"
+    ],
+    "twitter_screen_name": "CelestiaOrg",
+    "facebook_username": "",
+    "subreddit_url": "",
+    "repos_url": {
+      "github": [
+        "https://github.com/celestiaorg"
+      ]
+    }
+  },
+  "market_data": {
+    "current_price": {
+      "usd": 0.5688815416297419
+    },
+    "market_cap": {
+      "usd": 490731104.2167934
+    },
+    "total_volume": {
+      "usd": 62358279.43976454
+    },
+    "price_change_percentage_1h_in_currency": {
+      "usd": -0.80175146
+    },
+    "price_change_percentage_24h": 7.99367389,
+    "price_change_percentage_7d": 21.69976758,
+    "circulating_supply": 862624410.015024,
+    "total_supply": 1158585199.46999,
+    "max_supply": null
+  },
+  "last_updated": "2026-01-04T19:38:00.000Z"
+}

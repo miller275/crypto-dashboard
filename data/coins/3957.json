@@ -1,0 +1,58 @@
+{
+  "id": 3957,
+  "symbol": "LEO",
+  "name": "UNUS SED LEO",
+  "image": {
+    "large": "assets/img/coins/3957.png",
+    "small": "assets/img/coins/3957.png",
+    "thumb": "assets/img/coins/3957.png"
+  },
+  "market_cap_rank": 15,
+  "asset_platform_id": "Ethereum",
+  "description": {
+    "en": "UNUS SED LEO (LEO) is a cryptocurrency and operates on the Ethereum platform. UNUS SED LEO has a current supply of 985,239,504 with 921,717,959.9 in circulation. The last known price of UNUS SED LEO is 8.92808833 USD and is down -3.77 over the last 24 hours. It is currently trading on 65 active market(s) with $945,609.70 traded over the last 24 hours. More information can be found at https://www.bitfinex.com/."
+  },
+  "links": {
+    "homepage": [
+      "https://www.bitfinex.com/"
+    ],
+    "blockchain_site": [
+      "https://etherscan.io/token/0x2af5d2ad76741191d15dfe7bf6ac92d4bd912ca3",
+      "https://app.nansen.ai/token-god-mode?chain=ethereum&tab=transactions&tokenAddress=0x2af5d2ad76741191d15dfe7bf6ac92d4bd912ca3",
+      "https://www.okx.com/web3/explorer/eth/token/0x2AF5D2aD76741191D15Dfe7bF6aC92d4Bd912Ca3",
+      "https://eospark.com/account/bitfinexleo1",
+      "https://eosflare.io/account/bitfinexleo1"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://t.me/bitfinex"
+    ],
+    "announcement_url": [],
+    "twitter_screen_name": "bitfinex",
+    "facebook_username": "",
+    "subreddit_url": "https://reddit.com/r/bitfinex",
+    "repos_url": {
+      "github": []
+    }
+  },
+  "market_data": {
+    "current_price": {
+      "usd": 8.930828712306258
+    },
+    "market_cap": {
+      "usd": 8231705220.923268
+    },
+    "total_volume": {
+      "usd": 947280.20201979
+    },
+    "price_change_percentage_1h_in_currency": {
+      "usd": -0.05156301
+    },
+    "price_change_percentage_24h": -3.63376022,
+    "price_change_percentage_7d": 5.60085001,
+    "circulating_supply": 921717959.9,
+    "total_supply": 985239504,
+    "max_supply": null
+  },
+  "last_updated": "2026-01-04T19:39:00.000Z"
+}

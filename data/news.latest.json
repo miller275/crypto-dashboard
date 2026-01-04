@@ -1,18 +1,306 @@
 {
-  "source": "sample",
-  "updatedAt": "2026-01-04T17:52:45Z",
+  "source": "cryptocompare",
+  "updatedAt": "2026-01-04T19:39:47.093Z",
   "items": [
     {
-      "title": "Sample headline: Bitcoin volatility returns",
-      "url": "https://example.com",
-      "source": "sample",
-      "publishedAt": "2026-01-04T17:52:45Z"
+      "title": "BitMine Seeks Major Share Authorization Hike for Ethereum-Led Growth",
+      "url": "https://cryptopotato.com/bitmine-seeks-major-share-authorization-hike-for-ethereum-led-growth/",
+      "source": "cryptopotato",
+      "publishedAt": "2026-01-04T19:35:36.000Z"
     },
     {
-      "title": "Sample headline: Altcoins rally on macro news",
-      "url": "https://example.com",
-      "source": "sample",
-      "publishedAt": "2026-01-04T17:52:45Z"
+      "title": "Pundit to Investors: Buy XRP Before Elon Musk Makes This Announcement",
+      "url": "https://timestabloid.com/pundit-to-investors-buy-xrp-before-elon-musk-makes-this-announcement/",
+      "source": "timestabloid",
+      "publishedAt": "2026-01-04T19:05:24.000Z"
+    },
+    {
+      "title": "Crypto market’s weekly winners and losers – MYX, PEPE, UNI, HYPE",
+      "url": "https://ambcrypto.com/crypto-market-weekly-review-5-january-2/",
+      "source": "ambcrypto",
+      "publishedAt": "2026-01-04T19:00:21.000Z"
+    },
+    {
+      "title": "Crypto Derivatives Shakeout: Market Records Lowest Trading Volume In December 2025",
+      "url": "https://bitcoinist.com/crypto-derivatives-record-lowest-trading-volume/",
+      "source": "bitcoinist",
+      "publishedAt": "2026-01-04T19:00:05.000Z"
+    },
+    {
+      "title": "Strategy on Track to Kick Off 2026 with New Bitcoin Purchase",
+      "url": "https://u.today/strategy-on-track-to-kick-off-2026-with-new-bitcoin-purchase",
+      "source": "utoday",
+      "publishedAt": "2026-01-04T18:56:23.000Z"
+    },
+    {
+      "title": "Conquer the Crypto Peaks: NEAR Coin’s Resilience and Altcoin Season Insights",
+      "url": "https://en.coin-turk.com/conquer-the-crypto-peaks-near-coins-resilience-and-altcoin-season-insights/",
+      "source": "cointurken",
+      "publishedAt": "2026-01-04T18:50:39.000Z"
+    },
+    {
+      "title": "Conflux price prediction 2026-2032: Can CFX price lead China’s crypto market?",
+      "url": "https://www.cryptopolitan.com/conflux-price-prediction/",
+      "source": "cryptopolitan",
+      "publishedAt": "2026-01-04T18:34:17.000Z"
+    },
+    {
+      "title": "Metaplanet has key advantage over US-based Bitcoin treasuries: Analyst",
+      "url": "https://cointelegraph.com/news/metaplanet-edge-us-dats-jpy-weakness?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "cointelegraph",
+      "publishedAt": "2026-01-04T18:33:03.000Z"
+    },
+    {
+      "title": "Bitcoin Derivatives Market Leans Bullish, but Max Pain Looms Below Spot",
+      "url": "https://news.bitcoin.com/bitcoin-derivatives-market-leans-bullish-but-max-pain-looms-below-spot/",
+      "source": "bitcoin.com",
+      "publishedAt": "2026-01-04T18:30:34.000Z"
+    },
+    {
+      "title": "Will Ethereum (ETH) Break $3,000 in January As This Under $0.05 Token Emerges As The Best Cryptocurrency to Buy Now?",
+      "url": "https://www.cryptopolitan.com/will-ethereum-eth-break-3000-in-january-as-this-under-0-05-token-emerges-as-the-best-cryptocurrency-to-buy-now/",
+      "source": "cryptopolitan",
+      "publishedAt": "2026-01-04T18:30:00.000Z"
+    },
+    {
+      "title": "Massive insider alert as crypto traders net over $600k profits on Maduro capture bet",
+      "url": "https://finbold.com/massive-insider-alert-as-crypto-traders-net-over-600k-profits-on-maduro-capture-bet/",
+      "source": "finbold",
+      "publishedAt": "2026-01-04T18:08:43.000Z"
+    },
+    {
+      "title": "Bitcoin (BTC) Price Analysis for January 4",
+      "url": "https://u.today/bitcoin-btc-price-analysis-for-january-4-0",
+      "source": "utoday",
+      "publishedAt": "2026-01-04T18:07:00.000Z"
+    },
+    {
+      "title": "Here’s What Current XRP Structure Says About $20 Hypothesis",
+      "url": "https://timestabloid.com/heres-what-current-xrp-structure-says-about-20-hypothesis/",
+      "source": "timestabloid",
+      "publishedAt": "2026-01-04T18:05:05.000Z"
+    },
+    {
+      "title": "SPX rallies 16% amid fresh capital inflow – Can bulls keep control?",
+      "url": "https://ambcrypto.com/spx-rallies-16-amid-fresh-capital-inflow-can-bulls-keep-control/",
+      "source": "ambcrypto",
+      "publishedAt": "2026-01-04T18:00:34.000Z"
+    },
+    {
+      "title": "Crypto Users Lose Far Less To Phishing As Losses Drop 83% – Details",
+      "url": "https://www.newsbtc.com/altcoin/crypto-users-lose-far-less-to-phishing-as-losses-drop-83-details/",
+      "source": "newsbtc",
+      "publishedAt": "2026-01-04T18:00:23.000Z"
+    },
+    {
+      "title": "Ethereum Classic (ETC) Price Analysis for January 4",
+      "url": "https://u.today/ethereum-classic-etc-price-analysis-for-january-4",
+      "source": "utoday",
+      "publishedAt": "2026-01-04T17:54:00.000Z"
+    },
+    {
+      "title": "Ethereum (ETH) Price Analysis for January 4",
+      "url": "https://u.today/ethereum-eth-price-analysis-for-january-4-1",
+      "source": "utoday",
+      "publishedAt": "2026-01-04T17:43:00.000Z"
+    },
+    {
+      "title": "The Next $0.04 Big Crypto Positioned for Long-Term Investment, Analysts Watch Closely",
+      "url": "https://www.cryptopolitan.com/the-next-0-04-big-crypto-positioned-for-long-term-investment-analysts-watch-closely/",
+      "source": "cryptopolitan",
+      "publishedAt": "2026-01-04T17:30:00.000Z"
+    },
+    {
+      "title": "Bitcoin (BTC) Breaks $91,000, All Eyes on Next Crucial Hours",
+      "url": "https://u.today/bitcoin-btc-breaks-91000-all-eyes-on-next-crucial-hours",
+      "source": "utoday",
+      "publishedAt": "2026-01-04T17:27:00.000Z"
+    },
+    {
+      "title": "Unlock Ethereum’s Strategic Moves for 2026",
+      "url": "https://en.coin-turk.com/unlock-ethereums-strategic-moves-for-2026/",
+      "source": "cointurken",
+      "publishedAt": "2026-01-04T17:20:39.000Z"
+    },
+    {
+      "title": "Grok Deepfakes Spark Global Outrage: French and Malaysian Authorities Launch Investigations into xAI’s Chatbot",
+      "url": "https://bitcoinworld.co.in/grok-deepfakes-france-malaysia-investigation/",
+      "source": "bitcoinworld",
+      "publishedAt": "2026-01-04T17:10:11.000Z"
+    },
+    {
+      "title": "Expert: My Take On XRP In 2026: Here’s Why This Could Be an Explosive Year",
+      "url": "https://timestabloid.com/expert-my-take-on-xrp-in-2026-heres-why-this-could-be-an-explosive-year/",
+      "source": "timestabloid",
+      "publishedAt": "2026-01-04T17:02:38.000Z"
+    },
+    {
+      "title": "Bitcoin doesn’t flinch as U.S. action in Venezuela shocks Wall Street",
+      "url": "https://ambcrypto.com/bitcoin-doesnt-flinch-as-u-s-action-in-venezuela-shocks-wall-street/",
+      "source": "ambcrypto",
+      "publishedAt": "2026-01-04T17:00:45.000Z"
+    },
+    {
+      "title": "Notorious Bitcoin Hacker Released Years Early, Credits Trump",
+      "url": "https://bitcoinist.com/notorious-bitcoin-hacker-released-years-early-credits-trump/",
+      "source": "bitcoinist",
+      "publishedAt": "2026-01-04T17:00:32.000Z"
+    },
+    {
+      "title": "Bitcoin Bears Just 1% Away of Max Pain $112 Million Liquidation",
+      "url": "https://u.today/bitcoin-bears-just-1-away-from-max-pain-112-million-liquidation",
+      "source": "utoday",
+      "publishedAt": "2026-01-04T16:50:00.000Z"
+    },
+    {
+      "title": "Bitcoin 'will move' when TradFi reacts to Venezuela as BTC price nears $92K",
+      "url": "https://cointelegraph.com/news/bitcoin-will-move-tradfi-reacts-venezuela-btc-price-nears-92k?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "cointelegraph",
+      "publishedAt": "2026-01-04T16:40:50.000Z"
+    },
+    {
+      "title": "AI Notetaker Revolution: Plaud’s Brilliant New NotePin S and Desktop App Redefine Meeting Productivity",
+      "url": "https://bitcoinworld.co.in/plaud-ai-notetaker-ces-2025/",
+      "source": "bitcoinworld",
+      "publishedAt": "2026-01-04T16:40:11.000Z"
+    },
+    {
+      "title": "Chainlink (LINK) Breaks 21-day MA as Altcoins Looking For “Upward Run” in the Next 2-3 Months",
+      "url": "https://zycrypto.com/chainlink-link-breaks-21-day-ma-as-altcoins-looking-for-upward-run-in-the-next-2-3-months/",
+      "source": "zycrypto",
+      "publishedAt": "2026-01-04T16:35:52.000Z"
+    },
+    {
+      "title": "Shiba Inu (SHIB) Rockets 27% in Best January Since 2023: Is $600 Million Just the Start?",
+      "url": "https://u.today/shiba-inu-shib-rockets-27-in-best-january-since-2023-is-600-million-just-the-start",
+      "source": "utoday",
+      "publishedAt": "2026-01-04T16:34:00.000Z"
+    },
+    {
+      "title": "After a Historic Red Streak, ChatGPT Drops Wild ETH Price Predictions for 2026",
+      "url": "https://cryptopotato.com/after-a-historic-red-streak-chatgpt-drops-wild-eth-price-predictions-for-2026/",
+      "source": "cryptopotato",
+      "publishedAt": "2026-01-04T16:15:08.000Z"
+    },
+    {
+      "title": "Shiba Inu Golden Cross Confirmed: SHIB Rallies by 13%",
+      "url": "https://u.today/shiba-inu-golden-cross-confirmed-shib-rallies-by-13",
+      "source": "utoday",
+      "publishedAt": "2026-01-04T16:11:00.000Z"
+    },
+    {
+      "title": "Major Memecoins Surge as Market Sentiment Shifts Positively",
+      "url": "https://en.coin-turk.com/major-memecoins-surge-as-market-sentiment-shifts-positively/",
+      "source": "cointurken",
+      "publishedAt": "2026-01-04T16:10:39.000Z"
+    },
+    {
+      "title": "Dogecoin Enters Crucial Accumulation Zone — DOGE Price To $0.2?",
+      "url": "https://www.newsbtc.com/news/dogecoin/dogecoin-enters-crucial-zone-price-to-0-2/",
+      "source": "newsbtc",
+      "publishedAt": "2026-01-04T16:00:36.000Z"
+    },
+    {
+      "title": "BONK jumps 20% in a day – Can buyers defend THIS zone?",
+      "url": "https://ambcrypto.com/bonk-jumps-20-in-a-day-can-buyers-defend-this-zone/",
+      "source": "ambcrypto",
+      "publishedAt": "2026-01-04T16:00:33.000Z"
+    },
+    {
+      "title": "Cardano (ADA) Whales Rotate Into This Under $0.05 Token Analysts Call The Best Cryptocurrency to Invest Today",
+      "url": "https://www.cryptopolitan.com/cardano-ada-whales-rotate-into-this-under-0-05-token-analysts-call-the-best-cryptocurrency-to-invest-today/",
+      "source": "cryptopolitan",
+      "publishedAt": "2026-01-04T16:00:00.000Z"
+    },
+    {
+      "title": "SWIFT Could Welcome XRP Once Regulations Set, Former CEO Says",
+      "url": "https://coinpaper.com/13525/swift-could-welcome-xrp-once-regulations-set-former-ceo-says",
+      "source": "coinpaper",
+      "publishedAt": "2026-01-04T15:58:50.000Z"
+    },
+    {
+      "title": "EU plans aggressive 2026 tech crackdown on Google, Meta, Apple, and X despite US threats of tariffs and retaliation",
+      "url": "https://www.cryptopolitan.com/europe-to-trump-we-wont-undo-our-regulations-as-tech-battle-heats-up-in-2026/",
+      "source": "cryptopolitan",
+      "publishedAt": "2026-01-04T15:55:08.000Z"
+    },
+    {
+      "title": "Bitcoin, Ether, Cardano, XRP Surge After Steep Decline On New Year’s Day",
+      "url": "https://zycrypto.com/bitcoin-ether-cardano-xrp-surge-after-steep-decline-on-new-years-day/",
+      "source": "zycrypto",
+      "publishedAt": "2026-01-04T15:51:41.000Z"
+    },
+    {
+      "title": "75% XRP Surge to $3.57 Is Not a Dream, Bollinger Bands Signal",
+      "url": "https://u.today/75-xrp-surge-to-357-is-not-dream-bollinger-bands-signal",
+      "source": "utoday",
+      "publishedAt": "2026-01-04T15:48:00.000Z"
+    },
+    {
+      "title": "Bitcoin Tops $91,000 — 17 Years After Satoshi Mined The Genesis Block",
+      "url": "https://zycrypto.com/bitcoin-tops-91000-17-years-after-satoshi-mined-the-genesis-block/",
+      "source": "zycrypto",
+      "publishedAt": "2026-01-04T15:32:11.000Z"
+    },
+    {
+      "title": "Bitcoin Spot Flow Surges 1671% In 5 Minutes: Is $100,000 Next?",
+      "url": "https://u.today/bitcoin-spot-flow-surges-1671-in-5-minutes-is-100000-next",
+      "source": "utoday",
+      "publishedAt": "2026-01-04T15:32:00.000Z"
+    },
+    {
+      "title": "Some of Bitcoin’s Oldest Wallets Drove Dormant Spending Patterns in 2025",
+      "url": "https://news.bitcoin.com/some-of-bitcoins-oldest-wallets-drove-dormant-spending-patterns-in-2025/",
+      "source": "bitcoin.com",
+      "publishedAt": "2026-01-04T15:30:17.000Z"
+    },
+    {
+      "title": "XRP Traders Go Wild as $23M Changes Hands in 60 Seconds",
+      "url": "https://coinpaper.com/13524/xrp-traders-go-wild-as-23-m-changes-hands-in-60-seconds",
+      "source": "coinpaper",
+      "publishedAt": "2026-01-04T15:24:14.000Z"
+    },
+    {
+      "title": "Ethereum deposited to Aave has reached an all-time high, crossing 3 million ETH",
+      "url": "https://www.cryptopolitan.com/aave-hits-new-record-high-eth-deposits/",
+      "source": "cryptopolitan",
+      "publishedAt": "2026-01-04T15:20:58.000Z"
+    },
+    {
+      "title": "Ghana Legalizes Crypto While Ghanaian Village Shows Bitcoin’s Potential",
+      "url": "https://www.forbes.com/sites/frankcorva/2026/01/04/ghana-legalizes-crypto-while-ghanaian-village-shows-bitcoins-potential/",
+      "source": "forbes",
+      "publishedAt": "2026-01-04T15:17:27.000Z"
+    },
+    {
+      "title": "Bitcoin Aims High: Unpacking the Signals of a Possible Surge",
+      "url": "https://en.coin-turk.com/bitcoin-aims-high-unpacking-the-signals-of-a-possible-surge/",
+      "source": "cointurken",
+      "publishedAt": "2026-01-04T15:11:29.000Z"
+    },
+    {
+      "title": "Vitalik Says Ethereum Just Solved Crypto’s Biggest Problem",
+      "url": "https://cryptonews.com/news/vitalik-says-ethereum-just-solved-cryptos-biggest-problem/",
+      "source": "cryptonews",
+      "publishedAt": "2026-01-04T15:07:45.000Z"
+    },
+    {
+      "title": "PIPPIN Price Prediction: Momentum Stalls Below $0.52 As Rising Channel Faces First Real Test",
+      "url": "https://coinedition.com/pippin-price-prediction-momentum-stalls-below-0-52-as-rising-channel-faces-first-real-test/",
+      "source": "coinquora",
+      "publishedAt": "2026-01-04T15:03:00.000Z"
+    },
+    {
+      "title": "XRP Chart Confirms Path to $27, Analyst Makes Bullish Statement",
+      "url": "https://timestabloid.com/xrp-chart-confirms-path-to-27-analyst-makes-bullish-statement/",
+      "source": "timestabloid",
+      "publishedAt": "2026-01-04T15:02:19.000Z"
+    },
+    {
+      "title": "Why Bitcoin’s latest move looks a lot like Gold’s historic 400% rally",
+      "url": "https://ambcrypto.com/why-bitcoins-latest-move-looks-a-lot-like-golds-historic-400-rally/",
+      "source": "ambcrypto",
+      "publishedAt": "2026-01-04T15:00:47.000Z"
     }
   ]
 }

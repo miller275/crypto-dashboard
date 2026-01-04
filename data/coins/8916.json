@@ -1,0 +1,66 @@
+{
+  "id": 8916,
+  "symbol": "ICP",
+  "name": "Internet Computer",
+  "image": {
+    "large": "assets/img/coins/8916.png",
+    "small": "assets/img/coins/8916.png",
+    "thumb": "assets/img/coins/8916.png"
+  },
+  "market_cap_rank": 46,
+  "asset_platform_id": "Internet Computer",
+  "description": {
+    "en": "Internet Computer (ICP) is a cryptocurrency launched in 2021. Internet Computer has a current supply of 546,145,149.12240743. The last known price of Internet Computer is 3.22117227 USD and is up 3.34 over the last 24 hours. It is currently trading on 392 active market(s) with $83,237,823.49 traded over the last 24 hours. More information can be found at https://internetcomputer.org/."
+  },
+  "links": {
+    "homepage": [
+      "https://internetcomputer.org/",
+      "https://dfinity.org"
+    ],
+    "blockchain_site": [
+      "https://dashboard.internetcomputer.org/",
+      "https://app.nansen.ai/token-god-mode?chain=ethereum&tab=transactions&tokenAddress=0x00f3C42833C3170159af4E92dbb451Fb3F708917",
+      "https://www.icpexplorer.org/#/",
+      "https://www.icexplorer.io/"
+    ],
+    "official_forum_url": [
+      "https://forum.dfinity.org",
+      "https://medium.com/dfinity"
+    ],
+    "chat_url": [
+      "https://discord.gg/JJWatWr4qG",
+      "https://t.me/+3AgG4S9KYHQzYjc1"
+    ],
+    "announcement_url": [
+      "https://internetcomputer.org/news"
+    ],
+    "twitter_screen_name": "dfinity",
+    "facebook_username": "",
+    "subreddit_url": "https://reddit.com/r/dfinity",
+    "repos_url": {
+      "github": [
+        "https://github.com/dfinity/ic"
+      ]
+    }
+  },
+  "market_data": {
+    "current_price": {
+      "usd": 3.224945106302165
+    },
+    "market_cap": {
+      "usd": 1761288125.9929738
+    },
+    "total_volume": {
+      "usd": 83474052.60439014
+    },
+    "price_change_percentage_1h_in_currency": {
+      "usd": -0.61746434
+    },
+    "price_change_percentage_24h": 3.47251657,
+    "price_change_percentage_7d": 6.2083569,
+    "circulating_supply": 546145149.1224074,
+    "total_supply": 546145149.1224074,
+    "max_supply": null
+  },
+  "last_updated": "2026-01-04T19:38:00.000Z"
+}
