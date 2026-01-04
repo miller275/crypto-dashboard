@@ -1,0 +1,38 @@
+{
+  "id": "28752",
+  "symbol": "WIF",
+  "name": "dogwifhat",
+  "slug": "dogwifhat",
+  "rank": 109,
+  "price": 0.40294423953915054,
+  "marketCap": 402476671.9759085,
+  "volume24h": 432873543.63938725,
+  "circulating": 998839622.167631,
+  "totalSupply": 998839622.167631,
+  "maxSupply": 998840592.989347,
+  "percentChange1h": 1.33826572,
+  "percentChange24h": 21.41305008,
+  "percentChange7d": 30.27380569,
+  "lastUpdated": "2026-01-04T20:30:00.000Z",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/28752.png",
+  "tags": [
+    "memes",
+    "solana-ecosystem",
+    "doggone-doggerel",
+    "animal-memes",
+    "cmc-crypto-yearbook-2024-2025",
+    "binance-ecosystem",
+    "binance-listing"
+  ],
+  "category": "token",
+  "platform": {
+    "id": "5426",
+    "name": "Solana",
+    "slug": "solana",
+    "symbol": "SOL",
+    "token_address": "EKpQGSJtjMFqKZ9KQanSqYXRcF8fBopzLHYxdM65zcjm"
+  },
+  "selfReportedCirculatingSupply": null,
+  "selfReportedMarketCap": null,
+  "geckoId": "dogwifhat-base"
+}

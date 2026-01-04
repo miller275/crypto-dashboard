@@ -1,0 +1,39 @@
+{
+  "id": "2563",
+  "symbol": "TUSD",
+  "name": "TrueUSD",
+  "slug": "trueusd",
+  "rank": 96,
+  "price": 0.9980315270193456,
+  "marketCap": 493541643.42058843,
+  "volume24h": 11346789.43960979,
+  "circulating": 494515083,
+  "totalSupply": 494515083,
+  "maxSupply": null,
+  "percentChange1h": 0.01037243,
+  "percentChange24h": 0.01113241,
+  "percentChange7d": -0.02436682,
+  "lastUpdated": "2026-01-04T20:31:00.000Z",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/2563.png",
+  "tags": [
+    "store-of-value",
+    "stablecoin",
+    "asset-backed-stablecoin",
+    "usd-stablecoin",
+    "fiat-stablecoin",
+    "tron20-ecosystem",
+    "binance-ecosystem",
+    "binance-listing"
+  ],
+  "category": "token",
+  "platform": {
+    "id": "1027",
+    "name": "Ethereum",
+    "slug": "ethereum",
+    "symbol": "ETH",
+    "token_address": "0x0000000000085d4780B73119b644AE5ecd22b376"
+  },
+  "selfReportedCirculatingSupply": null,
+  "selfReportedMarketCap": null,
+  "geckoId": "true-usd"
+}

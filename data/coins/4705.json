@@ -1,0 +1,38 @@
+{
+  "id": "4705",
+  "symbol": "PAXG",
+  "name": "PAX Gold",
+  "slug": "pax-gold",
+  "rank": 47,
+  "price": 4365.960193970027,
+  "marketCap": 1628179770.0452127,
+  "volume24h": 96219957.05975103,
+  "circulating": 372925.931,
+  "totalSupply": 372925.931,
+  "maxSupply": null,
+  "percentChange1h": 0.08162952,
+  "percentChange24h": 0.12257258,
+  "percentChange7d": -4.16306704,
+  "lastUpdated": "2026-01-04T20:30:00.000Z",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/4705.png",
+  "tags": [
+    "ethereum-ecosystem",
+    "tokenized-gold",
+    "real-world-assets-protocols",
+    "binance-ecosystem",
+    "binance-listing",
+    "tokenized-assets",
+    "tokenized-commodities"
+  ],
+  "category": "token",
+  "platform": {
+    "id": "1027",
+    "name": "Ethereum",
+    "slug": "ethereum",
+    "symbol": "ETH",
+    "token_address": "0x45804880de22913dafe09f4980848ece6ecbaf78"
+  },
+  "selfReportedCirculatingSupply": null,
+  "selfReportedMarketCap": null,
+  "geckoId": "pax-gold"
+}

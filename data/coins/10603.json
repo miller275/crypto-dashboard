@@ -1,0 +1,43 @@
+{
+  "id": "10603",
+  "symbol": "IMX",
+  "name": "Immutable",
+  "slug": "immutable-x",
+  "rank": 87,
+  "price": 0.27799264826246417,
+  "marketCap": 552919740.7163275,
+  "volume24h": 28386281.68633125,
+  "circulating": 1988972529.209814,
+  "totalSupply": 2000000000,
+  "maxSupply": 2000000000,
+  "percentChange1h": 0.18624652,
+  "percentChange24h": 4.3684596,
+  "percentChange7d": 18.56335552,
+  "lastUpdated": "2026-01-04T20:30:00.000Z",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/10603.png",
+  "tags": [
+    "collectibles-nfts",
+    "zero-knowledge-proofs",
+    "gaming",
+    "scaling",
+    "ethereum-ecosystem",
+    "layer-2",
+    "rollups",
+    "arrington-xrp-capital-portfolio",
+    "alameda-research-portfolio",
+    "modular-blockchain",
+    "binance-ecosystem",
+    "binance-listing"
+  ],
+  "category": "token",
+  "platform": {
+    "id": "1027",
+    "name": "Ethereum",
+    "slug": "ethereum",
+    "symbol": "ETH",
+    "token_address": "0xf57e7e7c23978c3caec3c3548e3d615c346e79ff"
+  },
+  "selfReportedCirculatingSupply": null,
+  "selfReportedMarketCap": null,
+  "geckoId": "immutable-x"
+}

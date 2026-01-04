@@ -1,0 +1,39 @@
+{
+  "id": "8526",
+  "symbol": "RAY",
+  "name": "Raydium",
+  "slug": "raydium",
+  "rank": 134,
+  "price": 1.1221475105996948,
+  "marketCap": 301387852.80686736,
+  "volume24h": 28903822.73945694,
+  "circulating": 268581313.918168,
+  "totalSupply": 554997846.184751,
+  "maxSupply": 555000000,
+  "percentChange1h": 0.8548556,
+  "percentChange24h": 4.09310431,
+  "percentChange7d": 21.94545849,
+  "lastUpdated": "2026-01-04T20:30:00.000Z",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/8526.png",
+  "tags": [
+    "decentralized-exchange-dex-token",
+    "defi",
+    "amm",
+    "dex",
+    "solana-ecosystem",
+    "petrock-capital-portfolio",
+    "binance-ecosystem",
+    "binance-listing"
+  ],
+  "category": "token",
+  "platform": {
+    "id": "5426",
+    "name": "Solana",
+    "slug": "solana",
+    "symbol": "SOL",
+    "token_address": "4k3Dyjzvzp8eMZWUXbBCjEvwSkkk59S5iCNLY3QrkX6R"
+  },
+  "selfReportedCirculatingSupply": null,
+  "selfReportedMarketCap": null,
+  "geckoId": "raydium"
+}

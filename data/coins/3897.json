@@ -1,0 +1,41 @@
+{
+  "id": "3897",
+  "symbol": "OKB",
+  "name": "OKB",
+  "slug": "okb",
+  "rank": 38,
+  "price": 113.43285304549593,
+  "marketCap": 2382089913.955415,
+  "volume24h": 36709691.25466265,
+  "circulating": 21000000,
+  "totalSupply": 21000000,
+  "maxSupply": 21000000,
+  "percentChange1h": 0.38507586,
+  "percentChange24h": 0.3908952,
+  "percentChange7d": 6.17832946,
+  "lastUpdated": "2026-01-04T20:30:00.000Z",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/3897.png",
+  "tags": [
+    "marketplace",
+    "centralized-exchange",
+    "discount-token",
+    "ethereum-ecosystem",
+    "alameda-research-portfolio",
+    "x1-ecosystem",
+    "okexchain-ecosystem",
+    "x-layer-ecosystem",
+    "xlayer-ecosystem",
+    "made-in-china"
+  ],
+  "category": "token",
+  "platform": {
+    "id": "1027",
+    "name": "Ethereum",
+    "slug": "ethereum",
+    "symbol": "ETH",
+    "token_address": "0x75231f58b43240c9718dd58b4967c5114342a86c"
+  },
+  "selfReportedCirculatingSupply": 246638974,
+  "selfReportedMarketCap": 27976962493.033894,
+  "geckoId": "okb"
+}

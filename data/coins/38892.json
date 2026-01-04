@@ -1,0 +1,41 @@
+{
+  "id": "38892",
+  "symbol": "STABLE",
+  "name": "Stable",
+  "slug": "stable",
+  "rank": 136,
+  "price": 0.016811916498236643,
+  "marketCap": 295889730.3689649,
+  "volume24h": 287248211.10960495,
+  "circulating": 17600000000,
+  "totalSupply": 100000000000,
+  "maxSupply": 100000000000,
+  "percentChange1h": 1.9389563,
+  "percentChange24h": 1.66677539,
+  "percentChange7d": 34.36786434,
+  "lastUpdated": "2026-01-04T20:30:00.000Z",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/38892.png",
+  "tags": [
+    "enterprise-solutions",
+    "payments",
+    "staking",
+    "governance",
+    "layer-1",
+    "binance-alpha",
+    "binance-alpha-airdrops",
+    "binance-ecosystem",
+    "binance-listing",
+    "stablecoin-protocol"
+  ],
+  "category": "token",
+  "platform": {
+    "id": "1839",
+    "name": "BNB",
+    "slug": "bnb",
+    "symbol": "BNB",
+    "token_address": "0x011EBe7d75E2C9D1E0bD0be0bEf5C36f0A90075F"
+  },
+  "selfReportedCirculatingSupply": null,
+  "selfReportedMarketCap": null,
+  "geckoId": "stable-2"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "33793",
+  "symbol": "USDG",
+  "name": "Global Dollar",
+  "slug": "global-dollar-usdg",
+  "rank": 49,
+  "price": 0.9995066219671397,
+  "marketCap": 1547519141.208374,
+  "volume24h": 12596644.46642936,
+  "circulating": 1548283030.044048,
+  "totalSupply": 1548283030.044048,
+  "maxSupply": null,
+  "percentChange1h": -0.00374153,
+  "percentChange24h": -0.01452692,
+  "percentChange7d": -0.01626062,
+  "lastUpdated": "2026-01-04T20:31:00.000Z",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/33793.png",
+  "tags": [
+    "stablecoin",
+    "usd-stablecoin"
+  ],
+  "category": "token",
+  "platform": {
+    "id": "1027",
+    "name": "Ethereum",
+    "slug": "ethereum",
+    "symbol": "ETH",
+    "token_address": "0xe343167631d89B6Ffc58B88d6b7fB0228795491D"
+  },
+  "selfReportedCirculatingSupply": 10750140,
+  "selfReportedMarketCap": 10744836.117073826,
+  "geckoId": "global-dollar"
+}

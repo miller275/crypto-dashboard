@@ -1,0 +1,40 @@
+{
+  "id": "34466",
+  "symbol": "PENGU",
+  "name": "Pudgy Penguins",
+  "slug": "pudgy-penguins",
+  "rank": 74,
+  "price": 0.012552936252869096,
+  "marketCap": 789082544.9483739,
+  "volume24h": 425476141.4277044,
+  "circulating": 62860396090.04,
+  "totalSupply": 88888888888,
+  "maxSupply": null,
+  "percentChange1h": 0.33038784,
+  "percentChange24h": 16.61731966,
+  "percentChange7d": 36.29269809,
+  "lastUpdated": "2026-01-04T20:30:00.000Z",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/34466.png",
+  "tags": [
+    "collectibles-nfts",
+    "memes",
+    "solana-ecosystem",
+    "animal-memes",
+    "ip-memes",
+    "made-in-america",
+    "binance-hodler-airdrops",
+    "binance-ecosystem",
+    "binance-listing"
+  ],
+  "category": "token",
+  "platform": {
+    "id": "5426",
+    "name": "Solana",
+    "slug": "solana",
+    "symbol": "SOL",
+    "token_address": "2zMMhcVQEXDtdE6vsFS7S7D5oUodfJHE8vd1gnBouauv"
+  },
+  "selfReportedCirculatingSupply": 62860396090,
+  "selfReportedMarketCap": 789082544.9478718,
+  "geckoId": "pudgy-penguins"
+}

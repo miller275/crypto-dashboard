@@ -1,0 +1,40 @@
+{
+  "id": "39064",
+  "symbol": "NIGHT",
+  "name": "Midnight",
+  "slug": "midnight-network",
+  "rank": 50,
+  "price": 0.0904816826411453,
+  "marketCap": 1502665442.0960286,
+  "volume24h": 39150584.12310505,
+  "circulating": 16607399401,
+  "totalSupply": 24000000000,
+  "maxSupply": 24000000000,
+  "percentChange1h": -0.47984892,
+  "percentChange24h": -2.30931505,
+  "percentChange7d": 3.41625535,
+  "lastUpdated": "2026-01-04T20:30:00.000Z",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/39064.png",
+  "tags": [
+    "privacy",
+    "zero-knowledge-proofs",
+    "cardano-ecosystem",
+    "bnb-chain-ecosystem",
+    "binance-alpha",
+    "binance-alpha-airdrops",
+    "binance-ecosystem",
+    "binance-listing",
+    "privacy-blockchain"
+  ],
+  "category": "token",
+  "platform": {
+    "id": "2010",
+    "name": "Cardano",
+    "slug": "cardano",
+    "symbol": "ADA",
+    "token_address": "0691b2fecca1ac4f53cb6dfb00b7013e561d1f34403b957cbb5af1fa4e49474854"
+  },
+  "selfReportedCirculatingSupply": 10800000000,
+  "selfReportedMarketCap": 977202172.5243692,
+  "geckoId": "midnight"
+}

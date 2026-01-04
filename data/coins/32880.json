@@ -1,0 +1,37 @@
+{
+  "id": "32880",
+  "symbol": "KAIA",
+  "name": "Kaia",
+  "slug": "kaia",
+  "rank": 114,
+  "price": 0.0625635387743732,
+  "marketCap": 388539127.57762825,
+  "volume24h": 10129820.95911775,
+  "circulating": 6210312510.915361,
+  "totalSupply": 6210312510.915361,
+  "maxSupply": null,
+  "percentChange1h": 0.90719776,
+  "percentChange24h": 6.39003482,
+  "percentChange7d": 11.2878244,
+  "lastUpdated": "2026-01-04T20:30:00.000Z",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/32880.png",
+  "tags": [
+    "platform",
+    "enterprise-solutions",
+    "layer-1",
+    "klaytn-ecosystem",
+    "binance-ecosystem",
+    "binance-listing"
+  ],
+  "category": "token",
+  "platform": {
+    "id": "32880",
+    "name": "Kaia",
+    "slug": "kaia",
+    "symbol": "KAIA",
+    "token_address": "0x0000000000000000000000000000000000000000"
+  },
+  "selfReportedCirculatingSupply": 6210234826.68,
+  "selfReportedMarketCap": 388534267.37695706,
+  "geckoId": "kaia"
+}

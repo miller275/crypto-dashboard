@@ -1,0 +1,43 @@
+{
+  "id": "39125",
+  "symbol": "LIT",
+  "name": "Lighter",
+  "slug": "lighter",
+  "rank": 78,
+  "price": 2.64004572025319,
+  "marketCap": 660011430.0632975,
+  "volume24h": 19706843.50171248,
+  "circulating": 250000000,
+  "totalSupply": 1000000000,
+  "maxSupply": 1000000000,
+  "percentChange1h": 0.23433407,
+  "percentChange24h": 4.39279911,
+  "percentChange7d": -1.22224487,
+  "lastUpdated": "2026-01-04T20:30:00.000Z",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/39125.png",
+  "tags": [
+    "decentralized-exchange-dex-token",
+    "defi",
+    "derivatives",
+    "zero-knowledge-proofs",
+    "ethereum-ecosystem",
+    "dex",
+    "coinbase-ventures-portfolio",
+    "dragonfly-capital-portfolio",
+    "a16z-portfolio",
+    "binance-ecosystem",
+    "binance-listing",
+    "perp-dex-coins"
+  ],
+  "category": "token",
+  "platform": {
+    "id": "1027",
+    "name": "Ethereum",
+    "slug": "ethereum",
+    "symbol": "ETH",
+    "token_address": "0x232ce3bd40fcd6f80f3d55a522d03f25df784ee2"
+  },
+  "selfReportedCirculatingSupply": null,
+  "selfReportedMarketCap": null,
+  "geckoId": "lighter"
+}

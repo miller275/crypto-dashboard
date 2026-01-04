@@ -1,48 +1,47 @@
 {
-  "id": 5426,
+  "id": "5426",
   "symbol": "SOL",
   "name": "Solana",
-  "image": {
-    "large": "assets/img/coin.svg",
-    "small": "assets/img/coin.svg",
-    "thumb": "assets/img/coin.svg"
+  "slug": "solana",
+  "rank": 6,
+  "price": 133.90825732088933,
+  "marketCap": 75427501641.7687,
+  "volume24h": 3026567897.931784,
+  "circulating": 563277449.4333011,
+  "totalSupply": 617545742.1921957,
+  "maxSupply": null,
+  "percentChange1h": 0.34827138,
+  "percentChange24h": 1.86623843,
+  "percentChange7d": 8.48252437,
+  "lastUpdated": "2026-01-04T20:30:00.000Z",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/5426.png",
+  "tags": [
+    "pos",
+    "platform",
+    "solana-ecosystem",
+    "cms-holdings-portfolio",
+    "kenetic-capital-portfolio",
+    "alameda-research-portfolio",
+    "multicoin-capital-portfolio",
+    "okx-ventures-portfolio",
+    "layer-1",
+    "ftx-bankruptcy-estate",
+    "alleged-sec-securities",
+    "cmc-crypto-awards-2024",
+    "made-in-america",
+    "us-strategic-crypto-reserve",
+    "binance-ecosystem",
+    "binance-listing"
+  ],
+  "category": "coin",
+  "platform": {
+    "id": "5426",
+    "name": "Solana",
+    "slug": "solana",
+    "symbol": "SOL",
+    "token_address": "So11111111111111111111111111111111111111111"
   },
-  "market_cap_rank": 5,
-  "asset_platform_id": null,
-  "description": {
-    "en": "Sample snapshot for Solana. Run GitHub Actions to fetch real CoinMarketCap data."
-  },
-  "links": {
-    "homepage": [],
-    "blockchain_site": [],
-    "official_forum_url": [],
-    "chat_url": [],
-    "announcement_url": [],
-    "twitter_screen_name": "",
-    "facebook_username": "",
-    "subreddit_url": "",
-    "repos_url": {
-      "github": []
-    }
-  },
-  "market_data": {
-    "current_price": {
-      "usd": 103.49
-    },
-    "market_cap": {
-      "usd": null
-    },
-    "total_volume": {
-      "usd": null
-    },
-    "price_change_percentage_1h_in_currency": {
-      "usd": null
-    },
-    "price_change_percentage_24h": null,
-    "price_change_percentage_7d": null,
-    "circulating_supply": null,
-    "total_supply": null,
-    "max_supply": null
-  },
-  "last_updated": "2026-01-04T18:40:57.963081Z"
+  "selfReportedCirculatingSupply": 525236893.3,
+  "selfReportedMarketCap": 70333557062.4409,
+  "geckoId": "solana"
 }

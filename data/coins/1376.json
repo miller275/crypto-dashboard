@@ -1,0 +1,33 @@
+{
+  "id": "1376",
+  "symbol": "NEO",
+  "name": "Neo",
+  "slug": "neo",
+  "rank": 142,
+  "price": 3.836367465463502,
+  "marketCap": 270612876.3002283,
+  "volume24h": 12723193.83998607,
+  "circulating": 70538831,
+  "totalSupply": 100000000,
+  "maxSupply": null,
+  "percentChange1h": 0.3156922,
+  "percentChange24h": 1.68937965,
+  "percentChange7d": 4.12670897,
+  "lastUpdated": "2026-01-04T20:30:00.000Z",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/1376.png",
+  "tags": [
+    "platform",
+    "enterprise-solutions",
+    "defi",
+    "smart-contracts",
+    "2017-2018-alt-season",
+    "binance-ecosystem",
+    "binance-listing",
+    "made-in-china"
+  ],
+  "category": "coin",
+  "platform": null,
+  "selfReportedCirculatingSupply": null,
+  "selfReportedMarketCap": null,
+  "geckoId": "neo"
+}

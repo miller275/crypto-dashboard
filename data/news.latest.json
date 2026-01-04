@@ -1,18 +1,96 @@
 {
-  "source": "sample",
-  "updatedAt": "2026-01-04T17:52:45Z",
+  "source": "rss",
+  "updatedAt": "2026-01-04T20:44:04.190Z",
   "items": [
     {
-      "title": "Sample headline: Bitcoin volatility returns",
-      "url": "https://example.com",
-      "source": "sample",
-      "publishedAt": "2026-01-04T17:52:45Z"
+      "title": "BitMine Seeks Major Share Authorization Hike for Ethereum-Led Growth",
+      "url": "https://cryptopotato.com/bitmine-seeks-major-share-authorization-hike-for-ethereum-led-growth/",
+      "source": "CryptoPotato",
+      "publishedAt": "Sun, 04 Jan 2026 19:35:36 +0000"
     },
     {
-      "title": "Sample headline: Altcoins rally on macro news",
-      "url": "https://example.com",
-      "source": "sample",
-      "publishedAt": "2026-01-04T17:52:45Z"
+      "title": "After a Historic Red Streak, ChatGPT Drops Wild ETH Price Predictions for 2026",
+      "url": "https://cryptopotato.com/after-a-historic-red-streak-chatgpt-drops-wild-eth-price-predictions-for-2026/",
+      "source": "CryptoPotato",
+      "publishedAt": "Sun, 04 Jan 2026 16:15:08 +0000"
+    },
+    {
+      "title": "DOGE, SHIB, PEPE Explode: Is Meme Coin Frenzy Back in Full Force?",
+      "url": "https://cryptopotato.com/doge-shib-pepe-explode-is-meme-coin-frenzy-back-in-full-force/",
+      "source": "CryptoPotato",
+      "publishedAt": "Sun, 04 Jan 2026 14:50:14 +0000"
+    },
+    {
+      "title": "Bitcoin Price Analysis: What Are BTC&#8217;s Next Targets After Reclaiming $90K?",
+      "url": "https://cryptopotato.com/bitcoin-price-analysis-what-are-btcs-next-targets-after-reclaiming-90k/",
+      "source": "CryptoPotato",
+      "publishedAt": "Sun, 04 Jan 2026 14:26:49 +0000"
+    },
+    {
+      "title": "Top Bitcoin (BTC) Price Predictions for 2026",
+      "url": "https://cryptopotato.com/top-bitcoin-btc-price-predictions-for-2026/",
+      "source": "CryptoPotato",
+      "publishedAt": "Sun, 04 Jan 2026 12:23:07 +0000"
+    },
+    {
+      "title": "Neobanks will fuel Ethereum's 2026 growth, says ether.fi CEO",
+      "url": "https://www.coindesk.com/tech/2026/01/04/neobanks-will-fuel-ethereum-s-2026-growth-says-ether-fi-ceo",
+      "source": "Neobanks will fuel Ethereum's 2026 growth, says ether.fi CEO",
+      "publishedAt": "Sun, 04 Jan 2026 15:00:00 +0000"
+    },
+    {
+      "title": "Dogecoin pops 4% amid memecoin rally as a short-term golden cross flashes",
+      "url": "https://www.coindesk.com/markets/2026/01/04/dogecoin-pops-4-amid-memecoin-rally-as-a-short-term-golden-cross-flashes",
+      "source": "Neobanks will fuel Ethereum's 2026 growth, says ether.fi CEO",
+      "publishedAt": "Sun, 04 Jan 2026 05:18:02 +0000"
+    },
+    {
+      "title": "Bitcoin tops $91,000 with ether, dogecoin higher amid U.S. action on Venezuela",
+      "url": "https://www.coindesk.com/markets/2026/01/04/bitcoin-tops-usd91-000-with-ether-dogecoin-higher-amid-u-s-action-on-venezuela",
+      "source": "Neobanks will fuel Ethereum's 2026 growth, says ether.fi CEO",
+      "publishedAt": "Sun, 04 Jan 2026 05:02:46 +0000"
+    },
+    {
+      "title": "Ethereum and Solana set the stage for 2026’s DeFi reboot",
+      "url": "https://www.coindesk.com/tech/2026/01/03/ethereum-and-solana-set-the-stage-for-2026-s-defi-reboot",
+      "source": "Neobanks will fuel Ethereum's 2026 growth, says ether.fi CEO",
+      "publishedAt": "Sat, 03 Jan 2026 15:00:00 +0000"
+    },
+    {
+      "title": "Bitcoin dips, but quickly recovers as U.S. captures Venezuela's Maduro",
+      "url": "https://www.coindesk.com/markets/2026/01/03/bitcoin-dips-but-quickly-recovers-as-venezuela-s-maduro-captured",
+      "source": "Neobanks will fuel Ethereum's 2026 growth, says ether.fi CEO",
+      "publishedAt": "Sat, 03 Jan 2026 13:50:57 +0000"
+    },
+    {
+      "title": "Altcoins hold 'crucial' support, set for 'big leg' up, says analyst",
+      "url": "<![CDATA[https://cointelegraph.com/news/altcoins-hold-crucial-support-big-leg-up?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound]]>",
+      "source": "Cointelegraph.com News",
+      "publishedAt": "Sun, 04 Jan 2026 20:34:45 +0000"
+    },
+    {
+      "title": "Metaplanet has key advantage over US-based Bitcoin treasuries: Analyst",
+      "url": "<![CDATA[https://cointelegraph.com/news/metaplanet-edge-us-dats-jpy-weakness?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound]]>",
+      "source": "Cointelegraph.com News",
+      "publishedAt": "Sun, 04 Jan 2026 18:33:03 +0000"
+    },
+    {
+      "title": "Bitcoin 'will move' when TradFi reacts to Venezuela as BTC price nears $92K",
+      "url": "<![CDATA[https://cointelegraph.com/news/bitcoin-will-move-tradfi-reacts-venezuela-btc-price-nears-92k?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound]]>",
+      "source": "Cointelegraph.com News",
+      "publishedAt": "Sun, 04 Jan 2026 16:40:50 +0000"
+    },
+    {
+      "title": "Crypto rich threaten to leave California after new tax: Is it a bluff?",
+      "url": "<![CDATA[https://cointelegraph.com/news/crypto-rich-leave-california-new-tax-bluff?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound]]>",
+      "source": "Cointelegraph.com News",
+      "publishedAt": "Sun, 04 Jan 2026 13:00:00 +0000"
+    },
+    {
+      "title": "Wrench attacks against crypto holders are rising and growing ‘more violent’",
+      "url": "<![CDATA[https://cointelegraph.com/news/wrench-attacks-crypto-holders-rising-more-violent?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound]]>",
+      "source": "Cointelegraph.com News",
+      "publishedAt": "Sun, 04 Jan 2026 12:54:51 +0000"
     }
   ]
 }

@@ -1,0 +1,37 @@
+{
+  "id": "35053",
+  "symbol": "PIPPIN",
+  "name": "pippin",
+  "slug": "pippin",
+  "rank": 95,
+  "price": 0.49985428851264163,
+  "marketCap": 499852415.5586226,
+  "volume24h": 44197687.76659467,
+  "circulating": 999996253,
+  "totalSupply": 999996253,
+  "maxSupply": null,
+  "percentChange1h": 1.73716354,
+  "percentChange24h": 13.8876143,
+  "percentChange7d": 18.06795806,
+  "lastUpdated": "2026-01-04T20:31:00.000Z",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/35053.png",
+  "tags": [
+    "memes",
+    "solana-ecosystem",
+    "pump-fun-ecosystem",
+    "binance-alpha",
+    "binance-ecosystem",
+    "binance-listing"
+  ],
+  "category": "token",
+  "platform": {
+    "id": "5426",
+    "name": "Solana",
+    "slug": "solana",
+    "symbol": "SOL",
+    "token_address": "Dfh5DzRgSvvCFDoYc2ciTkMrbDfRKybA4SoFbPmApump"
+  },
+  "selfReportedCirculatingSupply": 999996253,
+  "selfReportedMarketCap": 499852415.5586226,
+  "geckoId": "pippin"
+}

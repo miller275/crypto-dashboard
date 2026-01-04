@@ -1,0 +1,41 @@
+{
+  "id": "7080",
+  "symbol": "GALA",
+  "name": "Gala",
+  "slug": "gala",
+  "rank": 127,
+  "price": 0.007401283576327899,
+  "marketCap": 347773952.92262435,
+  "volume24h": 49965287.68238135,
+  "circulating": 46988329704.71998,
+  "totalSupply": 46988329704.71998,
+  "maxSupply": 50000000000,
+  "percentChange1h": 1.00554323,
+  "percentChange24h": 9.46604953,
+  "percentChange7d": 20.59423906,
+  "lastUpdated": "2026-01-04T20:30:00.000Z",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/7080.png",
+  "tags": [
+    "collectibles-nfts",
+    "gaming",
+    "binance-smart-chain",
+    "polygon-ecosystem",
+    "play-to-earn",
+    "layer-1",
+    "dwf-labs-portfolio",
+    "made-in-america",
+    "binance-ecosystem",
+    "binance-listing"
+  ],
+  "category": "token",
+  "platform": {
+    "id": "1027",
+    "name": "Ethereum",
+    "slug": "ethereum",
+    "symbol": "ETH",
+    "token_address": "0xd1d2Eb1B1e90B638588728b4130137D262C87cae"
+  },
+  "selfReportedCirculatingSupply": null,
+  "selfReportedMarketCap": null,
+  "geckoId": "gala"
+}

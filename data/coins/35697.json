@@ -1,0 +1,27 @@
+{
+  "id": "35697",
+  "symbol": "PI",
+  "name": "Pi",
+  "slug": "pi",
+  "rank": 44,
+  "price": 0.21234740233107668,
+  "marketCap": 1779523799.8374333,
+  "volume24h": 14999129.12745572,
+  "circulating": 8380247558.0225315,
+  "totalSupply": 100000000000,
+  "maxSupply": 100000000000,
+  "percentChange1h": 0.19326823,
+  "percentChange24h": 1.87209514,
+  "percentChange7d": 4.05390902,
+  "lastUpdated": "2026-01-04T20:31:00.000Z",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/35697.png",
+  "tags": [
+    "layer-1",
+    "mobile-mining"
+  ],
+  "category": "token",
+  "platform": null,
+  "selfReportedCirculatingSupply": 8380253672.62,
+  "selfReportedMarketCap": 1779525098.2563221,
+  "geckoId": "pi-network"
+}

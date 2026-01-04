@@ -1,0 +1,41 @@
+{
+  "id": "10508",
+  "symbol": "FLUID",
+  "name": "Fluid",
+  "slug": "instadapp",
+  "rank": 149,
+  "price": 3.043445572922678,
+  "marketCap": 235105646.63165015,
+  "volume24h": 9994480.32944699,
+  "circulating": 77249827.8672596,
+  "totalSupply": 100000000,
+  "maxSupply": null,
+  "percentChange1h": -0.01344966,
+  "percentChange24h": -2.13367443,
+  "percentChange7d": 18.93311933,
+  "lastUpdated": "2026-01-04T20:30:00.000Z",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/10508.png",
+  "tags": [
+    "defi",
+    "dao",
+    "ethereum-ecosystem",
+    "coinbase-ventures-portfolio",
+    "arbitrum-ecosystem",
+    "base-ecosystem",
+    "standard-crypto-portfolio",
+    "binance-alpha",
+    "binance-ecosystem",
+    "binance-listing"
+  ],
+  "category": "token",
+  "platform": {
+    "id": "1027",
+    "name": "Ethereum",
+    "slug": "ethereum",
+    "symbol": "ETH",
+    "token_address": "0x6f40d4A6237C257fff2dB00FA0510DeEECd303eb"
+  },
+  "selfReportedCirculatingSupply": 39436803,
+  "selfReportedMarketCap": 120023763.50057378,
+  "geckoId": "instadapp"
+}

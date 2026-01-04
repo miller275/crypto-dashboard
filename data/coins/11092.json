@@ -1,0 +1,34 @@
+{
+  "id": "11092",
+  "symbol": "BGB",
+  "name": "Bitget Token",
+  "slug": "bitget-token-new",
+  "rank": 37,
+  "price": 3.5587949080466106,
+  "marketCap": 2487619280.300727,
+  "volume24h": 31469735.51463171,
+  "circulating": 699006080.5909599,
+  "totalSupply": 919992035.9787906,
+  "maxSupply": 919992035.98,
+  "percentChange1h": 0.21619396,
+  "percentChange24h": 0.76159179,
+  "percentChange7d": 2.55630816,
+  "lastUpdated": "2026-01-04T20:31:00.000Z",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/11092.png",
+  "tags": [
+    "centralized-exchange",
+    "ethereum-ecosystem",
+    "made-in-china"
+  ],
+  "category": "token",
+  "platform": {
+    "id": "1027",
+    "name": "Ethereum",
+    "slug": "ethereum",
+    "symbol": "ETH",
+    "token_address": "0x54D2252757e1672EEaD234D27B1270728fF90581"
+  },
+  "selfReportedCirculatingSupply": null,
+  "selfReportedMarketCap": null,
+  "geckoId": "bitget-token"
+}

@@ -1,0 +1,38 @@
+{
+  "id": "4943",
+  "symbol": "DAI",
+  "name": "Dai",
+  "slug": "multi-collateral-dai",
+  "rank": 25,
+  "price": 0.9994254326239577,
+  "marketCap": 5362299928.803939,
+  "volume24h": 76356419.61558127,
+  "circulating": 5365382702.664872,
+  "totalSupply": 5365382702.664872,
+  "maxSupply": null,
+  "percentChange1h": -0.00796847,
+  "percentChange24h": -0.01524078,
+  "percentChange7d": -0.01074909,
+  "lastUpdated": "2026-01-04T20:30:00.000Z",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/4943.png",
+  "tags": [
+    "defi",
+    "stablecoin",
+    "asset-backed-stablecoin",
+    "usd-stablecoin",
+    "binance-ecosystem",
+    "binance-listing",
+    "xlayer-ecosystem"
+  ],
+  "category": "token",
+  "platform": {
+    "id": "1027",
+    "name": "Ethereum",
+    "slug": "ethereum",
+    "symbol": "ETH",
+    "token_address": "0x6b175474e89094c44da98b954eedeac495271d0f"
+  },
+  "selfReportedCirculatingSupply": null,
+  "selfReportedMarketCap": null,
+  "geckoId": "dai"
+}

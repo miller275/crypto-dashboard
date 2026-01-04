@@ -1,0 +1,36 @@
+{
+  "id": "27075",
+  "symbol": "MNT",
+  "name": "Mantle",
+  "slug": "mantle",
+  "rank": 32,
+  "price": 1.0532296497806908,
+  "marketCap": 3426097128.47457,
+  "volume24h": 85878518.6291489,
+  "circulating": 3252944055.636841,
+  "totalSupply": 6219316794.89,
+  "maxSupply": 6219316795,
+  "percentChange1h": 0.33349408,
+  "percentChange24h": 6.21149634,
+  "percentChange7d": 2.10025674,
+  "lastUpdated": "2026-01-04T20:30:00.000Z",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/27075.png",
+  "tags": [
+    "ethereum-ecosystem",
+    "layer-2",
+    "dwf-labs-portfolio",
+    "made-in-china",
+    "neobank"
+  ],
+  "category": "token",
+  "platform": {
+    "id": "1027",
+    "name": "Ethereum",
+    "slug": "ethereum",
+    "symbol": "ETH",
+    "token_address": "0x3c3a81e81dc49a522a592e7622a7e711c06bf354"
+  },
+  "selfReportedCirculatingSupply": 3252944055.64,
+  "selfReportedMarketCap": 3426097128.477897,
+  "geckoId": "mantle"
+}

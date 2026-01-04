@@ -1,0 +1,38 @@
+{
+  "id": "4269",
+  "symbol": "GT",
+  "name": "GateToken",
+  "slug": "gatetoken",
+  "rank": 71,
+  "price": 10.590421344013686,
+  "marketCap": 848964025.717009,
+  "volume24h": 3738126.60263637,
+  "circulating": 80163385.20817135,
+  "totalSupply": 117344473.53114802,
+  "maxSupply": 300000000,
+  "percentChange1h": -0.13543388,
+  "percentChange24h": 1.39603723,
+  "percentChange7d": 2.35116231,
+  "lastUpdated": "2026-01-04T20:31:00.000Z",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/4269.png",
+  "tags": [
+    "marketplace",
+    "centralized-exchange",
+    "discount-token",
+    "ethereum-ecosystem",
+    "solana-ecosystem",
+    "ftx-bankruptcy-estate",
+    "made-in-china"
+  ],
+  "category": "token",
+  "platform": {
+    "id": "1027",
+    "name": "Ethereum",
+    "slug": "ethereum",
+    "symbol": "ETH",
+    "token_address": "0xe66747a101bff2dba3697199dcce5b743b454759"
+  },
+  "selfReportedCirculatingSupply": null,
+  "selfReportedMarketCap": null,
+  "geckoId": "gatechain-token"
+}

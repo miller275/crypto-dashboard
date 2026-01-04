@@ -1,0 +1,39 @@
+{
+  "id": "2634",
+  "symbol": "XDC",
+  "name": "XDC Network",
+  "slug": "xdc-network",
+  "rank": 67,
+  "price": 0.051966840756380764,
+  "marketCap": 991680187.1382511,
+  "volume24h": 24936191.00136515,
+  "circulating": 19082941597.07,
+  "totalSupply": 38043141176.25,
+  "maxSupply": null,
+  "percentChange1h": 0.95370489,
+  "percentChange24h": -0.32981724,
+  "percentChange7d": 4.70052067,
+  "lastUpdated": "2026-01-04T20:30:00.000Z",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/2634.png",
+  "tags": [
+    "pos",
+    "enterprise-solutions",
+    "masternodes",
+    "smart-contracts",
+    "xdc-ecosystem",
+    "real-world-assets-protocols",
+    "layer-1",
+    "iso-20022"
+  ],
+  "category": "coin",
+  "platform": {
+    "id": "2634",
+    "name": "XDC Network",
+    "slug": "xdc-network",
+    "symbol": "XDC",
+    "token_address": "0x951857744785e80e2de051c32ee7b25f9c458c42"
+  },
+  "selfReportedCirculatingSupply": 19082936996.12,
+  "selfReportedMarketCap": 991679948.0414151,
+  "geckoId": "xdce-crowd-sale"
+}

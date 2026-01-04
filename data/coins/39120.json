@@ -1,0 +1,32 @@
+{
+  "id": "39120",
+  "symbol": "U",
+  "name": "United Stables",
+  "slug": "united-stables",
+  "rank": 108,
+  "price": 0.9995162620178063,
+  "marketCap": 409701733.84236735,
+  "volume24h": 6726491.0655796,
+  "circulating": 409900018.05,
+  "totalSupply": 409900018.05,
+  "maxSupply": null,
+  "percentChange1h": -0.00557486,
+  "percentChange24h": 0.01978755,
+  "percentChange7d": 0.00947323,
+  "lastUpdated": "2026-01-04T20:30:00.000Z",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/39120.png",
+  "tags": [
+    "stablecoin"
+  ],
+  "category": "token",
+  "platform": {
+    "id": "1839",
+    "name": "BNB",
+    "slug": "bnb",
+    "symbol": "BNB",
+    "token_address": "0xcE24439F2D9C6a2289F741120FE202248B666666"
+  },
+  "selfReportedCirculatingSupply": 10000000,
+  "selfReportedMarketCap": 9995162.620178062,
+  "geckoId": "united-stables"
+}

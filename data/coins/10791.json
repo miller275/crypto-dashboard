@@ -1,0 +1,28 @@
+{
+  "id": "10791",
+  "symbol": "XEC",
+  "name": "eCash",
+  "slug": "ecash",
+  "rank": 150,
+  "price": 0.000011732467401482268,
+  "marketCap": 234300875.2407926,
+  "volume24h": 7124482.12066618,
+  "circulating": 19970298422580,
+  "totalSupply": 19970298422580,
+  "maxSupply": 21000000000000,
+  "percentChange1h": 0.46165189,
+  "percentChange24h": 4.26000948,
+  "percentChange7d": 11.00476555,
+  "lastUpdated": "2026-01-04T20:31:00.000Z",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/10791.png",
+  "tags": [
+    "layer-1",
+    "binance-ecosystem",
+    "binance-listing"
+  ],
+  "category": "coin",
+  "platform": null,
+  "selfReportedCirculatingSupply": 19970279672580,
+  "selfReportedMarketCap": 234300655.25702882,
+  "geckoId": "ecash"
+}

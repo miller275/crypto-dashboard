@@ -1,0 +1,39 @@
+{
+  "id": "35336",
+  "symbol": "TRUMP",
+  "name": "OFFICIAL TRUMP",
+  "slug": "official-trump",
+  "rank": 63,
+  "price": 5.410272894949817,
+  "marketCap": 1082050142.6797404,
+  "volume24h": 473894877.02421176,
+  "circulating": 199999180.020988,
+  "totalSupply": 999999206.933764,
+  "maxSupply": 999999993.45,
+  "percentChange1h": 0.44910546,
+  "percentChange24h": 1.87368843,
+  "percentChange7d": 10.1281114,
+  "lastUpdated": "2026-01-04T20:30:00.000Z",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/35336.png",
+  "tags": [
+    "memes",
+    "solana-ecosystem",
+    "political-memes",
+    "celebrity-memes",
+    "made-in-america",
+    "moonshot",
+    "binance-ecosystem",
+    "binance-listing"
+  ],
+  "category": "token",
+  "platform": {
+    "id": "5426",
+    "name": "Solana",
+    "slug": "solana",
+    "symbol": "SOL",
+    "token_address": "6p6xgHyF7AeE6TZkSmFsko444wqoP15icUSqi2jfGiPN"
+  },
+  "selfReportedCirculatingSupply": 200000000,
+  "selfReportedMarketCap": 1082054578.9899635,
+  "geckoId": "official-trump"
+}

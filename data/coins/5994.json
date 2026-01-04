@@ -1,0 +1,40 @@
+{
+  "id": "5994",
+  "symbol": "SHIB",
+  "name": "Shiba Inu",
+  "slug": "shiba-inu",
+  "rank": 24,
+  "price": 0.00000910092450174952,
+  "marketCap": 5362665602.696354,
+  "volume24h": 292187493.6101664,
+  "circulating": 589244048960680.9,
+  "totalSupply": 589500536628548.9,
+  "maxSupply": 589552695333683,
+  "percentChange1h": 1.32480172,
+  "percentChange24h": 13.52158201,
+  "percentChange7d": 24.89569784,
+  "lastUpdated": "2026-01-04T20:30:00.000Z",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/5994.png",
+  "tags": [
+    "memes",
+    "ethereum-ecosystem",
+    "doggone-doggerel",
+    "bnb-chain-ecosystem",
+    "base-ecosystem",
+    "animal-memes",
+    "binance-ecosystem",
+    "binance-listing",
+    "etherlink-ecosystem"
+  ],
+  "category": "token",
+  "platform": {
+    "id": "1027",
+    "name": "Ethereum",
+    "slug": "ethereum",
+    "symbol": "ETH",
+    "token_address": "0x95ad61b0a150d79219dcf64e1e6cc01f0b64c4ce"
+  },
+  "selfReportedCirculatingSupply": 589551575078137,
+  "selfReportedMarketCap": 5365464374.673638,
+  "geckoId": "shiba-inu"
+}

@@ -1,0 +1,38 @@
+{
+  "id": "28177",
+  "symbol": "PYTH",
+  "name": "Pyth Network",
+  "slug": "pyth-network",
+  "rank": 113,
+  "price": 0.06759147429296879,
+  "marketCap": 388649806.96405655,
+  "volume24h": 20621563.62055588,
+  "circulating": 5749982686.86212,
+  "totalSupply": 9999982686.86212,
+  "maxSupply": 10000000000,
+  "percentChange1h": 0.64886083,
+  "percentChange24h": 6.92631065,
+  "percentChange7d": 12.45411124,
+  "lastUpdated": "2026-01-04T20:30:00.000Z",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/28177.png",
+  "tags": [
+    "defi",
+    "oracles",
+    "solana-ecosystem",
+    "cross-chain",
+    "cmc-crypto-yearbook-2024-2025",
+    "binance-ecosystem",
+    "binance-listing"
+  ],
+  "category": "token",
+  "platform": {
+    "id": "5426",
+    "name": "Solana",
+    "slug": "solana",
+    "symbol": "SOL",
+    "token_address": "HZ1JovNiVvGrGNiiYvEozEVgZ58xaU3RKwX8eACQBCt3"
+  },
+  "selfReportedCirculatingSupply": 1500000000,
+  "selfReportedMarketCap": 101387211.43945318,
+  "geckoId": "pyth-network"
+}

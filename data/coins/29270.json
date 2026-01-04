@@ -1,0 +1,38 @@
+{
+  "id": "29270",
+  "symbol": "AERO",
+  "name": "Aerodrome Finance",
+  "slug": "aerodrome-finance",
+  "rank": 91,
+  "price": 0.5678025251696038,
+  "marketCap": 517487650.9751324,
+  "volume24h": 37772245.37742367,
+  "circulating": 911386667.0821123,
+  "totalSupply": 1814169285.4461882,
+  "maxSupply": null,
+  "percentChange1h": 0.54335795,
+  "percentChange24h": 3.65196281,
+  "percentChange7d": 22.74637136,
+  "lastUpdated": "2026-01-04T20:30:00.000Z",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/29270.png",
+  "tags": [
+    "defi",
+    "amm",
+    "base-ecosystem",
+    "binance-alpha",
+    "made-in-america",
+    "binance-ecosystem",
+    "binance-listing"
+  ],
+  "category": "token",
+  "platform": {
+    "id": "27716",
+    "name": "Base",
+    "slug": "base",
+    "symbol": "-",
+    "token_address": "0x940181a94a35a4569e4529a3cdfb74e38fd98631"
+  },
+  "selfReportedCirculatingSupply": 159975820.01,
+  "selfReportedMarketCap": 90834674.56775603,
+  "geckoId": "aerodrome-finance"
+}

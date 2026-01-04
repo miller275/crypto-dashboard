@@ -1,0 +1,41 @@
+{
+  "id": "23149",
+  "symbol": "SEI",
+  "name": "Sei",
+  "slug": "sei",
+  "rank": 73,
+  "price": 0.12375458273158935,
+  "marketCap": 803304747.0061884,
+  "volume24h": 60195769.16837234,
+  "circulating": 6491111111,
+  "totalSupply": 10000000000,
+  "maxSupply": null,
+  "percentChange1h": 0.26329653,
+  "percentChange24h": 2.61539948,
+  "percentChange7d": 8.56874347,
+  "lastUpdated": "2026-01-04T20:30:00.000Z",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/23149.png",
+  "tags": [
+    "coinbase-ventures-portfolio",
+    "multicoin-capital-portfolio",
+    "layer-1",
+    "jump-crypto",
+    "sei-ecosystem",
+    "parallel-evm",
+    "made-in-america",
+    "world-liberty-financial-portfolio",
+    "binance-ecosystem",
+    "binance-listing"
+  ],
+  "category": "coin",
+  "platform": {
+    "id": "23149",
+    "name": "Sei",
+    "slug": "sei",
+    "symbol": "SEI",
+    "token_address": "usei"
+  },
+  "selfReportedCirculatingSupply": null,
+  "selfReportedMarketCap": null,
+  "geckoId": "sei-network"
+}

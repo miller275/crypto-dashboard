@@ -1,0 +1,36 @@
+{
+  "id": "37322",
+  "symbol": "VSN",
+  "name": "Vision",
+  "slug": "vision-token",
+  "rank": 132,
+  "price": 0.08970938712447171,
+  "marketCap": 308531920.47872514,
+  "volume24h": 36907490.11873433,
+  "circulating": 3439237858.6940665,
+  "totalSupply": 4111158242.554716,
+  "maxSupply": 4200000000,
+  "percentChange1h": -0.16168924,
+  "percentChange24h": 0.06852046,
+  "percentChange7d": 12.16028028,
+  "lastUpdated": "2026-01-04T20:30:00.000Z",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/37322.png",
+  "tags": [
+    "ethereum-ecosystem",
+    "arbitrum-ecosystem",
+    "binance-alpha",
+    "binance-alpha-airdrops",
+    "binance-ecosystem"
+  ],
+  "category": "token",
+  "platform": {
+    "id": "1027",
+    "name": "Ethereum",
+    "slug": "ethereum",
+    "symbol": "ETH",
+    "token_address": "0x699ccf919c1dfdfa4c374292f42cadc9899bf753"
+  },
+  "selfReportedCirculatingSupply": null,
+  "selfReportedMarketCap": null,
+  "geckoId": "vision-3"
+}

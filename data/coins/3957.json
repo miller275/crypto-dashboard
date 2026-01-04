@@ -1,0 +1,38 @@
+{
+  "id": "3957",
+  "symbol": "LEO",
+  "name": "UNUS SED LEO",
+  "slug": "unus-sed-leo",
+  "rank": 15,
+  "price": 8.924716224009842,
+  "marketCap": 8226071230.680782,
+  "volume24h": 918929.78476084,
+  "circulating": 921717959.9,
+  "totalSupply": 985239504,
+  "maxSupply": null,
+  "percentChange1h": -0.06936502,
+  "percentChange24h": -3.76518591,
+  "percentChange7d": 5.80322862,
+  "lastUpdated": "2026-01-04T20:31:00.000Z",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/3957.png",
+  "tags": [
+    "marketplace",
+    "centralized-exchange",
+    "discount-token",
+    "payments",
+    "ethereum-ecosystem",
+    "kenetic-capital-portfolio",
+    "alameda-research-portfolio"
+  ],
+  "category": "token",
+  "platform": {
+    "id": "1027",
+    "name": "Ethereum",
+    "slug": "ethereum",
+    "symbol": "ETH",
+    "token_address": "0x2af5d2ad76741191d15dfe7bf6ac92d4bd912ca3"
+  },
+  "selfReportedCirculatingSupply": null,
+  "selfReportedMarketCap": null,
+  "geckoId": "leo-2"
+}

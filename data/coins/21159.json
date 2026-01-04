@@ -1,0 +1,38 @@
+{
+  "id": "21159",
+  "symbol": "ONDO",
+  "name": "Ondo",
+  "slug": "ondo-finance",
+  "rank": 55,
+  "price": 0.4375521178841494,
+  "marketCap": 1382274189.937712,
+  "volume24h": 72276492.71822625,
+  "circulating": 3159107529,
+  "totalSupply": 10000000000,
+  "maxSupply": null,
+  "percentChange1h": 0.59981838,
+  "percentChange24h": 3.68616349,
+  "percentChange7d": 13.80458661,
+  "lastUpdated": "2026-01-04T20:30:00.000Z",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/21159.png",
+  "tags": [
+    "ethereum-ecosystem",
+    "real-world-assets-protocols",
+    "cmc-crypto-yearbook-2024-2025",
+    "made-in-america",
+    "world-liberty-financial-portfolio",
+    "binance-ecosystem",
+    "binance-listing"
+  ],
+  "category": "token",
+  "platform": {
+    "id": "1027",
+    "name": "Ethereum",
+    "slug": "ethereum",
+    "symbol": "ETH",
+    "token_address": "0xfaba6f8e4a5e8ab82f62fe7c39859fa577269be3"
+  },
+  "selfReportedCirculatingSupply": null,
+  "selfReportedMarketCap": null,
+  "geckoId": "ondo-finance"
+}

@@ -1,0 +1,39 @@
+{
+  "id": "30171",
+  "symbol": "ENA",
+  "name": "Ethena",
+  "slug": "ethena",
+  "rank": 43,
+  "price": 0.24689613225332047,
+  "marketCap": 1898785567.1106927,
+  "volume24h": 160387570.59153822,
+  "circulating": 7690625000,
+  "totalSupply": 15000000000,
+  "maxSupply": 15000000000,
+  "percentChange1h": 0.80104798,
+  "percentChange24h": 4.79540496,
+  "percentChange7d": 19.20712207,
+  "lastUpdated": "2026-01-04T20:30:00.000Z",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/30171.png",
+  "tags": [
+    "defi",
+    "ethereum-ecosystem",
+    "binance-labs-portfolio",
+    "okx-ventures-portfolio",
+    "cmc-crypto-yearbook-2024-2025",
+    "world-liberty-financial-portfolio",
+    "binance-ecosystem",
+    "binance-listing"
+  ],
+  "category": "token",
+  "platform": {
+    "id": "1027",
+    "name": "Ethereum",
+    "slug": "ethereum",
+    "symbol": "ETH",
+    "token_address": "0x57e114B691Db790C35207b2e685D4A43181e6061"
+  },
+  "selfReportedCirculatingSupply": 1479139274,
+  "selfReportedMarketCap": 365193765.81458443,
+  "geckoId": "ethena"
+}

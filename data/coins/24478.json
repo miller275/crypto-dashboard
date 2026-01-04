@@ -1,0 +1,36 @@
+{
+  "id": "24478",
+  "symbol": "PEPE",
+  "name": "Pepe",
+  "slug": "pepe",
+  "rank": 34,
+  "price": 0.000007021650310685067,
+  "marketCap": 2953937364.604367,
+  "volume24h": 1442650732.9820604,
+  "circulating": 420689899653542.56,
+  "totalSupply": 420689899653542.56,
+  "maxSupply": 420689899653542.56,
+  "percentChange1h": 2.07097961,
+  "percentChange24h": 14.84244842,
+  "percentChange7d": 69.34214928,
+  "lastUpdated": "2026-01-04T20:31:00.000Z",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/24478.png",
+  "tags": [
+    "memes",
+    "ethereum-ecosystem",
+    "binance-ecosystem",
+    "binance-listing",
+    "etherlink-ecosystem"
+  ],
+  "category": "token",
+  "platform": {
+    "id": "1027",
+    "name": "Ethereum",
+    "slug": "ethereum",
+    "symbol": "ETH",
+    "token_address": "0x6982508145454ce325ddbe47a25d4ec3d2311933"
+  },
+  "selfReportedCirculatingSupply": null,
+  "selfReportedMarketCap": null,
+  "geckoId": "pepe"
+}

@@ -1,0 +1,41 @@
+{
+  "id": "34104",
+  "symbol": "MORPHO",
+  "name": "Morpho",
+  "slug": "morpho",
+  "rank": 101,
+  "price": 1.1618946956491054,
+  "marketCap": 436407796.67341477,
+  "volume24h": 20275900.32949303,
+  "circulating": 375600128.228153,
+  "totalSupply": 999999999.8010328,
+  "maxSupply": 1000000000,
+  "percentChange1h": 0.49836678,
+  "percentChange24h": 2.737857,
+  "percentChange7d": -0.57305841,
+  "lastUpdated": "2026-01-04T20:30:00.000Z",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/34104.png",
+  "tags": [
+    "defi",
+    "ethereum-ecosystem",
+    "coinbase-ventures-portfolio",
+    "lending-borowing",
+    "fenbushi-capital-portfolio",
+    "pantera-capital-portfolio",
+    "arbitrum-ecosystem",
+    "base-ecosystem",
+    "binance-ecosystem",
+    "binance-listing"
+  ],
+  "category": "token",
+  "platform": {
+    "id": "1027",
+    "name": "Ethereum",
+    "slug": "ethereum",
+    "symbol": "ETH",
+    "token_address": "0x58D97B57BB95320F9a05dC918Aef65434969c2B2"
+  },
+  "selfReportedCirculatingSupply": 112000000,
+  "selfReportedMarketCap": 130132205.9126998,
+  "geckoId": "morpho"
+}

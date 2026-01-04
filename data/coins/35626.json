@@ -1,0 +1,31 @@
+{
+  "id": "35626",
+  "symbol": "IP",
+  "name": "Story",
+  "slug": "story-protocol",
+  "rank": 75,
+  "price": 2.1560843780480416,
+  "marketCap": 734903688.8288033,
+  "volume24h": 70202139.56273296,
+  "circulating": 340851080,
+  "totalSupply": 1021330250,
+  "maxSupply": null,
+  "percentChange1h": 0.68543075,
+  "percentChange24h": 3.31305807,
+  "percentChange7d": 42.7020889,
+  "lastUpdated": "2026-01-04T20:30:00.000Z",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/35626.png",
+  "tags": [
+    "ai-big-data",
+    "smart-contracts",
+    "layer-1",
+    "made-in-america",
+    "binance-ecosystem",
+    "binance-listing"
+  ],
+  "category": "coin",
+  "platform": null,
+  "selfReportedCirculatingSupply": 250000000,
+  "selfReportedMarketCap": 539021094.5120105,
+  "geckoId": "story-2"
+}

@@ -1,0 +1,36 @@
+{
+  "id": "11840",
+  "symbol": "OP",
+  "name": "Optimism",
+  "slug": "optimism-ethereum",
+  "rank": 80,
+  "price": 0.3179431108999407,
+  "marketCap": 618110816.3734137,
+  "volume24h": 71343874.73305346,
+  "circulating": 1944092497,
+  "totalSupply": 4294967296,
+  "maxSupply": 4294967296,
+  "percentChange1h": 0.36857867,
+  "percentChange24h": 2.86417549,
+  "percentChange7d": 17.35803894,
+  "lastUpdated": "2026-01-04T20:30:00.000Z",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/11840.png",
+  "tags": [
+    "layer-2",
+    "optimism-ecosystem",
+    "made-in-america",
+    "binance-ecosystem",
+    "binance-listing"
+  ],
+  "category": "token",
+  "platform": {
+    "id": "11840",
+    "name": "Optimism",
+    "slug": "optimism-ethereum",
+    "symbol": "OP",
+    "token_address": "0x4200000000000000000000000000000000000042"
+  },
+  "selfReportedCirculatingSupply": null,
+  "selfReportedMarketCap": null,
+  "geckoId": "optimism"
+}

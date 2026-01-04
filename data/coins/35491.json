@@ -1,0 +1,38 @@
+{
+  "id": "35491",
+  "symbol": "M",
+  "name": "MemeCore",
+  "slug": "memecore",
+  "rank": 41,
+  "price": 1.5766867368803303,
+  "marketCap": 1975979891.802761,
+  "volume24h": 12162017.56377509,
+  "circulating": 1253248248.7374008,
+  "totalSupply": 5320565021.244626,
+  "maxSupply": 10000000000,
+  "percentChange1h": -0.44783325,
+  "percentChange24h": -1.88115779,
+  "percentChange7d": 2.56608749,
+  "lastUpdated": "2026-01-04T20:30:00.000Z",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/35491.png",
+  "tags": [
+    "memes",
+    "bnb-chain-ecosystem",
+    "layer-1",
+    "binance-alpha",
+    "binance-alpha-airdrops",
+    "binance-ecosystem",
+    "binance-listing"
+  ],
+  "category": "token",
+  "platform": {
+    "id": "1839",
+    "name": "BNB",
+    "slug": "bnb",
+    "symbol": "BNB",
+    "token_address": "0x22b1458e780f8fa71e2f84502cee8b5a3cc731fa"
+  },
+  "selfReportedCirculatingSupply": null,
+  "selfReportedMarketCap": null,
+  "geckoId": "memecore"
+}

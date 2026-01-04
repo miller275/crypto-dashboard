@@ -1,0 +1,36 @@
+{
+  "id": "10529",
+  "symbol": "SUN",
+  "name": "Sun [New]",
+  "slug": "sun-token",
+  "rank": 115,
+  "price": 0.02004954034897365,
+  "marketCap": 384852273.0607541,
+  "volume24h": 14249302.97868865,
+  "circulating": 19195067136.81119,
+  "totalSupply": 19900730000,
+  "maxSupply": 19900730000,
+  "percentChange1h": 0.08177905,
+  "percentChange24h": 2.05285789,
+  "percentChange7d": 4.04897494,
+  "lastUpdated": "2026-01-04T20:30:00.000Z",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/10529.png",
+  "tags": [
+    "tron-ecosystem",
+    "tron20-ecosystem",
+    "binance-ecosystem",
+    "binance-listing",
+    "made-in-china"
+  ],
+  "category": "token",
+  "platform": {
+    "id": "1958",
+    "name": "TRON",
+    "slug": "tron",
+    "symbol": "TRX",
+    "token_address": "TSSMHYeV2uE9qYH95DqyoCuNCzEL1NvU3S"
+  },
+  "selfReportedCirculatingSupply": null,
+  "selfReportedMarketCap": null,
+  "geckoId": "sun-token"
+}

@@ -1,0 +1,40 @@
+{
+  "id": "33824",
+  "symbol": "SYRUP",
+  "name": "Maple Finance",
+  "slug": "maple-finance",
+  "rank": 105,
+  "price": 0.36511361121644176,
+  "marketCap": 419755904.6257573,
+  "volume24h": 16047946.46734474,
+  "circulating": 1149658330.258532,
+  "totalSupply": 1216127147.9985635,
+  "maxSupply": null,
+  "percentChange1h": 1.11257444,
+  "percentChange24h": 3.89386436,
+  "percentChange7d": 12.70300192,
+  "lastUpdated": "2026-01-04T20:31:00.000Z",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/33824.png",
+  "tags": [
+    "defi",
+    "dao",
+    "ethereum-ecosystem",
+    "framework-ventures-portfolio",
+    "real-world-assets-protocols",
+    "circle-ventures-portfolio",
+    "base-ecosystem",
+    "binance-ecosystem",
+    "binance-listing"
+  ],
+  "category": "token",
+  "platform": {
+    "id": "1027",
+    "name": "Ethereum",
+    "slug": "ethereum",
+    "symbol": "ETH",
+    "token_address": "0x643C4E15d7d62Ad0aBeC4a9BD4b001aA3Ef52d66"
+  },
+  "selfReportedCirculatingSupply": 1069174126.22,
+  "selfReportedMarketCap": 390370026.2433679,
+  "geckoId": "syrup"
+}

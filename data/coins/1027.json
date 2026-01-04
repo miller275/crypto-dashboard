@@ -1,48 +1,62 @@
 {
-  "id": 1027,
+  "id": "1027",
   "symbol": "ETH",
   "name": "Ethereum",
-  "image": {
-    "large": "assets/img/coin.svg",
-    "small": "assets/img/coin.svg",
-    "thumb": "assets/img/coin.svg"
-  },
-  "market_cap_rank": 2,
-  "asset_platform_id": null,
-  "description": {
-    "en": "Sample snapshot for Ethereum. Run GitHub Actions to fetch real CoinMarketCap data."
-  },
-  "links": {
-    "homepage": [],
-    "blockchain_site": [],
-    "official_forum_url": [],
-    "chat_url": [],
-    "announcement_url": [],
-    "twitter_screen_name": "",
-    "facebook_username": "",
-    "subreddit_url": "",
-    "repos_url": {
-      "github": []
-    }
-  },
-  "market_data": {
-    "current_price": {
-      "usd": 2284.58
-    },
-    "market_cap": {
-      "usd": null
-    },
-    "total_volume": {
-      "usd": null
-    },
-    "price_change_percentage_1h_in_currency": {
-      "usd": null
-    },
-    "price_change_percentage_24h": null,
-    "price_change_percentage_7d": null,
-    "circulating_supply": null,
-    "total_supply": null,
-    "max_supply": null
-  },
-  "last_updated": "2026-01-04T18:40:57.963081Z"
+  "slug": "ethereum",
+  "rank": 2,
+  "price": 3138.7929029123898,
+  "marketCap": 378836173675.2763,
+  "volume24h": 13621153636.768982,
+  "circulating": 120694861.17537919,
+  "totalSupply": 120694861.17537919,
+  "maxSupply": null,
+  "percentChange1h": 0.30101157,
+  "percentChange24h": 0.97548673,
+  "percentChange7d": 7.0507103,
+  "lastUpdated": "2026-01-04T20:30:00.000Z",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/1027.png",
+  "tags": [
+    "pos",
+    "smart-contracts",
+    "ethereum-ecosystem",
+    "coinbase-ventures-portfolio",
+    "three-arrows-capital-portfolio",
+    "polychain-capital-portfolio",
+    "binance-labs-portfolio",
+    "blockchain-capital-portfolio",
+    "boostvc-portfolio",
+    "cms-holdings-portfolio",
+    "dcg-portfolio",
+    "dragonfly-capital-portfolio",
+    "electric-capital-portfolio",
+    "fabric-ventures-portfolio",
+    "framework-ventures-portfolio",
+    "hashkey-capital-portfolio",
+    "kenetic-capital-portfolio",
+    "huobi-capital-portfolio",
+    "alameda-research-portfolio",
+    "a16z-portfolio",
+    "1confirmation-portfolio",
+    "winklevoss-capital-portfolio",
+    "usv-portfolio",
+    "placeholder-ventures-portfolio",
+    "pantera-capital-portfolio",
+    "multicoin-capital-portfolio",
+    "paradigm-portfolio",
+    "ethereum-pow-ecosystem",
+    "layer-1",
+    "ftx-bankruptcy-estate",
+    "sora-ecosystem",
+    "rsk-rbtc-ecosystem",
+    "world-liberty-financial-portfolio",
+    "us-strategic-crypto-reserve",
+    "binance-ecosystem",
+    "binance-listing",
+    "sophon-ecosystem"
+  ],
+  "category": "coin",
+  "platform": null,
+  "selfReportedCirculatingSupply": null,
+  "selfReportedMarketCap": null,
+  "geckoId": "ethereum"
 }

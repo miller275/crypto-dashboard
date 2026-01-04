@@ -1,0 +1,38 @@
+{
+  "id": "13855",
+  "symbol": "ENS",
+  "name": "Ethereum Name Service",
+  "slug": "ethereum-name-service",
+  "rank": 111,
+  "price": 10.317596889102514,
+  "marketCap": 394055849.4908883,
+  "volume24h": 27922410.08128335,
+  "circulating": 38192599.85889656,
+  "totalSupply": 100000000,
+  "maxSupply": null,
+  "percentChange1h": 0.25455478,
+  "percentChange24h": 1.77344633,
+  "percentChange7d": 6.43622405,
+  "lastUpdated": "2026-01-04T20:30:00.000Z",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/13855.png",
+  "tags": [
+    "dao",
+    "ethereum-ecosystem",
+    "governance",
+    "solana-ecosystem",
+    "web3",
+    "binance-ecosystem",
+    "binance-listing"
+  ],
+  "category": "token",
+  "platform": {
+    "id": "1027",
+    "name": "Ethereum",
+    "slug": "ethereum",
+    "symbol": "ETH",
+    "token_address": "0xC18360217D8F7Ab5e7c516566761Ea12Ce7F9D72"
+  },
+  "selfReportedCirculatingSupply": null,
+  "selfReportedMarketCap": null,
+  "geckoId": "ethereum-name-service"
+}

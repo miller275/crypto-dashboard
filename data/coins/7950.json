@@ -1,0 +1,27 @@
+{
+  "id": "7950",
+  "symbol": "FLR",
+  "name": "Flare",
+  "slug": "flare",
+  "rank": 68,
+  "price": 0.011694643388891767,
+  "marketCap": 965884610.7491959,
+  "volume24h": 6268391.92438697,
+  "circulating": 82592053355.5258,
+  "totalSupply": 104626204952.64056,
+  "maxSupply": null,
+  "percentChange1h": 1.47475189,
+  "percentChange24h": 5.98225733,
+  "percentChange7d": 4.39691274,
+  "lastUpdated": "2026-01-04T20:30:00.000Z",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/7950.png",
+  "tags": [
+    "layer-1",
+    "dwf-labs-portfolio"
+  ],
+  "category": "coin",
+  "platform": null,
+  "selfReportedCirculatingSupply": 82592053355.53,
+  "selfReportedMarketCap": 965884610.749245,
+  "geckoId": "flare-networks"
+}

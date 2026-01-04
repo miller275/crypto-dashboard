@@ -1,0 +1,37 @@
+{
+  "id": "26081",
+  "symbol": "FDUSD",
+  "name": "First Digital USD",
+  "slug": "first-digital-usd",
+  "rank": 94,
+  "price": 0.9990484826000776,
+  "marketCap": 505831392.7095734,
+  "volume24h": 2626366432.7157507,
+  "circulating": 506313158.489686,
+  "totalSupply": 506313158.489686,
+  "maxSupply": null,
+  "percentChange1h": 0.03121604,
+  "percentChange24h": -0.00390922,
+  "percentChange7d": 0.0909409,
+  "lastUpdated": "2026-01-04T20:30:00.000Z",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/26081.png",
+  "tags": [
+    "stablecoin",
+    "binance-smart-chain",
+    "usd-stablecoin",
+    "fiat-stablecoin",
+    "binance-ecosystem",
+    "binance-listing"
+  ],
+  "category": "token",
+  "platform": {
+    "id": "1027",
+    "name": "Ethereum",
+    "slug": "ethereum",
+    "symbol": "ETH",
+    "token_address": "0xc5f0f7b66764F6ec8C8Dff7BA683102295E16409"
+  },
+  "selfReportedCirculatingSupply": 506313158.49,
+  "selfReportedMarketCap": 505831392.7098871,
+  "geckoId": "first-digital-usd"
+}

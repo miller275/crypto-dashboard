@@ -1,0 +1,36 @@
+{
+  "id": "27772",
+  "symbol": "PYUSD",
+  "name": "PayPal USD",
+  "slug": "paypal-usd",
+  "rank": 30,
+  "price": 0.9994700274469337,
+  "marketCap": 3626719858.694259,
+  "volume24h": 40256486.28721717,
+  "circulating": 3628642939.857261,
+  "totalSupply": 3628642939.857261,
+  "maxSupply": null,
+  "percentChange1h": -0.00765166,
+  "percentChange24h": -0.00009987,
+  "percentChange7d": -0.00774112,
+  "lastUpdated": "2026-01-04T20:31:00.000Z",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/27772.png",
+  "tags": [
+    "stablecoin",
+    "asset-backed-stablecoin",
+    "stellar-ecosystem",
+    "usd-stablecoin",
+    "fiat-stablecoin"
+  ],
+  "category": "token",
+  "platform": {
+    "id": "1027",
+    "name": "Ethereum",
+    "slug": "ethereum",
+    "symbol": "ETH",
+    "token_address": "0x6c3ea9036406852006290770bedfcaba0e23a0e8"
+  },
+  "selfReportedCirculatingSupply": null,
+  "selfReportedMarketCap": null,
+  "geckoId": "paypal-usd"
+}

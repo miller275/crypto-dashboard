@@ -1,0 +1,39 @@
+{
+  "id": "32196",
+  "symbol": "HYPE",
+  "name": "Hyperliquid",
+  "slug": "hyperliquid",
+  "rank": 13,
+  "price": 26.180044637641465,
+  "marketCap": 8884136336.698242,
+  "volume24h": 178058258.70335552,
+  "circulating": 339347639,
+  "totalSupply": 961671487.86,
+  "maxSupply": 961671487.86,
+  "percentChange1h": 1.03179944,
+  "percentChange24h": 6.88800063,
+  "percentChange7d": 4.32949725,
+  "lastUpdated": "2026-01-04T20:31:00.000Z",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/32196.png",
+  "tags": [
+    "decentralized-exchange-dex-token",
+    "defi",
+    "derivatives",
+    "layer-1",
+    "hyperliquid-ecosystem",
+    "binance-ecosystem",
+    "binance-listing",
+    "perp-dex-coins"
+  ],
+  "category": "token",
+  "platform": {
+    "id": "32196",
+    "name": "Hyperliquid",
+    "slug": "hyperliquid",
+    "symbol": "HYPE",
+    "token_address": "0x0d01dc56dcaaca66ad901c959b4011ec"
+  },
+  "selfReportedCirculatingSupply": 333931719,
+  "selfReportedMarketCap": 8742347309.344347,
+  "geckoId": "hyperliquid"
+}

@@ -1,0 +1,41 @@
+{
+  "id": "36645",
+  "symbol": "XPL",
+  "name": "Plasma",
+  "slug": "plasma-xpl",
+  "rank": 128,
+  "price": 0.19094782833290336,
+  "marketCap": 343706090.99922603,
+  "volume24h": 155691732.62147695,
+  "circulating": 1800000000,
+  "totalSupply": 10000000000,
+  "maxSupply": null,
+  "percentChange1h": 0.0334276,
+  "percentChange24h": 0.50912898,
+  "percentChange7d": 23.23747604,
+  "lastUpdated": "2026-01-04T20:31:00.000Z",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/36645.png",
+  "tags": [
+    "payments",
+    "bitcoin-ecosystem",
+    "layer-1",
+    "binance-hodler-airdrops",
+    "binance-alpha-airdrops",
+    "binance-ecosystem",
+    "binance-listing",
+    "stablecoin-protocol",
+    "plasma-ecosystem",
+    "neobank"
+  ],
+  "category": "coin",
+  "platform": {
+    "id": "1839",
+    "name": "BNB",
+    "slug": "bnb",
+    "symbol": "BNB",
+    "token_address": "0x405FBc9004D857903bFD6b3357792D71a50726b0"
+  },
+  "selfReportedCirculatingSupply": 1800000000,
+  "selfReportedMarketCap": 343706090.99922603,
+  "geckoId": "plasma"
+}

@@ -1,0 +1,36 @@
+{
+  "id": "5488",
+  "symbol": "JST",
+  "name": "JUST",
+  "slug": "just",
+  "rank": 117,
+  "price": 0.040024328907179114,
+  "marketCap": 373831591.4662239,
+  "volume24h": 23275004.90460794,
+  "circulating": 9340108920.581306,
+  "totalSupply": 9340108920.581306,
+  "maxSupply": null,
+  "percentChange1h": 0.17605434,
+  "percentChange24h": 2.21887039,
+  "percentChange7d": 3.00812959,
+  "lastUpdated": "2026-01-04T20:31:00.000Z",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/5488.png",
+  "tags": [
+    "defi",
+    "tron-ecosystem",
+    "tron20-ecosystem",
+    "binance-ecosystem",
+    "binance-listing"
+  ],
+  "category": "token",
+  "platform": {
+    "id": "1958",
+    "name": "TRON",
+    "slug": "tron",
+    "symbol": "TRX",
+    "token_address": "TCFLL5dx5ZJdKnWuesXxi1VPwjLVmWZZy9"
+  },
+  "selfReportedCirculatingSupply": 9900000000,
+  "selfReportedMarketCap": 396240856.18107325,
+  "geckoId": "just"
+}

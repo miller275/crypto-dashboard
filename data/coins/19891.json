@@ -1,0 +1,36 @@
+{
+  "id": "19891",
+  "symbol": "USDD",
+  "name": "USDD",
+  "slug": "usdd",
+  "rank": 70,
+  "price": 0.9995152571645094,
+  "marketCap": 893244698.0397692,
+  "volume24h": 30850100.52340193,
+  "circulating": 893677902,
+  "totalSupply": 893677902,
+  "maxSupply": null,
+  "percentChange1h": 0.00688615,
+  "percentChange24h": 0.01347674,
+  "percentChange7d": 0.07324875,
+  "lastUpdated": "2026-01-04T20:30:00.000Z",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/19891.png",
+  "tags": [
+    "stablecoin",
+    "algorithmic-stablecoin",
+    "usd-stablecoin",
+    "tron20-ecosystem",
+    "made-in-china"
+  ],
+  "category": "token",
+  "platform": {
+    "id": "1958",
+    "name": "TRON",
+    "slug": "tron",
+    "symbol": "TRX",
+    "token_address": "TXDk8mbtRbXeYuMNS83CfKPaYYT8XWv9Hz"
+  },
+  "selfReportedCirculatingSupply": 7492353.08,
+  "selfReportedMarketCap": 7488721.215523504,
+  "geckoId": "usdd"
+}

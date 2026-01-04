@@ -1,0 +1,42 @@
+{
+  "id": "1321",
+  "symbol": "ETC",
+  "name": "Ethereum Classic",
+  "slug": "ethereum-classic",
+  "rank": 40,
+  "price": 12.79890895649909,
+  "marketCap": 1983742614.1421418,
+  "volume24h": 65899742.06570067,
+  "circulating": 154993102.99686345,
+  "totalSupply": 210700000,
+  "maxSupply": 210700000,
+  "percentChange1h": 0.32393142,
+  "percentChange24h": 2.68796519,
+  "percentChange7d": 6.13276075,
+  "lastUpdated": "2026-01-04T20:30:00.000Z",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/1321.png",
+  "tags": [
+    "mineable",
+    "pow",
+    "ethash",
+    "platform",
+    "smart-contracts",
+    "dcg-portfolio",
+    "layer-1",
+    "2017-2018-alt-season",
+    "ethereum-classic-ecosystem",
+    "binance-ecosystem",
+    "binance-listing"
+  ],
+  "category": "coin",
+  "platform": {
+    "id": "1839",
+    "name": "BNB",
+    "slug": "bnb",
+    "symbol": "BNB",
+    "token_address": "0x3d6545b08693dae087e957cb1180ee38b9e3c25e"
+  },
+  "selfReportedCirculatingSupply": null,
+  "selfReportedMarketCap": null,
+  "geckoId": "ethereum-classic"
+}

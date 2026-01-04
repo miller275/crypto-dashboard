@@ -1,0 +1,38 @@
+{
+  "id": "38515",
+  "symbol": "2Z",
+  "name": "DoubleZero",
+  "slug": "doublezero",
+  "rank": 100,
+  "price": 0.12757498149983318,
+  "marketCap": 442866023.34069717,
+  "volume24h": 11964817.26085186,
+  "circulating": 3471417500,
+  "totalSupply": 9999491365.9,
+  "maxSupply": 10000000000,
+  "percentChange1h": 0.11833081,
+  "percentChange24h": -0.46030479,
+  "percentChange7d": 10.90217258,
+  "lastUpdated": "2026-01-04T20:30:00.000Z",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/38515.png",
+  "tags": [
+    "hardware",
+    "solana-ecosystem",
+    "dragonfly-capital-portfolio",
+    "multicoin-capital-portfolio",
+    "binance-alpha-airdrops",
+    "binance-ecosystem",
+    "binance-listing"
+  ],
+  "category": "token",
+  "platform": {
+    "id": "5426",
+    "name": "Solana",
+    "slug": "solana",
+    "symbol": "SOL",
+    "token_address": "J6pQQ3FAcJQeWPPGppWRb4nM8jU3wLyYbRrLh7feMfvd"
+  },
+  "selfReportedCirculatingSupply": 3470908866.1,
+  "selfReportedMarketCap": 442801134.38031447,
+  "geckoId": "doublezero"
+}

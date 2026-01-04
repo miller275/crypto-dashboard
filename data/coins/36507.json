@@ -1,0 +1,36 @@
+{
+  "id": "36507",
+  "symbol": "PUMP",
+  "name": "Pump.fun",
+  "slug": "pump-fun",
+  "rank": 72,
+  "price": 0.0023204585677086627,
+  "marketCap": 821442332.9688666,
+  "volume24h": 143272518.84125286,
+  "circulating": 354000000000,
+  "totalSupply": 1000000000000,
+  "maxSupply": 1000000000000,
+  "percentChange1h": 0.84526808,
+  "percentChange24h": 2.60262515,
+  "percentChange7d": 25.90890237,
+  "lastUpdated": "2026-01-04T20:30:00.000Z",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/36507.png",
+  "tags": [
+    "launchpad",
+    "solana-ecosystem",
+    "pump-fun-ecosystem",
+    "binance-ecosystem",
+    "binance-listing"
+  ],
+  "category": "token",
+  "platform": {
+    "id": "5426",
+    "name": "Solana",
+    "slug": "solana",
+    "symbol": "SOL",
+    "token_address": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn"
+  },
+  "selfReportedCirculatingSupply": 590000000000,
+  "selfReportedMarketCap": 1369070554.948111,
+  "geckoId": "pump-fun"
+}

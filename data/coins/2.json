@@ -1,0 +1,41 @@
+{
+  "id": "2",
+  "symbol": "LTC",
+  "name": "Litecoin",
+  "slug": "litecoin",
+  "rank": 19,
+  "price": 82.19140102367732,
+  "marketCap": 6304191066.235465,
+  "volume24h": 318910714.01324224,
+  "circulating": 76701345.73347135,
+  "totalSupply": 84000000,
+  "maxSupply": 84000000,
+  "percentChange1h": 0.23985546,
+  "percentChange24h": 0.10584711,
+  "percentChange7d": 4.97494816,
+  "lastUpdated": "2026-01-04T20:31:00.000Z",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/2.png",
+  "tags": [
+    "mineable",
+    "pow",
+    "scrypt",
+    "medium-of-exchange",
+    "privacy",
+    "layer-1",
+    "2017-2018-alt-season",
+    "made-in-america",
+    "binance-ecosystem",
+    "binance-listing"
+  ],
+  "category": "coin",
+  "platform": {
+    "id": "2502",
+    "name": "Huobi Token",
+    "slug": "htx-token",
+    "symbol": "HT",
+    "token_address": "0xecb56cf772b5c9a6907fb7d32387da2fcbfb63b4"
+  },
+  "selfReportedCirculatingSupply": null,
+  "selfReportedMarketCap": null,
+  "geckoId": "litecoin"
+}

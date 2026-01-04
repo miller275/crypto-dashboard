@@ -1,0 +1,39 @@
+{
+  "id": "36148",
+  "symbol": "USD1",
+  "name": "World Liberty Financial USD",
+  "slug": "usd1",
+  "rank": 33,
+  "price": 1.0004685078174613,
+  "marketCap": 3312740110.9902186,
+  "volume24h": 738904125.1899096,
+  "circulating": 3311188793.1555347,
+  "totalSupply": 3311188793.1555347,
+  "maxSupply": null,
+  "percentChange1h": 0.00916916,
+  "percentChange24h": 0.01164094,
+  "percentChange7d": 0.02475994,
+  "lastUpdated": "2026-01-04T20:30:00.000Z",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/36148.png",
+  "tags": [
+    "stablecoin",
+    "usd-stablecoin",
+    "tron20-ecosystem",
+    "made-in-america",
+    "world-liberty-financial-portfolio",
+    "binance-ecosystem",
+    "binance-listing",
+    "wlfi-ecosystem"
+  ],
+  "category": "token",
+  "platform": {
+    "id": "1027",
+    "name": "Ethereum",
+    "slug": "ethereum",
+    "symbol": "ETH",
+    "token_address": "0x8d0D000Ee44948FC98c9B98A4FA4921476f08B0d"
+  },
+  "selfReportedCirculatingSupply": null,
+  "selfReportedMarketCap": null,
+  "geckoId": "usd1"
+}

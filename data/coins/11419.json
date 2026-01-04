@@ -1,0 +1,39 @@
+{
+  "id": "11419",
+  "symbol": "TON",
+  "name": "Toncoin",
+  "slug": "toncoin",
+  "rank": 27,
+  "price": 1.8736508482200356,
+  "marketCap": 4527698959.944588,
+  "volume24h": 114324108.38170119,
+  "circulating": 2416511573.7790165,
+  "totalSupply": 5150320095.310222,
+  "maxSupply": null,
+  "percentChange1h": 0.42164746,
+  "percentChange24h": 1.59241276,
+  "percentChange7d": 13.91860413,
+  "lastUpdated": "2026-01-04T20:30:00.000Z",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/11419.png",
+  "tags": [
+    "pos",
+    "layer-1",
+    "ftx-bankruptcy-estate",
+    "dwf-labs-portfolio",
+    "toncoin-ecosystem",
+    "cmc-crypto-yearbook-2024-2025",
+    "binance-ecosystem",
+    "binance-listing"
+  ],
+  "category": "coin",
+  "platform": {
+    "id": "1027",
+    "name": "Ethereum",
+    "slug": "ethereum",
+    "symbol": "ETH",
+    "token_address": "0x582d872a1b094fc48f5de31d3b73f2d9be47def1"
+  },
+  "selfReportedCirculatingSupply": null,
+  "selfReportedMarketCap": null,
+  "geckoId": "the-open-network"
+}

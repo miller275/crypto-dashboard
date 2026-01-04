@@ -1,0 +1,31 @@
+{
+  "id": "32684",
+  "symbol": "S",
+  "name": "Sonic",
+  "slug": "sonic",
+  "rank": 144,
+  "price": 0.0915606054480873,
+  "marketCap": 263694543.69049144,
+  "volume24h": 54399345.74060195,
+  "circulating": 2880000000,
+  "totalSupply": 3222625000,
+  "maxSupply": null,
+  "percentChange1h": 0.96556992,
+  "percentChange24h": 12.65408032,
+  "percentChange7d": 18.31301667,
+  "lastUpdated": "2026-01-04T20:31:00.000Z",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/32684.png",
+  "tags": [
+    "staking",
+    "galaxy-digital-portfolio",
+    "layer-1",
+    "sonic-ecosystem",
+    "binance-ecosystem",
+    "binance-listing"
+  ],
+  "category": "coin",
+  "platform": null,
+  "selfReportedCirculatingSupply": 3222625000,
+  "selfReportedMarketCap": 295065496.13214236,
+  "geckoId": "sonic-3"
+}
