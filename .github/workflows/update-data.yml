@@ -3,22 +3,34 @@ name: Update data snapshots (CMC)
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 */6 * * *" # every 6 hours
+    - cron: "*/30 * * * *" # every 30 minutes
 
 permissions:
   contents: write
+
+concurrency:
+  group: update-data-snapshots
+  cancel-in-progress: true
 
 jobs:
   update:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
+      - name: Checkout main (full history)
         uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
 
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
-          node-version: "20"
+          node-version: 20
+
+      - name: Sync with remote
+        run: |
+          git fetch origin main
+          git reset --hard origin/main
 
       - name: Update snapshots
         env:
@@ -28,8 +40,28 @@ jobs:
           LOGO_LIMIT: "150"
         run: node scripts/update-data.js
 
-      - name: Commit & push
-        uses: stefanzweifel/git-auto-commit-action@v5
-        with:
-          commit_message: "chore: update snapshots [skip ci]"
-          branch: main
+      - name: Commit & push (safe)
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data assets/img/coins || true
+
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+            exit 0
+          fi
+
+          git commit -m "chore: update snapshots [skip ci]"
+
+          # Retry push in case main advanced while job was running
+          for i in 1 2 3; do
+            git pull --rebase --autostash origin main || true
+            if git push origin HEAD:main; then
+              exit 0
+            fi
+            echo "Push failed (attempt $i). Retrying..."
+            sleep 5
+          done
+
+          echo "Push failed after retries."
+          exit 1
