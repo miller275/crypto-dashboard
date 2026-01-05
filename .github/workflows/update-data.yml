@@ -1,67 +1,59 @@
 name: Update data snapshots (CMC)
 
-concurrency:
-  group: update-data-snapshots
-  cancel-in-progress: true
-
 on:
-  workflow_dispatch:
   schedule:
-    - cron: "*/30 * * * *" # every 30 minutes
+    # Every hour
+    - cron: "0 * * * *"
+  workflow_dispatch:
 
-permissions:
-  contents: write
+concurrency:
+  group: crypto-dashboard-data-update
+  cancel-in-progress: true
 
 jobs:
   update:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    env:
+      TOP_LIMIT: 50
+      CHART_LIMIT: 50
+      LOGO_LIMIT: 150
+
     steps:
-      - name: Checkout main (full history)
+      - name: Checkout
         uses: actions/checkout@v4
         with:
-          ref: main
           fetch-depth: 0
 
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: "20"
 
+      # Prevent "branch is behind" failures by always starting from the latest remote main
       - name: Sync with remote
         run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git fetch origin main
           git reset --hard origin/main
 
       - name: Update snapshots
+        run: node scripts/update-data.js
         env:
           CMC_PRO_API_KEY: ${{ secrets.CMC_PRO_API_KEY }}
-          TOP_LIMIT: "50"
-          CHART_LIMIT: "50"
-          LOGO_LIMIT: "50"
-        run: node scripts/update-data.js
+          TOP_LIMIT: ${{ env.TOP_LIMIT }}
+          CHART_LIMIT: ${{ env.CHART_LIMIT }}
+          LOGO_LIMIT: ${{ env.LOGO_LIMIT }}
 
       - name: Commit & push (safe)
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data assets/img/coins || true
-
+          git add -A
           if git diff --cached --quiet; then
-            echo "No changes to commit."
+            echo "No changes to commit"
             exit 0
           fi
-
-          git commit -m "chore: update snapshots [skip ci]"
-
-          # Retry push in case main advanced while job was running
-          for i in 1 2 3; do
-            git pull --rebase --autostash origin main || true
-            if git push origin HEAD:main; then
-              exit 0
-            fi
-            echo "Push failed (attempt $i). Retrying..."
-            sleep 5
-          done
-
-          echo "Push failed after retries."
-          exit 1
+          git commit -m "chore(data): update snapshots"
+          git push origin HEAD:main
