@@ -7,71 +7,41 @@ concurrency:
 on:
   workflow_dispatch:
     inputs:
-      full_sync:
-        description: 'Perform full sync (download all logos)'
-        default: false
-        type: boolean
-      coins_limit:
-        description: 'Number of coins to update'
-        default: 50
+      top_limit:
+        description: 'Number of top coins to fetch'
+        default: 20
         type: number
-      force:
-        description: 'Force update even if no changes'
-        default: false
-        type: boolean
+      chart_limit:
+        description: 'Number of chart data points'
+        default: 30
+        type: number
+      logo_limit:
+        description: 'Number of logos to fetch'
+        default: 20
+        type: number
   schedule:
-    # Run every 30 minutes
-    - cron: "*/30 * * * *"
-    # Additional daily full sync at 2 AM UTC
-    - cron: "0 2 * * *"
-
-env:
-  NODE_VERSION: '20'
-  DATA_DIR: './data'
-  ASSETS_DIR: './assets/img/coins'
+    # Run every 60 minutes (увеличил интервал из-за rate limits)
+    - cron: "0 * * * *"
 
 permissions:
   contents: write
 
 jobs:
-  validate:
-    runs-on: ubuntu-latest
-    timeout-minutes: 5
-    outputs:
-      should_run: ${{ steps.check.outputs.should_run }}
-    steps:
-      - name: Check workflow requirements
-        id: check
-        run: |
-          SHOULD_RUN=true
-          
-          # Skip if secrets are not configured
-          if [[ -z "${{ secrets.CMC_PRO_API_KEY }}" ]]; then
-            echo "CMC_PRO_API_KEY is not set. Skipping workflow."
-            SHOULD_RUN=false
-          fi
-          
-          echo "should_run=$SHOULD_RUN" >> $GITHUB_OUTPUT
-          echo "Should run: $SHOULD_RUN"
-
   update-data:
     runs-on: ubuntu-latest
-    needs: validate
-    if: needs.validate.outputs.should_run == 'true'
     timeout-minutes: 30
     
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          ref: ${{ github.ref }}
+          ref: main
           fetch-depth: 0
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: ${{ env.NODE_VERSION }}
-          # Убираем cache отсюда, так как будем использовать свой cache
+          node-version: '20'
 
       - name: Cache npm dependencies
         if: hashFiles('package-lock.json') != ''
@@ -80,7 +50,7 @@ jobs:
         with:
           path: |
             ~/.npm
-            **/node_modules
+            node_modules
           key: ${{ runner.os }}-node-${{ hashFiles('package-lock.json') }}
           restore-keys: |
             ${{ runner.os }}-node-
@@ -95,122 +65,170 @@ jobs:
             npm install --no-audit --no-fund --silent
           fi
 
+      - name: Create necessary directories
+        run: |
+          echo "Creating directories..."
+          mkdir -p data assets/img/coins
+          echo "Directories created/verified"
+          
+          # Debug: show directory structure
+          echo "Current directory structure:"
+          ls -la
+          echo "Data directory:"
+          ls -la data/ 2>/dev/null || echo "No data directory yet"
+          echo "Assets directory:"
+          ls -la assets/img/coins/ 2>/dev/null || echo "No assets directory yet"
+
       - name: Configure Git
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config --global pull.rebase true
 
       - name: Pull latest changes
         run: |
           echo "Pulling latest changes from main..."
-          git pull origin main --ff-only || echo "Fast-forward not possible, continuing with current state"
-
-      - name: Create directories if they don't exist
-        run: |
-          mkdir -p ${{ env.DATA_DIR }} ${{ env.ASSETS_DIR }}
-          echo "Directories created/verified"
+          git pull origin main --no-rebase --no-ff || echo "Pull had conflicts, continuing"
 
       - name: Run data update script
         id: update
         env:
-          CMC_API_KEY: ${{ secrets.CMC_PRO_API_KEY }}
-          COINS_LIMIT: ${{ github.event.inputs.coins_limit || 50 }}
-          FULL_SYNC: ${{ github.event.inputs.full_sync || false }}
+          # Используем CMC_PRO_API_KEY вместо CMC_API_KEY
+          CMC_PRO_API_KEY: ${{ secrets.CMC_PRO_API_KEY }}
+          TOP_LIMIT: ${{ github.event.inputs.top_limit || 20 }}
+          CHART_LIMIT: ${{ github.event.inputs.chart_limit || 30 }}
+          LOGO_LIMIT: ${{ github.event.inputs.logo_limit || 20 }}
+          # Добавляем задержку между запросами для избежания 429
+          REQUEST_DELAY: 1000
           NODE_ENV: 'production'
         run: |
+          set -e
+          
           echo "Starting data update..."
-          echo "Coins limit: $COINS_LIMIT"
-          echo "Full sync: $FULL_SYNC"
+          echo "Environment variables:"
+          echo "TOP_LIMIT: $TOP_LIMIT"
+          echo "CHART_LIMIT: $CHART_LIMIT"
+          echo "LOGO_LIMIT: $LOGO_LIMIT"
+          echo "REQUEST_DELAY: $REQUEST_DELAY ms"
+          echo "Current directory: $(pwd)"
           
           # Check if update script exists
           if [ ! -f "scripts/update-data.js" ]; then
             echo "Error: update-data.js not found in scripts/"
-            echo "Available files in scripts/:"
-            ls -la scripts/ 2>/dev/null || echo "scripts/ directory not found"
+            echo "Available files:"
+            find . -name "*.js" -type f | head -20
             exit 1
           fi
           
-          # Run the update script
-          node scripts/update-data.js
+          # Create backup of current data
+          echo "Creating backup of current data..."
+          timestamp=$(date +%Y%m%d_%H%M%S)
+          mkdir -p backup
+          cp -r data backup/data_$timestamp 2>/dev/null || true
+          cp -r assets/img/coins backup/coins_$timestamp 2>/dev/null || true
           
-          # Count files
-          DATA_FILES_COUNT=$(find ${{ env.DATA_DIR }} -type f -name "*.json" 2>/dev/null | wc -l || echo "0")
-          LOGO_FILES_COUNT=$(find ${{ env.ASSETS_DIR }} -type f \( -name "*.png" -o -name "*.jpg" -o -name "*.svg" \) 2>/dev/null | wc -l || echo "0")
+          echo "Running update script..."
+          # Запускаем скрипт с таймаутом
+          timeout 1200 node scripts/update-data.js || {
+            exit_code=$?
+            if [ $exit_code -eq 124 ]; then
+              echo "Script timed out after 20 minutes"
+            else
+              echo "Script failed with exit code: $exit_code"
+            fi
+            # Restore from backup
+            echo "Restoring from backup..."
+            rm -rf data assets/img/coins 2>/dev/null || true
+            cp -r backup/data_$timestamp data 2>/dev/null || true
+            cp -r backup/coins_$timestamp assets/img/coins 2>/dev/null || true
+            exit $exit_code
+          }
+          
+          # Count updated files
+          DATA_FILES_COUNT=$(find data -type f -name "*.json" 2>/dev/null | wc -l || echo "0")
+          LOGO_FILES_COUNT=$(find assets/img/coins -type f \( -name "*.png" -o -name "*.jpg" -o -name "*.svg" \) 2>/dev/null | wc -l || echo "0")
+          
+          echo "Update completed successfully!"
+          echo "Updated $DATA_FILES_COUNT data files"
+          echo "Updated $LOGO_FILES_COUNT logo files"
           
           echo "data_files=$DATA_FILES_COUNT" >> $GITHUB_OUTPUT
           echo "logo_files=$LOGO_FILES_COUNT" >> $GITHUB_OUTPUT
-          echo "::notice::Updated $DATA_FILES_COUNT data files and $LOGO_FILES_COUNT logo files"
 
       - name: Check for changes
         id: changes
         run: |
-          echo "Checking git status..."
-          git status
+          echo "Checking for changes..."
+          git status --porcelain
           
-          # Check if there are any changes
-          if git diff --quiet && git diff --cached --quiet; then
-            echo "No changes detected"
-            echo "has_changes=false" >> $GITHUB_OUTPUT
-          else
-            echo "Changes detected"
+          # Check if there are changes in data or assets directories
+          CHANGES_IN_DATA=$(git status --porcelain data/ 2>/dev/null | wc -l)
+          CHANGES_IN_ASSETS=$(git status --porcelain assets/ 2>/dev/null | wc -l)
+          
+          if [ $CHANGES_IN_DATA -gt 0 ] || [ $CHANGES_IN_ASSETS -gt 0 ]; then
+            echo "Changes detected in data directories"
             echo "has_changes=true" >> $GITHUB_OUTPUT
             
             # Show what changed
             echo "Changed files:"
             git diff --name-only
+          else
+            echo "No changes detected in data directories"
+            echo "has_changes=false" >> $GITHUB_OUTPUT
           fi
 
       - name: Commit and push changes
         if: steps.changes.outputs.has_changes == 'true'
         run: |
-          # Configure git
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          # Add only data and assets directories
+          git add data/ assets/
           
-          # Add only the data and assets directories
-          git add ${{ env.DATA_DIR }} ${{ env.ASSETS_DIR }} || echo "No files to add in specified directories"
-          
-          # Check if we have anything to commit
+          # Check if we have staged changes
           if git diff --cached --quiet; then
-            echo "No changes to commit after filtering directories"
+            echo "No staged changes to commit"
             exit 0
           fi
           
           # Create commit message
-          COMMIT_MSG="chore: update cryptocurrency data"
-          
           if [[ "${{ github.event_name }}" == "workflow_dispatch" ]]; then
-            COMMIT_MSG="$COMMIT_MSG (manual)"
-            if [[ "${{ github.event.inputs.full_sync }}" == "true" ]]; then
-              COMMIT_MSG="$COMMIT_MSG - full sync"
-            fi
+            COMMIT_MSG="chore(data): manual update"
           else
-            COMMIT_MSG="$COMMIT_MSG (scheduled)"
+            COMMIT_MSG="chore(data): automated update"
           fi
           
-          COMMIT_MSG="$COMMIT_MSG\n\n[skip ci]"
+          COMMIT_MSG="$COMMIT_MSG
+
+          - Top coins: ${{ github.event.inputs.top_limit || 20 }}
+          - Chart points: ${{ github.event.inputs.chart_limit || 30 }}
+          - Logos: ${{ github.event.inputs.logo_limit || 20 }}
+          - Data files: ${{ steps.update.outputs.data_files || 0 }}
+          - Logo files: ${{ steps.update.outputs.logo_files || 0 }}
           
-          # Commit
+          [skip ci]"
+          
           echo "Committing changes..."
-          echo -e "$COMMIT_MSG" | git commit -F -
+          echo "$COMMIT_MSG" | git commit -F -
           
-          # Push with retry logic
+          # Push with retries
           MAX_RETRIES=3
           for i in $(seq 1 $MAX_RETRIES); do
             echo "Push attempt $i/$MAX_RETRIES..."
             
             # Pull latest changes first
-            git pull --rebase origin main || {
+            git fetch origin main
+            if git rebase origin/main; then
+              echo "Rebase successful"
+            else
               echo "Rebase failed, resetting..."
               git rebase --abort
               git reset --hard origin/main
               git pull origin main
-            }
+            fi
             
             # Try to push
             if git push origin HEAD:main; then
               echo "Push successful!"
-              break
+              exit 0
             fi
             
             if [ $i -eq $MAX_RETRIES ]; then
@@ -228,12 +246,14 @@ jobs:
           echo "## Data Update Summary" >> $GITHUB_STEP_SUMMARY
           echo "" >> $GITHUB_STEP_SUMMARY
           
-          if [[ "${{ steps.changes.outputs.has_changes }}" == "true" ]]; then
-            echo "✅ **Successfully updated and pushed data**" >> $GITHUB_STEP_SUMMARY
-          elif [[ "${{ steps.changes.outputs.has_changes }}" == "false" ]]; then
-            echo "ℹ️ **No changes detected** - Data is already up to date" >> $GITHUB_STEP_SUMMARY
+          if [[ "${{ job.status }}" == "success" ]]; then
+            if [[ "${{ steps.changes.outputs.has_changes }}" == "true" ]]; then
+              echo "✅ **Successfully updated and pushed data**" >> $GITHUB_STEP_SUMMARY
+            else
+              echo "ℹ️ **Data is already up to date** - No changes detected" >> $GITHUB_STEP_SUMMARY
+            fi
           else
-            echo "❓ **Status unknown**" >> $GITHUB_STEP_SUMMARY
+            echo "❌ **Update failed**" >> $GITHUB_STEP_SUMMARY
           fi
           
           echo "" >> $GITHUB_STEP_SUMMARY
@@ -243,35 +263,24 @@ jobs:
           echo "- Trigger: ${{ github.event_name }}" >> $GITHUB_STEP_SUMMARY
           
           if [[ "${{ github.event_name }}" == "workflow_dispatch" ]]; then
-            echo "- Coins limit: ${{ github.event.inputs.coins_limit || 50 }}" >> $GITHUB_STEP_SUMMARY
-            echo "- Full sync: ${{ github.event.inputs.full_sync || false }}" >> $GITHUB_STEP_SUMMARY
+            echo "- Top coins limit: ${{ github.event.inputs.top_limit || 20 }}" >> $GITHUB_STEP_SUMMARY
+            echo "- Chart points limit: ${{ github.event.inputs.chart_limit || 30 }}" >> $GITHUB_STEP_SUMMARY
+            echo "- Logos limit: ${{ github.event.inputs.logo_limit || 20 }}" >> $GITHUB_STEP_SUMMARY
           fi
           
           echo "" >> $GITHUB_STEP_SUMMARY
           echo "---" >> $GITHUB_STEP_SUMMARY
           echo "Run ID: \`${{ github.run_id }}\`" >> $GITHUB_STEP_SUMMARY
-          echo "Run number: \`${{ github.run_number }}\`" >> $GITHUB_STEP_SUMMARY
+          echo "Run URL: [View run](https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }})" >> $GITHUB_STEP_SUMMARY
 
-  notify:
-    needs: update-data
-    runs-on: ubuntu-latest
-    if: always()
-    timeout-minutes: 2
-    steps:
-      - name: Print final status
+      - name: Cleanup
+        if: always()
         run: |
-          echo "========================================"
-          echo "WORKFLOW COMPLETED"
-          echo "========================================"
-          echo "Update job result: ${{ needs.update-data.result }}"
-          echo "Run URL: https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}"
-          echo "========================================"
-          
-          if [[ "${{ needs.update-data.result }}" == "success" ]]; then
-            echo "✅ All steps completed successfully"
-          elif [[ "${{ needs.update-data.result }}" == "failure" ]]; then
-            echo "❌ Workflow failed"
-            echo "Check the logs for details"
-          else
-            echo "⚠️ Workflow completed with status: ${{ needs.update-data.result }}"
-          fi
+          echo "Cleaning up..."
+          # Remove backup directories older than 1 hour
+          find backup -type d -name "data_*" -o -name "coins_*" 2>/dev/null | while read dir; do
+            if [ -d "$dir" ]; then
+              echo "Keeping backup: $dir"
+            fi
+          done
+          echo "Cleanup completed"
