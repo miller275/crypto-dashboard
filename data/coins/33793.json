@@ -4,16 +4,16 @@
   "name": "Global Dollar",
   "slug": "global-dollar-usdg",
   "rank": 49,
-  "price": 0.9996112859625231,
-  "marketCap": 1547681190.6763864,
-  "volume24h": 14787524.33624281,
+  "price": 0.9994772628908545,
+  "marketCap": 1547473685.0288901,
+  "volume24h": 14957313.93438748,
   "circulating": 1548283030.024144,
   "totalSupply": 1548283030.024144,
   "maxSupply": null,
-  "percentChange1h": 0.01799148,
-  "percentChange24h": 0.00332645,
-  "percentChange7d": 0.00129753,
-  "lastUpdated": "2026-01-05T10:28:00.000Z",
+  "percentChange1h": -0.01003733,
+  "percentChange24h": -0.00226791,
+  "percentChange7d": -0.00874261,
+  "lastUpdated": "2026-01-05T11:21:00.000Z",
   "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/33793.png",
   "tags": [
     "stablecoin",
@@ -28,6 +28,6 @@
     "token_address": "0xe343167631d89B6Ffc58B88d6b7fB0228795491D"
   },
   "selfReportedCirculatingSupply": 10750140,
-  "selfReportedMarketCap": 10745961.269677158,
+  "selfReportedMarketCap": 10744520.50289349,
   "geckoId": "global-dollar"
 }

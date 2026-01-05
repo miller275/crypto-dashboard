@@ -4,16 +4,16 @@
   "name": "Plasma",
   "slug": "plasma-xpl",
   "rank": 126,
-  "price": 0.18864069572770512,
-  "marketCap": 339553252.3098692,
-  "volume24h": 148023757.2478002,
+  "price": 0.18798604689935114,
+  "marketCap": 338374884.41883206,
+  "volume24h": 142602479.21754876,
   "circulating": 1800000000,
   "totalSupply": 10000000000,
   "maxSupply": null,
-  "percentChange1h": -0.65847319,
-  "percentChange24h": 0.21425998,
-  "percentChange7d": 15.09956352,
-  "lastUpdated": "2026-01-05T10:28:00.000Z",
+  "percentChange1h": -0.47056753,
+  "percentChange24h": -1.35545606,
+  "percentChange7d": 14.09213983,
+  "lastUpdated": "2026-01-05T11:21:00.000Z",
   "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/36645.png",
   "tags": [
     "payments",
@@ -36,6 +36,6 @@
     "token_address": "0x405FBc9004D857903bFD6b3357792D71a50726b0"
   },
   "selfReportedCirculatingSupply": 1800000000,
-  "selfReportedMarketCap": 339553252.3098692,
+  "selfReportedMarketCap": 338374884.41883206,
   "geckoId": "plasma"
 }

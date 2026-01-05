@@ -4,16 +4,16 @@
   "name": "Starknet",
   "slug": "starknet-token",
   "rank": 99,
-  "price": 0.08864352153716791,
-  "marketCap": 447021415.8420068,
-  "volume24h": 55004819.78487636,
+  "price": 0.08822335700508416,
+  "marketCap": 444902563.378097,
+  "volume24h": 54950001.73162673,
   "circulating": 5042911293.348971,
   "totalSupply": 10000000000,
   "maxSupply": 10000000000,
-  "percentChange1h": 0.24993936,
-  "percentChange24h": 0.6359261,
-  "percentChange7d": 9.22847503,
-  "lastUpdated": "2026-01-05T10:28:00.000Z",
+  "percentChange1h": -0.43735902,
+  "percentChange24h": 0.92976808,
+  "percentChange7d": 8.6890322,
+  "lastUpdated": "2026-01-05T11:21:00.000Z",
   "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/22691.png",
   "tags": [
     "privacy",
@@ -38,6 +38,6 @@
     "token_address": "0xCa14007Eff0dB1f8135f4C25B34De49AB0d42766"
   },
   "selfReportedCirculatingSupply": 5042911293.35,
-  "selfReportedMarketCap": 447021415.84209806,
+  "selfReportedMarketCap": 444902563.3781878,
   "geckoId": "starknet"
 }
