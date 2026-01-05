@@ -4,16 +4,16 @@
   "name": "Artificial Superintelligence Alliance",
   "slug": "artificial-superintelligence-alliance",
   "rank": 81,
-  "price": 0.2837961454870987,
-  "marketCap": 656172789.901939,
-  "volume24h": 202810894.98840684,
+  "price": 0.28464087243920255,
+  "marketCap": 658125906.072407,
+  "volume24h": 204514041.82417154,
   "circulating": 2312127209.3942814,
   "totalSupply": 2714384546.672,
   "maxSupply": 2719493897,
-  "percentChange1h": -1.72476533,
-  "percentChange24h": 8.96206703,
-  "percentChange7d": 33.80932664,
-  "lastUpdated": "2026-01-05T14:27:00.000Z",
+  "percentChange1h": -0.99843869,
+  "percentChange24h": 9.12363915,
+  "percentChange7d": 33.52462839,
+  "lastUpdated": "2026-01-05T14:52:00.000Z",
   "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/3773.png",
   "tags": [
     "cosmos-ecosystem",
@@ -40,6 +40,6 @@
     "token_address": "0xaea46A60368A7bD060eec7DF8CBa43b7EF41Ad85"
   },
   "selfReportedCirculatingSupply": 2389296911,
-  "selfReportedMarketCap": 678073253.7660315,
+  "selfReportedMarketCap": 680091557.2633317,
   "geckoId": "fetch-ai"
 }

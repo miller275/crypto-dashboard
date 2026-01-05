@@ -4,16 +4,16 @@
   "name": "Fartcoin",
   "slug": "fartcoin",
   "rank": 117,
-  "price": 0.3738835516923634,
-  "marketCap": 373882899.6394493,
-  "volume24h": 168027993.47485888,
+  "price": 0.3799563231499256,
+  "marketCap": 379955660.50609803,
+  "volume24h": 170147861.11034948,
   "circulating": 999998256,
   "totalSupply": 1000000000,
   "maxSupply": 1000000000,
-  "percentChange1h": -1.25260251,
-  "percentChange24h": 1.4830672,
-  "percentChange7d": 27.6510524,
-  "lastUpdated": "2026-01-05T14:28:00.000Z",
+  "percentChange1h": 1.83763402,
+  "percentChange24h": 3.0655487,
+  "percentChange7d": 28.36943278,
+  "lastUpdated": "2026-01-05T14:53:00.000Z",
   "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/33597.png",
   "tags": [
     "memes",
@@ -34,6 +34,6 @@
     "token_address": "9BB6NFEcjBCtnNLFko2FqVQBq8HHM13kCyYcdQbgpump"
   },
   "selfReportedCirculatingSupply": 1000000000,
-  "selfReportedMarketCap": 373883551.69236344,
+  "selfReportedMarketCap": 379956323.1499256,
   "geckoId": "fartcoin"
 }

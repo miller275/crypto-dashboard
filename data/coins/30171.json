@@ -4,16 +4,16 @@
   "name": "Ethena",
   "slug": "ethena",
   "rank": 42,
-  "price": 0.2418976221637797,
-  "marketCap": 1924975921.3752031,
-  "volume24h": 225379855.30093,
+  "price": 0.24410888646915113,
+  "marketCap": 1942572748.1052918,
+  "volume24h": 226498914.66441637,
   "circulating": 7957812500,
   "totalSupply": 15000000000,
   "maxSupply": 15000000000,
-  "percentChange1h": -0.51418831,
-  "percentChange24h": -2.165368,
-  "percentChange7d": 16.67683966,
-  "lastUpdated": "2026-01-05T14:27:00.000Z",
+  "percentChange1h": 0.90501749,
+  "percentChange24h": -1.5923821,
+  "percentChange7d": 16.28767281,
+  "lastUpdated": "2026-01-05T14:52:00.000Z",
   "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/30171.png",
   "tags": [
     "defi",
@@ -34,6 +34,6 @@
     "token_address": "0x57e114B691Db790C35207b2e685D4A43181e6061"
   },
   "selfReportedCirculatingSupply": 1479139274,
-  "selfReportedMarketCap": 357800273.2296594,
+  "selfReportedMarketCap": 361071041.1089286,
   "geckoId": "ethena"
 }

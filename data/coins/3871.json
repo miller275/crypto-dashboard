@@ -3,17 +3,17 @@
   "symbol": "AB",
   "name": "AB",
   "slug": "newton",
-  "rank": 104,
-  "price": 0.004490470996714874,
-  "marketCap": 425668637.4394316,
-  "volume24h": 9803417.75938803,
+  "rank": 105,
+  "price": 0.004495512579806635,
+  "marketCap": 426146548.0654612,
+  "volume24h": 9817205.91517815,
   "circulating": 94793761667.95,
   "totalSupply": 98823661261.46,
   "maxSupply": 98823661261.46,
-  "percentChange1h": -0.02714265,
-  "percentChange24h": -0.22931511,
-  "percentChange7d": -1.22846634,
-  "lastUpdated": "2026-01-05T14:27:00.000Z",
+  "percentChange1h": 0.15455687,
+  "percentChange24h": -0.0961809,
+  "percentChange7d": -1.17962428,
+  "lastUpdated": "2026-01-05T14:52:00.000Z",
   "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/3871.png",
   "tags": [
     "mineable",
@@ -33,6 +33,6 @@
     "token_address": "0x95034f653d5d161890836ad2b6b8cc49d14e029a"
   },
   "selfReportedCirculatingSupply": 94793761667.95,
-  "selfReportedMarketCap": 425668637.4394316,
+  "selfReportedMarketCap": 426146548.0654612,
   "geckoId": "newton-project"
 }
