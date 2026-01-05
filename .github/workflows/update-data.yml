@@ -1,28 +1,22 @@
 name: Update data snapshots (CMC)
 
 on:
-  schedule:
-    # Every hour
-    - cron: "0 * * * *"
   workflow_dispatch:
+  schedule:
+    - cron: "0 * * * *"  # every hour
+
+permissions:
+  contents: write
 
 concurrency:
-  group: crypto-dashboard-data-update
-  cancel-in-progress: true
+  group: update-data-${{ github.ref }}
+  cancel-in-progress: false
 
 jobs:
   update:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
-
-    env:
-      TOP_LIMIT: 50
-      CHART_LIMIT: 50
-      LOGO_LIMIT: 150
-
     steps:
-      - name: Checkout
+      - name: Checkout main (full history)
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
@@ -32,28 +26,29 @@ jobs:
         with:
           node-version: "20"
 
-      # Prevent "branch is behind" failures by always starting from the latest remote main
       - name: Sync with remote
+        shell: bash
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git fetch origin main
           git reset --hard origin/main
 
       - name: Update snapshots
-        run: node scripts/update-data.js
         env:
           CMC_PRO_API_KEY: ${{ secrets.CMC_PRO_API_KEY }}
-          TOP_LIMIT: ${{ env.TOP_LIMIT }}
-          CHART_LIMIT: ${{ env.CHART_LIMIT }}
-          LOGO_LIMIT: ${{ env.LOGO_LIMIT }}
+          PAGE_SIZE: "50"
+          LOGO_LIMIT: "200"
+          DETAILS_LIMIT: "200"
+          MAX_COINS: "10000"
+        run: node scripts/update-data.js
 
       - name: Commit & push (safe)
+        shell: bash
         run: |
-          git add -A
-          if git diff --cached --quiet; then
-            echo "No changes to commit"
-            exit 0
-          fi
-          git commit -m "chore(data): update snapshots"
-          git push origin HEAD:main
+          git status --porcelain
+          git add data assets/img/coins || true
+          git commit -m "chore: update snapshots" || echo "No changes"
+          for i in 1 2 3; do
+            git pull --rebase origin main || true
+            git push origin HEAD:main && break
+            sleep 2
+          done
