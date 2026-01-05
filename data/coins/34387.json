@@ -4,16 +4,16 @@
   "name": "Ripple USD",
   "slug": "ripple-usd",
   "rank": 56,
-  "price": 0.9996390306783529,
-  "marketCap": 1335648971.2536552,
-  "volume24h": 92867059.3538967,
+  "price": 0.9987857377263556,
+  "marketCap": 1334508859.8549037,
+  "volume24h": 91789144.78838727,
   "circulating": 1336131273.6531372,
   "totalSupply": 1336131273.6531372,
   "maxSupply": null,
-  "percentChange1h": -0.04179442,
-  "percentChange24h": 0.02493322,
-  "percentChange7d": 0.00095466,
-  "lastUpdated": "2026-01-05T12:53:00.000Z",
+  "percentChange1h": -0.05347979,
+  "percentChange24h": -0.07387921,
+  "percentChange7d": -0.09192802,
+  "lastUpdated": "2026-01-05T13:42:00.000Z",
   "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/34387.png",
   "tags": [
     "stablecoin",
@@ -29,6 +29,6 @@
     "token_address": "524C555344000000000000000000000000000000.rMxCKbEDwqr76QuheSUMdEGf4B9xJ8m5De"
   },
   "selfReportedCirculatingSupply": 53100129.55,
-  "selfReportedMarketCap": 53081650.13808926,
+  "selfReportedMarketCap": 53035652.0659618,
   "geckoId": "ripple-usd"
 }

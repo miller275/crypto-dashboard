@@ -4,16 +4,16 @@
   "name": "USDC",
   "slug": "usd-coin",
   "rank": 7,
-  "price": 0.9997677121041562,
-  "marketCap": 75291240713.30756,
-  "volume24h": 8618550666.574125,
-  "circulating": 75308734020.67188,
-  "totalSupply": 75308734020.67188,
+  "price": 0.9995735244699877,
+  "marketCap": 75324377724.27933,
+  "volume24h": 8753818669.235094,
+  "circulating": 75356515434.13898,
+  "totalSupply": 75356515434.13898,
   "maxSupply": null,
-  "percentChange1h": 0.00592286,
-  "percentChange24h": 0.00280999,
-  "percentChange7d": 0.01134966,
-  "lastUpdated": "2026-01-05T12:53:00.000Z",
+  "percentChange1h": -0.02057835,
+  "percentChange24h": -0.00621068,
+  "percentChange7d": -0.00658225,
+  "lastUpdated": "2026-01-05T13:42:00.000Z",
   "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/3408.png",
   "tags": [
     "medium-of-exchange",
@@ -49,6 +49,6 @@
     "token_address": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
   },
   "selfReportedCirculatingSupply": 60901219650.23,
-  "selfReportedMarketCap": 60888938711.20566,
+  "selfReportedMarketCap": 60875246770.30128,
   "geckoId": "usd-coin"
 }

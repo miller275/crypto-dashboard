@@ -3,17 +3,17 @@
   "symbol": "TWT",
   "name": "Trust Wallet Token",
   "slug": "trust-wallet-token",
-  "rank": 111,
-  "price": 0.9171930867241402,
-  "marketCap": 394265093.0355874,
-  "volume24h": 14840392.81792698,
+  "rank": 110,
+  "price": 0.9180071816321326,
+  "marketCap": 394615040.2923703,
+  "volume24h": 14691805.37144053,
   "circulating": 429860515.46,
   "totalSupply": 999860531.46,
   "maxSupply": 999860531.46,
-  "percentChange1h": -0.5272648,
-  "percentChange24h": 1.81805405,
-  "percentChange7d": 7.33731107,
-  "lastUpdated": "2026-01-05T12:54:00.000Z",
+  "percentChange1h": 0.2268319,
+  "percentChange24h": 1.51212355,
+  "percentChange7d": 8.13506058,
+  "lastUpdated": "2026-01-05T13:43:00.000Z",
   "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/5964.png",
   "tags": [
     "wallet",
@@ -32,6 +32,6 @@
     "token_address": "0x4b0f1812e5df2a09796481ff14017e6005508003"
   },
   "selfReportedCirculatingSupply": 416649900,
-  "selfReportedMarketCap": 382650283.4326764,
+  "selfReportedMarketCap": 382487600.4263099,
   "geckoId": "trust-wallet-token"
 }
