@@ -6,6 +6,19 @@ concurrency:
 
 on:
   workflow_dispatch:
+    inputs:
+      top_limit:
+        description: 'Number of top coins to fetch'
+        default: 50
+        type: number
+      chart_limit:
+        description: 'Number of chart data points'
+        default: 50
+        type: number
+      logo_limit:
+        description: 'Number of logos to fetch'
+        default: 50
+        type: number
   schedule:
     - cron: "*/30 * * * *" # every 30 minutes
 
@@ -15,6 +28,7 @@ permissions:
 jobs:
   update:
     runs-on: ubuntu-latest
+    timeout-minutes: 30
     steps:
       - name: Checkout main (full history)
         uses: actions/checkout@v4
@@ -26,6 +40,20 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 20
+          cache: 'npm'
+
+      - name: Cache node modules
+        uses: actions/cache@v3
+        id: npm-cache
+        with:
+          path: ~/.npm
+          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-node-
+
+      - name: Install dependencies
+        if: hashFiles('package.json') != ''
+        run: npm ci --no-audit --no-fund
 
       - name: Sync with remote
         run: |
@@ -35,33 +63,91 @@ jobs:
       - name: Update snapshots
         env:
           CMC_PRO_API_KEY: ${{ secrets.CMC_PRO_API_KEY }}
-          TOP_LIMIT: "50"
-          CHART_LIMIT: "50"
-          LOGO_LIMIT: "50"
-        run: node scripts/update-data.js
+          TOP_LIMIT: ${{ github.event.inputs.top_limit || '50' }}
+          CHART_LIMIT: ${{ github.event.inputs.chart_limit || '50' }}
+          LOGO_LIMIT: ${{ github.event.inputs.logo_limit || '50' }}
+        run: |
+          echo "Starting data update with limits:"
+          echo "TOP_LIMIT: $TOP_LIMIT"
+          echo "CHART_LIMIT: $CHART_LIMIT"
+          echo "LOGO_LIMIT: $LOGO_LIMIT"
+          
+          if node scripts/update-data.js; then
+            echo "Update completed successfully"
+          else
+            exit_code=$?
+            echo "Update failed with exit code: $exit_code"
+            exit $exit_code
+          fi
+
+      - name: Verify changes
+        run: |
+          echo "Checking for changes..."
+          if git status --porcelain | grep -q .; then
+            echo "Changes detected:"
+            git status --porcelain
+          else
+            echo "No changes detected"
+          fi
 
       - name: Commit & push (safe)
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data assets/img/coins || true
-
+          
+          # Add changes (only specific directories)
+          git add data/ assets/img/coins/ || echo "No files to add"
+          
           if git diff --cached --quiet; then
             echo "No changes to commit."
             exit 0
           fi
-
-          git commit -m "chore: update snapshots [skip ci]"
-
-          # Retry push in case main advanced while job was running
-          for i in 1 2 3; do
-            git pull --rebase --autostash origin main || true
+          
+          echo "Committing changes..."
+          git commit -m "chore: update snapshots [skip ci]
+          
+          Updated with limits:
+          - TOP_LIMIT: ${{ github.event.inputs.top_limit || '50' }}
+          - CHART_LIMIT: ${{ github.event.inputs.chart_limit || '50' }}
+          - LOGO_LIMIT: ${{ github.event.inputs.logo_limit || '50' }}"
+          
+          # Retry push with rebase
+          max_retries=3
+          for i in $(seq 1 $max_retries); do
+            echo "Attempt $i of $max_retries..."
+            
+            # Pull latest changes
+            if git pull --rebase --autostash origin main; then
+              echo "Successfully rebased"
+            else
+              echo "Rebase failed, resetting..."
+              git rebase --abort || true
+              git reset --hard origin/main
+              git pull origin main
+            fi
+            
+            # Try push
             if git push origin HEAD:main; then
+              echo "Push successful!"
               exit 0
             fi
-            echo "Push failed (attempt $i). Retrying..."
-            sleep 5
+            
+            if [ $i -lt $max_retries ]; then
+              echo "Push failed, retrying in 5 seconds..."
+              sleep 5
+            fi
           done
-
-          echo "Push failed after retries."
+          
+          echo "Push failed after $max_retries attempts"
           exit 1
+
+      - name: Log summary
+        if: always()
+        run: |
+          echo "========================================="
+          echo "Workflow completed at $(date)"
+          echo "Job status: ${{ job.status }}"
+          echo "Run URL: https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+          echo "========================================="
