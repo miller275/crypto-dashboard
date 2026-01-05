@@ -3,17 +3,17 @@
   "symbol": "LDO",
   "name": "Lido DAO",
   "slug": "lido-dao",
-  "rank": 90,
-  "price": 0.6315191714083253,
-  "marketCap": 534623165.71519333,
-  "volume24h": 45831751.2842408,
+  "rank": 91,
+  "price": 0.6318701120665164,
+  "marketCap": 534920260.42609805,
+  "volume24h": 46096601.96269482,
   "circulating": 846566802.5927889,
   "totalSupply": 1000000000,
   "maxSupply": null,
-  "percentChange1h": -1.43346774,
-  "percentChange24h": 0.50040768,
-  "percentChange7d": 2.86633887,
-  "lastUpdated": "2026-01-05T05:09:00.000Z",
+  "percentChange1h": 0.04109106,
+  "percentChange24h": 0.32059501,
+  "percentChange7d": 3.3206006,
+  "lastUpdated": "2026-01-05T05:55:00.000Z",
   "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/8000.png",
   "tags": [
     "defi",
@@ -41,6 +41,6 @@
     "token_address": "0x5a98fcbea516cf06857215779fd812ca3bef1b32"
   },
   "selfReportedCirculatingSupply": 846566802.59,
-  "selfReportedMarketCap": 534565646.7805421,
+  "selfReportedMarketCap": 534920260.42433584,
   "geckoId": "lido-dao"
 }

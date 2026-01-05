@@ -3,17 +3,17 @@
   "symbol": "FLOKI",
   "name": "FLOKI",
   "slug": "floki-inu",
-  "rank": 91,
-  "price": 0.0000557424982524704,
-  "marketCap": 531775551.6208422,
-  "volume24h": 178963432.509755,
+  "rank": 90,
+  "price": 0.00005624401500320933,
+  "marketCap": 536559950.510956,
+  "volume24h": 179436289.4188824,
   "circulating": 9539858605050.5,
   "totalSupply": 9653320614591.719,
   "maxSupply": null,
-  "percentChange1h": -0.76132036,
-  "percentChange24h": 4.11792879,
-  "percentChange7d": 34.58700416,
-  "lastUpdated": "2026-01-05T05:08:00.000Z",
+  "percentChange1h": 0.99317358,
+  "percentChange24h": 4.00607174,
+  "percentChange7d": 36.28082078,
+  "lastUpdated": "2026-01-05T05:55:00.000Z",
   "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/10804.png",
   "tags": [
     "defi",
@@ -40,6 +40,6 @@
     "token_address": "0xcf0c122c6b73ff809c693db761e7baebe62b6a2e"
   },
   "selfReportedCirculatingSupply": 9317621738535.4,
-  "selfReportedMarketCap": 520298880.0664943,
+  "selfReportedMarketCap": 524060456.8564145,
   "geckoId": "floki"
 }

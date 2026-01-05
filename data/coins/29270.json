@@ -4,16 +4,16 @@
   "name": "Aerodrome Finance",
   "slug": "aerodrome-finance",
   "rank": 88,
-  "price": 0.5924545958357614,
-  "marketCap": 539937683.6545709,
-  "volume24h": 39421933.75747521,
-  "circulating": 911357068.4566872,
+  "price": 0.5955502856837589,
+  "marketCap": 542722971.6133981,
+  "volume24h": 40149946.11223519,
+  "circulating": 911296635.4978588,
   "totalSupply": 1814169285.4461882,
   "maxSupply": null,
-  "percentChange1h": -0.97322828,
-  "percentChange24h": 3.91760839,
-  "percentChange7d": 21.14699917,
-  "lastUpdated": "2026-01-05T05:08:00.000Z",
+  "percentChange1h": 1.23541273,
+  "percentChange24h": 4.33350287,
+  "percentChange7d": 21.6219877,
+  "lastUpdated": "2026-01-05T05:55:00.000Z",
   "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/29270.png",
   "tags": [
     "defi",
@@ -33,6 +33,6 @@
     "token_address": "0x940181a94a35a4569e4529a3cdfb74e38fd98631"
   },
   "selfReportedCirculatingSupply": 159975820.01,
-  "selfReportedMarketCap": 94491387.60365446,
+  "selfReportedMarketCap": 95273645.30944909,
   "geckoId": "aerodrome-finance"
 }
