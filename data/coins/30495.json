@@ -4,16 +4,16 @@
   "name": "Monad",
   "slug": "monad",
   "rank": 133,
-  "price": 0.027790815852105157,
-  "marketCap": 300990748.7291037,
-  "volume24h": 127767072.4233979,
+  "price": 0.028162645293323452,
+  "marketCap": 305017878.50130653,
+  "volume24h": 126438602.8950137,
   "circulating": 10830583396,
   "totalSupply": 100000000000,
   "maxSupply": 100000000000,
-  "percentChange1h": 0.00531146,
-  "percentChange24h": -0.68996125,
-  "percentChange7d": 22.12410833,
-  "lastUpdated": "2026-01-05T11:41:00.000Z",
+  "percentChange1h": 0.78841569,
+  "percentChange24h": -0.15468091,
+  "percentChange7d": 26.06770458,
+  "lastUpdated": "2026-01-05T12:54:00.000Z",
   "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/30495.png",
   "tags": [
     "platform",
@@ -42,6 +42,6 @@
     "token_address": "0x3bd359c1119da7da1d913d1c4d2b7c461115433a"
   },
   "selfReportedCirculatingSupply": 10830583396,
-  "selfReportedMarketCap": 300990748.7291037,
+  "selfReportedMarketCap": 305017878.50130653,
   "geckoId": "monad"
 }

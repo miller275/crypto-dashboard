@@ -3,17 +3,17 @@
   "symbol": "2Z",
   "name": "DoubleZero",
   "slug": "doublezero",
-  "rank": 101,
-  "price": 0.12450831474295038,
-  "marketCap": 432220342.6941859,
-  "volume24h": 13011627.31181771,
+  "rank": 100,
+  "price": 0.12505007658943332,
+  "marketCap": 434101024.24889916,
+  "volume24h": 12981577.08324713,
   "circulating": 3471417500,
   "totalSupply": 9999491365.8,
   "maxSupply": 10000000000,
-  "percentChange1h": 0.57000243,
-  "percentChange24h": -2.20178393,
-  "percentChange7d": 3.75962724,
-  "lastUpdated": "2026-01-05T11:41:00.000Z",
+  "percentChange1h": 0.24898462,
+  "percentChange24h": -1.74790154,
+  "percentChange7d": 4.77694353,
+  "lastUpdated": "2026-01-05T12:53:00.000Z",
   "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/38515.png",
   "tags": [
     "hardware",
@@ -33,6 +33,6 @@
     "token_address": "J6pQQ3FAcJQeWPPGppWRb4nM8jU3wLyYbRrLh7feMfvd"
   },
   "selfReportedCirculatingSupply": 3470908865.8,
-  "selfReportedMarketCap": 432157013.50712335,
+  "selfReportedMarketCap": 434005462.0544928,
   "geckoId": "doublezero"
 }

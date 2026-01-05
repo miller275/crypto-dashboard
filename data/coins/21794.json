@@ -4,16 +4,16 @@
   "name": "Aptos",
   "slug": "aptos",
   "rank": 52,
-  "price": 1.906890942068274,
-  "marketCap": 1432160365.4219427,
-  "volume24h": 82963065.41190572,
-  "circulating": 751044715.68184,
-  "totalSupply": 1191272961.5711648,
+  "price": 1.9197456110522346,
+  "marketCap": 1441814741.4207063,
+  "volume24h": 83065487.79650794,
+  "circulating": 751044686.9210088,
+  "totalSupply": 1191272932.8125868,
   "maxSupply": null,
-  "percentChange1h": -0.12060025,
-  "percentChange24h": -0.20112171,
-  "percentChange7d": 10.40867332,
-  "lastUpdated": "2026-01-05T11:41:00.000Z",
+  "percentChange1h": 0.48222209,
+  "percentChange24h": 0.3025183,
+  "percentChange7d": 12.13623532,
+  "lastUpdated": "2026-01-05T12:53:00.000Z",
   "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/21794.png",
   "tags": [
     "binance-labs-portfolio",
@@ -34,6 +34,6 @@
     "token_address": "0x1::aptos_coin::AptosCoin"
   },
   "selfReportedCirculatingSupply": 130000000,
-  "selfReportedMarketCap": 247895822.46887562,
+  "selfReportedMarketCap": 249586753.3902685,
   "geckoId": "aptos"
 }

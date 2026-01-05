@@ -4,16 +4,16 @@
   "name": "MYX Finance",
   "slug": "myx-finance",
   "rank": 57,
-  "price": 5.186711100406939,
-  "marketCap": 1304319998.1621273,
-  "volume24h": 44735901.70943941,
+  "price": 5.1298212475581595,
+  "marketCap": 1290013712.0924556,
+  "volume24h": 43853635.25740118,
   "circulating": 251473423.7,
   "totalSupply": 1000000000,
   "maxSupply": 1000000000,
-  "percentChange1h": -0.13697362,
-  "percentChange24h": -11.32483619,
-  "percentChange7d": 48.87933037,
-  "lastUpdated": "2026-01-05T11:41:00.000Z",
+  "percentChange1h": -0.75304237,
+  "percentChange24h": -11.49521893,
+  "percentChange7d": 47.13244648,
+  "lastUpdated": "2026-01-05T12:54:00.000Z",
   "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/36410.png",
   "tags": [
     "defi",
@@ -35,6 +35,6 @@
     "token_address": "0xD82544bf0dfe8385eF8FA34D67e6e4940CC63e16"
   },
   "selfReportedCirculatingSupply": 124762450.9,
-  "selfReportedMarketCap": 647106788.9970057,
+  "selfReportedMarketCap": 640009071.5242517,
   "geckoId": "myx-finance"
 }
