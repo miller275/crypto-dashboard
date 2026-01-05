@@ -4,16 +4,16 @@
   "name": "Nexo",
   "slug": "nexo",
   "rank": 84,
-  "price": 0.9469211560530963,
-  "marketCap": 611849165.388959,
-  "volume24h": 6226766.81370055,
+  "price": 0.9475883464896386,
+  "marketCap": 612280267.7137349,
+  "volume24h": 6452852.10875842,
   "circulating": 646145839.5746847,
   "totalSupply": 1000000000,
   "maxSupply": 1000000000,
-  "percentChange1h": 0.00521031,
-  "percentChange24h": -0.29805264,
-  "percentChange7d": 2.99706476,
-  "lastUpdated": "2026-01-05T06:51:00.000Z",
+  "percentChange1h": 0.22378346,
+  "percentChange24h": 0.1854493,
+  "percentChange7d": 3.47461888,
+  "lastUpdated": "2026-01-05T08:37:00.000Z",
   "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/2694.png",
   "tags": [
     "services",
@@ -34,6 +34,6 @@
     "token_address": "0xb62132e35a6c13ee1ee0f84dc5d40bad8d815206"
   },
   "selfReportedCirculatingSupply": 1000000000,
-  "selfReportedMarketCap": 946921156.0530963,
+  "selfReportedMarketCap": 947588346.4896387,
   "geckoId": "nexo"
 }

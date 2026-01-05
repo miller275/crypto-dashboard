@@ -4,16 +4,16 @@
   "name": "Pudgy Penguins",
   "slug": "pudgy-penguins",
   "rank": 74,
-  "price": 0.012486898532348469,
-  "marketCap": 784931387.6795639,
-  "volume24h": 425154264.87687665,
+  "price": 0.01247026746577034,
+  "marketCap": 783885952.2470629,
+  "volume24h": 423025531.2309433,
   "circulating": 62860396090.04,
   "totalSupply": 88888888888,
   "maxSupply": null,
-  "percentChange1h": -0.6222422,
-  "percentChange24h": 7.91351731,
-  "percentChange7d": 32.25940961,
-  "lastUpdated": "2026-01-05T06:50:00.000Z",
+  "percentChange1h": -1.67753429,
+  "percentChange24h": 5.28293919,
+  "percentChange7d": 32.42551982,
+  "lastUpdated": "2026-01-05T08:37:00.000Z",
   "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/34466.png",
   "tags": [
     "collectibles-nfts",
@@ -35,6 +35,6 @@
     "token_address": "2zMMhcVQEXDtdE6vsFS7S7D5oUodfJHE8vd1gnBouauv"
   },
   "selfReportedCirculatingSupply": 62860396090,
-  "selfReportedMarketCap": 784954318.0751354,
+  "selfReportedMarketCap": 783885952.2465641,
   "geckoId": "pudgy-penguins"
 }
