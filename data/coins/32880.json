@@ -4,16 +4,16 @@
   "name": "Kaia",
   "slug": "kaia",
   "rank": 111,
-  "price": 0.062650974400232,
-  "marketCap": 389114483.97392905,
-  "volume24h": 12850739.07863052,
-  "circulating": 6210828924.832942,
-  "totalSupply": 6210828924.832942,
+  "price": 0.06280388456878876,
+  "marketCap": 390065277.9451019,
+  "volume24h": 12830443.85974971,
+  "circulating": 6210846361.228907,
+  "totalSupply": 6210846361.228907,
   "maxSupply": null,
-  "percentChange1h": 0.25516334,
-  "percentChange24h": 4.19941693,
-  "percentChange7d": 10.43129262,
-  "lastUpdated": "2026-01-05T11:21:00.000Z",
+  "percentChange1h": 0.50701532,
+  "percentChange24h": 4.2235102,
+  "percentChange7d": 10.83619975,
+  "lastUpdated": "2026-01-05T11:42:00.000Z",
   "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/32880.png",
   "tags": [
     "platform",
@@ -32,6 +32,6 @@
     "token_address": "0x0000000000000000000000000000000000000000"
   },
   "selfReportedCirculatingSupply": 6210750960.84,
-  "selfReportedMarketCap": 389109599.4538031,
+  "selfReportedMarketCap": 390059286.43008924,
   "geckoId": "kaia"
 }

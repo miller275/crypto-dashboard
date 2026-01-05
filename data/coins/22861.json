@@ -4,16 +4,16 @@
   "name": "Celestia",
   "slug": "celestia",
   "rank": 96,
-  "price": 0.5600293593607287,
-  "marketCap": 483329262.06762314,
-  "volume24h": 62827886.7033679,
+  "price": 0.5596609832396152,
+  "marketCap": 483011337.7377552,
+  "volume24h": 62908846.57626644,
   "circulating": 863042720.866173,
   "totalSupply": 1158658921.820455,
   "maxSupply": null,
-  "percentChange1h": -0.62216623,
-  "percentChange24h": 1.01646333,
-  "percentChange7d": 19.24110276,
-  "lastUpdated": "2026-01-05T11:21:00.000Z",
+  "percentChange1h": -0.19456696,
+  "percentChange24h": 0.78013072,
+  "percentChange7d": 19.40033734,
+  "lastUpdated": "2026-01-05T11:41:00.000Z",
   "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/22861.png",
   "tags": [
     "platform",
@@ -35,6 +35,6 @@
     "token_address": "ibc/D79E7D83AB399BFFF93433E54FAA480C191248FC556924A2A8351AE2638B3877"
   },
   "selfReportedCirculatingSupply": 141043527.75,
-  "selfReportedMarketCap": 78988516.48780966,
+  "selfReportedMarketCap": 78936559.42014895,
   "geckoId": "celestia"
 }
