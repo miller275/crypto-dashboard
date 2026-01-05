@@ -4,16 +4,16 @@
   "name": "ZKsync",
   "slug": "zksync",
   "rank": 124,
-  "price": 0.032383136037396426,
-  "marketCap": 343709757.9756781,
-  "volume24h": 19726231.21241062,
+  "price": 0.032542860194282715,
+  "marketCap": 345405046.2653254,
+  "volume24h": 19798089.82161219,
   "circulating": 10613850294.757061,
   "totalSupply": 13962949013.564201,
   "maxSupply": 21000000000,
-  "percentChange1h": -0.13332405,
-  "percentChange24h": -2.13809437,
-  "percentChange7d": 8.91983167,
-  "lastUpdated": "2026-01-05T13:42:00.000Z",
+  "percentChange1h": 0.19115587,
+  "percentChange24h": -2.03643876,
+  "percentChange7d": 9.61938003,
+  "lastUpdated": "2026-01-05T14:28:00.000Z",
   "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/24091.png",
   "tags": [
     "privacy",
@@ -41,6 +41,6 @@
     "token_address": "0x5A7d6b2F92C77FAD6CCaBd7EE0624E64907Eaf3E"
   },
   "selfReportedCirculatingSupply": 6712895507.43,
-  "selfReportedMarketCap": 217384608.42193303,
+  "selfReportedMarketCap": 218456819.99712303,
   "geckoId": "zksync"
 }

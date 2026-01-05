@@ -4,16 +4,16 @@
   "name": "Sui",
   "slug": "sui",
   "rank": 18,
-  "price": 1.6765457640512975,
-  "marketCap": 6357768470.519186,
-  "volume24h": 855901648.8871473,
+  "price": 1.670915547574712,
+  "marketCap": 6336417658.889365,
+  "volume24h": 870961539.5227503,
   "circulating": 3792183074.7738876,
   "totalSupply": 10000000000,
   "maxSupply": 10000000000,
-  "percentChange1h": -0.1652083,
-  "percentChange24h": -0.86224841,
-  "percentChange7d": 16.04281223,
-  "lastUpdated": "2026-01-05T13:42:00.000Z",
+  "percentChange1h": -0.6159558,
+  "percentChange24h": -1.37068176,
+  "percentChange7d": 16.08040818,
+  "lastUpdated": "2026-01-05T14:27:00.000Z",
   "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/20947.png",
   "tags": [
     "binance-launchpool",
@@ -39,6 +39,6 @@
     "token_address": "0x2::sui::SUI"
   },
   "selfReportedCirculatingSupply": 3792183074.77,
-  "selfReportedMarketCap": 6357768470.512669,
+  "selfReportedMarketCap": 6336417658.88287,
   "geckoId": "sui"
 }
