@@ -4,16 +4,16 @@
   "name": "JUST",
   "slug": "just",
   "rank": 117,
-  "price": 0.04118064651040791,
-  "marketCap": 384631723.8271664,
-  "volume24h": 28250780.30366866,
+  "price": 0.040692218811802516,
+  "marketCap": 380069755.92236316,
+  "volume24h": 28317591.60119744,
   "circulating": 9340108920.581306,
   "totalSupply": 9340108920.581306,
   "maxSupply": null,
-  "percentChange1h": -0.11454576,
-  "percentChange24h": 4.15733319,
-  "percentChange7d": 6.42478652,
-  "lastUpdated": "2026-01-05T08:37:00.000Z",
+  "percentChange1h": -1.19419936,
+  "percentChange24h": 3.0306737,
+  "percentChange7d": 5.53075892,
+  "lastUpdated": "2026-01-05T09:35:00.000Z",
   "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/5488.png",
   "tags": [
     "defi",
@@ -31,6 +31,6 @@
     "token_address": "TCFLL5dx5ZJdKnWuesXxi1VPwjLVmWZZy9"
   },
   "selfReportedCirculatingSupply": 9900000000,
-  "selfReportedMarketCap": 407688400.45303833,
+  "selfReportedMarketCap": 402852966.2368449,
   "geckoId": "just"
 }

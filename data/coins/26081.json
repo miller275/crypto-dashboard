@@ -4,16 +4,16 @@
   "name": "First Digital USD",
   "slug": "first-digital-usd",
   "rank": 94,
-  "price": 0.9985083033926903,
-  "marketCap": 505557892.86893064,
-  "volume24h": 3171385116.312735,
-  "circulating": 506313158.489686,
-  "totalSupply": 506313158.489686,
+  "price": 0.998840519733708,
+  "marketCap": 501031547.9310898,
+  "volume24h": 3200529865.3060026,
+  "circulating": 501613158.489671,
+  "totalSupply": 501613158.489671,
   "maxSupply": null,
-  "percentChange1h": -0.03119878,
-  "percentChange24h": -0.07866769,
-  "percentChange7d": 0.00945775,
-  "lastUpdated": "2026-01-05T08:37:00.000Z",
+  "percentChange1h": -0.00349115,
+  "percentChange24h": -0.03771222,
+  "percentChange7d": 0.08692854,
+  "lastUpdated": "2026-01-05T09:35:00.000Z",
   "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/26081.png",
   "tags": [
     "stablecoin",
@@ -32,6 +32,6 @@
     "token_address": "0xc5f0f7b66764F6ec8C8Dff7BA683102295E16409"
   },
   "selfReportedCirculatingSupply": 506313158.49,
-  "selfReportedMarketCap": 505557892.8692442,
+  "selfReportedMarketCap": 505726098.3741669,
   "geckoId": "first-digital-usd"
 }

@@ -4,16 +4,16 @@
   "name": "Zebec Network",
   "slug": "zebec-network",
   "rank": 144,
-  "price": 0.002695289678894548,
-  "marketCap": 261203817.72851893,
-  "volume24h": 9148440.97741013,
-  "circulating": 96911222483.3843,
-  "totalSupply": 99998805143.1243,
+  "price": 0.0026776941847727978,
+  "marketCap": 259498616.87010714,
+  "volume24h": 9209463.05958701,
+  "circulating": 96911222478.5765,
+  "totalSupply": 99998805138.31651,
   "maxSupply": 100000000000,
-  "percentChange1h": -0.30455621,
-  "percentChange24h": 5.23109946,
-  "percentChange7d": 5.65358721,
-  "lastUpdated": "2026-01-05T08:37:00.000Z",
+  "percentChange1h": -0.68591498,
+  "percentChange24h": 3.69748904,
+  "percentChange7d": 6.2795051,
+  "lastUpdated": "2026-01-05T09:36:00.000Z",
   "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/30636.png",
   "tags": [
     "defi",
@@ -33,6 +33,6 @@
     "token_address": "ZBCNpuD7YMXzTHB2fhGkGi78MNsHGLRXUhRewNRm9RU"
   },
   "selfReportedCirculatingSupply": 95869565192,
-  "selfReportedMarketCap": 258396249.5821056,
+  "selfReportedMarketCap": 256709377.21131504,
   "geckoId": "zebec-network"
 }

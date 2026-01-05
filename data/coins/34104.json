@@ -4,16 +4,16 @@
   "name": "Morpho",
   "slug": "morpho",
   "rank": 100,
-  "price": 1.1609309906645877,
-  "marketCap": 436045828.95765585,
-  "volume24h": 19120147.59137624,
+  "price": 1.1553020439788173,
+  "marketCap": 433931595.860691,
+  "volume24h": 19324196.62476414,
   "circulating": 375600128.228153,
   "totalSupply": 999999999.8010328,
   "maxSupply": 1000000000,
-  "percentChange1h": -0.18791384,
-  "percentChange24h": -1.89322465,
-  "percentChange7d": -3.07420378,
-  "lastUpdated": "2026-01-05T08:37:00.000Z",
+  "percentChange1h": -0.63864752,
+  "percentChange24h": -2.35926774,
+  "percentChange7d": -2.84507251,
+  "lastUpdated": "2026-01-05T09:35:00.000Z",
   "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/34104.png",
   "tags": [
     "defi",
@@ -36,6 +36,6 @@
     "token_address": "0x58D97B57BB95320F9a05dC918Aef65434969c2B2"
   },
   "selfReportedCirculatingSupply": 112000000,
-  "selfReportedMarketCap": 130024270.95443383,
+  "selfReportedMarketCap": 129393828.92562754,
   "geckoId": "morpho"
 }

@@ -4,16 +4,16 @@
   "name": "Merlin Chain",
   "slug": "merlin-chain",
   "rank": 139,
-  "price": 0.2526687748454627,
-  "marketCap": 275026647.1629665,
-  "volume24h": 27452783.57284944,
+  "price": 0.25107944626885126,
+  "marketCap": 273296683.85454786,
+  "volume24h": 25880457.64096367,
   "circulating": 1088486883,
   "totalSupply": 2100000000,
   "maxSupply": 2100000000,
-  "percentChange1h": -0.05426398,
-  "percentChange24h": -2.05797573,
-  "percentChange7d": -27.36214221,
-  "lastUpdated": "2026-01-05T08:38:00.000Z",
+  "percentChange1h": -0.75672182,
+  "percentChange24h": -6.74383521,
+  "percentChange7d": -27.86522458,
+  "lastUpdated": "2026-01-05T09:36:00.000Z",
   "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/30712.png",
   "tags": [
     "ethereum-ecosystem",
@@ -35,6 +35,6 @@
     "token_address": "0xa0c56a8c0692bD10B3fA8f8bA79Cf5332B7107F9"
   },
   "selfReportedCirculatingSupply": 1088486883,
-  "selfReportedMarketCap": 275026647.1629665,
+  "selfReportedMarketCap": 273296683.85454786,
   "geckoId": "merlin-chain"
 }

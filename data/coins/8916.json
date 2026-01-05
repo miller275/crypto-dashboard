@@ -4,16 +4,16 @@
   "name": "Internet Computer",
   "slug": "internet-computer",
   "rank": 46,
-  "price": 3.2282047566235015,
-  "marketCap": 1763079430.0556898,
-  "volume24h": 94533706.90991224,
+  "price": 3.1972916698544935,
+  "marketCap": 1746196291.7447946,
+  "volume24h": 95430919.6090951,
   "circulating": 546148575.7488815,
   "totalSupply": 546148575.7488815,
   "maxSupply": null,
-  "percentChange1h": -0.61973134,
-  "percentChange24h": 2.44740258,
-  "percentChange7d": 4.25492999,
-  "lastUpdated": "2026-01-05T08:37:00.000Z",
+  "percentChange1h": -1.14952424,
+  "percentChange24h": 0.57014178,
+  "percentChange7d": 4.61633765,
+  "lastUpdated": "2026-01-05T09:35:00.000Z",
   "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/8916.png",
   "tags": [
     "platform",
@@ -42,7 +42,7 @@
     "symbol": "ICP",
     "token_address": "ryjl3-tyaaa-aaaaa-aaaba-cai"
   },
-  "selfReportedCirculatingSupply": 546148306.65,
-  "selfReportedMarketCap": 1763078561.3494005,
+  "selfReportedCirculatingSupply": 546148562.23,
+  "selfReportedMarketCap": 1746196248.5209875,
   "geckoId": "internet-computer"
 }

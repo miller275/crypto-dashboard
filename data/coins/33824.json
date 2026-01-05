@@ -3,17 +3,17 @@
   "symbol": "SYRUP",
   "name": "Maple Finance",
   "slug": "maple-finance",
-  "rank": 107,
-  "price": 0.3590306865706532,
-  "marketCap": 412762619.6343915,
-  "volume24h": 21210810.289934,
+  "rank": 109,
+  "price": 0.35468374566378835,
+  "marketCap": 407765122.8096728,
+  "volume24h": 22523848.01737136,
   "circulating": 1149658330.258532,
   "totalSupply": 1216127147.9985635,
   "maxSupply": null,
-  "percentChange1h": 0.27785088,
-  "percentChange24h": 0.28878374,
-  "percentChange7d": 7.71236486,
-  "lastUpdated": "2026-01-05T08:37:00.000Z",
+  "percentChange1h": -1.37196082,
+  "percentChange24h": -1.0477127,
+  "percentChange7d": 7.78890057,
+  "lastUpdated": "2026-01-05T09:35:00.000Z",
   "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/33824.png",
   "tags": [
     "defi",
@@ -35,6 +35,6 @@
     "token_address": "0x643C4E15d7d62Ad0aBeC4a9BD4b001aA3Ef52d66"
   },
   "selfReportedCirculatingSupply": 1069174126.22,
-  "selfReportedMarketCap": 383866320.60034484,
+  "selfReportedMarketCap": 379218683.85451764,
   "geckoId": "syrup"
 }

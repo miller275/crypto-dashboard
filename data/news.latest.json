@@ -1,7 +1,13 @@
 {
   "source": "rss",
-  "updatedAt": "2026-01-05T08:51:33.215Z",
+  "updatedAt": "2026-01-05T09:49:18.910Z",
   "items": [
+    {
+      "title": "Could More Geopolitical Tension Drive BTC Back to Six Figures?",
+      "url": "https://cryptopotato.com/could-more-geopolitical-tension-drive-btc-back-to-six-figures/",
+      "source": "CryptoPotato",
+      "publishedAt": "Mon, 05 Jan 2026 09:12:08 +0000"
+    },
     {
       "title": "XRP Analyst Sees 60% Chance for Major Rally as Ripple Price Reclaims $2",
       "url": "https://cryptopotato.com/xrp-analyst-sees-60-chance-for-major-rally-as-ripple-price-reclaims-2/",
@@ -25,12 +31,6 @@
       "url": "https://cryptopotato.com/bitmine-seeks-major-share-authorization-hike-for-ethereum-led-growth/",
       "source": "CryptoPotato",
       "publishedAt": "Sun, 04 Jan 2026 19:35:36 +0000"
-    },
-    {
-      "title": "After a Historic Red Streak, ChatGPT Drops Wild ETH Price Predictions for 2026",
-      "url": "https://cryptopotato.com/after-a-historic-red-streak-chatgpt-drops-wild-eth-price-predictions-for-2026/",
-      "source": "CryptoPotato",
-      "publishedAt": "Sun, 04 Jan 2026 16:15:08 +0000"
     },
     {
       "title": "Bitcoin eyes longest daily winning streak in 3 months",
@@ -63,6 +63,12 @@
       "publishedAt": "Mon, 05 Jan 2026 01:25:30 +0000"
     },
     {
+      "title": "TRUMP, ONDO, BGB, HYPE lead $5.5B in token unlocks in January",
+      "url": "<![CDATA[https://cointelegraph.com/news/january-crypto-token-unlocks-ondo-bgb-hype-trump?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound]]>",
+      "source": "Cointelegraph.com News",
+      "publishedAt": "Mon, 05 Jan 2026 09:04:23 +0000"
+    },
+    {
       "title": "9 myths about Bitcoin energy use challenged by data, ESG expert says",
       "url": "<![CDATA[https://cointelegraph.com/news/expert-debunks-9-common-myths-about-bitcoin-mining-energy-use?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound]]>",
       "source": "Cointelegraph.com News",
@@ -85,12 +91,6 @@
       "url": "<![CDATA[https://cointelegraph.com/news/crypto-whales-deposit-binance-buyers-missing-analyst?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound]]>",
       "source": "Cointelegraph.com News",
       "publishedAt": "Mon, 05 Jan 2026 05:44:24 +0000"
-    },
-    {
-      "title": "Trump floats Colombia action as Bitcoin climbs toward $93K",
-      "url": "<![CDATA[https://cointelegraph.com/news/trump-hints-colombia-mexico-next-after-maduro-capture?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound]]>",
-      "source": "Cointelegraph.com News",
-      "publishedAt": "Mon, 05 Jan 2026 05:10:24 +0000"
     }
   ]
 }
