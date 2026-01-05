@@ -4,16 +4,16 @@
   "name": "Cronos",
   "slug": "cronos",
   "rank": 28,
-  "price": 0.10478688227611242,
-  "marketCap": 4043707503.1247735,
-  "volume24h": 24992818.97717436,
-  "circulating": 38589825513.36572,
-  "totalSupply": 98289826133.95738,
+  "price": 0.10482351817115337,
+  "marketCap": 4045144293.145348,
+  "volume24h": 24290535.69293305,
+  "circulating": 38590045094.08405,
+  "totalSupply": 98290045714.67574,
   "maxSupply": 100000000000,
-  "percentChange1h": -0.61180163,
-  "percentChange24h": -0.06636148,
-  "percentChange7d": 12.35980053,
-  "lastUpdated": "2026-01-05T09:35:00.000Z",
+  "percentChange1h": 0.14486176,
+  "percentChange24h": -0.69473635,
+  "percentChange7d": 12.36574759,
+  "lastUpdated": "2026-01-05T10:28:00.000Z",
   "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/3635.png",
   "tags": [
     "medium-of-exchange",
@@ -31,6 +31,6 @@
     "token_address": "0xa0b73e1ff0b80914ab6fe0444e65848c4c34450b"
   },
   "selfReportedCirculatingSupply": 97393210558,
-  "selfReportedMarketCap": 10205530889.233776,
+  "selfReportedMarketCap": 10209098976.67348,
   "geckoId": "crypto-com-chain"
 }

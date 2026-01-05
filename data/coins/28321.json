@@ -4,16 +4,16 @@
   "name": "Polygon (prev. MATIC)",
   "slug": "polygon-ecosystem-token",
   "rank": 58,
-  "price": 0.11987935726847218,
-  "marketCap": 1266430622.8819551,
-  "volume24h": 71460141.5447596,
+  "price": 0.12037761856642513,
+  "marketCap": 1271694359.5277176,
+  "volume24h": 71204718.69394948,
   "circulating": 10564209316.252495,
   "totalSupply": 10564209326.252495,
   "maxSupply": null,
-  "percentChange1h": -0.85637197,
-  "percentChange24h": 0.76893121,
-  "percentChange7d": 11.925578,
-  "lastUpdated": "2026-01-05T09:35:00.000Z",
+  "percentChange1h": 0.43267452,
+  "percentChange24h": 0.60373863,
+  "percentChange7d": 12.5467121,
+  "lastUpdated": "2026-01-05T10:28:00.000Z",
   "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/28321.png",
   "tags": [
     "ethereum-ecosystem",
@@ -30,6 +30,6 @@
     "token_address": "0x455e53cbb86018ac2b8092fdcd39d8444affc3f6"
   },
   "selfReportedCirculatingSupply": 10496230782.91,
-  "selfReportedMarketCap": 1258281399.9968033,
+  "selfReportedMarketCap": 1263511265.5703099,
   "geckoId": "polygon-ecosystem-token"
 }

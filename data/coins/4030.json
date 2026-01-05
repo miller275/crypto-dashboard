@@ -4,16 +4,16 @@
   "name": "Algorand",
   "slug": "algorand",
   "rank": 60,
-  "price": 0.13480204371587576,
-  "marketCap": 1191343512.2063804,
-  "volume24h": 45496196.10409416,
-  "circulating": 8837725893.217113,
+  "price": 0.1350586197648863,
+  "marketCap": 1193612239.3743074,
+  "volume24h": 48784772.32623623,
+  "circulating": 8837734618.139736,
   "totalSupply": 10000000000,
   "maxSupply": 10000000000,
-  "percentChange1h": -0.67134097,
-  "percentChange24h": -0.67939448,
-  "percentChange7d": 13.25887774,
-  "lastUpdated": "2026-01-05T09:36:00.000Z",
+  "percentChange1h": 0.11615495,
+  "percentChange24h": -0.65593822,
+  "percentChange7d": 13.84529984,
+  "lastUpdated": "2026-01-05T10:29:00.000Z",
   "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/4030.png",
   "tags": [
     "pos",
@@ -44,6 +44,6 @@
     "token_address": "0"
   },
   "selfReportedCirculatingSupply": 8837708992.71,
-  "selfReportedMarketCap": 1191341233.9834816,
+  "selfReportedMarketCap": 1193608778.4391363,
   "geckoId": "algorand"
 }

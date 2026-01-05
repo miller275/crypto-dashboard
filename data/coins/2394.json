@@ -4,16 +4,16 @@
   "name": "Telcoin",
   "slug": "telcoin",
   "rank": 114,
-  "price": 0.004052485941402658,
-  "marketCap": 385692296.2300338,
-  "volume24h": 1567671.71185252,
+  "price": 0.004045755834104777,
+  "marketCap": 385051763.33858705,
+  "volume24h": 1543353.76690205,
   "circulating": 95174246575.31,
   "totalSupply": 100000000000,
   "maxSupply": 100000000000,
-  "percentChange1h": -0.13032422,
-  "percentChange24h": -1.52908159,
-  "percentChange7d": -4.29934943,
-  "lastUpdated": "2026-01-05T09:35:00.000Z",
+  "percentChange1h": -0.17186968,
+  "percentChange24h": -1.94011212,
+  "percentChange7d": -3.12361853,
+  "lastUpdated": "2026-01-05T10:28:00.000Z",
   "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/2394.png",
   "tags": [
     "medium-of-exchange",
@@ -32,6 +32,6 @@
     "token_address": "0x467bccd9d29f223bce8043b84e8c8b282827790f"
   },
   "selfReportedCirculatingSupply": 91870083810.97,
-  "selfReportedMarketCap": 372302223.0794398,
+  "selfReportedMarketCap": 371683927.5579267,
   "geckoId": "telcoin"
 }

@@ -4,16 +4,16 @@
   "name": "DeXe",
   "slug": "dexe",
   "rank": 138,
-  "price": 3.329676032540984,
-  "marketCap": 278806007.3984128,
-  "volume24h": 3645074.74918299,
+  "price": 3.350725585308676,
+  "marketCap": 280568563.787481,
+  "volume24h": 3595693.54131709,
   "circulating": 83733673.98919193,
   "totalSupply": 96504599.33609451,
   "maxSupply": null,
-  "percentChange1h": -0.63978225,
-  "percentChange24h": -1.34287522,
-  "percentChange7d": 7.23756134,
-  "lastUpdated": "2026-01-05T09:36:00.000Z",
+  "percentChange1h": 0.56587589,
+  "percentChange24h": -0.95212827,
+  "percentChange7d": 8.00381434,
+  "lastUpdated": "2026-01-05T10:29:00.000Z",
   "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/7326.png",
   "tags": [
     "asset-management",
@@ -34,6 +34,6 @@
     "token_address": "0xde4EE8057785A7e8e800Db58F9784845A5C2Cbd6"
   },
   "selfReportedCirculatingSupply": 36466824,
-  "selfReportedMarketCap": 121422709.85569035,
+  "selfReportedMarketCap": 122190320.19174847,
   "geckoId": "dexe"
 }
