@@ -8,27 +8,27 @@
     "large": "assets/img/coins/1321.png"
   },
   "description": {
-    "en": "Ethereum Classic (ETC) is a cryptocurrency launched in 2015. Users are able to generate ETC through the process of mining. Ethereum Classic has a current supply of 210,700,000 with 155,005,558.5493573 in circulation. The last known price of Ethereum Classic is 13.16127941 USD and is up 3.40 over the last 24 hours. It is currently trading on 687 active market(s) with $89,417,194.66 traded over the last 24 hours. More information can be found at https://ethereumclassic.org/."
+    "en": "Ethereum Classic (ETC) is a cryptocurrency launched in 2015. Users are able to generate ETC through the process of mining. Ethereum Classic has a current supply of 210,700,000 with 155,006,084.0533573 in circulation. The last known price of Ethereum Classic is 13.21170451 USD and is up 3.12 over the last 24 hours. It is currently trading on 687 active market(s) with $92,273,279.80 traded over the last 24 hours. More information can be found at https://ethereumclassic.org/."
   },
   "market_data": {
     "current_price": {
-      "usd": 13.166903306041121
+      "usd": 13.227008108973145
     },
     "market_cap": {
-      "usd": 2040943201.318283
+      "usd": 2050266730.71393
     },
     "total_volume": {
-      "usd": 89512453.29574081
+      "usd": 92716350.20766664
     },
-    "circulating_supply": 155005558.5493573,
+    "circulating_supply": 155006084.0533573,
     "total_supply": 210700000,
     "ath": {
-      "usd": 13.7601851353
+      "usd": 13.801102243
     },
     "atl": {
-      "usd": 8.9281063003
+      "usd": 8.2799680229
     },
-    "price_change_percentage_24h": 3.18364358,
-    "last_updated": "2026-01-05T19:12:11.715Z"
+    "price_change_percentage_24h": 3.39920826,
+    "last_updated": "2026-01-05T20:30:41.464Z"
   }
 }

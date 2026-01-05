@@ -1,7 +1,31 @@
 {
   "source": "rss",
-  "updatedAt": "2026-01-05T19:12:12.618Z",
+  "updatedAt": "2026-01-05T20:30:42.269Z",
   "items": [
+    {
+      "title": "Here’s what happened in crypto today",
+      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "publishedAt": "2026-01-05T19:59:35.000Z"
+    },
+    {
+      "title": "Bitfinex Hacker Behind $11 Billion Bitcoin Heist Credits Trump for Early Prison Release",
+      "url": "https://decrypt.co/353631/bitfinex-hacker-behind-11-billion-bitcoin-heist-credits-trump-early-prison-release",
+      "source": "Decrypt",
+      "publishedAt": "2026-01-05T19:56:01.000Z"
+    },
+    {
+      "title": "Crypto companies contribute $21M to Trump PAC ahead of US midterms",
+      "url": "https://cointelegraph.com/news/crypto-donald-trump-pac-midterms?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "publishedAt": "2026-01-05T19:46:37.000Z"
+    },
+    {
+      "title": "Crypto Funds Pull In $47.2B in 2025, But Bitcoin Loses Ground",
+      "url": "https://cryptopotato.com/crypto-funds-pull-in-47-2b-in-2025-but-bitcoin-loses-ground/",
+      "source": "CryptoPotato",
+      "publishedAt": "2026-01-05T19:35:42.000Z"
+    },
     {
       "title": "Bitcoin Close to Breaking Out of Death Cross: Here’s What That Means",
       "url": "https://decrypt.co/353612/bitcoin-price-close-breaking-death-cross-analysis",
@@ -157,30 +181,6 @@
       "url": "https://cointelegraph.com/news/ledger-data-incident-global-e-not-platform-breach?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "source": "Cointelegraph",
       "publishedAt": "2026-01-05T13:39:45.000Z"
-    },
-    {
-      "title": "How ZachXBT exposed a Coinbase impersonation scam using onchain clues",
-      "url": "https://cointelegraph.com/news/how-zachxbt-exposed-a-coinbase-impersonation-scam-using-onchain-clues?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "publishedAt": "2026-01-05T13:31:52.000Z"
-    },
-    {
-      "title": "Three bullish XRP charts to watch as price gains over 18% in 2026",
-      "url": "https://cointelegraph.com/news/three-bullish-xrp-charts-watch-price-gains-18-percent?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "publishedAt": "2026-01-05T13:27:25.000Z"
-    },
-    {
-      "title": "Ripple’s XRP Faces Key Test at $2.5: Will History Repeat?",
-      "url": "https://cryptopotato.com/ripples-xrp-faces-key-test-at-2-5-will-history-repeat/",
-      "source": "CryptoPotato",
-      "publishedAt": "2026-01-05T13:18:48.000Z"
-    },
-    {
-      "title": "Here’s what happened in crypto today",
-      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "publishedAt": "2026-01-05T13:17:26.000Z"
     }
   ]
 }

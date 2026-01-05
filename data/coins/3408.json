@@ -8,27 +8,27 @@
     "large": "assets/img/coins/3408.png"
   },
   "description": {
-    "en": "USDC (USDC) is a cryptocurrency launched in 2024and operates on the Ethereum platform. USDC has a current supply of 75,601,678,257.28285336. The last known price of USDC is 0.99973055 USD and is up 0.01 over the last 24 hours. It is currently trading on 36003 active market(s) with $12,451,092,727.13 traded over the last 24 hours. More information can be found at https://www.circle.com/en/usdc."
+    "en": "USDC (USDC) is a cryptocurrency launched in 2024and operates on the Ethereum platform. USDC has a current supply of 75,737,140,745.60860834. The last known price of USDC is 0.99979176 USD and is up 0.01 over the last 24 hours. It is currently trading on 36003 active market(s) with $13,287,662,743.06 traded over the last 24 hours. More information can be found at https://www.circle.com/en/usdc."
   },
   "market_data": {
     "current_price": {
-      "usd": 0.9997609722081627
+      "usd": 0.9997917885724446
     },
     "market_cap": {
-      "usd": 75583607355.06982
+      "usd": 75721371407.415
     },
     "total_volume": {
-      "usd": 12599457153.8603
+      "usd": 13409882339.91697
     },
-    "circulating_supply": 75601678257.28285,
-    "total_supply": 75601678257.28285,
+    "circulating_supply": 75737140745.60861,
+    "total_supply": 75737140745.60861,
     "ath": {
-      "usd": 1.014677852
+      "usd": 1.0147101494
     },
     "atl": {
-      "usd": 0.8004521492
+      "usd": 0.8010068166
     },
-    "price_change_percentage_24h": 0.01055502,
-    "last_updated": "2026-01-05T19:12:11.713Z"
+    "price_change_percentage_24h": -0.00162997,
+    "last_updated": "2026-01-05T20:30:41.460Z"
   }
 }

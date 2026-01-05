@@ -8,27 +8,27 @@
     "large": "assets/img/coins/20947.png"
   },
   "description": {
-    "en": "Sui (SUI) is a cryptocurrency launched in 2023. Sui has a current supply of 10,000,000,000 with 3,792,183,074.7738876 in circulation. The last known price of Sui is 1.77912723 USD and is up 4.75 over the last 24 hours. It is currently trading on 878 active market(s) with $1,012,463,067.44 traded over the last 24 hours. More information can be found at https://sui.io/."
+    "en": "Sui (SUI) is a cryptocurrency launched in 2023. Sui has a current supply of 10,000,000,000 with 3,792,183,074.7738876 in circulation. The last known price of Sui is 1.87882479 USD and is up 9.81 over the last 24 hours. It is currently trading on 878 active market(s) with $1,197,818,946.50 traded over the last 24 hours. More information can be found at https://sui.io/."
   },
   "market_data": {
     "current_price": {
-      "usd": 1.776628570452256
+      "usd": 1.8869694702203206
     },
     "market_cap": {
-      "usd": 6737300795.028772
+      "usd": 7155733687.584549
     },
     "total_volume": {
-      "usd": 1013188417.1959133
+      "usd": 1220691206.9101124
     },
     "circulating_supply": 3792183074.7738876,
     "total_supply": 10000000000,
     "ath": {
-      "usd": 1.8734740485
+      "usd": 1.9845077859
     },
     "atl": {
-      "usd": 0.3684543658
+      "usd": 0.1822083078
     },
-    "price_change_percentage_24h": 4.34674822,
-    "last_updated": "2026-01-05T19:12:11.714Z"
+    "price_change_percentage_24h": 10.21893114,
+    "last_updated": "2026-01-05T20:30:41.462Z"
   }
 }

@@ -8,27 +8,27 @@
     "large": "assets/img/coins/33251.png"
   },
   "description": {
-    "en": "World Liberty Financial (WLFI) is a cryptocurrency launched in 2025and operates on the Ethereum platform. World Liberty Financial has a current supply of 100,000,000,000 with 26,737,667,673 in circulation. The last known price of World Liberty Financial is 0.1754142 USD and is up 3.35 over the last 24 hours. It is currently trading on 396 active market(s) with $119,128,483.56 traded over the last 24 hours. More information can be found at https://www.worldlibertyfinancial.com/."
+    "en": "World Liberty Financial (WLFI) is a cryptocurrency launched in 2025and operates on the Ethereum platform. World Liberty Financial has a current supply of 100,000,000,000 with 26,737,669,581 in circulation. The last known price of World Liberty Financial is 0.17392543 USD and is up 1.64 over the last 24 hours. It is currently trading on 396 active market(s) with $119,611,717.61 traded over the last 24 hours. More information can be found at https://www.worldlibertyfinancial.com/."
   },
   "market_data": {
     "current_price": {
-      "usd": 0.17536074046457695
+      "usd": 0.17390745299032523
     },
     "market_cap": {
-      "usd": 4688737201.433062
+      "usd": 4649880015.728606
     },
     "total_volume": {
-      "usd": 119394360.47347754
+      "usd": 119724730.3680561
     },
-    "circulating_supply": 26737667673,
+    "circulating_supply": 26737669581,
     "total_supply": 100000000000,
     "ath": {
-      "usd": 0.1753607405
+      "usd": 0.173907453
     },
     "atl": {
-      "usd": 0.0169513861
+      "usd": 0.0186010895
     },
-    "price_change_percentage_24h": 3.12582315,
-    "last_updated": "2026-01-05T19:12:11.715Z"
+    "price_change_percentage_24h": 1.6007631,
+    "last_updated": "2026-01-05T20:30:41.463Z"
   }
 }

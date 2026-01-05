@@ -8,27 +8,27 @@
     "large": "assets/img/coins/36341.png"
   },
   "description": {
-    "en": "Aster (ASTER) is a cryptocurrency launched in 2025and operates on the BNB Smart Chain (BEP20) platform. Aster has a current supply of 7,922,139,508.10849398 with 2,495,479,180.10849398 in circulation. The last known price of Aster is 0.77897219 USD and is up 1.25 over the last 24 hours. It is currently trading on 395 active market(s) with $233,952,972.32 traded over the last 24 hours. More information can be found at https://www.asterdex.com/."
+    "en": "Aster (ASTER) is a cryptocurrency launched in 2025and operates on the BNB Smart Chain (BEP20) platform. Aster has a current supply of 7,922,139,508.10849398 with 2,495,479,180.10849398 in circulation. The last known price of Aster is 0.77937409 USD and is down -0.07 over the last 24 hours. It is currently trading on 395 active market(s) with $237,988,697.97 traded over the last 24 hours. More information can be found at https://www.asterdex.com/."
   },
   "market_data": {
     "current_price": {
-      "usd": 0.778991057210879
+      "usd": 0.7806333655043507
     },
     "market_cap": {
-      "usd": 1943955964.7604532
+      "usd": 1948054310.9141312
     },
     "total_volume": {
-      "usd": 234071209.2828068
+      "usd": 238724643.05912432
     },
     "circulating_supply": 2495479180.108494,
     "total_supply": 7922139508.108494,
     "ath": {
-      "usd": 7.4524400564
+      "usd": 7.1877502235
     },
     "atl": {
-      "usd": 0.7690279607
+      "usd": 0.7705014478
     },
-    "price_change_percentage_24h": 1.28624768,
-    "last_updated": "2026-01-05T19:12:11.715Z"
+    "price_change_percentage_24h": 0.23958928,
+    "last_updated": "2026-01-05T20:30:41.464Z"
   }
 }

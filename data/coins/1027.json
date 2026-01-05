@@ -8,27 +8,27 @@
     "large": "assets/img/coins/1027.png"
   },
   "description": {
-    "en": "Ethereum (ETH) is a cryptocurrency . Ethereum has a current supply of 120,694,851.35145478. The last known price of Ethereum is 3,220.29260133 USD and is up 3.16 over the last 24 hours. It is currently trading on 11353 active market(s) with $24,603,280,426.46 traded over the last 24 hours. More information can be found at https://www.ethereum.org/."
+    "en": "Ethereum (ETH) is a cryptocurrency . Ethereum has a current supply of 120,694,851.35145478. The last known price of Ethereum is 3,236.5891799 USD and is up 3.19 over the last 24 hours. It is currently trading on 11353 active market(s) with $25,262,447,716.62 traded over the last 24 hours. More information can be found at https://www.ethereum.org/."
   },
   "market_data": {
     "current_price": {
-      "usd": 3218.9590366111065
+      "usd": 3242.149594605806
     },
     "market_cap": {
-      "usd": 388511782430.1996
+      "usd": 391310763380.12714
     },
     "total_volume": {
-      "usd": 24672266648.28331
+      "usd": 25574775821.251747
     },
     "circulating_supply": 120694851.35145478,
     "total_supply": 120694851.35145478,
     "ath": {
-      "usd": 3230.5498103609
+      "usd": 3253.705883287
     },
     "atl": {
-      "usd": 893.8308263467
+      "usd": 837.6542805655
     },
-    "price_change_percentage_24h": 3.18081058,
-    "last_updated": "2026-01-05T19:12:11.713Z"
+    "price_change_percentage_24h": 3.32852131,
+    "last_updated": "2026-01-05T20:30:41.459Z"
   }
 }

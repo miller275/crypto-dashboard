@@ -8,27 +8,27 @@
     "large": "assets/img/coins/1831.png"
   },
   "description": {
-    "en": "Bitcoin Cash (BCH) is a cryptocurrency . Users are able to generate BCH through the process of mining. Bitcoin Cash has a current supply of 19,976,825. The last known price of Bitcoin Cash is 648.60378418 USD and is up 1.66 over the last 24 hours. It is currently trading on 1110 active market(s) with $590,508,431.00 traded over the last 24 hours. More information can be found at http://bch.info."
+    "en": "Bitcoin Cash (BCH) is a cryptocurrency . Users are able to generate BCH through the process of mining. Bitcoin Cash has a current supply of 19,976,856.25. The last known price of Bitcoin Cash is 651.51920474 USD and is up 1.43 over the last 24 hours. It is currently trading on 1110 active market(s) with $600,553,515.44 traded over the last 24 hours. More information can be found at http://bch.info."
   },
   "market_data": {
     "current_price": {
-      "usd": 648.9321606342021
+      "usd": 651.5716665774888
     },
     "market_cap": {
-      "usd": 12963604209.861343
+      "usd": 13016353519.791424
     },
     "total_volume": {
-      "usd": 589862768.5545039
+      "usd": 601563191.3134872
     },
-    "circulating_supply": 19976825,
-    "total_supply": 19976825,
+    "circulating_supply": 19976856.25,
+    "total_supply": 19976856.25,
     "ath": {
-      "usd": 664.28451055
+      "usd": 666.9771762361
     },
     "atl": {
-      "usd": 189.9883787508
+      "usd": 188.1304301225
     },
-    "price_change_percentage_24h": 1.69688995,
-    "last_updated": "2026-01-05T19:12:11.714Z"
+    "price_change_percentage_24h": 1.49429671,
+    "last_updated": "2026-01-05T20:30:41.461Z"
   }
 }

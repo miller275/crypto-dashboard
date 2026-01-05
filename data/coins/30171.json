@@ -8,27 +8,27 @@
     "large": "assets/img/coins/30171.png"
   },
   "description": {
-    "en": "Ethena (ENA) is a cryptocurrency and operates on the Ethereum platform. Ethena has a current supply of 15,000,000,000 with 7,957,812,500 in circulation. The last known price of Ethena is 0.25608595 USD and is up 4.74 over the last 24 hours. It is currently trading on 409 active market(s) with $241,193,211.94 traded over the last 24 hours. More information can be found at https://www.ethena.fi/."
+    "en": "Ethena (ENA) is a cryptocurrency and operates on the Ethereum platform. Ethena has a current supply of 15,000,000,000 with 7,957,812,500 in circulation. The last known price of Ethena is 0.25635102 USD and is up 3.75 over the last 24 hours. It is currently trading on 409 active market(s) with $245,375,224.67 traded over the last 24 hours. More information can be found at https://www.ethena.fi/."
   },
   "market_data": {
     "current_price": {
-      "usd": 0.25615852532881067
+      "usd": 0.25651985655793463
     },
     "market_cap": {
-      "usd": 2038461514.8431761
+      "usd": 2041336921.0149393
     },
     "total_volume": {
-      "usd": 241701707.81893238
+      "usd": 245649119.72837114
     },
     "circulating_supply": 7957812500,
     "total_supply": 15000000000,
     "ath": {
-      "usd": 0.2583481137
+      "usd": 0.2586772185
     },
     "atl": {
-      "usd": 0.1876216996
+      "usd": 0.1840231671
     },
-    "price_change_percentage_24h": 4.53734362,
-    "last_updated": "2026-01-05T19:12:11.715Z"
+    "price_change_percentage_24h": 4.04379862,
+    "last_updated": "2026-01-05T20:30:41.464Z"
   }
 }

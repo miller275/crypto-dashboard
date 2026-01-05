@@ -8,27 +8,27 @@
     "large": "assets/img/coins/1437.png"
   },
   "description": {
-    "en": "Zcash (ZEC) is a cryptocurrency . Users are able to generate ZEC through the process of mining. Zcash has a current supply of 16,471,976.2905448 with 16,471,944.6655448 in circulation. The last known price of Zcash is 494.90978539 USD and is down -2.24 over the last 24 hours. It is currently trading on 559 active market(s) with $519,221,040.25 traded over the last 24 hours. More information can be found at https://z.cash/."
+    "en": "Zcash (ZEC) is a cryptocurrency . Users are able to generate ZEC through the process of mining. Zcash has a current supply of 16,472,017.5405448 with 16,472,050.5405448 in circulation. The last known price of Zcash is 495.01203607 USD and is down -2.25 over the last 24 hours. It is currently trading on 559 active market(s) with $527,884,590.03 traded over the last 24 hours. More information can be found at https://z.cash/."
   },
   "market_data": {
     "current_price": {
-      "usd": 494.9590032814873
+      "usd": 497.1425949593415
     },
     "market_cap": {
-      "usd": 8152937313.765866
+      "usd": 8188957950.027866
     },
     "total_volume": {
-      "usd": 519457132.1361595
+      "usd": 532858366.11200607
     },
-    "circulating_supply": 16471944.6655448,
-    "total_supply": 16471976.2905448,
+    "circulating_supply": 16472050.5405448,
+    "total_supply": 16472017.5405448,
     "ath": {
-      "usd": 505.9423269876
+      "usd": 508.1743733739
     },
     "atl": {
-      "usd": 19.9196933048
+      "usd": 20.0075722528
     },
-    "price_change_percentage_24h": -2.24386251,
-    "last_updated": "2026-01-05T19:12:11.714Z"
+    "price_change_percentage_24h": -1.83301839,
+    "last_updated": "2026-01-05T20:30:41.461Z"
   }
 }

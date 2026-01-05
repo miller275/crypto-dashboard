@@ -8,27 +8,27 @@
     "large": "assets/img/coins/52.png"
   },
   "description": {
-    "en": "XRP (XRP) is a cryptocurrency . XRP has a current supply of 99,985,734,415 with 60,676,393,849 in circulation. The last known price of XRP is 2.26909161 USD and is up 9.39 over the last 24 hours. It is currently trading on 1778 active market(s) with $4,398,497,319.39 traded over the last 24 hours. More information can be found at https://xrpl.org/."
+    "en": "XRP (XRP) is a cryptocurrency . XRP has a current supply of 99,985,734,415 with 60,676,393,849 in circulation. The last known price of XRP is 2.32858207 USD and is up 11.45 over the last 24 hours. It is currently trading on 1778 active market(s) with $4,998,328,278.26 traded over the last 24 hours. More information can be found at https://xrpl.org/."
   },
   "market_data": {
     "current_price": {
-      "usd": 2.2646849564017018
+      "usd": 2.3319096289831593
     },
     "market_cap": {
-      "usd": 137412916358.53505
+      "usd": 141491867068.45764
     },
     "total_volume": {
-      "usd": 4377257741.44513
+      "usd": 5067944475.525019
     },
     "circulating_supply": 60676393849,
     "total_supply": 99985734415,
     "ath": {
-      "usd": 2.3051801634
+      "usd": 2.3694723015
     },
     "atl": {
-      "usd": 0.4242683308
+      "usd": 0.3059524536
     },
-    "price_change_percentage_24h": 9.00808878,
-    "last_updated": "2026-01-05T19:12:11.713Z"
+    "price_change_percentage_24h": 11.59877427,
+    "last_updated": "2026-01-05T20:30:41.460Z"
   }
 }

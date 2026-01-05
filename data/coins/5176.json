@@ -8,27 +8,27 @@
     "large": "assets/img/coins/5176.png"
   },
   "description": {
-    "en": "Tether Gold (XAUt) is a cryptocurrency launched in 2020and operates on the Ethereum platform. Tether Gold has a current supply of 520,089.3 with 409,217.6417 in circulation. The last known price of Tether Gold is 4,432.7417606 USD and is up 2.06 over the last 24 hours. It is currently trading on 309 active market(s) with $277,461,362.42 traded over the last 24 hours. More information can be found at https://gold.tether.to/."
+    "en": "Tether Gold (XAUt) is a cryptocurrency launched in 2020and operates on the Ethereum platform. Tether Gold has a current supply of 520,089.3 with 409,217.6417 in circulation. The last known price of Tether Gold is 4,435.52133837 USD and is up 2.03 over the last 24 hours. It is currently trading on 309 active market(s) with $278,491,228.77 traded over the last 24 hours. More information can be found at https://gold.tether.to/."
   },
   "market_data": {
     "current_price": {
-      "usd": 4437.724444954233
+      "usd": 4437.701005960105
     },
     "market_cap": {
-      "usd": 1815995131.8786128
+      "usd": 1815985540.2287118
     },
     "total_volume": {
-      "usd": 277063942.79351074
+      "usd": 278566221.052034
     },
     "circulating_supply": 409217.6417,
     "total_supply": 520089.3,
     "ath": {
-      "usd": 4452.5454702511
+      "usd": 4452.5225353697
     },
     "atl": {
-      "usd": 1089.1971379907
+      "usd": 1089.3333629151
     },
-    "price_change_percentage_24h": 2.16686056,
-    "last_updated": "2026-01-05T19:12:11.715Z"
+    "price_change_percentage_24h": 2.07822885,
+    "last_updated": "2026-01-05T20:30:41.464Z"
   }
 }
