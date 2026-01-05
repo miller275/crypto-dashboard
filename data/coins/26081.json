@@ -3,17 +3,17 @@
   "symbol": "FDUSD",
   "name": "First Digital USD",
   "slug": "first-digital-usd",
-  "rank": 94,
-  "price": 0.9990690474902371,
-  "marketCap": 505841804.98406404,
-  "volume24h": 3062210668.6459537,
+  "rank": 93,
+  "price": 0.9987753190787089,
+  "marketCap": 505693086.42428505,
+  "volume24h": 3142578439.1883593,
   "circulating": 506313158.489686,
   "totalSupply": 506313158.489686,
   "maxSupply": null,
-  "percentChange1h": -0.07332956,
-  "percentChange24h": 0.01007378,
-  "percentChange7d": 0.04883169,
-  "lastUpdated": "2026-01-05T04:05:00.000Z",
+  "percentChange1h": -0.03906151,
+  "percentChange24h": -0.03180833,
+  "percentChange7d": 0.00943901,
+  "lastUpdated": "2026-01-05T05:08:00.000Z",
   "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/26081.png",
   "tags": [
     "stablecoin",
@@ -32,6 +32,6 @@
     "token_address": "0xc5f0f7b66764F6ec8C8Dff7BA683102295E16409"
   },
   "selfReportedCirculatingSupply": 506313158.49,
-  "selfReportedMarketCap": 505909809.5636181,
+  "selfReportedMarketCap": 505716094.19570965,
   "geckoId": "first-digital-usd"
 }

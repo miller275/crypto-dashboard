@@ -4,16 +4,16 @@
   "name": "Trust Wallet Token",
   "slug": "trust-wallet-token",
   "rank": 112,
-  "price": 0.9195921228997166,
-  "marketCap": 395296343.9626278,
-  "volume24h": 16767997.11367303,
+  "price": 0.9128877747936406,
+  "marketCap": 392414409.4299267,
+  "volume24h": 16915912.17395,
   "circulating": 429860515.46,
   "totalSupply": 999860531.46,
   "maxSupply": 999860531.46,
-  "percentChange1h": -0.32975022,
-  "percentChange24h": 4.16773184,
-  "percentChange7d": 5.53565648,
-  "lastUpdated": "2026-01-05T04:06:00.000Z",
+  "percentChange1h": -0.68839745,
+  "percentChange24h": 3.4123236,
+  "percentChange7d": 4.81768981,
+  "lastUpdated": "2026-01-05T05:09:00.000Z",
   "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/5964.png",
   "tags": [
     "wallet",
@@ -32,6 +32,6 @@
     "token_address": "0x4b0f1812e5df2a09796481ff14017e6005508003"
   },
   "selfReportedCirculatingSupply": 416649900,
-  "selfReportedMarketCap": 383140469.6015187,
+  "selfReportedMarketCap": 380290243.70801514,
   "geckoId": "trust-wallet-token"
 }
