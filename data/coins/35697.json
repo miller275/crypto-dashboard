@@ -1,0 +1,34 @@
+{
+  "id": "35697",
+  "symbol": "PI",
+  "name": "Pi",
+  "market_cap_rank": 46,
+  "image": {
+    "small": "assets/img/coins/35697.png",
+    "large": "assets/img/coins/35697.png"
+  },
+  "description": {
+    "en": "Pi (PI) is a cryptocurrency launched in 2019. Pi has a current supply of 100,000,000,000 with 8,381,039,303.397978 in circulation. The last known price of Pi is 0.21401491 USD and is up 1.19 over the last 24 hours. It is currently trading on 67 active market(s) with $16,090,216.91 traded over the last 24 hours. More information can be found at https://minepi.com."
+  },
+  "market_data": {
+    "current_price": {
+      "usd": 0.21395656312537623
+    },
+    "market_cap": {
+      "usd": 1793178364.7737286
+    },
+    "total_volume": {
+      "usd": 16126811.34811983
+    },
+    "circulating_supply": 8381039303.397978,
+    "total_supply": 100000000000,
+    "ath": {
+      "usd": 0.2458775533
+    },
+    "atl": {
+      "usd": 0.2104240736
+    },
+    "price_change_percentage_24h": 1.0043142,
+    "last_updated": "2026-01-05T19:12:11.715Z"
+  }
+}

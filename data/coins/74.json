@@ -1,0 +1,34 @@
+{
+  "id": "74",
+  "symbol": "DOGE",
+  "name": "Dogecoin",
+  "market_cap_rank": 9,
+  "image": {
+    "small": "assets/img/coins/74.png",
+    "large": "assets/img/coins/74.png"
+  },
+  "description": {
+    "en": "Dogecoin (DOGE) is a cryptocurrency . Users are able to generate DOGE through the process of mining. Dogecoin has a current supply of 168,193,563,126.57904. The last known price of Dogecoin is 0.1521042 USD and is up 2.38 over the last 24 hours. It is currently trading on 1363 active market(s) with $2,022,236,522.63 traded over the last 24 hours. More information can be found at http://dogecoin.com/."
+  },
+  "market_data": {
+    "current_price": {
+      "usd": 0.15205070257640807
+    },
+    "market_cap": {
+      "usd": 25573949442.225784
+    },
+    "total_volume": {
+      "usd": 2034973714.1936948
+    },
+    "circulating_supply": 168193563126.57904,
+    "total_supply": 168193563126.57904,
+    "ath": {
+      "usd": 0.16080353
+    },
+    "atl": {
+      "usd": 0.0538457046
+    },
+    "price_change_percentage_24h": 2.19679629,
+    "last_updated": "2026-01-05T19:12:11.714Z"
+  }
+}

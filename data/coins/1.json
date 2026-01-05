@@ -1,48 +1,34 @@
 {
-  "id": 1,
+  "id": "1",
   "symbol": "BTC",
   "name": "Bitcoin",
-  "image": {
-    "large": "assets/img/coin.svg",
-    "small": "assets/img/coin.svg",
-    "thumb": "assets/img/coin.svg"
-  },
   "market_cap_rank": 1,
-  "asset_platform_id": null,
-  "description": {
-    "en": "Sample snapshot for Bitcoin. Run GitHub Actions to fetch real CoinMarketCap data."
+  "image": {
+    "small": "assets/img/coins/1.png",
+    "large": "assets/img/coins/1.png"
   },
-  "links": {
-    "homepage": [],
-    "blockchain_site": [],
-    "official_forum_url": [],
-    "chat_url": [],
-    "announcement_url": [],
-    "twitter_screen_name": "",
-    "facebook_username": "",
-    "subreddit_url": "",
-    "repos_url": {
-      "github": []
-    }
+  "description": {
+    "en": "Bitcoin (BTC) is a cryptocurrency launched in 2010. Users are able to generate BTC through the process of mining. Bitcoin has a current supply of 19,971,959. The last known price of Bitcoin is 94,292.00151442 USD and is up 3.73 over the last 24 hours. It is currently trading on 12510 active market(s) with $48,318,849,813.30 traded over the last 24 hours. More information can be found at https://bitcoin.org/."
   },
   "market_data": {
     "current_price": {
-      "usd": 41099.59
+      "usd": 94267.93994836521
     },
     "market_cap": {
-      "usd": null
+      "usd": 1882715431663.2122
     },
     "total_volume": {
-      "usd": null
+      "usd": 48443694725.92379
     },
-    "price_change_percentage_1h_in_currency": {
-      "usd": null
+    "circulating_supply": 19971959,
+    "total_supply": 19971959,
+    "ath": {
+      "usd": 99682.636185168
     },
-    "price_change_percentage_24h": null,
-    "price_change_percentage_7d": null,
-    "circulating_supply": null,
-    "total_supply": null,
-    "max_supply": null
-  },
-  "last_updated": "2026-01-04T18:40:57.963081Z"
+    "atl": {
+      "usd": 34047.3272162471
+    },
+    "price_change_percentage_24h": 3.73129632,
+    "last_updated": "2026-01-05T19:12:11.713Z"
+  }
 }

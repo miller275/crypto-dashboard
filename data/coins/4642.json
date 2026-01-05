@@ -1,0 +1,34 @@
+{
+  "id": "4642",
+  "symbol": "HBAR",
+  "name": "Hedera",
+  "market_cap_rank": 24,
+  "image": {
+    "small": "assets/img/coins/4642.png",
+    "large": "assets/img/coins/4642.png"
+  },
+  "description": {
+    "en": "Hedera (HBAR) is a cryptocurrency launched in 2017. Hedera has a current supply of 50,000,000,000 with 42,793,137,592.72625273 in circulation. The last known price of Hedera is 0.12835699 USD and is up 2.99 over the last 24 hours. It is currently trading on 409 active market(s) with $204,004,676.85 traded over the last 24 hours. More information can be found at https://www.hedera.com/."
+  },
+  "market_data": {
+    "current_price": {
+      "usd": 0.1283091833980921
+    },
+    "market_cap": {
+      "usd": 5490752539.564902
+    },
+    "total_volume": {
+      "usd": 204788241.69690567
+    },
+    "circulating_supply": 42793137592.72625,
+    "total_supply": 50000000000,
+    "ath": {
+      "usd": 0.1297698474
+    },
+    "atl": {
+      "usd": 0.1008862904
+    },
+    "price_change_percentage_24h": 2.75202824,
+    "last_updated": "2026-01-05T19:12:11.714Z"
+  }
+}

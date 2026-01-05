@@ -1,0 +1,34 @@
+{
+  "id": "7083",
+  "symbol": "UNI",
+  "name": "Uniswap",
+  "market_cap_rank": 29,
+  "image": {
+    "small": "assets/img/coins/7083.png",
+    "large": "assets/img/coins/7083.png"
+  },
+  "description": {
+    "en": "Uniswap (UNI) is a cryptocurrency launched in 2020and operates on the Ethereum platform. Uniswap has a current supply of 899,866,420.03708885 with 635,231,562.74698885 in circulation. The last known price of Uniswap is 5.92890761 USD and is up 1.68 over the last 24 hours. It is currently trading on 1373 active market(s) with $408,465,299.11 traded over the last 24 hours. More information can be found at https://uniswap.org/blog/uni/."
+  },
+  "market_data": {
+    "current_price": {
+      "usd": 5.927519865989508
+    },
+    "market_cap": {
+      "usd": 3765347707.6863375
+    },
+    "total_volume": {
+      "usd": 408982931.58968365
+    },
+    "circulating_supply": 635231562.7469889,
+    "total_supply": 899866420.0370889,
+    "ath": {
+      "usd": 6.1348471215
+    },
+    "atl": {
+      "usd": 1.867360015
+    },
+    "price_change_percentage_24h": 1.36576742,
+    "last_updated": "2026-01-05T19:12:11.715Z"
+  }
+}

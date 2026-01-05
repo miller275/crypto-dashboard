@@ -1,0 +1,34 @@
+{
+  "id": "32196",
+  "symbol": "HYPE",
+  "name": "Hyperliquid",
+  "market_cap_rank": 13,
+  "image": {
+    "small": "assets/img/coins/32196.png",
+    "large": "assets/img/coins/32196.png"
+  },
+  "description": {
+    "en": "Hyperliquid (HYPE) is a cryptocurrency and operates on the Hyperliquid platform. Hyperliquid has a current supply of 961,671,487.86 with 339,347,639 in circulation. The last known price of Hyperliquid is 26.96362027 USD and is up 4.38 over the last 24 hours. It is currently trading on 222 active market(s) with $276,817,117.88 traded over the last 24 hours. More information can be found at https://hyperliquid.xyz/."
+  },
+  "market_data": {
+    "current_price": {
+      "usd": 26.99569482210227
+    },
+    "market_cap": {
+      "usd": 9160925301.04493
+    },
+    "total_volume": {
+      "usd": 276642181.2803598
+    },
+    "circulating_supply": 339347639,
+    "total_supply": 961671487.86,
+    "ath": {
+      "usd": 116.7144639014
+    },
+    "atl": {
+      "usd": 26.3239105217
+    },
+    "price_change_percentage_24h": 4.52371293,
+    "last_updated": "2026-01-05T19:12:11.714Z"
+  }
+}

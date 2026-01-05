@@ -1,0 +1,34 @@
+{
+  "id": "328",
+  "symbol": "XMR",
+  "name": "Monero",
+  "market_cap_rank": 16,
+  "image": {
+    "small": "assets/img/coins/328.png",
+    "large": "assets/img/coins/328.png"
+  },
+  "description": {
+    "en": "Monero (XMR) is a cryptocurrency . Users are able to generate XMR through the process of mining. Monero has a current supply of 18,446,744.07370955. The last known price of Monero is 428.92983872 USD and is up 1.59 over the last 24 hours. It is currently trading on 347 active market(s) with $70,578,862.83 traded over the last 24 hours. More information can be found at https://www.getmonero.org/."
+  },
+  "market_data": {
+    "current_price": {
+      "usd": 428.90960006756177
+    },
+    "market_cap": {
+      "usd": 7911985623.203429
+    },
+    "total_volume": {
+      "usd": 70620309.47911547
+    },
+    "circulating_supply": 18446744.07370955,
+    "total_supply": 18446744.07370955,
+    "ath": {
+      "usd": 442.177602615
+    },
+    "atl": {
+      "usd": 100.0220578502
+    },
+    "price_change_percentage_24h": 1.46871493,
+    "last_updated": "2026-01-05T19:12:11.714Z"
+  }
+}

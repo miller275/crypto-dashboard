@@ -1,0 +1,34 @@
+{
+  "id": "4943",
+  "symbol": "DAI",
+  "name": "Dai",
+  "market_cap_rank": 25,
+  "image": {
+    "small": "assets/img/coins/4943.png",
+    "large": "assets/img/coins/4943.png"
+  },
+  "description": {
+    "en": "Dai (DAI) is a cryptocurrency and operates on the Ethereum platform. Dai has a current supply of 5,365,382,702.664872. The last known price of Dai is 0.99966633 USD and is up 0.03 over the last 24 hours. It is currently trading on 3657 active market(s) with $80,018,055.96 traded over the last 24 hours. More information can be found at https://makerdao.com/."
+  },
+  "market_data": {
+    "current_price": {
+      "usd": 0.999666325034849
+    },
+    "market_cap": {
+      "usd": 5363592408.778539
+    },
+    "total_volume": {
+      "usd": 80018055.95857024
+    },
+    "circulating_supply": 5365382702.664872,
+    "total_supply": 5365382702.664872,
+    "ath": {
+      "usd": 1.0252709574
+    },
+    "atl": {
+      "usd": 0.9341768822
+    },
+    "price_change_percentage_24h": 0.0295782,
+    "last_updated": "2026-01-05T19:12:11.714Z"
+  }
+}

@@ -1,11 +1,12 @@
 {
-  "source": "sample",
-  "updatedAt": "2026-01-04T17:52:45Z",
+  "source": "alternative.me",
+  "updatedAt": "2026-01-05T19:12:12.023Z",
   "data": [
     {
-      "value": "55",
-      "value_classification": "Neutral",
-      "timestamp": "1767549165"
+      "value": 26,
+      "value_classification": "Fear",
+      "timestamp": 1767571200,
+      "time_until_update": "17268"
     }
   ]
 }

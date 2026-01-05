@@ -1,0 +1,34 @@
+{
+  "id": "825",
+  "symbol": "USDT",
+  "name": "Tether USDt",
+  "market_cap_rank": 3,
+  "image": {
+    "small": "assets/img/coins/825.png",
+    "large": "assets/img/coins/825.png"
+  },
+  "description": {
+    "en": "Tether USDt (USDT) is a cryptocurrency and operates on the Ethereum platform. Tether USDt has a current supply of 189,845,194,212.41214824 with 187,110,343,446.02992665 in circulation. The last known price of Tether USDt is 0.9996274 USD and is up 0.03 over the last 24 hours. It is currently trading on 165088 active market(s) with $99,316,908,343.42 traded over the last 24 hours. More information can be found at https://tether.to."
+  },
+  "market_data": {
+    "current_price": {
+      "usd": 0.9996897893169949
+    },
+    "market_cap": {
+      "usd": 187052299818.59222
+    },
+    "total_volume": {
+      "usd": 99400177429.17177
+    },
+    "circulating_supply": 187110343446.02994,
+    "total_supply": 189845194212.41214,
+    "ath": {
+      "usd": 1.06000329
+    },
+    "atl": {
+      "usd": 0.6434348992
+    },
+    "price_change_percentage_24h": 0.03020986,
+    "last_updated": "2026-01-05T19:12:11.713Z"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "id": "37263",
+  "symbol": "CC",
+  "name": "Canton",
+  "market_cap_rank": 22,
+  "image": {
+    "small": "assets/img/coins/37263.png",
+    "large": "assets/img/coins/37263.png"
+  },
+  "description": {
+    "en": "Canton (CC) is a cryptocurrency launched in 2024. Canton has a current supply of 37,014,264,523.32566364. The last known price of Canton is 0.15218378 USD and is up 3.11 over the last 24 hours. It is currently trading on 60 active market(s) with $33,008,636.56 traded over the last 24 hours. More information can be found at https://sync.global."
+  },
+  "market_data": {
+    "current_price": {
+      "usd": 0.15196123402979642
+    },
+    "market_cap": {
+      "usd": 5624733313.669882
+    },
+    "total_volume": {
+      "usd": 32957337.35154694
+    },
+    "circulating_supply": 37014264523.32566,
+    "total_supply": 37014264523.32566,
+    "ath": {
+      "usd": 0.1542994161
+    },
+    "atl": {
+      "usd": 0.0070696362
+    },
+    "price_change_percentage_24h": 2.84363758,
+    "last_updated": "2026-01-05T19:12:11.714Z"
+  }
+}

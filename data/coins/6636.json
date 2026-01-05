@@ -1,0 +1,34 @@
+{
+  "id": "6636",
+  "symbol": "DOT",
+  "name": "Polkadot",
+  "market_cap_rank": 30,
+  "image": {
+    "small": "assets/img/coins/6636.png",
+    "large": "assets/img/coins/6636.png"
+  },
+  "description": {
+    "en": "Polkadot (DOT) is a cryptocurrency . Polkadot has a current supply of 1,652,224,467.63963483. The last known price of Polkadot is 2.2026757 USD and is up 3.72 over the last 24 hours. It is currently trading on 1004 active market(s) with $207,726,531.92 traded over the last 24 hours. More information can be found at https://polkadot.com."
+  },
+  "market_data": {
+    "current_price": {
+      "usd": 2.2055984048200448
+    },
+    "market_cap": {
+      "usd": 3644143650.230626
+    },
+    "total_volume": {
+      "usd": 208580969.3173905
+    },
+    "circulating_supply": 1652224467.6396348,
+    "total_supply": 1652224467.6396348,
+    "ath": {
+      "usd": 2.3829378535
+    },
+    "atl": {
+      "usd": 0.9465221387
+    },
+    "price_change_percentage_24h": 3.64997299,
+    "last_updated": "2026-01-05T19:12:11.715Z"
+  }
+}

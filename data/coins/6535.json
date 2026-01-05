@@ -1,0 +1,34 @@
+{
+  "id": "6535",
+  "symbol": "NEAR",
+  "name": "NEAR Protocol",
+  "market_cap_rank": 39,
+  "image": {
+    "small": "assets/img/coins/6535.png",
+    "large": "assets/img/coins/6535.png"
+  },
+  "description": {
+    "en": "NEAR Protocol (NEAR) is a cryptocurrency launched in 2020. NEAR Protocol has a current supply of 1,284,359,106. The last known price of NEAR Protocol is 1.77479579 USD and is up 3.70 over the last 24 hours. It is currently trading on 604 active market(s) with $226,091,984.60 traded over the last 24 hours. More information can be found at https://near.org/."
+  },
+  "market_data": {
+    "current_price": {
+      "usd": 1.7751025896043977
+    },
+    "market_cap": {
+      "usd": 2279869175.042589
+    },
+    "total_volume": {
+      "usd": 226960483.24976206
+    },
+    "circulating_supply": 1284359106,
+    "total_supply": 1284359106,
+    "ath": {
+      "usd": 1.9008732419
+    },
+    "atl": {
+      "usd": 1.3019469455
+    },
+    "price_change_percentage_24h": 3.4253358,
+    "last_updated": "2026-01-05T19:12:11.715Z"
+  }
+}

@@ -1,18 +1,186 @@
 {
-  "source": "sample",
-  "updatedAt": "2026-01-04T17:52:45Z",
+  "source": "rss",
+  "updatedAt": "2026-01-05T19:12:12.618Z",
   "items": [
     {
-      "title": "Sample headline: Bitcoin volatility returns",
-      "url": "https://example.com",
-      "source": "sample",
-      "publishedAt": "2026-01-04T17:52:45Z"
+      "title": "Bitcoin Close to Breaking Out of Death Cross: Here’s What That Means",
+      "url": "https://decrypt.co/353612/bitcoin-price-close-breaking-death-cross-analysis",
+      "source": "Decrypt",
+      "publishedAt": "2026-01-05T18:42:15.000Z"
     },
     {
-      "title": "Sample headline: Altcoins rally on macro news",
-      "url": "https://example.com",
-      "source": "sample",
-      "publishedAt": "2026-01-04T17:52:45Z"
+      "title": "Shiba Inu (SHIB) Surges 15% Weekly: What Are the Next Targets?",
+      "url": "https://cryptopotato.com/shiba-inu-shib-surges-15-weekly-what-are-the-next-targets/",
+      "source": "CryptoPotato",
+      "publishedAt": "2026-01-05T18:29:17.000Z"
+    },
+    {
+      "title": "Ethereum Layer-2 Network Starknet Back Online Following Outage",
+      "url": "https://decrypt.co/353625/ethereum-layer-2-starknet-back-online-outage",
+      "source": "Decrypt",
+      "publishedAt": "2026-01-05T18:24:15.000Z"
+    },
+    {
+      "title": "Price predictions 1/5: SPX, DXY, BTC, ETH, XRP, BNB, SOL, DOGE, ADA, BCH",
+      "url": "https://cointelegraph.com/news/price-predictions-1-5-spx-dxy-btc-eth-xrp-bnb-sol-doge-ada-bch?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "publishedAt": "2026-01-05T18:10:31.000Z"
+    },
+    {
+      "title": "Crypto &#8216;Wrench Attacks&#8217; Are Rising, And Getting More Violent",
+      "url": "https://cryptopotato.com/crypto-wrench-attacks-are-rising-and-getting-more-violent/",
+      "source": "CryptoPotato",
+      "publishedAt": "2026-01-05T17:55:08.000Z"
+    },
+    {
+      "title": "Strategy Pads Cash Reserve, Drops Another $116 Million on Bitcoin",
+      "url": "https://decrypt.co/353607/strategy-pads-cash-reserve-drops-116-million-bitcoin",
+      "source": "Decrypt",
+      "publishedAt": "2026-01-05T17:53:31.000Z"
+    },
+    {
+      "title": "Grayscale declares first Ethereum staking payout for US-listed ETF",
+      "url": "https://cointelegraph.com/news/grayscale-us-payout-ethereum-staking-rewards?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "publishedAt": "2026-01-05T17:46:28.000Z"
+    },
+    {
+      "title": "Crypto Wallet Maker Ledger Confirms Data Breach on Global-e Platform",
+      "url": "https://decrypt.co/353606/crypto-wallet-ledger-data-breach-global-e",
+      "source": "Decrypt",
+      "publishedAt": "2026-01-05T17:41:57.000Z"
+    },
+    {
+      "title": "China’s financial associations reclassify RWAs as ‘risky‘: Report",
+      "url": "https://cointelegraph.com/news/china-financial-associations-rwa-stablecoin-risky?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "publishedAt": "2026-01-05T17:16:17.000Z"
+    },
+    {
+      "title": "Ethereum&#39;s Blockchain Trilemma &#39;Solved&#39;: Vitalik Buterin",
+      "url": "https://decrypt.co/353587/ethereums-blockchain-trilemma-solved-vitalik-buterin",
+      "source": "Decrypt",
+      "publishedAt": "2026-01-05T17:04:59.000Z"
+    },
+    {
+      "title": "Crypto is Green! Up 6-9%! Memes outperform! Pepe up 67%! Infinex Founder Interview!",
+      "url": "https://decrypt.co/videos/interviews/EmmJkWJn/crypto-is-green-up-6-9-memes-outperform-pepe-up-67-infinex-founder-interview",
+      "source": "Decrypt",
+      "publishedAt": "2026-01-05T16:28:36.000Z"
+    },
+    {
+      "title": "Is Ethereum (ETH) About to Outperform Bitcoin (BTC) This Cycle?",
+      "url": "https://cryptopotato.com/is-ethereum-eth-about-to-outperform-bitcoin-btc-this-cycle/",
+      "source": "CryptoPotato",
+      "publishedAt": "2026-01-05T16:26:28.000Z"
+    },
+    {
+      "title": "Bitcoin price hits $94K as crypto volume dives to lowest since late 2023",
+      "url": "https://cointelegraph.com/news/bitcoin-price-nears-94k-crypto-volume-lowest-since-late-2023?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "publishedAt": "2026-01-05T16:07:32.000Z"
+    },
+    {
+      "title": "Tom Lee Predicts $250K Ethereum Price as BitMine Adds to $13 Billion Stash",
+      "url": "https://decrypt.co/353585/tom-lee-predicts-250k-ethereum-price-bitmine-adds-13-billion-stash",
+      "source": "Decrypt",
+      "publishedAt": "2026-01-05T15:56:17.000Z"
+    },
+    {
+      "title": "Bitcoin (BTC) Rally Isn&#8217;t Over Yet, But Downside Isn&#8217;t Done",
+      "url": "https://cryptopotato.com/bitcoin-btc-rally-isnt-over-yet-but-downside-isnt-done/",
+      "source": "CryptoPotato",
+      "publishedAt": "2026-01-05T15:31:33.000Z"
+    },
+    {
+      "title": "Bitcoin enters 'strength' phase, but $100K debate heats up between traders",
+      "url": "https://cointelegraph.com/news/bitcoin-enters-strength-phase-100k-debate-heats-up?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "publishedAt": "2026-01-05T15:15:00.000Z"
+    },
+    {
+      "title": "We Asked 4 AIs if Pi Network (PI) Will Hit $1 in Q1: The Answers Are Surprising",
+      "url": "https://cryptopotato.com/we-asked-4-ais-if-pi-network-pi-will-hit-1-in-q1-the-answers-are-surprising/",
+      "source": "CryptoPotato",
+      "publishedAt": "2026-01-05T14:33:19.000Z"
+    },
+    {
+      "title": "Taisu Ventures and Keio FinTEK Center Launch Keio ChainHack 2026 Focused on Web3 Innovation",
+      "url": "https://cryptopotato.com/taisu-ventures-and-keio-fintek-center-launch-keio-chainhack-2026-focused-on-web3-innovation/",
+      "source": "CryptoPotato",
+      "publishedAt": "2026-01-05T14:30:56.000Z"
+    },
+    {
+      "title": "TermMax Advances Institutional DeFi Use with Tokenized Stock Financing Integration",
+      "url": "https://cryptopotato.com/termmax-advances-institutional-defi-use-with-tokenized-stock-financing-integration/",
+      "source": "CryptoPotato",
+      "publishedAt": "2026-01-05T14:30:37.000Z"
+    },
+    {
+      "title": "Bitcoin&#39;s $92K Breakout Spurs Whale Activity, But Analysts Temper 2026 Expectations",
+      "url": "https://decrypt.co/353581/bitcoins-92k-breakout-spurs-whale-activity-but-analysts-temper-2026-expectations",
+      "source": "Decrypt",
+      "publishedAt": "2026-01-05T14:27:37.000Z"
+    },
+    {
+      "title": "Strategy kickstarts 2026 with $116M Bitcoin buy as Q4 paper loss hits $17B",
+      "url": "https://cointelegraph.com/news/strategy-2026-116m-bitcoin-buy-17b-loss-q4?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "publishedAt": "2026-01-05T14:20:01.000Z"
+    },
+    {
+      "title": "Morning Minute: Bitcoin Grinds Up Amidst Venezuela Conflict",
+      "url": "https://decrypt.co/353556/morning-minute-bitcoin-grinds-up-amidst-venezuela-conflict",
+      "source": "Decrypt",
+      "publishedAt": "2026-01-05T13:55:09.000Z"
+    },
+    {
+      "title": "Ethereum Price Analysis: ETH Bullish Reversal Hinges on Reclaiming This One Key Level",
+      "url": "https://cryptopotato.com/ethereum-price-analysis-eth-bullish-reversal-hinges-on-reclaiming-this-one-key-level/",
+      "source": "CryptoPotato",
+      "publishedAt": "2026-01-05T13:51:42.000Z"
+    },
+    {
+      "title": "Crypto Wallets Can ‘Directly Compete With Neobanks&#39;",
+      "url": "https://decrypt.co/videos/interviews/WsvLVFlp/crypto-wallets-can-directly-compete-with-neobanks",
+      "source": "Decrypt",
+      "publishedAt": "2026-01-05T13:44:47.000Z"
+    },
+    {
+      "title": "Saylor&#8217;s Strategy Announces New Bitcoin Acquisition and Increases USD Reserves",
+      "url": "https://cryptopotato.com/saylors-strategy-announces-new-bitcoin-acquisition-and-increases-usd-reserves/",
+      "source": "CryptoPotato",
+      "publishedAt": "2026-01-05T13:44:41.000Z"
+    },
+    {
+      "title": "Ledger says Global-e incident did not compromise crypto wallets",
+      "url": "https://cointelegraph.com/news/ledger-data-incident-global-e-not-platform-breach?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "publishedAt": "2026-01-05T13:39:45.000Z"
+    },
+    {
+      "title": "How ZachXBT exposed a Coinbase impersonation scam using onchain clues",
+      "url": "https://cointelegraph.com/news/how-zachxbt-exposed-a-coinbase-impersonation-scam-using-onchain-clues?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "publishedAt": "2026-01-05T13:31:52.000Z"
+    },
+    {
+      "title": "Three bullish XRP charts to watch as price gains over 18% in 2026",
+      "url": "https://cointelegraph.com/news/three-bullish-xrp-charts-watch-price-gains-18-percent?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "publishedAt": "2026-01-05T13:27:25.000Z"
+    },
+    {
+      "title": "Ripple’s XRP Faces Key Test at $2.5: Will History Repeat?",
+      "url": "https://cryptopotato.com/ripples-xrp-faces-key-test-at-2-5-will-history-repeat/",
+      "source": "CryptoPotato",
+      "publishedAt": "2026-01-05T13:18:48.000Z"
+    },
+    {
+      "title": "Here’s what happened in crypto today",
+      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "publishedAt": "2026-01-05T13:17:26.000Z"
     }
   ]
 }

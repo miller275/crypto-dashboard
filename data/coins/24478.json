@@ -1,0 +1,34 @@
+{
+  "id": "24478",
+  "symbol": "PEPE",
+  "name": "Pepe",
+  "market_cap_rank": 34,
+  "image": {
+    "small": "assets/img/coins/24478.png",
+    "large": "assets/img/coins/24478.png"
+  },
+  "description": {
+    "en": "Pepe (PEPE) is a cryptocurrency launched in 2023and operates on the Ethereum platform. Pepe has a current supply of 420,689,899,653,542.53949133. The last known price of Pepe is 0.00000691 USD and is up 0.42 over the last 24 hours. It is currently trading on 636 active market(s) with $1,230,122,116.10 traded over the last 24 hours. More information can be found at https://www.pepe.vip/."
+  },
+  "market_data": {
+    "current_price": {
+      "usd": 0.0000069131600454622555
+    },
+    "market_cap": {
+      "usd": 2908296605.814396
+    },
+    "total_volume": {
+      "usd": 1233498721.59328
+    },
+    "circulating_supply": 420689899653542.56,
+    "total_supply": 420689899653542.56,
+    "ath": {
+      "usd": 0.0000069132
+    },
+    "atl": {
+      "usd": 1.752e-7
+    },
+    "price_change_percentage_24h": 0.09386789,
+    "last_updated": "2026-01-05T19:12:11.715Z"
+  }
+}

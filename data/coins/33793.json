@@ -1,0 +1,34 @@
+{
+  "id": "33793",
+  "symbol": "USDG",
+  "name": "Global Dollar",
+  "market_cap_rank": 49,
+  "image": {
+    "small": "assets/img/coins/33793.png",
+    "large": "assets/img/coins/33793.png"
+  },
+  "description": {
+    "en": "Global Dollar (USDG) is a cryptocurrency launched in 2024and operates on the Ethereum platform. Global Dollar has a current supply of 1,516,283,030.018442. The last known price of Global Dollar is 0.99960181 USD and is up 0.01 over the last 24 hours. It is currently trading on 38 active market(s) with $17,911,990.10 traded over the last 24 hours. More information can be found at https://globaldollar.com."
+  },
+  "market_data": {
+    "current_price": {
+      "usd": 0.999522995738132
+    },
+    "market_cap": {
+      "usd": 1515559756.550925
+    },
+    "total_volume": {
+      "usd": 17919391.21667868
+    },
+    "circulating_supply": 1516283030.018442,
+    "total_supply": 1516283030.018442,
+    "ath": {
+      "usd": 1.0270012613
+    },
+    "atl": {
+      "usd": 0.51035996
+    },
+    "price_change_percentage_24h": 0.01067081,
+    "last_updated": "2026-01-05T19:12:11.716Z"
+  }
+}

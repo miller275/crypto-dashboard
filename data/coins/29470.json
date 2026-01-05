@@ -1,0 +1,34 @@
+{
+  "id": "29470",
+  "symbol": "USDe",
+  "name": "Ethena USDe",
+  "market_cap_rank": 20,
+  "image": {
+    "small": "assets/img/coins/29470.png",
+    "large": "assets/img/coins/29470.png"
+  },
+  "description": {
+    "en": "Ethena USDe (USDe) is a cryptocurrency and operates on the Ethereum platform. Ethena USDe has a current supply of 6,303,799,266.9175279. The last known price of Ethena USDe is 0.99944935 USD and is up 0.02 over the last 24 hours. It is currently trading on 258 active market(s) with $94,872,190.64 traded over the last 24 hours. More information can be found at https://www.ethena.fi/."
+  },
+  "market_data": {
+    "current_price": {
+      "usd": 0.9993929412103872
+    },
+    "market_cap": {
+      "usd": 6299972490.164592
+    },
+    "total_volume": {
+      "usd": 94771015.83247413
+    },
+    "circulating_supply": 6303799266.917528,
+    "total_supply": 6303799266.917528,
+    "ath": {
+      "usd": 1.0035221771
+    },
+    "atl": {
+      "usd": 0.6665947764
+    },
+    "price_change_percentage_24h": 0.01085834,
+    "last_updated": "2026-01-05T19:12:11.714Z"
+  }
+}

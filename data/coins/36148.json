@@ -1,0 +1,34 @@
+{
+  "id": "36148",
+  "symbol": "USD1",
+  "name": "World Liberty Financial USD",
+  "market_cap_rank": 33,
+  "image": {
+    "small": "assets/img/coins/36148.png",
+    "large": "assets/img/coins/36148.png"
+  },
+  "description": {
+    "en": "World Liberty Financial USD (USD1) is a cryptocurrency and operates on the Ethereum platform. World Liberty Financial USD has a current supply of 3,320,958,508.11657849. The last known price of World Liberty Financial USD is 1.00055697 USD and is up 0.02 over the last 24 hours. It is currently trading on 782 active market(s) with $1,314,794,003.03 traded over the last 24 hours. More information can be found at https://www.worldlibertyfinancial.com/."
+  },
+  "market_data": {
+    "current_price": {
+      "usd": 1.000454250860486
+    },
+    "market_cap": {
+      "usd": 3322467056.3765283
+    },
+    "total_volume": {
+      "usd": 1312933671.2385285
+    },
+    "circulating_supply": 3320958508.1165786,
+    "total_supply": 3320958508.1165786,
+    "ath": {
+      "usd": 1.041219319
+    },
+    "atl": {
+      "usd": 0.9595053469
+    },
+    "price_change_percentage_24h": 0.00458178,
+    "last_updated": "2026-01-05T19:12:11.715Z"
+  }
+}

@@ -1,48 +1,34 @@
 {
-  "id": 5426,
+  "id": "5426",
   "symbol": "SOL",
   "name": "Solana",
+  "market_cap_rank": 6,
   "image": {
-    "large": "assets/img/coin.svg",
-    "small": "assets/img/coin.svg",
-    "thumb": "assets/img/coin.svg"
+    "small": "assets/img/coins/5426.png",
+    "large": "assets/img/coins/5426.png"
   },
-  "market_cap_rank": 5,
-  "asset_platform_id": null,
   "description": {
-    "en": "Sample snapshot for Solana. Run GitHub Actions to fetch real CoinMarketCap data."
-  },
-  "links": {
-    "homepage": [],
-    "blockchain_site": [],
-    "official_forum_url": [],
-    "chat_url": [],
-    "announcement_url": [],
-    "twitter_screen_name": "",
-    "facebook_username": "",
-    "subreddit_url": "",
-    "repos_url": {
-      "github": []
-    }
+    "en": "Solana (SOL) is a cryptocurrency launched in 2020. Solana has a current supply of 617,683,033.25309348 with 563,400,211.24118781 in circulation. The last known price of Solana is 137.31843149 USD and is up 3.07 over the last 24 hours. It is currently trading on 1070 active market(s) with $4,612,675,222.87 traded over the last 24 hours. More information can be found at https://solana.com."
   },
   "market_data": {
     "current_price": {
-      "usd": 103.49
+      "usd": 137.35135111534632
     },
     "market_cap": {
-      "usd": null
+      "usd": 77383780232.64867
     },
     "total_volume": {
-      "usd": null
+      "usd": 4617931439.687544
     },
-    "price_change_percentage_1h_in_currency": {
-      "usd": null
+    "circulating_supply": 563400211.2411878,
+    "total_supply": 617683033.2530935,
+    "ath": {
+      "usd": 138.6396607471
     },
-    "price_change_percentage_24h": null,
-    "price_change_percentage_7d": null,
-    "circulating_supply": null,
-    "total_supply": null,
-    "max_supply": null
-  },
-  "last_updated": "2026-01-04T18:40:57.963081Z"
+    "atl": {
+      "usd": 58.3070586438
+    },
+    "price_change_percentage_24h": 2.99784595,
+    "last_updated": "2026-01-05T19:12:11.713Z"
+  }
 }
