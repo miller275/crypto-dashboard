@@ -3,17 +3,17 @@
   "symbol": "XAUT",
   "name": "Tether Gold",
   "slug": "tether-gold",
-  "rank": 46,
-  "price": 4360.248026314524,
-  "marketCap": 1784290414.555509,
-  "volume24h": 153495931.84454793,
+  "rank": 45,
+  "price": 4387.45386145732,
+  "marketCap": 1795423522.253123,
+  "volume24h": 175738807.18165368,
   "circulating": 409217.6417,
   "totalSupply": 520089.3,
   "maxSupply": null,
-  "percentChange1h": 0.40862431,
-  "percentChange24h": 0.43033041,
-  "percentChange7d": -3.96811358,
-  "lastUpdated": "2026-01-04T23:40:00.000Z",
+  "percentChange1h": -0.22775208,
+  "percentChange24h": 1.0884066,
+  "percentChange7d": -2.67210352,
+  "lastUpdated": "2026-01-05T02:09:00.000Z",
   "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/5176.png",
   "tags": [
     "ethereum-ecosystem",
@@ -33,6 +33,6 @@
     "token_address": "0x68749665FF8D2d112Fa859AA293F07A622782F38"
   },
   "selfReportedCirculatingSupply": 48450,
-  "selfReportedMarketCap": 211254016.8749387,
+  "selfReportedMarketCap": 212572139.58760718,
   "geckoId": "tether-gold"
 }

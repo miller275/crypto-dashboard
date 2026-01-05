@@ -4,16 +4,16 @@
   "name": "OFFICIAL TRUMP",
   "slug": "official-trump",
   "rank": 63,
-  "price": 5.3936198340731165,
-  "marketCap": 1078719544.0179565,
-  "volume24h": 450506860.3463355,
-  "circulating": 199999179.994734,
-  "totalSupply": 999999206.90751,
+  "price": 5.500660056829761,
+  "marketCap": 1100127500.7929668,
+  "volume24h": 473669239.04091895,
+  "circulating": 199999179.99423,
+  "totalSupply": 999999206.907006,
   "maxSupply": 999999993.45,
-  "percentChange1h": 0.05629674,
-  "percentChange24h": 2.2372287,
-  "percentChange7d": 9.84185253,
-  "lastUpdated": "2026-01-04T23:41:00.000Z",
+  "percentChange1h": 1.63972459,
+  "percentChange24h": 3.20974082,
+  "percentChange7d": 11.00035046,
+  "lastUpdated": "2026-01-05T02:09:00.000Z",
   "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/35336.png",
   "tags": [
     "memes",
@@ -34,6 +34,6 @@
     "token_address": "6p6xgHyF7AeE6TZkSmFsko444wqoP15icUSqi2jfGiPN"
   },
   "selfReportedCirculatingSupply": 200000000,
-  "selfReportedMarketCap": 1078723966.8146234,
+  "selfReportedMarketCap": 1100132011.3659523,
   "geckoId": "official-trump"
 }
