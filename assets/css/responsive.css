@@ -1,0 +1,12 @@
+/* Responsive tweaks */
+@media (max-width: 1100px){
+  .grid{grid-template-columns: 1fr}
+  .search{max-width: unset}
+  table{min-width: 900px;}
+}
+@media (max-width: 720px){
+  .topbar-inner{flex-wrap: wrap}
+  .search{order: 3; flex-basis: 100%}
+  .coin{min-width: 210px}
+  .chart-wrap{height: 360px}
+}

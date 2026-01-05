@@ -1,0 +1,48 @@
+{
+  "id": 1027,
+  "symbol": "ETH",
+  "name": "Ethereum",
+  "image": {
+    "large": "assets/img/coin.svg",
+    "small": "assets/img/coin.svg",
+    "thumb": "assets/img/coin.svg"
+  },
+  "market_cap_rank": 2,
+  "asset_platform_id": null,
+  "description": {
+    "en": "Sample snapshot for Ethereum. Run GitHub Actions to fetch real CoinMarketCap data."
+  },
+  "links": {
+    "homepage": [],
+    "blockchain_site": [],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "twitter_screen_name": "",
+    "facebook_username": "",
+    "subreddit_url": "",
+    "repos_url": {
+      "github": []
+    }
+  },
+  "market_data": {
+    "current_price": {
+      "usd": 2284.58
+    },
+    "market_cap": {
+      "usd": null
+    },
+    "total_volume": {
+      "usd": null
+    },
+    "price_change_percentage_1h_in_currency": {
+      "usd": null
+    },
+    "price_change_percentage_24h": null,
+    "price_change_percentage_7d": null,
+    "circulating_supply": null,
+    "total_supply": null,
+    "max_supply": null
+  },
+  "last_updated": "2026-01-04T18:40:57.963081Z"
+}
