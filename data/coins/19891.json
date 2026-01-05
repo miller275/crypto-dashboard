@@ -4,16 +4,16 @@
   "name": "USDD",
   "slug": "usdd",
   "rank": 70,
-  "price": 0.9994336998157366,
-  "marketCap": 896835758.9699248,
-  "volume24h": 49532504.25790028,
-  "circulating": 897343925,
-  "totalSupply": 897343925,
+  "price": 0.9995156147690138,
+  "marketCap": 884616067.3846505,
+  "volume24h": 58224529.24910378,
+  "circulating": 885044770,
+  "totalSupply": 885044770,
   "maxSupply": null,
-  "percentChange1h": 0.03112671,
-  "percentChange24h": -0.00904937,
-  "percentChange7d": 0.05156872,
-  "lastUpdated": "2026-01-05T02:10:00.000Z",
+  "percentChange1h": -0.01305601,
+  "percentChange24h": 0.02239199,
+  "percentChange7d": 0.0226254,
+  "lastUpdated": "2026-01-05T04:05:00.000Z",
   "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/19891.png",
   "tags": [
     "stablecoin",
@@ -31,6 +31,6 @@
     "token_address": "TXDk8mbtRbXeYuMNS83CfKPaYYT8XWv9Hz"
   },
   "selfReportedCirculatingSupply": 7492353.08,
-  "selfReportedMarketCap": 7488110.159070229,
+  "selfReportedMarketCap": 7488720.572838297,
   "geckoId": "usdd"
 }

@@ -4,16 +4,16 @@
   "name": "Solana",
   "slug": "solana",
   "rank": 6,
-  "price": 136.8938867246795,
-  "marketCap": 77109218095.46025,
-  "volume24h": 3271446703.2746935,
-  "circulating": 563277294.117173,
-  "totalSupply": 617545586.8437482,
+  "price": 136.6184114940188,
+  "marketCap": 76970942602.29607,
+  "volume24h": 3354889488.202882,
+  "circulating": 563400948.3829043,
+  "totalSupply": 617683453.3306618,
   "maxSupply": null,
-  "percentChange1h": 0.8968576,
-  "percentChange24h": 2.32446615,
-  "percentChange7d": 6.2369927,
-  "lastUpdated": "2026-01-05T02:09:00.000Z",
+  "percentChange1h": -0.13552848,
+  "percentChange24h": 1.59662712,
+  "percentChange7d": 6.16861082,
+  "lastUpdated": "2026-01-05T04:05:00.000Z",
   "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/5426.png",
   "tags": [
     "pos",
@@ -42,6 +42,6 @@
     "token_address": "So11111111111111111111111111111111111111111"
   },
   "selfReportedCirculatingSupply": 525236893.3,
-  "selfReportedMarketCap": 71901719775.03278,
+  "selfReportedMarketCap": 71753092434.914,
   "geckoId": "solana"
 }

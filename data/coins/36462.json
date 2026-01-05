@@ -4,16 +4,16 @@
   "name": "Vaulta",
   "slug": "vaulta",
   "rank": 138,
-  "price": 0.18112193724544687,
-  "marketCap": 292374766.3221249,
-  "volume24h": 20815012.46360543,
-  "circulating": 1614242707.2537,
+  "price": 0.17865791625211233,
+  "marketCap": 288400371.134945,
+  "volume24h": 21579404.39224909,
+  "circulating": 1614260242.0593,
   "totalSupply": 2100000000,
   "maxSupply": 2100000000,
-  "percentChange1h": 1.06437511,
-  "percentChange24h": 3.68886173,
-  "percentChange7d": 13.73488768,
-  "lastUpdated": "2026-01-05T02:09:00.000Z",
+  "percentChange1h": -0.20780958,
+  "percentChange24h": 1.57138261,
+  "percentChange7d": 11.46908328,
+  "lastUpdated": "2026-01-05T04:05:00.000Z",
   "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/36462.png",
   "tags": [
     "medium-of-exchange",
@@ -39,6 +39,6 @@
     "token_address": "core.vaulta"
   },
   "selfReportedCirculatingSupply": 1562570047.65,
-  "selfReportedMarketCap": 283015714.11207825,
+  "selfReportedMarketCap": 278866106.3211276,
   "geckoId": "vaulta"
 }
