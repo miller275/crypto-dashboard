@@ -1,6 +1,6 @@
 {
   "source": "rss",
-  "updatedAt": "2026-01-05T06:09:45.321Z",
+  "updatedAt": "2026-01-05T07:04:37.967Z",
   "items": [
     {
       "title": "Report: How Nations Are Reshaping Global Finance with Crypto",
@@ -63,7 +63,13 @@
       "publishedAt": "Mon, 05 Jan 2026 01:25:30 +0000"
     },
     {
-      "title": "PwC leaned into crypto after US regulatory shift, CEO says",
+      "title": "9 myths about Bitcoin energy use, debunked by data: ESG expert",
+      "url": "<![CDATA[https://cointelegraph.com/news/expert-debunks-9-common-myths-about-bitcoin-mining-energy-use?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound]]>",
+      "source": "Cointelegraph.com News",
+      "publishedAt": "Mon, 05 Jan 2026 06:06:23 +0000"
+    },
+    {
+      "title": "PwC expanded crypto business after US regulatory shift, CEO says",
       "url": "<![CDATA[https://cointelegraph.com/news/pwc-leaning-crypto-us-regulation?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound]]>",
       "source": "Cointelegraph.com News",
       "publishedAt": "Mon, 05 Jan 2026 05:56:38 +0000"
@@ -81,16 +87,10 @@
       "publishedAt": "Mon, 05 Jan 2026 05:44:24 +0000"
     },
     {
-      "title": "Trump threatens military operation in Colombia as Bitcoin rises to $93K",
+      "title": "Trump floats Colombia action as Bitcoin climbs toward $93K",
       "url": "<![CDATA[https://cointelegraph.com/news/trump-hints-colombia-mexico-next-after-maduro-capture?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound]]>",
       "source": "Cointelegraph.com News",
       "publishedAt": "Mon, 05 Jan 2026 05:10:24 +0000"
-    },
-    {
-      "title": "Ethereum powers $8T in stablecoin transfers in Q4, smashing record",
-      "url": "<![CDATA[https://cointelegraph.com/news/stablecoin-transfer-volume-ethereum-tops-8t-q4-ath?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound]]>",
-      "source": "Cointelegraph.com News",
-      "publishedAt": "Mon, 05 Jan 2026 03:23:29 +0000"
     }
   ]
 }

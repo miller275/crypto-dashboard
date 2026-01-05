@@ -4,16 +4,16 @@
   "name": "Worldcoin",
   "slug": "worldcoin-org",
   "rank": 48,
-  "price": 0.5918422904889197,
-  "marketCap": 1577690022.3942196,
-  "volume24h": 135243240.42208815,
+  "price": 0.5917647975145978,
+  "marketCap": 1577483447.273857,
+  "volume24h": 134065732.8462815,
   "circulating": 2665727082.6167107,
   "totalSupply": 10000000000,
   "maxSupply": null,
-  "percentChange1h": 0.15775464,
-  "percentChange24h": 0.01236743,
-  "percentChange7d": 14.66268385,
-  "lastUpdated": "2026-01-05T05:55:00.000Z",
+  "percentChange1h": -0.40686731,
+  "percentChange24h": 0.54733915,
+  "percentChange7d": 14.71370971,
+  "lastUpdated": "2026-01-05T06:50:00.000Z",
   "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/13502.png",
   "tags": [
     "defi",
@@ -39,6 +39,6 @@
     "token_address": "0x163f8c2467924be0ae7b5347228cabf260318753"
   },
   "selfReportedCirculatingSupply": 2665727082.62,
-  "selfReportedMarketCap": 1577690022.3961663,
+  "selfReportedMarketCap": 1577524666.8350275,
   "geckoId": "worldcoin-wld"
 }
