@@ -9,7 +9,7 @@ on:
     inputs:
       top_limit:
         description: 'Number of top coins to fetch'
-        default: 20
+        default: 50
         type: number
       chart_limit:
         description: 'Number of chart data points'
@@ -20,8 +20,8 @@ on:
         default: 20
         type: number
   schedule:
-    # Run every 60 minutes (увеличил интервал из-за rate limits)
-    - cron: "0 * * * *"
+    # Run every 60 minutes to avoid rate limits
+    - cron: "0 */1 * * *"
 
 permissions:
   contents: write
@@ -42,65 +42,48 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: '20'
-
-      - name: Cache npm dependencies
-        if: hashFiles('package-lock.json') != ''
-        uses: actions/cache@v3
-        id: npm-cache
-        with:
-          path: |
-            ~/.npm
-            node_modules
-          key: ${{ runner.os }}-node-${{ hashFiles('package-lock.json') }}
-          restore-keys: |
-            ${{ runner.os }}-node-
+          cache: 'npm'
+          cache-dependency-path: 'package-lock.json'
 
       - name: Install dependencies
         if: hashFiles('package.json') != ''
         run: |
           echo "Installing dependencies..."
           if [ -f "package-lock.json" ]; then
-            npm ci --no-audit --no-fund --silent
+            npm ci --no-audit --no-fund
           else
-            npm install --no-audit --no-fund --silent
+            npm install --no-audit --no-fund
           fi
 
       - name: Create necessary directories
         run: |
-          echo "Creating directories..."
-          mkdir -p data assets/img/coins
-          echo "Directories created/verified"
-          
-          # Debug: show directory structure
-          echo "Current directory structure:"
+          echo "Creating/verifying directories..."
+          mkdir -p data/coins data/market_chart data/ohlc assets/img/coins
+          echo "Directories structure:"
           ls -la
           echo "Data directory:"
-          ls -la data/ 2>/dev/null || echo "No data directory yet"
-          echo "Assets directory:"
-          ls -la assets/img/coins/ 2>/dev/null || echo "No assets directory yet"
+          ls -la data/ || echo "Data directory not found"
 
       - name: Configure Git
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git config --global pull.rebase true
 
       - name: Pull latest changes
         run: |
-          echo "Pulling latest changes from main..."
-          git pull origin main --no-rebase --no-ff || echo "Pull had conflicts, continuing"
+          echo "Pulling latest changes..."
+          git pull origin main || echo "Pull failed or already up to date"
 
       - name: Run data update script
         id: update
         env:
-          # Используем CMC_PRO_API_KEY вместо CMC_API_KEY
+          # Используем правильные имена переменных
           CMC_PRO_API_KEY: ${{ secrets.CMC_PRO_API_KEY }}
-          TOP_LIMIT: ${{ github.event.inputs.top_limit || 20 }}
+          TOP_LIMIT: ${{ github.event.inputs.top_limit || 50 }}
           CHART_LIMIT: ${{ github.event.inputs.chart_limit || 30 }}
           LOGO_LIMIT: ${{ github.event.inputs.logo_limit || 20 }}
-          # Добавляем задержку между запросами для избежания 429
-          REQUEST_DELAY: 1000
-          NODE_ENV: 'production'
+          # Добавляем задержку между запросами для CoinGecko API
+          REQUEST_DELAY: 1500
         run: |
           set -e
           
@@ -109,130 +92,128 @@ jobs:
           echo "TOP_LIMIT: $TOP_LIMIT"
           echo "CHART_LIMIT: $CHART_LIMIT"
           echo "LOGO_LIMIT: $LOGO_LIMIT"
-          echo "REQUEST_DELAY: $REQUEST_DELAY ms"
-          echo "Current directory: $(pwd)"
+          echo "REQUEST_DELAY: $REQUEST_DELAY"
           
-          # Check if update script exists
+          # Проверяем наличие скрипта
           if [ ! -f "scripts/update-data.js" ]; then
-            echo "Error: update-data.js not found in scripts/"
-            echo "Available files:"
-            find . -name "*.js" -type f | head -20
+            echo "❌ Error: scripts/update-data.js not found!"
             exit 1
           fi
           
-          # Create backup of current data
-          echo "Creating backup of current data..."
-          timestamp=$(date +%Y%m%d_%H%M%S)
-          mkdir -p backup
-          cp -r data backup/data_$timestamp 2>/dev/null || true
-          cp -r assets/img/coins backup/coins_$timestamp 2>/dev/null || true
+          echo "Script found, running..."
           
-          echo "Running update script..."
-          # Запускаем скрипт с таймаутом
-          timeout 1200 node scripts/update-data.js || {
-            exit_code=$?
-            if [ $exit_code -eq 124 ]; then
-              echo "Script timed out after 20 minutes"
-            else
-              echo "Script failed with exit code: $exit_code"
-            fi
-            # Restore from backup
-            echo "Restoring from backup..."
-            rm -rf data assets/img/coins 2>/dev/null || true
-            cp -r backup/data_$timestamp data 2>/dev/null || true
-            cp -r backup/coins_$timestamp assets/img/coins 2>/dev/null || true
-            exit $exit_code
-          }
+          # Запускаем скрипт с обработкой ошибок
+          node scripts/update-data.js
           
-          # Count updated files
-          DATA_FILES_COUNT=$(find data -type f -name "*.json" 2>/dev/null | wc -l || echo "0")
-          LOGO_FILES_COUNT=$(find assets/img/coins -type f \( -name "*.png" -o -name "*.jpg" -o -name "*.svg" \) 2>/dev/null | wc -l || echo "0")
+          # Проверяем результаты
+          echo "Checking results..."
           
-          echo "Update completed successfully!"
-          echo "Updated $DATA_FILES_COUNT data files"
-          echo "Updated $LOGO_FILES_COUNT logo files"
+          # Считаем обновленные файлы
+          COIN_FILES=$(find data/coins -name "*.json" 2>/dev/null | wc -l || echo "0")
+          CHART_FILES=$(find data/market_chart -name "*.json" 2>/dev/null | wc -l || echo "0")
+          OHLC_FILES=$(find data/ohlc -name "*.json" 2>/dev/null | wc -l || echo "0")
+          LOGO_FILES=$(find assets/img/coins -name "*.png" 2>/dev/null | wc -l || echo "0")
           
-          echo "data_files=$DATA_FILES_COUNT" >> $GITHUB_OUTPUT
-          echo "logo_files=$LOGO_FILES_COUNT" >> $GITHUB_OUTPUT
+          echo "✅ Update completed!"
+          echo "Coin files: $COIN_FILES"
+          echo "Chart files: $CHART_FILES"
+          echo "OHLC files: $OHLC_FILES"
+          echo "Logo files: $LOGO_FILES"
+          
+          echo "coin_files=$COIN_FILES" >> $GITHUB_OUTPUT
+          echo "chart_files=$CHART_FILES" >> $GITHUB_OUTPUT
+          echo "ohlc_files=$OHLC_FILES" >> $GITHUB_OUTPUT
+          echo "logo_files=$LOGO_FILES" >> $GITHUB_OUTPUT
 
       - name: Check for changes
         id: changes
         run: |
           echo "Checking for changes..."
-          git status --porcelain
           
-          # Check if there are changes in data or assets directories
-          CHANGES_IN_DATA=$(git status --porcelain data/ 2>/dev/null | wc -l)
-          CHANGES_IN_ASSETS=$(git status --porcelain assets/ 2>/dev/null | wc -l)
+          # Проверяем изменения в ключевых директориях
+          git add -N .
+          CHANGES=$(git status --porcelain | grep -E "(data/|assets/img/coins/)" | wc -l)
           
-          if [ $CHANGES_IN_DATA -gt 0 ] || [ $CHANGES_IN_ASSETS -gt 0 ]; then
-            echo "Changes detected in data directories"
+          if [ "$CHANGES" -gt 0 ]; then
+            echo "✅ Changes detected: $CHANGES file(s) modified"
             echo "has_changes=true" >> $GITHUB_OUTPUT
             
-            # Show what changed
-            echo "Changed files:"
-            git diff --name-only
+            # Показываем что изменилось
+            echo "Modified files:"
+            git status --porcelain | grep -E "(data/|assets/img/coins/)"
           else
-            echo "No changes detected in data directories"
+            echo "ℹ️ No changes detected in data directories"
             echo "has_changes=false" >> $GITHUB_OUTPUT
           fi
 
       - name: Commit and push changes
         if: steps.changes.outputs.has_changes == 'true'
         run: |
-          # Add only data and assets directories
-          git add data/ assets/
+          # Конфигурируем git
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           
-          # Check if we have staged changes
+          # Добавляем только нужные директории
+          git add data/ assets/img/coins/
+          
+          # Проверяем что есть что коммитить
           if git diff --cached --quiet; then
-            echo "No staged changes to commit"
+            echo "No changes to commit"
             exit 0
           fi
           
-          # Create commit message
+          # Создаем сообщение коммита
+          COMMIT_MSG="chore(data): update cryptocurrency snapshots"
+          
           if [[ "${{ github.event_name }}" == "workflow_dispatch" ]]; then
-            COMMIT_MSG="chore(data): manual update"
+            COMMIT_MSG="$COMMIT_MSG (manual)"
           else
-            COMMIT_MSG="chore(data): automated update"
+            COMMIT_MSG="$COMMIT_MSG (scheduled)"
           fi
           
           COMMIT_MSG="$COMMIT_MSG
 
-          - Top coins: ${{ github.event.inputs.top_limit || 20 }}
+          Updated:
+          - Coin data: ${{ steps.update.outputs.coin_files || 0 }} files
+          - Chart data: ${{ steps.update.outputs.chart_files || 0 }} files
+          - OHLC data: ${{ steps.update.outputs.ohlc_files || 0 }} files
+          - Logos: ${{ steps.update.outputs.logo_files || 0 }} files
+          
+          Limits:
+          - Top coins: ${{ github.event.inputs.top_limit || 50 }}
           - Chart points: ${{ github.event.inputs.chart_limit || 30 }}
           - Logos: ${{ github.event.inputs.logo_limit || 20 }}
-          - Data files: ${{ steps.update.outputs.data_files || 0 }}
-          - Logo files: ${{ steps.update.outputs.logo_files || 0 }}
           
           [skip ci]"
           
+          # Коммитим
           echo "Committing changes..."
           echo "$COMMIT_MSG" | git commit -F -
           
-          # Push with retries
+          # Пушим с ретраями
           MAX_RETRIES=3
           for i in $(seq 1 $MAX_RETRIES); do
             echo "Push attempt $i/$MAX_RETRIES..."
             
-            # Pull latest changes first
+            # Пытаемся сделать rebase
             git fetch origin main
             if git rebase origin/main; then
               echo "Rebase successful"
             else
-              echo "Rebase failed, resetting..."
-              git rebase --abort
+              echo "Rebase failed, resetting and pulling..."
+              git rebase --abort || true
               git reset --hard origin/main
               git pull origin main
             fi
             
-            # Try to push
+            # Пытаемся запушить
             if git push origin HEAD:main; then
-              echo "Push successful!"
-              exit 0
+              echo "✅ Push successful!"
+              break
             fi
             
             if [ $i -eq $MAX_RETRIES ]; then
-              echo "Failed to push after $MAX_RETRIES attempts"
+              echo "❌ Failed to push after $MAX_RETRIES attempts"
               exit 1
             fi
             
@@ -240,7 +221,7 @@ jobs:
             sleep 5
           done
 
-      - name: Create summary
+      - name: Create summary report
         if: always()
         run: |
           echo "## Data Update Summary" >> $GITHUB_STEP_SUMMARY
@@ -248,39 +229,49 @@ jobs:
           
           if [[ "${{ job.status }}" == "success" ]]; then
             if [[ "${{ steps.changes.outputs.has_changes }}" == "true" ]]; then
-              echo "✅ **Successfully updated and pushed data**" >> $GITHUB_STEP_SUMMARY
+              echo "✅ **Update completed successfully!**" >> $GITHUB_STEP_SUMMARY
+              echo "" >> $GITHUB_STEP_SUMMARY
+              echo "Changes have been committed and pushed to the repository." >> $GITHUB_STEP_SUMMARY
             else
-              echo "ℹ️ **Data is already up to date** - No changes detected" >> $GITHUB_STEP_SUMMARY
+              echo "ℹ️ **No changes needed**" >> $GITHUB_STEP_SUMMARY
+              echo "" >> $GITHUB_STEP_SUMMARY
+              echo "All data is already up to date." >> $GITHUB_STEP_SUMMARY
             fi
           else
             echo "❌ **Update failed**" >> $GITHUB_STEP_SUMMARY
+            echo "" >> $GITHUB_STEP_SUMMARY
+            echo "Please check the logs for error details." >> $GITHUB_STEP_SUMMARY
           fi
           
           echo "" >> $GITHUB_STEP_SUMMARY
-          echo "**Details:**" >> $GITHUB_STEP_SUMMARY
-          echo "- Data files: ${{ steps.update.outputs.data_files || 0 }}" >> $GITHUB_STEP_SUMMARY
+          echo "### Statistics" >> $GITHUB_STEP_SUMMARY
+          echo "- Coin data files: ${{ steps.update.outputs.coin_files || 0 }}" >> $GITHUB_STEP_SUMMARY
+          echo "- Chart data files: ${{ steps.update.outputs.chart_files || 0 }}" >> $GITHUB_STEP_SUMMARY
+          echo "- OHLC data files: ${{ steps.update.outputs.ohlc_files || 0 }}" >> $GITHUB_STEP_SUMMARY
           echo "- Logo files: ${{ steps.update.outputs.logo_files || 0 }}" >> $GITHUB_STEP_SUMMARY
-          echo "- Trigger: ${{ github.event_name }}" >> $GITHUB_STEP_SUMMARY
           
           if [[ "${{ github.event_name }}" == "workflow_dispatch" ]]; then
-            echo "- Top coins limit: ${{ github.event.inputs.top_limit || 20 }}" >> $GITHUB_STEP_SUMMARY
+            echo "" >> $GITHUB_STEP_SUMMARY
+            echo "### Manual Run Parameters" >> $GITHUB_STEP_SUMMARY
+            echo "- Top coins limit: ${{ github.event.inputs.top_limit || 50 }}" >> $GITHUB_STEP_SUMMARY
             echo "- Chart points limit: ${{ github.event.inputs.chart_limit || 30 }}" >> $GITHUB_STEP_SUMMARY
             echo "- Logos limit: ${{ github.event.inputs.logo_limit || 20 }}" >> $GITHUB_STEP_SUMMARY
           fi
           
           echo "" >> $GITHUB_STEP_SUMMARY
           echo "---" >> $GITHUB_STEP_SUMMARY
-          echo "Run ID: \`${{ github.run_id }}\`" >> $GITHUB_STEP_SUMMARY
-          echo "Run URL: [View run](https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }})" >> $GITHUB_STEP_SUMMARY
+          echo "**Run ID:** \`${{ github.run_id }}\`" >> $GITHUB_STEP_SUMMARY
+          echo "**Trigger:** ${{ github.event_name }}" >> $GITHUB_STEP_SUMMARY
+          echo "**Status:** ${{ job.status }}" >> $GITHUB_STEP_SUMMARY
+          
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "*Last updated: $(date -u)*" >> $GITHUB_STEP_SUMMARY
 
       - name: Cleanup
         if: always()
         run: |
-          echo "Cleaning up..."
-          # Remove backup directories older than 1 hour
-          find backup -type d -name "data_*" -o -name "coins_*" 2>/dev/null | while read dir; do
-            if [ -d "$dir" ]; then
-              echo "Keeping backup: $dir"
-            fi
-          done
-          echo "Cleanup completed"
+          echo "Cleaning up temporary files..."
+          # Удаляем временные файлы, если они есть
+          find . -name "*.tmp" -delete 2>/dev/null || true
+          find . -name "*.log" -delete 2>/dev/null || true
+          echo "✅ Cleanup completed"
