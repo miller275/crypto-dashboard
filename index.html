@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1" />
+  <title>CryptoWatch — Dashboard</title>
+  <meta name="description" content="Modern crypto dashboard: market table, sparklines, trending, fear & greed, news. Light/dark theme, EN/RU. Works on GitHub Pages." />
+
+  <link rel="icon" href="assets/img/logo.svg" type="image/svg+xml" />
+  <link rel="manifest" href="manifest.json" />
+  <meta name="theme-color" content="#3861FB" />
+
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="assets/css/styles.css" />
+  <link rel="stylesheet" href="assets/css/responsive.css" />
+</head>
+
+<body>
+  <header class="topbar">
+    <div class="container">
+      <div class="topbar-inner">
+        <a class="brand" href="index.html" aria-label="Home">
+          <span class="brand-mark">₿</span>
+          <span>
+            CryptoWatch
+            <small data-i18n="tagline">Market dashboard</small>
+          </span>
+        </a>
+
+        <div class="search">
+          <span class="icon">⌕</span>
+          <input id="searchInput" type="search" placeholder="Search coins…" autocomplete="off" />
+        </div>
+
+        <div class="controls">
+          <select id="langSelect" class="select" aria-label="Language">
+            <option value="en">EN</option>
+            <option value="ru">RU</option>
+          </select>
+
+          <button id="themeBtn" class="btn" type="button" aria-label="Toggle theme">
+            <span id="themeIcon">🌙</span>
+            <span data-i18n="theme">Theme</span>
+          </button>
+
+          <button id="refreshBtn" class="btn primary" type="button" aria-label="Refresh data">
+            ⟳ <span data-i18n="refresh">Refresh</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <h1 data-i18n="heroTitle">Today's Cryptocurrency Prices</h1>
+      <p class="muted" id="updatedLine">—</p>
+
+      <div class="grid">
+        <div class="card">
+          <div class="card-header">
+            <div>
+              <div class="card-title" data-i18n="marketOverview">Market overview</div>
+              <div class="card-sub" data-i18n="marketOverviewHint">Global metrics + dominance</div>
+            </div>
+            <span class="badge" id="sourceBadge">API</span>
+          </div>
+          <div class="card-body">
+            <div class="kpis">
+              <div class="kpi">
+                <div class="label" data-i18n="globalMcap">Global market cap</div>
+                <div class="value" id="kpiMcap">—</div>
+                <div class="delta" id="kpiMcapDelta">—</div>
+              </div>
+              <div class="kpi">
+                <div class="label" data-i18n="globalVol">24h volume</div>
+                <div class="value" id="kpiVol">—</div>
+                <div class="delta" id="kpiVolDelta">—</div>
+              </div>
+              <div class="kpi">
+                <div class="label" data-i18n="dominance">BTC / ETH dominance</div>
+                <div class="value" id="kpiDom">—</div>
+                <div class="delta" id="kpiDomDelta">—</div>
+              </div>
+            </div>
+
+            <div style="margin-top:16px" class="fng">
+              <div class="gauge"><span id="fngScore">—</span></div>
+              <div class="meta">
+                <div class="label" data-i18n="fearGreed">Fear &amp; Greed Index</div>
+                <div class="value" id="fngLabel">—</div>
+                <div class="card-sub" id="fngTime">—</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-header">
+            <div>
+              <div class="card-title" data-i18n="trending">Trending</div>
+              <div class="card-sub" data-i18n="trendingHint">Top movers (24h)</div>
+            </div>
+          </div>
+          <div class="card-body">
+            <div class="list" id="trendingList"></div>
+          </div>
+        </div>
+
+        <div class="card" id="newsCard">
+          <div class="card-header">
+            <div>
+              <div class="card-title" data-i18n="news">News</div>
+              <div class="card-sub" data-i18n="newsHint">Latest headlines</div>
+            </div>
+          </div>
+          <div class="card-body">
+            <div class="list" id="newsList"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-title">
+        <h2 data-i18n="coinsByMcap">Coins by market cap</h2>
+        <div class="hint" id="tableHint">—</div>
+      </div>
+
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th data-i18n="thCoin">Coin</th>
+              <th data-i18n="thPrice">Price</th>
+              <th data-i18n="th1h">1h</th>
+              <th data-i18n="th24h">24h</th>
+              <th data-i18n="th7d">7d</th>
+              <th data-i18n="thMcap">Market cap</th>
+              <th data-i18n="thVol">Volume (24h)</th>
+              <th data-i18n="thSupply">Circulating supply</th>
+              <th data-i18n="thSpark">Last 7 days</th>
+            </tr>
+          </thead>
+          <tbody id="coinsTbody">
+            <tr><td colspan="9" class="muted" style="text-align:center;padding:22px">Loading…</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="pager">
+        <div class="left">
+          <button class="btn" id="prevBtn">← <span data-i18n="prev">Prev</span></button>
+          <button class="btn" id="nextBtn"><span data-i18n="next">Next</span> →</button>
+          <span class="meta" id="pageMeta">—</span>
+        </div>
+        <div class="right">
+          <span class="meta" data-i18n="perPage">Per page</span>
+          <select id="perPageSelect" class="select" aria-label="Per page">
+            <option>25</option>
+            <option selected>50</option>
+            <option>100</option>
+          </select>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="row">
+        <div>© <span id="year"></span> CryptoWatch</div>
+        <div class="muted">
+          <span data-i18n="dataNotice">Data from public APIs or your /data snapshots.</span>
+        </div>
+      </div>
+    </footer>
+  </main>
+
+  <div id="toast" class="toast" role="status" aria-live="polite">
+    <span class="dot"></span>
+    <span id="toastText">—</span>
+  </div>
+
+  <script type="module" src="assets/js/app.js"></script>
+  <script>
+    if ("serviceWorker" in navigator) {
+      window.addEventListener("load", () => navigator.serviceWorker.register("./sw.js").catch(()=>{}));
+    }
+  </script>
+</body>
+</html>

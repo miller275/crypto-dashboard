@@ -1,0 +1,18 @@
+{
+  "source": "sample",
+  "updatedAt": "2026-01-04T17:52:45Z",
+  "items": [
+    {
+      "title": "Sample headline: Bitcoin volatility returns",
+      "url": "https://example.com",
+      "source": "sample",
+      "publishedAt": "2026-01-04T17:52:45Z"
+    },
+    {
+      "title": "Sample headline: Altcoins rally on macro news",
+      "url": "https://example.com",
+      "source": "sample",
+      "publishedAt": "2026-01-04T17:52:45Z"
+    }
+  ]
+}

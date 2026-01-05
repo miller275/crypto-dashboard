@@ -1,0 +1,8 @@
+{
+  "name": "cryptowatch-updater",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "update": "node scripts/update-data.js"
+  }
+}
