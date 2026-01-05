@@ -72,11 +72,20 @@ export const UI = {
 
   renderMarketOverview(global){
     if (!global) return;
-    Utils.qs("#kpiMcap").textContent = Utils.fmtCompact(global.marketCapUsd, null).replace(/^/, "$");
-    Utils.qs("#kpiMcapDelta").textContent = Utils.fmtPercent(global.marketCapChange24h, 2);
-    Utils.qs("#kpiMcapDelta").className = `delta ${(global.marketCapChange24h ?? 0) >=0 ? "pos" : "neg"}`;
+    const mcapValue = Utils.fmtCompact(global.marketCap, null);
+    Utils.qs("#kpiMcap").textContent = (typeof global.marketCap === "number") ? `$${mcapValue}` : mcapValue;
 
-    Utils.qs("#kpiVol").textContent = Utils.fmtCompact(global.volumeUsd24h, null).replace(/^/, "$");
+    const mcDelta = (typeof global.marketCapChange24h === "number")
+      ? Utils.fmtPercent(global.marketCapChange24h, 2)
+      : "—";
+    const mcDeltaEl = Utils.qs("#kpiMcapDelta");
+    mcDeltaEl.textContent = mcDelta;
+    mcDeltaEl.className = (typeof global.marketCapChange24h === "number")
+      ? `delta ${(global.marketCapChange24h ?? 0) >=0 ? "pos" : "neg"}`
+      : "delta";
+
+    const volValue = Utils.fmtCompact(global.volume24h, null);
+    Utils.qs("#kpiVol").textContent = (typeof global.volume24h === "number") ? `$${volValue}` : volValue;
     Utils.qs("#kpiVolDelta").textContent = I18N.get()==="ru" ? "за 24ч" : "last 24h";
     Utils.qs("#kpiVolDelta").className = "delta";
 
