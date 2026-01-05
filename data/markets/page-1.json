@@ -1,0 +1,60 @@
+{
+  "page": 1,
+  "pageSize": 50,
+  "items": [
+    {
+      "id": 1,
+      "symbol": "BTC",
+      "name": "Bitcoin",
+      "rank": 1,
+      "price": 92000.0,
+      "marketCap": 1800000000000,
+      "volume24h": 28000000000,
+      "change1h": 0.2,
+      "change24h": 1.1,
+      "change7d": 4.2,
+      "change30d": 12.0,
+      "circulatingSupply": 19500000,
+      "totalSupply": 21000000,
+      "maxSupply": 21000000,
+      "lastUpdated": "2026-01-05T00:00:00Z",
+      "image": "assets/img/coin.svg",
+      "sparkline7d": [
+        91000,
+        91300,
+        91200,
+        91450,
+        91500,
+        91800,
+        92000
+      ]
+    },
+    {
+      "id": 1027,
+      "symbol": "ETH",
+      "name": "Ethereum",
+      "rank": 2,
+      "price": 3300.0,
+      "marketCap": 400000000000,
+      "volume24h": 14000000000,
+      "change1h": 0.1,
+      "change24h": 0.6,
+      "change7d": 6.3,
+      "change30d": 10.2,
+      "circulatingSupply": 120000000,
+      "totalSupply": 120000000,
+      "maxSupply": null,
+      "lastUpdated": "2026-01-05T00:00:00Z",
+      "image": "assets/img/coin.svg",
+      "sparkline7d": [
+        3100,
+        3120,
+        3130,
+        3200,
+        3250,
+        3280,
+        3300
+      ]
+    }
+  ]
+}

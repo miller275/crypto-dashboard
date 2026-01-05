@@ -1,0 +1,12 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "symbol": "BTC",
+      "name": "Bitcoin",
+      "price": 92000,
+      "change24h": 1.1,
+      "page": 1
+    }
+  ]
+}

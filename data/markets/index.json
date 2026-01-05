@@ -1,0 +1,20 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "page": 1,
+      "name": "Bitcoin",
+      "symbol": "BTC",
+      "name_lc": "bitcoin",
+      "symbol_lc": "btc"
+    },
+    {
+      "id": 1027,
+      "page": 1,
+      "name": "Ethereum",
+      "symbol": "ETH",
+      "name_lc": "ethereum",
+      "symbol_lc": "eth"
+    }
+  ]
+}

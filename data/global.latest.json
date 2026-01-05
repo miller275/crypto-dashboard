@@ -1,0 +1,12 @@
+{
+  "data": {
+    "quote": {
+      "USD": {
+        "total_market_cap": 2000000000000,
+        "total_volume_24h": 70000000000
+      }
+    },
+    "btc_dominance": 55.0,
+    "eth_dominance": 18.0
+  }
+}
