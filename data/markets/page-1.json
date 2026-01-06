@@ -1,0 +1,75 @@
+{
+  "page": 1,
+  "page_size": 200,
+  "coins": [
+    {
+      "id": 1,
+      "rank": 1,
+      "name": "Bitcoin",
+      "symbol": "BTC",
+      "slug": "bitcoin",
+      "price": 43000.12,
+      "percent_change_1h": 0.12,
+      "percent_change_24h": 1.45,
+      "percent_change_7d": 6.2,
+      "market_cap": 845000000000,
+      "volume_24h": 22500000000,
+      "circulating_supply": 19600000,
+      "max_supply": 21000000,
+      "sparkline7d": [
+        41210,
+        41520,
+        41890,
+        42110,
+        41980,
+        42340,
+        42700,
+        43010
+      ],
+      "last_updated": "2026-01-06T00:00:00Z"
+    },
+    {
+      "id": 1027,
+      "rank": 2,
+      "name": "Ethereum",
+      "symbol": "ETH",
+      "slug": "ethereum",
+      "price": 2250.55,
+      "percent_change_1h": -0.08,
+      "percent_change_24h": -1.25,
+      "percent_change_7d": 2.1,
+      "market_cap": 270000000000,
+      "volume_24h": 12000000000,
+      "circulating_supply": 120300000,
+      "max_supply": null,
+      "sparkline7d": [
+        2190,
+        2210,
+        2235,
+        2270,
+        2290,
+        2260,
+        2240,
+        2250
+      ],
+      "last_updated": "2026-01-06T00:00:00Z"
+    },
+    {
+      "id": 825,
+      "rank": 3,
+      "name": "Tether",
+      "symbol": "USDT",
+      "slug": "tether",
+      "price": 1.0,
+      "percent_change_1h": 0.0,
+      "percent_change_24h": 0.02,
+      "percent_change_7d": 0.01,
+      "market_cap": 95000000000,
+      "volume_24h": 42000000000,
+      "circulating_supply": 95000000000,
+      "max_supply": null,
+      "sparkline7d": [],
+      "last_updated": "2026-01-06T00:00:00Z"
+    }
+  ]
+}

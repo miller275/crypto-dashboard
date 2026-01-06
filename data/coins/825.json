@@ -1,0 +1,31 @@
+{
+  "id": 825,
+  "rank": 3,
+  "name": "Tether",
+  "symbol": "USDT",
+  "slug": "tether",
+  "logo": "./assets/img/coins/825.png",
+  "description": "",
+  "quote": {
+    "USD": {
+      "price": 1.0,
+      "market_cap": 95000000000,
+      "volume_24h": 42000000000,
+      "percent_change_24h": 0.02
+    }
+  },
+  "supply": {
+    "circulating": 95000000000,
+    "total": 95000000000,
+    "max": null
+  },
+  "ath": {
+    "price": null,
+    "date": null
+  },
+  "atl": {
+    "price": null,
+    "date": null
+  },
+  "last_updated": "2026-01-06T00:00:00Z"
+}

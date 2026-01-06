@@ -1,0 +1,17 @@
+{
+  "items": [
+    {
+      "title": "Sample: Market digest — BTC steady, majors mixed",
+      "url": "https://example.com/news/sample-1",
+      "source": "LocalSample",
+      "published_at": "2026-01-05T22:40:00Z"
+    },
+    {
+      "title": "Sample: Ethereum roadmap discussion highlights",
+      "url": "https://example.com/news/sample-2",
+      "source": "LocalSample",
+      "published_at": "2026-01-05T20:10:00Z"
+    }
+  ],
+  "last_updated": "2026-01-06T00:00:00Z"
+}

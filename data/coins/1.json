@@ -1,0 +1,31 @@
+{
+  "id": 1,
+  "rank": 1,
+  "name": "Bitcoin",
+  "symbol": "BTC",
+  "slug": "bitcoin",
+  "logo": "./assets/img/coins/1.png",
+  "description": "Bitcoin is a decentralized digital asset designed for peer-to-peer value transfer. (Sample description)",
+  "quote": {
+    "USD": {
+      "price": 43000.12,
+      "market_cap": 845000000000,
+      "volume_24h": 22500000000,
+      "percent_change_24h": 1.45
+    }
+  },
+  "supply": {
+    "circulating": 19600000,
+    "total": 19600000,
+    "max": 21000000
+  },
+  "ath": {
+    "price": null,
+    "date": null
+  },
+  "atl": {
+    "price": null,
+    "date": null
+  },
+  "last_updated": "2026-01-06T00:00:00Z"
+}

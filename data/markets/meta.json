@@ -1,0 +1,11 @@
+{
+  "total_coins": 3,
+  "base_page_size": 200,
+  "total_pages": 1,
+  "available_page_sizes": [
+    50,
+    100,
+    200
+  ],
+  "last_updated": "2026-01-06T00:00:00Z"
+}

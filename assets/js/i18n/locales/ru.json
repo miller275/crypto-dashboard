@@ -1,0 +1,61 @@
+{
+  "app": {
+    "tagline": "Рынок одним взглядом"
+  },
+  "a11y": {
+    "skipToContent": "Перейти к содержимому"
+  },
+  "controls": {
+    "searchLabel": "Поиск монет",
+    "searchPlaceholder": "Поиск BTC, Ethereum…",
+    "theme": "Тема",
+    "refresh": "Обновить",
+    "prev": "Назад",
+    "next": "Далее",
+    "pageSize": "Размер страницы",
+    "pageJump": "Перейти к странице",
+    "back": "Назад",
+    "backToMarkets": "К рынку"
+  },
+  "sections": {
+    "marketOverview": "Обзор рынка",
+    "movers": "Лидеры движения",
+    "moversHint": "Топ по изменению за 24ч",
+    "news": "Новости",
+    "marketTable": "Топ криптовалют"
+  },
+  "movers": {
+    "gainers": "Рост",
+    "losers": "Падение"
+  },
+  "table": {
+    "rank": "Ранг",
+    "coin": "Монета",
+    "price": "Цена",
+    "pct1h": "1ч%",
+    "pct24h": "24ч%",
+    "pct7d": "7д%",
+    "marketCap": "Капитализация",
+    "volume24h": "Объём(24ч)",
+    "supply": "В обращении",
+    "sparkline": "7д"
+  },
+  "global": {
+    "marketCap": "Капитализация",
+    "volume24h": "Объём 24ч",
+    "btcDom": "Доминирование BTC",
+    "ethDom": "Доминирование ETH",
+    "fearGreed": "Страх и Жадность"
+  },
+  "coin": {
+    "chart": "График",
+    "statistics": "Статистика",
+    "description": "Описание",
+    "noDescription": "Нет описания.",
+    "pairNotFound": "Пара не найдена для {symbol}. Попробуйте другую биржу или откройте TradingView."
+  },
+  "ui": {
+    "updated": "Обновлено {time}",
+    "build": "Данные: {time}"
+  }
+}

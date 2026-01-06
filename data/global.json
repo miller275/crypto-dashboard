@@ -1,0 +1,11 @@
+{
+  "btc_dominance": 52.31,
+  "eth_dominance": 16.92,
+  "quote": {
+    "USD": {
+      "total_market_cap": 1890000000000,
+      "total_volume_24h": 98500000000
+    }
+  },
+  "last_updated": "2026-01-06T00:00:00Z"
+}
