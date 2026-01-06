@@ -1,22 +1,18 @@
-name: Update data snapshots (CMC)
+name: Update data (hourly)
 
 on:
-  workflow_dispatch:
   schedule:
     - cron: "0 * * * *"  # every hour
+  workflow_dispatch:
 
 permissions:
   contents: write
-
-concurrency:
-  group: update-data-${{ github.ref }}
-  cancel-in-progress: false
 
 jobs:
   update:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout main (full history)
+      - name: Checkout
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
@@ -26,29 +22,29 @@ jobs:
         with:
           node-version: "20"
 
-      - name: Sync with remote
-        shell: bash
+      - name: Pull latest (rebase)
         run: |
-          git fetch origin main
-          git reset --hard origin/main
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git pull --rebase origin "${GITHUB_REF_NAME}"
 
-      - name: Update snapshots
+      - name: Update data
         env:
           CMC_PRO_API_KEY: ${{ secrets.CMC_PRO_API_KEY }}
-          PAGE_SIZE: "50"
-          LOGO_LIMIT: "200"
-          DETAILS_LIMIT: "200"
-          MAX_COINS: "10000"
-        run: node scripts/update-data.js
-
-      - name: Commit & push (safe)
-        shell: bash
+          MAX_COINS: "1000"
+          BASE_PAGE_SIZE: "200"
+          MAX_SPARKLINE_COINS: "150"
+          SPARKLINE_DAYS: "7"
+          SPARKLINE_INTERVAL_HOURS: "4"
         run: |
-          git status --porcelain
-          git add data assets/img/coins || true
-          git commit -m "chore: update snapshots" || echo "No changes"
-          for i in 1 2 3; do
-            git pull --rebase origin main || true
-            git push origin HEAD:main && break
-            sleep 2
-          done
+          node scripts/update-data.js
+
+      - name: Commit changes (data + cached logos)
+        run: |
+          git add data assets/img/coins
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+            exit 0
+          fi
+          git commit -m "chore(data): update snapshots"
+          git push origin "${GITHUB_REF_NAME}"
