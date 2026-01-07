@@ -1,4 +1,0 @@
-# generated logos can be committed (required), but keep OS junk out
-.DS_Store
-Thumbs.db
-node_modules
