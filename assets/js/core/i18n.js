@@ -22,7 +22,7 @@ export class I18n {
     
     async loadTranslations(lang) {
         try {
-            const response = await fetch(`/assets/js/i18n/locales/${lang}.json`);
+            const response = await fetch(new URL(`assets/js/i18n/locales/${lang}.json`, window.location.href));
             this.translations[lang] = await response.json();
         } catch (error) {
             console.error(`Failed to load translations for ${lang}:`, error);

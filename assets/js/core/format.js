@@ -175,7 +175,7 @@ export class Formatter {
     // URL иконки монеты
     coinIcon(id, symbol) {
         // Попытка загрузить локальную иконку
-        const localIcon = `/assets/img/coins/${id}.png`;
+        const localIcon = new URL(`assets/img/coins/${id}.png`, window.location.href).toString();
         
         // Fallback на генерацию иконки
         return localIcon;
