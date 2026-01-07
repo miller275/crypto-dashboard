@@ -1,16 +1,17 @@
-name: Update data
+name: Update market data
 
 on:
+  workflow_dispatch:
   schedule:
-    - cron: "0 * * * *" # every hour
-  workflow_dispatch: {}
-
-concurrency:
-  group: update-data
-  cancel-in-progress: true
+    # every hour (UTC), but not at minute 00 to avoid GitHub load spikes
+    - cron: "7 * * * *"
 
 permissions:
   contents: write
+
+concurrency:
+  group: data-update
+  cancel-in-progress: false
 
 jobs:
   update:
@@ -18,35 +19,29 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
 
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
-          node-version: 20
-          
+          node-version: "20"
 
-      - name: Install deps
-        run: npm install --no-fund --no-audit
-
-      - name: Update /data snapshots
+      - name: Update snapshots
         env:
-          COINGECKO_API_KEY: ${{ secrets.COINGECKO_API_KEY }}
-          COINGECKO_PAGES: ${{ secrets.COINGECKO_PAGES }}
-          COINGECKO_PER_PAGE: ${{ secrets.COINGECKO_PER_PAGE }}
-          VS_CURRENCY: ${{ secrets.VS_CURRENCY }}
-          DETAILS_LIMIT: ${{ secrets.DETAILS_LIMIT }}
-        run: npm run update:data
+          CMC_PRO_API_KEY: ${{ secrets.CMC_PRO_API_KEY }}
+        run: |
+          node -v
+          npm -v
+          node scripts/update-data.mjs
 
       - name: Commit & push if changed
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          if [[ -n "$(git status --porcelain)" ]]; then
-            git add data
-            git commit -m "chore(data): hourly update"
-            git push
-          else
+          git status --porcelain
+          if [ -z "$(git status --porcelain)" ]; then
             echo "No changes to commit."
+            exit 0
           fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/
+          git commit -m "data: update snapshots"
+          git push
