@@ -2,9 +2,9 @@
 export class Config {
     constructor() {
         this.settings = {
-            DATA_PATH: '/data',
-            ASSETS_PATH: '/assets',
-            IMG_PATH: '/assets/img/coins',
+            DATA_PATH: 'data',
+            ASSETS_PATH: 'assets',
+            IMG_PATH: 'assets/img/coins',
             
             // Пагинация
             DEFAULT_PAGE_SIZE: 50,
@@ -25,16 +25,16 @@ export class Config {
             
             // Эндпоинты
             ENDPOINTS: {
-                GLOBAL: '/data/global.json',
-                FEARGREED: '/data/feargreed.json',
-                NEWS: '/data/news/latest.json',
-                TRENDING: '/data/trending.json',
-                COIN: (id) => `/data/coins/${id}.json`,
-                MARKET_PAGE: (page) => `/data/markets/page-${page}.json`,
-                MARKET_META: '/data/markets/meta.json',
-                TV_MAP: '/data/charts/tv-map.json',
-                GENERATED: '/data/generated.json',
-                SEARCH_INDEX: '/data/search-index.json'
+                GLOBAL: 'data/global.json',
+                FEARGREED: 'data/feargreed.json',
+                NEWS: 'data/news/latest.json',
+                TRENDING: 'data/trending.json',
+                COIN: (id) => `data/coins/${id}.json`,
+                MARKET_PAGE: (page) => `data/markets/page-${page}.json`,
+                MARKET_META: 'data/markets/meta.json',
+                TV_MAP: 'data/charts/tv-map.json',
+                GENERATED: 'data/generated.json',
+                SEARCH_INDEX: 'data/search-index.json'
             }
         };
         

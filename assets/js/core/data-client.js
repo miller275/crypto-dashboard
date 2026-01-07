@@ -1,4 +1,6 @@
 // Клиент для работы с данными
+import { resolvePath } from './paths.js';
+
 export class DataClient {
     constructor() {
         this.cache = new Map();
@@ -74,43 +76,43 @@ export class DataClient {
     
     // Методы для получения конкретных данных
     async getGlobalData() {
-        return this.fetch('/data/global.json');
+        return this.fetch(resolvePath('data/global.json'));
     }
     
     async getFearGreed() {
-        return this.fetch('/data/feargreed.json');
+        return this.fetch(resolvePath('data/feargreed.json'));
     }
     
     async getNews() {
-        return this.fetch('/data/news/latest.json');
+        return this.fetch(resolvePath('data/news/latest.json'));
     }
     
     async getTrending() {
-        return this.fetch('/data/trending.json');
+        return this.fetch(resolvePath('data/trending.json'));
     }
     
     async getCoin(id) {
-        return this.fetch(`/data/coins/${id}.json`);
+        return this.fetch(resolvePath(`data/coins/${id}.json`));
     }
     
     async getMarketsPage(page = 1) {
-        return this.fetch(`/data/markets/page-${page}.json`);
+        return this.fetch(resolvePath(`data/markets/page-${page}.json`));
     }
     
     async getMarketsMeta() {
-        return this.fetch('/data/markets/meta.json');
+        return this.fetch(resolvePath('data/markets/meta.json'));
     }
     
     async getTVMap() {
-        return this.fetch('/data/charts/tv-map.json');
+        return this.fetch(resolvePath('data/charts/tv-map.json'));
     }
     
     async getGenerated() {
-        return this.fetch('/data/generated.json');
+        return this.fetch(resolvePath('data/generated.json'));
     }
     
     async getSearchIndex() {
-        return this.fetch('/data/search-index.json');
+        return this.fetch(resolvePath('data/search-index.json'));
     }
     
     // Пакетная загрузка

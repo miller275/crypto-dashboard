@@ -1,5 +1,6 @@
 // Главный файл приложения
 import { App } from './core/app.js';
+import { resolvePath } from './core/paths.js';
 
 // Инициализация приложения
 document.addEventListener('DOMContentLoaded', () => {
@@ -10,7 +11,7 @@ document.addEventListener('DOMContentLoaded', () => {
 // Регистрация Service Worker
 if ('serviceWorker' in navigator) {
     window.addEventListener('load', () => {
-        navigator.serviceWorker.register('/service-worker.js')
+        navigator.serviceWorker.register(resolvePath('service-worker.js'))
             .then(registration => {
                 console.log('Service Worker зарегистрирован:', registration);
                 
