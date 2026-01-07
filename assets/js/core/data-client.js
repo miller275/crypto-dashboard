@@ -4,11 +4,16 @@ import { resolvePath } from './paths.js';
 export class DataClient {
     constructor() {
         this.cache = new Map();
+        this.baseUrl = new URL('.', window.location.href);
         this.config = {
             CACHE_TTL: 5 * 60 * 1000, // 5 минут
             RETRY_COUNT: 3,
             RETRY_DELAY: 1000
         };
+    }
+
+    resolveUrl(path) {
+        return new URL(path, this.baseUrl).toString();
     }
     
     async fetch(url, options = {}) {
