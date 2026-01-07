@@ -17,10 +17,18 @@ class DataUpdater {
             API_BASE: 'https://pro-api.coinmarketcap.com',
             DATA_DIR: path.join(__dirname, '..', 'data'),
             ASSETS_DIR: path.join(__dirname, '..', 'assets', 'img', 'coins'),
-            PAGE_SIZE: 100,
-            MAX_COINS: 500,
+            PAGE_SIZE: this.parseNumber(process.env.PAGE_SIZE, 100),
+            MAX_COINS: this.parseNumber(process.env.MAX_COINS, 500),
             CACHE_DIR: path.join(__dirname, '..', '.cache')
         };
+    }
+
+    parseNumber(value, fallback) {
+        const parsed = Number(value);
+        if (Number.isFinite(parsed) && parsed > 0) {
+            return parsed;
+        }
+        return fallback;
     }
     
     async ensureDirectories() {
@@ -43,7 +51,9 @@ class DataUpdater {
         return new Promise((resolve, reject) => {
             const url = new URL(this.config.API_BASE + endpoint);
             Object.entries(params).forEach(([key, value]) => {
-                url.searchParams.append(key, value);
+                if (value !== undefined && value !== null) {
+                    url.searchParams.append(key, value);
+                }
             });
             
             const options = {
@@ -57,20 +67,35 @@ class DataUpdater {
             
             const req = https.get(url.toString(), options, (res) => {
                 let data = '';
+                const statusCode = res.statusCode ?? 0;
                 
                 res.on('data', (chunk) => {
                     data += chunk;
                 });
                 
                 res.on('end', () => {
+                    if (statusCode < 200 || statusCode >= 300) {
+                        const message = data ? data.toString().slice(0, 500) : 'Empty response';
+                        reject(new Error(`HTTP ${statusCode}: ${message}`));
+                        return;
+                    }
+
                     try {
                         const json = JSON.parse(data);
-                        
-                        if (json.status.error_code !== 0) {
+                        const hasStatus = Boolean(json.status);
+                        const errorCode = hasStatus ? Number(json.status.error_code) : null;
+
+                        if (hasStatus && !Number.isNaN(errorCode) && errorCode !== 0) {
                             reject(new Error(`API Error ${json.status.error_code}: ${json.status.error_message}`));
-                        } else {
-                            resolve(json.data);
+                            return;
                         }
+
+                        if (!hasStatus && json.data === undefined) {
+                            reject(new Error('Unexpected API response format'));
+                            return;
+                        }
+
+                        resolve(json.data ?? json);
                     } catch (error) {
                         reject(new Error(`Failed to parse response: ${error.message}`));
                     }
@@ -101,7 +126,9 @@ class DataUpdater {
         console.log('🔄 Обновление глобальной статистики...');
         
         try {
-            const data = await this.apiRequest('/v1/global-metrics/quotes/latest');
+            const data = await this.fetchWithRetry(() =>
+                this.apiRequest('/v1/global-metrics/quotes/latest')
+            );
             
             const result = {
                 total_market_cap: data.quote.USD.total_market_cap,
@@ -124,7 +151,17 @@ class DataUpdater {
             return result;
         } catch (error) {
             console.error('❌ Ошибка обновления глобальной статистики:', error.message);
-            throw error;
+            try {
+                const cached = await fs.readFile(
+                    path.join(this.config.DATA_DIR, 'global.json'),
+                    'utf-8'
+                );
+                const fallback = JSON.parse(cached);
+                console.log('⚠️  Используются существующие данные global.json');
+                return fallback;
+            } catch (readError) {
+                throw error;
+            }
         }
     }
     
@@ -138,13 +175,15 @@ class DataUpdater {
             console.log(`📄 Страница ${page} из ${totalPages}...`);
             
             try {
-                const data = await this.apiRequest('/v1/cryptocurrency/listings/latest', {
-                    start: (page - 1) * this.config.PAGE_SIZE + 1,
-                    limit: this.config.PAGE_SIZE,
-                    convert: 'USD',
-                    sort: 'market_cap',
-                    sort_dir: 'desc'
-                });
+                const data = await this.fetchWithRetry(() =>
+                    this.apiRequest('/v1/cryptocurrency/listings/latest', {
+                        start: (page - 1) * this.config.PAGE_SIZE + 1,
+                        limit: this.config.PAGE_SIZE,
+                        convert: 'USD',
+                        sort: 'market_cap',
+                        sort_dir: 'desc'
+                    })
+                );
                 
                 const coins = data.map(coin => ({
                     id: coin.id,
@@ -209,10 +248,12 @@ class DataUpdater {
             console.log(`📦 Пакет ${Math.floor(i / batchSize) + 1} из ${Math.ceil(coinIds.length / batchSize)}...`);
             
             try {
-                const data = await this.apiRequest('/v2/cryptocurrency/info', {
-                    id: batch.join(','),
-                    aux: 'description,logo,urls'
-                });
+                const data = await this.fetchWithRetry(() =>
+                    this.apiRequest('/v2/cryptocurrency/info', {
+                        id: batch.join(','),
+                        aux: 'description,logo,urls'
+                    })
+                );
                 
                 for (const [id, info] of Object.entries(data)) {
                     const coin = coins.find(c => c.id === parseInt(id));
@@ -305,12 +346,19 @@ class DataUpdater {
             
             https.get(options, (res) => {
                 let data = '';
+                const statusCode = res.statusCode ?? 0;
                 
                 res.on('data', (chunk) => {
                     data += chunk;
                 });
                 
                 res.on('end', () => {
+                    if (statusCode < 200 || statusCode >= 300) {
+                        const message = data ? data.toString().slice(0, 500) : 'Empty response';
+                        reject(new Error(`HTTP ${statusCode}: ${message}`));
+                        return;
+                    }
+
                     try {
                         const json = JSON.parse(data);
                         
