@@ -5,1640 +5,1640 @@
       "name": "Bitcoin",
       "symbol": "BTC",
       "rank": 1,
-      "price": 91096.90675265888,
-      "change24h": -1.03409537
+      "price": 91121.960658911,
+      "change24h": -1.372443
     },
     {
       "id": 1027,
       "name": "Ethereum",
       "symbol": "ETH",
       "rank": 2,
-      "price": 3143.447216318093,
-      "change24h": -2.40176726
+      "price": 3146.734458784788,
+      "change24h": -2.60052964
     },
     {
       "id": 825,
       "name": "Tether USDt",
       "symbol": "USDT",
       "rank": 3,
-      "price": 0.9988936854444053,
-      "change24h": -0.05432797
+      "price": 0.9988758048381915,
+      "change24h": -0.04840913
     },
     {
       "id": 52,
       "name": "XRP",
       "symbol": "XRP",
       "rank": 4,
-      "price": 2.1948173615719297,
-      "change24h": -1.48042953
+      "price": 2.193396814650007,
+      "change24h": -2.43557587
     },
     {
       "id": 1839,
       "name": "BNB",
       "symbol": "BNB",
       "rank": 5,
-      "price": 896.6283010472018,
-      "change24h": -0.44379935
+      "price": 896.7738887002212,
+      "change24h": -0.6628687
     },
     {
       "id": 5426,
       "name": "Solana",
       "symbol": "SOL",
       "rank": 6,
-      "price": 135.62916290949508,
-      "change24h": -1.33009389
+      "price": 135.77552431788396,
+      "change24h": -1.76179541
     },
     {
       "id": 3408,
       "name": "USDC",
       "symbol": "USDC",
       "rank": 7,
-      "price": 0.9996886577347149,
-      "change24h": -0.00589657
+      "price": 0.9996802674046625,
+      "change24h": -0.00490112
     },
     {
       "id": 1958,
       "name": "TRON",
       "symbol": "TRX",
       "rank": 8,
-      "price": 0.2968904647784177,
-      "change24h": 1.73347878
+      "price": 0.2970810165953787,
+      "change24h": 1.84520613
     },
     {
       "id": 74,
       "name": "Dogecoin",
       "symbol": "DOGE",
       "rank": 9,
-      "price": 0.14658424361224606,
-      "change24h": 0.54406478
+      "price": 0.146521557077464,
+      "change24h": 0.06950043
     },
     {
       "id": 2010,
       "name": "Cardano",
       "symbol": "ADA",
       "rank": 10,
-      "price": 0.40310657389961313,
-      "change24h": -1.02430469
+      "price": 0.4031862646895254,
+      "change24h": -1.71213729
     },
     {
       "id": 1831,
       "name": "Bitcoin Cash",
       "symbol": "BCH",
       "rank": 11,
-      "price": 627.7229937041286,
-      "change24h": -0.440056
+      "price": 629.0469173767063,
+      "change24h": -0.55249881
     },
     {
       "id": 1975,
       "name": "Chainlink",
       "symbol": "LINK",
       "rank": 12,
-      "price": 13.394836939377061,
-      "change24h": -1.70914031
+      "price": 13.402375722090405,
+      "change24h": -2.26584856
     },
     {
       "id": 32196,
       "name": "Hyperliquid",
       "symbol": "HYPE",
       "rank": 13,
-      "price": 26.892785945333383,
-      "change24h": -1.02148767
+      "price": 26.93618657240279,
+      "change24h": -1.28755221
     },
     {
       "id": 3957,
       "name": "UNUS SED LEO",
       "symbol": "LEO",
       "rank": 14,
-      "price": 9.011428457425243,
-      "change24h": 1.19820149
+      "price": 9.01198158919145,
+      "change24h": 1.20876817
     },
     {
       "id": 328,
       "name": "Monero",
       "symbol": "XMR",
       "rank": 15,
-      "price": 438.1363028347042,
-      "change24h": -1.95847565
+      "price": 439.17336662069675,
+      "change24h": -1.67839995
     },
     {
       "id": 1437,
       "name": "Zcash",
       "symbol": "ZEC",
       "rank": 16,
-      "price": 477.8043465831562,
-      "change24h": -4.00245213
+      "price": 477.19206928207564,
+      "change24h": -4.34997622
     },
     {
       "id": 512,
       "name": "Stellar",
       "symbol": "XLM",
       "rank": 17,
-      "price": 0.23509766010801525,
-      "change24h": -1.22425589
+      "price": 0.23512811392297164,
+      "change24h": -1.97821959
     },
     {
       "id": 20947,
       "name": "Sui",
       "symbol": "SUI",
       "rank": 18,
-      "price": 1.839379525506204,
-      "change24h": -0.55721952
+      "price": 1.8364027965424938,
+      "change24h": -1.5665767
     },
     {
       "id": 29470,
       "name": "Ethena USDe",
       "symbol": "USDe",
       "rank": 19,
-      "price": 0.9992374359968227,
-      "change24h": -0.01930895
+      "price": 0.9992404861932179,
+      "change24h": -0.01029893
     },
     {
       "id": 2,
       "name": "Litecoin",
       "symbol": "LTC",
       "rank": 20,
-      "price": 81.45152524272999,
-      "change24h": -1.22511687
+      "price": 81.49012363212802,
+      "change24h": -1.49784264
     },
     {
       "id": 5805,
       "name": "Avalanche",
       "symbol": "AVAX",
       "rank": 21,
-      "price": 14.113110287661113,
-      "change24h": -2.5187496
+      "price": 14.117584110185307,
+      "change24h": -2.63455378
     },
     {
       "id": 4943,
       "name": "Dai",
       "symbol": "DAI",
       "rank": 22,
-      "price": 0.9996035498373786,
-      "change24h": -0.00105284
+      "price": 0.9996624345387922,
+      "change24h": 0.01052962
     },
     {
       "id": 4642,
       "name": "Hedera",
       "symbol": "HBAR",
       "rank": 23,
-      "price": 0.1231719667378176,
-      "change24h": -2.17480989
+      "price": 0.123212118208124,
+      "change24h": -2.89231222
     },
     {
       "id": 5994,
       "name": "Shiba Inu",
       "symbol": "SHIB",
       "rank": 24,
-      "price": 0.000008825580315137547,
-      "change24h": -1.27471307
+      "price": 0.000008826035050382156,
+      "change24h": -1.76438414
     },
     {
       "id": 37263,
       "name": "Canton",
       "symbol": "CC",
       "rank": 25,
-      "price": 0.13707557546229343,
-      "change24h": -1.53274663
+      "price": 0.13713703253857012,
+      "change24h": -1.70125959
     },
     {
       "id": 11419,
       "name": "Toncoin",
       "symbol": "TON",
       "rank": 26,
-      "price": 1.8662549176147214,
-      "change24h": -1.07725463
+      "price": 1.870191921256209,
+      "change24h": -1.00115619
     },
     {
       "id": 33251,
       "name": "World Liberty Financial",
       "symbol": "WLFI",
       "rank": 27,
-      "price": 0.167706164464589,
-      "change24h": -1.75776151
+      "price": 0.16801457649065102,
+      "change24h": -2.20869011
     },
     {
       "id": 3635,
       "name": "Cronos",
       "symbol": "CRO",
       "rank": 28,
-      "price": 0.10308363199834625,
-      "change24h": -2.85530025
+      "price": 0.10319204792953744,
+      "change24h": -2.9984203
     },
     {
       "id": 27772,
       "name": "PayPal USD",
       "symbol": "PYUSD",
       "rank": 29,
-      "price": 0.9995884912431401,
-      "change24h": 0.01038423
+      "price": 0.9995861227450212,
+      "change24h": 0.02402634
     },
     {
       "id": 7083,
       "name": "Uniswap",
       "symbol": "UNI",
       "rank": 30,
-      "price": 5.695132174726843,
-      "change24h": -3.78799225
+      "price": 5.686455756618075,
+      "change24h": -4.43122769
     },
     {
       "id": 6636,
       "name": "Polkadot",
       "symbol": "DOT",
       "rank": 31,
-      "price": 2.1446235596285406,
-      "change24h": -0.16671416
+      "price": 2.1440624482390946,
+      "change24h": -0.80449907
     },
     {
       "id": 36148,
       "name": "World Liberty Financial USD",
       "symbol": "USD1",
       "rank": 32,
-      "price": 0.9993038692177295,
-      "change24h": -0.05264536
+      "price": 0.9992719834274052,
+      "change24h": -0.04749242
     },
     {
       "id": 27075,
       "name": "Mantle",
       "symbol": "MNT",
       "rank": 33,
-      "price": 1.0285650149937327,
-      "change24h": -5.74321086
+      "price": 1.0289769999699234,
+      "change24h": -6.13058547
     },
     {
       "id": 22974,
       "name": "Bittensor",
       "symbol": "TAO",
       "rank": 34,
-      "price": 273.23531194516636,
-      "change24h": -3.04687005
+      "price": 273.2646027132349,
+      "change24h": -3.91811077
     },
     {
       "id": 24478,
       "name": "Pepe",
       "symbol": "PEPE",
       "rank": 35,
-      "price": 0.000006608133850802103,
-      "change24h": 0.92562171
+      "price": 0.000006618759187031225,
+      "change24h": 0.73025848
     },
     {
       "id": 7278,
       "name": "Aave",
       "symbol": "AAVE",
       "rank": 36,
-      "price": 167.23907213333266,
-      "change24h": -1.51225739
+      "price": 166.99881349671602,
+      "change24h": -2.09950521
     },
     {
       "id": 11092,
       "name": "Bitget Token",
       "symbol": "BGB",
       "rank": 37,
-      "price": 3.522177493351864,
-      "change24h": -0.79300163
+      "price": 3.524167810678177,
+      "change24h": -0.81950885
     },
     {
       "id": 3897,
       "name": "OKB",
       "symbol": "OKB",
       "rank": 38,
-      "price": 111.94462935607937,
-      "change24h": -1.37434743
+      "price": 111.97763558399505,
+      "change24h": -1.69003548
     },
     {
       "id": 6535,
       "name": "NEAR Protocol",
       "symbol": "NEAR",
       "rank": 39,
-      "price": 1.731541017224286,
-      "change24h": -1.16981807
+      "price": 1.729237547250424,
+      "change24h": -2.18882964
     },
     {
       "id": 35491,
       "name": "MemeCore",
       "symbol": "M",
       "rank": 40,
-      "price": 1.647087924345159,
-      "change24h": 0.14365383
+      "price": 1.6444696606046216,
+      "change24h": -0.46140424
     },
     {
       "id": 1321,
       "name": "Ethereum Classic",
       "symbol": "ETC",
       "rank": 41,
-      "price": 12.835411183319017,
-      "change24h": -0.90336511
+      "price": 12.83182372263474,
+      "change24h": -1.52932164
     },
     {
       "id": 30171,
       "name": "Ethena",
       "symbol": "ENA",
       "rank": 42,
-      "price": 0.2379499768434868,
-      "change24h": -2.65843691
+      "price": 0.23766105066969648,
+      "change24h": -3.84822471
     },
     {
       "id": 36341,
       "name": "Aster",
       "symbol": "ASTER",
       "rank": 43,
-      "price": 0.7429075323540967,
-      "change24h": -1.16891774
+      "price": 0.7429984810068913,
+      "change24h": -1.68949161
     },
     {
       "id": 5176,
       "name": "Tether Gold",
       "symbol": "XAUt",
       "rank": 44,
-      "price": 4448.960479809021,
-      "change24h": -0.58012934
+      "price": 4451.16582611188,
+      "change24h": -0.56435248
     },
     {
       "id": 8916,
       "name": "Internet Computer",
       "symbol": "ICP",
       "rank": 45,
-      "price": 3.277473811112635,
-      "change24h": -0.23733231
+      "price": 3.2727311866572446,
+      "change24h": -1.52886645
     },
     {
       "id": 35697,
       "name": "Pi",
       "symbol": "PI",
       "rank": 46,
-      "price": 0.20824522894896774,
-      "change24h": -0.66606852
+      "price": 0.20843135861643128,
+      "change24h": -0.81871705
     },
     {
       "id": 4705,
       "name": "PAX Gold",
       "symbol": "PAXG",
       "rank": 47,
-      "price": 4463.726699360574,
-      "change24h": -0.71755003
+      "price": 4465.281254981999,
+      "change24h": -0.70415072
     },
     {
       "id": 13502,
       "name": "Worldcoin",
       "symbol": "WLD",
       "rank": 48,
-      "price": 0.5978463782760332,
-      "change24h": -2.75004538
+      "price": 0.5976089334604688,
+      "change24h": -3.27706216
     },
     {
       "id": 33793,
       "name": "Global Dollar",
       "symbol": "USDG",
       "rank": 49,
-      "price": 0.9996847229959314,
-      "change24h": 0.01000809
+      "price": 0.9995436839097339,
+      "change24h": -0.02304402
     },
     {
       "id": 2087,
       "name": "KuCoin Token",
       "symbol": "KCS",
       "rank": 50,
-      "price": 11.410540987832887,
-      "change24h": -0.79651088
+      "price": 11.414909554720708,
+      "change24h": -0.96293759
     },
     {
       "id": 21794,
       "name": "Aptos",
       "symbol": "APT",
       "rank": 51,
-      "price": 1.8894659959115172,
-      "change24h": -0.76248401
+      "price": 1.8855751369052964,
+      "change24h": -1.60250158
     },
     {
       "id": 33038,
       "name": "Sky",
       "symbol": "SKY",
       "rank": 52,
-      "price": 0.06157403257669662,
-      "change24h": -2.24400786
-    },
-    {
-      "id": 34387,
-      "name": "Ripple USD",
-      "symbol": "RLUSD",
-      "rank": 54,
-      "price": 1.0000154991347505,
-      "change24h": 0.0461719
+      "price": 0.061417502060772323,
+      "change24h": -2.68813911
     },
     {
       "id": 21159,
       "name": "Ondo",
       "symbol": "ONDO",
       "rank": 53,
-      "price": 0.42299097567914357,
-      "change24h": -4.11671401
+      "price": 0.423385861158697,
+      "change24h": -4.77738165
+    },
+    {
+      "id": 34387,
+      "name": "Ripple USD",
+      "symbol": "RLUSD",
+      "rank": 54,
+      "price": 0.9998802101159745,
+      "change24h": -0.02024407
     },
     {
       "id": 28321,
       "name": "Polygon (prev. MATIC)",
       "symbol": "POL",
       "rank": 55,
-      "price": 0.12625453117587956,
-      "change24h": 0.81483209
+      "price": 0.12631612109069107,
+      "change24h": 0.08259298
     },
     {
       "id": 20396,
       "name": "Kaspa",
       "symbol": "KAS",
       "rank": 56,
-      "price": 0.048774344433473234,
-      "change24h": -2.20899183
+      "price": 0.048967606882398255,
+      "change24h": -2.54658453
     },
     {
       "id": 39064,
       "name": "Midnight",
       "symbol": "NIGHT",
       "rank": 57,
-      "price": 0.07935818029375825,
-      "change24h": 3.53797984
+      "price": 0.07926687864847472,
+      "change24h": 2.90423935
     },
     {
       "id": 36410,
       "name": "MYX Finance",
       "symbol": "MYX",
       "rank": 58,
-      "price": 4.8948334156073185,
-      "change24h": 1.43915029
+      "price": 4.879679539691216,
+      "change24h": 0.87836519
     },
     {
       "id": 5690,
       "name": "Render",
       "symbol": "RENDER",
       "rank": 59,
-      "price": 2.3537016712177787,
-      "change24h": -1.55348078
+      "price": 2.3503578570673294,
+      "change24h": -2.93257724
     },
     {
       "id": 11841,
       "name": "Arbitrum",
       "symbol": "ARB",
       "rank": 60,
-      "price": 0.21259589658481548,
-      "change24h": -1.06422265
+      "price": 0.2126646244680952,
+      "change24h": -1.69293075
     },
     {
       "id": 4030,
       "name": "Algorand",
       "symbol": "ALGO",
       "rank": 61,
-      "price": 0.13587809868201833,
-      "change24h": -1.28182507
+      "price": 0.13573978805361472,
+      "change24h": -2.21115253
     },
     {
       "id": 3794,
       "name": "Cosmos",
       "symbol": "ATOM",
       "rank": 62,
-      "price": 2.423325420102886,
-      "change24h": 0.35574494
+      "price": 2.424837066325516,
+      "change24h": -0.18367898
     },
     {
       "id": 2280,
       "name": "Filecoin",
       "symbol": "FIL",
       "rank": 63,
-      "price": 1.5300611796608188,
-      "change24h": -0.36198811
+      "price": 1.5255456142611772,
+      "change24h": -1.44124683
     },
     {
       "id": 35336,
       "name": "OFFICIAL TRUMP",
       "symbol": "TRUMP",
       "rank": 64,
-      "price": 5.392129091764822,
-      "change24h": 0.07263733
+      "price": 5.388787902938864,
+      "change24h": -0.27773607
     },
     {
       "id": 3077,
       "name": "VeChain",
       "symbol": "VET",
       "rank": 65,
-      "price": 0.012146112087236616,
-      "change24h": -2.03942406
+      "price": 0.012136582213937236,
+      "change24h": -2.86694819
     },
     {
       "id": 23095,
       "name": "Bonk",
       "symbol": "BONK",
       "rank": 66,
-      "price": 0.00001145729545736375,
-      "change24h": -0.82584549
+      "price": 0.000011431729496512379,
+      "change24h": -1.41342238
     },
     {
       "id": 7950,
       "name": "Flare",
       "symbol": "FLR",
       "rank": 67,
-      "price": 0.011898395835995347,
-      "change24h": -4.11979355
+      "price": 0.011887259591169944,
+      "change24h": -4.84315275
     },
     {
       "id": 2634,
       "name": "XDC Network",
       "symbol": "XDC",
       "rank": 68,
-      "price": 0.05028276686682561,
-      "change24h": -2.9650414
+      "price": 0.05028385773795197,
+      "change24h": -2.98742638
     },
     {
       "id": 3155,
       "name": "Quant",
       "symbol": "QNT",
       "rank": 69,
-      "price": 75.4987648400965,
-      "change24h": -1.80129886
+      "price": 75.44779599935079,
+      "change24h": -2.28594064
     },
     {
       "id": 19891,
       "name": "USDD",
       "symbol": "USDD",
       "rank": 70,
-      "price": 0.9989516275070742,
-      "change24h": -0.04107276
+      "price": 0.9989415465236404,
+      "change24h": -0.02372564
     },
     {
       "id": 36507,
       "name": "Pump.fun",
       "symbol": "PUMP",
       "rank": 71,
-      "price": 0.0023502444412495907,
-      "change24h": -1.06929478
+      "price": 0.002347273794296845,
+      "change24h": -2.3609056
     },
     {
       "id": 4269,
       "name": "GateToken",
       "symbol": "GT",
       "rank": 72,
-      "price": 10.341852413433129,
-      "change24h": -1.68253312
+      "price": 10.34386523721326,
+      "change24h": -1.56145765
     },
     {
       "id": 23149,
       "name": "Sei",
       "symbol": "SEI",
       "rank": 73,
-      "price": 0.12503179806822698,
-      "change24h": -2.27465537
+      "price": 0.1250819754065372,
+      "change24h": -2.95355133
     },
     {
       "id": 34466,
       "name": "Pudgy Penguins",
       "symbol": "PENGU",
       "rank": 74,
-      "price": 0.012201435245508985,
-      "change24h": -2.93112557
+      "price": 0.012181473724532542,
+      "change24h": -3.63239214
     },
     {
       "id": 39125,
       "name": "Lighter",
       "symbol": "LIT",
       "rank": 75,
-      "price": 2.936186160135296,
-      "change24h": -4.97228403
+      "price": 2.919623383586315,
+      "change24h": -5.23091333
     },
     {
       "id": 29420,
       "name": "Virtuals Protocol",
       "symbol": "VIRTUAL",
       "rank": 76,
-      "price": 1.0612497175469986,
-      "change24h": -3.90460828
+      "price": 1.0654504127994922,
+      "change24h": -3.86864541
     },
     {
       "id": 29210,
       "name": "Jupiter",
       "symbol": "JUP",
       "rank": 77,
-      "price": 0.2170997694736958,
-      "change24h": -2.50000298
+      "price": 0.21698651132652752,
+      "change24h": -3.36569844
     },
     {
       "id": 35626,
       "name": "Story",
       "symbol": "IP",
       "rank": 78,
-      "price": 2.0208677107933983,
-      "change24h": -0.92545628
+      "price": 2.0218811565324515,
+      "change24h": -1.9135106
     },
     {
       "id": 7186,
       "name": "PancakeSwap",
       "symbol": "CAKE",
       "rank": 79,
-      "price": 1.9335862930433991,
-      "change24h": -2.74398615
+      "price": 1.9335264109350168,
+      "change24h": -3.0516152
     },
     {
       "id": 3773,
       "name": "Artificial Superintelligence Alliance",
       "symbol": "FET",
       "rank": 80,
-      "price": 0.2804460208747869,
-      "change24h": -3.53289393
+      "price": 0.2793811370493339,
+      "change24h": -5.08564987
     },
     {
       "id": 4847,
       "name": "Stacks",
       "symbol": "STX",
       "rank": 81,
-      "price": 0.35366933450668636,
-      "change24h": -3.79990987
+      "price": 0.3531953099023235,
+      "change24h": -4.105727
     },
     {
       "id": 2694,
       "name": "Nexo",
       "symbol": "NEXO",
       "rank": 82,
-      "price": 0.9744053641587287,
-      "change24h": 0.73324037
+      "price": 0.9748052756242962,
+      "change24h": 0.55671556
     },
     {
       "id": 11840,
       "name": "Optimism",
       "symbol": "OP",
       "rank": 83,
-      "price": 0.3184690137148632,
-      "change24h": -0.13048978
-    },
-    {
-      "id": 2011,
-      "name": "Tezos",
-      "symbol": "XTZ",
-      "rank": 84,
-      "price": 0.566542447243866,
-      "change24h": -1.34408988
+      "price": 0.3183185741059022,
+      "change24h": -0.85274019
     },
     {
       "id": 6538,
       "name": "Curve DAO Token",
       "symbol": "CRV",
+      "rank": 84,
+      "price": 0.4186855254697882,
+      "change24h": 0.21940059
+    },
+    {
+      "id": 2011,
+      "name": "Tezos",
+      "symbol": "XTZ",
       "rank": 85,
-      "price": 0.41659930881100626,
-      "change24h": 0.31366216
+      "price": 0.5661801050844115,
+      "change24h": -1.95819266
     },
     {
       "id": 28081,
       "name": "SPX6900",
       "symbol": "SPX",
       "rank": 86,
-      "price": 0.60524847821437,
-      "change24h": -0.72311847
+      "price": 0.6023883028618107,
+      "change24h": -2.46343825
     },
     {
       "id": 10603,
       "name": "Immutable",
       "symbol": "IMX",
       "rank": 87,
-      "price": 0.2793440039437454,
-      "change24h": -1.61069072
+      "price": 0.2789981620497777,
+      "change24h": -2.44229534
     },
     {
       "id": 8000,
       "name": "Lido DAO",
       "symbol": "LDO",
       "rank": 88,
-      "price": 0.636434554879448,
-      "change24h": -0.59955492
+      "price": 0.6365199171299597,
+      "change24h": -1.32806952
     },
     {
       "id": 10804,
       "name": "FLOKI",
       "symbol": "FLOKI",
       "rank": 89,
-      "price": 0.000055629070578793785,
-      "change24h": -0.77296832
+      "price": 0.00005566968913676553,
+      "change24h": -1.37436369
     },
     {
       "id": 7226,
       "name": "Injective",
       "symbol": "INJ",
       "rank": 90,
-      "price": 5.295584007262447,
-      "change24h": -2.1052616
+      "price": 5.285897716932687,
+      "change24h": -3.25509013
     },
     {
       "id": 131,
       "name": "Dash",
       "symbol": "DASH",
       "rank": 91,
-      "price": 41.143830432429134,
-      "change24h": -5.21342931
+      "price": 41.10161138378958,
+      "change24h": -5.70233412
     },
     {
       "id": 29270,
       "name": "Aerodrome Finance",
       "symbol": "AERO",
       "rank": 92,
-      "price": 0.5641009268347128,
-      "change24h": -2.8701182
+      "price": 0.562995028454496,
+      "change24h": -3.97278292
     },
     {
       "id": 26081,
       "name": "First Digital USD",
       "symbol": "FDUSD",
       "rank": 93,
-      "price": 0.9989938112685908,
-      "change24h": -0.01998647
+      "price": 0.9988737959883951,
+      "change24h": -0.01705004
     },
     {
       "id": 29814,
       "name": "ether.fi",
       "symbol": "ETHFI",
       "rank": 94,
-      "price": 0.7598459184402703,
-      "change24h": -2.58304661
+      "price": 0.7596706785274802,
+      "change24h": -3.41624255
     },
     {
       "id": 2563,
       "name": "TrueUSD",
       "symbol": "TUSD",
       "rank": 95,
-      "price": 0.9976493609023588,
-      "change24h": 0.00237848
+      "price": 0.9973302257344024,
+      "change24h": -0.01717943
     },
     {
       "id": 22861,
       "name": "Celestia",
       "symbol": "TIA",
       "rank": 96,
-      "price": 0.5694648113539759,
-      "change24h": -0.19860748
+      "price": 0.5692396981318858,
+      "change24h": -1.52542227
     },
     {
       "id": 34104,
       "name": "Morpho",
       "symbol": "MORPHO",
       "rank": 97,
-      "price": 1.2233066807442867,
-      "change24h": -0.36818197
+      "price": 1.2244791485346291,
+      "change24h": -1.08453455
     },
     {
       "id": 1720,
       "name": "IOTA",
       "symbol": "IOTA",
       "rank": 98,
-      "price": 0.10780342610446675,
-      "change24h": -1.23032262
+      "price": 0.10780142796170344,
+      "change24h": -1.98923591
     },
     {
       "id": 4066,
       "name": "Chiliz",
       "symbol": "CHZ",
       "rank": 99,
-      "price": 0.0433824333761304,
-      "change24h": 0.39846681
+      "price": 0.04347244698240438,
+      "change24h": 0.35709297
     },
     {
       "id": 22691,
       "name": "Starknet",
       "symbol": "STRK",
       "rank": 100,
-      "price": 0.08750212587882955,
-      "change24h": -2.40688784
+      "price": 0.0874108582912287,
+      "change24h": -3.34585387
     },
     {
       "id": 6719,
       "name": "The Graph",
       "symbol": "GRT",
       "rank": 101,
-      "price": 0.040523446242844506,
-      "change24h": -1.26262122
+      "price": 0.04044387220719346,
+      "change24h": -2.29851303
     },
     {
       "id": 8425,
       "name": "JasmyCoin",
       "symbol": "JASMY",
       "rank": 102,
-      "price": 0.008711365969234792,
-      "change24h": 1.26698253
+      "price": 0.00870877588116922,
+      "change24h": -0.12139307
     },
     {
       "id": 33597,
       "name": "Fartcoin",
       "symbol": "FARTCOIN",
       "rank": 103,
-      "price": 0.4289180447243021,
-      "change24h": 1.65210124
+      "price": 0.4261602892335788,
+      "change24h": 0.00001203
     },
     {
       "id": 16086,
       "name": "BitTorrent [New]",
       "symbol": "BTT",
       "rank": 104,
-      "price": 4.2938788934167115e-7,
-      "change24h": -3.28115049
+      "price": 4.297037887319862e-7,
+      "change24h": -3.3535224
     },
     {
       "id": 3871,
       "name": "AB",
       "symbol": "AB",
       "rank": 105,
-      "price": 0.004451516757895132,
-      "change24h": -1.33465566
+      "price": 0.004454316798375086,
+      "change24h": -1.20768893
     },
     {
       "id": 33824,
       "name": "Maple Finance",
       "symbol": "SYRUP",
       "rank": 106,
-      "price": 0.36750781488108225,
-      "change24h": -2.83231833
+      "price": 0.36706635015311506,
+      "change24h": -3.4686704
     },
     {
       "id": 32880,
       "name": "Kaia",
       "symbol": "KAIA",
       "rank": 107,
-      "price": 0.06715681956930808,
-      "change24h": -3.25664637
+      "price": 0.06723738100551029,
+      "change24h": -3.2458689
     },
     {
       "id": 39120,
       "name": "United Stables",
       "symbol": "U",
       "rank": 108,
-      "price": 0.9989735790752062,
-      "change24h": -0.04881038
-    },
-    {
-      "id": 38515,
-      "name": "DoubleZero",
-      "symbol": "2Z",
-      "rank": 109,
-      "price": 0.11783986327010974,
-      "change24h": -3.31439602
+      "price": 0.9990370753750637,
+      "change24h": -0.01903952
     },
     {
       "id": 13855,
       "name": "Ethereum Name Service",
       "symbol": "ENS",
+      "rank": 109,
+      "price": 10.70414496426783,
+      "change24h": -2.60853736
+    },
+    {
+      "id": 38515,
+      "name": "DoubleZero",
+      "symbol": "2Z",
       "rank": 110,
-      "price": 10.705863827555879,
-      "change24h": -1.9329151
+      "price": 0.11765674041421602,
+      "change24h": -3.94354583
     },
     {
       "id": 7334,
       "name": "Conflux",
       "symbol": "CFX",
       "rank": 111,
-      "price": 0.07881438378682555,
-      "change24h": -1.148445
+      "price": 0.07870504161902646,
+      "change24h": -2.04973124
     },
     {
       "id": 5488,
       "name": "JUST",
       "symbol": "JST",
       "rank": 112,
-      "price": 0.0431025761958834,
-      "change24h": 4.68598753
+      "price": 0.04293917221968505,
+      "change24h": 3.9309498
     },
     {
       "id": 28177,
       "name": "Pyth Network",
       "symbol": "PYTH",
       "rank": 113,
-      "price": 0.06867284076026176,
-      "change24h": -0.479403
+      "price": 0.06855939705544994,
+      "change24h": -1.50401384
     },
     {
       "id": 5964,
       "name": "Trust Wallet Token",
       "symbol": "TWT",
       "rank": 114,
-      "price": 0.9168603893955188,
-      "change24h": 0.44364468
-    },
-    {
-      "id": 10529,
-      "name": "Sun [New]",
-      "symbol": "SUN",
-      "rank": 115,
-      "price": 0.020429025514443738,
-      "change24h": 1.81558539
+      "price": 0.9159678550040589,
+      "change24h": -0.27125111
     },
     {
       "id": 28752,
       "name": "dogwifhat",
       "symbol": "WIF",
+      "rank": 115,
+      "price": 0.3930921925567853,
+      "change24h": -7.3803727
+    },
+    {
+      "id": 10529,
+      "name": "Sun [New]",
+      "symbol": "SUN",
       "rank": 116,
-      "price": 0.3924744391377521,
-      "change24h": -7.26930856
+      "price": 0.020420973173702627,
+      "change24h": 1.77477172
     },
     {
       "id": 3602,
       "name": "Bitcoin SV",
       "symbol": "BSV",
       "rank": 117,
-      "price": 19.512601435660685,
-      "change24h": -4.8458561
+      "price": 19.520286459258237,
+      "change24h": -4.91146174
     },
     {
       "id": 2394,
       "name": "Telcoin",
       "symbol": "TEL",
       "rank": 118,
-      "price": 0.0038773014875473568,
-      "change24h": -3.95549763
+      "price": 0.0038986954878039827,
+      "change24h": -2.98737107
     },
     {
       "id": 9816,
       "name": "AINFT",
       "symbol": "NFT",
       "rank": 119,
-      "price": 3.6746794117962174e-7,
-      "change24h": -0.68435776
+      "price": 3.6721308684845616e-7,
+      "change24h": -0.72180885
     },
     {
       "id": 9481,
       "name": "Pendle",
       "symbol": "PENDLE",
       "rank": 120,
-      "price": 2.1825543105285394,
-      "change24h": -3.32231114
+      "price": 2.180234335139996,
+      "change24h": -4.20073946
     },
     {
       "id": 1659,
       "name": "Gnosis",
       "symbol": "GNO",
       "rank": 121,
-      "price": 138.37994952757302,
-      "change24h": -2.66582452
+      "price": 138.4185289643048,
+      "change24h": -2.8282874
     },
     {
       "id": 24091,
       "name": "ZKsync",
       "symbol": "ZK",
       "rank": 122,
-      "price": 0.03439462960441037,
-      "change24h": -5.33186892
+      "price": 0.03419249013257903,
+      "change24h": -5.93322741
     },
     {
       "id": 36922,
       "name": "Humanity Protocol",
       "symbol": "H",
       "rank": 123,
-      "price": 0.1572414940079207,
-      "change24h": -2.15154775
+      "price": 0.1573053828240389,
+      "change24h": -1.53458569
     },
     {
       "id": 20641,
       "name": "EURC",
       "symbol": "EURC",
       "rank": 124,
-      "price": 1.1680372837751691,
-      "change24h": -0.05613623
+      "price": 1.1680241008472438,
+      "change24h": -0.04356697
     },
     {
       "id": 18679,
       "name": "Onyxcoin",
       "symbol": "XCN",
       "rank": 125,
-      "price": 0.009773341438023253,
-      "change24h": 5.73750947
+      "price": 0.009741908932392221,
+      "change24h": 4.23385345
     },
     {
       "id": 26997,
       "name": "LayerZero",
       "symbol": "ZRO",
       "rank": 126,
-      "price": 1.4132495230518423,
-      "change24h": 1.19617066
+      "price": 1.4100358889815532,
+      "change24h": 0.13859132
     },
     {
       "id": 7080,
       "name": "Gala",
       "symbol": "GALA",
       "rank": 127,
-      "price": 0.007318805142801797,
-      "change24h": -0.69303038
+      "price": 0.007301879932918821,
+      "change24h": -1.65204559
     },
     {
       "id": 36645,
       "name": "Plasma",
       "symbol": "XPL",
       "rank": 128,
-      "price": 0.17969144068201742,
-      "change24h": -10.37014647
+      "price": 0.1791069722803027,
+      "change24h": -11.10421141
     },
     {
       "id": 6210,
       "name": "The Sandbox",
       "symbol": "SAND",
       "rank": 129,
-      "price": 0.1207660551985248,
-      "change24h": -1.2461863
+      "price": 0.12067902760190917,
+      "change24h": -2.1469586
     },
     {
       "id": 1697,
       "name": "Basic Attention Token",
       "symbol": "BAT",
       "rank": 130,
-      "price": 0.21532259281808244,
-      "change24h": -1.44350982
+      "price": 0.214414211132647,
+      "change24h": -2.44966768
     },
     {
       "id": 8526,
       "name": "Raydium",
       "symbol": "RAY",
       "rank": 131,
-      "price": 1.1777022380549387,
-      "change24h": -1.51764453
+      "price": 1.180197907943004,
+      "change24h": -2.46479134
     },
     {
       "id": 37322,
       "name": "Vision",
       "symbol": "VSN",
       "rank": 132,
-      "price": 0.09030543437744765,
-      "change24h": -1.17686388
+      "price": 0.09027089531343041,
+      "change24h": -1.25123476
     },
     {
       "id": 2416,
       "name": "Theta Network",
       "symbol": "THETA",
       "rank": 133,
-      "price": 0.3054940180447405,
-      "change24h": -1.86718147
+      "price": 0.3055357776397014,
+      "change24h": -2.35633009
     },
     {
       "id": 30495,
       "name": "Monad",
       "symbol": "MON",
       "rank": 134,
-      "price": 0.027420786181439158,
-      "change24h": 0.31375538
-    },
-    {
-      "id": 1168,
-      "name": "Decred",
-      "symbol": "DCR",
-      "rank": 135,
-      "price": 16.884925625778298,
-      "change24h": -2.5713236
+      "price": 0.02733214097698073,
+      "change24h": -0.84627638
     },
     {
       "id": 5665,
       "name": "Helium",
       "symbol": "HNT",
+      "rank": 135,
+      "price": 1.5609400667659565,
+      "change24h": 1.33348576
+    },
+    {
+      "id": 1168,
+      "name": "Decred",
+      "symbol": "DCR",
       "rank": 136,
-      "price": 1.5598776693938385,
-      "change24h": 1.57057518
+      "price": 16.86451490926881,
+      "change24h": -3.19723809
     },
     {
       "id": 36462,
       "name": "Vaulta",
       "symbol": "A",
       "rank": 137,
-      "price": 0.17862194142415486,
-      "change24h": -1.34581888
-    },
-    {
-      "id": 7326,
-      "name": "DeXe",
-      "symbol": "DEXE",
-      "rank": 138,
-      "price": 3.3643354664035763,
-      "change24h": -3.96194648
+      "price": 0.17860049214366489,
+      "change24h": -2.04642144
     },
     {
       "id": 1376,
       "name": "Neo",
       "symbol": "NEO",
+      "rank": 138,
+      "price": 3.9832143426390387,
+      "change24h": 0.37020141
+    },
+    {
+      "id": 7326,
+      "name": "DeXe",
+      "symbol": "DEXE",
       "rank": 139,
-      "price": 3.9880525411259824,
-      "change24h": 0.95626995
+      "price": 3.354098457801341,
+      "change24h": -4.89372268
     },
     {
       "id": 30636,
       "name": "Zebec Network",
       "symbol": "ZBCN",
       "rank": 140,
-      "price": 0.0028959173816977815,
-      "change24h": -0.80250501
+      "price": 0.002888730021066453,
+      "change24h": -1.56229878
     },
     {
       "id": 1966,
       "name": "Decentraland",
       "symbol": "MANA",
       "rank": 141,
-      "price": 0.14171861843203692,
-      "change24h": 0.39235572
+      "price": 0.14142921447677995,
+      "change24h": -0.33719798
     },
     {
       "id": 1455,
       "name": "Golem",
       "symbol": "GLM",
       "rank": 142,
-      "price": 0.27325638294840165,
-      "change24h": 8.69219302
+      "price": 0.2720671671517073,
+      "change24h": 7.44046168
     },
     {
       "id": 5692,
       "name": "Compound",
       "symbol": "COMP",
       "rank": 143,
-      "price": 26.90422097283073,
-      "change24h": 0.34960297
+      "price": 26.85717731590721,
+      "change24h": -0.45140729
     },
     {
       "id": 30712,
       "name": "Merlin Chain",
       "symbol": "MERL",
       "rank": 144,
-      "price": 0.2453219825396712,
-      "change24h": 0.93677724
+      "price": 0.24502525203260367,
+      "change24h": 0.59383989
     },
     {
       "id": 32684,
       "name": "Sonic",
       "symbol": "S",
       "rank": 145,
-      "price": 0.09225756883261343,
-      "change24h": -3.09231057
+      "price": 0.0921546555763881,
+      "change24h": -4.28182998
     },
     {
       "id": 5632,
       "name": "Arweave",
       "symbol": "AR",
       "rank": 146,
-      "price": 3.949931852927603,
-      "change24h": -1.32992362
+      "price": 3.9447114956083955,
+      "change24h": -2.3424453
     },
     {
       "id": 38892,
       "name": "Stable",
       "symbol": "STABLE",
       "rank": 147,
-      "price": 0.01440586199276479,
-      "change24h": -6.68326616
+      "price": 0.014398056862448803,
+      "change24h": -6.92442226
     },
     {
       "id": 35053,
       "name": "pippin",
       "symbol": "PIPPIN",
       "rank": 148,
-      "price": 0.2467099547804807,
-      "change24h": -26.40332804
-    },
-    {
-      "id": 10791,
-      "name": "eCash",
-      "symbol": "XEC",
-      "rank": 149,
-      "price": 0.000011918685911238313,
-      "change24h": -2.11391805
+      "price": 0.253438454718794,
+      "change24h": -24.47076544
     },
     {
       "id": 4172,
       "name": "Terra Classic",
       "symbol": "LUNC",
+      "rank": 149,
+      "price": 0.000043360382712941834,
+      "change24h": -4.04867999
+    },
+    {
+      "id": 10791,
+      "name": "eCash",
+      "symbol": "XEC",
       "rank": 150,
-      "price": 0.00004339437738264439,
-      "change24h": -3.68159893
+      "price": 0.00001186562592610387,
+      "change24h": -3.02083988
     },
     {
       "id": 36532,
       "name": "BUILDon",
       "symbol": "B",
       "rank": 151,
-      "price": 0.23596011664746624,
-      "change24h": 5.49133649
+      "price": 0.2366427415449061,
+      "change24h": 5.84726172
     },
     {
       "id": 10508,
       "name": "Fluid",
       "symbol": "FLUID",
       "rank": 152,
-      "price": 3.0103754406099497,
-      "change24h": -1.17293689
+      "price": 3.012616259862557,
+      "change24h": -1.45216261
     },
     {
       "id": 30494,
       "name": "EigenCloud",
       "symbol": "EIGEN",
       "rank": 153,
-      "price": 0.41263367004732615,
-      "change24h": -3.33567619
+      "price": 0.4123639149834999,
+      "change24h": -4.30320774
     },
     {
       "id": 8104,
       "name": "1inch",
       "symbol": "1INCH",
       "rank": 154,
-      "price": 0.15646684749234596,
-      "change24h": -1.54124059
+      "price": 0.1563193380658418,
+      "change24h": -2.05743088
     },
     {
       "id": 36119,
       "name": "Walrus",
       "symbol": "WAL",
       "rank": 155,
-      "price": 0.1367921035610759,
-      "change24h": -3.0932957
+      "price": 0.13667418003270762,
+      "change24h": -3.86754171
     },
     {
       "id": 38482,
       "name": "Falcon Finance",
       "symbol": "FF",
       "rank": 156,
-      "price": 0.09175549949193985,
-      "change24h": -2.83122967
+      "price": 0.0916907237080151,
+      "change24h": -3.30313683
     },
     {
       "id": 2467,
       "name": "OriginTrail",
       "symbol": "TRAC",
       "rank": 157,
-      "price": 0.4270826248660711,
-      "change24h": -1.62070451
+      "price": 0.4274851283177638,
+      "change24h": -2.01371715
     },
     {
       "id": 30986,
       "name": "Kamino",
       "symbol": "KMNO",
       "rank": 158,
-      "price": 0.05835157587904998,
-      "change24h": -1.07494279
+      "price": 0.05830321307268666,
+      "change24h": -1.89926918
     },
     {
       "id": 38337,
       "name": "0G",
       "symbol": "0G",
       "rank": 159,
-      "price": 0.9716574072787953,
-      "change24h": 3.43148634
-    },
-    {
-      "id": 4157,
-      "name": "THORChain",
-      "symbol": "RUNE",
-      "rank": 160,
-      "price": 0.5821938861889537,
-      "change24h": -1.14352804
+      "price": 0.9702270490835694,
+      "change24h": 2.79185587
     },
     {
       "id": 9903,
       "name": "Convex Finance",
       "symbol": "CVX",
+      "rank": 160,
+      "price": 2.06583855545442,
+      "change24h": -1.37585564
+    },
+    {
+      "id": 4157,
+      "name": "THORChain",
+      "symbol": "RUNE",
       "rank": 161,
-      "price": 2.0610900468230176,
-      "change24h": -1.13557812
+      "price": 0.5817358487142419,
+      "change24h": -1.70923866
     },
     {
       "id": 33391,
       "name": "DeepBook Protocol",
       "symbol": "DEEP",
       "rank": 162,
-      "price": 0.04350391055899416,
-      "change24h": -3.83224558
+      "price": 0.04331181078576934,
+      "change24h": -5.14053674
     },
     {
       "id": 6945,
       "name": "Amp",
       "symbol": "AMP",
       "rank": 163,
-      "price": 0.0023367430885610865,
-      "change24h": 10.41019213
+      "price": 0.002352811552288124,
+      "change24h": 10.8290646
     },
     {
       "id": 29587,
       "name": "Wormhole",
       "symbol": "W",
       "rank": 164,
-      "price": 0.03760752028526362,
-      "change24h": -4.34289077
+      "price": 0.03762985428634359,
+      "change24h": -5.17566108
     },
     {
       "id": 4041,
       "name": "MX Token",
       "symbol": "MX",
       "rank": 165,
-      "price": 2.079446622602767,
-      "change24h": -0.50782754
+      "price": 2.078859891415225,
+      "change24h": -0.55010071
     },
     {
       "id": 33280,
       "name": "Cheems (cheems.pet)",
       "symbol": "CHEEMS",
       "rank": 166,
-      "price": 9.89410532829045e-7,
-      "change24h": -2.14698815
+      "price": 9.892008583016972e-7,
+      "change24h": -2.31916882
     },
     {
       "id": 6892,
       "name": "MultiversX",
       "symbol": "EGLD",
       "rank": 167,
-      "price": 6.325995835312614,
-      "change24h": -1.91035995
+      "price": 6.296418497100298,
+      "change24h": -2.75663879
     },
     {
       "id": 35931,
       "name": "ZORA",
       "symbol": "ZORA",
       "rank": 168,
-      "price": 0.04093720128821404,
-      "change24h": -2.24924338
+      "price": 0.040902448738592466,
+      "change24h": -2.89443039
     },
     {
       "id": 28541,
       "name": "Jito",
       "symbol": "JTO",
       "rank": 169,
-      "price": 0.4323984253482602,
-      "change24h": -10.38359138
+      "price": 0.4316026771180023,
+      "change24h": -11.21648749
     },
     {
       "id": 38408,
       "name": "Lombard",
       "symbol": "BARD",
       "rank": 170,
-      "price": 0.809552703604601,
-      "change24h": -0.61181392
+      "price": 0.8089964854265761,
+      "change24h": -0.90120359
     },
     {
       "id": 3964,
       "name": "Reserve Rights",
       "symbol": "RSR",
       "rank": 171,
-      "price": 0.002879935286893404,
-      "change24h": -3.01506429
+      "price": 0.0028721177919689435,
+      "change24h": -4.12809995
     },
     {
       "id": 29743,
       "name": "Brett (Based)",
       "symbol": "BRETT",
       "rank": 172,
-      "price": 0.018047663871549515,
-      "change24h": -1.6630528
+      "price": 0.018027769140864923,
+      "change24h": -2.5963256
     },
     {
       "id": 8119,
       "name": "SafePal",
       "symbol": "SFP",
       "rank": 173,
-      "price": 0.3549622993850648,
-      "change24h": 0.20510932
+      "price": 0.3533052179838869,
+      "change24h": -0.72535964
     },
     {
       "id": 4195,
       "name": "FTX Token",
       "symbol": "FTT",
       "rank": 174,
-      "price": 0.5243308799863141,
-      "change24h": -1.4359049
+      "price": 0.5240298345060297,
+      "change24h": -1.38110728
     },
     {
       "id": 2586,
       "name": "Synthetix",
       "symbol": "SNX",
       "rank": 175,
-      "price": 0.49575659149728574,
-      "change24h": -2.66748699
+      "price": 0.4954120319941687,
+      "change24h": -3.99617314
     },
     {
       "id": 30083,
       "name": "Aethir",
       "symbol": "ATH",
       "rank": 176,
-      "price": 0.010717783365889093,
-      "change24h": -5.04342193
+      "price": 0.010703526457744394,
+      "change24h": -5.77051931
     },
     {
       "id": 7548,
       "name": "WEMIX",
       "symbol": "WEMIX",
       "rank": 177,
-      "price": 0.3636903211255211,
-      "change24h": -0.21684333
+      "price": 0.3635359101577806,
+      "change24h": -0.39120021
     },
     {
       "id": 18876,
       "name": "ApeCoin",
       "symbol": "APE",
       "rank": 178,
-      "price": 0.21916947871273046,
-      "change24h": 0.33952206
+      "price": 0.21906449564324262,
+      "change24h": -0.63781121
     },
     {
       "id": 1698,
       "name": "Horizen",
       "symbol": "ZEN",
       "rank": 179,
-      "price": 9.149060812656622,
-      "change24h": -0.73645861
-    },
-    {
-      "id": 4558,
-      "name": "Flow",
-      "symbol": "FLOW",
-      "rank": 180,
-      "price": 0.0993373994654737,
-      "change24h": 10.11394114
+      "price": 9.149186903839718,
+      "change24h": -1.1049293
     },
     {
       "id": 38828,
       "name": "Kite",
       "symbol": "KITE",
-      "rank": 181,
-      "price": 0.0898145046912551,
-      "change24h": -4.78328707
+      "rank": 180,
+      "price": 0.08967589767762019,
+      "change24h": -5.27205591
     },
     {
       "id": 28324,
       "name": "dYdX",
       "symbol": "DYDX",
-      "rank": 182,
-      "price": 0.19715881027194482,
-      "change24h": -0.75711745
+      "rank": 181,
+      "price": 0.19668791435056934,
+      "change24h": -1.57095734
     },
     {
       "id": 6783,
       "name": "Axie Infinity",
       "symbol": "AXS",
-      "rank": 183,
-      "price": 0.9482669590582641,
-      "change24h": -1.20144377
+      "rank": 182,
+      "price": 0.9474197036471553,
+      "change24h": -1.99844509
     },
     {
       "id": 3640,
       "name": "Livepeer",
       "symbol": "LPT",
+      "rank": 183,
+      "price": 3.2502401286396014,
+      "change24h": -2.06274379
+    },
+    {
+      "id": 4558,
+      "name": "Flow",
+      "symbol": "FLOW",
       "rank": 184,
-      "price": 3.251017707135698,
-      "change24h": -1.41481322
+      "price": 0.09620080404194509,
+      "change24h": 5.42405737
     },
     {
       "id": 1684,
       "name": "Qtum",
       "symbol": "QTUM",
       "rank": 185,
-      "price": 1.4702671969382908,
-      "change24h": 0.05667392
+      "price": 1.4697415649483268,
+      "change24h": -0.48210448
     },
     {
       "id": 28298,
       "name": "Beam",
       "symbol": "BEAM",
       "rank": 186,
-      "price": 0.0030706401948729202,
-      "change24h": -2.4573053
+      "price": 0.0030668538867655542,
+      "change24h": -3.41750441
     },
     {
       "id": 27750,
       "name": "Toshi",
       "symbol": "TOSHI",
       "rank": 187,
-      "price": 0.0003554734156308004,
-      "change24h": -3.60103082
+      "price": 0.0003556538614164228,
+      "change24h": -4.19620598
     },
     {
       "id": 36542,
       "name": "SOON",
       "symbol": "SOON",
       "rank": 188,
-      "price": 0.3852700147352514,
-      "change24h": -0.18488535
+      "price": 0.38476294394174604,
+      "change24h": -0.89938895
     },
     {
       "id": 8290,
       "name": "SuperVerse",
       "symbol": "SUPER",
       "rank": 189,
-      "price": 0.2225964800893036,
-      "change24h": -2.47106346
+      "price": 0.22229773770977446,
+      "change24h": -3.27982195
     },
     {
       "id": 3822,
       "name": "Theta Fuel",
       "symbol": "TFUEL",
       "rank": 190,
-      "price": 0.019493670210753954,
-      "change24h": 2.59723824
-    },
-    {
-      "id": 5034,
-      "name": "Kusama",
-      "symbol": "KSM",
-      "rank": 191,
-      "price": 7.917546442307994,
-      "change24h": -3.03110433
+      "price": 0.019465086710107098,
+      "change24h": 2.46281562
     },
     {
       "id": 35347,
       "name": "Official Melania Meme",
       "symbol": "MELANIA",
-      "rank": 192,
-      "price": 0.14561756510085266,
-      "change24h": -0.64350721
+      "rank": 191,
+      "price": 0.14573733996942953,
+      "change24h": 0.01357779
     },
     {
-      "id": 23635,
-      "name": "Four",
-      "symbol": "FORM",
-      "rank": 193,
-      "price": 0.3618613580979605,
-      "change24h": -2.43861173
+      "id": 5034,
+      "name": "Kusama",
+      "symbol": "KSM",
+      "rank": 192,
+      "price": 7.909640567155487,
+      "change24h": -3.57443301
     },
     {
       "id": 24911,
       "name": "Turbo",
       "symbol": "TURBO",
+      "rank": 193,
+      "price": 0.001998250785823022,
+      "change24h": -3.30832991
+    },
+    {
+      "id": 23635,
+      "name": "Four",
+      "symbol": "FORM",
       "rank": 194,
-      "price": 0.0019998862086457302,
-      "change24h": -2.67104657
+      "price": 0.3607397575937368,
+      "change24h": -3.57061616
     },
     {
       "id": 5198,
       "name": "Creditcoin",
       "symbol": "CTC",
       "rank": 195,
-      "price": 0.26849891467877696,
-      "change24h": -1.92417501
+      "price": 0.26870803727529896,
+      "change24h": -2.57363527
     },
     {
       "id": 1785,
       "name": "Gas",
       "symbol": "GAS",
       "rank": 196,
-      "price": 2.1084800588903345,
-      "change24h": -0.12752375
+      "price": 2.1090411103881466,
+      "change24h": -0.64925119
     },
     {
       "id": 30933,
       "name": "Dog (Bitcoin)",
       "symbol": "DOG",
       "rank": 197,
-      "price": 0.0013665658034757808,
-      "change24h": -5.46605438
-    },
-    {
-      "id": 7127,
-      "name": "Velo",
-      "symbol": "VELO",
-      "rank": 198,
-      "price": 0.00774261848091221,
-      "change24h": -3.96125964
+      "price": 0.0013706638515646144,
+      "change24h": -5.8930271
     },
     {
       "id": 38353,
       "name": "Meteora",
       "symbol": "MET",
+      "rank": 198,
+      "price": 0.27560452705896665,
+      "change24h": -0.13680709
+    },
+    {
+      "id": 7127,
+      "name": "Velo",
+      "symbol": "VELO",
       "rank": 199,
-      "price": 0.27592606874610204,
-      "change24h": 0.06311546
+      "price": 0.007709922096008286,
+      "change24h": -4.62382959
     },
     {
       "id": 9104,
       "name": "AIOZ Network",
       "symbol": "AIOZ",
       "rank": 200,
-      "price": 0.1101688311335983,
-      "change24h": -2.69075261
+      "price": 0.11024417882362304,
+      "change24h": -3.24477268
     },
     {
       "id": 38341,
       "name": "Rain",
       "symbol": "RAIN",
       "rank": 201,
-      "price": 0.008771890922481585,
-      "change24h": -4.52282419
+      "price": 0.008773069712058199,
+      "change24h": -4.57785246
     },
     {
       "id": 35721,
       "name": "Falcon USD",
       "symbol": "USDf",
       "rank": 202,
-      "price": 0.9967217329327338,
-      "change24h": 0.04110268
+      "price": 0.9968975240958393,
+      "change24h": 0.02478404
     },
     {
       "id": 28853,
       "name": "Jupiter Perps LP",
       "symbol": "JLP",
       "rank": 203,
-      "price": 4.736809738413109,
-      "change24h": -0.7797659
+      "price": 4.738652891216302,
+      "change24h": -1.04820905
     },
     {
       "id": 29256,
       "name": "Ondo US Dollar Yield",
       "symbol": "USDY",
       "rank": 204,
-      "price": 1.1174370611861228,
-      "change24h": 0.15568375
+      "price": 1.117081346208829,
+      "change24h": -0.02482601
     },
     {
       "id": 3987,
       "name": "Beldex",
       "symbol": "BDX",
       "rank": 205,
-      "price": 0.08934072536890363,
-      "change24h": -0.63270287
+      "price": 0.08932474541392592,
+      "change24h": -0.67510234
     },
     {
       "id": 32307,
@@ -1646,463 +1646,463 @@
       "symbol": "USD0",
       "rank": 206,
       "price": 0.9988536827143668,
-      "change24h": -0.03714691
+      "change24h": -0.03713202
     },
     {
       "id": 37745,
       "name": "c8ntinuum",
       "symbol": "CTM",
       "rank": 207,
-      "price": 0.12693618229549697,
-      "change24h": -1.35292744
+      "price": 0.12695680095446668,
+      "change24h": -1.36574927
     },
     {
       "id": 38562,
       "name": "USDai",
       "symbol": "USDAI",
       "rank": 208,
-      "price": 1.0007807927543773,
-      "change24h": -0.01079724
+      "price": 1.0007807927559595,
+      "change24h": 0.03171347
     },
     {
       "id": 23508,
       "name": "GHO",
       "symbol": "GHO",
       "rank": 209,
-      "price": 0.9990011634553576,
-      "change24h": -0.01738069
+      "price": 0.9989978052162997,
+      "change24h": 0.0020061
     },
     {
       "id": 22615,
       "name": "Fasttoken",
       "symbol": "FTN",
       "rank": 210,
-      "price": 1.0866105257529919,
-      "change24h": -0.163383
+      "price": 1.087280282647664,
+      "change24h": 0.03842073
     },
     {
       "id": 38417,
       "name": "River",
       "symbol": "RIVER",
       "rank": 211,
-      "price": 16.518365394906144,
-      "change24h": -14.2513602
+      "price": 16.27902638158338,
+      "change24h": -15.26089017
     },
     {
       "id": 6952,
       "name": "Legacy Frax Dollar",
       "symbol": "FRAX",
       "rank": 212,
-      "price": 0.9926474048040002,
-      "change24h": -0.02173412
+      "price": 0.9925253254034225,
+      "change24h": -0.0080246
     },
     {
       "id": 2499,
       "name": "SwissBorg",
       "symbol": "BORG",
       "rank": 213,
-      "price": 0.25962306713368416,
-      "change24h": -0.61796178
+      "price": 0.25852004167061693,
+      "change24h": -1.20716903
     },
     {
       "id": 27765,
       "name": "Zeebu",
       "symbol": "ZBU",
       "rank": 214,
-      "price": 0.5774734328361223,
-      "change24h": -1.03283659
+      "price": 0.5777402166542124,
+      "change24h": -0.99768463
     },
     {
       "id": 27048,
       "name": "Ape and Pepe",
       "symbol": "APEPE",
       "rank": 215,
-      "price": 0.0000011269777362210935,
-      "change24h": 1.88524424
+      "price": 0.0000011264563397731467,
+      "change24h": 1.86106598
     },
     {
       "id": 35954,
       "name": "Loaded Lions",
       "symbol": "LION",
       "rank": 216,
-      "price": 0.007176612412022252,
-      "change24h": -2.99266906
+      "price": 0.007159047364313646,
+      "change24h": -3.13479785
     },
     {
       "id": 34261,
       "name": "WeFi",
       "symbol": "WFI",
       "rank": 217,
-      "price": 2.721767245802569,
-      "change24h": -0.63724872
+      "price": 2.722532100684797,
+      "change24h": -0.74304035
     },
     {
       "id": 28293,
       "name": "Ultima",
       "symbol": "ULTIMA",
       "rank": 218,
-      "price": 5367.269210445773,
-      "change24h": -2.2422958
+      "price": 5365.284994220985,
+      "change24h": -2.26233012
     },
     {
       "id": 29933,
       "name": "Undeads Games",
       "symbol": "UDS",
       "rank": 219,
-      "price": 2.596064025207043,
-      "change24h": -0.51108257
+      "price": 2.595893011202107,
+      "change24h": -0.53498354
     },
     {
       "id": 32864,
       "name": "AUSD",
       "symbol": "AUSD",
       "rank": 220,
-      "price": 0.9995202953044394,
-      "change24h": -0.03374227
+      "price": 0.9997475233836332,
+      "change24h": -0.00385276
     },
     {
       "id": 36743,
       "name": "Ribbita by Virtuals",
       "symbol": "TIBBIR",
       "rank": 221,
-      "price": 0.19089245822908465,
-      "change24h": -5.59642194
+      "price": 0.1909295851500418,
+      "change24h": -5.61819477
     },
     {
       "id": 30605,
       "name": "Ailey",
       "symbol": "ALE",
       "rank": 222,
-      "price": 0.40017641967922507,
-      "change24h": -0.94707824
+      "price": 0.40018534530583977,
+      "change24h": -0.95462764
     },
     {
       "id": 10180,
       "name": "GoМining",
       "symbol": "GOMINING",
       "rank": 223,
-      "price": 0.4202063999196431,
-      "change24h": -3.37278901
+      "price": 0.42035104865378997,
+      "change24h": -3.28572025
     },
     {
       "id": 35437,
       "name": "Aster USDF",
       "symbol": "USDF",
       "rank": 224,
-      "price": 0.9975136115584935,
-      "change24h": -0.05806407
+      "price": 0.9976027834628813,
+      "change24h": -0.04912985
     },
     {
       "id": 1712,
       "name": "Quantum Resistant Ledger",
       "symbol": "QRL",
       "rank": 225,
-      "price": 2.4794656336140033,
-      "change24h": -1.11114738
+      "price": 2.4808538714138972,
+      "change24h": 0.38007119
     },
     {
       "id": 7184,
       "name": "48 Club Token",
       "symbol": "KOGE",
       "rank": 226,
-      "price": 47.949019916790405,
-      "change24h": -0.04613415
+      "price": 47.95079904633946,
+      "change24h": -0.01860972
     },
     {
       "id": 18031,
       "name": "Concordium",
       "symbol": "CCD",
       "rank": 227,
-      "price": 0.01331422103504885,
-      "change24h": 6.92713533
+      "price": 0.013304527159963664,
+      "change24h": 6.7970949
     },
     {
       "id": 36762,
       "name": "StandX DUSD",
       "symbol": "DUSD",
       "rank": 228,
-      "price": 0.9981540304943207,
-      "change24h": -0.03386341
-    },
-    {
-      "id": 38849,
-      "name": "Pieverse",
-      "symbol": "PIEVERSE",
-      "rank": 229,
-      "price": 0.8556569118002759,
-      "change24h": 8.96784602
+      "price": 0.9982594645273106,
+      "change24h": -0.00561142
     },
     {
       "id": 4691,
       "name": "Zano",
       "symbol": "ZANO",
-      "rank": 230,
-      "price": 9.982818973463319,
-      "change24h": 1.13492211
+      "rank": 229,
+      "price": 9.98367901765643,
+      "change24h": 1.13500504
     },
     {
       "id": 38330,
       "name": "GUSD",
       "symbol": "GUSD",
-      "rank": 231,
-      "price": 0.9986594671349064,
-      "change24h": -0.00351679
+      "rank": 230,
+      "price": 0.9986629618298719,
+      "change24h": -0.0043509
     },
     {
       "id": 35818,
       "name": "SoSoValue",
       "symbol": "SOSO",
+      "rank": 231,
+      "price": 0.5426638472128685,
+      "change24h": -1.94653445
+    },
+    {
+      "id": 38849,
+      "name": "Pieverse",
+      "symbol": "PIEVERSE",
       "rank": 232,
-      "price": 0.5430638225721846,
-      "change24h": -1.7259539
+      "price": 0.8500292421565356,
+      "change24h": 7.68509423
     },
     {
       "id": 38590,
       "name": "币安人生",
       "symbol": "币安人生",
       "rank": 233,
-      "price": 0.1470440538264818,
-      "change24h": 14.92831492
+      "price": 0.14542206277027211,
+      "change24h": 13.34590281
     },
     {
       "id": 2989,
       "name": "STASIS EURO",
       "symbol": "EURS",
       "rank": 234,
-      "price": 1.1641552633714987,
-      "change24h": -0.17177571
+      "price": 1.1642216242283077,
+      "change24h": -0.16579523
     },
     {
       "id": 15271,
       "name": "Rollbit Coin",
       "symbol": "RLB",
       "rank": 235,
-      "price": 0.07939937549524834,
-      "change24h": 1.6640177
+      "price": 0.07979319348407554,
+      "change24h": 2.16836265
     },
     {
       "id": 35763,
       "name": "KAITO",
       "symbol": "KAITO",
       "rank": 236,
-      "price": 0.555443417648774,
-      "change24h": 4.55338731
+      "price": 0.5576551587791133,
+      "change24h": 4.44975794
     },
     {
       "id": 27659,
       "name": "Mog Coin",
       "symbol": "MOG",
       "rank": 237,
-      "price": 3.4110120766175353e-7,
-      "change24h": 5.2390417
-    },
-    {
-      "id": 4948,
-      "name": "Nervos Network",
-      "symbol": "CKB",
-      "rank": 238,
-      "price": 0.002720620382960183,
-      "change24h": -1.05574664
+      "price": 3.411891051399764e-7,
+      "change24h": 3.968636
     },
     {
       "id": 23254,
       "name": "Core",
       "symbol": "CORE",
       "rank": 239,
-      "price": 0.12752612807890834,
-      "change24h": -1.4901774
+      "price": 0.12742856886904524,
+      "change24h": -2.00675311
     },
     {
-      "id": 19269,
-      "name": "CoW Protocol",
-      "symbol": "COW",
-      "rank": 240,
-      "price": 0.23265475653615245,
-      "change24h": -1.5334783
+      "id": 4948,
+      "name": "Nervos Network",
+      "symbol": "CKB",
+      "rank": 238,
+      "price": 0.0027103661887238717,
+      "change24h": -2.02188039
     },
     {
       "id": 5864,
       "name": "yearn.finance",
       "symbol": "YFI",
+      "rank": 240,
+      "price": 3664.0914561521117,
+      "change24h": -1.83239874
+    },
+    {
+      "id": 19269,
+      "name": "CoW Protocol",
+      "symbol": "COW",
       "rank": 241,
-      "price": 3656.751638837326,
-      "change24h": -1.67131832
+      "price": 0.23220682900446554,
+      "change24h": -2.05666762
     },
     {
       "id": 36511,
       "name": "SLT",
       "symbol": "SLT",
       "rank": 242,
-      "price": 14.849416293303037,
-      "change24h": -0.50358677
-    },
-    {
-      "id": 4120,
-      "name": "Prom",
-      "symbol": "PROM",
-      "rank": 243,
-      "price": 6.752337260792841,
-      "change24h": -11.95201032
+      "price": 14.849708882111896,
+      "change24h": -0.47873547
     },
     {
       "id": 10407,
       "name": "Baby Doge Coin",
       "symbol": "BabyDoge",
-      "rank": 244,
-      "price": 7.03161161979182e-10,
-      "change24h": -1.54249928
+      "rank": 243,
+      "price": 7.02961678858716e-10,
+      "change24h": -2.08085287
     },
     {
       "id": 36039,
       "name": "Frax USD",
       "symbol": "FRXUSD",
-      "rank": 245,
-      "price": 0.999435938093985,
-      "change24h": -0.01349495
+      "rank": 244,
+      "price": 0.9993723415905844,
+      "change24h": 0.00408658
     },
     {
       "id": 2577,
       "name": "Ravencoin",
       "symbol": "RVN",
-      "rank": 246,
-      "price": 0.007667682781650716,
-      "change24h": -0.80687424
+      "rank": 245,
+      "price": 0.007657271596686937,
+      "change24h": -1.59341277
     },
     {
       "id": 1896,
       "name": "0x Protocol",
       "symbol": "ZRX",
+      "rank": 246,
+      "price": 0.14420448915791945,
+      "change24h": -1.64598159
+    },
+    {
+      "id": 4120,
+      "name": "Prom",
+      "symbol": "PROM",
       "rank": 247,
-      "price": 0.14403282651298252,
-      "change24h": -1.09764845
+      "price": 6.700768032950511,
+      "change24h": -12.51144143
     },
     {
       "id": 7431,
       "name": "Akash Network",
       "symbol": "AKT",
       "rank": 248,
-      "price": 0.4257833219336738,
-      "change24h": -3.62644535
+      "price": 0.42584331104066847,
+      "change24h": -4.05110687
     },
     {
       "id": 2933,
       "name": "BitMart Token",
       "symbol": "BMX",
       "rank": 249,
-      "price": 0.35904734767479346,
-      "change24h": -0.62535979
+      "price": 0.35905788465893035,
+      "change24h": -0.5661441
     },
     {
       "id": 37414,
       "name": "Yooldo",
       "symbol": "ESPORTS",
       "rank": 250,
-      "price": 0.42388639422013935,
-      "change24h": -7.3382479
+      "price": 0.4239159395026718,
+      "change24h": -6.66781731
     },
     {
       "id": 36828,
       "name": "Useless Coin",
       "symbol": "USELESS",
       "rank": 251,
-      "price": 0.11427599509288394,
-      "change24h": -3.56230757
-    },
-    {
-      "id": 20787,
-      "name": "Fellaz",
-      "symbol": "FLZ",
-      "rank": 252,
-      "price": 0.24026275254025348,
-      "change24h": -0.29755487
+      "price": 0.11402589503747756,
+      "change24h": -4.50088357
     },
     {
       "id": 39159,
       "name": "Brevis",
       "symbol": "BREV",
+      "rank": 252,
+      "price": 0.4546236323665883,
+      "change24h": 34.86276556
+    },
+    {
+      "id": 20787,
+      "name": "Fellaz",
+      "symbol": "FLZ",
       "rank": 253,
-      "price": 0.4494382382862977,
-      "change24h": 35.5119134
+      "price": 0.2401407080262868,
+      "change24h": -0.40551635
     },
     {
       "id": 4006,
       "name": "AWE",
       "symbol": "AWE",
       "rank": 254,
-      "price": 0.057357944058313966,
-      "change24h": 0.01368738
-    },
-    {
-      "id": 35269,
-      "name": "MetYa",
-      "symbol": "MY",
-      "rank": 255,
-      "price": 0.11316124449126717,
-      "change24h": -1.16960447
+      "price": 0.057317837553715265,
+      "change24h": -0.23684239
     },
     {
       "id": 36066,
       "name": "Keeta",
       "symbol": "KTA",
-      "rank": 256,
-      "price": 0.2359049772001147,
-      "change24h": -2.82041309
+      "rank": 255,
+      "price": 0.23579193206433602,
+      "change24h": -2.71828434
     },
     {
       "id": 109,
       "name": "DigiByte",
       "symbol": "DGB",
+      "rank": 256,
+      "price": 0.006043745840894458,
+      "change24h": -2.90832468
+    },
+    {
+      "id": 17751,
+      "name": "Threshold",
+      "symbol": "T",
       "rank": 257,
-      "price": 0.00604602254896196,
-      "change24h": -2.68054951
+      "price": 0.00978598961068008,
+      "change24h": 5.94608355
     },
     {
       "id": 27657,
       "name": "Linea",
       "symbol": "LINEA",
       "rank": 258,
-      "price": 0.007027800438999273,
-      "change24h": -1.02127522
-    },
-    {
-      "id": 38837,
-      "name": "Audiera",
-      "symbol": "BEAT",
-      "rank": 259,
-      "price": 0.5979804855028452,
-      "change24h": 1.81736617
+      "price": 0.00701542357156473,
+      "change24h": -2.1562671
     },
     {
       "id": 8646,
       "name": "Mina",
       "symbol": "MINA",
+      "rank": 259,
+      "price": 0.08545731085270705,
+      "change24h": -1.55427249
+    },
+    {
+      "id": 38837,
+      "name": "Audiera",
+      "symbol": "BEAT",
       "rank": 260,
-      "price": 0.0855909019817921,
-      "change24h": -0.87203488
+      "price": 0.5981344666463378,
+      "change24h": 2.0315113
     },
     {
       "id": 21585,
       "name": "Safe",
       "symbol": "SAFE",
       "rank": 261,
-      "price": 0.15779719587593724,
-      "change24h": -1.38758361
+      "price": 0.15765252220420792,
+      "change24h": -1.97967513
     },
     {
-      "id": 17751,
-      "name": "Threshold",
-      "symbol": "T",
-      "rank": 262,
-      "price": 0.009693798853252457,
-      "change24h": 5.34729407
+      "id": 39143,
+      "name": "The White Whale",
+      "symbol": "WHITEWHALE",
+      "rank": 263,
+      "price": 0.10787117348152546,
+      "change24h": 24.36617348
     },
     {
       "id": 38151,
       "name": "YZY MONEY",
       "symbol": "YZY",
-      "rank": 263,
-      "price": 0.359037489349924,
-      "change24h": -0.28869126
+      "rank": 262,
+      "price": 0.35959731846094783,
+      "change24h": -0.31638294
     },
     {
       "id": 29960,
@@ -2117,1024 +2117,1024 @@
       "name": "Unibase",
       "symbol": "UB",
       "rank": 265,
-      "price": 0.042236078761580594,
-      "change24h": 12.51855936
+      "price": 0.04277297737633822,
+      "change24h": 13.79315835
     },
     {
-      "id": 32968,
-      "name": "AI Companions",
-      "symbol": "AIC",
+      "id": 35269,
+      "name": "MetYa",
+      "symbol": "MY",
       "rank": 266,
-      "price": 0.14009798363657155,
-      "change24h": 15.36645285
+      "price": 0.10896069244232258,
+      "change24h": -5.0500661
     },
     {
       "id": 14721,
       "name": "RealLink",
       "symbol": "REAL",
       "rank": 267,
-      "price": 0.07641034667696293,
-      "change24h": -1.82848644
-    },
-    {
-      "id": 39143,
-      "name": "The White Whale",
-      "symbol": "WHITEWHALE",
-      "rank": 268,
-      "price": 0.10482556063515645,
-      "change24h": 20.94004079
+      "price": 0.07642363285671427,
+      "change24h": -2.2763085
     },
     {
       "id": 32452,
       "name": "Movement",
       "symbol": "MOVE",
+      "rank": 268,
+      "price": 0.037391508944804246,
+      "change24h": -1.68581295
+    },
+    {
+      "id": 32968,
+      "name": "AI Companions",
+      "symbol": "AIC",
       "rank": 269,
-      "price": 0.03742677701763313,
-      "change24h": -0.88822017
+      "price": 0.1381771531154904,
+      "change24h": 17.7561007
     },
     {
       "id": 28656,
       "name": "ViciCoin",
       "symbol": "VCNT",
       "rank": 270,
-      "price": 17.086733475445968,
-      "change24h": 0.02383441
+      "price": 17.012780693615362,
+      "change24h": -0.26937245
     },
     {
       "id": 14101,
       "name": "Ronin",
       "symbol": "RON",
       "rank": 271,
-      "price": 0.14172454763408182,
-      "change24h": -1.19010563
+      "price": 0.14155771669470957,
+      "change24h": -1.50263443
     },
     {
       "id": 28782,
       "name": "Popcat (SOL)",
       "symbol": "POPCAT",
       "rank": 272,
-      "price": 0.10534449889307493,
-      "change24h": 2.24850542
+      "price": 0.10484507728421998,
+      "change24h": 1.04521091
     },
     {
       "id": 2469,
       "name": "Zilliqa",
       "symbol": "ZIL",
       "rank": 273,
-      "price": 0.005229557184865049,
-      "change24h": 0.24006797
+      "price": 0.005226219144524334,
+      "change24h": -0.55150353
     },
     {
       "id": 32878,
       "name": "MNEE",
       "symbol": "MNEE",
       "rank": 274,
-      "price": 0.9997955910183685,
-      "change24h": 0.30773442
+      "price": 0.997020474976669,
+      "change24h": -0.3599176
     },
     {
       "id": 24613,
       "name": "Open Campus",
       "symbol": "EDU",
       "rank": 275,
-      "price": 0.15524117210363755,
-      "change24h": -5.71986784
+      "price": 0.15491816059268537,
+      "change24h": -5.97477215
     },
     {
       "id": 34880,
       "name": "Alchemist AI",
       "symbol": "ALCH",
       "rank": 276,
-      "price": 0.11817863394984833,
-      "change24h": 6.71604523
+      "price": 0.11829920314829902,
+      "change24h": 7.39154454
     },
     {
       "id": 20279,
       "name": "Dohrnii",
       "symbol": "DHN",
       "rank": 277,
-      "price": 5.845925332695644,
-      "change24h": -0.73461861
+      "price": 5.8502616651853,
+      "change24h": -0.69832248
     },
     {
       "id": 27960,
       "name": "Non-Playable Coin",
       "symbol": "NPC",
       "rank": 278,
-      "price": 0.013222956884233321,
-      "change24h": -0.6790162
+      "price": 0.01316566761265613,
+      "change24h": -1.60719995
     },
     {
       "id": 1567,
       "name": "Nano",
       "symbol": "XNO",
       "rank": 279,
-      "price": 0.737184367213768,
-      "change24h": -3.02382081
+      "price": 0.7357272528450343,
+      "change24h": -3.47526928
     },
     {
       "id": 6758,
       "name": "SushiSwap",
       "symbol": "SUSHI",
       "rank": 280,
-      "price": 0.33729392745997727,
-      "change24h": -1.73360364
+      "price": 0.33713452799280175,
+      "change24h": -2.30026879
     },
     {
       "id": 25028,
       "name": "ORDI",
       "symbol": "ORDI",
       "rank": 281,
-      "price": 4.594940520195207,
-      "change24h": -0.66294509
+      "price": 4.597736541618853,
+      "change24h": -1.29947207
     },
     {
       "id": 2682,
       "name": "Holo",
       "symbol": "HOT",
       "rank": 282,
-      "price": 0.0005501815250686315,
-      "change24h": -0.65776453
-    },
-    {
-      "id": 6958,
-      "name": "Alchemy Pay",
-      "symbol": "ACH",
-      "rank": 283,
-      "price": 0.009828984398321548,
-      "change24h": 7.06604922
+      "price": 0.0005504215026399772,
+      "change24h": -1.03162305
     },
     {
       "id": 29169,
       "name": "Qubic",
       "symbol": "QUBIC",
-      "rank": 284,
-      "price": 7.273697986275672e-7,
-      "change24h": 3.9570314
+      "rank": 283,
+      "price": 7.277142679567049e-7,
+      "change24h": 3.5681667
     },
     {
       "id": 32193,
       "name": "Aleo",
       "symbol": "ALEO",
+      "rank": 284,
+      "price": 0.12209299469904188,
+      "change24h": -5.89916821
+    },
+    {
+      "id": 6958,
+      "name": "Alchemy Pay",
+      "symbol": "ACH",
       "rank": 285,
-      "price": 0.12192436706608371,
-      "change24h": -6.12515342
+      "price": 0.009797906144207827,
+      "change24h": 7.15445407
     },
     {
       "id": 1042,
       "name": "Siacoin",
       "symbol": "SC",
-      "rank": 286,
-      "price": 0.001706044628370298,
-      "change24h": 1.56703406
+      "rank": 287,
+      "price": 0.001698459477027521,
+      "change24h": 1.14520123
     },
     {
       "id": 693,
       "name": "Verge",
       "symbol": "XVG",
-      "rank": 287,
-      "price": 0.005783787964516582,
-      "change24h": -4.38397618
+      "rank": 286,
+      "price": 0.005772684851631076,
+      "change24h": -4.73388218
     },
     {
       "id": 21259,
       "name": "ZetaChain",
       "symbol": "ZETA",
       "rank": 288,
-      "price": 0.0775437474247817,
-      "change24h": -0.77604099
+      "price": 0.07735906043641215,
+      "change24h": -1.48391786
     },
     {
       "id": 31526,
       "name": "Moca Network",
       "symbol": "MOCA",
       "rank": 289,
-      "price": 0.0237505552895832,
-      "change24h": 1.01266952
+      "price": 0.0236927307481022,
+      "change24h": 0.25047467
     },
     {
       "id": 30126,
       "name": "cat in a dogs world",
       "symbol": "MEW",
       "rank": 290,
-      "price": 0.0010542246737405237,
-      "change24h": -1.72356234
+      "price": 0.001052400555775097,
+      "change24h": -2.46916223
     },
     {
       "id": 4846,
       "name": "Kava",
       "symbol": "KAVA",
       "rank": 291,
-      "price": 0.08625776054952419,
-      "change24h": -0.71219002
-    },
-    {
-      "id": 38978,
-      "name": "Irys",
-      "symbol": "IRYS",
-      "rank": 292,
-      "price": 0.04443063340049683,
-      "change24h": -1.25762176
+      "price": 0.08615520443880849,
+      "change24h": -1.45989163
     },
     {
       "id": 5350,
       "name": "XPR Network",
       "symbol": "XPR",
       "rank": 293,
-      "price": 0.0032821337487541746,
-      "change24h": -5.16990974
+      "price": 0.0032871667230961812,
+      "change24h": -5.17310564
     },
     {
-      "id": 6536,
-      "name": "MANTRA",
-      "symbol": "OM",
-      "rank": 294,
-      "price": 0.08030236411760278,
-      "change24h": -0.38280097
+      "id": 38978,
+      "name": "Irys",
+      "symbol": "IRYS",
+      "rank": 292,
+      "price": 0.0444222476927294,
+      "change24h": -1.29252232
     },
     {
       "id": 31278,
       "name": "Drift",
       "symbol": "DRIFT",
+      "rank": 294,
+      "price": 0.16725517964667352,
+      "change24h": -5.80310138
+    },
+    {
+      "id": 6536,
+      "name": "MANTRA",
+      "symbol": "OM",
       "rank": 295,
-      "price": 0.16744038534334058,
-      "change24h": -5.16014663
+      "price": 0.08018466892717854,
+      "change24h": -1.21653245
     },
     {
       "id": 32197,
       "name": "Magic Eden",
       "symbol": "ME",
       "rank": 296,
-      "price": 0.22161285282489385,
-      "change24h": -2.15987269
+      "price": 0.22130039910790875,
+      "change24h": -2.85961009
     },
     {
       "id": 34812,
       "name": "Bio Protocol",
       "symbol": "BIO",
       "rank": 297,
-      "price": 0.047513476443382184,
-      "change24h": -5.80624267
+      "price": 0.04746382214723018,
+      "change24h": -6.55237736
     },
     {
       "id": 7653,
       "name": "Oasis",
       "symbol": "ROSE",
       "rank": 298,
-      "price": 0.012128501442309847,
-      "change24h": -1.78900089
-    },
-    {
-      "id": 36044,
-      "name": "NEXPACE",
-      "symbol": "NXPC",
-      "rank": 299,
-      "price": 0.3883520687304298,
-      "change24h": -2.13372212
+      "price": 0.012120062504846317,
+      "change24h": -2.43019359
     },
     {
       "id": 14519,
       "name": "VVS Finance",
       "symbol": "VVS",
+      "rank": 299,
+      "price": 0.000002073832433187275,
+      "change24h": -2.81129696
+    },
+    {
+      "id": 36044,
+      "name": "NEXPACE",
+      "symbol": "NXPC",
       "rank": 300,
-      "price": 0.000002064741138438203,
-      "change24h": -3.25441673
+      "price": 0.3879256095400816,
+      "change24h": -2.89870303
     },
     {
       "id": 21846,
       "name": "SPACE ID",
       "symbol": "ID",
       "rank": 301,
-      "price": 0.07001722172216887,
-      "change24h": 1.35466165
+      "price": 0.06998915300803597,
+      "change24h": 0.55567432
     },
     {
-      "id": 12885,
-      "name": "Astar",
-      "symbol": "ASTR",
+      "id": 38187,
+      "name": "Uchain",
+      "symbol": "UCN",
       "rank": 302,
-      "price": 0.010836986538568957,
-      "change24h": -1.1350858
+      "price": 1789.923843658985,
+      "change24h": 0.1764373
     },
     {
       "id": 33788,
       "name": "Peanut the Squirrel",
       "symbol": "PNUT",
       "rank": 303,
-      "price": 0.08954636163901024,
-      "change24h": -2.46654213
+      "price": 0.08947368647211801,
+      "change24h": -3.15809228
     },
     {
-      "id": 38187,
-      "name": "Uchain",
-      "symbol": "UCN",
+      "id": 12885,
+      "name": "Astar",
+      "symbol": "ASTR",
       "rank": 304,
-      "price": 1789.8982678826776,
-      "change24h": 0.16352486
+      "price": 0.010821550099047809,
+      "change24h": -1.79365797
     },
     {
       "id": 11857,
       "name": "GMX",
       "symbol": "GMX",
       "rank": 305,
-      "price": 8.49977233927186,
-      "change24h": 1.69404126
+      "price": 8.492631648073411,
+      "change24h": 0.94272608
     },
     {
       "id": 35509,
       "name": "Venice Token",
       "symbol": "VVV",
       "rank": 306,
-      "price": 2.012694223638541,
-      "change24h": -5.65018559
+      "price": 2.0143771124168994,
+      "change24h": -6.67467687
     },
     {
       "id": 16093,
       "name": "KUB Coin",
       "symbol": "KUB",
       "rank": 307,
-      "price": 1.2611789307622527,
-      "change24h": -0.47003994
+      "price": 1.2611623480009397,
+      "change24h": -0.47283888
     },
     {
       "id": 37593,
       "name": "Succinct",
       "symbol": "PROVE",
       "rank": 308,
-      "price": 0.4424899155708709,
-      "change24h": 0.58359297
+      "price": 0.44183533074996023,
+      "change24h": -0.27222874
     },
     {
       "id": 24647,
       "name": "Berachain",
       "symbol": "BERA",
       "rank": 309,
-      "price": 0.6178343842325127,
-      "change24h": -0.78818198
+      "price": 0.6170859311489378,
+      "change24h": -1.54850929
     },
     {
       "id": 1274,
       "name": "Waves",
       "symbol": "WAVES",
       "rank": 310,
-      "price": 0.7145102520894194,
-      "change24h": 1.23393808
+      "price": 0.7147258713792091,
+      "change24h": 1.06802792
     },
     {
       "id": 17799,
       "name": "Axelar",
       "symbol": "AXL",
       "rank": 311,
-      "price": 0.07767039208233277,
-      "change24h": -2.16681236
+      "price": 0.07759148652330797,
+      "change24h": -2.91898388
     },
     {
       "id": 23121,
       "name": "Blur",
       "symbol": "BLUR",
       "rank": 312,
-      "price": 0.031781013850009754,
-      "change24h": -0.59192115
-    },
-    {
-      "id": 2071,
-      "name": "Request",
-      "symbol": "REQ",
-      "rank": 313,
-      "price": 0.10669928047293158,
-      "change24h": -1.19908711
+      "price": 0.03174152653187863,
+      "change24h": -1.25725395
     },
     {
       "id": 38299,
       "name": "Avantis",
       "symbol": "AVNT",
+      "rank": 313,
+      "price": 0.32927057797910814,
+      "change24h": -4.89101809
+    },
+    {
+      "id": 2071,
+      "name": "Request",
+      "symbol": "REQ",
       "rank": 314,
-      "price": 0.3288305990316513,
-      "change24h": -4.16090248
+      "price": 0.10668594544854727,
+      "change24h": -1.39507512
     },
     {
       "id": 33093,
       "name": "Moo Deng (moodengsol.com)",
       "symbol": "MOODENG",
       "rank": 315,
-      "price": 0.0846823189244437,
-      "change24h": -1.2641186
+      "price": 0.08456110083259213,
+      "change24h": -2.07077553
     },
     {
       "id": 9260,
       "name": "ZIGChain",
       "symbol": "ZIG",
       "rank": 316,
-      "price": 0.058453876542220784,
-      "change24h": -0.7723909
+      "price": 0.05845275441039689,
+      "change24h": -0.79473614
     },
     {
       "id": 33849,
       "name": "HashKey Platform Token",
       "symbol": "HSK",
       "rank": 317,
-      "price": 0.2433585388239543,
-      "change24h": -0.64291633
+      "price": 0.24327543639568364,
+      "change24h": -0.66661095
     },
     {
       "id": 3012,
       "name": "VeThor Token",
       "symbol": "VTHO",
       "rank": 318,
-      "price": 0.0008389521401681383,
-      "change24h": -1.62326074
+      "price": 0.0008375842427893587,
+      "change24h": -2.26106902
     },
     {
       "id": 2765,
       "name": "XYO",
       "symbol": "XYO",
       "rank": 319,
-      "price": 0.00592058148580884,
-      "change24h": -8.77383197
+      "price": 0.005919511554132815,
+      "change24h": -8.72821484
     },
     {
       "id": 32956,
       "name": "Grass",
       "symbol": "GRASS",
       "rank": 320,
-      "price": 0.33073378016431954,
-      "change24h": -2.17372265
+      "price": 0.3303893649465893,
+      "change24h": -3.02751452
     },
     {
       "id": 25264,
       "name": "Snek",
       "symbol": "SNEK",
       "rank": 321,
-      "price": 0.0010768075430319245,
-      "change24h": -8.33479777
-    },
-    {
-      "id": 18934,
-      "name": "Stargate Finance",
-      "symbol": "STG",
-      "rank": 322,
-      "price": 0.12176148240029736,
-      "change24h": 0.83049223
+      "price": 0.0010774729617708846,
+      "change24h": -8.63128298
     },
     {
       "id": 34434,
       "name": "Rekt (rekt.com)",
       "symbol": "REKT",
+      "rank": 322,
+      "price": 2.861869029339044e-7,
+      "change24h": -11.15932185
+    },
+    {
+      "id": 18934,
+      "name": "Stargate Finance",
+      "symbol": "STG",
       "rank": 323,
-      "price": 2.8620396451683985e-7,
-      "change24h": -11.1682287
+      "price": 0.12127253174048563,
+      "change24h": -0.35912035
     },
     {
       "id": 14280,
       "name": "Euler",
       "symbol": "EUL",
       "rank": 324,
-      "price": 3.2368525485464175,
-      "change24h": -0.41109443
-    },
-    {
-      "id": 38489,
-      "name": "ChainOpera AI",
-      "symbol": "COAI",
-      "rank": 325,
-      "price": 0.41292822449719513,
-      "change24h": -2.14139635
-    },
-    {
-      "id": 2777,
-      "name": "IoTeX",
-      "symbol": "IOTX",
-      "rank": 326,
-      "price": 0.008192961678528057,
-      "change24h": -1.28808676
+      "price": 3.2275881226708503,
+      "change24h": -0.85483852
     },
     {
       "id": 36576,
       "name": "Huma Finance",
       "symbol": "HUMA",
+      "rank": 325,
+      "price": 0.029932696879725895,
+      "change24h": 3.305633
+    },
+    {
+      "id": 38489,
+      "name": "ChainOpera AI",
+      "symbol": "COAI",
+      "rank": 326,
+      "price": 0.4115583487977936,
+      "change24h": -2.90640703
+    },
+    {
+      "id": 2777,
+      "name": "IoTeX",
+      "symbol": "IOTX",
       "rank": 327,
-      "price": 0.029812408789930273,
-      "change24h": 3.10583732
+      "price": 0.008187594964500715,
+      "change24h": -1.80464213
     },
     {
       "id": 1732,
       "name": "Numeraire",
       "symbol": "NMR",
       "rank": 328,
-      "price": 10.045299495294675,
-      "change24h": -0.55035745
-    },
-    {
-      "id": 2299,
-      "name": "aelf",
-      "symbol": "ELF",
-      "rank": 329,
-      "price": 0.09423585348774804,
-      "change24h": 0.9935969
+      "price": 10.041718943966416,
+      "change24h": -0.91342622
     },
     {
       "id": 36133,
       "name": "Defi App",
       "symbol": "HOME",
+      "rank": 329,
+      "price": 0.024242456631105243,
+      "change24h": -2.72676306
+    },
+    {
+      "id": 2299,
+      "name": "aelf",
+      "symbol": "ELF",
       "rank": 330,
-      "price": 0.024201351627959788,
-      "change24h": -2.86134736
+      "price": 0.09421881598012657,
+      "change24h": 1.07851753
     },
     {
       "id": 32796,
       "name": "EUR CoinVertible",
       "symbol": "EURCV",
       "rank": 331,
-      "price": 1.1680871151529761,
-      "change24h": -0.04137957
+      "price": 1.1680333593757974,
+      "change24h": -0.06499337
     },
     {
       "id": 38967,
       "name": "RaveDAO",
       "symbol": "RAVE",
       "rank": 332,
-      "price": 0.329699411859671,
-      "change24h": -1.37476878
+      "price": 0.3291728731891709,
+      "change24h": -1.84973269
     },
     {
       "id": 21707,
       "name": "RedStone",
       "symbol": "RED",
       "rank": 333,
-      "price": 0.25010724794908346,
-      "change24h": 1.28984148
+      "price": 0.25070472349784595,
+      "change24h": 1.1066695
     },
     {
       "id": 30460,
       "name": "Burnedfi",
       "symbol": "BURN",
       "rank": 334,
-      "price": 6.093775835808245,
-      "change24h": 2.837298
+      "price": 6.1087748618613045,
+      "change24h": 3.1075295
     },
     {
       "id": 7288,
       "name": "Venus",
       "symbol": "XVS",
       "rank": 335,
-      "price": 4.569340158759435,
-      "change24h": -0.95673423
+      "price": 4.568327090646955,
+      "change24h": -1.3487937
     },
     {
       "id": 5567,
       "name": "Celo",
       "symbol": "CELO",
       "rank": 336,
-      "price": 0.1256813816205222,
-      "change24h": -0.53987597
+      "price": 0.12553619912791864,
+      "change24h": -1.4930008
     },
     {
       "id": 1759,
       "name": "Status",
       "symbol": "SNT",
       "rank": 337,
-      "price": 0.015486877359519875,
-      "change24h": 0.76345061
+      "price": 0.015471108077306266,
+      "change24h": 0.71889442
     },
     {
       "id": 9258,
       "name": "Chia",
       "symbol": "XCH",
       "rank": 338,
-      "price": 5.134330726528547,
-      "change24h": 2.5390326
+      "price": 5.131328016929866,
+      "change24h": 1.87267182
     },
     {
       "id": 5275,
       "name": "Paycoin",
       "symbol": "PCI",
       "rank": 339,
-      "price": 0.0695970791917762,
-      "change24h": -1.07288937
+      "price": 0.06957380101297628,
+      "change24h": -1.05304385
     },
     {
       "id": 33881,
       "name": "Comedian",
       "symbol": "BAN",
       "rank": 340,
-      "price": 0.07375112956570098,
-      "change24h": -4.34098809
+      "price": 0.0737078100625778,
+      "change24h": -4.19546667
     },
     {
       "id": 36671,
       "name": "Sahara AI",
       "symbol": "SAHARA",
       "rank": 341,
-      "price": 0.02785160423437195,
-      "change24h": -0.60911093
+      "price": 0.02781431268972946,
+      "change24h": -1.40683926
     },
     {
       "id": 32756,
       "name": "Department Of Government Efficiency (DOGE)",
       "symbol": "DOGE",
       "rank": 342,
-      "price": 0.1470215074151549,
-      "change24h": 1.16635025
+      "price": 0.14619495413412037,
+      "change24h": 0.20693806
     },
     {
       "id": 5566,
       "name": "Keep Network",
       "symbol": "KEEP",
       "rank": 343,
-      "price": 0.07546870013247661,
-      "change24h": -7.96398714
-    },
-    {
-      "id": 34619,
-      "name": "Vana",
-      "symbol": "VANA",
-      "rank": 344,
-      "price": 2.414574177336877,
-      "change24h": -0.02005369
+      "price": 0.0754406555985071,
+      "change24h": -7.99819184
     },
     {
       "id": 6748,
       "name": "Centrifuge",
       "symbol": "CFG",
-      "rank": 345,
-      "price": 0.12627045108122104,
-      "change24h": -2.45029238
+      "rank": 344,
+      "price": 0.12651739081499566,
+      "change24h": -2.5865052
     },
     {
-      "id": 1934,
-      "name": "Loopring",
-      "symbol": "LRC",
-      "rank": 346,
-      "price": 0.05294774345099772,
-      "change24h": -1.17168854
+      "id": 34619,
+      "name": "Vana",
+      "symbol": "VANA",
+      "rank": 345,
+      "price": 2.4115738030926446,
+      "change24h": -0.73990406
     },
     {
       "id": 3783,
       "name": "Ankr",
       "symbol": "ANKR",
+      "rank": 346,
+      "price": 0.007237127027270889,
+      "change24h": -0.17647462
+    },
+    {
+      "id": 1934,
+      "name": "Loopring",
+      "symbol": "LRC",
       "rank": 347,
-      "price": 0.007236447423259379,
-      "change24h": 0.40786438
+      "price": 0.052873047393244395,
+      "change24h": -1.80916013
     },
     {
       "id": 32782,
       "name": "Ore",
       "symbol": "ORE",
       "rank": 348,
-      "price": 172.10234918915432,
-      "change24h": -8.64816204
-    },
-    {
-      "id": 37070,
-      "name": "Impossible Cloud Network",
-      "symbol": "ICNT",
-      "rank": 349,
-      "price": 0.42983579685388135,
-      "change24h": 13.09720501
+      "price": 171.84520779753507,
+      "change24h": -9.35223856
     },
     {
       "id": 37004,
       "name": "Tesla tokenized stock (xStock)",
       "symbol": "TSLAX",
+      "rank": 349,
+      "price": 436.76308436335813,
+      "change24h": 1.32775324
+    },
+    {
+      "id": 11165,
+      "name": "Orca",
+      "symbol": "ORCA",
       "rank": 350,
-      "price": 436.70959700417114,
-      "change24h": 1.19313943
+      "price": 1.189621632968977,
+      "change24h": -1.11066077
     },
     {
       "id": 28301,
       "name": "Memecoin",
       "symbol": "MEME",
       "rank": 351,
-      "price": 0.001198322984688678,
-      "change24h": -1.66960222
+      "price": 0.001196465073837669,
+      "change24h": -2.22668996
     },
     {
-      "id": 11165,
-      "name": "Orca",
-      "symbol": "ORCA",
+      "id": 37070,
+      "name": "Impossible Cloud Network",
+      "symbol": "ICNT",
       "rank": 352,
-      "price": 1.188227634065901,
-      "change24h": -0.7529287
+      "price": 0.42557082678446284,
+      "change24h": 12.41640916
     },
     {
       "id": 20969,
       "name": "GEODNET",
       "symbol": "GEOD",
       "rank": 353,
-      "price": 0.15930892221679716,
-      "change24h": 5.79555532
+      "price": 0.15854888447384638,
+      "change24h": 5.02105342
     },
     {
       "id": 21330,
       "name": "lisUSD",
       "symbol": "lisUSD",
       "rank": 354,
-      "price": 0.9978833009562522,
-      "change24h": -0.09520764
+      "price": 0.9984231229906232,
+      "change24h": -0.04116244
     },
     {
       "id": 29073,
       "name": "Altlayer",
       "symbol": "ALT",
       "rank": 355,
-      "price": 0.013263024045413647,
-      "change24h": 0.04673264
+      "price": 0.013261962871191168,
+      "change24h": -0.50811806
     },
     {
       "id": 36302,
       "name": "MindWaveDAO",
       "symbol": "NILA",
       "rank": 356,
-      "price": 0.08177924651459444,
-      "change24h": -0.4347961
+      "price": 0.08173728405307247,
+      "change24h": -0.48664549
     },
     {
-      "id": 23951,
-      "name": "Staika",
-      "symbol": "STIK",
+      "id": 5617,
+      "name": "UMA",
+      "symbol": "UMA",
       "rank": 357,
-      "price": 0.5131327689403832,
-      "change24h": 0.70417368
+      "price": 0.7699483623999837,
+      "change24h": -2.2893077
     },
     {
       "id": 14822,
       "name": "Victoria VR",
       "symbol": "VR",
       "rank": 358,
-      "price": 0.004089724068892315,
-      "change24h": -3.63557865
-    },
-    {
-      "id": 5617,
-      "name": "UMA",
-      "symbol": "UMA",
-      "rank": 359,
-      "price": 0.7703243095495774,
-      "change24h": -1.79040022
+      "price": 0.004087586101053806,
+      "change24h": -3.53620444
     },
     {
       "id": 12894,
       "name": "Subsquid",
       "symbol": "SQD",
+      "rank": 359,
+      "price": 0.07038292633020464,
+      "change24h": -0.57834295
+    },
+    {
+      "id": 23951,
+      "name": "Staika",
+      "symbol": "STIK",
       "rank": 360,
-      "price": 0.07029559983417923,
-      "change24h": -0.49615369
-    },
-    {
-      "id": 38634,
-      "name": "Yei Finance",
-      "symbol": "CLO",
-      "rank": 361,
-      "price": 0.5234431048798039,
-      "change24h": 2.9102132
-    },
-    {
-      "id": 5691,
-      "name": "SKALE",
-      "symbol": "SKL",
-      "rank": 362,
-      "price": 0.011026725176908532,
-      "change24h": -1.15790651
+      "price": 0.5101038269644232,
+      "change24h": 0.62663135
     },
     {
       "id": 12999,
       "name": "ssv.network",
       "symbol": "SSV",
+      "rank": 361,
+      "price": 4.270758346731303,
+      "change24h": -3.43876699
+    },
+    {
+      "id": 38634,
+      "name": "Yei Finance",
+      "symbol": "CLO",
+      "rank": 362,
+      "price": 0.5192142261740049,
+      "change24h": 3.97792694
+    },
+    {
+      "id": 5691,
+      "name": "SKALE",
+      "symbol": "SKL",
       "rank": 363,
-      "price": 4.2605042233510755,
-      "change24h": -2.28938406
+      "price": 0.011024828383778646,
+      "change24h": -1.83249842
     },
     {
       "id": 8536,
       "name": "Mask Network",
       "symbol": "MASK",
       "rank": 364,
-      "price": 0.668137017885692,
-      "change24h": -0.59514571
+      "price": 0.6673942669913052,
+      "change24h": -1.41519136
     },
     {
       "id": 5899,
       "name": "Casper",
       "symbol": "CSPR",
       "rank": 365,
-      "price": 0.0048488080236359764,
-      "change24h": -7.48441395
+      "price": 0.00483897574004491,
+      "change24h": -7.28074646
     },
     {
       "id": 35537,
       "name": "Jelly-My-Jelly",
       "symbol": "JELLYJELLY",
       "rank": 366,
-      "price": 0.06647011068337506,
-      "change24h": 10.81586315
-    },
-    {
-      "id": 37277,
-      "name": "InitVerse",
-      "symbol": "INI",
-      "rank": 367,
-      "price": 0.12041037904828888,
-      "change24h": 0.00600887
+      "price": 0.06632378399171558,
+      "change24h": 9.98644984
     },
     {
       "id": 5279,
       "name": "Sologenic",
       "symbol": "SOLO",
+      "rank": 367,
+      "price": 0.16504353889058898,
+      "change24h": 5.56797556
+    },
+    {
+      "id": 37277,
+      "name": "InitVerse",
+      "symbol": "INI",
       "rank": 368,
-      "price": 0.1647160391115713,
-      "change24h": 6.18105131
+      "price": 0.12039542902699178,
+      "change24h": 0.12547203
     },
     {
       "id": 38185,
       "name": "ADI",
       "symbol": "ADI",
       "rank": 369,
-      "price": 1.2753543115669792,
-      "change24h": 0.07270503
+      "price": 1.2758354065972015,
+      "change24h": 0.09224815
     },
     {
       "id": 20314,
       "name": "Terra",
       "symbol": "LUNA",
       "rank": 370,
-      "price": 0.09175910282656366,
-      "change24h": -2.07123794
+      "price": 0.09169359415597053,
+      "change24h": -2.54936111
     },
     {
       "id": 35766,
       "name": "siren",
       "symbol": "SIREN",
       "rank": 371,
-      "price": 0.08901687769342216,
-      "change24h": 10.49144653
+      "price": 0.08907294449565009,
+      "change24h": 10.38609241
     },
     {
       "id": 30746,
       "name": "BounceBit",
       "symbol": "BB",
       "rank": 372,
-      "price": 0.06924037507380063,
-      "change24h": -4.28975437
+      "price": 0.06946292983917704,
+      "change24h": -5.01377425
     },
     {
       "id": 2099,
       "name": "ICON",
       "symbol": "ICX",
       "rank": 373,
-      "price": 0.05920482979185913,
-      "change24h": 1.73040738
+      "price": 0.05909974656693534,
+      "change24h": 1.00273959
     },
     {
       "id": 38470,
       "name": "Giggle Fund",
       "symbol": "GIGGLE",
       "rank": 374,
-      "price": 64.50852826862327,
-      "change24h": -7.99386791
-    },
-    {
-      "id": 9040,
-      "name": "Pundi X (New)",
-      "symbol": "PUNDIX",
-      "rank": 375,
-      "price": 0.24753088137134482,
-      "change24h": 0.43290105
+      "price": 64.44426815378554,
+      "change24h": -8.775079
     },
     {
       "id": 36080,
       "name": "MultiBank Group",
       "symbol": "MBG",
+      "rank": 375,
+      "price": 0.49001540906730223,
+      "change24h": -4.93165346
+    },
+    {
+      "id": 9040,
+      "name": "Pundi X (New)",
+      "symbol": "PUNDIX",
       "rank": 376,
-      "price": 0.48898996897796587,
-      "change24h": -5.12016929
+      "price": 0.24719359117626147,
+      "change24h": -0.16733848
     },
     {
       "id": 35637,
       "name": "BitDCA",
       "symbol": "BDCA",
       "rank": 377,
-      "price": 0.8405500354996691,
-      "change24h": -1.30701668
+      "price": 0.8407658462148125,
+      "change24h": -1.49012003
     },
     {
       "id": 35600,
       "name": "Sign",
       "symbol": "SIGN",
       "rank": 378,
-      "price": 0.03859289583994996,
-      "change24h": 1.10804095
+      "price": 0.03858252660791382,
+      "change24h": 0.73108688
     },
     {
       "id": 1320,
       "name": "Ardor",
       "symbol": "ARDR",
       "rank": 379,
-      "price": 0.06302600957908909,
-      "change24h": 1.83769095
-    },
-    {
-      "id": 20362,
-      "name": "Polymesh",
-      "symbol": "POLYX",
-      "rank": 380,
-      "price": 0.06173840941043662,
-      "change24h": -4.64433147
-    },
-    {
-      "id": 21296,
-      "name": "EthereumPoW",
-      "symbol": "ETHW",
-      "rank": 381,
-      "price": 0.5822064833469023,
-      "change24h": 0.09393996
+      "price": 0.06300159404403276,
+      "change24h": 1.79001114
     },
     {
       "id": 4950,
       "name": "LCX",
       "symbol": "LCX",
+      "rank": 380,
+      "price": 0.06623687637757773,
+      "change24h": -3.48744352
+    },
+    {
+      "id": 20362,
+      "name": "Polymesh",
+      "symbol": "POLYX",
+      "rank": 381,
+      "price": 0.06167759551204493,
+      "change24h": -5.0198579
+    },
+    {
+      "id": 21296,
+      "name": "EthereumPoW",
+      "symbol": "ETHW",
       "rank": 382,
-      "price": 0.06603258653312892,
-      "change24h": -3.90221224
+      "price": 0.5808360772973623,
+      "change24h": -0.80175846
     },
     {
       "id": 3945,
       "name": "Harmony",
       "symbol": "ONE",
       "rank": 383,
-      "price": 0.004226646155310986,
-      "change24h": -1.41876149
+      "price": 0.004226361004148852,
+      "change24h": -2.19230565
     },
     {
       "id": 36510,
       "name": "Lagrange",
       "symbol": "LA",
       "rank": 384,
-      "price": 0.3232954129940568,
-      "change24h": -2.84045933
+      "price": 0.3231893212628487,
+      "change24h": -3.41192451
     },
     {
       "id": 28654,
       "name": "UPCX",
       "symbol": "UPC",
       "rank": 385,
-      "price": 0.6195454392750466,
-      "change24h": -4.72472114
+      "price": 0.6198208607701822,
+      "change24h": -4.38255038
     },
     {
       "id": 8049,
       "name": "Tornado Cash",
       "symbol": "TORN",
       "rank": 386,
-      "price": 11.70072366517685,
-      "change24h": -3.06120341
+      "price": 11.703433308515276,
+      "change24h": -3.53801227
     },
     {
       "id": 28850,
       "name": "Notcoin",
       "symbol": "NOT",
       "rank": 387,
-      "price": 0.0006157807235738804,
-      "change24h": -0.21498011
+      "price": 0.0006142707605423907,
+      "change24h": -0.98816028
     },
     {
       "id": 1637,
       "name": "iExec RLC",
       "symbol": "RLC",
       "rank": 388,
-      "price": 0.7016773895547851,
-      "change24h": -1.19976816
+      "price": 0.7011063766850364,
+      "change24h": -1.64095219
     },
     {
       "id": 2130,
       "name": "Enjin Coin",
       "symbol": "ENJ",
       "rank": 389,
-      "price": 0.03162482045431212,
-      "change24h": -0.80082709
+      "price": 0.03158297180578317,
+      "change24h": -1.44509076
     },
     {
       "id": 2566,
       "name": "Ontology",
       "symbol": "ONT",
       "rank": 390,
-      "price": 0.0659567726101032,
-      "change24h": -0.64499724
+      "price": 0.06588025323363907,
+      "change24h": -0.89881781
     },
     {
       "id": 4944,
       "name": "Tellor",
       "symbol": "TRB",
       "rank": 391,
-      "price": 21.997741520009157,
-      "change24h": -1.30448206
+      "price": 21.991271153699415,
+      "change24h": -2.06555314
     },
     {
       "id": 4679,
       "name": "Band",
       "symbol": "BAND",
       "rank": 392,
-      "price": 0.3532510985215113,
-      "change24h": -0.60354582
+      "price": 0.3532354149187285,
+      "change24h": -1.08785514
     },
     {
       "id": 7959,
@@ -3145,204 +3145,204 @@
       "change24h": -0.019996
     },
     {
-      "id": 14588,
-      "name": "peaq",
-      "symbol": "PEAQ",
-      "rank": 394,
-      "price": 0.03510406581901638,
-      "change24h": -3.01615876
-    },
-    {
       "id": 24877,
       "name": "BIM",
       "symbol": "BIM",
-      "rank": 395,
-      "price": 1.9809727924850271,
-      "change24h": -2.56786063
+      "rank": 394,
+      "price": 1.980946240159616,
+      "change24h": -2.69195167
     },
     {
-      "id": 3661,
-      "name": "Stronghold SHx",
-      "symbol": "SHX",
-      "rank": 396,
-      "price": 0.010189267599171882,
-      "change24h": -2.11261223
+      "id": 14588,
+      "name": "peaq",
+      "symbol": "PEAQ",
+      "rank": 395,
+      "price": 0.035018664824815346,
+      "change24h": -3.47757877
     },
     {
       "id": 7501,
       "name": "WOO",
       "symbol": "WOO",
+      "rank": 396,
+      "price": 0.03126937644522022,
+      "change24h": -1.4253682
+    },
+    {
+      "id": 3661,
+      "name": "Stronghold SHx",
+      "symbol": "SHX",
       "rank": 397,
-      "price": 0.031220252174007746,
-      "change24h": -1.18427633
+      "price": 0.01017332811029019,
+      "change24h": -2.13279572
     },
     {
       "id": 32521,
       "name": "Neiro",
       "symbol": "NEIRO",
       "rank": 398,
-      "price": 0.00014014646761361152,
-      "change24h": -1.43855103
+      "price": 0.00013984898380388372,
+      "change24h": -2.2520721
     },
     {
       "id": 36215,
       "name": "Apertum",
       "symbol": "APTM",
       "rank": 399,
-      "price": 0.815679086474957,
-      "change24h": -0.98959548
+      "price": 0.8145823971710298,
+      "change24h": -2.95020965
     },
     {
       "id": 2405,
       "name": "IOST",
       "symbol": "IOST",
       "rank": 400,
-      "price": 0.0019488094879386909,
-      "change24h": 2.61604443
-    },
-    {
-      "id": 39071,
-      "name": "Cysic",
-      "symbol": "CYS",
-      "rank": 401,
-      "price": 0.3618877896018001,
-      "change24h": -7.54937359
-    },
-    {
-      "id": 1772,
-      "name": "Storj",
-      "symbol": "STORJ",
-      "rank": 402,
-      "price": 0.13754394181004612,
-      "change24h": -3.22077923
+      "price": 0.0019454286081083305,
+      "change24h": 1.89360972
     },
     {
       "id": 35701,
       "name": "GOHOME",
       "symbol": "GOHOME",
+      "rank": 401,
+      "price": 116.5177925659332,
+      "change24h": -0.97472834
+    },
+    {
+      "id": 39071,
+      "name": "Cysic",
+      "symbol": "CYS",
+      "rank": 402,
+      "price": 0.36209846518806804,
+      "change24h": -7.97407615
+    },
+    {
+      "id": 1772,
+      "name": "Storj",
+      "symbol": "STORJ",
       "rank": 403,
-      "price": 116.19001629406631,
-      "change24h": -1.30162443
+      "price": 0.13754930263010365,
+      "change24h": -3.48413082
     },
     {
       "id": 19843,
       "name": "ApeX Protocol",
       "symbol": "APEX",
       "rank": 404,
-      "price": 0.4613740123918788,
-      "change24h": -5.09340016
-    },
-    {
-      "id": 36569,
-      "name": "Spark",
-      "symbol": "SPK",
-      "rank": 405,
-      "price": 0.025689558475837492,
-      "change24h": 8.29187227
+      "price": 0.46181595763688454,
+      "change24h": -5.50812782
     },
     {
       "id": 3992,
       "name": "COTI",
       "symbol": "COTI",
-      "rank": 406,
-      "price": 0.022207596793573935,
-      "change24h": -0.88278018
-    },
-    {
-      "id": 6953,
-      "name": "Frax (prev. FXS)",
-      "symbol": "FRAX",
-      "rank": 407,
-      "price": 0.6483644302735121,
-      "change24h": 3.25447672
+      "rank": 405,
+      "price": 0.022174359254507007,
+      "change24h": -2.06266083
     },
     {
       "id": 34143,
       "name": "WhiteRock",
       "symbol": "WHITE",
-      "rank": 408,
-      "price": 0.00008777969129783087,
-      "change24h": -2.09780883
+      "rank": 406,
+      "price": 0.0000879323902962322,
+      "change24h": -1.92889015
     },
     {
-      "id": 8534,
-      "name": "Chintai",
-      "symbol": "CHEX",
-      "rank": 409,
-      "price": 0.057011751244089866,
-      "change24h": 5.42900359
+      "id": 36569,
+      "name": "Spark",
+      "symbol": "SPK",
+      "rank": 407,
+      "price": 0.025508152556428017,
+      "change24h": 5.59862257
     },
     {
       "id": 35364,
       "name": "Plume",
       "symbol": "PLUME",
-      "rank": 410,
-      "price": 0.01811208735769053,
-      "change24h": -4.24738672
+      "rank": 408,
+      "price": 0.01808662996941465,
+      "change24h": -5.19623376
+    },
+    {
+      "id": 6953,
+      "name": "Frax (prev. FXS)",
+      "symbol": "FRAX",
+      "rank": 409,
+      "price": 0.6426949449055989,
+      "change24h": 1.98194842
     },
     {
       "id": 3893,
       "name": "ChangeNOW Token",
       "symbol": "NOW",
-      "rank": 411,
+      "rank": 410,
       "price": 0.6678761936655861,
-      "change24h": -1.98357494
+      "change24h": -2.10886464
+    },
+    {
+      "id": 8534,
+      "name": "Chintai",
+      "symbol": "CHEX",
+      "rank": 411,
+      "price": 0.05663204035421453,
+      "change24h": 4.86425025
     },
     {
       "id": 14806,
       "name": "ConstitutionDAO",
       "symbol": "PEOPLE",
       "rank": 412,
-      "price": 0.011093066588926993,
-      "change24h": -1.13639703
+      "price": 0.011052288475843572,
+      "change24h": -2.13053625
     },
     {
       "id": 28596,
       "name": "Anchored Coins AEUR",
       "symbol": "AEUR",
       "rank": 413,
-      "price": 1.1626931885158107,
-      "change24h": 0.47729705
-    },
-    {
-      "id": 35429,
-      "name": "Solayer",
-      "symbol": "LAYER",
-      "rank": 414,
-      "price": 0.17741702057956774,
-      "change24h": -0.53612526
-    },
-    {
-      "id": 1586,
-      "name": "Ark",
-      "symbol": "ARK",
-      "rank": 415,
-      "price": 0.28719573256590547,
-      "change24h": 2.48378061
+      "price": 1.1624442279089608,
+      "change24h": 0.36989441
     },
     {
       "id": 2132,
       "name": "Powerledger",
       "symbol": "POWR",
+      "rank": 414,
+      "price": 0.0978730127676679,
+      "change24h": 7.16667303
+    },
+    {
+      "id": 35429,
+      "name": "Solayer",
+      "symbol": "LAYER",
+      "rank": 415,
+      "price": 0.17740161624158768,
+      "change24h": -1.09326688
+    },
+    {
+      "id": 1586,
+      "name": "Ark",
+      "symbol": "ARK",
       "rank": 416,
-      "price": 0.09695385567662453,
-      "change24h": 6.67158661
+      "price": 0.28584120107655164,
+      "change24h": 1.71554186
     },
     {
       "id": 33372,
       "name": "CARV",
       "symbol": "CARV",
       "rank": 417,
-      "price": 0.11930765611918469,
-      "change24h": 0.53519967
+      "price": 0.11926709587013604,
+      "change24h": -0.07104733
     },
     {
       "id": 4687,
       "name": "BUSD",
       "symbol": "BUSD",
       "rank": 418,
-      "price": 1.0000080450354265,
-      "change24h": -0.02015578
+      "price": 1.0000045627135699,
+      "change24h": -0.03119077
     },
     {
       "id": 8083,
@@ -3350,591 +3350,591 @@
       "symbol": "LON",
       "rank": 419,
       "price": 0.43982555685120106,
-      "change24h": -2.92414956
+      "change24h": -2.92489996
     },
     {
       "id": 38236,
       "name": "Quack AI",
       "symbol": "Q",
       "rank": 420,
-      "price": 0.017882093665059575,
-      "change24h": 2.40969786
+      "price": 0.01796562617508822,
+      "change24h": 3.57462611
     },
     {
       "id": 29870,
       "name": "BOOK OF MEME",
       "symbol": "BOME",
       "rank": 421,
-      "price": 0.0007866919425334775,
-      "change24h": -1.30190496
+      "price": 0.0007841818580015587,
+      "change24h": -1.91131429
     },
     {
       "id": 34212,
       "name": "Matrixdock Gold",
       "symbol": "XAUM",
       "rank": 422,
-      "price": 4485.512782918441,
-      "change24h": -0.40164078
-    },
-    {
-      "id": 10894,
-      "name": "StorX Network",
-      "symbol": "SRX",
-      "rank": 423,
-      "price": 0.07405803808736863,
-      "change24h": -0.97815938
-    },
-    {
-      "id": 5370,
-      "name": "Hive",
-      "symbol": "HIVE",
-      "rank": 424,
-      "price": 0.10533770667104618,
-      "change24h": 5.01697146
-    },
-    {
-      "id": 32198,
-      "name": "Babylon",
-      "symbol": "BABY",
-      "rank": 425,
-      "price": 0.018918117873763567,
-      "change24h": 5.4914271
+      "price": 4485.604704438742,
+      "change24h": -0.38323814
     },
     {
       "id": 3801,
       "name": "BORA",
       "symbol": "BORA",
-      "rank": 426,
-      "price": 0.04870641931268929,
-      "change24h": -14.01574244
+      "rank": 423,
+      "price": 0.04888780067424777,
+      "change24h": -14.09245737
     },
     {
-      "id": 2341,
-      "name": "SwftCoin",
-      "symbol": "SWFTC",
-      "rank": 427,
-      "price": 0.005353989988434492,
-      "change24h": -2.96923196
+      "id": 10894,
+      "name": "StorX Network",
+      "symbol": "SRX",
+      "rank": 424,
+      "price": 0.07403431582256681,
+      "change24h": -1.04371336
+    },
+    {
+      "id": 5370,
+      "name": "Hive",
+      "symbol": "HIVE",
+      "rank": 425,
+      "price": 0.10506793092898818,
+      "change24h": 4.40724967
     },
     {
       "id": 30651,
       "name": "QuantixAI",
       "symbol": "QAI",
-      "rank": 428,
-      "price": 66.20867007317517,
-      "change24h": -3.0133537
+      "rank": 426,
+      "price": 66.22134136417908,
+      "change24h": -3.17643304
     },
     {
       "id": 20964,
       "name": "Law Blocks (AI)",
       "symbol": "LBT",
+      "rank": 427,
+      "price": 0.2170437119704238,
+      "change24h": -0.21144034
+    },
+    {
+      "id": 32198,
+      "name": "Babylon",
+      "symbol": "BABY",
+      "rank": 428,
+      "price": 0.01869007347603543,
+      "change24h": 3.71732716
+    },
+    {
+      "id": 2341,
+      "name": "SwftCoin",
+      "symbol": "SWFTC",
       "rank": 429,
-      "price": 0.2167763632539508,
-      "change24h": -0.32206656
+      "price": 0.005280578165449272,
+      "change24h": -5.78242099
     },
     {
       "id": 4805,
       "name": "VNDC",
       "symbol": "VNDC",
       "rank": 430,
-      "price": 0.00003714184839771077,
-      "change24h": 0.19405609
+      "price": 0.0000371388239753465,
+      "change24h": 0.20038668
     },
     {
       "id": 17520,
       "name": "Orbler",
       "symbol": "ORBR",
       "rank": 431,
-      "price": 0.05146637565948822,
-      "change24h": -0.10169799
+      "price": 0.05144657650719056,
+      "change24h": -0.11194155
     },
     {
       "id": 32120,
       "name": "Gravity (by Galxe)",
       "symbol": "G",
       "rank": 432,
-      "price": 0.004975757772488016,
-      "change24h": 5.23226185
+      "price": 0.0049453729480882,
+      "change24h": 4.19944313
     },
     {
       "id": 2982,
       "name": "MVL",
       "symbol": "MVL",
       "rank": 433,
-      "price": 0.0018526108371664611,
-      "change24h": 4.41761648
+      "price": 0.0018520838217165473,
+      "change24h": 4.41635181
     },
     {
       "id": 37637,
       "name": "Somnia",
       "symbol": "SOMI",
       "rank": 434,
-      "price": 0.263287299869542,
-      "change24h": -4.75778842
+      "price": 0.2634859969700255,
+      "change24h": -5.00738265
     },
     {
       "id": 34958,
       "name": "Tagger",
       "symbol": "TAG",
       "rank": 435,
-      "price": 0.00047183492127906017,
-      "change24h": 0.15910338
+      "price": 0.0004710809274510068,
+      "change24h": -0.53840829
     },
     {
       "id": 38231,
       "name": "Momentum",
       "symbol": "MMT",
       "rank": 436,
-      "price": 0.2500675825442228,
-      "change24h": 2.27646125
+      "price": 0.2498320561916528,
+      "change24h": 2.19044774
     },
     {
       "id": 19075,
       "name": "ECOMI",
       "symbol": "OMI",
       "rank": 437,
-      "price": 0.00018019654950657358,
-      "change24h": -6.10629216
+      "price": 0.0001802540045071014,
+      "change24h": -6.12355484
     },
     {
       "id": 18069,
       "name": "GMT",
       "symbol": "GMT",
       "rank": 438,
-      "price": 0.016161553929196854,
-      "change24h": -0.39149993
+      "price": 0.016144478694532872,
+      "change24h": -1.00187235
     },
     {
       "id": 38331,
       "name": "USDH",
       "symbol": "USDH",
       "rank": 439,
-      "price": 0.9998273271408762,
-      "change24h": -0.15670883
+      "price": 0.9998239997743263,
+      "change24h": 0.08224262
     },
     {
       "id": 32644,
       "name": "Eurite",
       "symbol": "EURI",
       "rank": 440,
-      "price": 1.1679985022376198,
-      "change24h": -0.05001317
-    },
-    {
-      "id": 24203,
-      "name": "SmarDex",
-      "symbol": "SDEX",
-      "rank": 441,
-      "price": 0.005288736712453637,
-      "change24h": 1.43015143
+      "price": 1.167863497589801,
+      "change24h": -0.07947536
     },
     {
       "id": 35216,
       "name": "Pythia",
       "symbol": "PYTHIA",
       "rank": 442,
-      "price": 0.0492731191327682,
-      "change24h": 2.07996446
+      "price": 0.049311210646961305,
+      "change24h": 2.25070119
+    },
+    {
+      "id": 24203,
+      "name": "SmarDex",
+      "symbol": "SDEX",
+      "rank": 441,
+      "price": 0.005273783744983581,
+      "change24h": 1.16044727
     },
     {
       "id": 10442,
       "name": "Decentralized Social",
       "symbol": "DESO",
       "rank": 443,
-      "price": 5.52301410639067,
-      "change24h": 1.84732254
-    },
-    {
-      "id": 39042,
-      "name": "Power Protocol",
-      "symbol": "POWER",
-      "rank": 444,
-      "price": 0.231958116937904,
-      "change24h": -0.53483627
-    },
-    {
-      "id": 4807,
-      "name": "Shentu",
-      "symbol": "CTK",
-      "rank": 445,
-      "price": 0.3152002515905862,
-      "change24h": 2.64110176
+      "price": 5.523749346083062,
+      "change24h": 1.8050372
     },
     {
       "id": 13769,
       "name": "World Mobile Token",
       "symbol": "WMTX",
+      "rank": 445,
+      "price": 0.06068553233946254,
+      "change24h": -1.22931592
+    },
+    {
+      "id": 4807,
+      "name": "Shentu",
+      "symbol": "CTK",
       "rank": 446,
-      "price": 0.060659199401605225,
-      "change24h": -1.33583313
+      "price": 0.31472134771529736,
+      "change24h": 2.02031277
+    },
+    {
+      "id": 25220,
+      "name": "HarryPotterObamaSonic10Inu (ERC-20)",
+      "symbol": "BITCOIN",
+      "rank": 444,
+      "price": 0.04869623386451686,
+      "change24h": 0.34594927
     },
     {
       "id": 11289,
       "name": "Spell Token",
       "symbol": "SPELL",
       "rank": 447,
-      "price": 0.0002830864703183866,
-      "change24h": -1.91120528
+      "price": 0.0002826574656834512,
+      "change24h": -2.39368922
     },
     {
-      "id": 25220,
-      "name": "HarryPotterObamaSonic10Inu (ERC-20)",
-      "symbol": "BITCOIN",
+      "id": 39042,
+      "name": "Power Protocol",
+      "symbol": "POWER",
       "rank": 448,
-      "price": 0.04831579280295235,
-      "change24h": 0.07614456
-    },
-    {
-      "id": 10688,
-      "name": "Yield Guild Games",
-      "symbol": "YGG",
-      "rank": 449,
-      "price": 0.0702559877391609,
-      "change24h": -1.69511121
+      "price": 0.23064659187420938,
+      "change24h": -0.58525505
     },
     {
       "id": 27565,
       "name": "Arkham",
       "symbol": "ARKM",
-      "rank": 450,
-      "price": 0.2140699616996114,
-      "change24h": -2.23122139
+      "rank": 449,
+      "price": 0.21423525677773145,
+      "change24h": -2.81585215
     },
     {
-      "id": 3835,
-      "name": "Orbs",
-      "symbol": "ORBS",
+      "id": 10688,
+      "name": "Yield Guild Games",
+      "symbol": "YGG",
+      "rank": 450,
+      "price": 0.07024189956546537,
+      "change24h": -2.39940292
+    },
+    {
+      "id": 29884,
+      "name": "Destra Network",
+      "symbol": "DSYNC",
       "rank": 451,
-      "price": 0.011103673882799942,
-      "change24h": 5.9557983
+      "price": 0.049407567544069685,
+      "change24h": 31.71825144
     },
     {
       "id": 32372,
       "name": "StraitsX USD",
       "symbol": "XUSD",
       "rank": 452,
-      "price": 0.9996413395695902,
-      "change24h": -0.00203001
+      "price": 0.9996612403536898,
+      "change24h": 0.02217701
     },
     {
       "id": 3951,
       "name": "Pirate Chain",
       "symbol": "ARRR",
       "rank": 453,
-      "price": 0.2450082934430265,
-      "change24h": -2.03382101
+      "price": 0.24486588470579876,
+      "change24h": -2.06522399
     },
     {
       "id": 21533,
       "name": "Lista DAO",
       "symbol": "LISTA",
+      "rank": 455,
+      "price": 0.1717431709396352,
+      "change24h": -4.44804754
+    },
+    {
+      "id": 3835,
+      "name": "Orbs",
+      "symbol": "ORBS",
       "rank": 454,
-      "price": 0.17202193549796993,
-      "change24h": -3.82906525
+      "price": 0.011056146473040382,
+      "change24h": 5.25281533
     },
     {
       "id": 8120,
       "name": "Whiteheart",
       "symbol": "WHITE",
-      "rank": 455,
+      "rank": 456,
       "price": 5387.934712757106,
       "change24h": 0
-    },
-    {
-      "id": 29884,
-      "name": "Destra Network",
-      "symbol": "DSYNC",
-      "rank": 456,
-      "price": 0.049095075158988685,
-      "change24h": 31.69210748
     },
     {
       "id": 2943,
       "name": "Rocket Pool",
       "symbol": "RPL",
       "rank": 457,
-      "price": 2.1650385175494713,
-      "change24h": -1.63821332
-    },
-    {
-      "id": 38864,
-      "name": "Folks Finance",
-      "symbol": "FOLKS",
-      "rank": 458,
-      "price": 3.9037900605057487,
-      "change24h": 4.28312702
+      "price": 2.1608033027545313,
+      "change24h": -3.60311373
     },
     {
       "id": 3330,
       "name": "Pax Dollar",
       "symbol": "USDP",
-      "rank": 459,
-      "price": 0.9989260750723495,
-      "change24h": -0.03545404
-    },
-    {
-      "id": 9444,
-      "name": "Kyber Network Crystal v2",
-      "symbol": "KNC",
-      "rank": 460,
-      "price": 0.24896305314807973,
-      "change24h": 3.60983361
+      "rank": 458,
+      "price": 0.998884426733878,
+      "change24h": -0.03140173
     },
     {
       "id": 1727,
       "name": "Bancor",
       "symbol": "BNT",
+      "rank": 460,
+      "price": 0.4322636509232678,
+      "change24h": -1.94968701
+    },
+    {
+      "id": 9444,
+      "name": "Kyber Network Crystal v2",
+      "symbol": "KNC",
       "rank": 461,
-      "price": 0.4325391529309967,
-      "change24h": -1.62434477
+      "price": 0.24853717160123717,
+      "change24h": 3.25408446
     },
     {
       "id": 22354,
       "name": "Quai Network",
       "symbol": "QUAI",
+      "rank": 459,
+      "price": 0.06065260867314788,
+      "change24h": 13.4395175
+    },
+    {
+      "id": 38864,
+      "name": "Folks Finance",
+      "symbol": "FOLKS",
       "rank": 462,
-      "price": 0.06025663989252452,
-      "change24h": 12.14848457
+      "price": 3.881423135498469,
+      "change24h": 3.47091907
     },
     {
       "id": 36352,
       "name": "BSquared Network",
       "symbol": "B2",
       "rank": 463,
-      "price": 0.6979884351883074,
-      "change24h": -1.07755953
+      "price": 0.6990114347400755,
+      "change24h": -1.05940994
     },
     {
       "id": 9543,
       "name": "Biconomy",
       "symbol": "BICO",
       "rank": 464,
-      "price": 0.04688238648210829,
-      "change24h": -0.92327095
-    },
-    {
-      "id": 39170,
-      "name": "Collect on Fanable",
-      "symbol": "COLLECT",
-      "rank": 465,
-      "price": 0.08687516976479423,
-      "change24h": 5.88772725
-    },
-    {
-      "id": 1816,
-      "name": "Civic",
-      "symbol": "CVC",
-      "rank": 466,
-      "price": 0.04661479690868696,
-      "change24h": 2.45247283
-    },
-    {
-      "id": 4279,
-      "name": "Solar",
-      "symbol": "SXP",
-      "rank": 467,
-      "price": 0.06966196240206504,
-      "change24h": 5.66929599
+      "price": 0.04685999561320196,
+      "change24h": -1.44523876
     },
     {
       "id": 30168,
       "name": "Xertra",
       "symbol": "STRAX",
-      "rank": 468,
-      "price": 0.022740735259510092,
-      "change24h": 5.59911374
+      "rank": 465,
+      "price": 0.0228155093067602,
+      "change24h": 5.82045331
+    },
+    {
+      "id": 4279,
+      "name": "Solar",
+      "symbol": "SXP",
+      "rank": 466,
+      "price": 0.06986908060197446,
+      "change24h": 6.12071223
+    },
+    {
+      "id": 1816,
+      "name": "Civic",
+      "symbol": "CVC",
+      "rank": 467,
+      "price": 0.04656920366565928,
+      "change24h": 1.82839483
     },
     {
       "id": 1214,
       "name": "Lisk",
       "symbol": "LSK",
-      "rank": 469,
-      "price": 0.2051995186544877,
-      "change24h": -0.22197701
+      "rank": 468,
+      "price": 0.20499609974857325,
+      "change24h": -0.66634108
     },
     {
       "id": 35747,
       "name": "Doodles",
       "symbol": "DOOD",
+      "rank": 469,
+      "price": 0.005917592558386393,
+      "change24h": -5.75711594
+    },
+    {
+      "id": 39170,
+      "name": "Collect on Fanable",
+      "symbol": "COLLECT",
       "rank": 470,
-      "price": 0.005936859960854704,
-      "change24h": -5.18315105
+      "price": 0.08581362619456237,
+      "change24h": 1.22076454
     },
     {
       "id": 3029,
       "name": "Flux",
       "symbol": "FLUX",
       "rank": 471,
-      "price": 0.11181597032353359,
-      "change24h": -0.84783462
+      "price": 0.11154741856723493,
+      "change24h": -1.96502403
     },
     {
       "id": 24781,
       "name": "Cyber",
       "symbol": "CYBER",
       "rank": 472,
-      "price": 0.7871434099811078,
-      "change24h": -1.94764901
+      "price": 0.7867417810270781,
+      "change24h": -2.04266232
     },
     {
       "id": 3306,
       "name": "Gemini Dollar",
       "symbol": "GUSD",
       "rank": 473,
-      "price": 1.0000148606731596,
-      "change24h": 0.01444873
+      "price": 0.9998240264012046,
+      "change24h": -0.00795997
     },
     {
       "id": 28230,
       "name": "Big Time",
       "symbol": "BIGTIME",
       "rank": 474,
-      "price": 0.021831939627809417,
-      "change24h": -0.69075877
+      "price": 0.02176936219203154,
+      "change24h": -1.4963792
     },
     {
       "id": 36102,
       "name": "Particle Network",
       "symbol": "PARTI",
       "rank": 475,
-      "price": 0.10305011173370031,
-      "change24h": -1.8273423
+      "price": 0.10298024693740196,
+      "change24h": -2.51698843
     },
     {
       "id": 33979,
       "name": "Usual",
       "symbol": "USUAL",
       "rank": 476,
-      "price": 0.02798728703622375,
-      "change24h": -0.57567602
+      "price": 0.02800679327729812,
+      "change24h": -1.14124715
     },
     {
       "id": 12220,
       "name": "Osmosis",
       "symbol": "OSMO",
       "rank": 477,
-      "price": 0.058367645500306646,
-      "change24h": -0.12601034
+      "price": 0.05853389923352032,
+      "change24h": -0.26207703
     },
     {
       "id": 28688,
       "name": "AI Analysis Token",
       "symbol": "AIAT",
       "rank": 478,
-      "price": 0.30208899855992777,
-      "change24h": -0.87587598
+      "price": 0.3027537810936786,
+      "change24h": -0.6504979
     },
     {
       "id": 30063,
       "name": "Gigachad",
       "symbol": "GIGA",
       "rank": 479,
-      "price": 0.004747917795494722,
-      "change24h": -0.85262668
+      "price": 0.004751451404018836,
+      "change24h": -1.11067598
     },
     {
       "id": 29835,
       "name": "io.net",
       "symbol": "IO",
       "rank": 480,
-      "price": 0.16543596468049754,
-      "change24h": -3.02647195
+      "price": 0.16524098909316273,
+      "change24h": -3.63771421
     },
     {
       "id": 7455,
       "name": "Audius",
       "symbol": "AUDIO",
       "rank": 481,
-      "price": 0.03169066124887056,
-      "change24h": 1.15326064
-    },
-    {
-      "id": 37166,
-      "name": "CROSS",
-      "symbol": "CROSS",
-      "rank": 482,
-      "price": 0.12985182803240775,
-      "change24h": -0.6592492
+      "price": 0.031714528847075776,
+      "change24h": 0.98488186
     },
     {
       "id": 1974,
       "name": "Propy",
       "symbol": "PRO",
-      "rank": 483,
-      "price": 0.43509530556831194,
-      "change24h": 2.87180821
+      "rank": 482,
+      "price": 0.43504684865857723,
+      "change24h": 2.8178562
     },
     {
       "id": 36238,
       "name": "XPIN Network",
       "symbol": "XPIN",
-      "rank": 484,
-      "price": 0.0024500021609030506,
-      "change24h": -6.17191647
+      "rank": 483,
+      "price": 0.0024482491205575726,
+      "change24h": -6.05878992
     },
     {
       "id": 38273,
       "name": "U.S. Dollar Tokenized Currency (Ondo)",
       "symbol": "USDon",
-      "rank": 485,
-      "price": 0.9991021721785335,
-      "change24h": -0.03085851
+      "rank": 484,
+      "price": 0.9990073690170223,
+      "change24h": -0.0295329
     },
     {
       "id": 39150,
       "name": "RateX",
       "symbol": "RTX",
-      "rank": 486,
-      "price": 2.5886460833974616,
-      "change24h": -1.00281233
+      "rank": 485,
+      "price": 2.5886933891422093,
+      "change24h": -0.96675239
     },
     {
       "id": 22850,
       "name": "Hivemapper",
       "symbol": "HONEY",
+      "rank": 486,
+      "price": 0.008133403838069556,
+      "change24h": -0.92850392
+    },
+    {
+      "id": 37166,
+      "name": "CROSS",
+      "symbol": "CROSS",
       "rank": 487,
-      "price": 0.00813748303164662,
-      "change24h": -0.79744204
+      "price": 0.12745816224830964,
+      "change24h": -2.53423987
     },
     {
       "id": 2930,
       "name": "IQ",
       "symbol": "IQ",
       "rank": 488,
-      "price": 0.0017166789222103056,
-      "change24h": 1.6966768
+      "price": 0.0017162574143120056,
+      "change24h": 1.51949651
     },
     {
       "id": 38481,
       "name": "Anoma",
       "symbol": "XAN",
-      "rank": 489,
-      "price": 0.016826612769808735,
-      "change24h": -7.40383032
-    },
-    {
-      "id": 37016,
-      "name": "Klickl Token",
-      "symbol": "KLK",
       "rank": 490,
-      "price": 0.4183169882971616,
-      "change24h": -2.65590254
+      "price": 0.01678915676951191,
+      "change24h": -8.18451857
     },
     {
       "id": 35319,
       "name": "Animecoin",
       "symbol": "ANIME",
+      "rank": 489,
+      "price": 0.007580861714233992,
+      "change24h": 3.90058428
+    },
+    {
+      "id": 37016,
+      "name": "Klickl Token",
+      "symbol": "KLK",
       "rank": 491,
-      "price": 0.007544621783135318,
-      "change24h": 3.58508758
+      "price": 0.41763362056372605,
+      "change24h": -3.07184808
     },
     {
       "id": 8719,
       "name": "Illuvium",
       "symbol": "ILV",
       "rank": 492,
-      "price": 6.139788726033659,
-      "change24h": -0.9638518
+      "price": 6.133563864212141,
+      "change24h": -1.65666598
     },
     {
       "id": 37345,
@@ -3949,57 +3949,57 @@
       "name": "Blast",
       "symbol": "BLAST",
       "rank": 494,
-      "price": 0.0007716947406019695,
-      "change24h": 1.13521678
+      "price": 0.0007789016490319182,
+      "change24h": 1.61769501
     },
     {
       "id": 34118,
       "name": "Banana For Scale",
       "symbol": "BANANAS31",
       "rank": 495,
-      "price": 0.004090684238328307,
-      "change24h": -4.25780062
+      "price": 0.004091566230257413,
+      "change24h": -4.51369974
     },
     {
       "id": 5266,
       "name": "MiL.k",
       "symbol": "MLK",
       "rank": 496,
-      "price": 0.07784843388216608,
-      "change24h": -2.57771212
-    },
-    {
-      "id": 39049,
-      "name": "Humidifi",
-      "symbol": "WET",
-      "rank": 497,
-      "price": 0.17674694956295942,
-      "change24h": -0.33039394
+      "price": 0.07766550403865996,
+      "change24h": -2.90060074
     },
     {
       "id": 35976,
       "name": "Aegis YUSD",
       "symbol": "YUSD",
-      "rank": 498,
-      "price": 0.9984640322825112,
-      "change24h": -0.02540756
+      "rank": 497,
+      "price": 0.9984640321965434,
+      "change24h": -0.00899117
     },
     {
-      "id": 2300,
-      "name": "WAX",
-      "symbol": "WAXP",
-      "rank": 499,
-      "price": 0.00893710700861237,
-      "change24h": 6.45294056
+      "id": 39049,
+      "name": "Humidifi",
+      "symbol": "WET",
+      "rank": 498,
+      "price": 0.17613161511945477,
+      "change24h": -1.03653564
     },
     {
       "id": 33440,
       "name": "Goatseus Maximus",
       "symbol": "GOAT",
+      "rank": 499,
+      "price": 0.04034212750437932,
+      "change24h": -2.02507212
+    },
+    {
+      "id": 2300,
+      "name": "WAX",
+      "symbol": "WAXP",
       "rank": 500,
-      "price": 0.040320637867722046,
-      "change24h": -1.5261721
+      "price": 0.008855659804702888,
+      "change24h": 5.06989176
     }
   ],
-  "last_updated": 1767816067851
+  "last_updated": 1767816667180
 }

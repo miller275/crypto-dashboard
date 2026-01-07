@@ -5,15 +5,15 @@
       "title": "Bitcoin Surges Past Key Resistance Level",
       "source": "CoinDesk",
       "url": "#",
-      "published_at": 1767816067853,
+      "published_at": 1767816667181,
       "summary": "This is a test news article. Real news would be fetched from CryptoPanic API with a valid API key.",
       "currencies": [
         "BTC"
       ],
       "votes": {
-        "positive": 65,
-        "negative": 2,
-        "important": 5
+        "positive": 86,
+        "negative": 17,
+        "important": 7
       }
     },
     {
@@ -21,15 +21,15 @@
       "title": "Ethereum Layer 2 Solutions Gain Traction",
       "source": "CoinTelegraph",
       "url": "#",
-      "published_at": 1767812467853,
+      "published_at": 1767813067181,
       "summary": "This is a test news article. Real news would be fetched from CryptoPanic API with a valid API key.",
       "currencies": [
         "ETH"
       ],
       "votes": {
-        "positive": 30,
-        "negative": 10,
-        "important": 8
+        "positive": 0,
+        "negative": 19,
+        "important": 4
       }
     },
     {
@@ -37,15 +37,15 @@
       "title": "Regulatory Developments Shape Crypto Market",
       "source": "CryptoSlate",
       "url": "#",
-      "published_at": 1767808867853,
+      "published_at": 1767809467181,
       "summary": "This is a test news article. Real news would be fetched from CryptoPanic API with a valid API key.",
       "currencies": [
         "BTC"
       ],
       "votes": {
-        "positive": 11,
-        "negative": 2,
-        "important": 5
+        "positive": 40,
+        "negative": 0,
+        "important": 2
       }
     },
     {
@@ -53,15 +53,15 @@
       "title": "DeFi Innovation Continues Despite Market Conditions",
       "source": "NewsBTC",
       "url": "#",
-      "published_at": 1767805267853,
+      "published_at": 1767805867181,
       "summary": "This is a test news article. Real news would be fetched from CryptoPanic API with a valid API key.",
       "currencies": [
         "ETH"
       ],
       "votes": {
-        "positive": 27,
-        "negative": 14,
-        "important": 2
+        "positive": 31,
+        "negative": 4,
+        "important": 6
       }
     },
     {
@@ -69,15 +69,15 @@
       "title": "NFT Market Shows Signs of Recovery",
       "source": "Bitcoin.com",
       "url": "#",
-      "published_at": 1767801667853,
+      "published_at": 1767802267181,
       "summary": "This is a test news article. Real news would be fetched from CryptoPanic API with a valid API key.",
       "currencies": [
         "BTC"
       ],
       "votes": {
-        "positive": 95,
-        "negative": 2,
-        "important": 0
+        "positive": 49,
+        "negative": 7,
+        "important": 2
       }
     },
     {
@@ -85,15 +85,15 @@
       "title": "Bitcoin Surges Past Key Resistance Level",
       "source": "CoinDesk",
       "url": "#",
-      "published_at": 1767798067853,
+      "published_at": 1767798667181,
       "summary": "This is a test news article. Real news would be fetched from CryptoPanic API with a valid API key.",
       "currencies": [
         "ETH"
       ],
       "votes": {
-        "positive": 89,
-        "negative": 14,
-        "important": 2
+        "positive": 91,
+        "negative": 5,
+        "important": 3
       }
     },
     {
@@ -101,14 +101,14 @@
       "title": "Ethereum Layer 2 Solutions Gain Traction",
       "source": "CoinTelegraph",
       "url": "#",
-      "published_at": 1767794467853,
+      "published_at": 1767795067181,
       "summary": "This is a test news article. Real news would be fetched from CryptoPanic API with a valid API key.",
       "currencies": [
         "BTC"
       ],
       "votes": {
-        "positive": 89,
-        "negative": 1,
+        "positive": 92,
+        "negative": 0,
         "important": 9
       }
     },
@@ -117,15 +117,15 @@
       "title": "Regulatory Developments Shape Crypto Market",
       "source": "CryptoSlate",
       "url": "#",
-      "published_at": 1767790867853,
+      "published_at": 1767791467181,
       "summary": "This is a test news article. Real news would be fetched from CryptoPanic API with a valid API key.",
       "currencies": [
         "ETH"
       ],
       "votes": {
-        "positive": 69,
-        "negative": 2,
-        "important": 6
+        "positive": 13,
+        "negative": 19,
+        "important": 5
       }
     },
     {
@@ -133,15 +133,15 @@
       "title": "DeFi Innovation Continues Despite Market Conditions",
       "source": "NewsBTC",
       "url": "#",
-      "published_at": 1767787267853,
+      "published_at": 1767787867181,
       "summary": "This is a test news article. Real news would be fetched from CryptoPanic API with a valid API key.",
       "currencies": [
         "BTC"
       ],
       "votes": {
-        "positive": 59,
-        "negative": 13,
-        "important": 2
+        "positive": 78,
+        "negative": 11,
+        "important": 1
       }
     },
     {
@@ -149,18 +149,18 @@
       "title": "NFT Market Shows Signs of Recovery",
       "source": "Bitcoin.com",
       "url": "#",
-      "published_at": 1767783667853,
+      "published_at": 1767784267181,
       "summary": "This is a test news article. Real news would be fetched from CryptoPanic API with a valid API key.",
       "currencies": [
         "ETH"
       ],
       "votes": {
-        "positive": 65,
-        "negative": 14,
-        "important": 4
+        "positive": 73,
+        "negative": 3,
+        "important": 2
       }
     }
   ],
   "source": "Test",
-  "last_updated": 1767816067853
+  "last_updated": 1767816667181
 }
