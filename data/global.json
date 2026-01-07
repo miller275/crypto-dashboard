@@ -1,11 +1,11 @@
 {
-  "total_market_cap": 3110447161162.8735,
-  "total_volume": 116408017013.76,
-  "market_cap_change_24h": -1.9480994692738136,
-  "volume_change_24h": -13.24851857900478,
+  "total_market_cap": 3117911970393.5757,
+  "total_volume": 112992519795.89,
+  "market_cap_change_24h": -2.7133342720887867,
+  "volume_change_24h": -16.04164560777022,
   "market_cap_percentage": {
-    "btc": 58.305653147502,
-    "eth": 12.148525311255
+    "btc": 58.323203088284,
+    "eth": 12.152572748345
   },
-  "timestamp": 1767818004538
+  "timestamp": 1767821127185
 }

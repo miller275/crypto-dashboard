@@ -297,14 +297,14 @@
       "BINANCE": true
     }
   },
-  "USDG": {
-    "symbol": "USDG",
+  "KCS": {
+    "symbol": "KCS",
     "exchanges": {
       "BINANCE": true
     }
   },
-  "KCS": {
-    "symbol": "KCS",
+  "APT": {
+    "symbol": "APT",
     "exchanges": {
       "BINANCE": true
     }
