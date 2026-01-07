@@ -58,12 +58,13 @@ export class App {
     
     async initPageModules() {
         const path = window.location.pathname;
+        const page = path.split('/').pop() || 'index.html';
         
-        if (path === '/' || path === '/index.html') {
+        if (page === 'index.html') {
             this.modules.markets = new Markets(this.dataClient, this.i18n);
             this.modules.globalStats = new GlobalStats(this.dataClient, this.i18n);
             this.modules.news = new News(this.dataClient, this.i18n);
-        } else if (path === '/coin.html') {
+        } else if (page === 'coin.html') {
             this.modules.tradingView = new TradingView(this.dataClient);
         }
     }

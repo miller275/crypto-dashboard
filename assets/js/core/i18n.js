@@ -1,4 +1,6 @@
 // Интернационализация
+import { resolvePath } from './paths.js';
+
 export class I18n {
     constructor() {
         this.translations = {};
@@ -22,7 +24,7 @@ export class I18n {
     
     async loadTranslations(lang) {
         try {
-            const response = await fetch(new URL(`assets/js/i18n/locales/${lang}.json`, window.location.href));
+            const response = await fetch(resolvePath(`assets/js/i18n/locales/${lang}.json`));
             this.translations[lang] = await response.json();
         } catch (error) {
             console.error(`Failed to load translations for ${lang}:`, error);

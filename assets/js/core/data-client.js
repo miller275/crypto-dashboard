@@ -1,4 +1,6 @@
 // Клиент для работы с данными
+import { resolvePath } from './paths.js';
+
 export class DataClient {
     constructor() {
         this.cache = new Map();
@@ -79,43 +81,43 @@ export class DataClient {
     
     // Методы для получения конкретных данных
     async getGlobalData() {
-        return this.fetch(this.resolveUrl('data/global.json'));
+        return this.fetch(resolvePath('data/global.json'));
     }
     
     async getFearGreed() {
-        return this.fetch(this.resolveUrl('data/feargreed.json'));
+        return this.fetch(resolvePath('data/feargreed.json'));
     }
     
     async getNews() {
-        return this.fetch(this.resolveUrl('data/news/latest.json'));
+        return this.fetch(resolvePath('data/news/latest.json'));
     }
     
     async getTrending() {
-        return this.fetch(this.resolveUrl('data/trending.json'));
+        return this.fetch(resolvePath('data/trending.json'));
     }
     
     async getCoin(id) {
-        return this.fetch(this.resolveUrl(`data/coins/${id}.json`));
+        return this.fetch(resolvePath(`data/coins/${id}.json`));
     }
     
     async getMarketsPage(page = 1) {
-        return this.fetch(this.resolveUrl(`data/markets/page-${page}.json`));
+        return this.fetch(resolvePath(`data/markets/page-${page}.json`));
     }
     
     async getMarketsMeta() {
-        return this.fetch(this.resolveUrl('data/markets/meta.json'));
+        return this.fetch(resolvePath('data/markets/meta.json'));
     }
     
     async getTVMap() {
-        return this.fetch(this.resolveUrl('data/charts/tv-map.json'));
+        return this.fetch(resolvePath('data/charts/tv-map.json'));
     }
     
     async getGenerated() {
-        return this.fetch(this.resolveUrl('data/generated.json'));
+        return this.fetch(resolvePath('data/generated.json'));
     }
     
     async getSearchIndex() {
-        return this.fetch(this.resolveUrl('data/search-index.json'));
+        return this.fetch(resolvePath('data/search-index.json'));
     }
     
     // Пакетная загрузка

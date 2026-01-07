@@ -1,4 +1,6 @@
 // Форматирование данных
+import { resolvePath } from './paths.js';
+
 export class Formatter {
     constructor(i18n) {
         this.i18n = i18n;
@@ -175,7 +177,7 @@ export class Formatter {
     // URL иконки монеты
     coinIcon(id, symbol) {
         // Попытка загрузить локальную иконку
-        const localIcon = new URL(`assets/img/coins/${id}.png`, window.location.href).toString();
+        const localIcon = resolvePath(`assets/img/coins/${id}.png`);
         
         // Fallback на генерацию иконки
         return localIcon;
