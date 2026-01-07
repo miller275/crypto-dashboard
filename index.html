@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Vite replaces %BASE_URL% during build (important for GitHub Pages sub-path) -->
+    <base href="%BASE_URL%" />
+    <title>CryptoTrack - Real-Time Cryptocurrency Tracker</title>
+    <meta name="description" content="Track cryptocurrency prices, market caps, and trends in real-time. View detailed charts, fear & greed index, and market movers." />
+    <meta name="author" content="CryptoTrack" />
+
+    <meta property="og:title" content="CryptoTrack - Real-Time Cryptocurrency Tracker" />
+    <meta property="og:description" content="Track cryptocurrency prices, market caps, and trends in real-time. View detailed charts, fear & greed index, and market movers." />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@CryptoTrack" />
+    <meta name="twitter:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
+    
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+  </head>
+
+  <body>
+    <!-- GitHub Pages SPA fallback: 404.html redirects to /?p=...; this restores the real URL -->
+    <script>
+      (function () {
+        try {
+          var params = new URLSearchParams(window.location.search);
+          var p = params.get("p");
+          if (!p) return;
+          var q = params.get("q");
+          // base tag is set to %BASE_URL% by Vite
+          var baseEl = document.querySelector("base");
+          var baseHref = (baseEl && baseEl.getAttribute("href")) || "/";
+          var base = baseHref.replace(/\/$/, "");
+          var newPath = base + p;
+          var newSearch = q ? "?" + decodeURIComponent(q) : "";
+          window.history.replaceState(null, "", newPath + newSearch + window.location.hash);
+        } catch (e) {
+          // ignore
+        }
+      })();
+    </script>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
