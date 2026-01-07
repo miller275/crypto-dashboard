@@ -1,0 +1,48 @@
+{
+  "id": 36352,
+  "rank": 450,
+  "name": "BSquared Network",
+  "symbol": "B2",
+  "price": 0.712104544645302,
+  "change1h": -1.11280781,
+  "change24h": 0.7298422,
+  "change7d": -8.84820107,
+  "market_cap": 47962640.87417655,
+  "volume_24h": 22335528.8154305,
+  "circulating_supply": 67353370,
+  "max_supply": 210000000,
+  "sparkline7d": [],
+  "description": "BSquared Network (B2) is a cryptocurrency launched in 2025and operates on the BNB Smart Chain (BEP20) platform. BSquared Network has a current supply of 207,444,584.9777 with 67,353,370 in circulation. The last known price of BSquared Network is 0.71286084 USD and is up 0.83 over the last 24 hours. It is currently trading on 112 active market(s) with $22,334,319.54 traded over the last 24 hours. More information can be found at https://www.bsquared.network/.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/36352.png",
+  "urls": {
+    "website": [
+      "https://www.bsquared.network/"
+    ],
+    "twitter": [
+      "https://twitter.com/BsquaredNetwork"
+    ],
+    "message_board": [
+      "https://blog.bsquared.network/"
+    ],
+    "chat": [
+      "https://t.me/bsquared_chat",
+      "https://discord.com/invite/b2network"
+    ],
+    "facebook": [],
+    "explorer": [
+      "https://bscscan.com/token/0x783c3f003f172c6Ac5AC700218a357d2D66Ee2a2",
+      "https://app.nansen.ai/token-god-mode?chain=bnb&tab=transactions&tokenAddress=0x783c3f003f172c6Ac5AC700218a357d2D66Ee2a2"
+    ],
+    "reddit": [],
+    "technical_doc": [
+      "https://docs.bsquared.network/"
+    ],
+    "source_code": [
+      "https://github.com/b2network/"
+    ],
+    "announcement": [
+      "https://blog.bsquared.network/"
+    ]
+  },
+  "tags": []
+}

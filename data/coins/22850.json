@@ -1,0 +1,51 @@
+{
+  "id": 22850,
+  "rank": 487,
+  "name": "Hivemapper",
+  "symbol": "HONEY",
+  "price": 0.008120003256611392,
+  "change1h": 0.08106381,
+  "change24h": -1.1299012,
+  "change7d": 7.58664159,
+  "market_cap": 42706020.79820486,
+  "volume_24h": 439431.37162758,
+  "circulating_supply": 5259360057.944948,
+  "max_supply": 10000000000,
+  "sparkline7d": [],
+  "description": "Hivemapper (HONEY) is a cryptocurrency launched in 2022and operates on the Solana platform. Hivemapper has a current supply of 6,516,048,783.903606 with 5,259,360,057.944948 in circulation. The last known price of Hivemapper is 0.00811456 USD and is down -1.18 over the last 24 hours. It is currently trading on 66 active market(s) with $438,232.33 traded over the last 24 hours. More information can be found at https://hivemapper.com/.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/22850.png",
+  "urls": {
+    "website": [
+      "https://hivemapper.com/"
+    ],
+    "twitter": [
+      "https://twitter.com/Hivemapper"
+    ],
+    "message_board": [
+      "https://hivemapper.com/blog"
+    ],
+    "chat": [
+      "https://discord.com/invite/FRWMKyy5v2"
+    ],
+    "facebook": [
+      "https://www.facebook.com/hivemappernetwork"
+    ],
+    "explorer": [
+      "https://solscan.io/token/4vMsoUT2BWatFweudnQM1xedRLfJgJ7hswhcpz4xgBTy",
+      "https://app.nansen.ai/token-god-mode?chain=solana&tab=transactions&tokenAddress=4vMsoUT2BWatFweudnQM1xedRLfJgJ7hswhcpz4xgBTy"
+    ],
+    "reddit": [
+      "https://reddit.com/r/hivemappernetwork"
+    ],
+    "technical_doc": [
+      "https://docs.hivemapper.com/"
+    ],
+    "source_code": [
+      "https://github.com/hivemapper"
+    ],
+    "announcement": [
+      "https://hivemapper.com/blog"
+    ]
+  },
+  "tags": []
+}

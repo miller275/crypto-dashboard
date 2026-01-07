@@ -1,0 +1,49 @@
+{
+  "id": 35697,
+  "rank": 46,
+  "name": "Pi",
+  "symbol": "PI",
+  "price": 0.2077066498660702,
+  "change1h": -0.5011497,
+  "change24h": -1.0446413,
+  "change7d": 2.13083422,
+  "market_cap": 1741263108.295847,
+  "volume_24h": 8710410.33559429,
+  "circulating_supply": 8383280503.626716,
+  "max_supply": 100000000000,
+  "sparkline7d": [],
+  "description": "Pi (PI) is a cryptocurrency launched in 2019. Pi has a current supply of 100,000,000,000 with 8,383,280,503.626716 in circulation. The last known price of Pi is 0.20788813 USD and is down -0.96 over the last 24 hours. It is currently trading on 68 active market(s) with $8,692,423.30 traded over the last 24 hours. More information can be found at https://minepi.com.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/35697.png",
+  "urls": {
+    "website": [
+      "https://minepi.com",
+      "https://pinet.com"
+    ],
+    "twitter": [
+      "https://twitter.com/PiCoreTeam"
+    ],
+    "message_board": [
+      "https://minepi.com/blog/"
+    ],
+    "chat": [
+      "https://t.me/PiAnnouncements"
+    ],
+    "facebook": [
+      "https://www.facebook.com/PiCoreTeam"
+    ],
+    "explorer": [
+      "https://blockexplorer.minepi.com"
+    ],
+    "reddit": [],
+    "technical_doc": [
+      "https://minepi.com/white-paper/"
+    ],
+    "source_code": [
+      "https://github.com/orgs/pi-apps/"
+    ],
+    "announcement": [
+      "https://minepi.com/blog/"
+    ]
+  },
+  "tags": []
+}

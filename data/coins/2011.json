@@ -1,0 +1,53 @@
+{
+  "id": 2011,
+  "rank": 84,
+  "name": "Tezos",
+  "symbol": "XTZ",
+  "price": 0.5654603021909489,
+  "change1h": -0.47240031,
+  "change24h": -2.22519117,
+  "change7d": 12.48128913,
+  "market_cap": 605800640.5421801,
+  "volume_24h": 23499699.01948609,
+  "circulating_supply": 1071340708.08318,
+  "max_supply": null,
+  "sparkline7d": [],
+  "description": "Tezos (XTZ) is a cryptocurrency launched in 2018. Tezos has a current supply of 1,091,401,032.402582 with 1,071,340,708.08318 in circulation. The last known price of Tezos is 0.56525721 USD and is down -2.26 over the last 24 hours. It is currently trading on 477 active market(s) with $23,508,753.46 traded over the last 24 hours. More information can be found at https://www.tezos.com/.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/2011.png",
+  "urls": {
+    "website": [
+      "https://www.tezos.com/"
+    ],
+    "twitter": [
+      "https://twitter.com/tezos"
+    ],
+    "message_board": [
+      "https://forum.tezosagora.org/"
+    ],
+    "chat": [
+      "https://t.me/tezosplatform",
+      "https://discord.com/invite/yXaPy6s5Nr"
+    ],
+    "facebook": [
+      "https://www.facebook.com/tezosledger"
+    ],
+    "explorer": [
+      "https://tzstats.com/",
+      "https://tzkt.io/",
+      "https://bscscan.com/token/0x16939ef78684453bfdfb47825f8a5f714f12623a"
+    ],
+    "reddit": [
+      "https://reddit.com/r/tezos"
+    ],
+    "technical_doc": [
+      "https://tezos.com/whitepaper.pdf"
+    ],
+    "source_code": [
+      "https://gitlab.com/tezos/tezos"
+    ],
+    "announcement": [
+      "https://discord.com/invite/yXaPy6s5Nr"
+    ]
+  },
+  "tags": []
+}

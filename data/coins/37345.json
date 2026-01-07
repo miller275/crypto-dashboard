@@ -1,0 +1,43 @@
+{
+  "id": 37345,
+  "rank": 491,
+  "name": "Yala",
+  "symbol": "YU",
+  "price": 0.49919227378941616,
+  "change1h": 0,
+  "change24h": -6.22907514,
+  "change7d": 5.45233466,
+  "market_cap": 41562608.794303186,
+  "volume_24h": 0,
+  "circulating_supply": 83259719.70438857,
+  "max_supply": 16000000,
+  "sparkline7d": [],
+  "description": "Yala (YU) is a cryptocurrency launched in 2025and operates on the Ethereum platform. Yala has a current supply of 28,375,336.82528141 with 83,259,719.70438857 in circulation. The last known price of Yala is 0.49919227 USD and is down -6.23 over the last 24 hours. It is currently trading on 14 active market(s) with $0.00 traded over the last 24 hours. More information can be found at https://yala.org/.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/37345.png",
+  "urls": {
+    "website": [
+      "https://yala.org/"
+    ],
+    "twitter": [
+      "https://twitter.com/yalaorg"
+    ],
+    "message_board": [],
+    "chat": [
+      "https://t.me/yala_org",
+      "https://discord.gg/7jyuJeye7a"
+    ],
+    "facebook": [],
+    "explorer": [
+      "https://etherscan.io/token/0xE868084cf08F3c3db11f4B73a95473762d9463f7",
+      "https://app.nansen.ai/token-god-mode?chain=ethereum&tab=transactions&tokenAddress=0xE868084cf08F3c3db11f4B73a95473762d9463f7",
+      "https://solscan.io/token/YUYAiJo8KVbnc6Fb6h3MnH2VGND4uGWDH4iLnw7DLEu"
+    ],
+    "reddit": [],
+    "technical_doc": [
+      "https://yala.org/whitepaper.pdf"
+    ],
+    "source_code": [],
+    "announcement": []
+  },
+  "tags": []
+}

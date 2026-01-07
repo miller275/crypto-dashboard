@@ -1,0 +1,47 @@
+{
+  "id": 20947,
+  "rank": 18,
+  "name": "Sui",
+  "symbol": "SUI",
+  "price": 1.828294517667843,
+  "change1h": -1.0776546,
+  "change24h": -1.16617759,
+  "change7d": 30.52304359,
+  "market_cap": 6933227525.601882,
+  "volume_24h": 1182929580.1525815,
+  "circulating_supply": 3792183074.7738876,
+  "max_supply": 10000000000,
+  "sparkline7d": [],
+  "description": "Sui (SUI) is a cryptocurrency launched in 2023. Sui has a current supply of 10,000,000,000 with 3,792,183,074.7738876 in circulation. The last known price of Sui is 1.83111784 USD and is down -1.07 over the last 24 hours. It is currently trading on 880 active market(s) with $1,180,818,037.45 traded over the last 24 hours. More information can be found at https://sui.io/.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/20947.png",
+  "urls": {
+    "website": [
+      "https://sui.io/"
+    ],
+    "twitter": [
+      "https://twitter.com/SuiNetwork"
+    ],
+    "message_board": [
+      "https://blog.sui.io/"
+    ],
+    "chat": [
+      "https://discord.gg/sui"
+    ],
+    "facebook": [],
+    "explorer": [
+      "https://suiexplorer.com/",
+      "https://suivision.xyz/",
+      "https://suiscan.xyz/mainnet/home",
+      "https://www.okx.com/web3/explorer/sui"
+    ],
+    "reddit": [],
+    "technical_doc": [
+      "https://docs.sui.io/"
+    ],
+    "source_code": [
+      "https://github.com/MystenLabs"
+    ],
+    "announcement": []
+  },
+  "tags": []
+}

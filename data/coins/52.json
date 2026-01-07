@@ -1,0 +1,48 @@
+{
+  "id": 52,
+  "rank": 4,
+  "name": "XRP",
+  "symbol": "XRP",
+  "price": 2.1751865207239884,
+  "change1h": -0.79368444,
+  "change24h": -3.13557487,
+  "change7d": 18.75434936,
+  "market_cap": 131982474026.48473,
+  "volume_24h": 4396287590.999915,
+  "circulating_supply": 60676393849,
+  "max_supply": 100000000000,
+  "sparkline7d": [],
+  "description": "XRP (XRP) is a cryptocurrency . XRP has a current supply of 99,985,734,415 with 60,676,393,849 in circulation. The last known price of XRP is 2.17765392 USD and is down -3.35 over the last 24 hours. It is currently trading on 1778 active market(s) with $4,395,901,845.44 traded over the last 24 hours. More information can be found at https://xrpl.org/.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/52.png",
+  "urls": {
+    "website": [
+      "https://xrpl.org/"
+    ],
+    "twitter": [
+      "https://twitter.com/Ripple"
+    ],
+    "message_board": [
+      "http://www.xrpchat.com/"
+    ],
+    "chat": [],
+    "facebook": [],
+    "explorer": [
+      "https://livenet.xrpl.org/",
+      "https://app.nansen.ai/token-god-mode?chain=bnb&tab=transactions&tokenAddress=0x1d2f0da169ceb9fc7b3144628db156f3f6c60dbe",
+      "https://bithomp.com/explorer/",
+      "https://xrpscan.com/",
+      "https://blockchair.com/ripple"
+    ],
+    "reddit": [
+      "https://reddit.com/r/ripple"
+    ],
+    "technical_doc": [
+      "https://ripple.com/files/ripple_consensus_whitepaper.pdf"
+    ],
+    "source_code": [
+      "https://github.com/ripple/rippled"
+    ],
+    "announcement": []
+  },
+  "tags": []
+}

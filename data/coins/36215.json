@@ -1,0 +1,45 @@
+{
+  "id": 36215,
+  "rank": 396,
+  "name": "Apertum",
+  "symbol": "APTM",
+  "price": 0.8150774277713485,
+  "change1h": -0.20766512,
+  "change24h": -2.95074941,
+  "change7d": 3.32636361,
+  "market_cap": 58783495.07654212,
+  "volume_24h": 1435623.58151361,
+  "circulating_supply": 72120136.165803,
+  "max_supply": 2100000000,
+  "sparkline7d": [],
+  "description": "Apertum (APTM) is a cryptocurrency launched in 2025. Apertum has a current supply of 72,416,483.120355 with 72,120,136.165803 in circulation. The last known price of Apertum is 0.81504543 USD and is down -3.22 over the last 24 hours. It is currently trading on 8 active market(s) with $1,436,991.17 traded over the last 24 hours. More information can be found at https://apertum.io.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/36215.png",
+  "urls": {
+    "website": [
+      "https://apertum.io",
+      "https://explorer.apertum.io"
+    ],
+    "twitter": [
+      "https://twitter.com/Apertum_io"
+    ],
+    "message_board": [],
+    "chat": [
+      "https://www.t.me/apertum_io"
+    ],
+    "facebook": [],
+    "explorer": [
+      "https://explorer.apertum.io"
+    ],
+    "reddit": [],
+    "technical_doc": [
+      "https://apertum.io/apt-whitepaper.pdf"
+    ],
+    "source_code": [
+      "https://github.com/ava-labs/avalanche-docs/tree/master"
+    ],
+    "announcement": [
+      "https://www.t.me/apertum_io"
+    ]
+  },
+  "tags": []
+}

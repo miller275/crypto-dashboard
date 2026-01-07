@@ -1,0 +1,46 @@
+{
+  "id": 38331,
+  "rank": 438,
+  "name": "USDH",
+  "symbol": "USDH",
+  "price": 0.9985195092633935,
+  "change1h": 0.05599369,
+  "change24h": -0.23633647,
+  "change7d": -0.12287409,
+  "market_cap": 50153238.67643658,
+  "volume_24h": 9209208.18054729,
+  "circulating_supply": 50227600.173215,
+  "max_supply": null,
+  "sparkline7d": [],
+  "description": "USDH (USDH) is a cryptocurrency launched in 2025and operates on the HyperEVM platform. USDH has a current supply of 64,028,505.97 with 50,227,600.173215 in circulation. The last known price of USDH is 1.00025245 USD and is up 0.22 over the last 24 hours. It is currently trading on 16 active market(s) with $9,189,828.11 traded over the last 24 hours. More information can be found at https://nativemarkets.com.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/38331.png",
+  "urls": {
+    "website": [
+      "https://nativemarkets.com"
+    ],
+    "twitter": [
+      "https://twitter.com/nativemarkets"
+    ],
+    "message_board": [
+      "https://nativemarkets.com/"
+    ],
+    "chat": [
+      "https://t.me/nativemarkets"
+    ],
+    "facebook": [],
+    "explorer": [
+      "https://hyperevmscan.io/token/0x111111a1a0667d36bd57c0a9f569b98057111111"
+    ],
+    "reddit": [],
+    "technical_doc": [
+      "https://nativemarkets.substack.com/p/expanded-proposal-native-markets"
+    ],
+    "source_code": [
+      "https://github.com/native-markets"
+    ],
+    "announcement": [
+      "https://x.com/nativemarkets/status/1971881607423578266?s=20"
+    ]
+  },
+  "tags": []
+}

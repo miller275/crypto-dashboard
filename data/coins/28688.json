@@ -1,0 +1,43 @@
+{
+  "id": 28688,
+  "rank": 474,
+  "name": "AI Analysis Token",
+  "symbol": "AIAT",
+  "price": 0.3070647248946706,
+  "change1h": 0.58793857,
+  "change24h": 0.93452951,
+  "change7d": -1.36889827,
+  "market_cap": 44951039.96716279,
+  "volume_24h": 369853.82239527,
+  "circulating_supply": 146389462.2952275,
+  "max_supply": 500000000,
+  "sparkline7d": [],
+  "description": "AI Analysis Token (AIAT) is a cryptocurrency launched in 2023and operates on the Ethereum platform. AI Analysis Token has a current supply of 500,000,000 with 146,389,462.29522751 in circulation. The last known price of AI Analysis Token is 0.30525565 USD and is up 0.29 over the last 24 hours. It is currently trading on 11 active market(s) with $365,401.31 traded over the last 24 hours. More information can be found at https://aianalysis.group/token/.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/28688.png",
+  "urls": {
+    "website": [
+      "https://aianalysis.group/token/"
+    ],
+    "twitter": [
+      "https://twitter.com/AiAnalysisGroup"
+    ],
+    "message_board": [],
+    "chat": [
+      "https://t.me/aianalysiscommunity"
+    ],
+    "facebook": [],
+    "explorer": [
+      "https://etherscan.io/token/0x0501b9188436e35bb10f35998c40adc079003866",
+      "https://app.nansen.ai/token-god-mode?chain=ethereum&tab=transactions&tokenAddress=0x0501b9188436E35bB10F35998c40ADC079003866"
+    ],
+    "reddit": [],
+    "technical_doc": [
+      "https://aianalysis.group/wp-content/uploads/2024/02/aiat-whitepaper.pdf"
+    ],
+    "source_code": [],
+    "announcement": [
+      "https://t.me/aianalysisofficial"
+    ]
+  },
+  "tags": []
+}

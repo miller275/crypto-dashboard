@@ -1,0 +1,54 @@
+{
+  "id": 5034,
+  "rank": 192,
+  "name": "Kusama",
+  "symbol": "KSM",
+  "price": 7.8546079417122385,
+  "change1h": -0.7388392,
+  "change24h": -4.23471954,
+  "change7d": 15.84015966,
+  "market_cap": 138122095.02770445,
+  "volume_24h": 10016810.34019262,
+  "circulating_supply": 17584849.05328005,
+  "max_supply": null,
+  "sparkline7d": [],
+  "description": "Kusama (KSM) is a cryptocurrency launched in 2019. Kusama has a current supply of 17,584,849.05328005. The last known price of Kusama is 7.86901319 USD and is down -4.12 over the last 24 hours. It is currently trading on 292 active market(s) with $9,991,506.91 traded over the last 24 hours. More information can be found at https://kusama.network/.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/5034.png",
+  "urls": {
+    "website": [
+      "https://kusama.network/"
+    ],
+    "twitter": [
+      "https://twitter.com/kusamanetwork"
+    ],
+    "message_board": [
+      "https://guide.kusama.network/docs/community/",
+      "https://forum.polkadot.network/"
+    ],
+    "chat": [
+      "https://kusama-discord.w3f.tools/",
+      "https://t.me/kusamaannouncements"
+    ],
+    "facebook": [],
+    "explorer": [
+      "https://kusama.subscan.io/",
+      "https://kusama.statescan.io/",
+      "https://3xpl.com/kusama",
+      "https://blockchair.com/kusama",
+      "https://polkadot.js.org/apps/#/explorer"
+    ],
+    "reddit": [
+      "https://reddit.com/r/Kusama"
+    ],
+    "technical_doc": [
+      "https://guide.kusama.network/docs/kusama-getting-started/"
+    ],
+    "source_code": [
+      "https://github.com/paritytech/polkadot-sdk"
+    ],
+    "announcement": [
+      "https://medium.com/polkadot-network/kusama-network-7446706b8f4c"
+    ]
+  },
+  "tags": []
+}

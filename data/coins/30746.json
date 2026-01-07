@@ -1,0 +1,49 @@
+{
+  "id": 30746,
+  "rank": 371,
+  "name": "BounceBit",
+  "symbol": "BB",
+  "price": 0.06937696117755196,
+  "change1h": 0.17947495,
+  "change24h": -2.31410699,
+  "change7d": 24.2966511,
+  "market_cap": 64643171.796398126,
+  "volume_24h": 23623829.97122523,
+  "circulating_supply": 931767127,
+  "max_supply": 2100000000,
+  "sparkline7d": [],
+  "description": "BounceBit (BB) is a cryptocurrency launched in 2024. BounceBit has a current supply of 2,100,000,000 with 931,767,127 in circulation. The last known price of BounceBit is 0.06958003 USD and is down -1.85 over the last 24 hours. It is currently trading on 132 active market(s) with $23,718,611.49 traded over the last 24 hours. More information can be found at https://bouncebit.io/.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/30746.png",
+  "urls": {
+    "website": [
+      "https://bouncebit.io/"
+    ],
+    "twitter": [
+      "https://twitter.com/bounce_bit"
+    ],
+    "message_board": [
+      "https://medium.com/@bouncebit"
+    ],
+    "chat": [
+      "https://discord.com/invite/bouncebit",
+      "https://t.me/bouncebit_io"
+    ],
+    "facebook": [],
+    "explorer": [
+      "https://solscan.io/token/76SYfdi8jT84GqxuTqu7FuyA4GQbrto1pLDGQKsy8K12",
+      "https://app.nansen.ai/token-god-mode?chain=ethereum&tab=transactions&tokenAddress=0xd459ECeddafcc1d876a3be7290A2E16e801073a3",
+      "https://bbscan.io"
+    ],
+    "reddit": [],
+    "technical_doc": [
+      "https://docs.bouncebit.io/"
+    ],
+    "source_code": [
+      "https://github.com/BounceBit-Labs"
+    ],
+    "announcement": [
+      "https://x.com/bounce_bit"
+    ]
+  },
+  "tags": []
+}

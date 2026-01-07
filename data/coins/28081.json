@@ -1,0 +1,45 @@
+{
+  "id": 28081,
+  "rank": 86,
+  "name": "SPX6900",
+  "symbol": "SPX",
+  "price": 0.601195379034379,
+  "change1h": 0.25069956,
+  "change24h": -1.44231176,
+  "change7d": 26.54196677,
+  "market_cap": 559708743.6630214,
+  "volume_24h": 19299912.60182679,
+  "circulating_supply": 930993090.07,
+  "max_supply": 1000000000,
+  "sparkline7d": [],
+  "description": "SPX6900 (SPX) is a cryptocurrency and operates on the Ethereum platform. SPX6900 has a current supply of 930,993,090.07. The last known price of SPX6900 is 0.60088787 USD and is down -1.66 over the last 24 hours. It is currently trading on 469 active market(s) with $19,458,951.93 traded over the last 24 hours. More information can be found at https://www.spx6900.com.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/28081.png",
+  "urls": {
+    "website": [
+      "https://www.spx6900.com"
+    ],
+    "twitter": [
+      "https://twitter.com/spx6900"
+    ],
+    "message_board": [],
+    "chat": [
+      "https://t.me/SPX6900Portal",
+      "https://warpcast.com/~/channel/spx6900",
+      "https://www.instagram.com/spx6900coin"
+    ],
+    "facebook": [],
+    "explorer": [
+      "https://etherscan.io/token/0xE0f63A424a4439cBE457D80E4f4b51aD25b2c56C",
+      "https://app.nansen.ai/token-god-mode?chain=ethereum&tab=transactions&tokenAddress=0xe0f63a424a4439cbe457d80e4f4b51ad25b2c56c",
+      "https://solscan.io/token/J3NKxxXZcnNiMjKw9hYb2K4LUxgwB6t1FtPtQVsv3KFr",
+      "https://basescan.org/token/0x50dA645f148798F68EF2d7dB7C1CB22A6819bb2C"
+    ],
+    "reddit": [
+      "https://reddit.com/r/spx6900/"
+    ],
+    "technical_doc": [],
+    "source_code": [],
+    "announcement": []
+  },
+  "tags": []
+}

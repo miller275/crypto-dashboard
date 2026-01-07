@@ -1,0 +1,49 @@
+{
+  "id": 3155,
+  "rank": 69,
+  "name": "Quant",
+  "symbol": "QNT",
+  "price": 74.91372097743731,
+  "change1h": -1.19935552,
+  "change24h": -2.80884959,
+  "change7d": 8.26040975,
+  "market_cap": 904413725.9657046,
+  "volume_24h": 11608234.16853442,
+  "circulating_supply": 12072738,
+  "max_supply": 14881364,
+  "sparkline7d": [],
+  "description": "Quant (QNT) is a cryptocurrency and operates on the Ethereum platform. Quant has a current supply of 14,881,364 with 12,072,738 in circulation. The last known price of Quant is 75.14211192 USD and is down -2.55 over the last 24 hours. It is currently trading on 351 active market(s) with $11,570,296.90 traded over the last 24 hours. More information can be found at https://quant.network/.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/3155.png",
+  "urls": {
+    "website": [
+      "https://quant.network/"
+    ],
+    "twitter": [
+      "https://twitter.com/quant_network"
+    ],
+    "message_board": [
+      "https://medium.com/@quant_network"
+    ],
+    "chat": [
+      "https://t.me/QuantOverledger",
+      "https://t.me/quantnetworkannouncements"
+    ],
+    "facebook": [],
+    "explorer": [
+      "https://etherscan.io/token/0x4a220e6096b25eadb88358cb44068a3248254675",
+      "https://app.nansen.ai/token-god-mode?chain=ethereum&tab=transactions&tokenAddress=0x4a220e6096b25eadb88358cb44068a3248254675",
+      "https://www.okx.com/web3/explorer/eth/token/0x4a220e6096b25eadb88358cb44068a3248254675"
+    ],
+    "reddit": [
+      "https://reddit.com/r/QuantNetwork"
+    ],
+    "technical_doc": [],
+    "source_code": [
+      "https://github.com/quantnetwork/"
+    ],
+    "announcement": [
+      "https://bitcointalk.org/index.php?topic=3200795.0"
+    ]
+  },
+  "tags": []
+}

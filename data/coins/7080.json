@@ -1,0 +1,50 @@
+{
+  "id": 7080,
+  "rank": 127,
+  "name": "Gala",
+  "symbol": "GALA",
+  "price": 0.00724743508738728,
+  "change1h": -0.77474439,
+  "change24h": -2.07039928,
+  "change7d": 24.68590145,
+  "market_cap": 340719680.5609249,
+  "volume_24h": 37593335.18086632,
+  "circulating_supply": 47012450122.37222,
+  "max_supply": 50000000000,
+  "sparkline7d": [],
+  "description": "Gala (GALA) is a cryptocurrency and operates on the Ethereum platform. Gala has a current supply of 47,012,450,122.37222. The last known price of Gala is 0.00725014 USD and is down -2.16 over the last 24 hours. It is currently trading on 567 active market(s) with $37,547,627.83 traded over the last 24 hours. More information can be found at https://gala.com/.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/7080.png",
+  "urls": {
+    "website": [
+      "https://gala.com/"
+    ],
+    "twitter": [
+      "https://twitter.com/GoGalaGames"
+    ],
+    "message_board": [
+      "https://blog.gala.games/"
+    ],
+    "chat": [
+      "http://www.galagames.chat/",
+      "https://t.me/PoweredByGala"
+    ],
+    "facebook": [
+      "https://www.facebook.com/GoGalaGames/"
+    ],
+    "explorer": [
+      "https://etherscan.io/token/0xd1d2Eb1B1e90B638588728b4130137D262C87cae",
+      "https://app.nansen.ai/token-god-mode?chain=ethereum&tab=transactions&tokenAddress=0xd1d2Eb1B1e90B638588728b4130137D262C87cae",
+      "https://solscan.io/token/eEUiUs4JWYZrp72djAGF1A8PhpR6rHphGeGN7GbVLp6",
+      "https://www.oklink.com/eth/token/0xd1d2Eb1B1e90B638588728b4130137D262C87cae"
+    ],
+    "reddit": [
+      "https://reddit.com/r/GoGalaGames/"
+    ],
+    "technical_doc": [],
+    "source_code": [],
+    "announcement": [
+      "https://blog.gala.games/"
+    ]
+  },
+  "tags": []
+}

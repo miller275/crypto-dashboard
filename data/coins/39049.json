@@ -1,0 +1,39 @@
+{
+  "id": 39049,
+  "rank": 498,
+  "name": "Humidifi",
+  "symbol": "WET",
+  "price": 0.17534442784676263,
+  "change1h": -1.3611254,
+  "change24h": -1.96424786,
+  "change7d": 2.60109217,
+  "market_cap": 40329218.404755406,
+  "volume_24h": 21591888.89739878,
+  "circulating_supply": 230000000,
+  "max_supply": 1000000000,
+  "sparkline7d": [],
+  "description": "Humidifi (WET) is a cryptocurrency and operates on the Solana platform. Humidifi has a current supply of 1,000,000,000 with 230,000,000 in circulation. The last known price of Humidifi is 0.1754815 USD and is down -2.01 over the last 24 hours. It is currently trading on 134 active market(s) with $21,570,886.31 traded over the last 24 hours. More information can be found at https://humidifi.xyz/.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/39049.png",
+  "urls": {
+    "website": [
+      "https://humidifi.xyz/"
+    ],
+    "twitter": [
+      "https://twitter.com/humidifi"
+    ],
+    "message_board": [],
+    "chat": [
+      "https://discord.com/invite/humidifixyz"
+    ],
+    "facebook": [],
+    "explorer": [
+      "https://solscan.io/token/WETZjtprkDMCcUxPi9PfWnowMRZkiGGHDb9rABuRZ2U",
+      "https://app.nansen.ai/token-god-mode?chain=solana&tab=transactions&tokenAddress=WETZjtprkDMCcUxPi9PfWnowMRZkiGGHDb9rABuRZ2U"
+    ],
+    "reddit": [],
+    "technical_doc": [],
+    "source_code": [],
+    "announcement": []
+  },
+  "tags": []
+}

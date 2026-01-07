@@ -1,0 +1,40 @@
+{
+  "id": 36532,
+  "rank": 149,
+  "name": "BUILDon",
+  "symbol": "B",
+  "price": 0.2366664979756332,
+  "change1h": -0.44624398,
+  "change24h": 5.27175912,
+  "change7d": 71.9023663,
+  "market_cap": 236666497.97563317,
+  "volume_24h": 64957244.74291284,
+  "circulating_supply": 1000000000,
+  "max_supply": null,
+  "sparkline7d": [],
+  "description": "BUILDon (B) is a cryptocurrency launched in 2025and operates on the BNB Smart Chain (BEP20) platform. BUILDon has a current supply of 1,000,000,000. The last known price of BUILDon is 0.23781656 USD and is up 5.39 over the last 24 hours. It is currently trading on 124 active market(s) with $64,987,701.52 traded over the last 24 hours. More information can be found at https://buildon.online/.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/36532.png",
+  "urls": {
+    "website": [
+      "https://buildon.online/"
+    ],
+    "twitter": [
+      "https://twitter.com/BUILDonBsc_AI"
+    ],
+    "message_board": [],
+    "chat": [
+      "https://t.me/BUILDonBsc_AI"
+    ],
+    "facebook": [],
+    "explorer": [
+      "https://bscscan.com/token/0x6bdcce4a559076e37755a78ce0c06214e59e4444",
+      "https://app.nansen.ai/token-god-mode?chain=bnb&tab=transactions&tokenAddress=0x6bdcce4a559076e37755a78ce0c06214e59e4444",
+      "https://bscscan.com/address/0x6bdcce4a559076e37755a78ce0c06214e59e4444"
+    ],
+    "reddit": [],
+    "technical_doc": [],
+    "source_code": [],
+    "announcement": []
+  },
+  "tags": []
+}

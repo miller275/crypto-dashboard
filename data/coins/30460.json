@@ -1,0 +1,40 @@
+{
+  "id": 30460,
+  "rank": 333,
+  "name": "Burnedfi",
+  "symbol": "BURN",
+  "price": 6.092914767727869,
+  "change1h": -0.14293879,
+  "change24h": 3.25372027,
+  "change7d": -20.41607842,
+  "market_cap": 75445106.5639203,
+  "volume_24h": 261832.65728922,
+  "circulating_supply": 12382432.61887197,
+  "max_supply": 21000000,
+  "sparkline7d": [],
+  "description": "Burnedfi (BURN) is a cryptocurrency launched in 2023and operates on the BNB Smart Chain (BEP20) platform. Burnedfi has a current supply of 12,382,432.61887197. The last known price of Burnedfi is 6.09292717 USD and is up 3.31 over the last 24 hours. It is currently trading on 16 active market(s) with $262,332.37 traded over the last 24 hours. More information can be found at https://burnedfi.app/.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/30460.png",
+  "urls": {
+    "website": [
+      "https://burnedfi.app/"
+    ],
+    "twitter": [
+      "https://twitter.com/burnArmy"
+    ],
+    "message_board": [],
+    "chat": [
+      "https://t.me/burnedfi",
+      "https://t.me/burn_global"
+    ],
+    "facebook": [],
+    "explorer": [
+      "https://bscscan.com/token/0x19c018e13cff682e729cc7b5fb68c8a641bf98a4",
+      "https://app.nansen.ai/token-god-mode?chain=bnb&tab=transactions&tokenAddress=0x19c018e13cff682e729cc7b5fb68c8a641bf98a4"
+    ],
+    "reddit": [],
+    "technical_doc": [],
+    "source_code": [],
+    "announcement": []
+  },
+  "tags": []
+}

@@ -1,0 +1,49 @@
+{
+  "id": 35954,
+  "rank": 216,
+  "name": "Loaded Lions",
+  "symbol": "LION",
+  "price": 0.007171123834997354,
+  "change1h": -0.5390816,
+  "change24h": -3.64313882,
+  "change7d": 7.50627581,
+  "market_cap": 221194897.25712803,
+  "volume_24h": 988141.0496213,
+  "circulating_supply": 30845220686,
+  "max_supply": 100000000000,
+  "sparkline7d": [],
+  "description": "Loaded Lions (LION) is a cryptocurrency launched in 2025and operates on the Solana platform. Loaded Lions has a current supply of 100,000,000,000 with 30,845,220,686 in circulation. The last known price of Loaded Lions is 0.00717088 USD and is down -3.51 over the last 24 hours. It is currently trading on 23 active market(s) with $988,540.96 traded over the last 24 hours. More information can be found at https://loadedlions.com/.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/35954.png",
+  "urls": {
+    "website": [
+      "https://loadedlions.com/"
+    ],
+    "twitter": [
+      "https://twitter.com/LoadedLions_CDC"
+    ],
+    "message_board": [
+      "https://crypto.com/en/product-news/lion-token-launch"
+    ],
+    "chat": [
+      "https://discord.com/invite/cryptocom"
+    ],
+    "facebook": [],
+    "explorer": [
+      "https://solscan.io/token/7kN5FQMD8ja4bzysEgc5FXmryKd6gCgjiWnhksjHCFb3",
+      "https://app.nansen.ai/token-god-mode?chain=solana&tab=transactions&tokenAddress=7kN5FQMD8ja4bzysEgc5FXmryKd6gCgjiWnhksjHCFb3",
+      "https://explorer.cronos.org/token/0x9d8c68f185a04314ddc8b8216732455e8dbb7e45",
+      "https://arbiscan.io/address/0x527e8D368298deA5a53be257e5300F4DBafb7a97"
+    ],
+    "reddit": [],
+    "technical_doc": [
+      "https://whitepaper.loadedlions.com/"
+    ],
+    "source_code": [
+      "https://github.com/cronos-labs/loaded-lion-vault/tree/main/contracts/lion"
+    ],
+    "announcement": [
+      "https://x.com/LoadedLions_CDC/status/1896462293736763403"
+    ]
+  },
+  "tags": []
+}

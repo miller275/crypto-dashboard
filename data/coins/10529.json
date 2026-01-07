@@ -1,0 +1,48 @@
+{
+  "id": 10529,
+  "rank": 114,
+  "name": "Sun [New]",
+  "symbol": "SUN",
+  "price": 0.02040289490856109,
+  "change1h": -0.18337104,
+  "change24h": 1.64815514,
+  "change7d": 9.33340421,
+  "market_cap": 391656930.9397599,
+  "volume_24h": 22199077.48526637,
+  "circulating_supply": 19196145090.93119,
+  "max_supply": 19900730000,
+  "sparkline7d": [],
+  "description": "Sun [New] (SUN) is a cryptocurrency launched in 2020and operates on the Tron20 platform. Sun [New] has a current supply of 19,900,730,000 with 19,196,145,090.931192 in circulation. The last known price of Sun [New] is 0.02038113 USD and is up 1.52 over the last 24 hours. It is currently trading on 202 active market(s) with $22,125,235.08 traded over the last 24 hours. More information can be found at https://sun.io/.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/10529.png",
+  "urls": {
+    "website": [
+      "https://sun.io/",
+      "https://sunpump.meme/"
+    ],
+    "twitter": [
+      "https://twitter.com/sunpumpmeme"
+    ],
+    "message_board": [
+      "https://medium.com/@sunpumpmeme"
+    ],
+    "chat": [
+      "https://t.me/officialsunpumpmeme"
+    ],
+    "facebook": [],
+    "explorer": [
+      "https://tronscan.org/#/token20/TSSMHYeV2uE9qYH95DqyoCuNCzEL1NvU3S",
+      "https://app.nansen.ai/token-god-mode?chain=tron&tab=transactions&tokenAddress=TSSMHYeV2uE9qYH95DqyoCuNCzEL1NvU3S"
+    ],
+    "reddit": [],
+    "technical_doc": [
+      "https://sun.io/docs/SUN_V3_Whitepaper_cn.pdf"
+    ],
+    "source_code": [
+      "https://github.com/sunswapteam"
+    ],
+    "announcement": [
+      "https://sunio.zendesk.com/hc/zh-cn/categories/360004849231"
+    ]
+  },
+  "tags": []
+}

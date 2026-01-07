@@ -1,0 +1,48 @@
+{
+  "id": 9481,
+  "rank": 122,
+  "name": "Pendle",
+  "symbol": "PENDLE",
+  "price": 2.158310259926851,
+  "change1h": -0.60553051,
+  "change24h": -4.95009336,
+  "change7d": 14.99536281,
+  "market_cap": 363150640.59725356,
+  "volume_24h": 39384809.29103219,
+  "circulating_supply": 168256921.7873066,
+  "max_supply": null,
+  "sparkline7d": [],
+  "description": "Pendle (PENDLE) is a cryptocurrency launched in 2021and operates on the Ethereum platform. Pendle has a current supply of 281,527,448.45853144 with 168,256,921.7873066 in circulation. The last known price of Pendle is 2.15835167 USD and is down -5.21 over the last 24 hours. It is currently trading on 555 active market(s) with $39,499,551.89 traded over the last 24 hours. More information can be found at https://pendle.finance/.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/9481.png",
+  "urls": {
+    "website": [
+      "https://pendle.finance/"
+    ],
+    "twitter": [
+      "https://twitter.com/pendle_fi"
+    ],
+    "message_board": [
+      "https://medium.com/pendle"
+    ],
+    "chat": [
+      "https://discord.gg/EAujvncY2R"
+    ],
+    "facebook": [],
+    "explorer": [
+      "https://etherscan.io/token/0x808507121b80c02388fad14726482e061b8da827",
+      "https://app.nansen.ai/token-god-mode?chain=ethereum&tab=transactions&tokenAddress=0x808507121b80c02388fad14726482e061b8da827",
+      "https://arbiscan.io/token/0x0c880f6761f1af8d9aa9c466984b80dab9a8c9e8",
+      "https://bscscan.com/token/0xb3ed0a426155b79b898849803e3b36552f7ed507",
+      "https://www.okx.com/web3/explorer/eth/token/0x808507121b80c02388fad14726482e061b8da827"
+    ],
+    "reddit": [],
+    "technical_doc": [
+      "https://docs.pendle.finance/resources/lite-paper"
+    ],
+    "source_code": [
+      "https://github.com/pendle-finance"
+    ],
+    "announcement": []
+  },
+  "tags": []
+}

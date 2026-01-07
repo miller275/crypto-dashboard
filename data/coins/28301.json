@@ -1,0 +1,42 @@
+{
+  "id": 28301,
+  "rank": 351,
+  "name": "Memecoin",
+  "symbol": "MEME",
+  "price": 0.001187406078638682,
+  "change1h": -0.79743427,
+  "change24h": -2.779421,
+  "change7d": 20.11023056,
+  "market_cap": 70898186.87240635,
+  "volume_24h": 11318863.59914099,
+  "circulating_supply": 59708458755.48199,
+  "max_supply": 69000000000,
+  "sparkline7d": [],
+  "description": "Memecoin (MEME) is a cryptocurrency and operates on the Ethereum platform. Memecoin has a current supply of 69,000,000,000 with 59,708,458,755.48198957 in circulation. The last known price of Memecoin is 0.00118789 USD and is down -2.93 over the last 24 hours. It is currently trading on 231 active market(s) with $11,298,346.42 traded over the last 24 hours. More information can be found at https://www.memecoin.org/.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/28301.png",
+  "urls": {
+    "website": [
+      "https://www.memecoin.org/",
+      "https://www.memeland.com/"
+    ],
+    "twitter": [
+      "https://twitter.com/memecoin"
+    ],
+    "message_board": [],
+    "chat": [
+      "https://discord.gg/memeland"
+    ],
+    "facebook": [],
+    "explorer": [
+      "https://etherscan.io/token/0xb131f4a55907b10d1f0a50d8ab8fa09ec342cd74",
+      "https://app.nansen.ai/token-god-mode?chain=ethereum&tab=transactions&tokenAddress=0xb131f4a55907b10d1f0a50d8ab8fa09ec342cd74"
+    ],
+    "reddit": [],
+    "technical_doc": [
+      "https://www.memecoin.org/whitepaper"
+    ],
+    "source_code": [],
+    "announcement": []
+  },
+  "tags": []
+}

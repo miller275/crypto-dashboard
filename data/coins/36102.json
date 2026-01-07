@@ -1,0 +1,49 @@
+{
+  "id": 36102,
+  "rank": 476,
+  "name": "Particle Network",
+  "symbol": "PARTI",
+  "price": 0.10237360320004431,
+  "change1h": 0.14445337,
+  "change24h": -2.68122715,
+  "change7d": 0.8444398,
+  "market_cap": 44645127.94604488,
+  "volume_24h": 18010916.88752833,
+  "circulating_supply": 436099995.9999997,
+  "max_supply": 1000000000,
+  "sparkline7d": [],
+  "description": "Particle Network (PARTI) is a cryptocurrency launched in 2025and operates on the BNB Smart Chain (BEP20) platform. Particle Network has a current supply of 1,000,000,000 with 436,099,995.9999997 in circulation. The last known price of Particle Network is 0.10255763 USD and is down -2.75 over the last 24 hours. It is currently trading on 162 active market(s) with $17,964,725.96 traded over the last 24 hours. More information can be found at https://particle.network/.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/36102.png",
+  "urls": {
+    "website": [
+      "https://particle.network/"
+    ],
+    "twitter": [
+      "https://twitter.com/ParticleNtwrk"
+    ],
+    "message_board": [
+      "https://blog.particle.network/"
+    ],
+    "chat": [
+      "https://discord.com/invite/particlenetwork"
+    ],
+    "facebook": [],
+    "explorer": [
+      "https://bscscan.com/token/0x59264f02D301281f3393e1385c0aEFd446Eb0F00",
+      "https://app.nansen.ai/token-god-mode?chain=bnb&tab=transactions&tokenAddress=0x59264f02D301281f3393e1385c0aEFd446Eb0F00",
+      "https://basescan.org/token/0x59264f02D301281f3393e1385c0aEFd446Eb0F00",
+      "https://app.nansen.ai/token-god-mode?chain=base&tab=transactions&tokenAddress=0x59264f02D301281f3393e1385c0aEFd446Eb0F00"
+    ],
+    "reddit": [],
+    "technical_doc": [
+      "https://whitepaper.particle.network/"
+    ],
+    "source_code": [
+      "https://github.com/Particle-Network/"
+    ],
+    "announcement": [
+      "https://x.com/okx/status/1904111468871901369"
+    ]
+  },
+  "tags": []
+}

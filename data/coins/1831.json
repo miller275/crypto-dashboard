@@ -1,0 +1,48 @@
+{
+  "id": 1831,
+  "rank": 11,
+  "name": "Bitcoin Cash",
+  "symbol": "BCH",
+  "price": 623.591062062214,
+  "change1h": -0.69264649,
+  "change24h": -1.36274343,
+  "change7d": 4.63011569,
+  "market_cap": 12457934647.780981,
+  "volume_24h": 257644574.0926541,
+  "circulating_supply": 19977731.25,
+  "max_supply": 21000000,
+  "sparkline7d": [],
+  "description": "Bitcoin Cash (BCH) is a cryptocurrency . Users are able to generate BCH through the process of mining. Bitcoin Cash has a current supply of 19,977,731.25. The last known price of Bitcoin Cash is 623.85839728 USD and is down -1.32 over the last 24 hours. It is currently trading on 1114 active market(s) with $256,385,116.71 traded over the last 24 hours. More information can be found at http://bch.info.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/1831.png",
+  "urls": {
+    "website": [
+      "http://bch.info"
+    ],
+    "twitter": [],
+    "message_board": [],
+    "chat": [
+      "https://t.me/bchchannel"
+    ],
+    "facebook": [],
+    "explorer": [
+      "https://explorer.bitcoin.com/bch",
+      "https://app.nansen.ai/token-god-mode?chain=bnb&tab=transactions&tokenAddress=0x8fF795a6F4D97E7887C79beA79aba5cc76444aDf",
+      "https://blockchair.com/bitcoin-cash",
+      "https://bch.tokenview.com/en",
+      "https://www.oklink.com/bch"
+    ],
+    "reddit": [
+      "https://reddit.com/r/Bitcoincash"
+    ],
+    "technical_doc": [
+      "https://bch.info/bitcoin.pdf"
+    ],
+    "source_code": [
+      "https://gitlab.com/bitcoin-cash-node/"
+    ],
+    "announcement": [
+      "https://bitcointalk.org/index.php?topic=2040221.0"
+    ]
+  },
+  "tags": []
+}

@@ -1,0 +1,47 @@
+{
+  "id": 19891,
+  "rank": 70,
+  "name": "USDD",
+  "symbol": "USDD",
+  "price": 0.9993539121311613,
+  "change1h": 0.03120666,
+  "change24h": 0.00695683,
+  "change7d": 0.1194489,
+  "market_cap": 873131639.5332322,
+  "volume_24h": 4383673.70492802,
+  "circulating_supply": 873696124,
+  "max_supply": null,
+  "sparkline7d": [],
+  "description": "USDD (USDD) is a cryptocurrency launched in 2022and operates on the Tron20 platform. USDD has a current supply of 873,696,124. The last known price of USDD is 0.99862604 USD and is down -0.08 over the last 24 hours. It is currently trading on 196 active market(s) with $4,377,936.25 traded over the last 24 hours. More information can be found at https://usdd.io/.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/19891.png",
+  "urls": {
+    "website": [
+      "https://usdd.io/",
+      "https://usdd.network/"
+    ],
+    "twitter": [
+      "https://twitter.com/usddio"
+    ],
+    "message_board": [],
+    "chat": [
+      "https://discord.com/invite/usdd",
+      "https://t.me/usddio"
+    ],
+    "facebook": [],
+    "explorer": [
+      "https://tronscan.org/#/token20/TXDk8mbtRbXeYuMNS83CfKPaYYT8XWv9Hz",
+      "https://app.nansen.ai/token-god-mode?chain=ethereum&tab=transactions&tokenAddress=0x3D7975EcCFc61a2102b08925CbBa0a4D4dBB6555",
+      "https://bscscan.com/token/0x392004BEe213F1FF580C867359C246924f21E6Ad",
+      "https://etherscan.io/token/0x4f8e5de400de08b164e7421b3ee387f461becd1a"
+    ],
+    "reddit": [],
+    "technical_doc": [
+      "https://usdd.network/USDD-en.pdf"
+    ],
+    "source_code": [
+      "https://tronscan.org/#/contract/TPYmHEhy5n8TCEfYGqW2rPxsghSfzghPDn/code"
+    ],
+    "announcement": []
+  },
+  "tags": []
+}

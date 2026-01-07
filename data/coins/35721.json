@@ -1,0 +1,41 @@
+{
+  "id": 35721,
+  "rank": 202,
+  "name": "Falcon USD",
+  "symbol": "USDf",
+  "price": 0.9965304411216085,
+  "change1h": -0.02119039,
+  "change24h": -0.03698015,
+  "change7d": -0.02483299,
+  "market_cap": 2049348305.4028933,
+  "volume_24h": 1363621.60402512,
+  "circulating_supply": 2056483395.6264539,
+  "max_supply": null,
+  "sparkline7d": [],
+  "description": "Falcon USD (USDf) is a cryptocurrency launched in 2025and operates on the Ethereum platform. Falcon USD has a current supply of 2,056,483,395.62645399. The last known price of Falcon USD is 0.99661655 USD and is up 0.00 over the last 24 hours. It is currently trading on 37 active market(s) with $1,574,852.09 traded over the last 24 hours. More information can be found at https://falcon.finance/.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/35721.png",
+  "urls": {
+    "website": [
+      "https://falcon.finance/"
+    ],
+    "twitter": [
+      "https://twitter.com/FalconStable"
+    ],
+    "message_board": [],
+    "chat": [
+      "https://t.me/falconstable"
+    ],
+    "facebook": [],
+    "explorer": [
+      "https://etherscan.io/token/0xFa2B947eEc368f42195f24F36d2aF29f7c24CeC2",
+      "https://app.nansen.ai/token-god-mode?chain=ethereum&tab=transactions&tokenAddress=0xFa2B947eEc368f42195f24F36d2aF29f7c24CeC2",
+      "https://bscscan.com/token/0xb3b02e4a9fb2bd28cc2ff97b0ab3f6b3ec1ee9d2",
+      "https://xdcscan.io/tokens/0x8210c0634AB8f273806e4b7866E9Db353773c44B"
+    ],
+    "reddit": [],
+    "technical_doc": [],
+    "source_code": [],
+    "announcement": []
+  },
+  "tags": []
+}

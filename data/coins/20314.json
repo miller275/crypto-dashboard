@@ -1,0 +1,48 @@
+{
+  "id": 20314,
+  "rank": 370,
+  "name": "Terra",
+  "symbol": "LUNA",
+  "price": 0.09150428728184283,
+  "change1h": -0.71704661,
+  "change24h": -2.72781107,
+  "change7d": -7.47848657,
+  "market_cap": 64966620.06428635,
+  "volume_24h": 28174494.65167921,
+  "circulating_supply": 709984438.91686,
+  "max_supply": null,
+  "sparkline7d": [],
+  "description": "Terra (LUNA) is a cryptocurrency launched in 2022. Terra has a current supply of 1,186,707,049 with 709,984,438.91686 in circulation. The last known price of Terra is 0.09154141 USD and is down -3.08 over the last 24 hours. It is currently trading on 217 active market(s) with $28,226,791.52 traded over the last 24 hours. More information can be found at https://terra.money/.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/20314.png",
+  "urls": {
+    "website": [
+      "https://terra.money/"
+    ],
+    "twitter": [
+      "https://twitter.com/terra_money"
+    ],
+    "message_board": [
+      "https://medium.com/terra-money"
+    ],
+    "chat": [
+      "https://t.me/TerraNetworkLobby",
+      "https://terra.sc/discord"
+    ],
+    "facebook": [],
+    "explorer": [
+      "https://terrasco.pe/",
+      "https://finder.terra.money/"
+    ],
+    "reddit": [
+      "https://reddit.com/r/terraluna"
+    ],
+    "technical_doc": [
+      "https://docs.terra.money/"
+    ],
+    "source_code": [
+      "https://github.com/terra-money/core"
+    ],
+    "announcement": []
+  },
+  "tags": []
+}

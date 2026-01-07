@@ -1,0 +1,41 @@
+{
+  "id": 38330,
+  "rank": 230,
+  "name": "GUSD",
+  "symbol": "GUSD",
+  "price": 0.9987682163493846,
+  "change1h": -0.01373463,
+  "change24h": 0.0024104,
+  "change7d": 0.035858,
+  "market_cap": 149255922.25125203,
+  "volume_24h": 312366.05899108,
+  "circulating_supply": 149440000,
+  "max_supply": null,
+  "sparkline7d": [],
+  "description": "GUSD (GUSD) is a cryptocurrency launched in 2025and operates on the Ethereum platform. GUSD has a current supply of 320,000,000 with 149,440,000 in circulation. The last known price of GUSD is 0.99858403 USD and is down -0.02 over the last 24 hours. It is currently trading on 1 active market(s) with $309,542.07 traded over the last 24 hours. More information can be found at https://www.gate.com/trade/GUSD_USDT.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/38330.png",
+  "urls": {
+    "website": [
+      "https://www.gate.com/trade/GUSD_USDT"
+    ],
+    "twitter": [
+      "https://twitter.com/gate"
+    ],
+    "message_board": [],
+    "chat": [
+      "https://t.me/GateCom_EN"
+    ],
+    "facebook": [],
+    "explorer": [
+      "https://etherscan.io/token/0xaf6186b3521b60e27396b5d23b48abc34bf585c5",
+      "https://app.nansen.ai/token-god-mode?chain=ethereum&tab=transactions&tokenAddress=0xaf6186b3521b60e27396b5d23b48abc34bf585c5"
+    ],
+    "reddit": [],
+    "technical_doc": [],
+    "source_code": [],
+    "announcement": [
+      "https://www.gate.com/news/detail/13379557"
+    ]
+  },
+  "tags": []
+}

@@ -1,0 +1,47 @@
+{
+  "id": 29470,
+  "rank": 19,
+  "name": "Ethena USDe",
+  "symbol": "USDe",
+  "price": 0.9995454839123263,
+  "change1h": 0.00579952,
+  "change24h": 0.01884151,
+  "change7d": 0.11684722,
+  "market_cap": 6300916200.85587,
+  "volume_24h": 172817506.05864584,
+  "circulating_supply": 6303781370.9021225,
+  "max_supply": null,
+  "sparkline7d": [],
+  "description": "Ethena USDe (USDe) is a cryptocurrency and operates on the Ethereum platform. Ethena USDe has a current supply of 6,303,781,370.90212276. The last known price of Ethena USDe is 0.99943937 USD and is up 0.01 over the last 24 hours. It is currently trading on 258 active market(s) with $171,311,762.65 traded over the last 24 hours. More information can be found at https://www.ethena.fi/.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/29470.png",
+  "urls": {
+    "website": [
+      "https://www.ethena.fi/"
+    ],
+    "twitter": [
+      "https://twitter.com/ethena_labs"
+    ],
+    "message_board": [],
+    "chat": [
+      "https://discord.gg/ethena",
+      "https://t.me/ethena_labs"
+    ],
+    "facebook": [],
+    "explorer": [
+      "https://etherscan.io/token/0x4c9edd5852cd905f086c759e8383e09bff1e68b3",
+      "https://app.nansen.ai/token-god-mode?chain=ethereum&tab=transactions&tokenAddress=0x4c9edd5852cd905f086c759e8383e09bff1e68b3",
+      "https://arbiscan.io/token/0x5d3a1ff2b6bab83b63cd9ad0787074081a52ef34",
+      "https://explorer.mantle.xyz/token/0x5d3a1Ff2b6BAb83b63cd9AD0787074081a52ef34",
+      "https://bscscan.com/token/0x5d3a1ff2b6bab83b63cd9ad0787074081a52ef34"
+    ],
+    "reddit": [],
+    "technical_doc": [
+      "https://ethena-labs.gitbook.io/ethena-labs/"
+    ],
+    "source_code": [
+      "https://github.com/ethena-labs"
+    ],
+    "announcement": []
+  },
+  "tags": []
+}

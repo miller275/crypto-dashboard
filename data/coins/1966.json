@@ -1,0 +1,52 @@
+{
+  "id": 1966,
+  "rank": 141,
+  "name": "Decentraland",
+  "symbol": "MANA",
+  "price": 0.14043044147559242,
+  "change1h": -0.73284588,
+  "change24h": -0.86155497,
+  "change7d": 15.56427867,
+  "market_cap": 276609914.5133663,
+  "volume_24h": 22799627.19023914,
+  "circulating_supply": 1969729010.368757,
+  "max_supply": null,
+  "sparkline7d": [],
+  "description": "Decentraland (MANA) is a cryptocurrency and operates on the Ethereum platform. Decentraland has a current supply of 2,193,179,327.32014624 with 1,969,729,010.36875697 in circulation. The last known price of Decentraland is 0.14047696 USD and is down -0.93 over the last 24 hours. It is currently trading on 613 active market(s) with $22,772,169.51 traded over the last 24 hours. More information can be found at https://decentraland.org/.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/1966.png",
+  "urls": {
+    "website": [
+      "https://decentraland.org/"
+    ],
+    "twitter": [
+      "https://twitter.com/decentraland"
+    ],
+    "message_board": [
+      "https://forum.decentraland.org/"
+    ],
+    "chat": [
+      "https://t.me/DecentralandTG",
+      "https://dcl.gg/discord"
+    ],
+    "facebook": [],
+    "explorer": [
+      "https://etherscan.io/token/0x0f5d2fb29fb7d3cfee444a200298f468908cc942",
+      "https://app.nansen.ai/token-god-mode?chain=ethereum&tab=transactions&tokenAddress=0x0f5d2fb29fb7d3cfee444a200298f468908cc942",
+      "https://solscan.io/token/7dgHoN8wBZCc5wbnQ2C47TDnBMAxG4Q5L3KjP67z8kNi",
+      "https://etherscan.io/token/decentraland"
+    ],
+    "reddit": [
+      "https://reddit.com/r/decentraland"
+    ],
+    "technical_doc": [
+      "https://decentraland.org/whitepaper.pdf"
+    ],
+    "source_code": [
+      "https://github.com/decentraland/mana"
+    ],
+    "announcement": [
+      "https://bitcointalk.org/index.php?topic=2065128.0"
+    ]
+  },
+  "tags": []
+}

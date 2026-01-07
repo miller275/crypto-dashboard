@@ -1,0 +1,46 @@
+{
+  "id": 9903,
+  "rank": 160,
+  "name": "Convex Finance",
+  "symbol": "CVX",
+  "price": 2.0450600182558945,
+  "change1h": -0.58474539,
+  "change24h": -1.68326434,
+  "change7d": 25.32267173,
+  "market_cap": 202477860.5365883,
+  "volume_24h": 12106688.77088363,
+  "circulating_supply": 99008272.97443779,
+  "max_supply": null,
+  "sparkline7d": [],
+  "description": "Convex Finance (CVX) is a cryptocurrency and operates on the Ethereum platform. Convex Finance has a current supply of 99,944,464.98273949 with 99,008,272.97443779 in circulation. The last known price of Convex Finance is 2.04463259 USD and is down -1.70 over the last 24 hours. It is currently trading on 302 active market(s) with $12,079,769.90 traded over the last 24 hours. More information can be found at https://www.convexfinance.com/.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/9903.png",
+  "urls": {
+    "website": [
+      "https://www.convexfinance.com/"
+    ],
+    "twitter": [
+      "https://twitter.com/convexfinance"
+    ],
+    "message_board": [
+      "https://convexfinance.medium.com/"
+    ],
+    "chat": [
+      "https://t.me/convexEthChat",
+      "https://discord.com/invite/WHwgFwRG6h"
+    ],
+    "facebook": [],
+    "explorer": [
+      "https://etherscan.io/token/0x4e3fbd56cd56c3e72c1403e103b45db9da5b9d2b",
+      "https://app.nansen.ai/token-god-mode?chain=ethereum&tab=transactions&tokenAddress=0x4e3fbd56cd56c3e72c1403e103b45db9da5b9d2b",
+      "https://solscan.io/token/BLvmrccP4g1B6SpiVvmQrLUDya1nZ4B2D1nm9jzKF7sz",
+      "https://www.oklink.com/eth/token/0x4e3fbd56cd56c3e72c1403e103b45db9da5b9d2b"
+    ],
+    "reddit": [],
+    "technical_doc": [],
+    "source_code": [
+      "https://github.com/convex-eth/platform"
+    ],
+    "announcement": []
+  },
+  "tags": []
+}

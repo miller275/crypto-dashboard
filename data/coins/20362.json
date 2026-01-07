@@ -1,0 +1,46 @@
+{
+  "id": 20362,
+  "rank": 380,
+  "name": "Polymesh",
+  "symbol": "POLYX",
+  "price": 0.06149428096289583,
+  "change1h": 0.09042085,
+  "change24h": -5.65533079,
+  "change7d": 7.76637698,
+  "market_cap": 62522575.11848207,
+  "volume_24h": 9862262.07323381,
+  "circulating_supply": 1016721785.172294,
+  "max_supply": null,
+  "sparkline7d": [],
+  "description": "Polymesh (POLYX) is a cryptocurrency launched in 2021. Polymesh has a current supply of 1,234,220,172.33629 with 1,016,721,785.172294 in circulation. The last known price of Polymesh is 0.06153966 USD and is down -5.62 over the last 24 hours. It is currently trading on 112 active market(s) with $9,877,572.55 traded over the last 24 hours. More information can be found at https://polymesh.network/.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/20362.png",
+  "urls": {
+    "website": [
+      "https://polymesh.network/"
+    ],
+    "twitter": [
+      "https://twitter.com/PolymeshNetwork"
+    ],
+    "message_board": [
+      "https://polymesh.network/discord"
+    ],
+    "chat": [
+      "https://polymesh.network/discord"
+    ],
+    "facebook": [],
+    "explorer": [
+      "https://polymesh.subscan.io/"
+    ],
+    "reddit": [],
+    "technical_doc": [
+      "https://developers.polymesh.network/"
+    ],
+    "source_code": [
+      "https://github.com/PolymeshAssociation/Polymesh"
+    ],
+    "announcement": [
+      "https://polymesh.network/blog"
+    ]
+  },
+  "tags": []
+}

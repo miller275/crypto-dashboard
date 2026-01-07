@@ -1,0 +1,38 @@
+{
+  "id": 33038,
+  "rank": 51,
+  "name": "Sky",
+  "symbol": "SKY",
+  "price": 0.0613637607739056,
+  "change1h": -0.80937231,
+  "change24h": -2.9378621,
+  "change7d": 6.52782513,
+  "market_cap": 1409318341.114357,
+  "volume_24h": 12734410.08644963,
+  "circulating_supply": 22966622699.462337,
+  "max_supply": 23462665147,
+  "sparkline7d": [],
+  "description": "Sky (SKY) is a cryptocurrency and operates on the Ethereum platform. Sky has a current supply of 23,462,665,147.36596656 with 22,966,622,699.4623361 in circulation. The last known price of Sky is 0.06141176 USD and is down -2.98 over the last 24 hours. It is currently trading on 199 active market(s) with $12,652,854.68 traded over the last 24 hours. More information can be found at https://sky.money/.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/33038.png",
+  "urls": {
+    "website": [
+      "https://sky.money/"
+    ],
+    "twitter": [
+      "https://twitter.com/SkyEcosystem"
+    ],
+    "message_board": [],
+    "chat": [],
+    "facebook": [],
+    "explorer": [
+      "https://etherscan.io/token/0x56072C95FAA701256059aa122697B133aDEd9279",
+      "https://app.nansen.ai/token-god-mode?chain=ethereum&tab=transactions&tokenAddress=0x56072C95FAA701256059aa122697B133aDEd9279",
+      "https://etherscan.io/address/0x56072c95faa701256059aa122697b133aded9279"
+    ],
+    "reddit": [],
+    "technical_doc": [],
+    "source_code": [],
+    "announcement": []
+  },
+  "tags": []
+}

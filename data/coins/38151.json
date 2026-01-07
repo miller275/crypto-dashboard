@@ -1,0 +1,42 @@
+{
+  "id": 38151,
+  "rank": 262,
+  "name": "YZY MONEY",
+  "symbol": "YZY",
+  "price": 0.3584884341134672,
+  "change1h": 0.21416141,
+  "change24h": -0.54505499,
+  "change7d": 0.50488372,
+  "market_cap": 107546400.89161317,
+  "volume_24h": 1418115.52740763,
+  "circulating_supply": 299999639.200558,
+  "max_supply": 1000000000,
+  "sparkline7d": [],
+  "description": "YZY MONEY (YZY) is a cryptocurrency and operates on the Solana platform. YZY MONEY has a current supply of 999,999,639.200613 with 299,999,639.200558 in circulation. The last known price of YZY MONEY is 0.35824027 USD and is down -0.80 over the last 24 hours. It is currently trading on 114 active market(s) with $1,420,190.55 traded over the last 24 hours. More information can be found at https://money.yeezy.com/.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/38151.png",
+  "urls": {
+    "website": [
+      "https://money.yeezy.com/",
+      "https://yeezy.com/"
+    ],
+    "twitter": [
+      "https://twitter.com/YZY_MNY"
+    ],
+    "message_board": [],
+    "chat": [
+      "https://t.me/YZY_MNY",
+      "https://instagram.com/yzy.mny",
+      "https://www.tiktok.com/@yzy.mny"
+    ],
+    "facebook": [],
+    "explorer": [
+      "https://solscan.io/token/DrZ26cKJDksVRWib3DVVsjo9eeXccc7hKhDJviiYEEZY",
+      "https://app.nansen.ai/token-god-mode?chain=solana&tab=transactions&tokenAddress=DrZ26cKJDksVRWib3DVVsjo9eeXccc7hKhDJviiYEEZY"
+    ],
+    "reddit": [],
+    "technical_doc": [],
+    "source_code": [],
+    "announcement": []
+  },
+  "tags": []
+}

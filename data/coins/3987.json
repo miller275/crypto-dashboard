@@ -1,0 +1,51 @@
+{
+  "id": 3987,
+  "rank": 205,
+  "name": "Beldex",
+  "symbol": "BDX",
+  "price": 0.08929343494521605,
+  "change1h": -0.15021576,
+  "change24h": -0.10138087,
+  "change7d": -7.79798616,
+  "market_cap": 679087765.359196,
+  "volume_24h": 11415649.57531198,
+  "circulating_supply": 7605125346.290405,
+  "max_supply": null,
+  "sparkline7d": [],
+  "description": "Beldex (BDX) is a cryptocurrency . Beldex has a current supply of 9,935,425,346.290405 with 7,605,125,346.290405 in circulation. The last known price of Beldex is 0.08872145 USD and is down -1.51 over the last 24 hours. It is currently trading on 52 active market(s) with $11,431,761.15 traded over the last 24 hours. More information can be found at https://www.beldex.io/.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/3987.png",
+  "urls": {
+    "website": [
+      "https://www.beldex.io/"
+    ],
+    "twitter": [
+      "https://twitter.com/BeldexCoin"
+    ],
+    "message_board": [
+      "https://beldexcoin.medium.com/"
+    ],
+    "chat": [
+      "https://t.me/beldexcoin",
+      "https://discord.com/invite/Hj4MAmA5gs"
+    ],
+    "facebook": [],
+    "explorer": [
+      "https://explorer.beldex.io/",
+      "https://app.nansen.ai/token-god-mode?chain=bnb&tab=transactions&tokenAddress=0x6ad12E761b438beA3EA09F6C6266556Bb24C2181",
+      "https://bscscan.com/address/0x6ad12E761b438beA3EA09F6C6266556Bb24C2181",
+      "https://etherscan.io/token/0x6ad12E761b438beA3EA09F6C6266556Bb24C2181",
+      "https://solscan.io/token/CP4w2B3og2TaFUpye1kr8pdeJwwahtESKppZnffN9n9d"
+    ],
+    "reddit": [],
+    "technical_doc": [
+      "https://beldex.io/whitepaper.pdf"
+    ],
+    "source_code": [
+      "https://github.com/Beldex-Coin"
+    ],
+    "announcement": [
+      "https://bitcointalk.org/index.php?topic=5050775.0"
+    ]
+  },
+  "tags": []
+}

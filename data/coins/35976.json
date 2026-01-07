@@ -1,0 +1,48 @@
+{
+  "id": 35976,
+  "rank": 497,
+  "name": "Aegis YUSD",
+  "symbol": "YUSD",
+  "price": 0.998567763311965,
+  "change1h": -0.00972047,
+  "change24h": -0.01474041,
+  "change7d": 0.00836532,
+  "market_cap": 40600997.42504106,
+  "volume_24h": 22669.94909469,
+  "circulating_supply": 40659231.0674832,
+  "max_supply": null,
+  "sparkline7d": [],
+  "description": "Aegis YUSD (YUSD) is a cryptocurrency launched in 2025and operates on the Ethereum platform. Aegis YUSD has a current supply of 40,659,231.0674832. The last known price of Aegis YUSD is 0.99866484 USD and is down -0.01 over the last 24 hours. It is currently trading on 20 active market(s) with $13,315.54 traded over the last 24 hours. More information can be found at https://aegis.im.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/35976.png",
+  "urls": {
+    "website": [
+      "https://aegis.im"
+    ],
+    "twitter": [
+      "https://twitter.com/aegis_im"
+    ],
+    "message_board": [
+      "https://mirror.xyz/0x096020C30BD6AED8124F7E40785B5E7d74B8a5C5"
+    ],
+    "chat": [
+      "https://t.me/aegis_im"
+    ],
+    "facebook": [],
+    "explorer": [
+      "https://etherscan.io/token/0x4274cD7277C7bb0806Bd5FE84b9aDAE466a8DA0a",
+      "https://app.nansen.ai/token-god-mode?chain=ethereum&tab=transactions&tokenAddress=0x4274cD7277C7bb0806Bd5FE84b9aDAE466a8DA0a",
+      "https://bscscan.com/token/0xAB3dBcD9B096C3fF76275038bf58eAC10D22C61f"
+    ],
+    "reddit": [],
+    "technical_doc": [
+      "https://docs.aegis.im"
+    ],
+    "source_code": [
+      "https://github.com/Aegis-im"
+    ],
+    "announcement": [
+      "https://mirror.xyz/0x096020C30BD6AED8124F7E40785B5E7d74B8a5C5/oYr0IX9-jCp7Z5OocPxoTJJnnbJe-9NR5A1jSTFDI_4"
+    ]
+  },
+  "tags": []
+}

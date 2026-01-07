@@ -1,0 +1,48 @@
+{
+  "id": 36119,
+  "rank": 155,
+  "name": "Walrus",
+  "symbol": "WAL",
+  "price": 0.13559277736887482,
+  "change1h": -0.9797091,
+  "change24h": -4.16846316,
+  "change7d": 12.99392046,
+  "market_cap": 213841109.26363206,
+  "volume_24h": 11676035.85929206,
+  "circulating_supply": 1577083333,
+  "max_supply": 5000000000,
+  "sparkline7d": [],
+  "description": "Walrus (WAL) is a cryptocurrency launched in 2025and operates on the Sui Network platform. Walrus has a current supply of 5,000,000,000 with 1,577,083,333 in circulation. The last known price of Walrus is 0.13585895 USD and is down -4.10 over the last 24 hours. It is currently trading on 169 active market(s) with $11,668,583.31 traded over the last 24 hours. More information can be found at https://www.walrus.xyz.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/36119.png",
+  "urls": {
+    "website": [
+      "https://www.walrus.xyz"
+    ],
+    "twitter": [
+      "https://twitter.com/walrusprotocol"
+    ],
+    "message_board": [
+      "http://discord.gg/walrusprotocol"
+    ],
+    "chat": [
+      "http://discord.gg/walrusprotocol"
+    ],
+    "facebook": [],
+    "explorer": [
+      "https://suivision.xyz/coin/0x356a26eb9e012a68958082340d4c4116e7f55615cf27affcff209cf0ae544f59::wal::WAL",
+      "https://suiscan.xyz/mainnet/coin/0x356a26eb9e012a68958082340d4c4116e7f55615cf27affcff209cf0ae544f59::wal::WAL",
+      "https://walruscan.com/mainnet/home"
+    ],
+    "reddit": [],
+    "technical_doc": [
+      "https://docs.wal.app/walrus.pdf"
+    ],
+    "source_code": [
+      "https://github.com/MystenLabs/walrus"
+    ],
+    "announcement": [
+      "https://www.walrus.xyz/blog/public-mainnet-launch"
+    ]
+  },
+  "tags": []
+}

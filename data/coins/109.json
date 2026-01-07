@@ -1,0 +1,54 @@
+{
+  "id": 109,
+  "rank": 257,
+  "name": "DigiByte",
+  "symbol": "DGB",
+  "price": 0.006024763646358954,
+  "change1h": -0.64261562,
+  "change24h": -3.03972799,
+  "change7d": 5.23573146,
+  "market_cap": 108978494.48246828,
+  "volume_24h": 2874890.40263517,
+  "circulating_supply": 18088426514.1802,
+  "max_supply": 21000000000,
+  "sparkline7d": [],
+  "description": "DigiByte (DGB) is a cryptocurrency launched in 2014. Users are able to generate DGB through the process of mining. DigiByte has a current supply of 18,088,426,514.180198. The last known price of DigiByte is 0.00603381 USD and is down -2.88 over the last 24 hours. It is currently trading on 173 active market(s) with $2,879,942.87 traded over the last 24 hours. More information can be found at https://digibyte.org/.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/109.png",
+  "urls": {
+    "website": [
+      "https://digibyte.org/",
+      "https://github.com/DigiByte-Core/digibyte/wiki"
+    ],
+    "twitter": [
+      "https://twitter.com/DigiByteCoin"
+    ],
+    "message_board": [
+      "https://dgbforum.com/",
+      "https://medium.com/@DigiByte_Official"
+    ],
+    "chat": [
+      "https://t.me/DigiByteCoin",
+      "https://t.me/DGBalerts"
+    ],
+    "facebook": [
+      "https://www.facebook.com/digibytecoin/"
+    ],
+    "explorer": [
+      "https://chainz.cryptoid.info/dgb/",
+      "https://www.digiassets.info/"
+    ],
+    "reddit": [
+      "https://reddit.com/r/Digibyte"
+    ],
+    "technical_doc": [
+      "https://www.digibyte.org/docs/infopaper.pdf"
+    ],
+    "source_code": [
+      "https://github.com/DigiByte-Core"
+    ],
+    "announcement": [
+      "https://bitcointalk.org/index.php?topic=408268.0"
+    ]
+  },
+  "tags": []
+}

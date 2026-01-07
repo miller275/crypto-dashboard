@@ -1,0 +1,41 @@
+{
+  "id": 35216,
+  "rank": 443,
+  "name": "Pythia",
+  "symbol": "PYTHIA",
+  "price": 0.04907186738336903,
+  "change1h": 0.00346223,
+  "change24h": 1.85943963,
+  "change7d": 0.6487483,
+  "market_cap": 48981617.501988925,
+  "volume_24h": 524753.58994845,
+  "circulating_supply": 998160863.113787,
+  "max_supply": 1000000000,
+  "sparkline7d": [],
+  "description": "Pythia (PYTHIA) is a cryptocurrency and operates on the Solana platform. Pythia has a current supply of 998,160,863.113787. The last known price of Pythia is 0.04895573 USD and is up 1.58 over the last 24 hours. It is currently trading on 28 active market(s) with $517,894.82 traded over the last 24 hours. More information can be found at https://ratpythia.ai.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/35216.png",
+  "urls": {
+    "website": [
+      "https://ratpythia.ai"
+    ],
+    "twitter": [
+      "https://twitter.com/neirylab"
+    ],
+    "message_board": [],
+    "chat": [
+      "https://t.me/ratpythia"
+    ],
+    "facebook": [],
+    "explorer": [
+      "https://solscan.io/token/CreiuhfwdWCN5mJbMJtA9bBpYQrQF2tCBuZwSPWfpump",
+      "https://app.nansen.ai/token-god-mode?chain=solana&tab=transactions&tokenAddress=CreiuhfwdWCN5mJbMJtA9bBpYQrQF2tCBuZwSPWfpump"
+    ],
+    "reddit": [],
+    "technical_doc": [],
+    "source_code": [],
+    "announcement": [
+      "https://t.me/pythiaportal"
+    ]
+  },
+  "tags": []
+}

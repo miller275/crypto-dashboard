@@ -1,0 +1,47 @@
+{
+  "id": 11165,
+  "rank": 350,
+  "name": "Orca",
+  "symbol": "ORCA",
+  "price": 1.180517155735331,
+  "change1h": -0.34210679,
+  "change24h": -1.87571965,
+  "change7d": 10.12560249,
+  "market_cap": 71016583.03455876,
+  "volume_24h": 8261011.34253169,
+  "circulating_supply": 60157180.003304,
+  "max_supply": null,
+  "sparkline7d": [],
+  "description": "Orca (ORCA) is a cryptocurrency launched in 2021and operates on the Solana platform. Orca has a current supply of 74,999,602.971443 with 60,157,180.003304 in circulation. The last known price of Orca is 1.18183915 USD and is down -1.93 over the last 24 hours. It is currently trading on 255 active market(s) with $8,238,849.56 traded over the last 24 hours. More information can be found at https://www.orca.so/.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/11165.png",
+  "urls": {
+    "website": [
+      "https://www.orca.so/"
+    ],
+    "twitter": [
+      "https://twitter.com/orca_so"
+    ],
+    "message_board": [
+      "http://orca-so.medium.com/"
+    ],
+    "chat": [
+      "https://discord.com/invite/nSwGWn5KSG"
+    ],
+    "facebook": [],
+    "explorer": [
+      "https://solscan.io/token/orcaEKTdK7LKz57vaAYr9QeNsVEPfiu6QeMU1kektZE",
+      "https://app.nansen.ai/token-god-mode?chain=solana&tab=transactions&tokenAddress=orcaEKTdK7LKz57vaAYr9QeNsVEPfiu6QeMU1kektZE"
+    ],
+    "reddit": [
+      "https://reddit.com/r/orca_so"
+    ],
+    "technical_doc": [],
+    "source_code": [
+      "https://github.com/orca-so/typescript-sdk"
+    ],
+    "announcement": [
+      "https://orca-so.medium.com/the-orca-governance-token-true-value-36edc9fb4245"
+    ]
+  },
+  "tags": []
+}

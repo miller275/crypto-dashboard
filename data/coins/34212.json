@@ -1,0 +1,40 @@
+{
+  "id": 34212,
+  "rank": 421,
+  "name": "Matrixdock Gold",
+  "symbol": "XAUM",
+  "price": 4485.582461373585,
+  "change1h": -0.0418693,
+  "change24h": -0.32488166,
+  "change7d": 2.82277836,
+  "market_cap": 53909935.26746895,
+  "volume_24h": 304815.35509645,
+  "circulating_supply": 12018.49162995,
+  "max_supply": null,
+  "sparkline7d": [],
+  "description": "Matrixdock Gold (XAUM) is a cryptocurrency launched in 2024and operates on the Ethereum platform. Matrixdock Gold has a current supply of 12,018.49162995. The last known price of Matrixdock Gold is 4,485.58246137 USD and is down -0.32 over the last 24 hours. It is currently trading on 14 active market(s) with $304,817.23 traded over the last 24 hours. More information can be found at https://www.matrixdock.com/xaum.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/34212.png",
+  "urls": {
+    "website": [
+      "https://www.matrixdock.com/xaum"
+    ],
+    "twitter": [
+      "https://twitter.com/matrixdock"
+    ],
+    "message_board": [],
+    "chat": [
+      "https://t.me/matrixdock"
+    ],
+    "facebook": [],
+    "explorer": [
+      "https://etherscan.io/token/0x2103E845C5E135493Bb6c2A4f0B8651956eA8682",
+      "https://app.nansen.ai/token-god-mode?chain=ethereum&tab=transactions&tokenAddress=0x2103E845C5E135493Bb6c2A4f0B8651956eA8682",
+      "https://bscscan.com/token/0x23AE4fd8E7844cdBc97775496eBd0E8248656028"
+    ],
+    "reddit": [],
+    "technical_doc": [],
+    "source_code": [],
+    "announcement": []
+  },
+  "tags": []
+}

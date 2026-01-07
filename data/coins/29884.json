@@ -1,0 +1,42 @@
+{
+  "id": 29884,
+  "rank": 459,
+  "name": "Destra Network",
+  "symbol": "DSYNC",
+  "price": 0.048349201599325105,
+  "change1h": -1.71270253,
+  "change24h": 35.11709654,
+  "change7d": 245.79731037,
+  "market_cap": 47137943.385928474,
+  "volume_24h": 19008652.15476474,
+  "circulating_supply": 974947710.1310906,
+  "max_supply": 1000000000,
+  "sparkline7d": [],
+  "description": "Destra Network (DSYNC) is a cryptocurrency launched in 2024and operates on the Ethereum platform. Destra Network has a current supply of 999,874,315.1676701 with 974,947,710.1310906 in circulation. The last known price of Destra Network is 0.04844975 USD and is up 35.80 over the last 24 hours. It is currently trading on 59 active market(s) with $19,032,937.99 traded over the last 24 hours. More information can be found at https://www.destra.network/.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/29884.png",
+  "urls": {
+    "website": [
+      "https://www.destra.network/"
+    ],
+    "twitter": [
+      "https://twitter.com/destranetwork"
+    ],
+    "message_board": [],
+    "chat": [
+      "https://t.me/DestraNetwork"
+    ],
+    "facebook": [],
+    "explorer": [
+      "https://etherscan.io/token/0xf94e7d0710709388bce3161c32b4eea56d3f91cc",
+      "https://app.nansen.ai/token-god-mode?chain=ethereum&tab=transactions&tokenAddress=0xf94e7d0710709388bce3161c32b4eea56d3f91cc",
+      "https://ethplorer.io/address/0xf94e7d0710709388bce3161c32b4eea56d3f91cc"
+    ],
+    "reddit": [],
+    "technical_doc": [
+      "https://destra-network.gitbook.io/documentation"
+    ],
+    "source_code": [],
+    "announcement": []
+  },
+  "tags": []
+}

@@ -1,0 +1,47 @@
+{
+  "id": 2280,
+  "rank": 63,
+  "name": "Filecoin",
+  "symbol": "FIL",
+  "price": 1.5176050027118049,
+  "change1h": -0.55897682,
+  "change24h": -1.44543361,
+  "change7d": 18.5216947,
+  "market_cap": 1113419878.2838075,
+  "volume_24h": 182842945.98286203,
+  "circulating_supply": 733669088,
+  "max_supply": null,
+  "sparkline7d": [],
+  "description": "Filecoin (FIL) is a cryptocurrency launched in 2020. Users are able to generate FIL through the process of mining. Filecoin has a current supply of 1,958,589,365 with 733,669,088 in circulation. The last known price of Filecoin is 1.51975664 USD and is down -1.35 over the last 24 hours. It is currently trading on 675 active market(s) with $182,612,345.97 traded over the last 24 hours. More information can be found at https://filecoin.io/.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/2280.png",
+  "urls": {
+    "website": [
+      "https://filecoin.io/"
+    ],
+    "twitter": [
+      "https://twitter.com/Filecoin"
+    ],
+    "message_board": [
+      "https://filecoin.io/blog"
+    ],
+    "chat": [],
+    "facebook": [],
+    "explorer": [
+      "https://filfox.io/en?utm_source=cmc",
+      "https://app.nansen.ai/token-god-mode?chain=bnb&tab=transactions&tokenAddress=0x0d8ce2a99bb6e3b7db580ed848240e4a0f9ae153",
+      "https://bscscan.com/token/0x0d8ce2a99bb6e3b7db580ed848240e4a0f9ae153",
+      "https://www.okx.com/web3/explorer/bsc/token/0x0d8ce2a99bb6e3b7db580ed848240e4a0f9ae153"
+    ],
+    "reddit": [],
+    "technical_doc": [
+      "https://docs.filecoin.io/"
+    ],
+    "source_code": [
+      "https://github.com/filecoin-project/"
+    ],
+    "announcement": [
+      "https://bitcointalk.org/index.php?topic=2080871.0"
+    ]
+  },
+  "tags": []
+}

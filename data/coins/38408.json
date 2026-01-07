@@ -1,0 +1,47 @@
+{
+  "id": 38408,
+  "rank": 169,
+  "name": "Lombard",
+  "symbol": "BARD",
+  "price": 0.8076819469182208,
+  "change1h": -0.2420316,
+  "change24h": -0.84131159,
+  "change7d": 2.8253266,
+  "market_cap": 181728438.05659968,
+  "volume_24h": 10194962.77043386,
+  "circulating_supply": 225000000,
+  "max_supply": 1000000000,
+  "sparkline7d": [],
+  "description": "Lombard (BARD) is a cryptocurrency launched in 2025and operates on the Ethereum platform. Lombard has a current supply of 1,000,000,000 with 225,000,000 in circulation. The last known price of Lombard is 0.80664512 USD and is down -1.01 over the last 24 hours. It is currently trading on 155 active market(s) with $10,184,257.82 traded over the last 24 hours. More information can be found at https://www.lombard.finance/.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/38408.png",
+  "urls": {
+    "website": [
+      "https://www.lombard.finance/"
+    ],
+    "twitter": [
+      "https://twitter.com/lombard_finance"
+    ],
+    "message_board": [
+      "https://www.lombard.finance/blog/"
+    ],
+    "chat": [
+      "https://discord.com/invite/2HG7G69twc",
+      "https://t.me/+yKL57AkmSg84YTgx"
+    ],
+    "facebook": [],
+    "explorer": [
+      "https://etherscan.io/token/0xf0DB65D17e30a966C2ae6A21f6BBA71cea6e9754",
+      "https://app.nansen.ai/token-god-mode?chain=ethereum&tab=transactions&tokenAddress=0xf0DB65D17e30a966C2ae6A21f6BBA71cea6e9754",
+      "https://bscscan.com/address/0xd23a186a78c0b3b805505e5f8ea4083295ef9f3a"
+    ],
+    "reddit": [],
+    "technical_doc": [
+      "https://docs.lombard.finance/"
+    ],
+    "source_code": [
+      "https://github.com/Liquid-Bitcoin/BARD/tree/main"
+    ],
+    "announcement": []
+  },
+  "tags": []
+}

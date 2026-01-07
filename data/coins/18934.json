@@ -1,0 +1,47 @@
+{
+  "id": 18934,
+  "rank": 323,
+  "name": "Stargate Finance",
+  "symbol": "STG",
+  "price": 0.12065503922859773,
+  "change1h": -0.79685936,
+  "change24h": -0.66587396,
+  "change7d": 14.54783639,
+  "market_cap": 79747113.59620045,
+  "volume_24h": 3881502.61790072,
+  "circulating_supply": 660951371,
+  "max_supply": 1000000000,
+  "sparkline7d": [],
+  "description": "Stargate Finance (STG) is a cryptocurrency and operates on the Ethereum platform. Stargate Finance has a current supply of 1,000,000,000 with 660,951,371 in circulation. The last known price of Stargate Finance is 0.1209601 USD and is down -0.51 over the last 24 hours. It is currently trading on 497 active market(s) with $3,883,267.97 traded over the last 24 hours. More information can be found at https://stargate.finance/.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/18934.png",
+  "urls": {
+    "website": [
+      "https://stargate.finance/"
+    ],
+    "twitter": [
+      "https://twitter.com/StargateFinance"
+    ],
+    "message_board": [],
+    "chat": [
+      "https://stargate.finance/discord",
+      "https://t.me/joinchat/LEM0ELklmO1kODdh"
+    ],
+    "facebook": [],
+    "explorer": [
+      "https://etherscan.io/token/0xAf5191B0De278C7286d6C7CC6ab6BB8A73bA2Cd6",
+      "https://app.nansen.ai/token-god-mode?chain=ethereum&tab=transactions&tokenAddress=0xaf5191b0de278c7286d6c7cc6ab6bb8a73ba2cd6",
+      "https://bscscan.com/token/0xb0d502e938ed5f4df2e681fe6e419ff29631d62b",
+      "https://snowtrace.io/token/0x2F6F07CDcf3588944Bf4C42aC74ff24bF56e7590",
+      "https://polygonscan.com/token/0x2f6f07cdcf3588944bf4c42ac74ff24bf56e7590"
+    ],
+    "reddit": [],
+    "technical_doc": [
+      "https://www.dropbox.com/s/gf3606jedromp61/Delta-Solving.The.Bridging-Trilemma.pdf"
+    ],
+    "source_code": [],
+    "announcement": [
+      "https://medium.com/stargate-official"
+    ]
+  },
+  "tags": []
+}

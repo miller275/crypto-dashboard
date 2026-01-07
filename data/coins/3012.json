@@ -1,0 +1,51 @@
+{
+  "id": 3012,
+  "rank": 318,
+  "name": "VeThor Token",
+  "symbol": "VTHO",
+  "price": 0.0008335477204610273,
+  "change1h": -0.48176556,
+  "change24h": -2.58544331,
+  "change7d": 11.89783085,
+  "market_cap": 81169595.35885406,
+  "volume_24h": 2069616.2950081,
+  "circulating_supply": 97378462404,
+  "max_supply": null,
+  "sparkline7d": [],
+  "description": "VeThor Token (VTHO) is a cryptocurrency launched in 2018and operates on the VeChain platform. VeThor Token has a current supply of 97,378,462,404. The last known price of VeThor Token is 0.00083617 USD and is down -2.29 over the last 24 hours. It is currently trading on 129 active market(s) with $2,071,202.71 traded over the last 24 hours. More information can be found at https://www.vechain.org/.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/3012.png",
+  "urls": {
+    "website": [
+      "https://www.vechain.org/"
+    ],
+    "twitter": [
+      "https://twitter.com/vechainofficial"
+    ],
+    "message_board": [
+      "https://medium.com/@vechainofficial"
+    ],
+    "chat": [
+      "https://t.me/vechainandfriends"
+    ],
+    "facebook": [
+      "https://www.facebook.com/VeChainOfficial"
+    ],
+    "explorer": [
+      "https://vechainstats.com/account/0x0000000000000000000000000000456E65726779",
+      "https://vechainstats.com/"
+    ],
+    "reddit": [
+      "https://reddit.com/r/Vechain"
+    ],
+    "technical_doc": [
+      "https://docs.vechain.org"
+    ],
+    "source_code": [
+      "https://github.com/vechain/thor"
+    ],
+    "announcement": [
+      "https://x.com/vechainofficial"
+    ]
+  },
+  "tags": []
+}

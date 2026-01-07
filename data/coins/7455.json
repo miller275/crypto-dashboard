@@ -1,0 +1,44 @@
+{
+  "id": 7455,
+  "rank": 479,
+  "name": "Audius",
+  "symbol": "AUDIO",
+  "price": 0.03185591717212551,
+  "change1h": 0.06913928,
+  "change24h": 1.67914637,
+  "change7d": 10.93841421,
+  "market_cap": 44138899.95776224,
+  "volume_24h": 9029628.12583863,
+  "circulating_supply": 1385579317,
+  "max_supply": null,
+  "sparkline7d": [],
+  "description": "Audius (AUDIO) is a cryptocurrency and operates on the Ethereum platform. Audius has a current supply of 1,385,579,317. The last known price of Audius is 0.0318472 USD and is up 1.71 over the last 24 hours. It is currently trading on 245 active market(s) with $9,021,048.52 traded over the last 24 hours. More information can be found at https://audius.co/.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/7455.png",
+  "urls": {
+    "website": [
+      "https://audius.co/"
+    ],
+    "twitter": [
+      "https://twitter.com/audius"
+    ],
+    "message_board": [
+      "https://audiusproject.medium.com/"
+    ],
+    "chat": [
+      "https://discord.com/invite/audius"
+    ],
+    "facebook": [],
+    "explorer": [
+      "https://etherscan.io/token/0x18aaa7115705e8be94bffebde57af9bfc265b998",
+      "https://app.nansen.ai/token-god-mode?chain=ethereum&tab=transactions&tokenAddress=0x18aaa7115705e8be94bffebde57af9bfc265b998",
+      "https://solscan.io/token/9LzCMqDgTKYz9Drzqnpgee3SGa89up3a247ypMj2xrqM",
+      "https://blockscout.com/xdai/mainnet/tokens/0x8A95ea379E1Fa4C749dd0A7A21377162028C479e/token-transfers",
+      "https://solscan.io/account/9LzCMqDgTKYz9Drzqnpgee3SGa89up3a247ypMj2xrqM"
+    ],
+    "reddit": [],
+    "technical_doc": [],
+    "source_code": [],
+    "announcement": []
+  },
+  "tags": []
+}

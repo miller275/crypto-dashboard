@@ -1,0 +1,43 @@
+{
+  "id": 29587,
+  "rank": 164,
+  "name": "Wormhole",
+  "symbol": "W",
+  "price": 0.037387238312004335,
+  "change1h": -1.01273655,
+  "change24h": -5.15221636,
+  "change7d": 14.52358009,
+  "market_cap": 193924683.4238541,
+  "volume_24h": 23716575.6558042,
+  "circulating_supply": 5186921853,
+  "max_supply": 10000000000,
+  "sparkline7d": [],
+  "description": "Wormhole (W) is a cryptocurrency launched in 2020and operates on the Ethereum platform. Wormhole has a current supply of 10,000,000,000 with 5,186,921,853 in circulation. The last known price of Wormhole is 0.03745185 USD and is down -5.14 over the last 24 hours. It is currently trading on 387 active market(s) with $23,672,892.35 traded over the last 24 hours. More information can be found at https://wormhole.com.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/29587.png",
+  "urls": {
+    "website": [
+      "https://wormhole.com"
+    ],
+    "twitter": [
+      "https://twitter.com/wormhole"
+    ],
+    "message_board": [],
+    "chat": [
+      "https://discord.gg/wormholecrypto",
+      "https://t.me/wormholecrypto"
+    ],
+    "facebook": [],
+    "explorer": [
+      "https://etherscan.io/token/0xB0fFa8000886e57F86dd5264b9582b2Ad87b2b91",
+      "https://app.nansen.ai/token-god-mode?chain=ethereum&tab=transactions&tokenAddress=0xB0fFa8000886e57F86dd5264b9582b2Ad87b2b91",
+      "https://solscan.io/token/85VBFQZC9TZkfaptBWjvUw7YbZjy52A6mjtPGjstQAmQ"
+    ],
+    "reddit": [],
+    "technical_doc": [],
+    "source_code": [
+      "https://github.com/wormhole-foundation/wormhole"
+    ],
+    "announcement": []
+  },
+  "tags": []
+}

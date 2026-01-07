@@ -1,0 +1,42 @@
+{
+  "id": 2933,
+  "rank": 249,
+  "name": "BitMart Token",
+  "symbol": "BMX",
+  "price": 0.3594413304654594,
+  "change1h": 0.04984839,
+  "change24h": -0.44080306,
+  "change7d": 2.91329875,
+  "market_cap": 116560215.48755746,
+  "volume_24h": 5977517.12404335,
+  "circulating_supply": 324281615.96391135,
+  "max_supply": 881679315,
+  "sparkline7d": [],
+  "description": "BitMart Token (BMX) is a cryptocurrency and operates on the Ethereum platform. BitMart Token has a current supply of 626,297,236.44130965 with 324,281,615.96391138 in circulation. The last known price of BitMart Token is 0.35922895 USD and is down -0.53 over the last 24 hours. It is currently trading on 9 active market(s) with $5,964,093.21 traded over the last 24 hours. More information can be found at https://www.bitmart.com/.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/2933.png",
+  "urls": {
+    "website": [
+      "https://www.bitmart.com/"
+    ],
+    "twitter": [
+      "https://twitter.com/BitMartExchange"
+    ],
+    "message_board": [],
+    "chat": [
+      "https://t.me/BitmartExchange"
+    ],
+    "facebook": [],
+    "explorer": [
+      "https://etherscan.io/token/0x986EE2B944c42D017F52Af21c4c69B84DBeA35d8",
+      "https://app.nansen.ai/token-god-mode?chain=ethereum&tab=transactions&tokenAddress=0x986EE2B944c42D017F52Af21c4c69B84DBeA35d8",
+      "https://ethplorer.io/address/0x986EE2B944c42D017F52Af21c4c69B84DBeA35d8"
+    ],
+    "reddit": [
+      "https://reddit.com/r/BitMartExchange"
+    ],
+    "technical_doc": [],
+    "source_code": [],
+    "announcement": []
+  },
+  "tags": []
+}

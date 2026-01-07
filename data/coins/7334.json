@@ -1,0 +1,51 @@
+{
+  "id": 7334,
+  "rank": 111,
+  "name": "Conflux",
+  "symbol": "CFX",
+  "price": 0.07794918711625169,
+  "change1h": -0.74229065,
+  "change24h": -2.20047243,
+  "change7d": 12.10980693,
+  "market_cap": 403080527.27699834,
+  "volume_24h": 16805968.38639212,
+  "circulating_supply": 5171067745.4,
+  "max_supply": null,
+  "sparkline7d": [],
+  "description": "Conflux (CFX) is a cryptocurrency launched in 2020. Users are able to generate CFX through the process of mining. Conflux has a current supply of 5,171,067,745.4. The last known price of Conflux is 0.07796709 USD and is down -2.31 over the last 24 hours. It is currently trading on 250 active market(s) with $16,789,172.57 traded over the last 24 hours. More information can be found at https://confluxnetwork.org/.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/7334.png",
+  "urls": {
+    "website": [
+      "https://confluxnetwork.org/"
+    ],
+    "twitter": [
+      "https://twitter.com/Conflux_Network"
+    ],
+    "message_board": [
+      "https://confluxnetwork.medium.com",
+      "https://forum.conflux.fun"
+    ],
+    "chat": [
+      "https://discord.com/invite/conflux-network-707952293412339843",
+      "https://t.me/Conflux_English"
+    ],
+    "facebook": [],
+    "explorer": [
+      "https://www.confluxscan.io/",
+      "https://evm.confluxscan.io/"
+    ],
+    "reddit": [
+      "https://reddit.com/r/Conflux_Network"
+    ],
+    "technical_doc": [
+      "https://confluxnetwork.org/files/Conflux_Economic_Paper_20201230.pdf"
+    ],
+    "source_code": [
+      "https://github.com/Conflux-Chain"
+    ],
+    "announcement": [
+      "https://t.me/confluxofficialannouncements"
+    ]
+  },
+  "tags": []
+}

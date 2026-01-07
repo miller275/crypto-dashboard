@@ -1,0 +1,47 @@
+{
+  "id": 11841,
+  "rank": 59,
+  "name": "Arbitrum",
+  "symbol": "ARB",
+  "price": 0.21108791966476897,
+  "change1h": -0.54636849,
+  "change24h": -2.07654637,
+  "change7d": 13.91070146,
+  "market_cap": 1207272262.021456,
+  "volume_24h": 107305121.91118824,
+  "circulating_supply": 5719286371,
+  "max_supply": null,
+  "sparkline7d": [],
+  "description": "Arbitrum (ARB) is a cryptocurrency launched in 2023and operates on the Arbitrum platform. Arbitrum has a current supply of 10,000,000,000 with 5,719,286,371 in circulation. The last known price of Arbitrum is 0.21137652 USD and is down -1.98 over the last 24 hours. It is currently trading on 1231 active market(s) with $107,106,102.96 traded over the last 24 hours. More information can be found at https://arbitrum.foundation.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/11841.png",
+  "urls": {
+    "website": [
+      "https://arbitrum.foundation",
+      "https://arbitrum.io/"
+    ],
+    "twitter": [
+      "https://twitter.com/arbitrum"
+    ],
+    "message_board": [],
+    "chat": [
+      "https://discord.com/invite/arbitrum"
+    ],
+    "facebook": [],
+    "explorer": [
+      "https://arbiscan.io/token/0x912CE59144191C1204E64559FE8253a0e49E6548",
+      "https://app.nansen.ai/token-god-mode?chain=arbitrum&tab=transactions&tokenAddress=0x912CE59144191C1204E64559FE8253a0e49E6548",
+      "https://etherscan.io/token/0xB50721BCf8d664c30412Cfbc6cf7a15145234ad1",
+      "https://nova-explorer.arbitrum.io/token/0xf823C3cD3CeBE0a1fA952ba88Dc9EEf8e0Bf46AD/token-transfers",
+      "https://www.oklink.com/arbitrum/token/0x912ce59144191c1204e64559fe8253a0e49e6548"
+    ],
+    "reddit": [],
+    "technical_doc": [
+      "https://github.com/OffchainLabs"
+    ],
+    "source_code": [],
+    "announcement": [
+      "https://offchain.medium.com/"
+    ]
+  },
+  "tags": []
+}

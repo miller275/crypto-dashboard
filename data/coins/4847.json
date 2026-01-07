@@ -1,0 +1,50 @@
+{
+  "id": 4847,
+  "rank": 81,
+  "name": "Stacks",
+  "symbol": "STX",
+  "price": 0.35108193518412006,
+  "change1h": -1.44905171,
+  "change24h": -3.84490984,
+  "change7d": 46.21697067,
+  "market_cap": 637075311.7142227,
+  "volume_24h": 20588435.21334807,
+  "circulating_supply": 1814605788.19049,
+  "max_supply": null,
+  "sparkline7d": [],
+  "description": "Stacks (STX) is a cryptocurrency . Users are able to generate STX through the process of mining. Stacks has a current supply of 1,814,570,813.19049 with 1,814,605,788.19049 in circulation. The last known price of Stacks is 0.35174476 USD and is down -3.57 over the last 24 hours. It is currently trading on 276 active market(s) with $20,582,195.71 traded over the last 24 hours. More information can be found at https://stacks.co.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/4847.png",
+  "urls": {
+    "website": [
+      "https://stacks.co"
+    ],
+    "twitter": [
+      "https://twitter.com/Stacks"
+    ],
+    "message_board": [
+      "https://blog.stacks.co/",
+      "https://forum.stacks.org/"
+    ],
+    "chat": [
+      "https://t.me/StacksChat",
+      "https://chat.blockstack.org/"
+    ],
+    "facebook": [
+      "https://www.facebook.com/stacks.btc"
+    ],
+    "explorer": [
+      "https://explorer.stacks.co"
+    ],
+    "reddit": [
+      "https://reddit.com/r/stacks"
+    ],
+    "technical_doc": [
+      "https://stacks-network.github.io/stacks/stacks.pdf"
+    ],
+    "source_code": [
+      "https://github.com/stacks-network"
+    ],
+    "announcement": []
+  },
+  "tags": []
+}

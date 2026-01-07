@@ -1,0 +1,50 @@
+{
+  "id": 37263,
+  "rank": 25,
+  "name": "Canton",
+  "symbol": "CC",
+  "price": 0.13669994117046713,
+  "change1h": 1.26156682,
+  "change24h": -3.350571,
+  "change7d": -7.2963306,
+  "market_cap": 5070264038.89325,
+  "volume_24h": 25601394.17165489,
+  "circulating_supply": 37090462479.20872,
+  "max_supply": null,
+  "sparkline7d": [],
+  "description": "Canton (CC) is a cryptocurrency launched in 2024. Canton has a current supply of 37,090,462,479.20871383. The last known price of Canton is 0.13663273 USD and is down -3.76 over the last 24 hours. It is currently trading on 61 active market(s) with $25,556,701.00 traded over the last 24 hours. More information can be found at https://sync.global.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/37263.png",
+  "urls": {
+    "website": [
+      "https://sync.global",
+      "https://canton.network"
+    ],
+    "twitter": [
+      "https://twitter.com/CantonNetwork"
+    ],
+    "message_board": [
+      "https://lists.sync.global/",
+      "https://discuss.daml.com"
+    ],
+    "chat": [
+      "https://app.slack.com/client/T03T53E10/C08AP9QR7K4"
+    ],
+    "facebook": [],
+    "explorer": [
+      "https://www.cantonscan.com/",
+      "https://explorer.canton.nodefortress.io/",
+      "https://lighthouse.fivenorth.io/"
+    ],
+    "reddit": [],
+    "technical_doc": [
+      "https://www.digitalasset.com/hubfs/Canton%20Coin%20A%20Responsible%20Approach%20to%20Digital%20Tokens.pdf?_gl=1*1yyxs1l*_gcl_au*MTI4OTIwNjAzLjE3Mzg1NzY4ODc."
+    ],
+    "source_code": [
+      "https://github.com/hyperledger-labs/splice"
+    ],
+    "announcement": [
+      "https://sync.global/press/2024/leading-market-participants-partner-with-the-linux-foundation-to-form-the-global-synchronizer-foundation/"
+    ]
+  },
+  "tags": []
+}

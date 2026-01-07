@@ -1,0 +1,41 @@
+{
+  "id": 29743,
+  "rank": 172,
+  "name": "Brett (Based)",
+  "symbol": "BRETT",
+  "price": 0.01786135959308477,
+  "change1h": -0.63691147,
+  "change24h": -3.1018518,
+  "change7d": 35.20868833,
+  "market_cap": 177010295.90357107,
+  "volume_24h": 22937487.29095672,
+  "circulating_supply": 9910236395,
+  "max_supply": 10000000000,
+  "sparkline7d": [],
+  "description": "Brett (Based) (BRETT) is a cryptocurrency launched in 2024and operates on the Base platform. Brett (Based) has a current supply of 9,910,236,395. The last known price of Brett (Based) is 0.01789086 USD and is down -3.12 over the last 24 hours. It is currently trading on 251 active market(s) with $22,903,644.97 traded over the last 24 hours. More information can be found at https://www.basedbrett.com/.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/29743.png",
+  "urls": {
+    "website": [
+      "https://www.basedbrett.com/"
+    ],
+    "twitter": [
+      "https://twitter.com/BasedBrett"
+    ],
+    "message_board": [],
+    "chat": [
+      "https://t.me/basedbrett"
+    ],
+    "facebook": [],
+    "explorer": [
+      "https://basescan.org/token/0x532f27101965dd16442e59d40670faf5ebb142e4",
+      "https://app.nansen.ai/token-god-mode?chain=base&tab=transactions&tokenAddress=0x532f27101965dd16442e59d40670faf5ebb142e4",
+      "https://bscscan.com/token/0xa7440029eca41deabd8775ef1d6086b37d4df8d6",
+      "https://app.nansen.ai/token-god-mode?tokenAddress=0xa7440029eca41deabd8775ef1d6086b37d4df8d6&chain=bnb&tab=transactions"
+    ],
+    "reddit": [],
+    "technical_doc": [],
+    "source_code": [],
+    "announcement": []
+  },
+  "tags": []
+}

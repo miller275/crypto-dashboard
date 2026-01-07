@@ -1,0 +1,40 @@
+{
+  "id": 28853,
+  "rank": 203,
+  "name": "Jupiter Perps LP",
+  "symbol": "JLP",
+  "price": 4.718807707291244,
+  "change1h": -0.22303107,
+  "change24h": -1.31705086,
+  "change7d": 4.39712465,
+  "market_cap": 1553259685.2025585,
+  "volume_24h": 25894445.29421061,
+  "circulating_supply": 329163589.947212,
+  "max_supply": null,
+  "sparkline7d": [],
+  "description": "Jupiter Perps LP (JLP) is a cryptocurrency and operates on the Solana platform. Jupiter Perps LP has a current supply of 329,163,589.947212. The last known price of Jupiter Perps LP is 4.72041819 USD and is down -1.29 over the last 24 hours. It is currently trading on 256 active market(s) with $25,882,411.19 traded over the last 24 hours. More information can be found at https://jup.ag/.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/28853.png",
+  "urls": {
+    "website": [
+      "https://jup.ag/"
+    ],
+    "twitter": [
+      "https://twitter.com/JupiterExchange"
+    ],
+    "message_board": [],
+    "chat": [
+      "https://discord.com/invite/jup",
+      "https://station.jup.ag/blog/"
+    ],
+    "facebook": [],
+    "explorer": [
+      "https://solscan.io/token/27G8MtK7VtTcCHkpASjSDdkWWYfoqT6ggEuKidVJidD4",
+      "https://app.nansen.ai/token-god-mode?chain=solana&tab=transactions&tokenAddress=27G8MtK7VtTcCHkpASjSDdkWWYfoqT6ggEuKidVJidD4"
+    ],
+    "reddit": [],
+    "technical_doc": [],
+    "source_code": [],
+    "announcement": []
+  },
+  "tags": []
+}

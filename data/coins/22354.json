@@ -1,0 +1,49 @@
+{
+  "id": 22354,
+  "rank": 463,
+  "name": "Quai Network",
+  "symbol": "QUAI",
+  "price": 0.0599218720555932,
+  "change1h": 1.07740336,
+  "change24h": 13.40234465,
+  "change7d": 95.87131211,
+  "market_cap": 46887933.51784432,
+  "volume_24h": 820210.36793719,
+  "circulating_supply": 782484457,
+  "max_supply": null,
+  "sparkline7d": [],
+  "description": "Quai Network (QUAI) is a cryptocurrency launched in 2025. Users are able to generate QUAI through the process of mining. Quai Network has a current supply of 3,000,000,000 with 782,484,457 in circulation. The last known price of Quai Network is 0.05994096 USD and is up 12.83 over the last 24 hours. It is currently trading on 17 active market(s) with $819,653.61 traded over the last 24 hours. More information can be found at https://qu.ai/.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/22354.png",
+  "urls": {
+    "website": [
+      "https://qu.ai/"
+    ],
+    "twitter": [
+      "https://twitter.com/QuaiNetwork"
+    ],
+    "message_board": [
+      "https://blog.qu.ai/"
+    ],
+    "chat": [
+      "https://discord.gg/quai",
+      "https://t.me/QuaiNetwork"
+    ],
+    "facebook": [],
+    "explorer": [
+      "https://quaiscan.io"
+    ],
+    "reddit": [
+      "https://reddit.com/r/quainetwork"
+    ],
+    "technical_doc": [
+      "https://qu.ai/litepaper"
+    ],
+    "source_code": [
+      "https://github.com/dominant-strategies/go-quai"
+    ],
+    "announcement": [
+      "https://qu.ai/blog"
+    ]
+  },
+  "tags": []
+}

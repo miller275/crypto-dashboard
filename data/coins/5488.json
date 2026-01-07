@@ -1,0 +1,44 @@
+{
+  "id": 5488,
+  "rank": 112,
+  "name": "JUST",
+  "symbol": "JST",
+  "price": 0.04273824928326277,
+  "change1h": -0.57278609,
+  "change24h": 3.56941094,
+  "change7d": 3.42418029,
+  "market_cap": 399179903.38063025,
+  "volume_24h": 30005713.02693838,
+  "circulating_supply": 9340108920.581306,
+  "max_supply": null,
+  "sparkline7d": [],
+  "description": "JUST (JST) is a cryptocurrency launched in 2020and operates on the Tron20 platform. JUST has a current supply of 9,340,108,920.5813064. The last known price of JUST is 0.04269677 USD and is up 3.39 over the last 24 hours. It is currently trading on 214 active market(s) with $29,919,676.02 traded over the last 24 hours. More information can be found at https://just.network/#/.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/5488.png",
+  "urls": {
+    "website": [
+      "https://just.network/#/"
+    ],
+    "twitter": [
+      "https://twitter.com/defi_just"
+    ],
+    "message_board": [
+      "https://medium.com/@TronFoundation/the-testnet-of-the-tron-based-stablecoins-lending-platform-successfully-completed-platform-662e0649209f"
+    ],
+    "chat": [
+      "https://t.me/just_defi"
+    ],
+    "facebook": [],
+    "explorer": [
+      "https://tronscan.org/#/token20/TCFLL5dx5ZJdKnWuesXxi1VPwjLVmWZZy9",
+      "https://app.nansen.ai/token-god-mode?chain=tron&tab=transactions&tokenAddress=TCFLL5dx5ZJdKnWuesXxi1VPwjLVmWZZy9",
+      "https://www.oklink.com/trx/token/TCFLL5dx5ZJdKnWuesXxi1VPwjLVmWZZy9"
+    ],
+    "reddit": [],
+    "technical_doc": [
+      "https://www.just.network/docs/white_paper_en.pdf"
+    ],
+    "source_code": [],
+    "announcement": []
+  },
+  "tags": []
+}

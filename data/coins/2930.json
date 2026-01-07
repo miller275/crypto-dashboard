@@ -1,0 +1,52 @@
+{
+  "id": 2930,
+  "rank": 490,
+  "name": "IQ",
+  "symbol": "IQ",
+  "price": 0.001700548672128943,
+  "change1h": -0.39585945,
+  "change24h": 0.92323985,
+  "change7d": 11.10231734,
+  "market_cap": 41734796.68496137,
+  "volume_24h": 10599086.4005735,
+  "circulating_supply": 24541959526.928997,
+  "max_supply": 60000000000,
+  "sparkline7d": [],
+  "description": "IQ (IQ) is a cryptocurrency and operates on the Ethereum platform. IQ has a current supply of 24,541,959,526.928997. The last known price of IQ is 0.00170317 USD and is up 0.96 over the last 24 hours. It is currently trading on 121 active market(s) with $10,598,623.80 traded over the last 24 hours. More information can be found at https://iqai.com/.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/2930.png",
+  "urls": {
+    "website": [
+      "https://iqai.com/"
+    ],
+    "twitter": [
+      "https://twitter.com/IQAICOM"
+    ],
+    "message_board": [
+      "https://iq.wiki/blog"
+    ],
+    "chat": [
+      "https://t.me/IQAICOM"
+    ],
+    "facebook": [
+      "https://www.facebook.com/iqdotwiki/"
+    ],
+    "explorer": [
+      "https://etherscan.io/token/0x579cea1889991f68acc35ff5c3dd0621ff29b0c9",
+      "https://app.nansen.ai/token-god-mode?chain=ethereum&tab=transactions&tokenAddress=0x579cea1889991f68acc35ff5c3dd0621ff29b0c9",
+      "https://fraxscan.com/address/0x6efb84bda519726fa1c65558e520b92b51712101",
+      "https://polygonscan.com/token/0xb9638272ad6998708de56bbc0a290a1de534a578",
+      "https://arbiscan.io/token/0xce4DB2ce8cCa463f8Aa1e2174C244Ba4a8d672cB"
+    ],
+    "reddit": [
+      "https://reddit.com/r/Everipedia"
+    ],
+    "technical_doc": [],
+    "source_code": [
+      "https://github.com/IQAICOM"
+    ],
+    "announcement": [
+      "https://t.me/everipediaannouncements"
+    ]
+  },
+  "tags": []
+}

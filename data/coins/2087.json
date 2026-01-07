@@ -1,0 +1,45 @@
+{
+  "id": 2087,
+  "rank": 50,
+  "name": "KuCoin Token",
+  "symbol": "KCS",
+  "price": 11.377848438768075,
+  "change1h": -0.30887407,
+  "change24h": -1.14014173,
+  "change7d": 6.18450794,
+  "market_cap": 1503639807.7293837,
+  "volume_24h": 3124446.74678961,
+  "circulating_supply": 132155021.73556715,
+  "max_supply": 200000000,
+  "sparkline7d": [],
+  "description": "KuCoin Token (KCS) is a cryptocurrency and operates on the Ethereum platform. KuCoin Token has a current supply of 142,155,021.73556715 with 132,155,021.73556715 in circulation. The last known price of KuCoin Token is 11.38495094 USD and is down -1.13 over the last 24 hours. It is currently trading on 66 active market(s) with $3,110,313.11 traded over the last 24 hours. More information can be found at https://www.kucoin.com/.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/2087.png",
+  "urls": {
+    "website": [
+      "https://www.kucoin.com/"
+    ],
+    "twitter": [
+      "https://twitter.com/kucoincom"
+    ],
+    "message_board": [],
+    "chat": [],
+    "facebook": [],
+    "explorer": [
+      "https://explorer.kcc.io",
+      "https://app.nansen.ai/token-god-mode?chain=ethereum&tab=transactions&tokenAddress=0xf34960d9d60be18cc1d5afc1a6f012a723a28811",
+      "https://scan.kcc.io",
+      "https://www.oklink.com/cn/eth/token/0xf34960d9d60be18cc1d5afc1a6f012a723a28811"
+    ],
+    "reddit": [
+      "https://reddit.com/r/kucoin"
+    ],
+    "technical_doc": [
+      "https://www.kcs.foundation/kcs-whitepaper.pdf"
+    ],
+    "source_code": [],
+    "announcement": [
+      "https://www.kucoin.com/blog/en_US"
+    ]
+  },
+  "tags": []
+}

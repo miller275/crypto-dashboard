@@ -1,0 +1,45 @@
+{
+  "id": 23508,
+  "rank": 209,
+  "name": "GHO",
+  "symbol": "GHO",
+  "price": 0.9989774161447477,
+  "change1h": -0.06366885,
+  "change24h": -0.01379779,
+  "change7d": 0.02487844,
+  "market_cap": 494638667.63739675,
+  "volume_24h": 1403474.9033183,
+  "circulating_supply": 495144994.915206,
+  "max_supply": null,
+  "sparkline7d": [],
+  "description": "GHO (GHO) is a cryptocurrency launched in 2023and operates on the Ethereum platform. GHO has a current supply of 495,144,994.915206. The last known price of GHO is 0.9989776 USD and is down -0.01 over the last 24 hours. It is currently trading on 87 active market(s) with $1,403,522.51 traded over the last 24 hours. More information can be found at https://gho.xyz/.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/23508.png",
+  "urls": {
+    "website": [
+      "https://gho.xyz/"
+    ],
+    "twitter": [
+      "https://twitter.com/GHOAave"
+    ],
+    "message_board": [
+      "https://lenster.xyz/u/gho"
+    ],
+    "chat": [
+      "https://t.me/Aavesome"
+    ],
+    "facebook": [],
+    "explorer": [
+      "https://etherscan.io/token/0x40D16FC0246aD3160Ccc09B8D0D3A2cD28aE6C2f",
+      "https://app.nansen.ai/token-god-mode?chain=ethereum&tab=transactions&tokenAddress=0x40D16FC0246aD3160Ccc09B8D0D3A2cD28aE6C2f"
+    ],
+    "reddit": [],
+    "technical_doc": [
+      "https://github.com/aave/gho-core/blob/main/techpaper/GHO_Technical_Paper.pdf"
+    ],
+    "source_code": [
+      "https://github.com/aave/gho-core"
+    ],
+    "announcement": []
+  },
+  "tags": []
+}

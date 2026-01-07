@@ -1,0 +1,53 @@
+{
+  "id": 5964,
+  "rank": 115,
+  "name": "Trust Wallet Token",
+  "symbol": "TWT",
+  "price": 0.9088047543542377,
+  "change1h": -0.5552431,
+  "change24h": -0.86224899,
+  "change7d": 5.44244054,
+  "market_cap": 390659280.1592113,
+  "volume_24h": 13607982.19302193,
+  "circulating_supply": 429860515.46,
+  "max_supply": 999860531.46,
+  "sparkline7d": [],
+  "description": "Trust Wallet Token (TWT) is a cryptocurrency launched in 2020and operates on the BNB Smart Chain (BEP20) platform. Trust Wallet Token has a current supply of 999,860,531.46 with 429,860,515.46 in circulation. The last known price of Trust Wallet Token is 0.90948941 USD and is down -0.88 over the last 24 hours. It is currently trading on 319 active market(s) with $13,610,822.51 traded over the last 24 hours. More information can be found at https://trustwallet.com/.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/5964.png",
+  "urls": {
+    "website": [
+      "https://trustwallet.com/"
+    ],
+    "twitter": [
+      "https://twitter.com/TrustWallet"
+    ],
+    "message_board": [
+      "https://trustwallet.com/blog"
+    ],
+    "chat": [
+      "https://t.me/trustwallet",
+      "https://discord.gg/trustwallet"
+    ],
+    "facebook": [
+      "https://www.facebook.com/trustweb3"
+    ],
+    "explorer": [
+      "https://bscscan.com/token/0x4b0f1812e5df2a09796481ff14017e6005508003",
+      "https://app.nansen.ai/token-god-mode?chain=bnb&tab=transactions&tokenAddress=0x4b0f1812e5df2a09796481ff14017e6005508003",
+      "https://explorer.binance.org/asset/TWT-8C2",
+      "https://solscan.io/token/HZNpqL7RT9gxf9eWoWsWzC5DfjzQ41XTQgEA7p3VzaaD",
+      "https://www.oklink.com/bsc/token/0x4b0f1812e5df2a09796481ff14017e6005508003"
+    ],
+    "reddit": [
+      "https://reddit.com/r/trustapp"
+    ],
+    "technical_doc": [],
+    "source_code": [
+      "https://github.com/trustwallet"
+    ],
+    "announcement": [
+      "https://t.me/trust_announcements"
+    ]
+  },
+  "tags": []
+}

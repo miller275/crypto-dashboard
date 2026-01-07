@@ -1,0 +1,44 @@
+{
+  "id": 38187,
+  "rank": 302,
+  "name": "Uchain",
+  "symbol": "UCN",
+  "price": 1789.6222478782258,
+  "change1h": -0.04291024,
+  "change24h": 0.16254197,
+  "change7d": 1.63317521,
+  "market_cap": 89481112.39391129,
+  "volume_24h": 14610003.52340202,
+  "circulating_supply": 50000,
+  "max_supply": 100000,
+  "sparkline7d": [],
+  "description": "Uchain (UCN) is a cryptocurrency launched in 2025. Uchain has a current supply of 100,000 with 50,000 in circulation. The last known price of Uchain is 1,789.35590297 USD and is up 0.15 over the last 24 hours. It is currently trading on 10 active market(s) with $14,571,233.12 traded over the last 24 hours. More information can be found at https://uchain.com/en.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/38187.png",
+  "urls": {
+    "website": [
+      "https://uchain.com/en"
+    ],
+    "twitter": [
+      "https://twitter.com/UChain_Official"
+    ],
+    "message_board": [
+      "https://www.youtube.com/@UChainOfficial"
+    ],
+    "chat": [
+      "https://t.me/uchain_com"
+    ],
+    "facebook": [],
+    "explorer": [
+      "https://uexplorer.com/"
+    ],
+    "reddit": [],
+    "technical_doc": [
+      "https://uchain.com/documents/en/WhitePaper.pdf"
+    ],
+    "source_code": [
+      "https://github.com/Uchaindev"
+    ],
+    "announcement": []
+  },
+  "tags": []
+}

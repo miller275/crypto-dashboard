@@ -1,0 +1,43 @@
+{
+  "id": 28596,
+  "rank": 412,
+  "name": "Anchored Coins AEUR",
+  "symbol": "AEUR",
+  "price": 1.1630714674516054,
+  "change1h": 0.00260625,
+  "change24h": 0.50422444,
+  "change7d": 1.58450479,
+  "market_cap": 55745555.556497216,
+  "volume_24h": 258348.41718684,
+  "circulating_supply": 47929604.6,
+  "max_supply": 67009654.6,
+  "sparkline7d": [],
+  "description": "Anchored Coins AEUR (AEUR) is a cryptocurrency launched in 2023and operates on the Ethereum platform. Anchored Coins AEUR has a current supply of 47,929,604.6. The last known price of Anchored Coins AEUR is 1.16287624 USD and is up 0.48 over the last 24 hours. It is currently trading on 27 active market(s) with $253,664.57 traded over the last 24 hours. More information can be found at https://www.anchoredcoins.com/en/landing.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/28596.png",
+  "urls": {
+    "website": [
+      "https://www.anchoredcoins.com/en/landing"
+    ],
+    "twitter": [
+      "https://twitter.com/AnchoredCoins"
+    ],
+    "message_board": [],
+    "chat": [
+      "https://t.me/anchoredcoins"
+    ],
+    "facebook": [],
+    "explorer": [
+      "https://etherscan.io/token/0xA40640458FBc27b6EefEdeA1E9C9E17d4ceE7a21",
+      "https://app.nansen.ai/token-god-mode?chain=ethereum&tab=transactions&tokenAddress=0xA40640458FBc27b6EefEdeA1E9C9E17d4ceE7a21",
+      "https://etherscan.io/address/0xA40640458FBc27b6EefEdeA1E9C9E17d4ceE7a21",
+      "https://bscscan.com/address/0xa40640458fbc27b6eefedea1e9c9e17d4cee7a21"
+    ],
+    "reddit": [],
+    "technical_doc": [
+      "https://static.anchoredcoins.com/static/cloud/anchoredcoins/static/images/admin_mgs_image_upload/whitepaper_for_launch.pdf"
+    ],
+    "source_code": [],
+    "announcement": []
+  },
+  "tags": []
+}

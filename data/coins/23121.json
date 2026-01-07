@@ -1,0 +1,40 @@
+{
+  "id": 23121,
+  "rank": 313,
+  "name": "Blur",
+  "symbol": "BLUR",
+  "price": 0.031531269148804636,
+  "change1h": -0.72575589,
+  "change24h": -1.71071496,
+  "change7d": 13.414871,
+  "market_cap": 84486353.68358405,
+  "volume_24h": 10105871.43462427,
+  "circulating_supply": 2679446656.107306,
+  "max_supply": null,
+  "sparkline7d": [],
+  "description": "Blur (BLUR) is a cryptocurrency and operates on the Ethereum platform. Blur has a current supply of 3,000,000,000 with 2,679,446,656.107306 in circulation. The last known price of Blur is 0.03156802 USD and is down -1.70 over the last 24 hours. It is currently trading on 331 active market(s) with $10,105,544.93 traded over the last 24 hours. More information can be found at https://blur.io/.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/23121.png",
+  "urls": {
+    "website": [
+      "https://blur.io/"
+    ],
+    "twitter": [
+      "https://twitter.com/blur_io"
+    ],
+    "message_board": [],
+    "chat": [
+      "https://discord.com/invite/blurdao"
+    ],
+    "facebook": [],
+    "explorer": [
+      "https://etherscan.io/token/0x5283d291dbcf85356a21ba090e6db59121208b44",
+      "https://app.nansen.ai/token-god-mode?chain=ethereum&tab=transactions&tokenAddress=0x5283d291dbcf85356a21ba090e6db59121208b44",
+      "https://www.oklink.com/eth/token/0x5283d291dbcf85356a21ba090e6db59121208b44"
+    ],
+    "reddit": [],
+    "technical_doc": [],
+    "source_code": [],
+    "announcement": []
+  },
+  "tags": []
+}

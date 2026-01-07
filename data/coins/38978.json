@@ -1,0 +1,48 @@
+{
+  "id": 38978,
+  "rank": 288,
+  "name": "Irys",
+  "symbol": "IRYS",
+  "price": 0.044602224081086266,
+  "change1h": 1.4581316,
+  "change24h": -2.34425748,
+  "change7d": 79.78091314,
+  "market_cap": 93447201.05320668,
+  "volume_24h": 11325192.12154835,
+  "circulating_supply": 2095124245,
+  "max_supply": null,
+  "sparkline7d": [],
+  "description": "Irys (IRYS) is a cryptocurrency launched in 2025and operates on the Ethereum platform. Irys has a current supply of 10,000,000,000 with 2,095,124,245 in circulation. The last known price of Irys is 0.04455593 USD and is down -2.79 over the last 24 hours. It is currently trading on 115 active market(s) with $11,320,233.99 traded over the last 24 hours. More information can be found at https://irys.xyz/.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/38978.png",
+  "urls": {
+    "website": [
+      "https://irys.xyz/"
+    ],
+    "twitter": [
+      "https://twitter.com/irys_xyz"
+    ],
+    "message_board": [
+      "https://irys.xyz/blog"
+    ],
+    "chat": [
+      "https://discord.com/invite/irys"
+    ],
+    "facebook": [],
+    "explorer": [
+      "https://explorer.irys.xyz",
+      "https://app.nansen.ai/token-god-mode?chain=ethereum&tab=transactions&tokenAddress=0x50f41F589aFACa2EF41FDF590FE7b90cD26DEe64",
+      "https://bscscan.com/token/0x91152B4Ef635403efBAe860edD0F8c321d7c035d"
+    ],
+    "reddit": [],
+    "technical_doc": [
+      "https://irys.xyz/assets/IrysWhitepaper.pdf"
+    ],
+    "source_code": [
+      "https://github.com/Irys-xyz/irys"
+    ],
+    "announcement": [
+      "https://x.com/irys_xyz/status/1991840678955885034?s=20"
+    ]
+  },
+  "tags": []
+}

@@ -1,0 +1,52 @@
+{
+  "id": 12885,
+  "rank": 303,
+  "name": "Astar",
+  "symbol": "ASTR",
+  "price": 0.01076871605400581,
+  "change1h": -0.5982852,
+  "change24h": -2.08046838,
+  "change7d": 13.13873974,
+  "market_cap": 89019936.20395167,
+  "volume_24h": 3678935.70279604,
+  "circulating_supply": 8266532032,
+  "max_supply": null,
+  "sparkline7d": [],
+  "description": "Astar (ASTR) is a cryptocurrency launched in 2022and operates on the Soneium platform. Astar has a current supply of 8,606,679,347 with 8,266,532,032 in circulation. The last known price of Astar is 0.01079867 USD and is down -1.99 over the last 24 hours. It is currently trading on 145 active market(s) with $3,673,969.01 traded over the last 24 hours. More information can be found at https://astar.network/.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/12885.png",
+  "urls": {
+    "website": [
+      "https://astar.network/"
+    ],
+    "twitter": [
+      "https://twitter.com/AstarNetwork"
+    ],
+    "message_board": [
+      "https://forum.astar.network"
+    ],
+    "chat": [
+      "https://t.me/PlasmAnnouncement",
+      "https://discord.gg/astarnetwork"
+    ],
+    "facebook": [],
+    "explorer": [
+      "https://astar.subscan.io",
+      "https://polkadot.js.org/",
+      "https://astar.blockscout.com/",
+      "https://soneium.blockscout.com/"
+    ],
+    "reddit": [
+      "https://reddit.com/r/AstarNetwork/"
+    ],
+    "technical_doc": [
+      "https://docs.astar.network/"
+    ],
+    "source_code": [
+      "https://github.com/AstarNetwork/Astar"
+    ],
+    "announcement": [
+      "https://astar.network/blog/"
+    ]
+  },
+  "tags": []
+}

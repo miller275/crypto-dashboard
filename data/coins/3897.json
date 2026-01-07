@@ -1,0 +1,44 @@
+{
+  "id": 3897,
+  "rank": 38,
+  "name": "OKB",
+  "symbol": "OKB",
+  "price": 111.7470232120949,
+  "change1h": 0.01246283,
+  "change24h": -1.43225983,
+  "change7d": 2.84629648,
+  "market_cap": 2346687487.453993,
+  "volume_24h": 26831477.708937,
+  "circulating_supply": 21000000,
+  "max_supply": 21000000,
+  "sparkline7d": [],
+  "description": "OKB (OKB) is a cryptocurrency and operates on the Ethereum platform. OKB has a current supply of 21,000,000. The last known price of OKB is 111.69097149 USD and is down -1.49 over the last 24 hours. It is currently trading on 198 active market(s) with $26,976,814.10 traded over the last 24 hours. More information can be found at https://www.okx.com/.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/3897.png",
+  "urls": {
+    "website": [
+      "https://www.okx.com/"
+    ],
+    "twitter": [
+      "https://twitter.com/okx"
+    ],
+    "message_board": [],
+    "chat": [
+      "https://t.me/okexofficial_en"
+    ],
+    "facebook": [],
+    "explorer": [
+      "https://etherscan.io/token/0x75231f58b43240c9718dd58b4967c5114342a86c",
+      "https://app.nansen.ai/token-god-mode?chain=ethereum&tab=transactions&tokenAddress=0x75231f58b43240c9718dd58b4967c5114342a86c",
+      "https://www.oklink.com/eth/token/0x75231f58b43240c9718dd58b4967c5114342a86c",
+      "https://blockchair.com/ethereum/erc-20/token/0x75231f58b43240c9718dd58b4967c5114342a86c",
+      "https://eth.tokenview.com/en/token/0x75231f58b43240c9718dd58b4967c5114342a86c"
+    ],
+    "reddit": [
+      "https://reddit.com/r/okx"
+    ],
+    "technical_doc": [],
+    "source_code": [],
+    "announcement": []
+  },
+  "tags": []
+}

@@ -1,0 +1,52 @@
+{
+  "id": 693,
+  "rank": 286,
+  "name": "Verge",
+  "symbol": "XVG",
+  "price": 0.005738839594558711,
+  "change1h": -1.64515236,
+  "change24h": -4.76136322,
+  "change7d": -0.83211581,
+  "market_cap": 94816827.93104067,
+  "volume_24h": 5204626.07499121,
+  "circulating_supply": 16521951235.741348,
+  "max_supply": 16521951235.741348,
+  "sparkline7d": [],
+  "description": "Verge (XVG) is a cryptocurrency launched in 2014. Users are able to generate XVG through the process of mining. Verge has a current supply of 16,521,951,235.741348. The last known price of Verge is 0.00576231 USD and is down -4.34 over the last 24 hours. It is currently trading on 145 active market(s) with $5,162,840.49 traded over the last 24 hours. More information can be found at http://vergecurrency.com/.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/693.png",
+  "urls": {
+    "website": [
+      "http://vergecurrency.com/"
+    ],
+    "twitter": [
+      "https://twitter.com/vergecurrency"
+    ],
+    "message_board": [
+      "https://medium.com/vergecurrency"
+    ],
+    "chat": [
+      "https://t.me/officialxvg",
+      "https://discord.gg/vergecurrency"
+    ],
+    "facebook": [
+      "https://www.facebook.com/VERGEcurrency"
+    ],
+    "explorer": [
+      "https://verge-blockchain.info/",
+      "https://xvg.tokenview.com/"
+    ],
+    "reddit": [
+      "https://reddit.com/r/vergecurrency"
+    ],
+    "technical_doc": [
+      "https://vergecurrency.com/static/blackpaper/verge-blackpaper-v5.0.pdf"
+    ],
+    "source_code": [
+      "https://github.com/vergecurrency"
+    ],
+    "announcement": [
+      "https://bitcointalk.org/index.php?topic=1365894.0"
+    ]
+  },
+  "tags": []
+}

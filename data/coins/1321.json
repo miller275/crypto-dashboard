@@ -1,0 +1,55 @@
+{
+  "id": 1321,
+  "rank": 41,
+  "name": "Ethereum Classic",
+  "symbol": "ETC",
+  "price": 12.748360671637204,
+  "change1h": -0.36183844,
+  "change24h": -1.87002732,
+  "change7d": 11.66315504,
+  "market_cap": 1976398633.2124898,
+  "volume_24h": 64274665.66721685,
+  "circulating_supply": 155031590.65852436,
+  "max_supply": 210700000,
+  "sparkline7d": [],
+  "description": "Ethereum Classic (ETC) is a cryptocurrency launched in 2015. Users are able to generate ETC through the process of mining. Ethereum Classic has a current supply of 210,700,000 with 155,031,590.65852436 in circulation. The last known price of Ethereum Classic is 12.75083014 USD and is down -1.89 over the last 24 hours. It is currently trading on 688 active market(s) with $64,288,521.50 traded over the last 24 hours. More information can be found at https://ethereumclassic.org/.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/1321.png",
+  "urls": {
+    "website": [
+      "https://ethereumclassic.org/"
+    ],
+    "twitter": [
+      "https://twitter.com/eth_classic"
+    ],
+    "message_board": [
+      "https://ethereumclassic.org/news"
+    ],
+    "chat": [
+      "https://twitter.com/etc_network",
+      "https://ethereumclassic.org/discord",
+      "https://telegram.me/ethclassic",
+      "https://t.me/ETCnetwork"
+    ],
+    "facebook": [],
+    "explorer": [
+      "https://etc.blockscout.com",
+      "https://app.nansen.ai/token-god-mode?chain=bnb&tab=transactions&tokenAddress=0x3d6545b08693dae087e957cb1180ee38b9e3c25e",
+      "https://etc.tokenview.io/",
+      "https://blockchair.com/ethereum-classic",
+      "https://www.okx.com/web3/explorer/etc"
+    ],
+    "reddit": [
+      "https://reddit.com/r/EthereumClassic"
+    ],
+    "technical_doc": [
+      "https://ethereumclassic.org/knowledge/foundation"
+    ],
+    "source_code": [
+      "https://github.com/ethereumclassic/ethereumclassic.github.io"
+    ],
+    "announcement": [
+      "https://ethereumclassic.org/blog/2016-08-13-declaration-of-independence"
+    ]
+  },
+  "tags": []
+}

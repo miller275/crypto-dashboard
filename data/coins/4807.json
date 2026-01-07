@@ -1,0 +1,49 @@
+{
+  "id": 4807,
+  "rank": 453,
+  "name": "Shentu",
+  "symbol": "CTK",
+  "price": 0.30971450460645333,
+  "change1h": 0.01360588,
+  "change24h": 0.49209681,
+  "change7d": 19.0287427,
+  "market_cap": 47828929.415889904,
+  "volume_24h": 3906322.39027413,
+  "circulating_supply": 154429091,
+  "max_supply": null,
+  "sparkline7d": [],
+  "description": "Shentu (CTK) is a cryptocurrency . Shentu has a current supply of 154,429,091. The last known price of Shentu is 0.30825087 USD and is down -0.12 over the last 24 hours. It is currently trading on 137 active market(s) with $3,910,805.65 traded over the last 24 hours. More information can be found at https://www.shentu.technology/.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/4807.png",
+  "urls": {
+    "website": [
+      "https://www.shentu.technology/"
+    ],
+    "twitter": [
+      "https://twitter.com/ShentuChain"
+    ],
+    "message_board": [
+      "https://medium.com/shentu-foundation"
+    ],
+    "chat": [
+      "https://t.me/shentu_chain",
+      "https://discord.com/invite/PsJ95xPqbC"
+    ],
+    "facebook": [],
+    "explorer": [
+      "https://explorer.shentu.technology",
+      "https://app.nansen.ai/token-god-mode?chain=bnb&tab=transactions&tokenAddress=0xa8c2b8eec3d368c0253ad3dae65a5f2bbb89c929",
+      "https://bscscan.com/token/0xa8c2b8eec3d368c0253ad3dae65a5f2bbb89c929",
+      "https://etherscan.io/token/0x4c67B8392fC17892338d590e5AE1aB7BE485BE50",
+      "https://polygonscan.com/token/0x799a88F32EBB23aA9Ef440a7A1cb37653af74422"
+    ],
+    "reddit": [],
+    "technical_doc": [
+      "https://www.shentu.technology/whitepaper"
+    ],
+    "source_code": [
+      "https://github.com/ShentuChain"
+    ],
+    "announcement": []
+  },
+  "tags": []
+}

@@ -1,0 +1,49 @@
+{
+  "id": 22861,
+  "rank": 96,
+  "name": "Celestia",
+  "symbol": "TIA",
+  "price": 0.564433507399755,
+  "change1h": -0.73706729,
+  "change24h": -1.51393166,
+  "change7d": 24.37407177,
+  "market_cap": 487602447.2961171,
+  "volume_24h": 45228366.67822637,
+  "circulating_supply": 863879342.568472,
+  "max_supply": null,
+  "sparkline7d": [],
+  "description": "Celestia (TIA) is a cryptocurrency and operates on the Osmosis platform. Celestia has a current supply of 1,158,806,366.521385 with 863,879,342.568472 in circulation. The last known price of Celestia is 0.56519796 USD and is down -1.52 over the last 24 hours. It is currently trading on 336 active market(s) with $45,210,304.50 traded over the last 24 hours. More information can be found at https://www.celestia.org.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/22861.png",
+  "urls": {
+    "website": [
+      "https://www.celestia.org"
+    ],
+    "twitter": [
+      "https://twitter.com/CelestiaOrg"
+    ],
+    "message_board": [],
+    "chat": [
+      "https://t.me/CelestiaCommunity",
+      "https://discord.com/invite/YsnTPcSfWQ",
+      "https://www.youtube.com/watch?v=r1Ftl24xu6Q"
+    ],
+    "facebook": [],
+    "explorer": [
+      "https://www.mintscan.io/osmosis/assets/ibc/D79E7D83AB399BFFF93433E54FAA480C191248FC556924A2A8351AE2638B3877",
+      "https://www.mintscan.io/celestia",
+      "https://celenium.io/",
+      "https://explorer.modular.cloud/"
+    ],
+    "reddit": [],
+    "technical_doc": [
+      "https://arxiv.org/abs/1905.09274"
+    ],
+    "source_code": [
+      "https://github.com/celestiaorg"
+    ],
+    "announcement": [
+      "https://blog.celestia.org/"
+    ]
+  },
+  "tags": []
+}

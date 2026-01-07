@@ -1,0 +1,40 @@
+{
+  "id": 38482,
+  "rank": 156,
+  "name": "Falcon Finance",
+  "symbol": "FF",
+  "price": 0.0912752311040996,
+  "change1h": -0.81648501,
+  "change24h": -4.20661232,
+  "change7d": 5.86690819,
+  "market_cap": 213584040.78359306,
+  "volume_24h": 136446577.89307845,
+  "circulating_supply": 2340000000,
+  "max_supply": 10000000000,
+  "sparkline7d": [],
+  "description": "Falcon Finance (FF) is a cryptocurrency launched in 2025and operates on the Ethereum platform. Falcon Finance has a current supply of 10,000,000,000 with 2,340,000,000 in circulation. The last known price of Falcon Finance is 0.09141353 USD and is down -4.13 over the last 24 hours. It is currently trading on 172 active market(s) with $136,476,516.08 traded over the last 24 hours. More information can be found at https://falcon.finance/.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/38482.png",
+  "urls": {
+    "website": [
+      "https://falcon.finance/"
+    ],
+    "twitter": [
+      "https://twitter.com/FalconStable"
+    ],
+    "message_board": [],
+    "chat": [
+      "https://t.me/FalconFinanceTG"
+    ],
+    "facebook": [],
+    "explorer": [
+      "https://etherscan.io/token/0xfa1c09fc8b491b6a4d3ff53a10cad29381b3f949",
+      "https://app.nansen.ai/token-god-mode?chain=ethereum&tab=transactions&tokenAddress=0xfa1c09fc8b491b6a4d3ff53a10cad29381b3f949#balances",
+      "https://bscscan.com/token/0xac23b90a79504865d52b49b327328411a23d4db2"
+    ],
+    "reddit": [],
+    "technical_doc": [],
+    "source_code": [],
+    "announcement": []
+  },
+  "tags": []
+}

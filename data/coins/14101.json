@@ -1,0 +1,47 @@
+{
+  "id": 14101,
+  "rank": 270,
+  "name": "Ronin",
+  "symbol": "RON",
+  "price": 0.1411263137047878,
+  "change1h": -0.25168982,
+  "change24h": -1.66099972,
+  "change7d": 4.60281711,
+  "market_cap": 102888714.15742183,
+  "volume_24h": 2647222.07614442,
+  "circulating_supply": 729054075.4337813,
+  "max_supply": 1000000000,
+  "sparkline7d": [],
+  "description": "Ronin (RON) is a cryptocurrency launched in 2022. Ronin has a current supply of 1,000,000,000 with 729,054,075.4337813 in circulation. The last known price of Ronin is 0.14115515 USD and is down -1.63 over the last 24 hours. It is currently trading on 107 active market(s) with $2,646,494.46 traded over the last 24 hours. More information can be found at https://roninchain.com.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/14101.png",
+  "urls": {
+    "website": [
+      "https://roninchain.com"
+    ],
+    "twitter": [
+      "https://twitter.com/Ronin_Network"
+    ],
+    "message_board": [
+      "https://blog.roninchain.com/"
+    ],
+    "chat": [
+      "https://discord.com/invite/roninnetwork"
+    ],
+    "facebook": [],
+    "explorer": [
+      "https://app.roninchain.com/",
+      "https://app.nansen.ai/token-god-mode?chain=ronin&tab=transactions&tokenAddress=0xe514d9deb7966c8be0ca922de8a064264ea6bcd4"
+    ],
+    "reddit": [],
+    "technical_doc": [
+      "https://docs.roninchain.com/basics/white-paper"
+    ],
+    "source_code": [
+      "https://github.com/ronin-chain"
+    ],
+    "announcement": [
+      "https://x.com/Ronin_Network"
+    ]
+  },
+  "tags": []
+}

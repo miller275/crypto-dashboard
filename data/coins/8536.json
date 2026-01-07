@@ -1,0 +1,51 @@
+{
+  "id": 8536,
+  "rank": 366,
+  "name": "Mask Network",
+  "symbol": "MASK",
+  "price": 0.6638941249772236,
+  "change1h": -0.66478119,
+  "change24h": -1.37544695,
+  "change7d": 11.27971564,
+  "market_cap": 66389412.49772236,
+  "volume_24h": 24689781.99142125,
+  "circulating_supply": 100000000,
+  "max_supply": 100000000,
+  "sparkline7d": [],
+  "description": "Mask Network (MASK) is a cryptocurrency launched in 2021and operates on the Ethereum platform. Mask Network has a current supply of 100,000,000. The last known price of Mask Network is 0.66458709 USD and is down -1.36 over the last 24 hours. It is currently trading on 354 active market(s) with $24,653,687.41 traded over the last 24 hours. More information can be found at https://www.mask.io.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/8536.png",
+  "urls": {
+    "website": [
+      "https://www.mask.io"
+    ],
+    "twitter": [
+      "https://twitter.com/realmasknetwork"
+    ],
+    "message_board": [
+      "https://news.mask.io/"
+    ],
+    "chat": [
+      "https://t.me/maskbook_group",
+      "https://discord.gg/4SVXvj7"
+    ],
+    "facebook": [],
+    "explorer": [
+      "https://etherscan.io/token/0x69af81e73a73b40adf4f3d4223cd9b1ece623074",
+      "https://app.nansen.ai/token-god-mode?chain=ethereum&tab=transactions&tokenAddress=0x69af81e73a73b40adf4f3d4223cd9b1ece623074",
+      "https://bscscan.com/token/0x2ed9a5c8c13b93955103b9a7c167b67ef4d568a3",
+      "https://polygonscan.com/token/0x2b9e7ccdf0f4e5b24757c1e1a80e311e34cb10c7",
+      "https://www.oklink.com/cn/eth/token/0x69af81e73a73b40adf4f3d4223cd9b1ece623074"
+    ],
+    "reddit": [
+      "https://reddit.com/r/MaskNetwork"
+    ],
+    "technical_doc": [
+      "https://masknetwork.medium.com/introducing-mask-network-maskbook-the-future-of-the-internet-5a973d874edd"
+    ],
+    "source_code": [
+      "https://github.com/DimensionDev/Maskbook"
+    ],
+    "announcement": []
+  },
+  "tags": []
+}

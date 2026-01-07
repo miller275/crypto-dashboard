@@ -1,0 +1,51 @@
+{
+  "id": 22691,
+  "rank": 99,
+  "name": "Starknet",
+  "symbol": "STRK",
+  "price": 0.08689660173950886,
+  "change1h": -0.78137203,
+  "change24h": -3.61573081,
+  "change7d": 10.74260501,
+  "market_cap": 438211854.2658171,
+  "volume_24h": 42459434.73113045,
+  "circulating_supply": 5042911293.348971,
+  "max_supply": 10000000000,
+  "sparkline7d": [],
+  "description": "Starknet (STRK) is a cryptocurrency and operates on the Ethereum platform. Starknet has a current supply of 10,000,000,000 with 5,042,911,293.348971 in circulation. The last known price of Starknet is 0.0870321 USD and is down -3.72 over the last 24 hours. It is currently trading on 299 active market(s) with $42,518,829.01 traded over the last 24 hours. More information can be found at https://starknet.io/.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/22691.png",
+  "urls": {
+    "website": [
+      "https://starknet.io/",
+      "https://starkware.co/starknet/"
+    ],
+    "twitter": [
+      "https://twitter.com/Starknet"
+    ],
+    "message_board": [
+      "https://medium.com/starkware/starknet/home"
+    ],
+    "chat": [
+      "https://discord.com/invite/QypNMzkHbc",
+      "https://community.starknet.io/"
+    ],
+    "facebook": [],
+    "explorer": [
+      "https://starkscan.co/token/0x4718f5a0fc34cc1af16a1cdee98ffb20c31f5cd61d6ab07201858f4287c938d",
+      "https://app.nansen.ai/token-god-mode?chain=ethereum&tab=transactions&tokenAddress=0xCa14007Eff0dB1f8135f4C25B34De49AB0d42766",
+      "https://etherscan.io/token/0xca14007eff0db1f8135f4c25b34de49ab0d42766",
+      "https://www.oklink.com/starknet"
+    ],
+    "reddit": [],
+    "technical_doc": [
+      "https://starknet.io/docs/"
+    ],
+    "source_code": [
+      "https://github.com/orgs/starkware-libs/repositories"
+    ],
+    "announcement": [
+      "https://medium.com/starkware/starknet-token-is-deployed-on-ethereum-f27f0000b00c"
+    ]
+  },
+  "tags": []
+}

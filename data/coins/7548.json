@@ -1,0 +1,53 @@
+{
+  "id": 7548,
+  "rank": 176,
+  "name": "WEMIX",
+  "symbol": "WEMIX",
+  "price": 0.3627084417631104,
+  "change1h": -0.16778587,
+  "change24h": -0.27833848,
+  "change7d": -0.5400628,
+  "market_cap": 167086004.29714873,
+  "volume_24h": 1228968.25561692,
+  "circulating_supply": 460662022.3255647,
+  "max_supply": 590000000,
+  "sparkline7d": [],
+  "description": "WEMIX (WEMIX) is a cryptocurrency launched in 2020. WEMIX has a current supply of 550,857,390.5478008 with 460,662,022.3255647 in circulation. The last known price of WEMIX is 0.36252558 USD and is up 0.11 over the last 24 hours. It is currently trading on 61 active market(s) with $1,228,255.91 traded over the last 24 hours. More information can be found at http://wemix.com/.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/7548.png",
+  "urls": {
+    "website": [
+      "http://wemix.com/"
+    ],
+    "twitter": [
+      "https://twitter.com/WemixNetwork"
+    ],
+    "message_board": [
+      "https://medium.com/wemix-communication"
+    ],
+    "chat": [
+      "https://t.me/WEMIX_Global",
+      "https://t.me/WEMIX_KOR"
+    ],
+    "facebook": [
+      "https://www.facebook.com/WEMIXBlockchain"
+    ],
+    "explorer": [
+      "https://scan.wemix.com/",
+      "https://app.nansen.ai/token-god-mode?chain=polygon&tab=transactions&tokenAddress=0x9cf01f6a0413416679d8be06f782866ae9e3eae6",
+      "https://wemixscan.com"
+    ],
+    "reddit": [
+      "https://reddit.com/r/WemixNetwork"
+    ],
+    "technical_doc": [
+      "https://docs.wemix.com/v/en/"
+    ],
+    "source_code": [
+      "https://github.com/wemixarchive"
+    ],
+    "announcement": [
+      "https://t.me/WEMIX_ANNouncement"
+    ]
+  },
+  "tags": []
+}

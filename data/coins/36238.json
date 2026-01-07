@@ -1,0 +1,49 @@
+{
+  "id": 36238,
+  "rank": 480,
+  "name": "XPIN Network",
+  "symbol": "XPIN",
+  "price": 0.0024827066897106687,
+  "change1h": -1.03016912,
+  "change24h": -4.88050487,
+  "change7d": 4.05505697,
+  "market_cap": 43956354.85456997,
+  "volume_24h": 4538736.59475352,
+  "circulating_supply": 17705013257,
+  "max_supply": 100000000000,
+  "sparkline7d": [],
+  "description": "XPIN Network (XPIN) is a cryptocurrency launched in 2025and operates on the BNB Smart Chain (BEP20) platform. XPIN Network has a current supply of 100,000,000,000 with 17,705,013,257 in circulation. The last known price of XPIN Network is 0.00247803 USD and is down -4.87 over the last 24 hours. It is currently trading on 86 active market(s) with $4,528,674.86 traded over the last 24 hours. More information can be found at https://www.xpin.network.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/36238.png",
+  "urls": {
+    "website": [
+      "https://www.xpin.network",
+      "https://www.xtella.ai"
+    ],
+    "twitter": [
+      "https://twitter.com/XPINNetwork"
+    ],
+    "message_board": [
+      "https://xpinnetwork.medium.com/"
+    ],
+    "chat": [
+      "https://t.me/XPINCommunity"
+    ],
+    "facebook": [],
+    "explorer": [
+      "https://bscscan.com/token/0xD955c9bA56Fb1AB30e34766e252A97ccCE3D31A6",
+      "https://app.nansen.ai/token-god-mode?chain=bnb&tab=transactions&tokenAddress=0xD955c9bA56Fb1AB30e34766e252A97ccCE3D31A6",
+      "https://bscscan.com/address/0xD955c9bA56Fb1AB30e34766e252A97ccCE3D31A6"
+    ],
+    "reddit": [],
+    "technical_doc": [
+      "https://docs.xpin.network/"
+    ],
+    "source_code": [
+      "https://github.com/x-pin/contract-bid"
+    ],
+    "announcement": [
+      "https://t.me/xpinchannel"
+    ]
+  },
+  "tags": []
+}

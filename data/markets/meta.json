@@ -1,6 +1,6 @@
 {
-    "total_coins": 500,
-    "total_pages": 10,
-    "page_size": 50,
-    "last_updated": 1701388800000
+  "total_coins": 500,
+  "total_pages": 5,
+  "page_size": 100,
+  "last_updated": 1767814062213
 }

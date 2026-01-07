@@ -1,0 +1,49 @@
+{
+  "id": 2300,
+  "rank": 500,
+  "name": "WAX",
+  "symbol": "WAXP",
+  "price": 0.008817116382393356,
+  "change1h": -0.00615416,
+  "change24h": 4.86325582,
+  "change7d": 17.07930859,
+  "market_cap": 39874135.4964083,
+  "volume_24h": 9012499.3046522,
+  "circulating_supply": 4522355582.833385,
+  "max_supply": null,
+  "sparkline7d": [],
+  "description": "WAX (WAXP) is a cryptocurrency launched in 2017. WAX has a current supply of 4,527,704,979.59778404 with 4,522,355,582.83338547 in circulation. The last known price of WAX is 0.00886086 USD and is up 5.31 over the last 24 hours. It is currently trading on 153 active market(s) with $8,973,125.94 traded over the last 24 hours. More information can be found at https://wax.io/.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/2300.png",
+  "urls": {
+    "website": [
+      "https://wax.io/"
+    ],
+    "twitter": [
+      "https://twitter.com/WAX_io"
+    ],
+    "message_board": [
+      "https://wax-io.medium.com/"
+    ],
+    "chat": [
+      "https://go.wax.io/Discord",
+      "https://t.me/waxtokenannoucements"
+    ],
+    "facebook": [],
+    "explorer": [
+      "https://waxblock.io/",
+      "https://app.nansen.ai/token-god-mode?chain=ethereum&tab=transactions&tokenAddress=0x2a79324c19ef2b89ea98b23bc669b7e7c9f8a517",
+      "https://etherscan.io/token/0x2a79324c19ef2b89ea98b23bc669b7e7c9f8a517"
+    ],
+    "reddit": [],
+    "technical_doc": [
+      "https://github.com/worldwide-asset-exchange/whitepaper"
+    ],
+    "source_code": [
+      "https://github.com/worldwide-asset-exchange/"
+    ],
+    "announcement": [
+      "https://wax-io.medium.com/"
+    ]
+  },
+  "tags": []
+}

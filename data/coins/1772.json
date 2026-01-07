@@ -1,0 +1,50 @@
+{
+  "id": 1772,
+  "rank": 403,
+  "name": "Storj",
+  "symbol": "STORJ",
+  "price": 0.13706251270635555,
+  "change1h": -0.83685441,
+  "change24h": -3.95569093,
+  "change7d": 8.53480987,
+  "market_cap": 57973794.083597705,
+  "volume_24h": 12876019.86347429,
+  "circulating_supply": 422973378.63491154,
+  "max_supply": null,
+  "sparkline7d": [],
+  "description": "Storj (STORJ) is a cryptocurrency and operates on the Ethereum platform. Storj has a current supply of 424,999,998.00000112 with 422,973,378.63491153 in circulation. The last known price of Storj is 0.13752561 USD and is down -3.74 over the last 24 hours. It is currently trading on 304 active market(s) with $12,924,738.66 traded over the last 24 hours. More information can be found at https://storj.io/.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/1772.png",
+  "urls": {
+    "website": [
+      "https://storj.io/"
+    ],
+    "twitter": [
+      "https://twitter.com/storj"
+    ],
+    "message_board": [
+      "https://community.storj.io",
+      "https://medium.com/@storjproject"
+    ],
+    "chat": [],
+    "facebook": [],
+    "explorer": [
+      "https://etherscan.io/token/0xb64ef51c888972c908cfacf59b47c1afbc0ab8ac",
+      "https://app.nansen.ai/token-god-mode?chain=ethereum&tab=transactions&tokenAddress=0xb64ef51c888972c908cfacf59b47c1afbc0ab8ac",
+      "https://etherscan.io/token/Storj",
+      "http://ethplorer.io/address/0xb64ef51c888972c908cfacf59b47c1afbc0ab8ac"
+    ],
+    "reddit": [
+      "https://reddit.com/r/storj"
+    ],
+    "technical_doc": [
+      "https://storj.io/storj.pdf"
+    ],
+    "source_code": [
+      "https://github.com/storj/storj"
+    ],
+    "announcement": [
+      "https://bitcointalk.org/index.php?topic=555159.0"
+    ]
+  },
+  "tags": []
+}

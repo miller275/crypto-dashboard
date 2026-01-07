@@ -1,0 +1,48 @@
+{
+  "id": 30605,
+  "rank": 222,
+  "name": "Ailey",
+  "symbol": "ALE",
+  "price": 0.4000904647993547,
+  "change1h": -0.06446507,
+  "change24h": -0.96416309,
+  "change7d": -0.12342431,
+  "market_cap": 175928668.271494,
+  "volume_24h": 261974.66423299,
+  "circulating_supply": 439722222.2222222,
+  "max_supply": 1000000000,
+  "sparkline7d": [],
+  "description": "Ailey (ALE) is a cryptocurrency launched in 2023and operates on the BNB Smart Chain (BEP20) platform. Ailey has a current supply of 1,000,000,000 with 439,722,222.22222222 in circulation. The last known price of Ailey is 0.40011695 USD and is down -0.96 over the last 24 hours. It is currently trading on 13 active market(s) with $261,989.02 traded over the last 24 hours. More information can be found at https://myailey.com/.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/30605.png",
+  "urls": {
+    "website": [
+      "https://myailey.com/"
+    ],
+    "twitter": [
+      "https://twitter.com/aileyverse"
+    ],
+    "message_board": [
+      "https://twitter.com/aileyverse"
+    ],
+    "chat": [
+      "https://discord.gg/aileyverse",
+      "https://t.me/aileyverse"
+    ],
+    "facebook": [],
+    "explorer": [
+      "https://bscscan.com/token/0x9dCE13E71B11eb5Df66ca269bD657696587Fd4E2",
+      "https://app.nansen.ai/token-god-mode?chain=bnb&tab=transactions&tokenAddress=0x9dCE13E71B11eb5Df66ca269bD657696587Fd4E2"
+    ],
+    "reddit": [],
+    "technical_doc": [
+      "https://project-ailey.gitbook.io/project-ailey"
+    ],
+    "source_code": [
+      "https://github.com/project-ailey"
+    ],
+    "announcement": [
+      "https://myailey.com/notice"
+    ]
+  },
+  "tags": []
+}

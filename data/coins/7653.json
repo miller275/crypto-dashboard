@@ -1,0 +1,53 @@
+{
+  "id": 7653,
+  "rank": 298,
+  "name": "Oasis",
+  "symbol": "ROSE",
+  "price": 0.012038904976382147,
+  "change1h": -1.51797358,
+  "change24h": -2.65769985,
+  "change7d": 17.49970583,
+  "market_cap": 90152774.18341506,
+  "volume_24h": 3620189.22742999,
+  "circulating_supply": 7488453008,
+  "max_supply": 10000000000,
+  "sparkline7d": [],
+  "description": "Oasis (ROSE) is a cryptocurrency launched in 2020and operates on the BNB Smart Chain (BEP20) platform. Oasis has a current supply of 10,000,000,000 with 7,488,453,008 in circulation. The last known price of Oasis is 0.01205044 USD and is down -2.60 over the last 24 hours. It is currently trading on 182 active market(s) with $3,626,904.24 traded over the last 24 hours. More information can be found at https://oasis.net/.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/7653.png",
+  "urls": {
+    "website": [
+      "https://oasis.net/"
+    ],
+    "twitter": [
+      "https://twitter.com/OasisProtocol"
+    ],
+    "message_board": [
+      "https://oasis.net/blog",
+      "https://discord.gg/BQCxwhT5wS"
+    ],
+    "chat": [
+      "https://t.me/oasisprotocolcommunity",
+      "https://forum.oasis.io/",
+      "https://oasis.io/discord"
+    ],
+    "facebook": [],
+    "explorer": [
+      "https://explorer.oasis.io/",
+      "https://app.nansen.ai/token-god-mode?chain=bnb&tab=transactions&tokenAddress=0xF00600eBC7633462BC4F9C61eA2cE99F5AAEBd4a",
+      "https://www.oasisscan.com/"
+    ],
+    "reddit": [
+      "https://reddit.com/r/oasisnetwork/"
+    ],
+    "technical_doc": [
+      "https://docs.oasis.io/"
+    ],
+    "source_code": [
+      "https://github.com/oasisprotocol/oasis-core"
+    ],
+    "announcement": [
+      "https://docs.oasis.dev/oasis-network-primer/"
+    ]
+  },
+  "tags": []
+}

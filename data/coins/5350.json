@@ -1,0 +1,50 @@
+{
+  "id": 5350,
+  "rank": 292,
+  "name": "XPR Network",
+  "symbol": "XPR",
+  "price": 0.0032818482481065487,
+  "change1h": -0.3338221,
+  "change24h": -5.59854564,
+  "change7d": 21.1622463,
+  "market_cap": 92879526.93972145,
+  "volume_24h": 3129351.05701473,
+  "circulating_supply": 28300981617.0836,
+  "max_supply": null,
+  "sparkline7d": [],
+  "description": "XPR Network (XPR) is a cryptocurrency launched in 2020. XPR Network has a current supply of 31,279,472,049.3696 with 28,300,981,617.0836 in circulation. The last known price of XPR Network is 0.00328398 USD and is down -5.53 over the last 24 hours. It is currently trading on 85 active market(s) with $3,134,863.66 traded over the last 24 hours. More information can be found at https://xprnetwork.org/.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/5350.png",
+  "urls": {
+    "website": [
+      "https://xprnetwork.org/"
+    ],
+    "twitter": [
+      "https://twitter.com/XPRNetwork"
+    ],
+    "message_board": [
+      "https://xprnetwork.org/news"
+    ],
+    "chat": [
+      "https://t.me/XPRNetwork",
+      "https://discord.gg/B2QDmgf"
+    ],
+    "facebook": [],
+    "explorer": [
+      "https://explorer.xprnetwork.org/",
+      "https://app.nansen.ai/token-god-mode?chain=ethereum&tab=transactions&tokenAddress=0xd7efb00d12c2c13131fd319336fdf952525da2af",
+      "https://etherscan.io/token/0xd7efb00d12c2c13131fd319336fdf952525da2af",
+      "https://bscscan.com/token/0x5de3939b2f811a61d830e6f52d13b066881412ab"
+    ],
+    "reddit": [
+      "https://reddit.com/r/XPRNetwork"
+    ],
+    "technical_doc": [
+      "http://xprnetwork.org/whitepaper"
+    ],
+    "source_code": [
+      "https://github.com/XPRNetwork/"
+    ],
+    "announcement": []
+  },
+  "tags": []
+}

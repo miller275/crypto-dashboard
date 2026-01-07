@@ -1,0 +1,45 @@
+{
+  "id": 36762,
+  "rank": 227,
+  "name": "StandX DUSD",
+  "symbol": "DUSD",
+  "price": 0.9979140329825174,
+  "change1h": -0.03649594,
+  "change24h": -0.08101176,
+  "change7d": 0.01992013,
+  "market_cap": 156609152.6638435,
+  "volume_24h": 4062012.248988,
+  "circulating_supply": 156936517.062274,
+  "max_supply": null,
+  "sparkline7d": [],
+  "description": "StandX DUSD (DUSD) is a cryptocurrency launched in 2025and operates on the BNB Smart Chain (BEP20) platform. StandX DUSD has a current supply of 156,936,517.062274. The last known price of StandX DUSD is 0.99851178 USD and is down -0.03 over the last 24 hours. It is currently trading on 30 active market(s) with $4,076,590.63 traded over the last 24 hours. More information can be found at https://standx.com/.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/36762.png",
+  "urls": {
+    "website": [
+      "https://standx.com/"
+    ],
+    "twitter": [
+      "https://twitter.com/StandX_Official"
+    ],
+    "message_board": [
+      "https://docs.standx.com/blog"
+    ],
+    "chat": [
+      "https://discord.com/invite/standx"
+    ],
+    "facebook": [],
+    "explorer": [
+      "https://bscscan.com/token/0xaf44A1E76F56eE12ADBB7ba8acD3CbD474888122",
+      "https://app.nansen.ai/token-god-mode?chain=bnb&tab=transactions&tokenAddress=0xaf44A1E76F56eE12ADBB7ba8acD3CbD474888122",
+      "https://solscan.io/token/DUSDt4AeLZHWYmcXnVGYdgAzjtzU5mXUVnTMdnSzAttM",
+      "https://bscscan.com/address/0xaf44A1E76F56eE12ADBB7ba8acD3CbD474888122"
+    ],
+    "reddit": [],
+    "technical_doc": [
+      "https://docs.standx.com/docs/stand-x-overview"
+    ],
+    "source_code": [],
+    "announcement": []
+  },
+  "tags": []
+}

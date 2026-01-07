@@ -1,0 +1,43 @@
+{
+  "id": 36510,
+  "rank": 381,
+  "name": "Lagrange",
+  "symbol": "LA",
+  "price": 0.32314601693214,
+  "change1h": -0.62116384,
+  "change24h": -2.87665336,
+  "change7d": 10.66755639,
+  "market_cap": 62367181.26790302,
+  "volume_24h": 19535463.01850123,
+  "circulating_supply": 193000000,
+  "max_supply": null,
+  "sparkline7d": [],
+  "description": "Lagrange (LA) is a cryptocurrency launched in 2025and operates on the Ethereum platform. Lagrange has a current supply of 1,000,000,000 with 193,000,000 in circulation. The last known price of Lagrange is 0.32305431 USD and is down -3.10 over the last 24 hours. It is currently trading on 153 active market(s) with $19,517,328.27 traded over the last 24 hours. More information can be found at https://www.lagrangefoundation.org/.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/36510.png",
+  "urls": {
+    "website": [
+      "https://www.lagrangefoundation.org/",
+      "https://www.lagrange.dev/"
+    ],
+    "twitter": [
+      "https://twitter.com/LagrangeFndn"
+    ],
+    "message_board": [],
+    "chat": [
+      "https://discord.com/invite/Hnr52BvWUk"
+    ],
+    "facebook": [],
+    "explorer": [
+      "https://etherscan.io/token/0x0fc2a55d5BD13033f1ee0cdd11f60F7eFe66f467",
+      "https://app.nansen.ai/token-god-mode?chain=ethereum&tab=transactions&tokenAddress=0x0fc2a55d5BD13033f1ee0cdd11f60F7eFe66f467",
+      "https://bscscan.com/token/0x389ad4bb96d0d6ee5b6ef0efaf4b7db0ba2e02a0"
+    ],
+    "reddit": [],
+    "technical_doc": [
+      "https://cdn.prod.website-files.com/6824242a3a5fa3c59766e203/6876d260b1c1f39c74ec58dd_Whitepaper%20-%20Lagrange%20Prover%20Network.pdf"
+    ],
+    "source_code": [],
+    "announcement": []
+  },
+  "tags": []
+}

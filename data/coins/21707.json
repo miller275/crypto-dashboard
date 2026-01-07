@@ -1,0 +1,42 @@
+{
+  "id": 21707,
+  "rank": 339,
+  "name": "RedStone",
+  "symbol": "RED",
+  "price": 0.24453445636842247,
+  "change1h": 0.02975896,
+  "change24h": -0.76845434,
+  "change7d": 14.97786845,
+  "market_cap": 73804465.52540666,
+  "volume_24h": 11304388.16297382,
+  "circulating_supply": 301816221,
+  "max_supply": 1000000000,
+  "sparkline7d": [],
+  "description": "RedStone (RED) is a cryptocurrency launched in 2025and operates on the Ethereum platform. RedStone has a current supply of 1,000,000,000 with 301,816,221 in circulation. The last known price of RedStone is 0.24452364 USD and is down -0.69 over the last 24 hours. It is currently trading on 152 active market(s) with $11,281,858.96 traded over the last 24 hours. More information can be found at https://redstone.finance/.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/21707.png",
+  "urls": {
+    "website": [
+      "https://redstone.finance/"
+    ],
+    "twitter": [
+      "https://twitter.com/redstone_defi"
+    ],
+    "message_board": [],
+    "chat": [
+      "https://discord.com/invite/PVxBZKFr46"
+    ],
+    "facebook": [],
+    "explorer": [
+      "https://etherscan.io/token/0xc43c6bfeda065fe2c4c11765bf838789bd0bb5de",
+      "https://app.nansen.ai/token-god-mode?chain=ethereum&tab=transactions&tokenAddress=0xc43c6bfeda065fe2c4c11765bf838789bd0bb5de",
+      "https://solscan.io/token/3iLDkQgwyotMWno1E2WiDvMZnirNUeDZirCLoeCNNuGo"
+    ],
+    "reddit": [],
+    "technical_doc": [],
+    "source_code": [
+      "https://github.com/redstone-finance"
+    ],
+    "announcement": []
+  },
+  "tags": []
+}

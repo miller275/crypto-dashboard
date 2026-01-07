@@ -1,0 +1,40 @@
+{
+  "id": 37004,
+  "rank": 348,
+  "name": "Tesla tokenized stock (xStock)",
+  "symbol": "TSLAX",
+  "price": 435.32502583714063,
+  "change1h": -0.29131073,
+  "change24h": 0.61277154,
+  "change7d": -3.93277722,
+  "market_cap": 71610114.49412476,
+  "volume_24h": 23617320.05297306,
+  "circulating_supply": 164498.04225341,
+  "max_supply": null,
+  "sparkline7d": [],
+  "description": "Tesla tokenized stock (xStock) (TSLAX) is a cryptocurrency and operates on the Solana platform. Tesla tokenized stock (xStock) has a current supply of 164,498.04225341. The last known price of Tesla tokenized stock (xStock) is 434.7385067 USD and is up 0.49 over the last 24 hours. It is currently trading on 62 active market(s) with $23,426,018.62 traded over the last 24 hours. More information can be found at https://assets.backed.fi/products/tesla-xstock.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/37004.png",
+  "urls": {
+    "website": [
+      "https://assets.backed.fi/products/tesla-xstock"
+    ],
+    "twitter": [
+      "https://twitter.com/xStocksFi"
+    ],
+    "message_board": [],
+    "chat": [
+      "https://t.me/xstocksfi"
+    ],
+    "facebook": [],
+    "explorer": [
+      "https://solscan.io/token/XsDoVfqeBukxuZHWhdvWHBhgEHjGNst4MLodqsJHzoB",
+      "https://app.nansen.ai/token-god-mode?chain=solana&tab=transactions&tokenAddress=XsDoVfqeBukxuZHWhdvWHBhgEHjGNst4MLodqsJHzoB",
+      "https://www.arbiscan.io/token/0x8ad3c73f833d3f9a523ab01476625f269aeb7cf0"
+    ],
+    "reddit": [],
+    "technical_doc": [],
+    "source_code": [],
+    "announcement": []
+  },
+  "tags": []
+}

@@ -1,0 +1,40 @@
+{
+  "id": 20641,
+  "rank": 124,
+  "name": "EURC",
+  "symbol": "EURC",
+  "price": 1.1694462791748406,
+  "change1h": 0.08502441,
+  "change24h": 0.07516521,
+  "change7d": -0.49950524,
+  "market_cap": 361994564.7998741,
+  "volume_24h": 33290130.75752043,
+  "circulating_supply": 309543560.2696491,
+  "max_supply": null,
+  "sparkline7d": [],
+  "description": "EURC (EURC) is a cryptocurrency and operates on the Ethereum platform. EURC has a current supply of 309,543,560.2696491. The last known price of EURC is 1.16849667 USD and is up 0.00 over the last 24 hours. It is currently trading on 223 active market(s) with $33,210,396.88 traded over the last 24 hours. More information can be found at https://www.circle.com.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/20641.png",
+  "urls": {
+    "website": [
+      "https://www.circle.com"
+    ],
+    "twitter": [
+      "https://twitter.com/circle"
+    ],
+    "message_board": [],
+    "chat": [],
+    "facebook": [],
+    "explorer": [
+      "https://etherscan.io/token/0x1aBaEA1f7C830bD89Acc67eC4af516284b1bC33c",
+      "https://app.nansen.ai/token-god-mode?chain=ethereum&tab=transactions&tokenAddress=0x1abaea1f7c830bd89acc67ec4af516284b1bc33c",
+      "https://solscan.io/token/HzwqbKZw8HxMN6bF2yFZNrht3c2iXXzpKcFu7uBEDKtr",
+      "https://snowtrace.io/token/0xC891EB4cbdEFf6e073e859e987815Ed1505c2ACD",
+      "https://basescan.org/token/0x60a3e35cc302bfa44cb288bc5a4f316fdb1adb42"
+    ],
+    "reddit": [],
+    "technical_doc": [],
+    "source_code": [],
+    "announcement": []
+  },
+  "tags": []
+}

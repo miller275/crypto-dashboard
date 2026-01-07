@@ -1,0 +1,51 @@
+{
+  "id": 9543,
+  "rank": 466,
+  "name": "Biconomy",
+  "symbol": "BICO",
+  "price": 0.04658498413112323,
+  "change1h": -1.10501832,
+  "change24h": -2.44193782,
+  "change7d": 13.55291904,
+  "market_cap": 46596295.4840912,
+  "volume_24h": 8724180.25643333,
+  "circulating_supply": 1000242811.1370851,
+  "max_supply": 1000000000,
+  "sparkline7d": [],
+  "description": "Biconomy (BICO) is a cryptocurrency launched in 2021and operates on the Ethereum platform. Biconomy has a current supply of 1,000,000,000 with 1,000,242,811.1370851 in circulation. The last known price of Biconomy is 0.04659493 USD and is down -2.47 over the last 24 hours. It is currently trading on 172 active market(s) with $8,709,404.71 traded over the last 24 hours. More information can be found at https://biconomy.io.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/9543.png",
+  "urls": {
+    "website": [
+      "https://biconomy.io"
+    ],
+    "twitter": [
+      "https://twitter.com/biconomy"
+    ],
+    "message_board": [
+      "https://blog.biconomy.io/"
+    ],
+    "chat": [
+      "https://discord.gg/biconomy",
+      "https://t.me/+jG-IDPrMvxYxMWVl"
+    ],
+    "facebook": [],
+    "explorer": [
+      "https://etherscan.io/token/0xf17e65822b568b3903685a7c9f496cf7656cc6c2",
+      "https://app.nansen.ai/token-god-mode?chain=ethereum&tab=transactions&tokenAddress=0xf17e65822b568b3903685a7c9f496cf7656cc6c2",
+      "https://www.oklink.com/eth/token/0xf17e65822b568b3903685a7c9f496cf7656cc6c2"
+    ],
+    "reddit": [
+      "https://reddit.com/r/biconomy"
+    ],
+    "technical_doc": [
+      "https://docs.biconomy.io"
+    ],
+    "source_code": [
+      "https://github.com/bcnmy"
+    ],
+    "announcement": [
+      "https://www.binance.com/en/support/announcement/detail/2bd41061311e4ae287ec3e21db9a1fcf"
+    ]
+  },
+  "tags": []
+}

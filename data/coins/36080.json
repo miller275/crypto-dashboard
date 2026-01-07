@@ -1,0 +1,45 @@
+{
+  "id": 36080,
+  "rank": 388,
+  "name": "MultiBank Group",
+  "symbol": "MBG",
+  "price": 0.464714321706473,
+  "change1h": -3.24982964,
+  "change24h": -9.76785697,
+  "change7d": 0.68023256,
+  "market_cap": 60608203.98159161,
+  "volume_24h": 11707321.74839906,
+  "circulating_supply": 130420348.91249491,
+  "max_supply": 1000000000,
+  "sparkline7d": [],
+  "description": "MultiBank Group (MBG) is a cryptocurrency launched in 2025and operates on the Ethereum platform. MultiBank Group has a current supply of 995,140,000 with 130,420,348.91249491 in circulation. The last known price of MultiBank Group is 0.46969917 USD and is down -8.91 over the last 24 hours. It is currently trading on 15 active market(s) with $11,682,007.56 traded over the last 24 hours. More information can be found at http://token.multibankgroup.com/en/mbg?utm_source=direct_buys&utm_campaign=MBIO_Global_IC_LeadGen_Web_TGE_Jul-25&utm_medium=CMC_BIOPAGE&utm_term=mbio_token_TGE&utm_content=EN.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/36080.png",
+  "urls": {
+    "website": [
+      "http://token.multibankgroup.com/en/mbg?utm_source=direct_buys&utm_campaign=MBIO_Global_IC_LeadGen_Web_TGE_Jul-25&utm_medium=CMC_BIOPAGE&utm_term=mbio_token_TGE&utm_content=EN"
+    ],
+    "twitter": [
+      "https://twitter.com/multibank_io"
+    ],
+    "message_board": [
+      "https://tradfi.multibankgroup.com/en/about/company-news"
+    ],
+    "chat": [
+      "https://t.me/multibank_io"
+    ],
+    "facebook": [],
+    "explorer": [
+      "https://etherscan.io/token/0x45e02bc2875A2914C4f585bBF92a6F28bc07CB70",
+      "https://app.nansen.ai/token-god-mode?chain=ethereum&tab=transactions&tokenAddress=0x45e02bc2875A2914C4f585bBF92a6F28bc07CB70"
+    ],
+    "reddit": [],
+    "technical_doc": [
+      "https://token.multibankgroup.com/home/whitepaper.pdf"
+    ],
+    "source_code": [],
+    "announcement": [
+      "https://t.me/MultiBankio_Announcements"
+    ]
+  },
+  "tags": []
+}

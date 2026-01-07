@@ -1,0 +1,47 @@
+{
+  "id": 30986,
+  "rank": 158,
+  "name": "Kamino",
+  "symbol": "KMNO",
+  "price": 0.05812278456675056,
+  "change1h": -0.60033964,
+  "change24h": -2.29939712,
+  "change7d": -0.35376954,
+  "market_cap": 212068553.29747796,
+  "volume_24h": 10588426.41465792,
+  "circulating_supply": 3648630307,
+  "max_supply": 10000000000,
+  "sparkline7d": [],
+  "description": "Kamino (KMNO) is a cryptocurrency launched in 2024and operates on the Solana platform. Kamino has a current supply of 9,999,960,003.810287 with 3,648,630,307 in circulation. The last known price of Kamino is 0.05811378 USD and is down -1.92 over the last 24 hours. It is currently trading on 239 active market(s) with $10,673,057.91 traded over the last 24 hours. More information can be found at https://kamino.com/.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/30986.png",
+  "urls": {
+    "website": [
+      "https://kamino.com/"
+    ],
+    "twitter": [
+      "https://twitter.com/Kamino"
+    ],
+    "message_board": [
+      "https://gov.kamino.finance/"
+    ],
+    "chat": [
+      "https://discord.com/invite/kamino"
+    ],
+    "facebook": [],
+    "explorer": [
+      "https://solscan.io/token/KMNo3nJsBXfcpJTVhZcXLW7RmTwTt4GVFE7suUBo9sS",
+      "https://app.nansen.ai/token-god-mode?chain=solana&tab=transactions&tokenAddress=KMNo3nJsBXfcpJTVhZcXLW7RmTwTt4GVFE7suUBo9sS"
+    ],
+    "reddit": [],
+    "technical_doc": [
+      "https://kamino.com/build"
+    ],
+    "source_code": [
+      "https://github.com/Kamino-Finance"
+    ],
+    "announcement": [
+      "https://gov.kamino.finance/t/kamino-the-next-chapter/864"
+    ]
+  },
+  "tags": []
+}

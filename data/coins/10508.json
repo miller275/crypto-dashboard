@@ -1,0 +1,44 @@
+{
+  "id": 10508,
+  "rank": 152,
+  "name": "Fluid",
+  "symbol": "FLUID",
+  "price": 2.9924501457416737,
+  "change1h": -0.49907529,
+  "change24h": -2.00405925,
+  "change7d": 24.35727943,
+  "market_cap": 230516046.9820474,
+  "volume_24h": 4082344.79979663,
+  "circulating_supply": 77032543.82034639,
+  "max_supply": null,
+  "sparkline7d": [],
+  "description": "Fluid (FLUID) is a cryptocurrency and operates on the Ethereum platform. Fluid has a current supply of 100,000,000 with 77,032,543.82034638 in circulation. The last known price of Fluid is 2.99530391 USD and is down -1.81 over the last 24 hours. It is currently trading on 130 active market(s) with $4,078,601.70 traded over the last 24 hours. More information can be found at https://fluid.io/.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/10508.png",
+  "urls": {
+    "website": [
+      "https://fluid.io/",
+      "https://instadapp.io/"
+    ],
+    "twitter": [
+      "https://twitter.com/0xfluid"
+    ],
+    "message_board": [
+      "https://blog.instadapp.io/",
+      "https://discuss.instadapp.io/"
+    ],
+    "chat": [
+      "https://discord.com/invite/C76CeZc"
+    ],
+    "facebook": [],
+    "explorer": [
+      "https://etherscan.io/token/0x6f40d4A6237C257fff2dB00FA0510DeEECd303eb",
+      "https://app.nansen.ai/token-god-mode?chain=ethereum&tab=transactions&tokenAddress=0x6f40d4A6237C257fff2dB00FA0510DeEECd303eb",
+      "https://ethplorer.io/address/0x6f40d4A6237C257fff2dB00FA0510DeEECd303eb"
+    ],
+    "reddit": [],
+    "technical_doc": [],
+    "source_code": [],
+    "announcement": []
+  },
+  "tags": []
+}

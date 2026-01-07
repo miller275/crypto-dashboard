@@ -1,0 +1,50 @@
+{
+  "id": 7950,
+  "rank": 67,
+  "name": "Flare",
+  "symbol": "FLR",
+  "price": 0.01178664499140956,
+  "change1h": -1.33032011,
+  "change24h": -5.51309032,
+  "change7d": 15.13307178,
+  "market_cap": 974374978.4920651,
+  "volume_24h": 6455631.40310261,
+  "circulating_supply": 82667712415.38344,
+  "max_supply": null,
+  "sparkline7d": [],
+  "description": "Flare (FLR) is a cryptocurrency launched in 2023. Flare has a current supply of 104,656,698,239.400576 with 82,667,712,415.38344 in circulation. The last known price of Flare is 0.01180185 USD and is down -5.73 over the last 24 hours. It is currently trading on 109 active market(s) with $6,443,999.63 traded over the last 24 hours. More information can be found at https://flare.network.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/7950.png",
+  "urls": {
+    "website": [
+      "https://flare.network",
+      "https://portal.flare.network/"
+    ],
+    "twitter": [
+      "https://twitter.com/FlareNetworks"
+    ],
+    "message_board": [
+      "https://medium.com/flarenetwork"
+    ],
+    "chat": [
+      "https://discord.com/invite/flarenetwork",
+      "https://t.me/FlareNetwork"
+    ],
+    "facebook": [],
+    "explorer": [
+      "https://flare-explorer.flare.network/"
+    ],
+    "reddit": [
+      "https://reddit.com/r/FlareNetworks/"
+    ],
+    "technical_doc": [
+      "https://docs.flare.network/"
+    ],
+    "source_code": [
+      "https://github.com/flare-foundation/"
+    ],
+    "announcement": [
+      "https://flare.network/live/"
+    ]
+  },
+  "tags": []
+}

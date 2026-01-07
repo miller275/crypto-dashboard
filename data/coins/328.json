@@ -1,0 +1,51 @@
+{
+  "id": 328,
+  "rank": 15,
+  "name": "Monero",
+  "symbol": "XMR",
+  "price": 436.4322657811758,
+  "change1h": -0.06519289,
+  "change24h": -1.71210453,
+  "change7d": -0.30695337,
+  "market_cap": 8050754312.374536,
+  "volume_24h": 88063857.24310163,
+  "circulating_supply": 18446744.07370955,
+  "max_supply": null,
+  "sparkline7d": [],
+  "description": "Monero (XMR) is a cryptocurrency . Users are able to generate XMR through the process of mining. Monero has a current supply of 18,446,744.07370955. The last known price of Monero is 436.01691994 USD and is down -1.56 over the last 24 hours. It is currently trading on 347 active market(s) with $88,290,244.79 traded over the last 24 hours. More information can be found at https://www.getmonero.org/.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/328.png",
+  "urls": {
+    "website": [
+      "https://www.getmonero.org/"
+    ],
+    "twitter": [
+      "https://twitter.com/monero"
+    ],
+    "message_board": [
+      "https://forum.getmonero.org/",
+      "https://forum.monero.space/"
+    ],
+    "chat": [
+      "https://telegram.me/monero"
+    ],
+    "facebook": [],
+    "explorer": [
+      "http://moneroblocks.info/",
+      "http://chainradar.com/xmr/blocks",
+      "https://blockchair.com/monero"
+    ],
+    "reddit": [
+      "https://reddit.com/r/monero"
+    ],
+    "technical_doc": [
+      "https://github.com/monero-project/research-lab/blob/master/whitepaper/whitepaper.pdf"
+    ],
+    "source_code": [
+      "https://github.com/monero-project/monero"
+    ],
+    "announcement": [
+      "https://bitcointalk.org/index.php?topic=583449.0"
+    ]
+  },
+  "tags": []
+}

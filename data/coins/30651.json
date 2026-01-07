@@ -1,0 +1,42 @@
+{
+  "id": 30651,
+  "rank": 429,
+  "name": "QuantixAI",
+  "symbol": "QAI",
+  "price": 65.96540868442982,
+  "change1h": -0.49528687,
+  "change24h": -3.4926652,
+  "change7d": -1.17526164,
+  "market_cap": 53026435.00328303,
+  "volume_24h": 7177595.45596136,
+  "circulating_supply": 803852.14100552,
+  "max_supply": 10000000,
+  "sparkline7d": [],
+  "description": "QuantixAI (QAI) is a cryptocurrency launched in 2024and operates on the Ethereum platform. QuantixAI has a current supply of 10,000,000 with 803,852.14100552 in circulation. The last known price of QuantixAI is 65.92130242 USD and is down -3.60 over the last 24 hours. It is currently trading on 14 active market(s) with $7,168,858.14 traded over the last 24 hours. More information can be found at https://quantixai.io/.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/30651.png",
+  "urls": {
+    "website": [
+      "https://quantixai.io/"
+    ],
+    "twitter": [
+      "https://twitter.com/QuantixCapital"
+    ],
+    "message_board": [],
+    "chat": [
+      "https://t.me/Quantixcapital",
+      "Discord: https://discord.com/invite/aghdDvUHz\r\nInstagram: https://www.instagram.com/quantixcapital/"
+    ],
+    "facebook": [],
+    "explorer": [
+      "https://etherscan.io/token/0xcb21311d3b91b5324f6c11b4f5a656fcacbff122",
+      "https://app.nansen.ai/token-god-mode?chain=ethereum&tab=transactions&tokenAddress=0xCb21311d3B91b5324F6C11B4f5A656fcAcBff122"
+    ],
+    "reddit": [],
+    "technical_doc": [
+      "https://quantixai.io/whitepaper"
+    ],
+    "source_code": [],
+    "announcement": []
+  },
+  "tags": []
+}

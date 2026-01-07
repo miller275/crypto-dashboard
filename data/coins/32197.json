@@ -1,0 +1,43 @@
+{
+  "id": 32197,
+  "rank": 296,
+  "name": "Magic Eden",
+  "symbol": "ME",
+  "price": 0.2201194340900833,
+  "change1h": -0.94090373,
+  "change24h": -3.24028181,
+  "change7d": 11.44368582,
+  "market_cap": 91909008.92065464,
+  "volume_24h": 9662952.87478855,
+  "circulating_supply": 417541546.481721,
+  "max_supply": 1000000000,
+  "sparkline7d": [],
+  "description": "Magic Eden (ME) is a cryptocurrency and operates on the Solana platform. Magic Eden has a current supply of 999,993,738.523198 with 417,541,546.481721 in circulation. The last known price of Magic Eden is 0.22047366 USD and is down -3.29 over the last 24 hours. It is currently trading on 278 active market(s) with $9,634,643.92 traded over the last 24 hours. More information can be found at https://mefoundation.com/.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/32197.png",
+  "urls": {
+    "website": [
+      "https://mefoundation.com/"
+    ],
+    "twitter": [
+      "https://twitter.com/mefndn"
+    ],
+    "message_board": [],
+    "chat": [
+      "https://discord.com/invite/magiceden"
+    ],
+    "facebook": [],
+    "explorer": [
+      "https://solscan.io/token/MEFNBXixkEbait3xn9bkm8WsJzXtVsaJEn4c8Sam21u",
+      "https://app.nansen.ai/token-god-mode?chain=solana&tab=transactions&tokenAddress=MEFNBXixkEbait3xn9bkm8WsJzXtVsaJEn4c8Sam21u"
+    ],
+    "reddit": [],
+    "technical_doc": [
+      "https://blog.mefoundation.com/blog/me-tokenomics/"
+    ],
+    "source_code": [
+      "https://github.com/me-foundation"
+    ],
+    "announcement": []
+  },
+  "tags": []
+}

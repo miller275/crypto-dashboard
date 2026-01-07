@@ -1,0 +1,45 @@
+{
+  "id": 34387,
+  "rank": 53,
+  "name": "Ripple USD",
+  "symbol": "RLUSD",
+  "price": 1.0000402284941416,
+  "change1h": 0.01027005,
+  "change24h": 0.04077137,
+  "change7d": 0.05057628,
+  "market_cap": 1336185024.202252,
+  "volume_24h": 148019424.93099973,
+  "circulating_supply": 1336131273.6531372,
+  "max_supply": null,
+  "sparkline7d": [],
+  "description": "Ripple USD (RLUSD) is a cryptocurrency and operates on the XRP Ledger platform. Ripple USD has a current supply of 1,336,131,273.6531373. The last known price of Ripple USD is 0.99963663 USD and is up -0.00 over the last 24 hours. It is currently trading on 59 active market(s) with $147,694,009.22 traded over the last 24 hours. More information can be found at https://ripple.com/solutions/stablecoin/.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/34387.png",
+  "urls": {
+    "website": [
+      "https://ripple.com/solutions/stablecoin/"
+    ],
+    "twitter": [
+      "https://twitter.com/Ripple"
+    ],
+    "message_board": [],
+    "chat": [
+      "https://www.linkedin.com/company/rippleofficial"
+    ],
+    "facebook": [
+      "https://www.facebook.com/rippleofficial"
+    ],
+    "explorer": [
+      "https://xrpscan.com/token/524C555344000000000000000000000000000000.rMxCKbEDwqr76QuheSUMdEGf4B9xJ8m5De",
+      "https://app.nansen.ai/token-god-mode?chain=ethereum&tab=transactions&tokenAddress=0x8292bb45bf1ee4d140127049757c2e0ff06317ed",
+      "https://livenet.xrpl.org/accounts/rMxCKbEDwqr76QuheSUMdEGf4B9xJ8m5De/transactions",
+      "https://etherscan.io/token/0x8292bb45bf1ee4d140127049757c2e0ff06317ed"
+    ],
+    "reddit": [],
+    "technical_doc": [],
+    "source_code": [
+      "https://github.com/ripple/RLUSD-Implementation/blob/main/doc/rlusd-xrpl-settings.md"
+    ],
+    "announcement": []
+  },
+  "tags": []
+}

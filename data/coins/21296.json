@@ -1,0 +1,46 @@
+{
+  "id": 21296,
+  "rank": 377,
+  "name": "EthereumPoW",
+  "symbol": "ETHW",
+  "price": 0.5870821360127643,
+  "change1h": -0.755452,
+  "change24h": 0.53090832,
+  "change7d": 12.84332222,
+  "market_cap": 63298608.26499111,
+  "volume_24h": 7751983.80116809,
+  "circulating_supply": 107818999.04993,
+  "max_supply": null,
+  "sparkline7d": [],
+  "description": "EthereumPoW (ETHW) is a cryptocurrency . EthereumPoW has a current supply of 107,818,999.04993. The last known price of EthereumPoW is 0.58756234 USD and is up 0.60 over the last 24 hours. It is currently trading on 152 active market(s) with $7,739,163.52 traded over the last 24 hours. More information can be found at https://ethereumpow.org/.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/21296.png",
+  "urls": {
+    "website": [
+      "https://ethereumpow.org/"
+    ],
+    "twitter": [
+      "https://twitter.com/EthereumPoW"
+    ],
+    "message_board": [
+      "https://medium.com/@ETHW",
+      "https://twitter.com/ETHW_cn"
+    ],
+    "chat": [
+      "https://t.me/ethereumpow_official",
+      "https://t.me/ethereumpow"
+    ],
+    "facebook": [],
+    "explorer": [
+      "https://ethwscan.com"
+    ],
+    "reddit": [],
+    "technical_doc": [],
+    "source_code": [
+      "https://github.com/ethereumpow"
+    ],
+    "announcement": [
+      "https://linktr.ee/ethw"
+    ]
+  },
+  "tags": []
+}

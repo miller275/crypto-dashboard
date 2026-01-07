@@ -1,0 +1,44 @@
+{
+  "id": 2989,
+  "rank": 233,
+  "name": "STASIS EURO",
+  "symbol": "EURS",
+  "price": 1.1641552633714987,
+  "change1h": -0.07999785,
+  "change24h": -0.16562259,
+  "change7d": 0.25025876,
+  "market_cap": 144501866.37193483,
+  "volume_24h": 2370.82378757,
+  "circulating_supply": 124125940,
+  "max_supply": null,
+  "sparkline7d": [],
+  "description": "STASIS EURO (EURS) is a cryptocurrency and operates on the Ethereum platform. STASIS EURO has a current supply of 124,125,940. The last known price of STASIS EURO is 1.16415526 USD and is down -0.17 over the last 24 hours. It is currently trading on 60 active market(s) with $2,370.82 traded over the last 24 hours. More information can be found at https://stasis.net.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/2989.png",
+  "urls": {
+    "website": [
+      "https://stasis.net"
+    ],
+    "twitter": [
+      "https://twitter.com/stasisnet"
+    ],
+    "message_board": [],
+    "chat": [
+      "https://t.me/STASIS"
+    ],
+    "facebook": [],
+    "explorer": [
+      "https://etherscan.io/token/0xdb25f211ab05b1c97d595516f45794528a807ad8",
+      "https://app.nansen.ai/token-god-mode?chain=ethereum&tab=transactions&tokenAddress=0xdb25f211ab05b1c97d595516f45794528a807ad8",
+      "https://xdcscan.com/token/0x1ebb2c8a71a9ec59bf558886a8adf8f4a565814f"
+    ],
+    "reddit": [],
+    "technical_doc": [],
+    "source_code": [
+      "https://github.com/STASISNET"
+    ],
+    "announcement": [
+      "https://bitcointalk.org/index.php?topic=4789890.0"
+    ]
+  },
+  "tags": []
+}

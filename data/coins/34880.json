@@ -1,0 +1,41 @@
+{
+  "id": 34880,
+  "rank": 274,
+  "name": "Alchemist AI",
+  "symbol": "ALCH",
+  "price": 0.11935604013853142,
+  "change1h": -0.59423385,
+  "change24h": 7.06606306,
+  "change7d": -12.79219944,
+  "market_cap": 101452634.1177517,
+  "volume_24h": 31052142.16302921,
+  "circulating_supply": 850000000,
+  "max_supply": 1000000000,
+  "sparkline7d": [],
+  "description": "Alchemist AI (ALCH) is a cryptocurrency launched in 2024and operates on the Solana platform. Alchemist AI has a current supply of 1,000,000,000 with 850,000,000 in circulation. The last known price of Alchemist AI is 0.11931733 USD and is up 6.97 over the last 24 hours. It is currently trading on 160 active market(s) with $31,034,666.18 traded over the last 24 hours. More information can be found at https://www.alchemistai.app/.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/34880.png",
+  "urls": {
+    "website": [
+      "https://www.alchemistai.app/"
+    ],
+    "twitter": [
+      "https://twitter.com/alchemistAIapp"
+    ],
+    "message_board": [],
+    "chat": [
+      "https://t.me/merlin_alchAI"
+    ],
+    "facebook": [],
+    "explorer": [
+      "https://solscan.io/token/HNg5PYJmtqcmzXrv6S9zP1CDKk5BgDuyFBxbvNApump",
+      "https://app.nansen.ai/token-god-mode?chain=solana&tab=transactions&tokenAddress=HNg5PYJmtqcmzXrv6S9zP1CDKk5BgDuyFBxbvNApump"
+    ],
+    "reddit": [],
+    "technical_doc": [
+      "https://docs.alchemistai.app/docs"
+    ],
+    "source_code": [],
+    "announcement": []
+  },
+  "tags": []
+}

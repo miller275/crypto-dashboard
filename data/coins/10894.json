@@ -1,0 +1,49 @@
+{
+  "id": 10894,
+  "rank": 423,
+  "name": "StorX Network",
+  "symbol": "SRX",
+  "price": 0.07397619645263567,
+  "change1h": -0.06755545,
+  "change24h": -1.01253355,
+  "change7d": 1.90764933,
+  "market_cap": 53665885.83550514,
+  "volume_24h": 3344050.69040531,
+  "circulating_supply": 725448028,
+  "max_supply": 1500000000,
+  "sparkline7d": [],
+  "description": "StorX Network (SRX) is a cryptocurrency launched in 2020and operates on the XDC Network platform. StorX Network has a current supply of 800,000,000 with 725,448,028 in circulation. The last known price of StorX Network is 0.07396334 USD and is down -1.24 over the last 24 hours. It is currently trading on 28 active market(s) with $3,348,779.53 traded over the last 24 hours. More information can be found at https://storx.tech.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/10894.png",
+  "urls": {
+    "website": [
+      "https://storx.tech",
+      "https://storx.io"
+    ],
+    "twitter": [
+      "https://twitter.com/StorXNetwork"
+    ],
+    "message_board": [
+      "https://storxnetwork.medium.com"
+    ],
+    "chat": [
+      "https://t.me/StorXNetwork",
+      "https://discord.gg/ha4Jufj2Nm"
+    ],
+    "facebook": [],
+    "explorer": [
+      "https://xdc.blocksscan.io/tokens/0x5d5f074837f5d4618b3916ba74de1bf9662a3fed",
+      "https://xdcscan.com/token/0x5d5f074837f5d4618b3916ba74de1bf9662a3fed"
+    ],
+    "reddit": [
+      "https://reddit.com/r/StorXNetwork"
+    ],
+    "technical_doc": [
+      "https://storx.tech/storx_whitepaper_v1.pdf"
+    ],
+    "source_code": [
+      "https://github.com/StorXNetwork"
+    ],
+    "announcement": []
+  },
+  "tags": []
+}

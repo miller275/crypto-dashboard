@@ -1,0 +1,48 @@
+{
+  "id": 4172,
+  "rank": 150,
+  "name": "Terra Classic",
+  "symbol": "LUNC",
+  "price": 0.00004322277195811026,
+  "change1h": -0.67256185,
+  "change24h": -4.05005275,
+  "change7d": 1.7523522,
+  "market_cap": 236343460.0159627,
+  "volume_24h": 20435824.68859971,
+  "circulating_supply": 5468031070404.672,
+  "max_supply": null,
+  "sparkline7d": [],
+  "description": "Terra Classic (LUNC) is a cryptocurrency launched in 2019. Terra Classic has a current supply of 6,470,919,413,436.278328 with 5,468,031,070,404.672309 in circulation. The last known price of Terra Classic is 0.00004322 USD and is down -4.32 over the last 24 hours. It is currently trading on 541 active market(s) with $20,429,536.13 traded over the last 24 hours. More information can be found at https://www.terra-classic.money.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/4172.png",
+  "urls": {
+    "website": [
+      "https://www.terra-classic.money"
+    ],
+    "twitter": [
+      "https://twitter.com/terra_money"
+    ],
+    "message_board": [
+      "https://medium.com/terra-money"
+    ],
+    "chat": [],
+    "facebook": [],
+    "explorer": [
+      "https://finder.terra.money/classic",
+      "https://app.nansen.ai/token-god-mode?chain=ethereum&tab=transactions&tokenAddress=0xbd31ea8212119f94a611fa969881cba3ea06fa3d",
+      "https://solscan.io/token/F6v4wfAdJB8D8p77bMXZgYt8TDKsYxLYxH5AFhUkYx9W",
+      "https://finder.terra-classic.hexxagon.io",
+      "https://luncscan.com"
+    ],
+    "reddit": [
+      "https://reddit.com/r/terraluna"
+    ],
+    "technical_doc": [
+      "https://classic-docs.terra.money"
+    ],
+    "source_code": [
+      "https://github.com/classic-terra"
+    ],
+    "announcement": []
+  },
+  "tags": []
+}

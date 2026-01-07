@@ -1,0 +1,49 @@
+{
+  "id": 1042,
+  "rank": 285,
+  "name": "Siacoin",
+  "symbol": "SC",
+  "price": 0.0016982687363112825,
+  "change1h": -0.54218462,
+  "change24h": 0.95689069,
+  "change7d": 18.67755188,
+  "market_cap": 95146586.93737988,
+  "volume_24h": 9715980.1027773,
+  "circulating_supply": 56025636522.075195,
+  "max_supply": null,
+  "sparkline7d": [],
+  "description": "Siacoin (SC) is a cryptocurrency launched in 2015. Users are able to generate SC through the process of mining. Siacoin has a current supply of 62,217,525,676.30304 with 56,025,636,522.075195 in circulation. The last known price of Siacoin is 0.00170198 USD and is up 1.22 over the last 24 hours. It is currently trading on 126 active market(s) with $9,711,946.66 traded over the last 24 hours. More information can be found at https://sia.tech/.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/1042.png",
+  "urls": {
+    "website": [
+      "https://sia.tech/"
+    ],
+    "twitter": [
+      "https://twitter.com/siafoundation"
+    ],
+    "message_board": [
+      "https://sia.tech/blog"
+    ],
+    "chat": [
+      "https://discord.gg/sia"
+    ],
+    "facebook": [],
+    "explorer": [
+      "https://siascan.com",
+      "https://sc.tokenview.com/"
+    ],
+    "reddit": [
+      "https://reddit.com/r/Siacoin"
+    ],
+    "technical_doc": [
+      "https://sia.tech/sia.pdf"
+    ],
+    "source_code": [
+      "https://github.com/SiaFoundation"
+    ],
+    "announcement": [
+      "https://bitcointalk.org/index.php?topic=1060294.0"
+    ]
+  },
+  "tags": []
+}

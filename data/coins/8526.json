@@ -1,0 +1,45 @@
+{
+  "id": 8526,
+  "rank": 131,
+  "name": "Raydium",
+  "symbol": "RAY",
+  "price": 1.1682813680913053,
+  "change1h": -0.30978242,
+  "change24h": -2.79428007,
+  "change7d": 32.84774015,
+  "market_cap": 313799556.12539536,
+  "volume_24h": 32397844.5545676,
+  "circulating_supply": 268599298.675857,
+  "max_supply": 555000000,
+  "sparkline7d": [],
+  "description": "Raydium (RAY) is a cryptocurrency and operates on the Solana platform. Raydium has a current supply of 554,997,845.500917 with 268,599,298.675857 in circulation. The last known price of Raydium is 1.17126183 USD and is down -2.77 over the last 24 hours. It is currently trading on 525 active market(s) with $32,181,381.96 traded over the last 24 hours. More information can be found at https://raydium.io/#/.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/8526.png",
+  "urls": {
+    "website": [
+      "https://raydium.io/#/"
+    ],
+    "twitter": [
+      "https://twitter.com/raydiumprotocol"
+    ],
+    "message_board": [],
+    "chat": [
+      "https://t.me/raydiumprotocol",
+      "https://t.me/raydium",
+      "https://discord.com/invite/raydium"
+    ],
+    "facebook": [],
+    "explorer": [
+      "https://solscan.io/token/4k3Dyjzvzp8eMZWUXbBCjEvwSkkk59S5iCNLY3QrkX6R",
+      "https://app.nansen.ai/token-god-mode?chain=solana&tab=transactions&tokenAddress=4k3Dyjzvzp8eMZWUXbBCjEvwSkkk59S5iCNLY3QrkX6R",
+      "https://explorer.solana.com/address/4k3Dyjzvzp8eMZWUXbBCjEvwSkkk59S5iCNLY3QrkX6R",
+      "https://bscscan.com/token/0x13b6a55662f6591f8b8408af1c73b017e32eedb8"
+    ],
+    "reddit": [],
+    "technical_doc": [
+      "https://raydium.io/Raydium-Litepaper.pdf"
+    ],
+    "source_code": [],
+    "announcement": []
+  },
+  "tags": []
+}

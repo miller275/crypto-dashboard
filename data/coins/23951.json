@@ -1,0 +1,47 @@
+{
+  "id": 23951,
+  "rank": 361,
+  "name": "Staika",
+  "symbol": "STIK",
+  "price": 0.5025868691641456,
+  "change1h": 0.21193997,
+  "change24h": -0.85392867,
+  "change7d": -4.65568912,
+  "market_cap": 67487499.31091793,
+  "volume_24h": 64797.25698996,
+  "circulating_supply": 134280267.6543394,
+  "max_supply": 250000000,
+  "sparkline7d": [],
+  "description": "Staika (STIK) is a cryptocurrency launched in 2022and operates on the Solana platform. Staika has a current supply of 249,999,867.65433939 with 134,280,267.65433939 in circulation. The last known price of Staika is 0.50071992 USD and is down -1.23 over the last 24 hours. It is currently trading on 14 active market(s) with $64,980.27 traded over the last 24 hours. More information can be found at https://staika.io.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/23951.png",
+  "urls": {
+    "website": [
+      "https://staika.io"
+    ],
+    "twitter": [
+      "https://twitter.com/staika_official"
+    ],
+    "message_board": [
+      "https://medium.com/staika",
+      "https://blog.naver.com/staika"
+    ],
+    "chat": [
+      "https://discord.com/invite/FHuteSX4sV"
+    ],
+    "facebook": [],
+    "explorer": [
+      "https://solscan.io/token/8BMzMi2XxZn9afRaMx5Z6fauk9foHXqV5cLTCYWRcVje",
+      "https://app.nansen.ai/token-god-mode?chain=solana&tab=transactions&tokenAddress=8BMzMi2XxZn9afRaMx5Z6fauk9foHXqV5cLTCYWRcVje",
+      "https://explorer.solana.com/address/8BMzMi2XxZn9afRaMx5Z6fauk9foHXqV5cLTCYWRcVje"
+    ],
+    "reddit": [],
+    "technical_doc": [
+      "https://sjbnt.gitbook.io/staika-whitepaper/"
+    ],
+    "source_code": [
+      "https://github.com/stik-proj/mint-token/commit/8d09328db3da689e8334e260d762e1ead8c60ea9"
+    ],
+    "announcement": []
+  },
+  "tags": []
+}

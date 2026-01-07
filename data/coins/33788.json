@@ -1,0 +1,39 @@
+{
+  "id": 33788,
+  "rank": 304,
+  "name": "Peanut the Squirrel",
+  "symbol": "PNUT",
+  "price": 0.08888726272293619,
+  "change1h": -0.77710154,
+  "change24h": -3.40275864,
+  "change7d": 30.80695064,
+  "market_cap": 88873280.85509172,
+  "volume_24h": 28553769.42466716,
+  "circulating_supply": 999842701.109066,
+  "max_supply": null,
+  "sparkline7d": [],
+  "description": "Peanut the Squirrel (PNUT) is a cryptocurrency launched in 2024and operates on the Solana platform. Peanut the Squirrel has a current supply of 999,842,701.109066. The last known price of Peanut the Squirrel is 0.08895601 USD and is down -3.59 over the last 24 hours. It is currently trading on 336 active market(s) with $28,619,670.99 traded over the last 24 hours. More information can be found at https://www.pnutsol.com/.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/33788.png",
+  "urls": {
+    "website": [
+      "https://www.pnutsol.com/"
+    ],
+    "twitter": [
+      "https://twitter.com/pnutsolana"
+    ],
+    "message_board": [],
+    "chat": [
+      "https://t.me/pnutportal"
+    ],
+    "facebook": [],
+    "explorer": [
+      "https://solscan.io/token/2qEHjDLDLbuBgRYvsxhc5D6uDWAivNFZGan56P1tpump",
+      "https://app.nansen.ai/token-god-mode?chain=solana&tab=transactions&tokenAddress=2qEHjDLDLbuBgRYvsxhc5D6uDWAivNFZGan56P1tpump"
+    ],
+    "reddit": [],
+    "technical_doc": [],
+    "source_code": [],
+    "announcement": []
+  },
+  "tags": []
+}

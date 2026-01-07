@@ -1,0 +1,46 @@
+{
+  "id": 37593,
+  "rank": 308,
+  "name": "Succinct",
+  "symbol": "PROVE",
+  "price": 0.4390838879202907,
+  "change1h": -0.78735874,
+  "change24h": -0.40862602,
+  "change7d": 10.11369384,
+  "market_cap": 85621358.14445668,
+  "volume_24h": 20144431.30927692,
+  "circulating_supply": 195000000,
+  "max_supply": 1000000000,
+  "sparkline7d": [],
+  "description": "Succinct (PROVE) is a cryptocurrency launched in 2025and operates on the Ethereum platform. Succinct has a current supply of 1,000,000,000 with 195,000,000 in circulation. The last known price of Succinct is 0.43916448 USD and is down -0.47 over the last 24 hours. It is currently trading on 164 active market(s) with $20,111,929.63 traded over the last 24 hours. More information can be found at https://www.succinct.xyz/.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/37593.png",
+  "urls": {
+    "website": [
+      "https://www.succinct.xyz/"
+    ],
+    "twitter": [
+      "https://twitter.com/succinctlabs"
+    ],
+    "message_board": [
+      "https://blog.succinct.xyz/"
+    ],
+    "chat": [
+      "https://discord.com/invite/succinctlabs"
+    ],
+    "facebook": [],
+    "explorer": [
+      "https://etherscan.io/token/0x6BEF15D938d4E72056AC92Ea4bDD0D76B1C4ad29",
+      "https://app.nansen.ai/token-god-mode?chain=ethereum&tab=transactions&tokenAddress=0x6BEF15D938d4E72056AC92Ea4bDD0D76B1C4ad29",
+      "https://bscscan.com/token/0x7DDf164CEcfddd0f992299D033B5a11279A15929"
+    ],
+    "reddit": [],
+    "technical_doc": [
+      "https://docs.succinct.xyz/"
+    ],
+    "source_code": [
+      "https://github.com/succinctlabs"
+    ],
+    "announcement": []
+  },
+  "tags": []
+}

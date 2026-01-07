@@ -1,0 +1,39 @@
+{
+  "id": 7431,
+  "rank": 248,
+  "name": "Akash Network",
+  "symbol": "AKT",
+  "price": 0.4194278175257924,
+  "change1h": -2.24654682,
+  "change24h": -5.27773275,
+  "change7d": 17.32340421,
+  "market_cap": 119802917.02788025,
+  "volume_24h": 5136035.7205266,
+  "circulating_supply": 285634171.177769,
+  "max_supply": 388539008,
+  "sparkline7d": [],
+  "description": "Akash Network (AKT) is a cryptocurrency . Akash Network has a current supply of 285,634,171.177769. The last known price of Akash Network is 0.42098316 USD and is down -4.88 over the last 24 hours. It is currently trading on 141 active market(s) with $5,120,347.14 traded over the last 24 hours. More information can be found at https://akash.network.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/7431.png",
+  "urls": {
+    "website": [
+      "https://akash.network"
+    ],
+    "twitter": [
+      "https://twitter.com/akashnet"
+    ],
+    "message_board": [],
+    "chat": [
+      "https://t.me/akashnw"
+    ],
+    "facebook": [],
+    "explorer": [
+      "https://www.mintscan.io/osmosis/assets/ibc/1480B8FD20AD5FCAE81EA87584D269547DD4D436843C1D20F15E00EB64743EF4",
+      "https://stats.akash.network/"
+    ],
+    "reddit": [],
+    "technical_doc": [],
+    "source_code": [],
+    "announcement": []
+  },
+  "tags": []
+}

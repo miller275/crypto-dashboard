@@ -1,0 +1,55 @@
+{
+  "id": 5805,
+  "rank": 21,
+  "name": "Avalanche",
+  "symbol": "AVAX",
+  "price": 14.019841270278016,
+  "change1h": -0.19023557,
+  "change24h": -3.21613954,
+  "change7d": 13.66113921,
+  "market_cap": 6031825058.308124,
+  "volume_24h": 409843832.3453994,
+  "circulating_supply": 430234903.6643916,
+  "max_supply": 715748719,
+  "sparkline7d": [],
+  "description": "Avalanche (AVAX) is a cryptocurrency launched in 2020. Avalanche has a current supply of 461,904,003.6643916 with 430,234,903.6643916 in circulation. The last known price of Avalanche is 14.03503137 USD and is down -3.22 over the last 24 hours. It is currently trading on 1032 active market(s) with $409,382,276.19 traded over the last 24 hours. More information can be found at https://avax.network/.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/5805.png",
+  "urls": {
+    "website": [
+      "https://avax.network/",
+      "https://www.avalabs.org/"
+    ],
+    "twitter": [
+      "https://twitter.com/Avax"
+    ],
+    "message_board": [
+      "https://medium.com/avalancheavax",
+      "https://forum.avax.network"
+    ],
+    "chat": [
+      "https://t.me/avalancheavax",
+      "https://chat.avax.network"
+    ],
+    "facebook": [
+      "https://www.facebook.com/avalancheavax"
+    ],
+    "explorer": [
+      "https://snowtrace.io/",
+      "https://app.nansen.ai/token-god-mode?chain=avalanche&tab=transactions&tokenAddress=0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+      "https://avascan.info/blockchain/x/asset/FvwEAhmxKfeiG8SnEvq42hc6whRyY3EFYAvebMqDNDGCgxN5Z",
+      "https://explorer.avax.network/",
+      "https://www.oklink.com/avax"
+    ],
+    "reddit": [
+      "https://reddit.com/r/Avax"
+    ],
+    "technical_doc": [
+      "https://www.avalabs.org/whitepapers"
+    ],
+    "source_code": [
+      "https://github.com/ava-labs/avalanchego"
+    ],
+    "announcement": []
+  },
+  "tags": []
+}

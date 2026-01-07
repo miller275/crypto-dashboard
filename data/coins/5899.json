@@ -1,0 +1,50 @@
+{
+  "id": 5899,
+  "rank": 363,
+  "name": "Casper",
+  "symbol": "CSPR",
+  "price": 0.004843347398748649,
+  "change1h": -0.00852937,
+  "change24h": -7.03793599,
+  "change7d": 14.02037654,
+  "market_cap": 66562839.70473317,
+  "volume_24h": 4102729.75076353,
+  "circulating_supply": 13743147915,
+  "max_supply": null,
+  "sparkline7d": [],
+  "description": "Casper (CSPR) is a cryptocurrency launched in 2021. Casper has a current supply of 14,228,650,403 with 13,743,147,915 in circulation. The last known price of Casper is 0.00484496 USD and is down -7.05 over the last 24 hours. It is currently trading on 92 active market(s) with $4,095,360.11 traded over the last 24 hours. More information can be found at https://casper.network/.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/5899.png",
+  "urls": {
+    "website": [
+      "https://casper.network/"
+    ],
+    "twitter": [
+      "https://twitter.com/Casper_Network"
+    ],
+    "message_board": [
+      "https://casper.network/network/blog"
+    ],
+    "chat": [
+      "https://t.me/casperblockchain"
+    ],
+    "facebook": [
+      "https://www.facebook.com/Casperblockchain/"
+    ],
+    "explorer": [
+      "https://cspr.live/"
+    ],
+    "reddit": [
+      "https://reddit.com/r/CasperCSPR/"
+    ],
+    "technical_doc": [
+      "https://www.casper.network/core-features-casper-network"
+    ],
+    "source_code": [
+      "https://github.com/casper-network/"
+    ],
+    "announcement": [
+      "https://t.me/casperofficialann"
+    ]
+  },
+  "tags": []
+}

@@ -1,0 +1,55 @@
+{
+  "id": 10180,
+  "rank": 223,
+  "name": "GoМining",
+  "symbol": "GOMINING",
+  "price": 0.420412811835988,
+  "change1h": 0.0472708,
+  "change24h": -3.42084513,
+  "change7d": -16.25044335,
+  "market_cap": 170715564.06571347,
+  "volume_24h": 13394757.85496809,
+  "circulating_supply": 406066511.91285115,
+  "max_supply": 406322523.21979076,
+  "sparkline7d": [],
+  "description": "GoМining (GOMINING) is a cryptocurrency launched in 2021and operates on the Ethereum platform. GoМining has a current supply of 406,322,523.21979076 with 406,066,511.91285115 in circulation. The last known price of GoМining is 0.42051537 USD and is down -3.37 over the last 24 hours. It is currently trading on 104 active market(s) with $13,388,092.44 traded over the last 24 hours. More information can be found at https://gomining.com.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/10180.png",
+  "urls": {
+    "website": [
+      "https://gomining.com"
+    ],
+    "twitter": [
+      "https://twitter.com/Gomining_token"
+    ],
+    "message_board": [
+      "https://medium.com/@Gomining"
+    ],
+    "chat": [
+      "https://t.me/gmt_token_talk",
+      "https://discord.gg/XMCKgRuUY9"
+    ],
+    "facebook": [
+      "https://www.facebook.com/GoMiningToken"
+    ],
+    "explorer": [
+      "https://etherscan.io/token/0x7Ddc52c4De30e94Be3A6A0A2b259b2850f421989",
+      "https://app.nansen.ai/token-god-mode?chain=ethereum&tab=transactions&tokenAddress=0x7Ddc52c4De30e94Be3A6A0A2b259b2850f421989",
+      "https://solscan.io/token/3KzAE8dPyJRgZ36Eh81v7WPwi6dm7bDhdMb8EAus2RAf",
+      "https://bscscan.com/address/0x7Ddc52c4De30e94Be3A6A0A2b259b2850f421989",
+      "https://tonviewer.com/EQD0laik0FgHV8aNfRhebi8GDG2rpDyKGXem0MBfya_Ew1-8"
+    ],
+    "reddit": [
+      "https://reddit.com/r/GoMining"
+    ],
+    "technical_doc": [
+      "https://storage.googleapis.com/gmt-public-prod/docs/white-paper-token.pdf"
+    ],
+    "source_code": [
+      "https://github.com/gomining-token/smart"
+    ],
+    "announcement": [
+      "https://gomining.com"
+    ]
+  },
+  "tags": []
+}

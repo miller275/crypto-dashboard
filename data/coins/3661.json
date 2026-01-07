@@ -1,0 +1,52 @@
+{
+  "id": 3661,
+  "rank": 395,
+  "name": "Stronghold SHx",
+  "symbol": "SHX",
+  "price": 0.010171586348198328,
+  "change1h": -0.05768973,
+  "change24h": -2.10088954,
+  "change7d": 56.27653711,
+  "market_cap": 58933205.44830783,
+  "volume_24h": 912175.1200555,
+  "circulating_supply": 5793905044,
+  "max_supply": 99756866344,
+  "sparkline7d": [],
+  "description": "Stronghold SHx (SHX) is a cryptocurrency launched in 2018and operates on the Ethereum platform. Stronghold SHx has a current supply of 99,756,866,344 with 5,793,905,044 in circulation. The last known price of Stronghold SHx is 0.01017761 USD and is down -2.01 over the last 24 hours. It is currently trading on 49 active market(s) with $912,159.21 traded over the last 24 hours. More information can be found at https://stronghold.co/shx.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/3661.png",
+  "urls": {
+    "website": [
+      "https://stronghold.co/shx"
+    ],
+    "twitter": [
+      "https://twitter.com/strongholdpay"
+    ],
+    "message_board": [
+      "https://stronghold.co/learn"
+    ],
+    "chat": [
+      "https://discord.com/invite/QKqu8RZR29"
+    ],
+    "facebook": [
+      "https://www.facebook.com/strongholdpay"
+    ],
+    "explorer": [
+      "https://etherscan.io/token/0x516d31321928700C6B4fB0DB0c8c6BC5d6799787",
+      "https://app.nansen.ai/token-god-mode?chain=ethereum&tab=transactions&tokenAddress=0x516d31321928700C6B4fB0DB0c8c6BC5d6799787",
+      "https://stellar.expert/explorer/public/asset/SHX-GDSTRSHXHGJ7ZIVRBXEYE5Q74XUVCUSEKEBR7UCHEUUEK72N7I7KJ6JH"
+    ],
+    "reddit": [
+      "https://reddit.com/r/strongholdxchg"
+    ],
+    "technical_doc": [
+      "https://docsend.com/view/dftxunt"
+    ],
+    "source_code": [
+      "https://github.com/strongholdpay"
+    ],
+    "announcement": [
+      "https://www.youtube.com/c/Strongholdpay"
+    ]
+  },
+  "tags": []
+}

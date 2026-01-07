@@ -1,0 +1,38 @@
+{
+  "id": 38273,
+  "rank": 485,
+  "name": "U.S. Dollar Tokenized Currency (Ondo)",
+  "symbol": "USDon",
+  "price": 0.9992478424276443,
+  "change1h": 0.00462267,
+  "change24h": -0.0036438,
+  "change7d": 0.06045004,
+  "market_cap": 43171290.10950267,
+  "volume_24h": 38537684.44488767,
+  "circulating_supply": 43203786.16442068,
+  "max_supply": null,
+  "sparkline7d": [],
+  "description": "U.S. Dollar Tokenized Currency (Ondo) (USDon) is a cryptocurrency and operates on the Ethereum platform. U.S. Dollar Tokenized Currency (Ondo) has a current supply of 43,203,786.16442068. The last known price of U.S. Dollar Tokenized Currency (Ondo) is 0.99907939 USD and is down -0.04 over the last 24 hours. It is currently trading on 6 active market(s) with $38,804,326.00 traded over the last 24 hours. More information can be found at https://app.ondo.finance/.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/38273.png",
+  "urls": {
+    "website": [
+      "https://app.ondo.finance/"
+    ],
+    "twitter": [
+      "https://twitter.com/ondofinance"
+    ],
+    "message_board": [],
+    "chat": [],
+    "facebook": [],
+    "explorer": [
+      "https://etherscan.io/token/0xAcE8E719899F6E91831B18AE746C9A965c2119F1",
+      "https://app.nansen.ai/token-god-mode?tokenAddress=0xace8e719899f6e91831b18ae746c9a965c2119f1&chain=ethereum&tab=transactions",
+      "https://bscscan.com/token/0x1f8955E640Cbd9abc3C3Bb408c9E2E1f5F20DfE6"
+    ],
+    "reddit": [],
+    "technical_doc": [],
+    "source_code": [],
+    "announcement": []
+  },
+  "tags": []
+}

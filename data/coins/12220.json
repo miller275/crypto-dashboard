@@ -1,0 +1,52 @@
+{
+  "id": 12220,
+  "rank": 478,
+  "name": "Osmosis",
+  "symbol": "OSMO",
+  "price": 0.05823490803158106,
+  "change1h": -0.32153804,
+  "change24h": -0.60170863,
+  "change7d": 18.52663954,
+  "market_cap": 44143521.98413003,
+  "volume_24h": 3511630.29205644,
+  "circulating_supply": 758025100,
+  "max_supply": 1000000000,
+  "sparkline7d": [],
+  "description": "Osmosis (OSMO) is a cryptocurrency launched in 2021. Osmosis has a current supply of 987,268,200 with 758,025,100 in circulation. The last known price of Osmosis is 0.05825144 USD and is down -0.57 over the last 24 hours. It is currently trading on 442 active market(s) with $3,518,234.94 traded over the last 24 hours. More information can be found at https://osmosis.zone/.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/12220.png",
+  "urls": {
+    "website": [
+      "https://osmosis.zone/"
+    ],
+    "twitter": [
+      "https://twitter.com/osmosis"
+    ],
+    "message_board": [
+      "https://forum.osmosis.zone/"
+    ],
+    "chat": [
+      "https://t.me/osmosis_chat",
+      "https://discord.com/invite/osmosis"
+    ],
+    "facebook": [],
+    "explorer": [
+      "https://www.mintscan.io/osmosis",
+      "https://chainsco.pe/osmosis",
+      "https://celatone.osmosis.zone/",
+      "https://ibc.range.org/"
+    ],
+    "reddit": [
+      "https://reddit.com/r/OsmosisLab"
+    ],
+    "technical_doc": [
+      "https://docs.osmosis.zone/"
+    ],
+    "source_code": [
+      "https://github.com/osmosis-labs/osmosis"
+    ],
+    "announcement": [
+      "https://t.me/osmosis_news"
+    ]
+  },
+  "tags": []
+}

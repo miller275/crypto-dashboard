@@ -1,0 +1,47 @@
+{
+  "id": 39159,
+  "rank": 255,
+  "name": "Brevis",
+  "symbol": "BREV",
+  "price": 0.4400428403187127,
+  "change1h": -2.59921845,
+  "change24h": 36.65146957,
+  "change7d": 8.31515579,
+  "market_cap": 110010710.07967818,
+  "volume_24h": 866409928.7819694,
+  "circulating_supply": 250000000,
+  "max_supply": 1000000000,
+  "sparkline7d": [],
+  "description": "Brevis (BREV) is a cryptocurrency and operates on the Ethereum platform. Brevis has a current supply of 1,000,000,000 with 250,000,000 in circulation. The last known price of Brevis is 0.44468712 USD and is up 39.03 over the last 24 hours. It is currently trading on 142 active market(s) with $866,951,844.38 traded over the last 24 hours. More information can be found at https://brevis.network/.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/39159.png",
+  "urls": {
+    "website": [
+      "https://brevis.network/"
+    ],
+    "twitter": [
+      "https://twitter.com/brevis_zk"
+    ],
+    "message_board": [
+      "https://blog.brevis.network/"
+    ],
+    "chat": [
+      "https://discord.com/invite/brevis"
+    ],
+    "facebook": [],
+    "explorer": [
+      "https://etherscan.io/token/0x086f405146ce90135750bbec9a063a8b20a8bffb",
+      "https://app.nansen.ai/token-god-mode?chain=ethereum&tab=transactions&tokenAddress=0x086F405146Ce90135750Bbec9A063a8B20A8bfFb",
+      "https://bscscan.com/token/0x086f405146ce90135750bbec9a063a8b20a8bffb",
+      "https://basescan.org/token/0x086f405146ce90135750bbec9a063a8b20a8bffb"
+    ],
+    "reddit": [],
+    "technical_doc": [
+      "https://brevis.network/whitepaper/provernet.pdf"
+    ],
+    "source_code": [
+      "https://github.com/brevis-network/brevis-token/tree/main/src"
+    ],
+    "announcement": []
+  },
+  "tags": []
+}

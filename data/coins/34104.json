@@ -1,0 +1,57 @@
+{
+  "id": 34104,
+  "rank": 97,
+  "name": "Morpho",
+  "symbol": "MORPHO",
+  "price": 1.2221445212426045,
+  "change1h": -0.80181526,
+  "change24h": -1.17899555,
+  "change7d": 13.03579041,
+  "market_cap": 459137338.21578884,
+  "volume_24h": 22038138.45784582,
+  "circulating_supply": 375681705.58827615,
+  "max_supply": 1000000000,
+  "sparkline7d": [],
+  "description": "Morpho (MORPHO) is a cryptocurrency launched in 2024and operates on the Ethereum platform. Morpho has a current supply of 999,999,999.80103273 with 375,681,705.58827612 in circulation. The last known price of Morpho is 1.22734498 USD and is down -0.82 over the last 24 hours. It is currently trading on 214 active market(s) with $21,953,434.04 traded over the last 24 hours. More information can be found at https://morpho.org/.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/34104.png",
+  "urls": {
+    "website": [
+      "https://morpho.org/",
+      "https://app.morpho.org/"
+    ],
+    "twitter": [
+      "https://twitter.com/MorphoLabs"
+    ],
+    "message_board": [
+      "https://morpho.org/blog/"
+    ],
+    "chat": [
+      "https://discord.morpho.org/",
+      "https://forum.morpho.org/",
+      "https://help.morpho.org/"
+    ],
+    "facebook": [
+      "https://www.facebook.com/morpho"
+    ],
+    "explorer": [
+      "https://etherscan.io/token/0x58D97B57BB95320F9a05dC918Aef65434969c2B2",
+      "https://app.nansen.ai/token-god-mode?chain=ethereum&tab=transactions&tokenAddress=0x58D97B57BB95320F9a05dC918Aef65434969c2B2",
+      "https://basescan.org/token/0xBAa5CC21fd487B8Fcc2F632f3F4E8D37262a0842",
+      "https://arbiscan.io/address/0x40bd670a58238e6e230c430bbb5ce6ec0d40df48",
+      "https://katanascan.com/address/0x1e5eFCA3D0dB2c6d5C67a4491845c43253eB9e4e"
+    ],
+    "reddit": [
+      "https://reddit.com/r/morpho"
+    ],
+    "technical_doc": [
+      "https://docs.morpho.org/"
+    ],
+    "source_code": [
+      "https://github.com/morpho-org"
+    ],
+    "announcement": [
+      "https://x.com/MorphoLabs"
+    ]
+  },
+  "tags": []
+}

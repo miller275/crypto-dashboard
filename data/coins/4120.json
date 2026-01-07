@@ -1,0 +1,50 @@
+{
+  "id": 4120,
+  "rank": 243,
+  "name": "Prom",
+  "symbol": "PROM",
+  "price": 6.81796039489039,
+  "change1h": -0.09465866,
+  "change24h": -11.7212046,
+  "change7d": -21.54223967,
+  "market_cap": 124427777.20674962,
+  "volume_24h": 6769894.03104857,
+  "circulating_supply": 18250000,
+  "max_supply": 19250000,
+  "sparkline7d": [],
+  "description": "Prom (PROM) is a cryptocurrency launched in 2019and operates on the Ethereum platform. Prom has a current supply of 19,250,000 with 18,250,000 in circulation. The last known price of Prom is 6.81370552 USD and is down -12.05 over the last 24 hours. It is currently trading on 126 active market(s) with $6,736,589.41 traded over the last 24 hours. More information can be found at https://prom.io/.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/4120.png",
+  "urls": {
+    "website": [
+      "https://prom.io/"
+    ],
+    "twitter": [
+      "https://twitter.com/prom_io"
+    ],
+    "message_board": [
+      "https://prom.io/blog",
+      "https://www.linkedin.com/company/prom-io/"
+    ],
+    "chat": [
+      "https://t.me/prom_io"
+    ],
+    "facebook": [],
+    "explorer": [
+      "https://etherscan.io/token/0xfc82bb4ba86045af6f327323a46e80412b91b27d",
+      "https://app.nansen.ai/token-god-mode?chain=ethereum&tab=transactions&tokenAddress=0xfc82bb4ba86045af6f327323a46e80412b91b27d",
+      "https://ethplorer.io/address/0xfc82bb4ba86045af6f327323a46e80412b91b27d",
+      "https://bscscan.com/token/0xaf53d56ff99f1322515e54fdde93ff8b3b7dafd5"
+    ],
+    "reddit": [],
+    "technical_doc": [
+      "https://prom.io/whitepaper.pdf"
+    ],
+    "source_code": [
+      "https://github.com/prom-io"
+    ],
+    "announcement": [
+      "https://t.me/prom_ann"
+    ]
+  },
+  "tags": []
+}

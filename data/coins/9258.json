@@ -1,0 +1,51 @@
+{
+  "id": 9258,
+  "rank": 341,
+  "name": "Chia",
+  "symbol": "XCH",
+  "price": 5.095871431009621,
+  "change1h": 0.02196297,
+  "change24h": 1.00582594,
+  "change7d": 13.22143836,
+  "market_cap": 73440302.79493856,
+  "volume_24h": 3210509.88033981,
+  "circulating_supply": 14411726,
+  "max_supply": null,
+  "sparkline7d": [],
+  "description": "Chia (XCH) is a cryptocurrency launched in 2021. Users are able to generate XCH through the process of mining. Chia has a current supply of 33,191,992 with 14,411,726 in circulation. The last known price of Chia is 5.10751736 USD and is up 1.20 over the last 24 hours. It is currently trading on 79 active market(s) with $3,210,273.90 traded over the last 24 hours. More information can be found at https://www.chia.net/.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/9258.png",
+  "urls": {
+    "website": [
+      "https://www.chia.net/"
+    ],
+    "twitter": [
+      "https://twitter.com/chia_project"
+    ],
+    "message_board": [
+      "https://www.chia.net/blog/"
+    ],
+    "chat": [
+      "https://discord.gg/chia"
+    ],
+    "facebook": [
+      "https://www.facebook.com/ChiaProject/"
+    ],
+    "explorer": [
+      "https://www.spacescan.io/",
+      "https://xchscan.com/"
+    ],
+    "reddit": [
+      "https://reddit.com/r/chia"
+    ],
+    "technical_doc": [
+      "https://docs.chia.net/green-paper-abstract/"
+    ],
+    "source_code": [
+      "https://github.com/Chia-Network/chia-blockchain"
+    ],
+    "announcement": [
+      "https://www.chia.net/media/"
+    ]
+  },
+  "tags": []
+}

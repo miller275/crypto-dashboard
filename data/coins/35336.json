@@ -1,0 +1,38 @@
+{
+  "id": 35336,
+  "rank": 64,
+  "name": "OFFICIAL TRUMP",
+  "symbol": "TRUMP",
+  "price": 5.368600224008186,
+  "change1h": -0.92848675,
+  "change24h": -0.65558538,
+  "change7d": 11.52864415,
+  "market_cap": 1073715629.6644588,
+  "volume_24h": 247812613.7663557,
+  "circulating_supply": 199999177.599934,
+  "max_supply": 999999993.45,
+  "sparkline7d": [],
+  "description": "OFFICIAL TRUMP (TRUMP) is a cryptocurrency and operates on the Solana platform. OFFICIAL TRUMP has a current supply of 999,999,204.51271 with 199,999,177.599934 in circulation. The last known price of OFFICIAL TRUMP is 5.37329651 USD and is down -0.66 over the last 24 hours. It is currently trading on 680 active market(s) with $246,739,244.55 traded over the last 24 hours. More information can be found at https://gettrumpmemes.com/.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/35336.png",
+  "urls": {
+    "website": [
+      "https://gettrumpmemes.com/",
+      "https://x.com/realDonaldTrump/status/1880446012168249386"
+    ],
+    "twitter": [
+      "https://twitter.com/GetTrumpMemes"
+    ],
+    "message_board": [],
+    "chat": [],
+    "facebook": [],
+    "explorer": [
+      "https://solscan.io/token/6p6xgHyF7AeE6TZkSmFsko444wqoP15icUSqi2jfGiPN",
+      "https://app.nansen.ai/token-god-mode?chain=solana&tab=transactions&tokenAddress=6p6xgHyF7AeE6TZkSmFsko444wqoP15icUSqi2jfGiPN"
+    ],
+    "reddit": [],
+    "technical_doc": [],
+    "source_code": [],
+    "announcement": []
+  },
+  "tags": []
+}

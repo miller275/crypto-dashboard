@@ -1,0 +1,48 @@
+{
+  "id": 3330,
+  "rank": 456,
+  "name": "Pax Dollar",
+  "symbol": "USDP",
+  "price": 0.9991241344901838,
+  "change1h": -0.00039046,
+  "change24h": -0.01335324,
+  "change7d": 0.04686785,
+  "market_cap": 47527790.766684644,
+  "volume_24h": 1188510.60341431,
+  "circulating_supply": 47569455.21182543,
+  "max_supply": null,
+  "sparkline7d": [],
+  "description": "Pax Dollar (USDP) is a cryptocurrency launched in 2018and operates on the Ethereum platform. Pax Dollar has a current supply of 47,569,455.21182543. The last known price of Pax Dollar is 0.99894177 USD and is down -0.04 over the last 24 hours. It is currently trading on 129 active market(s) with $1,194,692.98 traded over the last 24 hours. More information can be found at https://www.paxos.com/usdp/.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/3330.png",
+  "urls": {
+    "website": [
+      "https://www.paxos.com/usdp/"
+    ],
+    "twitter": [
+      "https://twitter.com/Paxos"
+    ],
+    "message_board": [
+      "https://medium.com/@PaxosStandard"
+    ],
+    "chat": [],
+    "facebook": [],
+    "explorer": [
+      "https://etherscan.io/token/0x8e870d67f660d95d5be530380d0ec0bd388289e1",
+      "https://app.nansen.ai/token-god-mode?chain=ethereum&tab=transactions&tokenAddress=0x8e870d67f660d95d5be530380d0ec0bd388289e1",
+      "https://solscan.io/token/HVbpJAQGNpkgBaYBZQBR1t7yFdvaYVp2vCQQfKKEN4tM",
+      "https://www.oklink.com/cn/eth/token/0x8E870D67F660D95d5be530380D0eC0bd388289E1",
+      "https://blockchair.com/ethereum/erc-20/token/0x8e870d67f660d95d5be530380d0ec0bd388289e1"
+    ],
+    "reddit": [],
+    "technical_doc": [
+      "https://account.paxos.com/whitepaper.pdf"
+    ],
+    "source_code": [
+      "https://github.com/paxosglobal/pax-contracts"
+    ],
+    "announcement": [
+      "https://www.paxos.com/newsroom/paxos-launches-new-stablecoin-paxos-standard-pax"
+    ]
+  },
+  "tags": []
+}

@@ -1,0 +1,44 @@
+{
+  "id": 38470,
+  "rank": 376,
+  "name": "Giggle Fund",
+  "symbol": "GIGGLE",
+  "price": 63.6568140977079,
+  "change1h": -2.05074101,
+  "change24h": -9.73562626,
+  "change7d": -3.82335844,
+  "market_cap": 63332535.66449486,
+  "volume_24h": 46028156.71770648,
+  "circulating_supply": 994905.83313335,
+  "max_supply": 1000000,
+  "sparkline7d": [],
+  "description": "Giggle Fund (GIGGLE) is a cryptocurrency launched in 2025and operates on the BNB Smart Chain (BEP20) platform. Giggle Fund has a current supply of 994,905.83313335. The last known price of Giggle Fund is 63.65776441 USD and is down -9.86 over the last 24 hours. It is currently trading on 133 active market(s) with $45,783,999.86 traded over the last 24 hours. More information can be found at https://giggletoken.com/.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/38470.png",
+  "urls": {
+    "website": [
+      "https://giggletoken.com/"
+    ],
+    "twitter": [
+      "https://twitter.com/GiggleFundBSC"
+    ],
+    "message_board": [
+      "https://x.com/i/communities/1969807538154811438/about"
+    ],
+    "chat": [
+      "https://t.me/GigglefundBSC",
+      "https://t.me/giggle_cto_bsc"
+    ],
+    "facebook": [],
+    "explorer": [
+      "https://bscscan.com/token/0x20d6015660b3fe52e6690a889b5c51f69902ce0e",
+      "https://app.nansen.ai/token-god-mode?chain=bnb&tab=transactions&tokenAddress=0x20d6015660b3fe52e6690a889b5C51F69902cE0e"
+    ],
+    "reddit": [],
+    "technical_doc": [],
+    "source_code": [],
+    "announcement": [
+      "https://x.com/GiggleFundBSC/"
+    ]
+  },
+  "tags": []
+}

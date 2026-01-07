@@ -1,0 +1,54 @@
+{
+  "id": 8104,
+  "rank": 154,
+  "name": "1inch",
+  "symbol": "1INCH",
+  "price": 0.15569941861442058,
+  "change1h": -0.53874237,
+  "change24h": -2.2677696,
+  "change7d": 10.47787654,
+  "market_cap": 217803078.54142332,
+  "volume_24h": 11890450.98364478,
+  "circulating_supply": 1398868926.2918727,
+  "max_supply": 1500000000,
+  "sparkline7d": [],
+  "description": "1inch (1INCH) is a cryptocurrency launched in 2020and operates on the Ethereum platform. 1inch has a current supply of 1,500,000,000 with 1,398,868,926.2918727 in circulation. The last known price of 1inch is 0.15588039 USD and is down -2.18 over the last 24 hours. It is currently trading on 578 active market(s) with $11,839,350.55 traded over the last 24 hours. More information can be found at https://1inch.com/.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/8104.png",
+  "urls": {
+    "website": [
+      "https://1inch.com/"
+    ],
+    "twitter": [
+      "https://twitter.com/1inch"
+    ],
+    "message_board": [
+      "https://blog.1inch.com/"
+    ],
+    "chat": [
+      "https://t.me/OneInchNetworkNews",
+      "https://discord.com/invite/1inch"
+    ],
+    "facebook": [
+      "https://www.facebook.com/1inchcom"
+    ],
+    "explorer": [
+      "https://etherscan.io/token/0x111111111117dc0aa78b770fa6a738034120c302",
+      "https://app.nansen.ai/token-god-mode?chain=ethereum&tab=transactions&tokenAddress=0x111111111117dc0aa78b770fa6a738034120c302",
+      "https://solscan.io/token/AjkPkq3nsyDe1yKcbyZT7N4aK4Evv9om9tzhQD3wsRC",
+      "https://nearblocks.io/token/111111111117dc0aa78b770fa6a738034120c302.factory.bridge.near"
+    ],
+    "reddit": [
+      "https://reddit.com/r/1inch"
+    ],
+    "technical_doc": [
+      "https://business.1inch.com/portal/documentation/overview"
+    ],
+    "source_code": [
+      "https://github.com/1inch"
+    ],
+    "announcement": [
+      "https://blog.1inch.com/tag/announcement/"
+    ]
+  },
+  "tags": []
+}

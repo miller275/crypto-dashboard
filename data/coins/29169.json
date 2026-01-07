@@ -1,0 +1,44 @@
+{
+  "id": 29169,
+  "rank": 280,
+  "name": "Qubic",
+  "symbol": "QUBIC",
+  "price": 7.277670048550439e-7,
+  "change1h": 0.71708963,
+  "change24h": 3.51687933,
+  "change7d": 19.56957951,
+  "market_cap": 96308208.27863684,
+  "volume_24h": 1688242.66049223,
+  "circulating_supply": 132333848108186,
+  "max_supply": 200000000000000,
+  "sparkline7d": [],
+  "description": "Qubic (QUBIC) is a cryptocurrency launched in 2022. Qubic has a current supply of 163,735,696,221,664 with 132,333,848,108,186 in circulation. The last known price of Qubic is 0.00000073 USD and is up 3.29 over the last 24 hours. It is currently trading on 31 active market(s) with $1,688,328.58 traded over the last 24 hours. More information can be found at https://qubic.org/.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/29169.png",
+  "urls": {
+    "website": [
+      "https://qubic.org/"
+    ],
+    "twitter": [
+      "https://twitter.com/_Qubic_"
+    ],
+    "message_board": [],
+    "chat": [
+      "https://discord.com/invite/2vDMR8m"
+    ],
+    "facebook": [],
+    "explorer": [
+      "https://explorer.qubic.org"
+    ],
+    "reddit": [
+      "https://reddit.com/r/Qubic/"
+    ],
+    "technical_doc": [
+      "https://whitepaper.qubic.org/"
+    ],
+    "source_code": [
+      "https://github.com/qubic"
+    ],
+    "announcement": []
+  },
+  "tags": []
+}

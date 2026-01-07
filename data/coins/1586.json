@@ -1,0 +1,51 @@
+{
+  "id": 1586,
+  "rank": 415,
+  "name": "Ark",
+  "symbol": "ARK",
+  "price": 0.2859063665032742,
+  "change1h": -0.90110649,
+  "change24h": 1.86286731,
+  "change7d": 11.71609473,
+  "market_cap": 55011277.71584624,
+  "volume_24h": 5733288.32678277,
+  "circulating_supply": 192410118,
+  "max_supply": null,
+  "sparkline7d": [],
+  "description": "Ark (ARK) is a cryptocurrency launched in 2017. Ark has a current supply of 192,410,118. The last known price of Ark is 0.28624665 USD and is up 1.93 over the last 24 hours. It is currently trading on 113 active market(s) with $5,731,023.45 traded over the last 24 hours. More information can be found at http://ark.io/.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/1586.png",
+  "urls": {
+    "website": [
+      "http://ark.io/"
+    ],
+    "twitter": [
+      "https://twitter.com/ArkEcosystem"
+    ],
+    "message_board": [
+      "https://arkscic.com/blog"
+    ],
+    "chat": [
+      "https://t.me/arkannouncements",
+      "https://discord.gg/arkcoin"
+    ],
+    "facebook": [
+      "https://www.facebook.com/ArkEcosystem"
+    ],
+    "explorer": [
+      "https://arkscan.io"
+    ],
+    "reddit": [
+      "https://reddit.com/r/ArkEcosystem"
+    ],
+    "technical_doc": [
+      "https://arkscic.com/Whitepaper.pdf"
+    ],
+    "source_code": [
+      "https://github.com/ArkEcosystem"
+    ],
+    "announcement": [
+      "https://arkscic.com/blog"
+    ]
+  },
+  "tags": []
+}

@@ -1,0 +1,53 @@
+{
+  "id": 38864,
+  "rank": 462,
+  "name": "Folks Finance",
+  "symbol": "FOLKS",
+  "price": 3.8504436860654163,
+  "change1h": 1.83584204,
+  "change24h": 2.62964283,
+  "change7d": -5.33607911,
+  "market_cap": 46969279.213183075,
+  "volume_24h": 4848043.21775739,
+  "circulating_supply": 12198406.999994,
+  "max_supply": 50000000,
+  "sparkline7d": [],
+  "description": "Folks Finance (FOLKS) is a cryptocurrency launched in 2025and operates on the Ethereum platform. Folks Finance has a current supply of 50,000,000 with 12,198,406.999994 in circulation. The last known price of Folks Finance is 3.83931452 USD and is up 2.30 over the last 24 hours. It is currently trading on 116 active market(s) with $4,820,965.70 traded over the last 24 hours. More information can be found at https://folks.finance/.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/38864.png",
+  "urls": {
+    "website": [
+      "https://folks.finance/"
+    ],
+    "twitter": [
+      "https://twitter.com/FolksFinance"
+    ],
+    "message_board": [
+      "https://folksfinance.medium.com/"
+    ],
+    "chat": [
+      "https://discord.com/invite/folksfinance",
+      "https://t.me/FolksfinanceOfficial/"
+    ],
+    "facebook": [],
+    "explorer": [
+      "https://etherscan.io/token/0xFF7F8F301F7A706E3CfD3D2275f5dc0b9EE8009B",
+      "https://app.nansen.ai/token-god-mode?chain=ethereum&tab=transactions&tokenAddress=0xFF7F8F301F7A706E3CfD3D2275f5dc0b9EE8009B",
+      "https://avascan.info/blockchain/all/address/0xFF7F8F301F7A706E3CfD3D2275f5dc0b9EE8009B",
+      "https://polygonscan.com/address/0xFF7F8F301F7A706E3CfD3D2275f5dc0b9EE8009B",
+      "https://bscscan.com/address/0xFF7F8F301F7A706E3CfD3D2275f5dc0b9EE8009B"
+    ],
+    "reddit": [
+      "https://reddit.com/r/FolksFinance"
+    ],
+    "technical_doc": [
+      "https://docs.xapp.folks.finance/"
+    ],
+    "source_code": [
+      "https://github.com/Folks-Finance/"
+    ],
+    "announcement": [
+      "https://x.com/FolksFinance/status/1985061632272187755"
+    ]
+  },
+  "tags": []
+}

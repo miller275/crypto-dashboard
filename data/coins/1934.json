@@ -1,0 +1,51 @@
+{
+  "id": 1934,
+  "rank": 346,
+  "name": "Loopring",
+  "symbol": "LRC",
+  "price": 0.05266732546116109,
+  "change1h": -0.63662456,
+  "change24h": -2.08398706,
+  "change7d": 6.33522704,
+  "market_cap": 72054995.39483276,
+  "volume_24h": 7203005.53441725,
+  "circulating_supply": 1368115710.5266128,
+  "max_supply": null,
+  "sparkline7d": [],
+  "description": "Loopring (LRC) is a cryptocurrency launched in 2017and operates on the Ethereum platform. Loopring has a current supply of 1,373,873,397.44245744 with 1,368,115,710.52661281 in circulation. The last known price of Loopring is 0.05268746 USD and is down -2.11 over the last 24 hours. It is currently trading on 415 active market(s) with $7,195,306.31 traded over the last 24 hours. More information can be found at https://loopring.org.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/1934.png",
+  "urls": {
+    "website": [
+      "https://loopring.org"
+    ],
+    "twitter": [
+      "https://twitter.com/loopringorg"
+    ],
+    "message_board": [
+      "https://medium.com/loopring-protocol"
+    ],
+    "chat": [
+      "https://t.me/loopring_en",
+      "https://discord.gg/KkYccYp"
+    ],
+    "facebook": [],
+    "explorer": [
+      "https://etherscan.io/token/0xbbbbca6a901c926f240b89eacb641d8aec7aeafd",
+      "https://app.nansen.ai/token-god-mode?chain=ethereum&tab=transactions&tokenAddress=0xbbbbca6a901c926f240b89eacb641d8aec7aeafd",
+      "https://solscan.io/token/HCTVFTzHL21a1dPzKxAUeWwqbE8QMUyvgChFDL4XYoi1",
+      "https://www.oklink.com/eth/token/0xbbbbca6a901c926f240b89eacb641d8aec7aeafd",
+      "https://explorer.solana.com/address/HCTVFTzHL21a1dPzKxAUeWwqbE8QMUyvgChFDL4XYoi1"
+    ],
+    "reddit": [
+      "https://reddit.com/r/loopringorg"
+    ],
+    "technical_doc": [
+      "https://github.com/Loopring/protocols/blob/master/packages/loopring_v3/DESIGN.md"
+    ],
+    "source_code": [
+      "https://github.com/loopring"
+    ],
+    "announcement": []
+  },
+  "tags": []
+}

@@ -1,0 +1,40 @@
+{
+  "id": 4943,
+  "rank": 22,
+  "name": "Dai",
+  "symbol": "DAI",
+  "price": 0.9997613786492521,
+  "change1h": 0.00104695,
+  "change24h": 0.02777564,
+  "change7d": 0.0223295,
+  "market_cap": 5364102407.797083,
+  "volume_24h": 97830174.52112693,
+  "circulating_supply": 5365382702.664872,
+  "max_supply": null,
+  "sparkline7d": [],
+  "description": "Dai (DAI) is a cryptocurrency and operates on the Ethereum platform. Dai has a current supply of 5,365,382,702.664872. The last known price of Dai is 0.99977683 USD and is up 0.03 over the last 24 hours. It is currently trading on 3657 active market(s) with $97,457,429.07 traded over the last 24 hours. More information can be found at https://makerdao.com/.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/4943.png",
+  "urls": {
+    "website": [
+      "https://makerdao.com/"
+    ],
+    "twitter": [
+      "https://twitter.com/MakerDAO"
+    ],
+    "message_board": [],
+    "chat": [],
+    "facebook": [],
+    "explorer": [
+      "https://etherscan.io/token/0x6b175474e89094c44da98b954eedeac495271d0f",
+      "https://app.nansen.ai/token-god-mode?chain=ethereum&tab=transactions&tokenAddress=0x6b175474e89094c44da98b954eedeac495271d0f",
+      "https://solscan.io/token/EjmyN6qEC1Tf1JxiG1ae7UTJhUxSwk1TCWNWqxWV4J6o",
+      "https://polygonscan.com/token/0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063",
+      "https://bscscan.com/token/0x1af3f329e8be154074d8769d1ffa4ee058b1dbc3"
+    ],
+    "reddit": [],
+    "technical_doc": [],
+    "source_code": [],
+    "announcement": []
+  },
+  "tags": []
+}

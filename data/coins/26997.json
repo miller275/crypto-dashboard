@@ -1,0 +1,49 @@
+{
+  "id": 26997,
+  "rank": 126,
+  "name": "LayerZero",
+  "symbol": "ZRO",
+  "price": 1.4021736805428442,
+  "change1h": -0.62432178,
+  "change24h": -0.19365061,
+  "change7d": 14.91609944,
+  "market_cap": 348079631.82305205,
+  "volume_24h": 25403864.95261513,
+  "circulating_supply": 248242879.36163148,
+  "max_supply": 1000000000,
+  "sparkline7d": [],
+  "description": "LayerZero (ZRO) is a cryptocurrency launched in 2024and operates on the Ethereum platform. LayerZero has a current supply of 1,000,000,000 with 248,242,879.36163149 in circulation. The last known price of LayerZero is 1.40420596 USD and is down -0.15 over the last 24 hours. It is currently trading on 377 active market(s) with $25,379,095.51 traded over the last 24 hours. More information can be found at https://layerzero.foundation/.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/26997.png",
+  "urls": {
+    "website": [
+      "https://layerzero.foundation/"
+    ],
+    "twitter": [
+      "https://twitter.com/LayerZero_Fndn"
+    ],
+    "message_board": [
+      "https://info.layerzero.foundation/"
+    ],
+    "chat": [
+      "https://discord.gg/ktbvm8Nkcr",
+      "https://t.me/joinchat/VcqxYkStIDsyN2Rh"
+    ],
+    "facebook": [],
+    "explorer": [
+      "https://etherscan.io/token/0x6985884C4392D348587B19cb9eAAf157F13271cd",
+      "https://app.nansen.ai/token-god-mode?chain=ethereum&tab=transactions&tokenAddress=0x6985884C4392D348587B19cb9eAAf157F13271cd",
+      "https://layerzeroscan.com/",
+      "https://bscscan.com/token/0x6985884c4392d348587b19cb9eaaf157f13271cd",
+      "https://optimistic.etherscan.io/token/0x6985884c4392d348587b19cb9eaaf157f13271cd"
+    ],
+    "reddit": [],
+    "technical_doc": [
+      "https://layerzero.network/publications/LayerZero_Whitepaper_V2.1.0.pdf"
+    ],
+    "source_code": [
+      "https://github.com/LayerZero-Labs"
+    ],
+    "announcement": []
+  },
+  "tags": []
+}

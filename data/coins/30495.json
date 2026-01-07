@@ -1,0 +1,47 @@
+{
+  "id": 30495,
+  "rank": 134,
+  "name": "Monad",
+  "symbol": "MON",
+  "price": 0.02722644224892155,
+  "change1h": -0.75925559,
+  "change24h": -1.44668984,
+  "change7d": 18.03791471,
+  "market_cap": 294878253.3533226,
+  "volume_24h": 154739123.619118,
+  "circulating_supply": 10830583396,
+  "max_supply": 100000000000,
+  "sparkline7d": [],
+  "description": "Monad (MON) is a cryptocurrency . Monad has a current supply of 100,000,000,000 with 10,830,583,396 in circulation. The last known price of Monad is 0.0272406 USD and is down -1.35 over the last 24 hours. It is currently trading on 140 active market(s) with $154,850,256.67 traded over the last 24 hours. More information can be found at https://www.monad.xyz/.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/30495.png",
+  "urls": {
+    "website": [
+      "https://www.monad.xyz/"
+    ],
+    "twitter": [
+      "https://twitter.com/monad"
+    ],
+    "message_board": [
+      "https://monadlabs.substack.com/"
+    ],
+    "chat": [
+      "https://discord.com/invite/monad",
+      "https://t.me/monad_xyz",
+      "https://www.youtube.com/@MonadFoundation"
+    ],
+    "facebook": [],
+    "explorer": [
+      "https://monadvision.com/",
+      "https://app.nansen.ai/token-god-mode?chain=solana&tab=transactions&tokenAddress=CrAr4RRJMBVwRsZtT62pEhfA9H5utymC2mVx8e7FreP2",
+      "https://monadscan.com/",
+      "https://solscan.io/token/CrAr4RRJMBVwRsZtT62pEhfA9H5utymC2mVx8e7FreP2"
+    ],
+    "reddit": [],
+    "technical_doc": [
+      "https://docs.monad.xyz/"
+    ],
+    "source_code": [],
+    "announcement": []
+  },
+  "tags": []
+}

@@ -1,0 +1,47 @@
+{
+  "id": 36511,
+  "rank": 242,
+  "name": "SLT",
+  "symbol": "SLT",
+  "price": 14.84885615455236,
+  "change1h": -0.17657861,
+  "change24h": -0.51138509,
+  "change7d": 3.71903438,
+  "market_cap": 126215277.31369506,
+  "volume_24h": 174259.39276288,
+  "circulating_supply": 8500000,
+  "max_supply": 100000000,
+  "sparkline7d": [],
+  "description": "SLT (SLT) is a cryptocurrency launched in 2025and operates on the BNB Smart Chain (BEP20) platform. SLT has a current supply of 100,000,000 with 8,500,000 in circulation. The last known price of SLT is 14.8457217 USD and is down -0.49 over the last 24 hours. It is currently trading on 10 active market(s) with $174,095.99 traded over the last 24 hours. More information can be found at https://slt.game.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/36511.png",
+  "urls": {
+    "website": [
+      "https://slt.game"
+    ],
+    "twitter": [
+      "https://twitter.com/SmartLogisticsT"
+    ],
+    "message_board": [
+      "https://t.me/SmartLogisticsT"
+    ],
+    "chat": [
+      "https://t.me/SmartLogisticsT"
+    ],
+    "facebook": [],
+    "explorer": [
+      "https://bscscan.com/token/0x28ba6ef35f27f1ed3873cc788698d2ddb28d2a82",
+      "https://app.nansen.ai/token-god-mode?chain=bnb&tab=transactions&tokenAddress=0x28ba6ef35f27f1ed3873cc788698d2ddb28d2a82"
+    ],
+    "reddit": [],
+    "technical_doc": [
+      "https://slt.game/whitepaper/"
+    ],
+    "source_code": [
+      "https://ibb.co/CsNtSq75"
+    ],
+    "announcement": [
+      "https://ibb.co/CsNtSq75"
+    ]
+  },
+  "tags": []
+}

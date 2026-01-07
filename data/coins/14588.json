@@ -1,0 +1,51 @@
+{
+  "id": 14588,
+  "rank": 399,
+  "name": "peaq",
+  "symbol": "PEAQ",
+  "price": 0.034557009682166684,
+  "change1h": -0.80584816,
+  "change24h": -4.76691303,
+  "change7d": 11.81039919,
+  "market_cap": 58585041.86906533,
+  "volume_24h": 3183726.26818021,
+  "circulating_supply": 1695315723.4347863,
+  "max_supply": null,
+  "sparkline7d": [],
+  "description": "peaq (PEAQ) is a cryptocurrency launched in 2024. peaq has a current supply of 4,363,329,385.03516522 with 1,695,315,723.43478633 in circulation. The last known price of peaq is 0.03467157 USD and is down -4.41 over the last 24 hours. It is currently trading on 78 active market(s) with $3,179,527.40 traded over the last 24 hours. More information can be found at https://www.peaq.network/.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/14588.png",
+  "urls": {
+    "website": [
+      "https://www.peaq.network/"
+    ],
+    "twitter": [
+      "https://twitter.com/peaq"
+    ],
+    "message_board": [
+      "https://www.peaq.network/community/blog"
+    ],
+    "chat": [
+      "https://discord.com/invite/peaqnetwork",
+      "https://t.me/peaqnetwork",
+      "https://t.me/peaqcommunity"
+    ],
+    "facebook": [],
+    "explorer": [
+      "https://peaqscan.xyz/",
+      "https://app.nansen.ai/token-god-mode?chain=bnb&tab=transactions&tokenAddress=0x8b9Ee39195eA99d6ddD68030F44131116bc218F6",
+      "https://peaq.subscan.io/",
+      "https://bscscan.com/token/0x8b9Ee39195eA99d6ddD68030F44131116bc218F6"
+    ],
+    "reddit": [],
+    "technical_doc": [
+      "https://docs.peaq.network/"
+    ],
+    "source_code": [
+      "https://github.com/peaqnetwork/"
+    ],
+    "announcement": [
+      "https://www.peaq.xyz/community/blog"
+    ]
+  },
+  "tags": []
+}

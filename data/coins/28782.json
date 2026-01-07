@@ -1,0 +1,39 @@
+{
+  "id": 28782,
+  "rank": 269,
+  "name": "Popcat (SOL)",
+  "symbol": "POPCAT",
+  "price": 0.10546292756269103,
+  "change1h": 1.16164323,
+  "change24h": 2.03262184,
+  "change7d": 42.99059592,
+  "market_cap": 103350840.98084944,
+  "volume_24h": 22272749.44540156,
+  "circulating_supply": 979973184.6,
+  "max_supply": 979973220.96,
+  "sparkline7d": [],
+  "description": "Popcat (SOL) (POPCAT) is a cryptocurrency launched in 2023and operates on the Solana platform. Popcat (SOL) has a current supply of 979,973,220.96 with 979,973,184.6 in circulation. The last known price of Popcat (SOL) is 0.10483903 USD and is up 0.70 over the last 24 hours. It is currently trading on 495 active market(s) with $22,190,754.94 traded over the last 24 hours. More information can be found at https://www.popcatsolana.xyz/.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/28782.png",
+  "urls": {
+    "website": [
+      "https://www.popcatsolana.xyz/"
+    ],
+    "twitter": [
+      "https://twitter.com/POPCATSOLANA"
+    ],
+    "message_board": [],
+    "chat": [
+      "https://t.me/popcatsolana"
+    ],
+    "facebook": [],
+    "explorer": [
+      "https://solscan.io/token/7GCihgDB8fe6KNjn2MYtkzZcRjQy3t9GHdC8uHYmW2hr",
+      "https://app.nansen.ai/token-god-mode?chain=solana&tab=transactions&tokenAddress=7GCihgDB8fe6KNjn2MYtkzZcRjQy3t9GHdC8uHYmW2hr"
+    ],
+    "reddit": [],
+    "technical_doc": [],
+    "source_code": [],
+    "announcement": []
+  },
+  "tags": []
+}

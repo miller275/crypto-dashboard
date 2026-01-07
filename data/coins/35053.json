@@ -1,0 +1,39 @@
+{
+  "id": 35053,
+  "rank": 148,
+  "name": "pippin",
+  "symbol": "PIPPIN",
+  "price": 0.24443125319795686,
+  "change1h": -12.11150381,
+  "change24h": -27.23491105,
+  "change7d": -37.07988817,
+  "market_cap": 244430337.31405112,
+  "volume_24h": 26638928.58851653,
+  "circulating_supply": 999996253,
+  "max_supply": null,
+  "sparkline7d": [],
+  "description": "pippin (PIPPIN) is a cryptocurrency and operates on the Solana platform. pippin has a current supply of 999,996,253. The last known price of pippin is 0.25192499 USD and is down -24.96 over the last 24 hours. It is currently trading on 155 active market(s) with $26,368,469.17 traded over the last 24 hours. More information can be found at https://pippin.love.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/35053.png",
+  "urls": {
+    "website": [
+      "https://pippin.love"
+    ],
+    "twitter": [
+      "https://twitter.com/pippinlovesyou"
+    ],
+    "message_board": [],
+    "chat": [],
+    "facebook": [],
+    "explorer": [
+      "https://solscan.io/token/Dfh5DzRgSvvCFDoYc2ciTkMrbDfRKybA4SoFbPmApump",
+      "https://app.nansen.ai/token-god-mode?chain=solana&tab=transactions&tokenAddress=Dfh5DzRgSvvCFDoYc2ciTkMrbDfRKybA4SoFbPmApump"
+    ],
+    "reddit": [],
+    "technical_doc": [],
+    "source_code": [
+      "https://github.com/yoheinakajima/pippin_moves"
+    ],
+    "announcement": []
+  },
+  "tags": []
+}

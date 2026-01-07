@@ -1,0 +1,50 @@
+{
+  "id": 5370,
+  "rank": 426,
+  "name": "Hive",
+  "symbol": "HIVE",
+  "price": 0.10482824668033686,
+  "change1h": -0.55102984,
+  "change24h": 4.23885828,
+  "change7d": 9.67553163,
+  "market_cap": 53449982.276007324,
+  "volume_24h": 5081800.01434982,
+  "circulating_supply": 509881486.8,
+  "max_supply": null,
+  "sparkline7d": [],
+  "description": "Hive (HIVE) is a cryptocurrency launched in 2020. Hive has a current supply of 509,881,486.8. The last known price of Hive is 0.10485139 USD and is up 4.20 over the last 24 hours. It is currently trading on 109 active market(s) with $5,079,281.74 traded over the last 24 hours. More information can be found at https://hive.io/.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/5370.png",
+  "urls": {
+    "website": [
+      "https://hive.io/"
+    ],
+    "twitter": [
+      "https://twitter.com/hiveblocks"
+    ],
+    "message_board": [
+      "https://peakd.com/@hiveio",
+      "https://hive.blog/@hiveio"
+    ],
+    "chat": [
+      "https://t.me/hiveblockchain"
+    ],
+    "facebook": [],
+    "explorer": [
+      "https://explore.openhive.network",
+      "https://hivescan.info/"
+    ],
+    "reddit": [
+      "https://reddit.com/r/hivenetwork"
+    ],
+    "technical_doc": [
+      "https://hive.io/whitepaper.pdf"
+    ],
+    "source_code": [
+      "https://github.com/openhive-network/hive"
+    ],
+    "announcement": [
+      "https://medium.com/@hiveblocks/press-release-the-new-hive-blockchain-is-launching-heres-everything-you-need-to-know-b95b05d30c7c"
+    ]
+  },
+  "tags": []
+}

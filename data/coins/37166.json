@@ -1,0 +1,47 @@
+{
+  "id": 37166,
+  "rank": 482,
+  "name": "CROSS",
+  "symbol": "CROSS",
+  "price": 0.130724315255315,
+  "change1h": -1.91826391,
+  "change24h": -0.15994787,
+  "change7d": -13.659238,
+  "market_cap": 43821782.75315778,
+  "volume_24h": 4962982.26742448,
+  "circulating_supply": 335222890,
+  "max_supply": 985222890,
+  "sparkline7d": [],
+  "description": "CROSS (CROSS) is a cryptocurrency launched in 2025and operates on the BNB Smart Chain (BEP20) platform. CROSS has a current supply of 985,222,890 with 335,222,890 in circulation. The last known price of CROSS is 0.13062666 USD and is up -0.00 over the last 24 hours. It is currently trading on 90 active market(s) with $4,976,356.60 traded over the last 24 hours. More information can be found at https://www.ogfcorp.com/.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/37166.png",
+  "urls": {
+    "website": [
+      "https://www.ogfcorp.com/",
+      "https://linktr.ee/CROSS_gamechain"
+    ],
+    "twitter": [
+      "https://twitter.com/CROSS_gamechain"
+    ],
+    "message_board": [
+      "https://medium.com/@cross_protocol",
+      "https://blog.opengamefoundation.org/"
+    ],
+    "chat": [
+      "https://t.me/cross_protocol",
+      "https://t.me/cross_gamechain"
+    ],
+    "facebook": [],
+    "explorer": [
+      "https://bscscan.com/token/0x6bf62ca91e397B5A7d1D6bCe97D9092065d7A510",
+      "https://app.nansen.ai/token-god-mode?chain=bnb&tab=transactions&tokenAddress=0x6bf62ca91e397B5A7d1D6bCe97D9092065d7A510",
+      "https://bscscan.com/token/0x6bf62ca91e397b5a7d1d6bce97d9092065d7a510#tokenInfo"
+    ],
+    "reddit": [],
+    "technical_doc": [],
+    "source_code": [
+      "https://docs.crosstoken.io/docs/dev_getting-started"
+    ],
+    "announcement": []
+  },
+  "tags": []
+}

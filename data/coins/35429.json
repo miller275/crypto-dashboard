@@ -1,0 +1,51 @@
+{
+  "id": 35429,
+  "rank": 414,
+  "name": "Solayer",
+  "symbol": "LAYER",
+  "price": 0.17654253718672427,
+  "change1h": -0.84029721,
+  "change24h": -0.85974138,
+  "change7d": 4.18291819,
+  "market_cap": 55215072.903720565,
+  "volume_24h": 11392274.57098156,
+  "circulating_supply": 312757898.3716603,
+  "max_supply": null,
+  "sparkline7d": [],
+  "description": "Solayer (LAYER) is a cryptocurrency launched in 2024and operates on the Solana platform. Solayer has a current supply of 999,998,815.3716703 with 312,757,898.3716603 in circulation. The last known price of Solayer is 0.17664775 USD and is down -0.87 over the last 24 hours. It is currently trading on 210 active market(s) with $11,356,242.82 traded over the last 24 hours. More information can be found at https://www.solayer.org.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/35429.png",
+  "urls": {
+    "website": [
+      "https://www.solayer.org",
+      "https://solayer.foundation"
+    ],
+    "twitter": [
+      "https://twitter.com/solayer_labs"
+    ],
+    "message_board": [
+      "https://solayer.org/blog"
+    ],
+    "chat": [
+      "https://discord.gg/solayerlabs",
+      "https://t.me/solayer_discussion"
+    ],
+    "facebook": [],
+    "explorer": [
+      "https://solscan.io/token/LAYER4xPpTCb3QL8S9u41EAhAX7mhBn8Q6xMTwY2Yzc",
+      "https://app.nansen.ai/token-god-mode?chain=solana&tab=transactions&tokenAddress=LAYER4xPpTCb3QL8S9u41EAhAX7mhBn8Q6xMTwY2Yzc",
+      "https://explorer.solana.com/address/LAYER4xPpTCb3QL8S9u41EAhAX7mhBn8Q6xMTwY2Yzc",
+      "https://solana.fm/address/LAYER4xPpTCb3QL8S9u41EAhAX7mhBn8Q6xMTwY2Yzc"
+    ],
+    "reddit": [],
+    "technical_doc": [
+      "https://github.com/solayer-labs/solayer-improvement-proposal/blob/main/solayer_infinisvm_litepaper.pdf"
+    ],
+    "source_code": [
+      "https://github.com/solayer-labs"
+    ],
+    "announcement": [
+      "https://www.binance.com/en/support/announcement/detail/f039547b84974b688a549d14779cebc4"
+    ]
+  },
+  "tags": []
+}

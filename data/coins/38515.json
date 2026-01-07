@@ -1,0 +1,47 @@
+{
+  "id": 38515,
+  "rank": 110,
+  "name": "DoubleZero",
+  "symbol": "2Z",
+  "price": 0.11696534022224728,
+  "change1h": -0.76213368,
+  "change24h": -4.27134602,
+  "change7d": -4.11755469,
+  "market_cap": 406035528.9409631,
+  "volume_24h": 14276487.1925332,
+  "circulating_supply": 3471417500,
+  "max_supply": 10000000000,
+  "sparkline7d": [],
+  "description": "DoubleZero (2Z) is a cryptocurrency launched in 2025and operates on the Solana platform. DoubleZero has a current supply of 9,999,476,568.2 with 3,471,417,500 in circulation. The last known price of DoubleZero is 0.11707693 USD and is down -4.30 over the last 24 hours. It is currently trading on 165 active market(s) with $14,267,962.24 traded over the last 24 hours. More information can be found at https://doublezero.xyz/.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/38515.png",
+  "urls": {
+    "website": [
+      "https://doublezero.xyz/"
+    ],
+    "twitter": [
+      "https://twitter.com/doublezero"
+    ],
+    "message_board": [
+      "https://doublezero.xyz/journal"
+    ],
+    "chat": [
+      "https://discord.com/invite/doublezerotech"
+    ],
+    "facebook": [],
+    "explorer": [
+      "https://solscan.io/token/J6pQQ3FAcJQeWPPGppWRb4nM8jU3wLyYbRrLh7feMfvd",
+      "https://app.nansen.ai/token-god-mode?chain=solana&tab=transactions&tokenAddress=J6pQQ3FAcJQeWPPGppWRb4nM8jU3wLyYbRrLh7feMfvd"
+    ],
+    "reddit": [],
+    "technical_doc": [
+      "https://doublezero.xyz/whitepaper.pdf"
+    ],
+    "source_code": [
+      "https://docs.malbeclabs.com/connect/"
+    ],
+    "announcement": [
+      "https://doublezero.xyz/journal"
+    ]
+  },
+  "tags": []
+}

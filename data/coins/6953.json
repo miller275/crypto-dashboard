@@ -1,0 +1,49 @@
+{
+  "id": 6953,
+  "rank": 409,
+  "name": "Frax (prev. FXS)",
+  "symbol": "FRAX",
+  "price": 0.645101900654124,
+  "change1h": -0.8654253,
+  "change24h": 2.2697757,
+  "change7d": 0.34601961,
+  "market_cap": 56897851.48220443,
+  "volume_24h": 5040210.50051719,
+  "circulating_supply": 88199788.93956262,
+  "max_supply": 99681495.59113361,
+  "sparkline7d": [],
+  "description": "Frax (prev. FXS) (FRAX) is a cryptocurrency launched in 2020and operates on the Ethereum platform. Frax (prev. FXS) has a current supply of 99,681,495.59113361 with 88,199,788.93956262 in circulation. The last known price of Frax (prev. FXS) is 0.64521803 USD and is up 2.16 over the last 24 hours. It is currently trading on 319 active market(s) with $5,041,177.15 traded over the last 24 hours. More information can be found at https://frax.com.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/6953.png",
+  "urls": {
+    "website": [
+      "https://frax.com"
+    ],
+    "twitter": [
+      "https://twitter.com/fraxfinance"
+    ],
+    "message_board": [
+      "https://fraxfinancecommunity.medium.com/"
+    ],
+    "chat": [
+      "https://t.me/fraxfinance"
+    ],
+    "facebook": [],
+    "explorer": [
+      "https://etherscan.io/token/0x3432b6a60d23ca0dfca7761b7ab56459d9c964d0",
+      "https://app.nansen.ai/token-god-mode?chain=ethereum&tab=transactions&tokenAddress=0x3432b6a60d23ca0dfca7761b7ab56459d9c964d0",
+      "https://solscan.io/token/6LX8BhMQ4Sy2otmAWj7Y5sKd9YTVVUgfMsBzT6B9W7ct",
+      "https://bscscan.com/token/0xe48A3d7d0Bc88d552f730B62c006bC925eadB9eE"
+    ],
+    "reddit": [],
+    "technical_doc": [
+      "https://docs.frax.com/protocol/frax/overview"
+    ],
+    "source_code": [
+      "https://github.com/fraxfinance"
+    ],
+    "announcement": [
+      "https://x.com/fraxfinance/status/1917204290906820682"
+    ]
+  },
+  "tags": []
+}

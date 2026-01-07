@@ -1,0 +1,46 @@
+{
+  "id": 35626,
+  "rank": 77,
+  "name": "Story",
+  "symbol": "IP",
+  "price": 2.0220612812154504,
+  "change1h": -0.24789173,
+  "change24h": -0.25402008,
+  "change7d": 17.83240005,
+  "market_cap": 689630120.7380276,
+  "volume_24h": 78441068.74718499,
+  "circulating_supply": 341053027,
+  "max_supply": null,
+  "sparkline7d": [],
+  "description": "Story (IP) is a cryptocurrency launched in 2025. Story has a current supply of 1,021,532,197 with 341,053,027 in circulation. The last known price of Story is 2.02776243 USD and is down -0.25 over the last 24 hours. It is currently trading on 157 active market(s) with $78,367,903.76 traded over the last 24 hours. More information can be found at https://www.story.foundation/.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/35626.png",
+  "urls": {
+    "website": [
+      "https://www.story.foundation/"
+    ],
+    "twitter": [
+      "https://twitter.com/StoryProtocol"
+    ],
+    "message_board": [
+      "https://www.story.foundation/blog"
+    ],
+    "chat": [
+      "https://discord.gg/storyprotocol"
+    ],
+    "facebook": [],
+    "explorer": [
+      "https://www.storyscan.xyz/"
+    ],
+    "reddit": [],
+    "technical_doc": [
+      "https://www.story.foundation/whitepaper.pdf"
+    ],
+    "source_code": [
+      "https://github.com/piplabs/"
+    ],
+    "announcement": [
+      "https://www.story.foundation/blog/category/news"
+    ]
+  },
+  "tags": []
+}

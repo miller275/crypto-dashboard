@@ -1,0 +1,43 @@
+{
+  "id": 27960,
+  "rank": 277,
+  "name": "Non-Playable Coin",
+  "symbol": "NPC",
+  "price": 0.013288121998043809,
+  "change1h": -0.33402109,
+  "change24h": -0.16990283,
+  "change7d": 38.49157212,
+  "market_cap": 100142868.84139322,
+  "volume_24h": 8683831.04099062,
+  "circulating_supply": 7536269523.724692,
+  "max_supply": 8050126520,
+  "sparkline7d": [],
+  "description": "Non-Playable Coin (NPC) is a cryptocurrency launched in 2023and operates on the Ethereum platform. Non-Playable Coin has a current supply of 8,050,126,520 with 7,536,269,523.72469204 in circulation. The last known price of Non-Playable Coin is 0.01328805 USD and is down -0.01 over the last 24 hours. It is currently trading on 120 active market(s) with $8,669,277.97 traded over the last 24 hours. More information can be found at https://www.npc.com/.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/27960.png",
+  "urls": {
+    "website": [
+      "https://www.npc.com/"
+    ],
+    "twitter": [
+      "https://twitter.com/nonplayablecoin"
+    ],
+    "message_board": [],
+    "chat": [
+      "https://t.me/nonplayablecoin"
+    ],
+    "facebook": [],
+    "explorer": [
+      "https://etherscan.io/token/0x8ed97a637a790be1feff5e888d43629dc05408f6",
+      "https://app.nansen.ai/token-god-mode?chain=ethereum&tab=transactions&tokenAddress=0x8ed97a637a790be1feff5e888d43629dc05408f6",
+      "https://solscan.io/token/BeGY8KqKxboEwRbJd1q9H2K829jS4Rc5dEyNMYXCbV5p",
+      "https://bscscan.com/token/0xfebfa339e44c28e2aa9e62ea1027c9cb4e378605"
+    ],
+    "reddit": [],
+    "technical_doc": [
+      "https://www.docs.npc.com"
+    ],
+    "source_code": [],
+    "announcement": []
+  },
+  "tags": []
+}

@@ -1,0 +1,48 @@
+{
+  "id": 5566,
+  "rank": 340,
+  "name": "Keep Network",
+  "symbol": "KEEP",
+  "price": 0.0760597882737978,
+  "change1h": -7.12802881,
+  "change24h": -8.13941722,
+  "change7d": 4.98204736,
+  "market_cap": 73609678.44313724,
+  "volume_24h": 16336.0860628,
+  "circulating_supply": 967787054.2862843,
+  "max_supply": null,
+  "sparkline7d": [],
+  "description": "Keep Network (KEEP) is a cryptocurrency launched in 2017and operates on the Ethereum platform. Keep Network has a current supply of 999,848,780.8 with 967,787,054.28628432 in circulation. The last known price of Keep Network is 0.0768436 USD and is down -7.19 over the last 24 hours. It is currently trading on 76 active market(s) with $16,073.80 traded over the last 24 hours. More information can be found at https://keep.network.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/5566.png",
+  "urls": {
+    "website": [
+      "https://keep.network"
+    ],
+    "twitter": [
+      "https://twitter.com/keep_project"
+    ],
+    "message_board": [],
+    "chat": [
+      "https://t.me/KeepNetworkOfficial",
+      "https://discordapp.com/invite/wYezN7v"
+    ],
+    "facebook": [],
+    "explorer": [
+      "https://etherscan.io/token/0x85eee30c52b0b379b046fb0f85f4f3dc3009afec",
+      "https://app.nansen.ai/token-god-mode?chain=ethereum&tab=transactions&tokenAddress=0x85eee30c52b0b379b046fb0f85f4f3dc3009afec",
+      "https://solscan.io/token/64L6o4G2H7Ln1vN7AHZsUMW4pbFciHyuwn4wUdSbcFxh",
+      "https://ethplorer.io/address/0x85eee30c52b0b379b046fb0f85f4f3dc3009afec"
+    ],
+    "reddit": [
+      "https://reddit.com/r/KeepNetwork"
+    ],
+    "technical_doc": [
+      "https://keep.network/whitepaper"
+    ],
+    "source_code": [
+      "https://github.com/keep-network"
+    ],
+    "announcement": []
+  },
+  "tags": []
+}

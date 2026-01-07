@@ -1,0 +1,51 @@
+{
+  "id": 37637,
+  "rank": 435,
+  "name": "Somnia",
+  "symbol": "SOMI",
+  "price": 0.2615653233007866,
+  "change1h": -0.61341888,
+  "change24h": -5.44603694,
+  "change7d": 5.34712373,
+  "market_cap": 50963176.37007973,
+  "volume_24h": 13185881.63768744,
+  "circulating_supply": 194839192.47,
+  "max_supply": 1000000000,
+  "sparkline7d": [],
+  "description": "Somnia (SOMI) is a cryptocurrency launched in 2025. Somnia has a current supply of 1,000,000,000 with 194,839,192.47 in circulation. The last known price of Somnia is 0.26156512 USD and is down -5.58 over the last 24 hours. It is currently trading on 144 active market(s) with $13,225,850.78 traded over the last 24 hours. More information can be found at https://somnia.network/.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/37637.png",
+  "urls": {
+    "website": [
+      "https://somnia.network/"
+    ],
+    "twitter": [
+      "https://twitter.com/somnia_network"
+    ],
+    "message_board": [
+      "https://somnianetwork.substack.com/"
+    ],
+    "chat": [
+      "https://t.me/somnianetwork",
+      "https://discord.com/invite/somnia"
+    ],
+    "facebook": [],
+    "explorer": [
+      "https://explorer.somnia.network/",
+      "https://app.nansen.ai/token-god-mode?chain=ethereum&tab=transactions&tokenAddress=0x1B0F6590d21dc02B92ad3A7D00F8884dC4f1aed9",
+      "https://bscscan.com/address/0xa9616e5e23EC1582c2828B025bEcf3Ef610e266F",
+      "https://etherscan.io/address/0x1B0F6590d21dc02B92ad3A7D00F8884dC4f1aed9",
+      "https://basescan.org/address/0x47636b3188774a3E7273D85A537b9bA4Ee7b2535"
+    ],
+    "reddit": [
+      "https://reddit.com/r/SomniaNetwork"
+    ],
+    "technical_doc": [
+      "https://docs.somnia.network/"
+    ],
+    "source_code": [],
+    "announcement": [
+      "https://blog.somnia.network/"
+    ]
+  },
+  "tags": []
+}

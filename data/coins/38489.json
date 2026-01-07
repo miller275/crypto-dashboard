@@ -1,0 +1,47 @@
+{
+  "id": 38489,
+  "rank": 330,
+  "name": "ChainOpera AI",
+  "symbol": "COAI",
+  "price": 0.40861019474477145,
+  "change1h": -0.17883231,
+  "change24h": -3.23263155,
+  "change7d": 0.69873128,
+  "market_cap": 76818756.65581612,
+  "volume_24h": 8358025.35659884,
+  "circulating_supply": 188000098,
+  "max_supply": 1000000000,
+  "sparkline7d": [],
+  "description": "ChainOpera AI (COAI) is a cryptocurrency launched in 2025and operates on the BNB Smart Chain (BEP20) platform. ChainOpera AI has a current supply of 1,000,000,000 with 188,000,098 in circulation. The last known price of ChainOpera AI is 0.40854846 USD and is down -3.41 over the last 24 hours. It is currently trading on 128 active market(s) with $8,355,493.62 traded over the last 24 hours. More information can be found at https://chainopera.ai/.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/38489.png",
+  "urls": {
+    "website": [
+      "https://chainopera.ai/"
+    ],
+    "twitter": [
+      "https://twitter.com/ChainOpera_AI"
+    ],
+    "message_board": [
+      "https://medium.com/@chainopera"
+    ],
+    "chat": [
+      "https://discord.com/invite/chainopera"
+    ],
+    "facebook": [],
+    "explorer": [
+      "https://bscscan.com/token/0x0A8D6C86e1bcE73fE4D0bD531e1a567306836EA5",
+      "https://app.nansen.ai/token-god-mode?chain=bnb&tab=transactions&tokenAddress=0x0A8D6C86e1bcE73fE4D0bD531e1a567306836EA5"
+    ],
+    "reddit": [],
+    "technical_doc": [
+      "https://paper.chainopera.ai/"
+    ],
+    "source_code": [
+      "https://github.com/ChainOpera-AI/"
+    ],
+    "announcement": [
+      "https://x.com/chainopera_ai"
+    ]
+  },
+  "tags": []
+}

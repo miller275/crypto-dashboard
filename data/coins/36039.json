@@ -1,0 +1,51 @@
+{
+  "id": 36039,
+  "rank": 244,
+  "name": "Frax USD",
+  "symbol": "FRXUSD",
+  "price": 1.0002578357026006,
+  "change1h": 0.05580602,
+  "change24h": 0.09814008,
+  "change7d": 0.06445091,
+  "market_cap": 124237471.34125581,
+  "volume_24h": 3253582.27600993,
+  "circulating_supply": 124205446.7426281,
+  "max_supply": null,
+  "sparkline7d": [],
+  "description": "Frax USD (FRXUSD) is a cryptocurrency launched in 2025and operates on the Ethereum platform. Frax USD has a current supply of 124,205,446.7426281. The last known price of Frax USD is 0.9999487 USD and is up 0.07 over the last 24 hours. It is currently trading on 25 active market(s) with $2,924,553.86 traded over the last 24 hours. More information can be found at https://frax.com.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/36039.png",
+  "urls": {
+    "website": [
+      "https://frax.com",
+      "https://app.frax.finance/"
+    ],
+    "twitter": [
+      "https://twitter.com/fraxfinance"
+    ],
+    "message_board": [
+      "https://fraxfinancecommunity.medium.com/"
+    ],
+    "chat": [
+      "https://t.me/fraxfinance",
+      "https://discord.com/invite/fraxfinance"
+    ],
+    "facebook": [],
+    "explorer": [
+      "https://etherscan.io/token/0xcacd6fd266af91b8aed52accc382b4e165586e29",
+      "https://app.nansen.ai/token-god-mode?chain=ethereum&tab=transactions&tokenAddress=0xCAcd6fd266aF91b8AeD52aCCc382b4e165586E29",
+      "https://solscan.io/token/GzX1ireZDU865FiMaKrdVB1H6AE8LAqWYCg6chrMrfBw",
+      "https://sonicscan.org/token/0x80eede496655fb9047dd39d9f418d5483ed600df"
+    ],
+    "reddit": [],
+    "technical_doc": [
+      "https://docs.frax.com/protocol/assets/frxusd/frxusd"
+    ],
+    "source_code": [
+      "https://github.com/FraxFinance/staked-frax-erc4626/blob/public/src/contracts/FrxUSD.sol"
+    ],
+    "announcement": [
+      "https://snapshot.box/#/s:frax.eth/proposal/0xc81e2268834ec1243e08c5d616c98c8e91e2304f7b38ee1d932f450efb18eb8a"
+    ]
+  },
+  "tags": []
+}

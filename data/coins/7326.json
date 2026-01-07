@@ -1,0 +1,50 @@
+{
+  "id": 7326,
+  "rank": 138,
+  "name": "DeXe",
+  "symbol": "DEXE",
+  "price": 3.3468326904464005,
+  "change1h": -1.16736853,
+  "change24h": -4.62190757,
+  "change7d": -1.59804724,
+  "market_cap": 280242597.39820904,
+  "volume_24h": 4442679.30406345,
+  "circulating_supply": 83733673.98919193,
+  "max_supply": null,
+  "sparkline7d": [],
+  "description": "DeXe (DEXE) is a cryptocurrency launched in 2020and operates on the Ethereum platform. DeXe has a current supply of 96,504,599.33609451 with 83,733,673.98919194 in circulation. The last known price of DeXe is 3.35204565 USD and is down -4.60 over the last 24 hours. It is currently trading on 155 active market(s) with $4,439,360.93 traded over the last 24 hours. More information can be found at https://dexe.network/.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/7326.png",
+  "urls": {
+    "website": [
+      "https://dexe.network/"
+    ],
+    "twitter": [
+      "https://twitter.com/DexeNetwork"
+    ],
+    "message_board": [
+      "http://dexenetwork.medium.com/"
+    ],
+    "chat": [
+      "https://t.me/dexe_network_official_chat"
+    ],
+    "facebook": [],
+    "explorer": [
+      "https://etherscan.io/token/0xde4EE8057785A7e8e800Db58F9784845A5C2Cbd6",
+      "https://app.nansen.ai/token-god-mode?chain=ethereum&tab=transactions&tokenAddress=0xde4EE8057785A7e8e800Db58F9784845A5C2Cbd6",
+      "https://bscscan.com/token/0x6E88056E8376Ae7709496Ba64d37fa2f8015ce3e",
+      "https://ethplorer.io/address/0xde4EE8057785A7e8e800Db58F9784845A5C2Cbd6",
+      "https://binplorer.com/address/0x6E88056E8376Ae7709496Ba64d37fa2f8015ce3e#"
+    ],
+    "reddit": [],
+    "technical_doc": [
+      "https://whitepaper.dexe.network/"
+    ],
+    "source_code": [
+      "https://github.com/dexe-network/DeXe-Protocol/"
+    ],
+    "announcement": [
+      "https://t.me/Dexe_network"
+    ]
+  },
+  "tags": []
+}

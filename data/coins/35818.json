@@ -1,0 +1,48 @@
+{
+  "id": 35818,
+  "rank": 231,
+  "name": "SoSoValue",
+  "symbol": "SOSO",
+  "price": 0.5429940080380411,
+  "change1h": -0.58043212,
+  "change24h": -1.82290588,
+  "change7d": -0.63110654,
+  "market_cap": 149196604.37712902,
+  "volume_24h": 4838340.83011698,
+  "circulating_supply": 274766576,
+  "max_supply": 1000000000,
+  "sparkline7d": [],
+  "description": "SoSoValue (SOSO) is a cryptocurrency launched in 2025and operates on the Ethereum platform. SoSoValue has a current supply of 1,000,000,000 with 274,766,576 in circulation. The last known price of SoSoValue is 0.54298511 USD and is down -1.89 over the last 24 hours. It is currently trading on 52 active market(s) with $4,835,133.99 traded over the last 24 hours. More information can be found at https://sosovalue.com/.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/35818.png",
+  "urls": {
+    "website": [
+      "https://sosovalue.com/",
+      "https://ssi.sosovalue.com/"
+    ],
+    "twitter": [
+      "https://twitter.com/SoSoValueCrypto"
+    ],
+    "message_board": [],
+    "chat": [
+      "https://t.me/SoSoValueCommunity",
+      "https://www.youtube.com/@sosovalue"
+    ],
+    "facebook": [
+      "https://www.facebook.com/sosovaluecrypto"
+    ],
+    "explorer": [
+      "https://etherscan.io/token/0x76A0e27618462bDAC7a29104bdcfFf4E6BFCea2D",
+      "https://app.nansen.ai/token-god-mode?chain=ethereum&tab=transactions&tokenAddress=0x76A0e27618462bDAC7a29104bdcfFf4E6BFCea2D",
+      "https://basescan.org/token/0x624e2e7fdc8903165f64891672267ab0fcb98831"
+    ],
+    "reddit": [],
+    "technical_doc": [
+      "https://sosovalue-white-paper.gitbook.io/"
+    ],
+    "source_code": [
+      "https://github.com/SoSoValueLabs/ssi-protocol"
+    ],
+    "announcement": []
+  },
+  "tags": []
+}

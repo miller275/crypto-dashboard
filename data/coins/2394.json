@@ -1,0 +1,56 @@
+{
+  "id": 2394,
+  "rank": 118,
+  "name": "Telcoin",
+  "symbol": "TEL",
+  "price": 0.0038923753436706033,
+  "change1h": -0.0680307,
+  "change24h": -3.71783469,
+  "change7d": -0.27253733,
+  "market_cap": 370486327.1832694,
+  "volume_24h": 1806253.34050117,
+  "circulating_supply": 95182579908.62,
+  "max_supply": 100000000000,
+  "sparkline7d": [],
+  "description": "Telcoin (TEL) is a cryptocurrency launched in 2017and operates on the Ethereum platform. Telcoin has a current supply of 100,000,000,000 with 95,182,579,908.62 in circulation. The last known price of Telcoin is 0.00389355 USD and is down -3.72 over the last 24 hours. It is currently trading on 252 active market(s) with $1,807,702.75 traded over the last 24 hours. More information can be found at https://www.telco.in/.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/2394.png",
+  "urls": {
+    "website": [
+      "https://www.telco.in/",
+      "https://www.telcoin.org"
+    ],
+    "twitter": [
+      "https://twitter.com/telcoin"
+    ],
+    "message_board": [
+      "https://medium.com/@telcoin"
+    ],
+    "chat": [
+      "https://discord.com/invite/PMcuZRntNa",
+      "https://discord.gg/5fbkf4BxfG"
+    ],
+    "facebook": [
+      "https://www.facebook.com/telcoin/"
+    ],
+    "explorer": [
+      "https://etherscan.io/token/0x467Bccd9d29f223BcE8043b84E8C8B282827790F",
+      "https://app.nansen.ai/token-god-mode?chain=ethereum&tab=transactions&tokenAddress=0x467bccd9d29f223bce8043b84e8c8b282827790f",
+      "https://arbiscan.io/token/0x0419E8bfBBB2623728c3A6129090DA4Ff4e48113",
+      "https://polygonscan.com/token/0xdf7837de1f2fa4631d716cf2502f8b230f1dcc32",
+      "https://basescan.org/token/0x09be1692ca16e06f536f0038ff11d1da8524adb1"
+    ],
+    "reddit": [
+      "https://reddit.com/r/Telcoin"
+    ],
+    "technical_doc": [
+      "https://forum.telcoin.org/t/tgip1-establishing-the-telcoin-platform-and-association/135"
+    ],
+    "source_code": [
+      "https://github.com/Telcoin-Association/"
+    ],
+    "announcement": [
+      "https://t.me/Telcoin_Announcements"
+    ]
+  },
+  "tags": []
+}

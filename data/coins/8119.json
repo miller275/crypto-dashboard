@@ -1,0 +1,45 @@
+{
+  "id": 8119,
+  "rank": 173,
+  "name": "SafePal",
+  "symbol": "SFP",
+  "price": 0.3491610995064416,
+  "change1h": -0.18170343,
+  "change24h": -1.884111,
+  "change7d": 8.98932336,
+  "market_cap": 174580549.7532208,
+  "volume_24h": 2536235.89607369,
+  "circulating_supply": 500000000,
+  "max_supply": 500000000,
+  "sparkline7d": [],
+  "description": "SafePal (SFP) is a cryptocurrency launched in 2020and operates on the BNB Smart Chain (BEP20) platform. SafePal has a current supply of 500,000,000. The last known price of SafePal is 0.34871037 USD and is down -1.98 over the last 24 hours. It is currently trading on 256 active market(s) with $2,530,874.79 traded over the last 24 hours. More information can be found at https://www.safepal.com.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/8119.png",
+  "urls": {
+    "website": [
+      "https://www.safepal.com"
+    ],
+    "twitter": [
+      "https://twitter.com/isafepal"
+    ],
+    "message_board": [],
+    "chat": [
+      "https://discord.gg/BuKynZqRNj"
+    ],
+    "facebook": [],
+    "explorer": [
+      "https://bscscan.com/token/0xd41fdb03ba84762dd66a0af1a6c8540ff1ba5dfb",
+      "https://app.nansen.ai/token-god-mode?chain=bnb&tab=transactions&tokenAddress=0xd41fdb03ba84762dd66a0af1a6c8540ff1ba5dfb",
+      "https://www.oklink.com/bsc/token/0xD41FDb03Ba84762dD66a0af1a6C8540FF1ba5dfb",
+      "https://etherscan.io/token/0x12e2b8033420270db2f3b328e32370cb5b2ca134"
+    ],
+    "reddit": [],
+    "technical_doc": [
+      "https://www.safepal.com/pub/SFP_Whitepaper.pdf?a=5"
+    ],
+    "source_code": [
+      "https://github.com/SafePalWallet"
+    ],
+    "announcement": []
+  },
+  "tags": []
+}

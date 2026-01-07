@@ -1,0 +1,46 @@
+{
+  "id": 24613,
+  "rank": 276,
+  "name": "Open Campus",
+  "symbol": "EDU",
+  "price": 0.1549240015716367,
+  "change1h": -0.62565946,
+  "change24h": -8.80200758,
+  "change7d": -5.17562667,
+  "market_cap": 100617754.17233141,
+  "volume_24h": 6220704.97657823,
+  "circulating_supply": 649465242,
+  "max_supply": 1000000000,
+  "sparkline7d": [],
+  "description": "Open Campus (EDU) is a cryptocurrency and operates on the BNB Smart Chain (BEP20) platform. Open Campus has a current supply of 1,000,000,000 with 649,465,242 in circulation. The last known price of Open Campus is 0.15496761 USD and is down -9.25 over the last 24 hours. It is currently trading on 162 active market(s) with $6,477,717.56 traded over the last 24 hours. More information can be found at https://www.opencampus.xyz/.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/24613.png",
+  "urls": {
+    "website": [
+      "https://www.opencampus.xyz/"
+    ],
+    "twitter": [
+      "https://twitter.com/opencampus_xyz"
+    ],
+    "message_board": [],
+    "chat": [
+      "https://discord.gg/opencampus"
+    ],
+    "facebook": [],
+    "explorer": [
+      "https://bscscan.com/token/0xbdeae1ca48894a1759a8374d63925f21f2ee2639",
+      "https://app.nansen.ai/token-god-mode?chain=bnb&tab=transactions&tokenAddress=0xBdEAe1cA48894A1759A8374D63925f21f2Ee2639",
+      "https://etherscan.io/token/0xf8173a39c56a554837c4c7f104153a005d284d11",
+      "https://polygonscan.com/token/0xb03e3b00baf9954bf1604d09a4dbd5cf88e1f695",
+      "https://www.oklink.com/eth/token/0x26aad156ba8efa501b32b42ffcdc8413f90e9c99"
+    ],
+    "reddit": [],
+    "technical_doc": [
+      "https://open-campus.gitbook.io/open-campus-protocol-whitepaper/"
+    ],
+    "source_code": [],
+    "announcement": [
+      "https://opencampus-xyz.medium.com/"
+    ]
+  },
+  "tags": []
+}

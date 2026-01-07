@@ -1,0 +1,49 @@
+{
+  "id": 4006,
+  "rank": 253,
+  "name": "AWE",
+  "symbol": "AWE",
+  "price": 0.05703701622760929,
+  "change1h": -0.47618622,
+  "change24h": -0.57179086,
+  "change7d": 6.90749936,
+  "market_cap": 110789857.20385225,
+  "volume_24h": 9943239.91138475,
+  "circulating_supply": 1942420283.0270672,
+  "max_supply": 1942420283.027067,
+  "sparkline7d": [],
+  "description": "AWE (AWE) is a cryptocurrency launched in 2019and operates on the Base platform. AWE has a current supply of 1,942,420,283 with 1,942,420,283.02706707 in circulation. The last known price of AWE is 0.05703696 USD and is down -0.51 over the last 24 hours. It is currently trading on 155 active market(s) with $9,976,825.18 traded over the last 24 hours. More information can be found at https://www.awenetwork.ai/.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/4006.png",
+  "urls": {
+    "website": [
+      "https://www.awenetwork.ai/"
+    ],
+    "twitter": [
+      "https://twitter.com/awenetwork_ai"
+    ],
+    "message_board": [
+      "https://www.awenetwork.ai/blog"
+    ],
+    "chat": [
+      "https://t.me/AWEofficial",
+      "https://discord.gg/We8AyHvH"
+    ],
+    "facebook": [],
+    "explorer": [
+      "https://basescan.org/token/0x1B4617734C43F6159F3a70b7E06d883647512778",
+      "https://app.nansen.ai/token-god-mode?chain=base&tab=transactions&tokenAddress=0x1B4617734C43F6159F3a70b7E06d883647512778",
+      "https://basescan.org/address/0x1b4617734c43f6159f3a70b7e06d883647512778"
+    ],
+    "reddit": [],
+    "technical_doc": [
+      "https://open.awenetwork.ai/litepaper.pdf"
+    ],
+    "source_code": [
+      "https://github.com/STPDevteam"
+    ],
+    "announcement": [
+      "https://x.com/awenetwork_ai"
+    ]
+  },
+  "tags": []
+}

@@ -1,0 +1,37 @@
+{
+  "id": 33440,
+  "rank": 499,
+  "name": "Goatseus Maximus",
+  "symbol": "GOAT",
+  "price": 0.04001274476313018,
+  "change1h": -0.76950913,
+  "change24h": -2.49650083,
+  "change7d": 22.47804074,
+  "market_cap": 40012184.50525507,
+  "volume_24h": 7950870.70711781,
+  "circulating_supply": 999985998.014422,
+  "max_supply": 1000000000,
+  "sparkline7d": [],
+  "description": "Goatseus Maximus (GOAT) is a cryptocurrency and operates on the Solana platform. Goatseus Maximus has a current supply of 999,985,998.014422. The last known price of Goatseus Maximus is 0.04005874 USD and is down -2.60 over the last 24 hours. It is currently trading on 337 active market(s) with $7,944,994.31 traded over the last 24 hours. More information can be found at https://goatchan.xyz.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/33440.png",
+  "urls": {
+    "website": [
+      "https://goatchan.xyz"
+    ],
+    "twitter": [
+      "https://twitter.com/gospelofgoatse"
+    ],
+    "message_board": [],
+    "chat": [],
+    "facebook": [],
+    "explorer": [
+      "https://solscan.io/token/CzLSujWBLFsSjncfkh59rUFqvafWcY5tzedWJSuypump",
+      "https://app.nansen.ai/token-god-mode?chain=solana&tab=transactions&tokenAddress=CzLSujWBLFsSjncfkh59rUFqvafWcY5tzedWJSuypump"
+    ],
+    "reddit": [],
+    "technical_doc": [],
+    "source_code": [],
+    "announcement": []
+  },
+  "tags": []
+}

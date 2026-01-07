@@ -1,0 +1,51 @@
+{
+  "id": 8000,
+  "rank": 88,
+  "name": "Lido DAO",
+  "symbol": "LDO",
+  "price": 0.631441437824999,
+  "change1h": -0.69097162,
+  "change24h": -1.8309734,
+  "change7d": 10.7839398,
+  "market_cap": 534557359.04410267,
+  "volume_24h": 43923549.33016535,
+  "circulating_supply": 846566802.5927889,
+  "max_supply": null,
+  "sparkline7d": [],
+  "description": "Lido DAO (LDO) is a cryptocurrency and operates on the Ethereum platform. Lido DAO has a current supply of 1,000,000,000 with 846,566,802.59278898 in circulation. The last known price of Lido DAO is 0.63217576 USD and is down -1.82 over the last 24 hours. It is currently trading on 600 active market(s) with $43,886,212.41 traded over the last 24 hours. More information can be found at https://lido.fi/.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/8000.png",
+  "urls": {
+    "website": [
+      "https://lido.fi/"
+    ],
+    "twitter": [
+      "https://twitter.com/lidofinance"
+    ],
+    "message_board": [
+      "https://blog.lido.fi/"
+    ],
+    "chat": [
+      "https://t.me/lidofinance",
+      "https://discord.gg/vgdPfhZ"
+    ],
+    "facebook": [],
+    "explorer": [
+      "https://etherscan.io/token/0x5a98fcbea516cf06857215779fd812ca3bef1b32",
+      "https://app.nansen.ai/token-god-mode?chain=ethereum&tab=transactions&tokenAddress=0x5a98fcbea516cf06857215779fd812ca3bef1b32",
+      "https://solscan.io/token/HZRCwxP2Vq9PCpPXooayhJ2bxTpo5xfpQrwB1svh332p",
+      "https://www.oklink.com/eth/token/0x5A98FcBEA516Cf06857215779Fd812CA3beF1B32",
+      "https://explorer.solana.com/address/HZRCwxP2Vq9PCpPXooayhJ2bxTpo5xfpQrwB1svh332p"
+    ],
+    "reddit": [
+      "https://reddit.com/r/lidofinance"
+    ],
+    "technical_doc": [
+      "https://lido.fi/static/Lido:Ethereum-Liquid-Staking.pdf"
+    ],
+    "source_code": [
+      "https://github.com/lidofinance"
+    ],
+    "announcement": []
+  },
+  "tags": []
+}

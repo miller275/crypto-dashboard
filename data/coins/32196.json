@@ -1,0 +1,41 @@
+{
+  "id": 32196,
+  "rank": 13,
+  "name": "Hyperliquid",
+  "symbol": "HYPE",
+  "price": 26.94761805454603,
+  "change1h": 0.07167071,
+  "change24h": -2.01433065,
+  "change7d": 4.52855918,
+  "market_cap": 9144610563.483969,
+  "volume_24h": 265110002.28750986,
+  "circulating_supply": 339347639,
+  "max_supply": 961671487.86,
+  "sparkline7d": [],
+  "description": "Hyperliquid (HYPE) is a cryptocurrency and operates on the Hyperliquid platform. Hyperliquid has a current supply of 961,671,487.86 with 339,347,639 in circulation. The last known price of Hyperliquid is 26.73650618 USD and is down -2.70 over the last 24 hours. It is currently trading on 223 active market(s) with $267,968,652.40 traded over the last 24 hours. More information can be found at https://hyperliquid.xyz/.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/32196.png",
+  "urls": {
+    "website": [
+      "https://hyperliquid.xyz/"
+    ],
+    "twitter": [
+      "https://twitter.com/HyperliquidX"
+    ],
+    "message_board": [],
+    "chat": [
+      "https://t.me/hyperliquid_announcements",
+      "https://discord.com/invite/hyperliquid"
+    ],
+    "facebook": [],
+    "explorer": [
+      "https://app.hyperliquid.xyz/explorer/token/0x0d01dc56dcaaca66ad901c959b4011ec"
+    ],
+    "reddit": [],
+    "technical_doc": [
+      "https://hyperliquid.gitbook.io/hyperliquid-docs"
+    ],
+    "source_code": [],
+    "announcement": []
+  },
+  "tags": []
+}

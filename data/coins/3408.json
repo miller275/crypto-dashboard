@@ -1,0 +1,48 @@
+{
+  "id": 3408,
+  "rank": 7,
+  "name": "USDC",
+  "symbol": "USDC",
+  "price": 0.9998853551393992,
+  "change1h": 0.0169678,
+  "change24h": 0.02796728,
+  "change7d": 0.02117257,
+  "market_cap": 75270347494.78938,
+  "volume_24h": 12398612770.912271,
+  "circulating_supply": 75278977842.71033,
+  "max_supply": null,
+  "sparkline7d": [],
+  "description": "USDC (USDC) is a cryptocurrency launched in 2024and operates on the Ethereum platform. USDC has a current supply of 75,278,977,842.71033135. The last known price of USDC is 0.99999335 USD and is up 0.02 over the last 24 hours. It is currently trading on 36079 active market(s) with $12,289,289,582.44 traded over the last 24 hours. More information can be found at https://www.circle.com/en/usdc.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/3408.png",
+  "urls": {
+    "website": [
+      "https://www.circle.com/en/usdc"
+    ],
+    "twitter": [
+      "https://twitter.com/circle"
+    ],
+    "message_board": [
+      "https://medium.com/centre-blog"
+    ],
+    "chat": [],
+    "facebook": [],
+    "explorer": [
+      "https://etherscan.io/token/0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+      "https://app.nansen.ai/token-god-mode?chain=ethereum&tab=transactions&tokenAddress=0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+      "https://solscan.io/token/EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+      "https://explorer.solana.com/address/EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+      "https://tronscan.org/#/token20/TEkxiTehnzSmSe2XqrBj4w32RUN966rdz8"
+    ],
+    "reddit": [],
+    "technical_doc": [
+      "https://f.hubspotusercontent30.net/hubfs/9304636/PDF/centre-whitepaper.pdf"
+    ],
+    "source_code": [
+      "https://github.com/centrehq/centre-tokens"
+    ],
+    "announcement": [
+      "https://blog.circle.com/2018/09/26/introducing-usd-coin/"
+    ]
+  },
+  "tags": []
+}

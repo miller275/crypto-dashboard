@@ -1,0 +1,48 @@
+{
+  "id": 8534,
+  "rank": 402,
+  "name": "Chintai",
+  "symbol": "CHEX",
+  "price": 0.058098696517037834,
+  "change1h": -0.84704693,
+  "change24h": 8.73451353,
+  "change7d": 85.498381,
+  "market_cap": 58036057.67200648,
+  "volume_24h": 1817873.27216268,
+  "circulating_supply": 998921854.5546373,
+  "max_supply": null,
+  "sparkline7d": [],
+  "description": "Chintai (CHEX) is a cryptocurrency launched in 2018and operates on the Ethereum platform. Chintai has a current supply of 998,921,854.5546373. The last known price of Chintai is 0.05817682 USD and is up 8.85 over the last 24 hours. It is currently trading on 95 active market(s) with $1,821,039.10 traded over the last 24 hours. More information can be found at https://chintai.io.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/8534.png",
+  "urls": {
+    "website": [
+      "https://chintai.io"
+    ],
+    "twitter": [
+      "https://twitter.com/ChintaiNexus"
+    ],
+    "message_board": [
+      "https://chintaieos.medium.com/",
+      "https://chintaieos.medium.com/"
+    ],
+    "chat": [
+      "https://t.me/ChintaiNetwork"
+    ],
+    "facebook": [],
+    "explorer": [
+      "https://etherscan.io/token/0x9Ce84F6A69986a83d92C324df10bC8E64771030f",
+      "https://app.nansen.ai/token-god-mode?chain=ethereum&tab=transactions&tokenAddress=0x9Ce84F6A69986a83d92C324df10bC8E64771030f",
+      "https://solscan.io/token/6dKCoWjpj5MFU5gWDEFdpUUeBasBLK3wLEwhUzQPAa1e",
+      "https://bloks.io/tokens/CHEX-eos-chexchexchex"
+    ],
+    "reddit": [],
+    "technical_doc": [
+      "https://chintai.io/group/chexroadmap.pdf"
+    ],
+    "source_code": [
+      "https://github.com/chintai-platform/app-monorepo"
+    ],
+    "announcement": []
+  },
+  "tags": []
+}

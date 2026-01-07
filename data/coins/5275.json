@@ -1,0 +1,51 @@
+{
+  "id": 5275,
+  "rank": 335,
+  "name": "Paycoin",
+  "symbol": "PCI",
+  "price": 0.07003648532105021,
+  "change1h": 0.0215136,
+  "change24h": -0.47600049,
+  "change7d": 2.98834242,
+  "market_cap": 74384771.72391044,
+  "volume_24h": 454312.63664394,
+  "circulating_supply": 1062086016.7800754,
+  "max_supply": 1900000000,
+  "sparkline7d": [],
+  "description": "Paycoin (PCI) is a cryptocurrency launched in 2019. Paycoin has a current supply of 1,900,000,000 with 1,062,086,016.7800754 in circulation. The last known price of Paycoin is 0.06961644 USD and is down -1.10 over the last 24 hours. It is currently trading on 18 active market(s) with $452,061.00 traded over the last 24 hours. More information can be found at https://payprotocol.io/.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/5275.png",
+  "urls": {
+    "website": [
+      "https://payprotocol.io/",
+      "http://www.danalfintech.com/eng/"
+    ],
+    "twitter": [
+      "https://twitter.com/payprotocol"
+    ],
+    "message_board": [
+      "https://medium.com/payprotocol",
+      "https://blog.naver.com/payprotocol"
+    ],
+    "chat": [
+      "https://open.kakao.com/o/gd7c5Pib",
+      "https://t.me/paycoin_announcement"
+    ],
+    "facebook": [],
+    "explorer": [
+      "https://etherscan.io/token/0x3c2a309d9005433c1bc2c92ef1be06489e5bf258",
+      "https://app.nansen.ai/token-god-mode?chain=ethereum&tab=transactions&tokenAddress=0x3C2A309d9005433c1BC2C92EF1bE06489e5bf258",
+      "https://scan.payprotocol.io/#/"
+    ],
+    "reddit": [],
+    "technical_doc": [
+      "https://drive.google.com/file/d/14z7D20rCZDlbqeM2d0sXsNEZyviEwV9p/view?usp=sharing"
+    ],
+    "source_code": [
+      "https://github.com/payprotocol"
+    ],
+    "announcement": [
+      "https://t.me/paycoin_announcement"
+    ]
+  },
+  "tags": []
+}

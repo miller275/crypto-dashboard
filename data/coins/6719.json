@@ -1,0 +1,52 @@
+{
+  "id": 6719,
+  "rank": 101,
+  "name": "The Graph",
+  "symbol": "GRT",
+  "price": 0.040182347257582206,
+  "change1h": -0.77459491,
+  "change24h": -2.16521638,
+  "change7d": 21.64115936,
+  "market_cap": 428808707.8232679,
+  "volume_24h": 24259120.71614062,
+  "circulating_supply": 10671569410.180582,
+  "max_supply": null,
+  "sparkline7d": [],
+  "description": "The Graph (GRT) is a cryptocurrency launched in 2018and operates on the Ethereum platform. The Graph has a current supply of 11,446,577,743.513708 with 10,671,569,410.180582 in circulation. The last known price of The Graph is 0.04020677 USD and is down -2.22 over the last 24 hours. It is currently trading on 602 active market(s) with $24,240,955.35 traded over the last 24 hours. More information can be found at https://thegraph.com.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/6719.png",
+  "urls": {
+    "website": [
+      "https://thegraph.com"
+    ],
+    "twitter": [
+      "https://twitter.com/graphprotocol"
+    ],
+    "message_board": [
+      "https://thegraph.com/blog/",
+      "https://thegraph.com/#newsletter"
+    ],
+    "chat": [
+      "https://thegraph.com/discord",
+      "https://t.me/GraphProtocol"
+    ],
+    "facebook": [],
+    "explorer": [
+      "https://etherscan.io/token/0xc944e90c64b2c07662a292be6244bdf05cda44a7",
+      "https://app.nansen.ai/token-god-mode?chain=ethereum&tab=transactions&tokenAddress=0xc944e90c64b2c07662a292be6244bdf05cda44a7",
+      "https://solscan.io/token/HGsLG4PnZ28L8A4R5nPqKgZd86zUUdmfnkTRnuFJ5dAX",
+      "https://thegraph.com/explorer/",
+      "https://avascan.info/blockchain/c/token/0x8a0cAc13c7da965a312f08ea4229c37869e85cB9"
+    ],
+    "reddit": [
+      "https://reddit.com/r/thegraph"
+    ],
+    "technical_doc": [
+      "https://thegraph.com/docs/"
+    ],
+    "source_code": [
+      "https://github.com/graphprotocol"
+    ],
+    "announcement": []
+  },
+  "tags": []
+}

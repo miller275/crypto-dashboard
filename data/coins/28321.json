@@ -1,0 +1,52 @@
+{
+  "id": 28321,
+  "rank": 55,
+  "name": "Polygon (prev. MATIC)",
+  "symbol": "POL",
+  "price": 0.1255964864102899,
+  "change1h": -0.56415503,
+  "change24h": 0.04813461,
+  "change7d": 24.90120047,
+  "market_cap": 1326827571.8241644,
+  "volume_24h": 90103709.56398502,
+  "circulating_supply": 10564209316.252495,
+  "max_supply": null,
+  "sparkline7d": [],
+  "description": "Polygon (prev. MATIC) (POL) is a cryptocurrency launched in 2023and operates on the Ethereum platform. Polygon (prev. MATIC) has a current supply of 10,564,209,326.25249513 with 10,564,209,316.25249513 in circulation. The last known price of Polygon (prev. MATIC) is 0.12558328 USD and is up -0.00 over the last 24 hours. It is currently trading on 597 active market(s) with $89,904,742.55 traded over the last 24 hours. More information can be found at https://polygon.technology/.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/28321.png",
+  "urls": {
+    "website": [
+      "https://polygon.technology/"
+    ],
+    "twitter": [
+      "https://twitter.com/0xPolygon"
+    ],
+    "message_board": [
+      "https://polygon.technology/blog"
+    ],
+    "chat": [
+      "https://discord.com/invite/0xPolygonCommunity",
+      "https://t.me/polygonhq"
+    ],
+    "facebook": [],
+    "explorer": [
+      "https://etherscan.io/token/0x455e53CBB86018Ac2B8092FdCd39d8444aFFC3F6",
+      "https://app.nansen.ai/token-god-mode?chain=ethereum&tab=transactions&tokenAddress=0x455e53cbb86018ac2b8092fdcd39d8444affc3f6",
+      "https://ethplorer.io/address/0x455e53cbb86018ac2b8092fdcd39d8444affc3f6",
+      "https://www.oklink.com/ethereum/token/0x455e53cbb86018ac2b8092fdcd39d8444affc3f6"
+    ],
+    "reddit": [
+      "https://reddit.com/r/0xPolygon"
+    ],
+    "technical_doc": [
+      "https://polygon.technology/papers/pol-whitepaper"
+    ],
+    "source_code": [
+      "https://github.com/0xPolygon/pol-token"
+    ],
+    "announcement": [
+      "https://forum.polygon.technology/"
+    ]
+  },
+  "tags": []
+}

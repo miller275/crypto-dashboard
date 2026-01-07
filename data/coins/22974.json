@@ -1,0 +1,46 @@
+{
+  "id": 22974,
+  "rank": 34,
+  "name": "Bittensor",
+  "symbol": "TAO",
+  "price": 270.5342508221311,
+  "change1h": -0.67992766,
+  "change24h": -4.2776959,
+  "change7d": 22.96801651,
+  "market_cap": 2858024410.3417273,
+  "volume_24h": 167390243.73045394,
+  "circulating_supply": 10564371.80008235,
+  "max_supply": 21000000,
+  "sparkline7d": [],
+  "description": "Bittensor (TAO) is a cryptocurrency launched in 2021and operates on the Bittensor platform. Bittensor has a current supply of 21,000,000 with 10,564,371.80008235 in circulation. The last known price of Bittensor is 270.88031671 USD and is down -4.10 over the last 24 hours. It is currently trading on 233 active market(s) with $167,490,042.86 traded over the last 24 hours. More information can be found at https://bittensor.com.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/22974.png",
+  "urls": {
+    "website": [
+      "https://bittensor.com",
+      "https://docs.bittensor.com/"
+    ],
+    "twitter": [
+      "https://twitter.com/opentensor"
+    ],
+    "message_board": [
+      "https://bittensor.medium.com/"
+    ],
+    "chat": [
+      "https://discord.gg/bittensor",
+      "https://t.me/bittensor"
+    ],
+    "facebook": [],
+    "explorer": [
+      "https://taostats.io/"
+    ],
+    "reddit": [],
+    "technical_doc": [
+      "https://drive.google.com/file/d/1VnsobL6lIAAqcA1_Tbm8AYIQscfJV4KU/view?usp=sharing"
+    ],
+    "source_code": [
+      "https://github.com/opentensor/BitTensor"
+    ],
+    "announcement": []
+  },
+  "tags": []
+}

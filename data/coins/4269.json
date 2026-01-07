@@ -1,0 +1,44 @@
+{
+  "id": 4269,
+  "rank": 71,
+  "name": "GateToken",
+  "symbol": "GT",
+  "price": 10.339559383639875,
+  "change1h": -0.12291857,
+  "change24h": -1.63986852,
+  "change7d": 0.1142446,
+  "market_cap": 828855752.0723535,
+  "volume_24h": 4209878.9855255,
+  "circulating_supply": 80163546.7545976,
+  "max_supply": 300000000,
+  "sparkline7d": [],
+  "description": "GateToken (GT) is a cryptocurrency launched in 2019and operates on the Ethereum platform. GateToken has a current supply of 117,344,473.53114802 with 80,163,546.75459761 in circulation. The last known price of GateToken is 10.33853074 USD and is down -1.59 over the last 24 hours. It is currently trading on 42 active market(s) with $4,209,146.00 traded over the last 24 hours. More information can be found at https://gatechain.io/.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/4269.png",
+  "urls": {
+    "website": [
+      "https://gatechain.io/",
+      "https://gatechain.io/gatelayer"
+    ],
+    "twitter": [
+      "https://twitter.com/GateLayer"
+    ],
+    "message_board": [
+      "https://medium.com/@gatechain"
+    ],
+    "chat": [],
+    "facebook": [],
+    "explorer": [
+      "https://www.gatescan.org/gatelayer",
+      "https://app.nansen.ai/token-god-mode?chain=ethereum&tab=transactions&tokenAddress=0xe66747a101bff2dba3697199dcce5b743b454759",
+      "https://solscan.io/token/ABAq2R9gSpDDGguQxBk4u13s4ZYW6zbwKVBx15mCMG8",
+      "https://etherscan.io/token/0xe66747a101bff2dba3697199dcce5b743b454759"
+    ],
+    "reddit": [],
+    "technical_doc": [],
+    "source_code": [
+      "https://github.com/gatechain"
+    ],
+    "announcement": []
+  },
+  "tags": []
+}

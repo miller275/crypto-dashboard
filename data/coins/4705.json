@@ -1,0 +1,50 @@
+{
+  "id": 4705,
+  "rank": 47,
+  "name": "PAX Gold",
+  "symbol": "PAXG",
+  "price": 4457.744464393845,
+  "change1h": -0.05753548,
+  "change24h": -0.89253314,
+  "change7d": 2.91947241,
+  "market_cap": 1685347553.8328176,
+  "volume_24h": 226871740.5085004,
+  "circulating_supply": 378071.818,
+  "max_supply": null,
+  "sparkline7d": [],
+  "description": "PAX Gold (PAXG) is a cryptocurrency launched in 2019and operates on the Ethereum platform. PAX Gold has a current supply of 378,071.818. The last known price of PAX Gold is 4,457.70084192 USD and is down -0.84 over the last 24 hours. It is currently trading on 332 active market(s) with $227,929,734.75 traded over the last 24 hours. More information can be found at https://www.paxos.com/paxgold/.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/4705.png",
+  "urls": {
+    "website": [
+      "https://www.paxos.com/paxgold/"
+    ],
+    "twitter": [
+      "https://twitter.com/paxosglobal"
+    ],
+    "message_board": [
+      "https://www.paxos.com/blog/pax-gold-the-safest-way-to-own-gold-today"
+    ],
+    "chat": [
+      "https://www.linkedin.com/company/paxos"
+    ],
+    "facebook": [],
+    "explorer": [
+      "https://etherscan.io/token/0x45804880de22913dafe09f4980848ece6ecbaf78",
+      "https://app.nansen.ai/token-god-mode?chain=ethereum&tab=transactions&tokenAddress=0x45804880de22913dafe09f4980848ece6ecbaf78",
+      "https://solscan.io/token/C6oFsE8nXRDThzrMEQ5SxaNFGKoyyfWDDVPw37JKvPTe",
+      "https://www.oklink.com/eth/token/0x45804880de22913dafe09f4980848ece6ecbaf78",
+      "https://explorer.solana.com/address/C6oFsE8nXRDThzrMEQ5SxaNFGKoyyfWDDVPw37JKvPTe"
+    ],
+    "reddit": [],
+    "technical_doc": [
+      "https://www.paxos.com/pax-gold"
+    ],
+    "source_code": [
+      "https://github.com/paxosglobal/paxos-gold-contract"
+    ],
+    "announcement": [
+      "https://www.paxos.com/newsroom/paxos-launches-pax-gold-physical-gold-on-the-blockchain"
+    ]
+  },
+  "tags": []
+}

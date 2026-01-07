@@ -1,0 +1,45 @@
+{
+  "id": 15271,
+  "rank": 234,
+  "name": "Rollbit Coin",
+  "symbol": "RLB",
+  "price": 0.07969022582856919,
+  "change1h": -0.44303876,
+  "change24h": 1.84474174,
+  "change7d": 19.14540965,
+  "market_cap": 142553672.59701434,
+  "volume_24h": 351229.03111762,
+  "circulating_supply": 1788847642.4157453,
+  "max_supply": null,
+  "sparkline7d": [],
+  "description": "Rollbit Coin (RLB) is a cryptocurrency launched in 2020and operates on the Ethereum platform. Rollbit Coin has a current supply of 1,788,847,642.4157453. The last known price of Rollbit Coin is 0.07969023 USD and is up 1.84 over the last 24 hours. It is currently trading on 103 active market(s) with $351,229.03 traded over the last 24 hours. More information can be found at https://rollbit.com/.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/15271.png",
+  "urls": {
+    "website": [
+      "https://rollbit.com/"
+    ],
+    "twitter": [
+      "https://twitter.com/rollbit"
+    ],
+    "message_board": [
+      "https://bitcointalk.org/index.php?topic=5326640.0"
+    ],
+    "chat": [
+      "https://discord.gg/Mwx3zqH"
+    ],
+    "facebook": [],
+    "explorer": [
+      "https://etherscan.io/token/0x046eee2cc3188071c02bfc1745a6b17c656e3f3d",
+      "https://app.nansen.ai/token-god-mode?chain=ethereum&tab=transactions&tokenAddress=0x046eee2cc3188071c02bfc1745a6b17c656e3f3d"
+    ],
+    "reddit": [],
+    "technical_doc": [
+      "https://whitepaper.rollbot.com/rlb"
+    ],
+    "source_code": [],
+    "announcement": [
+      "https://twitter.com/rollbitcom/status/1674142797501288451"
+    ]
+  },
+  "tags": []
+}

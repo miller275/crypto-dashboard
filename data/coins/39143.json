@@ -1,0 +1,39 @@
+{
+  "id": 39143,
+  "rank": 275,
+  "name": "The White Whale",
+  "symbol": "WHITEWHALE",
+  "price": 0.10120716374896954,
+  "change1h": 7.32916438,
+  "change24h": 12.42454113,
+  "change7d": 65.5276375,
+  "market_cap": 101189207.37156287,
+  "volume_24h": 37564237.47753087,
+  "circulating_supply": 999822578,
+  "max_supply": 999822578,
+  "sparkline7d": [],
+  "description": "The White Whale (WHITEWHALE) is a cryptocurrency launched in 2025and operates on the Solana platform. The White Whale has a current supply of 999,822,578. The last known price of The White Whale is 0.10113667 USD and is up 13.55 over the last 24 hours. It is currently trading on 43 active market(s) with $37,532,663.84 traded over the last 24 hours. More information can be found at https://whitewhalememe.com/.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/39143.png",
+  "urls": {
+    "website": [
+      "https://whitewhalememe.com/"
+    ],
+    "twitter": [
+      "https://twitter.com/WhiteWhaleMeme"
+    ],
+    "message_board": [],
+    "chat": [
+      "https://x.com/WhiteWhaleMeme"
+    ],
+    "facebook": [],
+    "explorer": [
+      "https://solscan.io/token/a3W4qutoEJA4232T2gwZUfgYJTetr96pU4SJMwppump",
+      "https://app.nansen.ai/token-god-mode?chain=solana&tab=transactions&tokenAddress=a3W4qutoEJA4232T2gwZUfgYJTetr96pU4SJMwppump"
+    ],
+    "reddit": [],
+    "technical_doc": [],
+    "source_code": [],
+    "announcement": []
+  },
+  "tags": []
+}

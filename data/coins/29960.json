@@ -1,0 +1,46 @@
+{
+  "id": 29960,
+  "rank": 263,
+  "name": "Shuffle",
+  "symbol": "SHFL",
+  "price": 0.2942223185805561,
+  "change1h": 0,
+  "change24h": 8.63190554,
+  "change7d": 8.53707345,
+  "market_cap": 107318345.09434707,
+  "volume_24h": 243712.8292701,
+  "circulating_supply": 364752564.02061164,
+  "max_supply": null,
+  "sparkline7d": [],
+  "description": "Shuffle (SHFL) is a cryptocurrency launched in 2024and operates on the Ethereum platform. Shuffle has a current supply of 956,134,768.89961498 with 364,752,564.02061164 in circulation. The last known price of Shuffle is 0.29422232 USD and is up 8.63 over the last 24 hours. It is currently trading on 15 active market(s) with $243,846.10 traded over the last 24 hours. More information can be found at https://shuffle.com/.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/29960.png",
+  "urls": {
+    "website": [
+      "https://shuffle.com/"
+    ],
+    "twitter": [
+      "https://twitter.com/shufflecom"
+    ],
+    "message_board": [],
+    "chat": [
+      "https://t.me/shufflecom"
+    ],
+    "facebook": [
+      "https://www.facebook.com/shufflefb"
+    ],
+    "explorer": [
+      "https://etherscan.io/token/0x8881562783028F5c1BCB985d2283D5E170D88888",
+      "https://app.nansen.ai/token-god-mode?chain=ethereum&tab=transactions&tokenAddress=0x8881562783028F5c1BCB985d2283D5E170D88888",
+      "https://etherscan.io/address/0x8881562783028F5c1BCB985d2283D5E170D88888"
+    ],
+    "reddit": [],
+    "technical_doc": [
+      "https://shfl.shuffle.com/"
+    ],
+    "source_code": [],
+    "announcement": [
+      "https://bitcointalk.org/index.php?topic=5465575.0"
+    ]
+  },
+  "tags": []
+}

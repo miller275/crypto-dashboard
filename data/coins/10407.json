@@ -1,0 +1,46 @@
+{
+  "id": 10407,
+  "rank": 245,
+  "name": "Baby Doge Coin",
+  "symbol": "BabyDoge",
+  "price": 6.98082432559848e-10,
+  "change1h": -1.02137236,
+  "change24h": -2.21095523,
+  "change7d": 11.79923639,
+  "market_cap": 122074405.62091118,
+  "volume_24h": 9325455.45873186,
+  "circulating_supply": 174871046637383330,
+  "max_supply": null,
+  "sparkline7d": [],
+  "description": "Baby Doge Coin (BabyDoge) is a cryptocurrency launched in 2021and operates on the Solana platform. Baby Doge Coin has a current supply of 202,618,580,528,966,389.14442211 with 174,871,046,637,383,318.6015273 in circulation. The last known price of Baby Doge Coin is 0 USD and is down -2.25 over the last 24 hours. It is currently trading on 259 active market(s) with $9,332,624.59 traded over the last 24 hours. More information can be found at https://www.babydoge.com.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/10407.png",
+  "urls": {
+    "website": [
+      "https://www.babydoge.com"
+    ],
+    "twitter": [
+      "https://twitter.com/BabyDoge"
+    ],
+    "message_board": [],
+    "chat": [
+      "https://t.me/babydogearmy",
+      "https://discord.gg/babydogecoin1",
+      "https://www.instagram.com/thebabydogecoin/"
+    ],
+    "facebook": [
+      "https://www.facebook.com/babydogecoin"
+    ],
+    "explorer": [
+      "https://solscan.io/token/7dUKUopcNWW6CcU4eRxCHh1uiMh32zDrmGf6ufqhxann",
+      "https://app.nansen.ai/token-god-mode?chain=solana&tab=transactions&tokenAddress=7dUKUopcNWW6CcU4eRxCHh1uiMh32zDrmGf6ufqhxann",
+      "https://bscscan.com/token/0xc748673057861a797275cd8a068abb95a902e8de",
+      "https://basescan.org/token/0x58ecef26335af7b04a998105a6603b0dc475af33",
+      "https://tonviewer.com/EQCWDj49HFInSwSk49eAo476E1YBywLoFuSZ6OO3x7jmP2jn"
+    ],
+    "reddit": [],
+    "technical_doc": [],
+    "source_code": [],
+    "announcement": []
+  },
+  "tags": []
+}

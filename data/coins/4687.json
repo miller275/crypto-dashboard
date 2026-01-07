@@ -1,0 +1,46 @@
+{
+  "id": 4687,
+  "rank": 417,
+  "name": "BUSD",
+  "symbol": "BUSD",
+  "price": 1.0001937251734934,
+  "change1h": -0.00906779,
+  "change24h": -0.0061458,
+  "change7d": 0.07359649,
+  "market_cap": 54655881.313394874,
+  "volume_24h": 1071344.2773475,
+  "circulating_supply": 54645295.14411248,
+  "max_supply": null,
+  "sparkline7d": [],
+  "description": "BUSD (BUSD) is a cryptocurrency and operates on the BNB Beacon Chain (BEP2) platform. BUSD has a current supply of 54,645,295.14411248. The last known price of BUSD is 1.00031462 USD and is up 0.01 over the last 24 hours. It is currently trading on 7995 active market(s) with $1,063,848.06 traded over the last 24 hours. More information can be found at https://www.binance.com/en/busd.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/4687.png",
+  "urls": {
+    "website": [
+      "https://www.binance.com/en/busd",
+      "https://www.paxos.com/busd/"
+    ],
+    "twitter": [
+      "https://twitter.com/binance"
+    ],
+    "message_board": [
+      "https://coinmarketcap.com/community/profile/BUSD"
+    ],
+    "chat": [],
+    "facebook": [],
+    "explorer": [
+      "https://explorer.bnbchain.org/asset/BUSD-BD1",
+      "https://app.nansen.ai/token-god-mode?chain=ethereum&tab=transactions&tokenAddress=0x4Fabb145d64652a948d72533023f6E7A623C7C53",
+      "https://solscan.io/token/33fsBLA8djQm82RpHmE3SuVrPGtZBWNYExsEUeKX1HXX",
+      "https://etherscan.io/token/0x4Fabb145d64652a948d72533023f6E7A623C7C53"
+    ],
+    "reddit": [],
+    "technical_doc": [],
+    "source_code": [
+      "https://github.com/paxosglobal/busd-contract"
+    ],
+    "announcement": [
+      "https://www.binance.com/en/blog/376335367507857408/Binance-Partners-with-Paxos-to-Launch-USDBacked-Stablecoin-BUSD"
+    ]
+  },
+  "tags": []
+}

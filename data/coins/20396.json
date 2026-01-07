@@ -1,0 +1,56 @@
+{
+  "id": 20396,
+  "rank": 57,
+  "name": "Kaspa",
+  "symbol": "KAS",
+  "price": 0.04840581164608268,
+  "change1h": -0.76083697,
+  "change24h": -3.17954029,
+  "change7d": 12.53702381,
+  "market_cap": 1311378897.7342508,
+  "volume_24h": 28367528.89053177,
+  "circulating_supply": 27091352321.95567,
+  "max_supply": 28704026601,
+  "sparkline7d": [],
+  "description": "Kaspa (KAS) is a cryptocurrency launched in 2021. Users are able to generate KAS through the process of mining. Kaspa has a current supply of 27,091,352,321.95567. The last known price of Kaspa is 0.04837181 USD and is down -3.25 over the last 24 hours. It is currently trading on 213 active market(s) with $28,314,272.21 traded over the last 24 hours. More information can be found at https://www.kaspa.org.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/20396.png",
+  "urls": {
+    "website": [
+      "https://www.kaspa.org",
+      "https://www.kasmedia.com/"
+    ],
+    "twitter": [
+      "https://twitter.com/kaspaunchained"
+    ],
+    "message_board": [
+      "https://medium.com/kaspa-currency"
+    ],
+    "chat": [
+      "https://discord.gg/kS3SK5F36R",
+      "https://t.me/kaspaenglish",
+      "https://t.me/kaspamain",
+      "https://www.instagram.com/kaspa_currency/"
+    ],
+    "facebook": [
+      "https://www.facebook.com/KaspaCurrency"
+    ],
+    "explorer": [
+      "https://explorer.kaspa.org/",
+      "https://kas.fyi/",
+      "https://kgi.kaspad.net"
+    ],
+    "reddit": [
+      "https://reddit.com/r/kaspa"
+    ],
+    "technical_doc": [
+      "https://eprint.iacr.org/2018/104.pdf"
+    ],
+    "source_code": [
+      "https://github.com/kaspanet/rusty-kaspa"
+    ],
+    "announcement": [
+      "https://medium.com/kaspa-currency"
+    ]
+  },
+  "tags": []
+}

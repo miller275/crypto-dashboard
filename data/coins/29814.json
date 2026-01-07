@@ -1,0 +1,44 @@
+{
+  "id": 29814,
+  "rank": 94,
+  "name": "ether.fi",
+  "symbol": "ETHFI",
+  "price": 0.7550008668379976,
+  "change1h": -0.4834232,
+  "change24h": -3.6425455,
+  "change7d": 10.28756713,
+  "market_cap": 494346143.3328861,
+  "volume_24h": 36451163.90891384,
+  "circulating_supply": 654762352,
+  "max_supply": 1000000000,
+  "sparkline7d": [],
+  "description": "ether.fi (ETHFI) is a cryptocurrency launched in 2023and operates on the Ethereum platform. ether.fi has a current supply of 1,000,000,000 with 654,762,352 in circulation. The last known price of ether.fi is 0.7548738 USD and is down -3.77 over the last 24 hours. It is currently trading on 320 active market(s) with $36,452,810.20 traded over the last 24 hours. More information can be found at https://www.ether.fi/.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/29814.png",
+  "urls": {
+    "website": [
+      "https://www.ether.fi/"
+    ],
+    "twitter": [
+      "https://twitter.com/ether_fi"
+    ],
+    "message_board": [
+      "https://medium.com/etherfi"
+    ],
+    "chat": [
+      "https://discord.com/invite/zqGzcuQWvD",
+      "https://t.me/+C3fpSjmPqzA5NTVh"
+    ],
+    "facebook": [],
+    "explorer": [
+      "https://etherscan.io/token/0xFe0c30065B384F05761f15d0CC899D4F9F9Cc0eB",
+      "https://app.nansen.ai/token-god-mode?chain=ethereum&tab=transactions&tokenAddress=0xFe0c30065B384F05761f15d0CC899D4F9F9Cc0eB"
+    ],
+    "reddit": [],
+    "technical_doc": [
+      "https://etherfi.gitbook.io/etherfi/ether.fi-whitepaper"
+    ],
+    "source_code": [],
+    "announcement": []
+  },
+  "tags": []
+}

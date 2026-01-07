@@ -1,0 +1,52 @@
+{
+  "id": 6945,
+  "rank": 163,
+  "name": "Amp",
+  "symbol": "AMP",
+  "price": 0.002356131416255877,
+  "change1h": -2.14903309,
+  "change24h": 11.38074542,
+  "change7d": 29.55499125,
+  "market_cap": 198579814.51381373,
+  "volume_24h": 49208373.33549458,
+  "circulating_supply": 84282147058.40834,
+  "max_supply": 100000000000,
+  "sparkline7d": [],
+  "description": "Amp (AMP) is a cryptocurrency launched in 2020and operates on the Ethereum platform. Amp has a current supply of 99,720,006,935.30011776 with 84,282,147,058.40834 in circulation. The last known price of Amp is 0.00236982 USD and is up 11.98 over the last 24 hours. It is currently trading on 179 active market(s) with $49,091,338.31 traded over the last 24 hours. More information can be found at https://amp.xyz.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/6945.png",
+  "urls": {
+    "website": [
+      "https://amp.xyz"
+    ],
+    "twitter": [
+      "https://twitter.com/ampdotxyz"
+    ],
+    "message_board": [
+      "https://medium.com/amptoken"
+    ],
+    "chat": [
+      "https://discord.gg/amperaxyz"
+    ],
+    "facebook": [],
+    "explorer": [
+      "https://etherscan.io/token/0xff20817765cb7f73d4bde2e66e067e58d11095c2",
+      "https://app.nansen.ai/token-god-mode?chain=ethereum&tab=transactions&tokenAddress=0xff20817765cb7f73d4bde2e66e067e58d11095c2",
+      "https://solscan.io/token/D559HwgjYGDYsXpmFUKxhFTEwutvS9sya1kXiyCVogCV",
+      "https://ethplorer.io/address/0xff20817765cb7f73d4bde2e66e067e58d11095c2",
+      "https://solscan.io/account/D559HwgjYGDYsXpmFUKxhFTEwutvS9sya1kXiyCVogCV"
+    ],
+    "reddit": [
+      "https://reddit.com/r/amptoken"
+    ],
+    "technical_doc": [
+      "https://4079620000-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FbUyUOpvS5Hnfel4aMnVz%2Fuploads%2F8ZKNS6MmVMUQaiN2BidF%2FAmp%20Whitepaper.pdf?alt=media&token=66f22011-0b4c-42d7-8a2c-17eaea145ee1"
+    ],
+    "source_code": [
+      "https://github.com/amptoken"
+    ],
+    "announcement": [
+      "https://medium.com/amptoken/amp-the-new-digital-collateral-token-524bc568af92"
+    ]
+  },
+  "tags": []
+}

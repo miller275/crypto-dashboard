@@ -1,0 +1,50 @@
+{
+  "id": 28298,
+  "rank": 186,
+  "name": "Beam",
+  "symbol": "BEAM",
+  "price": 0.00304802781512795,
+  "change1h": -0.49891858,
+  "change24h": -3.64542452,
+  "change7d": 12.66441843,
+  "market_cap": 150773756.60729912,
+  "volume_24h": 5587769.63843127,
+  "circulating_supply": 49466004168,
+  "max_supply": 58470184687,
+  "sparkline7d": [],
+  "description": "Beam (BEAM) is a cryptocurrency launched in 2023and operates on the Ethereum platform. Beam has a current supply of 58,470,184,687 with 49,466,004,168 in circulation. The last known price of Beam is 0.00304871 USD and is down -3.68 over the last 24 hours. It is currently trading on 209 active market(s) with $5,585,735.55 traded over the last 24 hours. More information can be found at https://www.onbeam.com/.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/28298.png",
+  "urls": {
+    "website": [
+      "https://www.onbeam.com/"
+    ],
+    "twitter": [
+      "https://twitter.com/buildonbeam"
+    ],
+    "message_board": [
+      "https://medium.com/@onbeam"
+    ],
+    "chat": [
+      "https://t.me/buildonbeam",
+      "https://discord.com/invite/beamgamers"
+    ],
+    "facebook": [],
+    "explorer": [
+      "https://etherscan.io/token/0x62D0A8458eD7719FDAF978fe5929C6D342B0bFcE",
+      "https://app.nansen.ai/token-god-mode?chain=ethereum&tab=transactions&tokenAddress=0x62D0A8458eD7719FDAF978fe5929C6D342B0bFcE",
+      "https://bscscan.com/token/0x62D0A8458eD7719FDAF978fe5929C6D342B0bFcE",
+      "https://www.okx.com/web3/explorer/eth/token/0x62D0A8458eD7719FDAF978fe5929C6D342B0bFcE"
+    ],
+    "reddit": [],
+    "technical_doc": [
+      "https://docs.onbeam.com/"
+    ],
+    "source_code": [
+      "https://github.com/BuildOnBeam/beam-subnet"
+    ],
+    "announcement": [
+      "https://t.me/buildonbeam_news"
+    ]
+  },
+  "tags": []
+}

@@ -1,0 +1,54 @@
+{
+  "id": 1027,
+  "rank": 2,
+  "name": "Ethereum",
+  "symbol": "ETH",
+  "price": 3131.015288461463,
+  "change1h": -0.47737223,
+  "change24h": -2.85940516,
+  "change7d": 5.39728383,
+  "market_cap": 377897219402.54047,
+  "volume_24h": 23242917002.668205,
+  "circulating_supply": 120694785.74415836,
+  "max_supply": null,
+  "sparkline7d": [],
+  "description": "Ethereum (ETH) is a cryptocurrency . Ethereum has a current supply of 120,694,785.74415835. The last known price of Ethereum is 3,134.74939544 USD and is down -2.79 over the last 24 hours. It is currently trading on 11367 active market(s) with $23,462,802,290.34 traded over the last 24 hours. More information can be found at https://www.ethereum.org/.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/1027.png",
+  "urls": {
+    "website": [
+      "https://www.ethereum.org/",
+      "https://en.wikipedia.org/wiki/Ethereum"
+    ],
+    "twitter": [
+      "https://twitter.com/ethereum"
+    ],
+    "message_board": [
+      "https://forum.ethereum.org/",
+      "https://ethresear.ch/"
+    ],
+    "chat": [
+      "https://gitter.im/orgs/ethereum/rooms"
+    ],
+    "facebook": [],
+    "explorer": [
+      "https://etherscan.io/",
+      "https://app.nansen.ai/token-god-mode?chain=ethereum&tab=transactions&tokenAddress=0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+      "https://solscan.io/token/2FPyTwcZLUg1MDrwsyoP4D6s1tM7hAkHYRjkNb5w6Pxk",
+      "https://bscscan.com/token/0x2170ed0880ac9a755fd29b2688956bd959f933f8",
+      "https://www.okx.com/web3/explorer/eth"
+    ],
+    "reddit": [
+      "https://reddit.com/r/ethereum"
+    ],
+    "technical_doc": [
+      "https://ethereum.org/en/whitepaper/"
+    ],
+    "source_code": [
+      "https://github.com/ethereum/go-ethereum"
+    ],
+    "announcement": [
+      "https://bitcointalk.org/index.php?topic=428589.0"
+    ]
+  },
+  "tags": []
+}

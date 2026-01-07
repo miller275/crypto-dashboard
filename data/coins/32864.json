@@ -1,0 +1,46 @@
+{
+  "id": 32864,
+  "rank": 220,
+  "name": "AUSD",
+  "symbol": "AUSD",
+  "price": 0.9998635678656957,
+  "change1h": 0.00153946,
+  "change24h": 0.01702306,
+  "change7d": 0.0046667,
+  "market_cap": 195947377.5302805,
+  "volume_24h": 71665234.02495348,
+  "circulating_supply": 195974114.697017,
+  "max_supply": null,
+  "sparkline7d": [],
+  "description": "AUSD (AUSD) is a cryptocurrency launched in 2024and operates on the Ethereum platform. AUSD has a current supply of 195,974,114.697017. The last known price of AUSD is 0.99982864 USD and is up 0.02 over the last 24 hours. It is currently trading on 101 active market(s) with $60,358,529.49 traded over the last 24 hours. More information can be found at https://www.agora.finance/.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/32864.png",
+  "urls": {
+    "website": [
+      "https://www.agora.finance/"
+    ],
+    "twitter": [
+      "https://twitter.com/withAUSD"
+    ],
+    "message_board": [],
+    "chat": [],
+    "facebook": [],
+    "explorer": [
+      "https://etherscan.io/token/0x00000000eFE302BEAA2b3e6e1b18d08D69a9012a",
+      "https://app.nansen.ai/token-god-mode?chain=ethereum&tab=transactions&tokenAddress=0x00000000eFE302BEAA2b3e6e1b18d08D69a9012a",
+      "https://snowscan.xyz/token/0x00000000eFE302BEAA2b3e6e1b18d08D69a9012a",
+      "https://solscan.io/token/AUSD1jCcCyPLybk1YnvPWsHQSrZ46dxwoMniN4N2UEB9",
+      "https://suivision.xyz/coin/0x2053d08c1e2bd02791056171aab0fd12bd7cd7efad2ab8f6b9c8902f14df2ff2::ausd::AUSD"
+    ],
+    "reddit": [],
+    "technical_doc": [
+      "https://developer.agora.finance/"
+    ],
+    "source_code": [
+      "https://github.com/agora-finance"
+    ],
+    "announcement": [
+      "https://www.agora.finance/#news"
+    ]
+  },
+  "tags": []
+}

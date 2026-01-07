@@ -1,0 +1,47 @@
+{
+  "id": 32880,
+  "rank": 107,
+  "name": "Kaia",
+  "symbol": "KAIA",
+  "price": 0.06636949402857216,
+  "change1h": -0.47737287,
+  "change24h": -4.68600521,
+  "change7d": 20.52879255,
+  "market_cap": 412337396.9619026,
+  "volume_24h": 14421294.7343492,
+  "circulating_supply": 6212754865.727781,
+  "max_supply": null,
+  "sparkline7d": [],
+  "description": "Kaia (KAIA) is a cryptocurrency launched in 2024and operates on the KAIA platform. Kaia has a current supply of 6,212,754,865.727781. The last known price of Kaia is 0.06648575 USD and is down -4.53 over the last 24 hours. It is currently trading on 174 active market(s) with $14,423,096.38 traded over the last 24 hours. More information can be found at https://www.kaia.io/.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/32880.png",
+  "urls": {
+    "website": [
+      "https://www.kaia.io/"
+    ],
+    "twitter": [
+      "https://twitter.com/kaiachain"
+    ],
+    "message_board": [
+      "https://www.medium.com/kaiachain/"
+    ],
+    "chat": [
+      "https://discord.gg/kaiachain",
+      "https://t.me/Kaiachain_EN"
+    ],
+    "facebook": [],
+    "explorer": [
+      "https://www.kaiascan.io/"
+    ],
+    "reddit": [
+      "https://reddit.com/r/kaiachain"
+    ],
+    "technical_doc": [
+      "https://docs.kaia.io/kaiatech/kaia-white-paper/"
+    ],
+    "source_code": [
+      "https://github.com/kaiachain/kaia"
+    ],
+    "announcement": []
+  },
+  "tags": []
+}

@@ -1,0 +1,49 @@
+{
+  "id": 35701,
+  "rank": 401,
+  "name": "GOHOME",
+  "symbol": "GOHOME",
+  "price": 116.45224871554937,
+  "change1h": -0.09125253,
+  "change24h": -1.18561459,
+  "change7d": 3.62434361,
+  "market_cap": 58213896.871659555,
+  "volume_24h": 1596240.71175096,
+  "circulating_supply": 499895,
+  "max_supply": 9999895.37,
+  "sparkline7d": [],
+  "description": "GOHOME (GOHOME) is a cryptocurrency launched in 2025and operates on the Solana platform. GOHOME has a current supply of 9,999,895.37 with 499,895 in circulation. The last known price of GOHOME is 116.42261 USD and is down -1.17 over the last 24 hours. It is currently trading on 37 active market(s) with $1,594,474.33 traded over the last 24 hours. More information can be found at https://gohometoken.com/.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/35701.png",
+  "urls": {
+    "website": [
+      "https://gohometoken.com/",
+      "https://linktr.ee/gohometoken"
+    ],
+    "twitter": [
+      "https://twitter.com/GoHome_Token"
+    ],
+    "message_board": [
+      "https://medium.com/@gohometoken"
+    ],
+    "chat": [
+      "https://t.me/GoHomeTokenGroup",
+      "https://gohometoken.com/discord"
+    ],
+    "facebook": [],
+    "explorer": [
+      "https://solscan.io/token/2Wu1g2ft7qZHfTpfzP3wLdfPeV1is4EwQ3CXBfRYAciD",
+      "https://app.nansen.ai/token-god-mode?chain=solana&tab=transactions&tokenAddress=2Wu1g2ft7qZHfTpfzP3wLdfPeV1is4EwQ3CXBfRYAciD"
+    ],
+    "reddit": [],
+    "technical_doc": [
+      "https://gohometoken.com/wp"
+    ],
+    "source_code": [
+      "https://github.com/gohometoken/gohome"
+    ],
+    "announcement": [
+      "https://medium.com/@gohometoken"
+    ]
+  },
+  "tags": []
+}

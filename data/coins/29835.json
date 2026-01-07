@@ -1,0 +1,51 @@
+{
+  "id": 29835,
+  "rank": 483,
+  "name": "io.net",
+  "symbol": "IO",
+  "price": 0.16384710560872853,
+  "change1h": -1.45097743,
+  "change24h": -4.41379565,
+  "change7d": 7.95144273,
+  "market_cap": 43603453.82088124,
+  "volume_24h": 14375308.9352253,
+  "circulating_supply": 266122820.16752562,
+  "max_supply": 800000000,
+  "sparkline7d": [],
+  "description": "io.net (IO) is a cryptocurrency launched in 2024and operates on the Solana platform. io.net has a current supply of 800,000,000 with 266,122,820.16752561 in circulation. The last known price of io.net is 0.16425809 USD and is down -4.18 over the last 24 hours. It is currently trading on 275 active market(s) with $14,315,582.46 traded over the last 24 hours. More information can be found at https://io.net/.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/29835.png",
+  "urls": {
+    "website": [
+      "https://io.net/"
+    ],
+    "twitter": [
+      "https://twitter.com/ionet"
+    ],
+    "message_board": [
+      "https://ionet.medium.com/"
+    ],
+    "chat": [
+      "https://discord.gg/ionetofficial",
+      "https://t.me/io_net"
+    ],
+    "facebook": [],
+    "explorer": [
+      "https://solscan.io/token/BZLbGTNCSFfoth2GYDtwr7e4imWzpR5jqcUuGEwr646K",
+      "https://app.nansen.ai/token-god-mode?chain=solana&tab=transactions&tokenAddress=BZLbGTNCSFfoth2GYDtwr7e4imWzpR5jqcUuGEwr646K",
+      "https://explorer.io.net"
+    ],
+    "reddit": [
+      "https://reddit.com/r/io_net/"
+    ],
+    "technical_doc": [
+      "https://docs.io.net"
+    ],
+    "source_code": [
+      "https://github.com/ionet-official"
+    ],
+    "announcement": [
+      "https://io.net/"
+    ]
+  },
+  "tags": []
+}

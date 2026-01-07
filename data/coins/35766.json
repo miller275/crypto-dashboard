@@ -1,0 +1,39 @@
+{
+  "id": 35766,
+  "rank": 372,
+  "name": "siren",
+  "symbol": "SIREN",
+  "price": 0.08859767564882921,
+  "change1h": 0.2301199,
+  "change24h": 9.735887,
+  "change7d": 31.63651419,
+  "market_cap": 64579017.629941426,
+  "volume_24h": 14638121.17617288,
+  "circulating_supply": 728901939.6616057,
+  "max_supply": null,
+  "sparkline7d": [],
+  "description": "siren (SIREN) is a cryptocurrency launched in 2025and operates on the BNB Smart Chain (BEP20) platform. siren has a current supply of 728,901,939.66160574. The last known price of siren is 0.08877711 USD and is up 9.93 over the last 24 hours. It is currently trading on 102 active market(s) with $14,656,745.85 traded over the last 24 hours. More information can be found at https://www.sirenai.me.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/35766.png",
+  "urls": {
+    "website": [
+      "https://www.sirenai.me"
+    ],
+    "twitter": [
+      "https://twitter.com/genius_sirenBSC"
+    ],
+    "message_board": [],
+    "chat": [
+      "https://t.me/sirenbsc"
+    ],
+    "facebook": [],
+    "explorer": [
+      "https://bscscan.com/token/0x997a58129890bbda032231a52ed1ddc845fc18e1",
+      "https://app.nansen.ai/token-god-mode?chain=bnb&tab=transactions&tokenAddress=0x997a58129890bbda032231a52ed1ddc845fc18e1"
+    ],
+    "reddit": [],
+    "technical_doc": [],
+    "source_code": [],
+    "announcement": []
+  },
+  "tags": []
+}

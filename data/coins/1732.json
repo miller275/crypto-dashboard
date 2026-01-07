@@ -1,0 +1,48 @@
+{
+  "id": 1732,
+  "rank": 329,
+  "name": "Numeraire",
+  "symbol": "NMR",
+  "price": 10.008542226826425,
+  "change1h": -1.07647982,
+  "change24h": -1.24404962,
+  "change7d": 7.82684156,
+  "market_cap": 76960122.83082171,
+  "volume_24h": 9208033.3755093,
+  "circulating_supply": 7689443.78578345,
+  "max_supply": 11000000,
+  "sparkline7d": [],
+  "description": "Numeraire (NMR) is a cryptocurrency and operates on the Ethereum platform. Numeraire has a current supply of 10,649,654.14009785 with 7,689,443.78578345 in circulation. The last known price of Numeraire is 10.01305802 USD and is down -1.33 over the last 24 hours. It is currently trading on 239 active market(s) with $9,220,732.21 traded over the last 24 hours. More information can be found at https://numer.ai/.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/1732.png",
+  "urls": {
+    "website": [
+      "https://numer.ai/"
+    ],
+    "twitter": [
+      "https://twitter.com/numerai"
+    ],
+    "message_board": [
+      "https://forum.numer.ai/"
+    ],
+    "chat": [
+      "https://t.me/NMR_Official"
+    ],
+    "facebook": [],
+    "explorer": [
+      "https://etherscan.io/token/0x1776e1F26f98b1A5dF9cD347953a26dd3Cb46671",
+      "https://app.nansen.ai/token-god-mode?chain=ethereum&tab=transactions&tokenAddress=0x1776e1F26f98b1A5dF9cD347953a26dd3Cb46671",
+      "https://ethplorer.io/address/0x1776e1f26f98b1a5df9cd347953a26dd3cb46671"
+    ],
+    "reddit": [
+      "https://reddit.com/r/numerai"
+    ],
+    "technical_doc": [
+      "https://numer.ai/whitepaper.pdf"
+    ],
+    "source_code": [
+      "https://github.com/numerai"
+    ],
+    "announcement": []
+  },
+  "tags": []
+}

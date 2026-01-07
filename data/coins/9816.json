@@ -1,0 +1,49 @@
+{
+  "id": 9816,
+  "rank": 119,
+  "name": "AINFT",
+  "symbol": "NFT",
+  "price": 3.6738694068188987e-7,
+  "change1h": -0.00642056,
+  "change24h": -0.74322425,
+  "change7d": 5.79564688,
+  "market_cap": 367383266.8124831,
+  "volume_24h": 32808532.99423556,
+  "circulating_supply": 999990000000000,
+  "max_supply": 999990000000000,
+  "sparkline7d": [],
+  "description": "AINFT (NFT) is a cryptocurrency launched in 2021and operates on the Ethereum platform. AINFT has a current supply of 999,990,000,000,000. The last known price of AINFT is 0.00000037 USD and is down -0.83 over the last 24 hours. It is currently trading on 115 active market(s) with $32,939,014.57 traded over the last 24 hours. More information can be found at https://ainft.com/.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/9816.png",
+  "urls": {
+    "website": [
+      "https://ainft.com/"
+    ],
+    "twitter": [
+      "https://twitter.com/OfficialAINFT"
+    ],
+    "message_board": [
+      "https://medium.com/@OfficialAINFT"
+    ],
+    "chat": [
+      "https://t.me/ainftEN"
+    ],
+    "facebook": [],
+    "explorer": [
+      "https://etherscan.io/token/0x198d14f2ad9ce69e76ea330b374de4957c3f850a",
+      "https://app.nansen.ai/token-god-mode?chain=ethereum&tab=transactions&tokenAddress=0x198d14f2ad9ce69e76ea330b374de4957c3f850a",
+      "https://bscscan.com/token/0x20ee7b720f4e4c4ffcb00c4065cdae55271aecca",
+      "https://tronscan.org/#/token20/TFczxzPhnThNSqr5by8tvxsdCFRRz6cPNq"
+    ],
+    "reddit": [],
+    "technical_doc": [
+      "https://ainft.com/whitepaper/AINFT%20White%20Paper.pdf"
+    ],
+    "source_code": [
+      "https://github.com/ainftorg"
+    ],
+    "announcement": [
+      "https://apenftsupport.zendesk.com/hc/en-001"
+    ]
+  },
+  "tags": []
+}

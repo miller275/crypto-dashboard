@@ -1,0 +1,46 @@
+{
+  "id": 36302,
+  "rank": 356,
+  "name": "MindWaveDAO",
+  "symbol": "NILA",
+  "price": 0.08143425404464395,
+  "change1h": -0.46701703,
+  "change24h": -0.81455594,
+  "change7d": 0.81640326,
+  "market_cap": 68630034.92140596,
+  "volume_24h": 229316.80621382,
+  "circulating_supply": 842766176.55,
+  "max_supply": 1057021569,
+  "sparkline7d": [],
+  "description": "MindWaveDAO (NILA) is a cryptocurrency launched in 2025and operates on the BNB Smart Chain (BEP20) platform. MindWaveDAO has a current supply of 1,057,021,569 with 842,766,176.55 in circulation. The last known price of MindWaveDAO is 0.08159345 USD and is down -0.72 over the last 24 hours. It is currently trading on 4 active market(s) with $229,712.39 traded over the last 24 hours. More information can be found at https://www.mindwavedao.com/.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/36302.png",
+  "urls": {
+    "website": [
+      "https://www.mindwavedao.com/"
+    ],
+    "twitter": [
+      "https://twitter.com/nilatoken"
+    ],
+    "message_board": [
+      "https://www.mindwavedao.com/news/"
+    ],
+    "chat": [
+      "https://t.me/nilatokenss",
+      "https://discord.com/invite/ZfKXCxbVm2"
+    ],
+    "facebook": [],
+    "explorer": [
+      "https://bscscan.com/token/0x00f8da33734feb9b946fec2228c25072d2e2e41f",
+      "https://app.nansen.ai/token-god-mode?chain=bnb&tab=transactions&tokenAddress=0x00f8Da33734FeB9b946fEC2228C25072D2e2E41f"
+    ],
+    "reddit": [],
+    "technical_doc": [
+      "https://www.mindwavedao.com/wp-content/uploads/mindwave-whitepaper.pdf"
+    ],
+    "source_code": [],
+    "announcement": [
+      "https://www.mindwavedao.com/news/"
+    ]
+  },
+  "tags": []
+}

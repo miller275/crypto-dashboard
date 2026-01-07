@@ -1,0 +1,43 @@
+{
+  "id": 20964,
+  "rank": 428,
+  "name": "Law Blocks (AI)",
+  "symbol": "LBT",
+  "price": 0.21699820926097158,
+  "change1h": 0.2029983,
+  "change24h": -0.240889,
+  "change7d": -2.15945463,
+  "market_cap": 53164124.668541,
+  "volume_24h": 560114.22889167,
+  "circulating_supply": 244997988,
+  "max_supply": null,
+  "sparkline7d": [],
+  "description": "Law Blocks (AI) (LBT) is a cryptocurrency and operates on the XDC Network platform. Law Blocks (AI) has a current supply of 1,000,000,000 with 244,997,988 in circulation. The last known price of Law Blocks (AI) is 0.21683477 USD and is down -0.38 over the last 24 hours. It is currently trading on 8 active market(s) with $560,345.72 traded over the last 24 hours. More information can be found at https://lawblocks.io/.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/20964.png",
+  "urls": {
+    "website": [
+      "https://lawblocks.io/"
+    ],
+    "twitter": [
+      "https://twitter.com/lawblockstoken"
+    ],
+    "message_board": [],
+    "chat": [
+      "https://discord.com/invite/e9cKqusTDB",
+      "https://lawblocks.medium.com/"
+    ],
+    "facebook": [],
+    "explorer": [
+      "https://xdc.blocksscan.io/tokens/0x05940b2df33d6371201e7ae099ced4c363855dfe",
+      "https://xdcscan.com/token/0x05940b2df33d6371201e7ae099ced4c363855dfe",
+      "https://xdc.blocksscan.io/tokens/xdc05940b2df33d6371201e7ae099ced4c363855dfe"
+    ],
+    "reddit": [],
+    "technical_doc": [],
+    "source_code": [
+      "https://github.com/LawBlocks"
+    ],
+    "announcement": []
+  },
+  "tags": []
+}

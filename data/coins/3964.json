@@ -1,0 +1,44 @@
+{
+  "id": 3964,
+  "rank": 171,
+  "name": "Reserve Rights",
+  "symbol": "RSR",
+  "price": 0.0028572515420844423,
+  "change1h": -0.9167528,
+  "change24h": -4.25431712,
+  "change7d": 17.97156236,
+  "market_cap": 178312330.5862485,
+  "volume_24h": 14416197.2064145,
+  "circulating_supply": 62406941762,
+  "max_supply": 100000000000,
+  "sparkline7d": [],
+  "description": "Reserve Rights (RSR) is a cryptocurrency and operates on the Ethereum platform. Reserve Rights has a current supply of 100,000,000,000 with 62,406,941,762 in circulation. The last known price of Reserve Rights is 0.00286658 USD and is down -4.24 over the last 24 hours. It is currently trading on 314 active market(s) with $14,319,462.99 traded over the last 24 hours. More information can be found at https://reserve.org/.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/3964.png",
+  "urls": {
+    "website": [
+      "https://reserve.org/"
+    ],
+    "twitter": [
+      "https://twitter.com/reserveprotocol"
+    ],
+    "message_board": [],
+    "chat": [
+      "https://discord.gg/reserveprotocol"
+    ],
+    "facebook": [],
+    "explorer": [
+      "https://etherscan.io/token/0x320623b8e4ff03373931769a31fc52a4e78b5d70",
+      "https://app.nansen.ai/token-god-mode?chain=ethereum&tab=transactions&tokenAddress=0x320623b8e4ff03373931769a31fc52a4e78b5d70",
+      "https://basescan.org/token/0xab36452dbac151be02b16ca17d8919826072f64a"
+    ],
+    "reddit": [],
+    "technical_doc": [
+      "https://reserve.org/protocol/introduction/"
+    ],
+    "source_code": [
+      "https://github.com/reserve-protocol"
+    ],
+    "announcement": []
+  },
+  "tags": []
+}

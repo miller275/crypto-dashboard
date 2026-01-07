@@ -1,0 +1,42 @@
+{
+  "id": 8425,
+  "rank": 105,
+  "name": "JasmyCoin",
+  "symbol": "JASMY",
+  "price": 0.008553784288537663,
+  "change1h": -0.2351926,
+  "change24h": -1.36923067,
+  "change7d": 50.58020542,
+  "market_cap": 422941861.3853229,
+  "volume_24h": 148563684.16869235,
+  "circulating_supply": 49444999677.16958,
+  "max_supply": 50000000000,
+  "sparkline7d": [],
+  "description": "JasmyCoin (JASMY) is a cryptocurrency launched in 2016and operates on the Ethereum platform. JasmyCoin has a current supply of 50,000,000,000 with 49,444,999,677.16957912 in circulation. The last known price of JasmyCoin is 0.00858602 USD and is down -0.81 over the last 24 hours. It is currently trading on 336 active market(s) with $149,046,705.34 traded over the last 24 hours. More information can be found at https://www.jasmy.co.jp/en_company.html.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/8425.png",
+  "urls": {
+    "website": [
+      "https://www.jasmy.co.jp/en_company.html"
+    ],
+    "twitter": [
+      "https://twitter.com/JasmyMGT"
+    ],
+    "message_board": [],
+    "chat": [
+      "https://t.me/jasmyofficial"
+    ],
+    "facebook": [],
+    "explorer": [
+      "https://etherscan.io/token/0x7420B4b9a0110cdC71fB720908340C03F9Bc03EC",
+      "https://app.nansen.ai/token-god-mode?chain=ethereum&tab=transactions&tokenAddress=0x7420B4b9a0110cdC71fB720908340C03F9Bc03EC",
+      "https://www.oklink.com/eth/token/0x7420B4b9a0110cdC71fB720908340C03F9Bc03EC"
+    ],
+    "reddit": [],
+    "technical_doc": [
+      "https://www.jasmy.co.jp/images/whitepaper.pdf"
+    ],
+    "source_code": [],
+    "announcement": []
+  },
+  "tags": []
+}

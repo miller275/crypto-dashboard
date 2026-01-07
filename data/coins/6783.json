@@ -1,0 +1,49 @@
+{
+  "id": 6783,
+  "rank": 182,
+  "name": "Axie Infinity",
+  "symbol": "AXS",
+  "price": 0.9411789982538905,
+  "change1h": -0.80506626,
+  "change24h": -2.28703401,
+  "change7d": 17.35037768,
+  "market_cap": 158035667.98977435,
+  "volume_24h": 19293092.47987989,
+  "circulating_supply": 167912446.28595397,
+  "max_supply": null,
+  "sparkline7d": [],
+  "description": "Axie Infinity (AXS) is a cryptocurrency and operates on the Ethereum platform. Axie Infinity has a current supply of 270,000,000 with 167,912,446.28595397 in circulation. The last known price of Axie Infinity is 0.9425433 USD and is down -2.22 over the last 24 hours. It is currently trading on 569 active market(s) with $19,204,687.36 traded over the last 24 hours. More information can be found at https://axieinfinity.com/.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/6783.png",
+  "urls": {
+    "website": [
+      "https://axieinfinity.com/"
+    ],
+    "twitter": [
+      "https://twitter.com/AxieInfinity"
+    ],
+    "message_board": [
+      "https://axieinfinity.medium.com"
+    ],
+    "chat": [
+      "https://discord.com/invite/axie",
+      "https://t.me/axieinfinity"
+    ],
+    "facebook": [],
+    "explorer": [
+      "https://etherscan.io/token/0xbb0e17ef65f82ab018d8edd776e8dd940327b28b",
+      "https://app.nansen.ai/token-god-mode?chain=ethereum&tab=transactions&tokenAddress=0xbb0e17ef65f82ab018d8edd776e8dd940327b28b",
+      "https://solscan.io/token/HysWcbHiYY9888pHbaqhwLYZQeZrcQMXKQWRqS7zcPK5",
+      "https://bscscan.com/token/0x715d400f88c167884bbcc41c5fea407ed4d2f8a0",
+      "https://explorer.harmony.one/address/0x14a7b318fed66ffdcc80c1517c172c13852865de"
+    ],
+    "reddit": [
+      "https://reddit.com/r/AxieInfinity"
+    ],
+    "technical_doc": [
+      "https://whitepaper.axieinfinity.com/"
+    ],
+    "source_code": [],
+    "announcement": []
+  },
+  "tags": []
+}

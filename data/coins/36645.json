@@ -1,0 +1,46 @@
+{
+  "id": 36645,
+  "rank": 130,
+  "name": "Plasma",
+  "symbol": "XPL",
+  "price": 0.17744884113171877,
+  "change1h": -2.49481761,
+  "change24h": -11.45812164,
+  "change7d": 9.06059284,
+  "market_cap": 319407914.03709376,
+  "volume_24h": 199295954.5360816,
+  "circulating_supply": 1800000000,
+  "max_supply": null,
+  "sparkline7d": [],
+  "description": "Plasma (XPL) is a cryptocurrency launched in 2025. Plasma has a current supply of 10,000,000,000 with 1,800,000,000 in circulation. The last known price of Plasma is 0.17828528 USD and is down -11.57 over the last 24 hours. It is currently trading on 248 active market(s) with $199,887,165.44 traded over the last 24 hours. More information can be found at https://www.plasma.to/.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/36645.png",
+  "urls": {
+    "website": [
+      "https://www.plasma.to/"
+    ],
+    "twitter": [
+      "https://twitter.com/Plasma"
+    ],
+    "message_board": [
+      "https://www.plasma.to/insights"
+    ],
+    "chat": [
+      "https://discord.com/invite/plasmafdn"
+    ],
+    "facebook": [],
+    "explorer": [
+      "https://plasmascan.to/",
+      "https://app.nansen.ai/token-god-mode?chain=bnb&tab=transactions&tokenAddress=0x405FBc9004D857903bFD6b3357792D71a50726b0",
+      "https://bscscan.com/token/0x405FBc9004D857903bFD6b3357792D71a50726b0"
+    ],
+    "reddit": [],
+    "technical_doc": [
+      "https://docs.plasma.to/"
+    ],
+    "source_code": [],
+    "announcement": [
+      "https://www.plasma.to/insights"
+    ]
+  },
+  "tags": []
+}

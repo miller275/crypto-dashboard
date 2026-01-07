@@ -1,0 +1,46 @@
+{
+  "id": 35269,
+  "rank": 259,
+  "name": "MetYa",
+  "symbol": "MY",
+  "price": 0.11073700013288915,
+  "change1h": 3.20866822,
+  "change24h": -3.41868625,
+  "change7d": 30.11748206,
+  "market_cap": 108550140.41908328,
+  "volume_24h": 8620249.90603767,
+  "circulating_supply": 980251770.31,
+  "max_supply": 1000000000,
+  "sparkline7d": [],
+  "description": "MetYa (MY) is a cryptocurrency launched in 2025and operates on the BNB Smart Chain (BEP20) platform. MetYa has a current supply of 974,150,216.2418 with 980,251,770.31 in circulation. The last known price of MetYa is 0.11305074 USD and is down -1.38 over the last 24 hours. It is currently trading on 48 active market(s) with $8,626,805.32 traded over the last 24 hours. More information can be found at https://metya.com/.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/35269.png",
+  "urls": {
+    "website": [
+      "https://metya.com/"
+    ],
+    "twitter": [
+      "https://twitter.com/metyacom"
+    ],
+    "message_board": [],
+    "chat": [
+      "https://t.me/metya_official",
+      "https://discord.gg/pQUY8WNphs",
+      "https://t.me/metya_app_bot",
+      "https://t.me/MetyaCN"
+    ],
+    "facebook": [],
+    "explorer": [
+      "https://bscscan.com/token/0xf0ebb572643336834d516c485ad31d3299999999",
+      "https://app.nansen.ai/token-god-mode?chain=bnb&tab=transactions&tokenAddress=0xf0ebb572643336834d516c485ad31d3299999999"
+    ],
+    "reddit": [],
+    "technical_doc": [
+      "https://linktr.ee/Metya_SocialFi"
+    ],
+    "source_code": [],
+    "announcement": [
+      "https://medium.com/@metyacom"
+    ]
+  },
+  "tags": []
+}

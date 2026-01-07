@@ -1,0 +1,50 @@
+{
+  "id": 2577,
+  "rank": 246,
+  "name": "Ravencoin",
+  "symbol": "RVN",
+  "price": 0.007612484701635968,
+  "change1h": -0.42230941,
+  "change24h": -1.63399009,
+  "change7d": 12.77408694,
+  "market_cap": 121772148.64439878,
+  "volume_24h": 6757385.78020225,
+  "circulating_supply": 15996373512.347319,
+  "max_supply": 21000000000,
+  "sparkline7d": [],
+  "description": "Ravencoin (RVN) is a cryptocurrency launched in 2018. Users are able to generate RVN through the process of mining. Ravencoin has a current supply of 15,996,373,512.34731865. The last known price of Ravencoin is 0.00761731 USD and is down -1.66 over the last 24 hours. It is currently trading on 201 active market(s) with $6,725,505.55 traded over the last 24 hours. More information can be found at https://ravencoin.org/.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/2577.png",
+  "urls": {
+    "website": [
+      "https://ravencoin.org/",
+      "https://getravencoin.org/"
+    ],
+    "twitter": [
+      "https://twitter.com/ravencoin"
+    ],
+    "message_board": [
+      "https://medium.com/@ravencoin"
+    ],
+    "chat": [
+      "https://t.me/RavencoinDev",
+      "https://discordapp.com/invite/CqbfUZd"
+    ],
+    "facebook": [],
+    "explorer": [
+      "https://ravencoin.network/"
+    ],
+    "reddit": [
+      "https://reddit.com/r/Ravencoin"
+    ],
+    "technical_doc": [
+      "https://ravencoin.org/whitepaper/"
+    ],
+    "source_code": [
+      "https://github.com/RavenProject/Ravencoin"
+    ],
+    "announcement": [
+      "https://bitcointalk.org/index.php?topic=3238497"
+    ]
+  },
+  "tags": []
+}

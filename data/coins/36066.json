@@ -1,0 +1,43 @@
+{
+  "id": 36066,
+  "rank": 254,
+  "name": "Keeta",
+  "symbol": "KTA",
+  "price": 0.23650125337849343,
+  "change1h": -1.3251905,
+  "change24h": -2.72270197,
+  "change7d": 8.25472439,
+  "market_cap": 110026973.77889387,
+  "volume_24h": 4013283.1861544,
+  "circulating_supply": 465227867.53611064,
+  "max_supply": 1000000000,
+  "sparkline7d": [],
+  "description": "Keeta (KTA) is a cryptocurrency launched in 2025and operates on the Base platform. Keeta has a current supply of 1,000,000,000 with 465,227,867.53611062 in circulation. The last known price of Keeta is 0.23695079 USD and is down -2.49 over the last 24 hours. It is currently trading on 105 active market(s) with $4,011,567.76 traded over the last 24 hours. More information can be found at https://keeta.com/.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/36066.png",
+  "urls": {
+    "website": [
+      "https://keeta.com/"
+    ],
+    "twitter": [
+      "https://twitter.com/KeetaNetwork"
+    ],
+    "message_board": [],
+    "chat": [
+      "https://discord.com/invite/keeta"
+    ],
+    "facebook": [],
+    "explorer": [
+      "https://basescan.org/token/0xc0634090F2Fe6c6d75e61Be2b949464aBB498973",
+      "https://app.nansen.ai/token-god-mode?chain=base&tab=transactions&tokenAddress=0xc0634090F2Fe6c6d75e61Be2b949464aBB498973"
+    ],
+    "reddit": [
+      "https://reddit.com/r/keeta/"
+    ],
+    "technical_doc": [
+      "https://keeta.com/keetanet-whitepaper-20250312.pdf"
+    ],
+    "source_code": [],
+    "announcement": []
+  },
+  "tags": []
+}

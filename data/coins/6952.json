@@ -1,0 +1,50 @@
+{
+  "id": 6952,
+  "rank": 212,
+  "name": "Legacy Frax Dollar",
+  "symbol": "FRAX",
+  "price": 0.9928785434326458,
+  "change1h": 0.01632462,
+  "change24h": 0.02613676,
+  "change7d": 0.12299174,
+  "market_cap": 278095070.61075187,
+  "volume_24h": 2134914.63331701,
+  "circulating_supply": 280089717.36795026,
+  "max_supply": null,
+  "sparkline7d": [],
+  "description": "Legacy Frax Dollar (FRAX) is a cryptocurrency launched in 2020and operates on the Ethereum platform. Legacy Frax Dollar has a current supply of 280,089,717.36795026. The last known price of Legacy Frax Dollar is 0.99287855 USD and is up 0.02 over the last 24 hours. It is currently trading on 740 active market(s) with $2,135,061.18 traded over the last 24 hours. More information can be found at https://frax.com.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/6952.png",
+  "urls": {
+    "website": [
+      "https://frax.com"
+    ],
+    "twitter": [
+      "https://twitter.com/fraxfinance"
+    ],
+    "message_board": [
+      "https://fraxfinancecommunity.medium.com/"
+    ],
+    "chat": [
+      "https://t.me/fraxfinance"
+    ],
+    "facebook": [],
+    "explorer": [
+      "https://etherscan.io/token/0x853d955acef822db058eb8505911ed77f175b99e",
+      "https://app.nansen.ai/token-god-mode?chain=ethereum&tab=transactions&tokenAddress=0x853d955acef822db058eb8505911ed77f175b99e",
+      "https://solscan.io/token/FR87nWEUxVgerFGhZM8Y4AggKGLnaXswr1Pd8wZ4kZcp",
+      "https://bscscan.com/token/0x90C97F71E18723b0Cf0dfa30ee176Ab653E89F40",
+      "https://ftmscan.com/token/0xaf319E5789945197e365E7f7fbFc56B130523B33"
+    ],
+    "reddit": [],
+    "technical_doc": [
+      "https://docs.frax.com/protocol/assets/frxusd/frxusd"
+    ],
+    "source_code": [
+      "https://github.com/fraxfinance"
+    ],
+    "announcement": [
+      "https://x.com/fraxfinance/status/1917204290906820682"
+    ]
+  },
+  "tags": []
+}

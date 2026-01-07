@@ -1,0 +1,37 @@
+{
+  "id": 8120,
+  "rank": 451,
+  "name": "Whiteheart",
+  "symbol": "WHITE",
+  "price": 5387.934712757106,
+  "change1h": 0,
+  "change24h": 0,
+  "change7d": 5.57455536,
+  "market_cap": 47887963.726985164,
+  "volume_24h": 0,
+  "circulating_supply": 8888,
+  "max_supply": 8888,
+  "sparkline7d": [],
+  "description": "Whiteheart (WHITE) is a cryptocurrency and operates on the Ethereum platform. Whiteheart has a current supply of 8,888. The last known price of Whiteheart is 5,387.93471276 USD and is up 0.00 over the last 24 hours. It is currently trading on 8 active market(s) with $0.00 traded over the last 24 hours. More information can be found at https://www.whiteheart.finance/.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/8120.png",
+  "urls": {
+    "website": [
+      "https://www.whiteheart.finance/"
+    ],
+    "twitter": [
+      "https://twitter.com/WhiteheartDeFi"
+    ],
+    "message_board": [],
+    "chat": [],
+    "facebook": [],
+    "explorer": [
+      "https://etherscan.io/token/0x5f0e628b693018f639d10e4a4f59bd4d8b2b6b44",
+      "https://app.nansen.ai/token-god-mode?chain=ethereum&tab=transactions&tokenAddress=0x5f0e628b693018f639d10e4a4f59bd4d8b2b6b44"
+    ],
+    "reddit": [],
+    "technical_doc": [],
+    "source_code": [],
+    "announcement": []
+  },
+  "tags": []
+}

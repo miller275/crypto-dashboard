@@ -1,0 +1,44 @@
+{
+  "id": 27565,
+  "rank": 455,
+  "name": "Arkham",
+  "symbol": "ARKM",
+  "price": 0.21167434050331496,
+  "change1h": -0.79456207,
+  "change24h": -4.41821181,
+  "change7d": 20.95876961,
+  "market_cap": 47647894.047296196,
+  "volume_24h": 29635890.01184784,
+  "circulating_supply": 225100000,
+  "max_supply": 1000000000,
+  "sparkline7d": [],
+  "description": "Arkham (ARKM) is a cryptocurrency and operates on the Ethereum platform. Arkham has a current supply of 1,000,000,000 with 225,100,000 in circulation. The last known price of Arkham is 0.21227251 USD and is down -4.46 over the last 24 hours. It is currently trading on 251 active market(s) with $29,538,175.94 traded over the last 24 hours. More information can be found at https://arkm.com/.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/27565.png",
+  "urls": {
+    "website": [
+      "https://arkm.com/"
+    ],
+    "twitter": [
+      "https://twitter.com/arkham"
+    ],
+    "message_board": [],
+    "chat": [
+      "https://discord.com/invite/arkham"
+    ],
+    "facebook": [],
+    "explorer": [
+      "https://etherscan.io/token/0x6e2a43be0b1d33b726f0ca3b8de60b3482b8b050",
+      "https://app.nansen.ai/token-god-mode?chain=ethereum&tab=transactions&tokenAddress=0x6e2a43be0b1d33b726f0ca3b8de60b3482b8b050",
+      "https://intel.arkm.com/explorer/token/arkham"
+    ],
+    "reddit": [],
+    "technical_doc": [
+      "https://info.arkm.com/whitepaper"
+    ],
+    "source_code": [],
+    "announcement": [
+      "https://t.me/arkhamintelligence"
+    ]
+  },
+  "tags": []
+}

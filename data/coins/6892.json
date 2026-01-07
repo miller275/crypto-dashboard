@@ -1,0 +1,53 @@
+{
+  "id": 6892,
+  "rank": 167,
+  "name": "MultiversX",
+  "symbol": "EGLD",
+  "price": 6.29579665359304,
+  "change1h": -1.34801987,
+  "change24h": -2.34300498,
+  "change7d": 13.60692241,
+  "market_cap": 183025416.28230676,
+  "volume_24h": 12134065.46840672,
+  "circulating_supply": 29071049.51965901,
+  "max_supply": 31415926,
+  "sparkline7d": [],
+  "description": "MultiversX (EGLD) is a cryptocurrency . MultiversX has a current supply of 29,076,205 with 29,071,049.51965901 in circulation. The last known price of MultiversX is 6.304342 USD and is down -2.33 over the last 24 hours. It is currently trading on 318 active market(s) with $12,097,051.50 traded over the last 24 hours. More information can be found at https://multiversx.com/.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/6892.png",
+  "urls": {
+    "website": [
+      "https://multiversx.com/",
+      "https://multiversx.com/ecosystem"
+    ],
+    "twitter": [
+      "https://twitter.com/MultiversX"
+    ],
+    "message_board": [
+      "https://multiversx.com/blog"
+    ],
+    "chat": [
+      "https://t.me/MultiversX"
+    ],
+    "facebook": [
+      "https://www.facebook.com/MultiversX"
+    ],
+    "explorer": [
+      "https://explorer.multiversx.com/",
+      "https://bscscan.com/token/0xbf7c81fff98bbe61b40ed186e4afd6ddd01337fe",
+      "https://egldscan.com/",
+      "https://bigdipper.live/multiversx",
+      "https://www.okx.com/web3/explorer/bsc/token/0xbf7c81fff98bbe61b40ed186e4afd6ddd01337fe"
+    ],
+    "reddit": [],
+    "technical_doc": [
+      "https://files.multiversx.com/multiversx-whitepaper.pdf"
+    ],
+    "source_code": [
+      "https://github.com/multiversx"
+    ],
+    "announcement": [
+      "https://t.me/MultiversXAnn"
+    ]
+  },
+  "tags": []
+}

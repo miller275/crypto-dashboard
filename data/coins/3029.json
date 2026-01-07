@@ -1,0 +1,56 @@
+{
+  "id": 3029,
+  "rank": 471,
+  "name": "Flux",
+  "symbol": "FLUX",
+  "price": 0.11112574563760122,
+  "change1h": -0.43950682,
+  "change24h": -1.75703511,
+  "change7d": 13.08660233,
+  "market_cap": 45793010.47016216,
+  "volume_24h": 3255350.43682592,
+  "circulating_supply": 412082818.4991484,
+  "max_supply": 560000000,
+  "sparkline7d": [],
+  "description": "Flux (FLUX) is a cryptocurrency launched in 2018. Users are able to generate FLUX through the process of mining. Flux has a current supply of 399,165,702.4991484 with 412,082,818.4991484 in circulation. The last known price of Flux is 0.11122576 USD and is down -1.71 over the last 24 hours. It is currently trading on 211 active market(s) with $3,250,432.28 traded over the last 24 hours. More information can be found at https://runonflux.com/.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/3029.png",
+  "urls": {
+    "website": [
+      "https://runonflux.com/",
+      "https://cloud.runonflux.com/"
+    ],
+    "twitter": [
+      "https://twitter.com/RunOnFlux"
+    ],
+    "message_board": [
+      "https://fluxofficial.medium.com/"
+    ],
+    "chat": [
+      "https://t.me/runonflux",
+      "https://discord.com/invite/runonflux"
+    ],
+    "facebook": [
+      "https://www.facebook.com/runonflux"
+    ],
+    "explorer": [
+      "https://etherscan.io/token/0x720cd16b011b987da3518fbf38c3071d4f0d1495",
+      "https://app.nansen.ai/token-god-mode?chain=ethereum&tab=transactions&tokenAddress=0x720cd16b011b987da3518fbf38c3071d4f0d1495",
+      "https://solscan.io/token/FLUX1wa2GmbtSB6ZGi2pTNbVCw3zEeKnaPCkPtFXxqXe",
+      "https://explorer.runonflux.io/",
+      "https://bscscan.com/token/0xaff9084f2374585879e8b434c399e29e80cce635"
+    ],
+    "reddit": [
+      "https://reddit.com/r/Flux_Official/"
+    ],
+    "technical_doc": [
+      "https://fluxwhitepaper.app.runonflux.io/"
+    ],
+    "source_code": [
+      "https://github.com/runonflux"
+    ],
+    "announcement": [
+      "https://twitter.com/RunOnFlux"
+    ]
+  },
+  "tags": []
+}

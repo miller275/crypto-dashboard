@@ -1,0 +1,47 @@
+{
+  "id": 20787,
+  "rank": 252,
+  "name": "Fellaz",
+  "symbol": "FLZ",
+  "price": 0.24010511953794111,
+  "change1h": -0.02724551,
+  "change24h": -0.33862002,
+  "change7d": -1.69444566,
+  "market_cap": 113299588.8756588,
+  "volume_24h": 3698604.22728918,
+  "circulating_supply": 471874940,
+  "max_supply": 2000000000,
+  "sparkline7d": [],
+  "description": "Fellaz (FLZ) is a cryptocurrency launched in 2022and operates on the Ethereum platform. Fellaz has a current supply of 2,000,000,000 with 471,874,940 in circulation. The last known price of Fellaz is 0.2400505 USD and is down -0.46 over the last 24 hours. It is currently trading on 11 active market(s) with $3,693,212.35 traded over the last 24 hours. More information can be found at https://fellaz.io/.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/20787.png",
+  "urls": {
+    "website": [
+      "https://fellaz.io/"
+    ],
+    "twitter": [
+      "https://twitter.com/FellazXYZ"
+    ],
+    "message_board": [
+      "https://medium.com/@Fellaz"
+    ],
+    "chat": [
+      "https://t.me/official_fellaz"
+    ],
+    "facebook": [],
+    "explorer": [
+      "https://etherscan.io/token/0x8e964e35a76103af4c7d7318e1b1a82c682ae296",
+      "https://app.nansen.ai/token-god-mode?chain=ethereum&tab=transactions&tokenAddress=0x8e964e35a76103af4c7d7318e1b1a82c682ae296"
+    ],
+    "reddit": [],
+    "technical_doc": [
+      "https://navi-inno.notion.site/Fellaz-Documents-Public-16a4ba0ea49a806fb047c1b051c18451"
+    ],
+    "source_code": [
+      "https://navi-inno.notion.site/Fellaz-Documents-Public-16a4ba0ea49a806fb047c1b051c18451"
+    ],
+    "announcement": [
+      "https://medium.com/@Fellaz"
+    ]
+  },
+  "tags": []
+}

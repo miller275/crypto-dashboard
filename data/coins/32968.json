@@ -1,0 +1,48 @@
+{
+  "id": 32968,
+  "rank": 265,
+  "name": "AI Companions",
+  "symbol": "AIC",
+  "price": 0.14191442591794728,
+  "change1h": 0.32510529,
+  "change24h": 17.70690051,
+  "change7d": 78.68079068,
+  "market_cap": 106435776.86413269,
+  "volume_24h": 8017454.67538079,
+  "circulating_supply": 749999700,
+  "max_supply": 1000000000,
+  "sparkline7d": [],
+  "description": "AI Companions (AIC) is a cryptocurrency launched in 2024and operates on the BNB Smart Chain (BEP20) platform. AI Companions has a current supply of 1,000,000,000 with 749,999,700 in circulation. The last known price of AI Companions is 0.14242085 USD and is up 10.97 over the last 24 hours. It is currently trading on 24 active market(s) with $8,008,661.39 traded over the last 24 hours. More information can be found at https://aivcompanions.com/.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/32968.png",
+  "urls": {
+    "website": [
+      "https://aivcompanions.com/"
+    ],
+    "twitter": [
+      "https://twitter.com/AIV_Companions"
+    ],
+    "message_board": [
+      "https://medium.com/@aicompanions"
+    ],
+    "chat": [
+      "https://t.me/AIV_Companions",
+      "https://discord.gg/2UEgCGHGCa"
+    ],
+    "facebook": [],
+    "explorer": [
+      "https://bscscan.com/token/0xbe6ad1eb9876cf3d3f9b85feecfb400298e80143",
+      "https://app.nansen.ai/token-god-mode?chain=bnb&tab=transactions&tokenAddress=0xbe6ad1eb9876cf3d3f9b85feecfb400298e80143"
+    ],
+    "reddit": [],
+    "technical_doc": [
+      "https://aivcompanions.com/AIC_Whitepaper.pdf"
+    ],
+    "source_code": [
+      "https://github.com/AICompanions/AI-Companions"
+    ],
+    "announcement": [
+      "https://x.com/aiv_companions"
+    ]
+  },
+  "tags": []
+}

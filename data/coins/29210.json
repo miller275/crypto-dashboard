@@ -1,0 +1,45 @@
+{
+  "id": 29210,
+  "rank": 78,
+  "name": "Jupiter",
+  "symbol": "JUP",
+  "price": 0.21544196443093144,
+  "change1h": -0.49007291,
+  "change24h": -3.61423476,
+  "change7d": 14.97246444,
+  "market_cap": 687350152.371781,
+  "volume_24h": 22538682.65310003,
+  "circulating_supply": 3190419072.66,
+  "max_supply": 7000000000,
+  "sparkline7d": [],
+  "description": "Jupiter (JUP) is a cryptocurrency launched in 2024and operates on the Solana platform. Jupiter has a current supply of 6,863,983,060.369589 with 3,190,419,072.66 in circulation. The last known price of Jupiter is 0.21547391 USD and is down -3.75 over the last 24 hours. It is currently trading on 785 active market(s) with $22,509,187.24 traded over the last 24 hours. More information can be found at https://jup.ag/.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/29210.png",
+  "urls": {
+    "website": [
+      "https://jup.ag/",
+      "https://support.jup.ag/"
+    ],
+    "twitter": [
+      "https://twitter.com/JupiterExchange"
+    ],
+    "message_board": [],
+    "chat": [
+      "https://discord.gg/jup"
+    ],
+    "facebook": [],
+    "explorer": [
+      "https://solscan.io/token/JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN",
+      "https://app.nansen.ai/token-god-mode?chain=solana&tab=transactions&tokenAddress=JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN",
+      "https://solana.fm/address/JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN"
+    ],
+    "reddit": [
+      "https://reddit.com/r/JupiterExchange"
+    ],
+    "technical_doc": [],
+    "source_code": [],
+    "announcement": [
+      "https://www.jupresear.ch/t/jup-the-genesis-post/478"
+    ]
+  },
+  "tags": []
+}

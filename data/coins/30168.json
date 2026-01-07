@@ -1,0 +1,51 @@
+{
+  "id": 30168,
+  "rank": 465,
+  "name": "Xertra",
+  "symbol": "STRAX",
+  "price": 0.02282626493484115,
+  "change1h": -0.19037278,
+  "change24h": 5.88577977,
+  "change7d": 15.24642746,
+  "market_cap": 46699635.12167782,
+  "volume_24h": 13100198.72959433,
+  "circulating_supply": 2045872824.7912893,
+  "max_supply": null,
+  "sparkline7d": [],
+  "description": "Xertra (STRAX) is a cryptocurrency launched in 2016. Xertra has a current supply of 2,120,872,824.7912893 with 2,045,872,824.7912893 in circulation. The last known price of Xertra is 0.02290628 USD and is up 5.98 over the last 24 hours. It is currently trading on 28 active market(s) with $13,094,450.17 traded over the last 24 hours. More information can be found at http://xertra.com/.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/30168.png",
+  "urls": {
+    "website": [
+      "http://xertra.com/"
+    ],
+    "twitter": [
+      "https://twitter.com/xertraplatform"
+    ],
+    "message_board": [
+      "https://www.xertra.com/blog/"
+    ],
+    "chat": [
+      "https://discord.com/invite/9tDyfZs",
+      "https://t.me/StratisPlatform"
+    ],
+    "facebook": [
+      "https://www.facebook.com/stratisplatform"
+    ],
+    "explorer": [
+      "https://explorer.xertra.com/"
+    ],
+    "reddit": [
+      "https://reddit.com/r/Stratisplatform"
+    ],
+    "technical_doc": [
+      "https://cdn.prod.website-files.com/6756aa200744d4108ed2b169/681487a3d4b6dfb200d06722_Litepaper%202025.pdf"
+    ],
+    "source_code": [
+      "https://github.com/stratisproject"
+    ],
+    "announcement": [
+      "https://bitcointalk.org/index.php?topic=1512202.0"
+    ]
+  },
+  "tags": []
+}

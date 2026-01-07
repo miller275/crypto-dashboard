@@ -1,0 +1,54 @@
+{
+  "id": 2765,
+  "rank": 319,
+  "name": "XYO",
+  "symbol": "XYO",
+  "price": 0.00591026455006484,
+  "change1h": -0.26490871,
+  "change24h": -8.95212706,
+  "change7d": 23.79605821,
+  "market_cap": 80705757.17829342,
+  "volume_24h": 12640167.38338942,
+  "circulating_supply": 13655185228.114368,
+  "max_supply": 13931216938,
+  "sparkline7d": [],
+  "description": "XYO (XYO) is a cryptocurrency launched in 2018and operates on the Ethereum platform. XYO has a current supply of 13,931,216,938.01129856 with 13,655,185,228.11436914 in circulation. The last known price of XYO is 0.0059059 USD and is down -8.85 over the last 24 hours. It is currently trading on 125 active market(s) with $12,618,489.17 traded over the last 24 hours. More information can be found at https://xyo.network/.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/2765.png",
+  "urls": {
+    "website": [
+      "https://xyo.network/"
+    ],
+    "twitter": [
+      "https://twitter.com/officialxyo"
+    ],
+    "message_board": [
+      "https://xyo.network/blog"
+    ],
+    "chat": [
+      "https://t.me/official_xyo",
+      "https://discord.gg/officialxyo"
+    ],
+    "facebook": [
+      "https://www.facebook.com/OfficialXYO"
+    ],
+    "explorer": [
+      "https://etherscan.io/token/0x55296f69f40ea6d20e478533c15a6b08b654e758",
+      "https://app.nansen.ai/token-god-mode?chain=ethereum&tab=transactions&tokenAddress=0x55296f69f40ea6d20e478533c15a6b08b654e758",
+      "https://solscan.io/token/FCZKwHd9Qn1EQj8fFuNLB8dupAWCoJJNePbMqyHhS77b",
+      "https://basescan.org/address/0xD7B99ffB8B2afc6fe013a17207cbe50f223aDc94"
+    ],
+    "reddit": [
+      "https://reddit.com/r/XYONetwork"
+    ],
+    "technical_doc": [
+      "https://docs.xyo.network/XYO-White-Paper.pdf"
+    ],
+    "source_code": [
+      "https://github.com/XYOracleNetwork"
+    ],
+    "announcement": [
+      "https://xyo.network/blog"
+    ]
+  },
+  "tags": []
+}

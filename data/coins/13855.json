@@ -1,0 +1,47 @@
+{
+  "id": 13855,
+  "rank": 109,
+  "name": "Ethereum Name Service",
+  "symbol": "ENS",
+  "price": 10.6327336123262,
+  "change1h": -0.86675414,
+  "change24h": -2.74061711,
+  "change7d": 13.55200642,
+  "market_cap": 406091740.26181436,
+  "volume_24h": 38209998.55680137,
+  "circulating_supply": 38192599.85889656,
+  "max_supply": null,
+  "sparkline7d": [],
+  "description": "Ethereum Name Service (ENS) is a cryptocurrency and operates on the Ethereum platform. Ethereum Name Service has a current supply of 100,000,000 with 38,192,599.85889656 in circulation. The last known price of Ethereum Name Service is 10.64125665 USD and is down -2.74 over the last 24 hours. It is currently trading on 468 active market(s) with $38,250,096.92 traded over the last 24 hours. More information can be found at https://ens.domains/.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/13855.png",
+  "urls": {
+    "website": [
+      "https://ens.domains/"
+    ],
+    "twitter": [
+      "https://twitter.com/ensdomains"
+    ],
+    "message_board": [
+      "https://ens.mirror.xyz/"
+    ],
+    "chat": [
+      "https://chat.ens.domains/"
+    ],
+    "facebook": [],
+    "explorer": [
+      "https://etherscan.io/token/0xC18360217D8F7Ab5e7c516566761Ea12Ce7F9D72",
+      "https://app.nansen.ai/token-god-mode?chain=ethereum&tab=transactions&tokenAddress=0xC18360217D8F7Ab5e7c516566761Ea12Ce7F9D72",
+      "https://solscan.io/token/CLQsDGoGibdNPnVCFp8BAsN2unvyvb41Jd5USYwAnzAg",
+      "https://www.oklink.com/eth/token/0xC18360217D8F7Ab5e7c516566761Ea12Ce7F9D72"
+    ],
+    "reddit": [],
+    "technical_doc": [
+      "https://docs.ens.domains/"
+    ],
+    "source_code": [
+      "https://github.com/ensdomains"
+    ],
+    "announcement": []
+  },
+  "tags": []
+}

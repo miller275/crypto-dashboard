@@ -1,0 +1,49 @@
+{
+  "id": 33793,
+  "rank": 49,
+  "name": "Global Dollar",
+  "symbol": "USDG",
+  "price": 0.999764135836815,
+  "change1h": 0.00660467,
+  "change24h": 0.01570844,
+  "change7d": 0.00864855,
+  "market_cap": 1531033796.9773123,
+  "volume_24h": 22178271.21797527,
+  "circulating_supply": 1531394998.177063,
+  "max_supply": null,
+  "sparkline7d": [],
+  "description": "Global Dollar (USDG) is a cryptocurrency launched in 2024and operates on the Ethereum platform. Global Dollar has a current supply of 1,531,394,998.177063. The last known price of Global Dollar is 0.99955552 USD and is down -0.01 over the last 24 hours. It is currently trading on 38 active market(s) with $21,190,905.87 traded over the last 24 hours. More information can be found at https://globaldollar.com.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/33793.png",
+  "urls": {
+    "website": [
+      "https://globaldollar.com"
+    ],
+    "twitter": [
+      "https://twitter.com/global_dollar"
+    ],
+    "message_board": [
+      "https://www.linkedin.com/feed/update/urn:li:activity:7257865630844948481/"
+    ],
+    "chat": [
+      "https://www.linkedin.com/company/globaldollar"
+    ],
+    "facebook": [],
+    "explorer": [
+      "https://etherscan.io/token/0xe343167631d89B6Ffc58B88d6b7fB0228795491D",
+      "https://app.nansen.ai/token-god-mode?chain=ethereum&tab=transactions&tokenAddress=0xe343167631d89B6Ffc58B88d6b7fB0228795491D",
+      "https://solscan.io/token/2u1tszSeqZ3qBWF3uNGPFc8TzMk2tdiwknnRMWGWjGWH",
+      "https://etherscan.io/address/0xe343167631d89B6Ffc58B88d6b7fB0228795491D"
+    ],
+    "reddit": [],
+    "technical_doc": [
+      "https://424565.fs1.hubspotusercontent-na1.net/hubfs/424565/USDGWhitePaper.pdf"
+    ],
+    "source_code": [
+      "https://github.com/paxosglobal/usdg-contract"
+    ],
+    "announcement": [
+      "https://x.com/global_dollar/status/1852101183332323561"
+    ]
+  },
+  "tags": []
+}

@@ -1,0 +1,49 @@
+{
+  "id": 1320,
+  "rank": 378,
+  "name": "Ardor",
+  "symbol": "ARDR",
+  "price": 0.06306750668735642,
+  "change1h": -0.08282827,
+  "change24h": 1.88510686,
+  "change7d": 9.52645437,
+  "market_cap": 62970775.71687518,
+  "volume_24h": 8484770.12141268,
+  "circulating_supply": 998466231.2566,
+  "max_supply": 998466231.2566,
+  "sparkline7d": [],
+  "description": "Ardor (ARDR) is a cryptocurrency launched in 2018. Ardor has a current supply of 998,466,231.2566. The last known price of Ardor is 0.0630756 USD and is up 1.90 over the last 24 hours. It is currently trading on 55 active market(s) with $8,480,885.55 traded over the last 24 hours. More information can be found at https://www.jelurida.com/ardor.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/1320.png",
+  "urls": {
+    "website": [
+      "https://www.jelurida.com/ardor"
+    ],
+    "twitter": [
+      "https://twitter.com/ardorplatform"
+    ],
+    "message_board": [
+      "https://ardorforum.org/",
+      "http://talk.jelurida.com/"
+    ],
+    "chat": [
+      "https://t.me/ardorplatform",
+      "https://discord.gg/mUfStbfEfu"
+    ],
+    "facebook": [],
+    "explorer": [
+      "https://ardor.tools/",
+      "https://ardorportal.org"
+    ],
+    "reddit": [],
+    "technical_doc": [
+      "https://ardordocs.jelurida.com"
+    ],
+    "source_code": [
+      "https://bitbucket.org/Jelurida/ardor/src"
+    ],
+    "announcement": [
+      "https://bitcointalk.org/index.php?topic=1518497.0"
+    ]
+  },
+  "tags": []
+}

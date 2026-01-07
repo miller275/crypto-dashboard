@@ -1,0 +1,48 @@
+{
+  "id": 3945,
+  "rank": 383,
+  "name": "Harmony",
+  "symbol": "ONE",
+  "price": 0.004196116551970707,
+  "change1h": -0.88412314,
+  "change24h": -2.28439101,
+  "change7d": 15.9188991,
+  "market_cap": 62164091.6742338,
+  "volume_24h": 5437630.15910109,
+  "circulating_supply": 14814672305.762915,
+  "max_supply": null,
+  "sparkline7d": [],
+  "description": "Harmony (ONE) is a cryptocurrency launched in 2018. Harmony has a current supply of 14,814,672,305.76291393. The last known price of Harmony is 0.00419643 USD and is down -2.38 over the last 24 hours. It is currently trading on 245 active market(s) with $5,460,830.02 traded over the last 24 hours. More information can be found at https://www.harmony.one/.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/3945.png",
+  "urls": {
+    "website": [
+      "https://www.harmony.one/",
+      "https://t.me/harmony_announcements"
+    ],
+    "twitter": [
+      "https://twitter.com/harmonyprotocol"
+    ],
+    "message_board": [
+      "https://medium.com/harmony-one"
+    ],
+    "chat": [
+      "https://t.me/harmony_one",
+      "https://harmony.one/discord"
+    ],
+    "facebook": [],
+    "explorer": [
+      "https://explorer.harmony.one/#/"
+    ],
+    "reddit": [
+      "https://reddit.com/r/harmony_one/"
+    ],
+    "technical_doc": [
+      "https://harmony.one/whitepaper.pdf"
+    ],
+    "source_code": [
+      "https://github.com/harmony-one"
+    ],
+    "announcement": []
+  },
+  "tags": []
+}

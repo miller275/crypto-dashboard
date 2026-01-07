@@ -1,0 +1,50 @@
+{
+  "id": 21533,
+  "rank": 454,
+  "name": "Lista DAO",
+  "symbol": "LISTA",
+  "price": 0.17121960038162826,
+  "change1h": -1.21977258,
+  "change24h": -4.40070603,
+  "change7d": 1.15613589,
+  "market_cap": 47807824.89680645,
+  "volume_24h": 6085532.82033599,
+  "circulating_supply": 279219346.32628775,
+  "max_supply": 800000000,
+  "sparkline7d": [],
+  "description": "Lista DAO (LISTA) is a cryptocurrency launched in 2022and operates on the BNB Smart Chain (BEP20) platform. Lista DAO has a current supply of 795,588,564.255041 with 279,219,346.32628775 in circulation. The last known price of Lista DAO is 0.17138186 USD and is down -4.39 over the last 24 hours. It is currently trading on 169 active market(s) with $6,084,529.83 traded over the last 24 hours. More information can be found at https://lista.org/.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/21533.png",
+  "urls": {
+    "website": [
+      "https://lista.org/"
+    ],
+    "twitter": [
+      "https://twitter.com/lista_dao"
+    ],
+    "message_board": [
+      "https://medium.com/@ListaDAO"
+    ],
+    "chat": [
+      "https://t.me/ListaDAO",
+      "https://discord.com/invite/listadao",
+      "https://t.me/ListaDAO_CN",
+      "https://sg.linkedin.com/company/listadao"
+    ],
+    "facebook": [],
+    "explorer": [
+      "https://bscscan.com/token/0xFceB31A79F71AC9CBDCF853519c1b12D379EdC46",
+      "https://app.nansen.ai/token-god-mode?chain=bnb&tab=transactions&tokenAddress=0xFceB31A79F71AC9CBDCF853519c1b12D379EdC46"
+    ],
+    "reddit": [
+      "https://reddit.com/r/ListaDAO"
+    ],
+    "technical_doc": [
+      "https://docs.bsc.lista.org/"
+    ],
+    "source_code": [
+      "https://github.com/lista-dao"
+    ],
+    "announcement": []
+  },
+  "tags": []
+}

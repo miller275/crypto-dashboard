@@ -1,0 +1,49 @@
+{
+  "id": 21846,
+  "rank": 300,
+  "name": "SPACE ID",
+  "symbol": "ID",
+  "price": 0.06996425229492283,
+  "change1h": -1.24469445,
+  "change24h": 0.74216072,
+  "change7d": -1.77588352,
+  "market_cap": 89807475.8686884,
+  "volume_24h": 10810457.44679035,
+  "circulating_supply": 1283619461.6948056,
+  "max_supply": 2000000000,
+  "sparkline7d": [],
+  "description": "SPACE ID (ID) is a cryptocurrency launched in 2023and operates on the Ethereum platform. SPACE ID has a current supply of 1,995,077,793.02813888 with 1,283,619,461.69480555 in circulation. The last known price of SPACE ID is 0.07009431 USD and is up 0.88 over the last 24 hours. It is currently trading on 258 active market(s) with $10,794,707.29 traded over the last 24 hours. More information can be found at https://space.id.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/21846.png",
+  "urls": {
+    "website": [
+      "https://space.id"
+    ],
+    "twitter": [
+      "https://twitter.com/SpaceIDProtocol"
+    ],
+    "message_board": [
+      "https://blog.space.id"
+    ],
+    "chat": [
+      "https://discord.com/invite/spaceid"
+    ],
+    "facebook": [],
+    "explorer": [
+      "https://etherscan.io/token/0x2dfF88A56767223A5529eA5960Da7A3F5f766406",
+      "https://app.nansen.ai/token-god-mode?chain=ethereum&tab=transactions&tokenAddress=0x2dfF88A56767223A5529eA5960Da7A3F5f766406",
+      "https://bscscan.com/token/0x2dff88a56767223a5529ea5960da7a3f5f766406",
+      "https://etherscan.io/token/0x08ced32a7f3eec915ba84415e9c07a7286977956"
+    ],
+    "reddit": [],
+    "technical_doc": [
+      "https://docs.space.id"
+    ],
+    "source_code": [
+      "https://github.com/Space-ID"
+    ],
+    "announcement": [
+      "https://x.com/SpaceIDProtocol"
+    ]
+  },
+  "tags": []
+}

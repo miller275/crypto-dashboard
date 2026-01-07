@@ -1,0 +1,53 @@
+{
+  "id": 33372,
+  "rank": 416,
+  "name": "CARV",
+  "symbol": "CARV",
+  "price": 0.1190044621634043,
+  "change1h": -0.3559502,
+  "change24h": 0.008311,
+  "change7d": 1.51740189,
+  "market_cap": 54807065.92289046,
+  "volume_24h": 11139367.60350261,
+  "circulating_supply": 460546310,
+  "max_supply": null,
+  "sparkline7d": [],
+  "description": "CARV (CARV) is a cryptocurrency launched in 2022and operates on the Ethereum platform. CARV has a current supply of 1,000,000,000 with 460,546,310 in circulation. The last known price of CARV is 0.11891253 USD and is down -0.10 over the last 24 hours. It is currently trading on 115 active market(s) with $11,126,579.93 traded over the last 24 hours. More information can be found at https://carv.io.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/33372.png",
+  "urls": {
+    "website": [
+      "https://carv.io"
+    ],
+    "twitter": [
+      "https://twitter.com/carv_official"
+    ],
+    "message_board": [
+      "https://medium.com/@Carv"
+    ],
+    "chat": [
+      "https://discord.gg/carv",
+      "https://t.me/carv_official_global"
+    ],
+    "facebook": [
+      "https://www.facebook.com/carvyofficial"
+    ],
+    "explorer": [
+      "https://etherscan.io/token/0xc08Cd26474722cE93F4D0c34D16201461c10AA8C",
+      "https://app.nansen.ai/token-god-mode?chain=ethereum&tab=transactions&tokenAddress=0xc08Cd26474722cE93F4D0c34D16201461c10AA8C",
+      "https://solscan.io/token/AFJtnuqGMaj5jAo6Pwxo28r1f7XAXXTSA8q3rG3q8b4A",
+      "https://arbiscan.io/token/0xc08Cd26474722cE93F4D0c34D16201461c10AA8C",
+      "https://bscscan.com/token/0xc08cd26474722ce93f4d0c34d16201461c10aa8c"
+    ],
+    "reddit": [],
+    "technical_doc": [
+      "https://docs.carv.io/"
+    ],
+    "source_code": [
+      "https://github.com/carv-protocol"
+    ],
+    "announcement": [
+      "https://medium.com/@Carv/722a49baf588"
+    ]
+  },
+  "tags": []
+}

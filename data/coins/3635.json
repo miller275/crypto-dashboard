@@ -1,0 +1,49 @@
+{
+  "id": 3635,
+  "rank": 28,
+  "name": "Cronos",
+  "symbol": "CRO",
+  "price": 0.10282259752317198,
+  "change1h": -0.48667039,
+  "change24h": -3.75241147,
+  "change7d": 14.11797615,
+  "market_cap": 3968570451.852726,
+  "volume_24h": 20889253.58278165,
+  "circulating_supply": 38596286686.47836,
+  "max_supply": 100000000000,
+  "sparkline7d": [],
+  "description": "Cronos (CRO) is a cryptocurrency launched in 2021. Cronos has a current supply of 98,296,287,307.07004 with 38,596,286,686.47836 in circulation. The last known price of Cronos is 0.10303141 USD and is down -3.66 over the last 24 hours. It is currently trading on 335 active market(s) with $21,072,428.18 traded over the last 24 hours. More information can be found at https://cronos.org/.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/3635.png",
+  "urls": {
+    "website": [
+      "https://cronos.org/"
+    ],
+    "twitter": [
+      "https://twitter.com/cronos_chain"
+    ],
+    "message_board": [
+      "https://blog.cronos.org/"
+    ],
+    "chat": [
+      "https://discord.com/invite/pahqHz26q4"
+    ],
+    "facebook": [],
+    "explorer": [
+      "https://explorer.cronos.org/",
+      "https://app.nansen.ai/token-god-mode?chain=ethereum&tab=transactions&tokenAddress=0xa0b73e1ff0b80914ab6fe0444e65848c4c34450b",
+      "https://solscan.io/token/DvjMYMVeXgKxaixGKpzQThLoG98nc7HSU7eanzsdCboA",
+      "https://etherscan.io/token/0xa0b73e1ff0b80914ab6fe0444e65848c4c34450b"
+    ],
+    "reddit": [],
+    "technical_doc": [
+      "https://whitepaper.cronos.org/"
+    ],
+    "source_code": [
+      "https://github.com/crypto-org-chain/cronos"
+    ],
+    "announcement": [
+      "https://blog.cronos.org/"
+    ]
+  },
+  "tags": []
+}

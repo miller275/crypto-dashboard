@@ -1,0 +1,44 @@
+{
+  "id": 32756,
+  "rank": 343,
+  "name": "Department Of Government Efficiency (DOGE)",
+  "symbol": "DOGE",
+  "price": 0.14632703902391409,
+  "change1h": 0.01157297,
+  "change24h": 0.60443703,
+  "change7d": 111234.08539722,
+  "market_cap": 73163519.51195705,
+  "volume_24h": 6526.9058783,
+  "circulating_supply": 500000000,
+  "max_supply": 1000000000,
+  "sparkline7d": [],
+  "description": "Department Of Government Efficiency (DOGE) (DOGE) is a cryptocurrency launched in 2024and operates on the Ethereum platform. Department Of Government Efficiency (DOGE) has a current supply of 1,000,000,000 with 500,000,000 in circulation. The last known price of Department Of Government Efficiency (DOGE) is 0.1453639 USD and is down -0.08 over the last 24 hours. It is currently trading on 9 active market(s) with $6,495.53 traded over the last 24 hours. More information can be found at https://doge.gd.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/32756.png",
+  "urls": {
+    "website": [
+      "https://doge.gd"
+    ],
+    "twitter": [
+      "https://twitter.com/doge_erc2024"
+    ],
+    "message_board": [
+      "https://medium.com/doge_erc2024"
+    ],
+    "chat": [
+      "https://t.me/doge_erc2024"
+    ],
+    "facebook": [],
+    "explorer": [
+      "https://etherscan.io/token/0x81fcc294d91bd8ffc8a822d7df0e2fd2f8526c39",
+      "https://app.nansen.ai/token-god-mode?chain=ethereum&tab=transactions&tokenAddress=0x81FcC294d91bd8FFC8a822d7df0e2fD2f8526c39",
+      "https://solscan.io/token/B54Fyr1XrWNA5RsRRkovoVFwQwzwBfqaJPLoFR4pMoAX"
+    ],
+    "reddit": [],
+    "technical_doc": [],
+    "source_code": [
+      "https://etherscan.io/token/0x81fcc294d91bd8ffc8a822d7df0e2fd2f8526c39#code"
+    ],
+    "announcement": []
+  },
+  "tags": []
+}

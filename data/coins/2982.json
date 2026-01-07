@@ -1,0 +1,51 @@
+{
+  "id": 2982,
+  "rank": 432,
+  "name": "MVL",
+  "symbol": "MVL",
+  "price": 0.0018431100464887152,
+  "change1h": 0.27791103,
+  "change24h": 3.87625728,
+  "change7d": 11.34603626,
+  "market_cap": 51243912.802696966,
+  "volume_24h": 3398469.20565843,
+  "circulating_supply": 27802958863.102654,
+  "max_supply": 30000000000,
+  "sparkline7d": [],
+  "description": "MVL (MVL) is a cryptocurrency and operates on the Ethereum platform. MVL has a current supply of 30,000,000,000 with 27,802,958,863.1026536 in circulation. The last known price of MVL is 0.00184851 USD and is up 4.15 over the last 24 hours. It is currently trading on 45 active market(s) with $3,397,697.72 traded over the last 24 hours. More information can be found at http://mvlchain.io.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/2982.png",
+  "urls": {
+    "website": [
+      "http://mvlchain.io"
+    ],
+    "twitter": [
+      "https://twitter.com/mvlchain"
+    ],
+    "message_board": [
+      "https://medium.com/mvl-ecosystem"
+    ],
+    "chat": [
+      "https://t.me/mvlchain_en",
+      "https://t.me/mvlchain_kr"
+    ],
+    "facebook": [],
+    "explorer": [
+      "https://etherscan.io/token/0xa849eaae994fb86afa73382e9bd88c2b6b18dc71",
+      "https://app.nansen.ai/token-god-mode?chain=ethereum&tab=transactions&tokenAddress=0xa849eaae994fb86afa73382e9bd88c2b6b18dc71",
+      "https://ethplorer.io/address/0xa849eaae994fb86afa73382e9bd88c2b6b18dc71",
+      "https://bscscan.com/token/0x5f588efaf8eb57e3837486e834fc5a4e07768d98",
+      "https://tonviewer.com/EQD2yazA2wf5AY2joEzGUDGk0cQWxEa2NdiP4Zgf9-eF04tp"
+    ],
+    "reddit": [
+      "https://reddit.com/r/MVL"
+    ],
+    "technical_doc": [
+      "https://docs.mvlchain.io/"
+    ],
+    "source_code": [
+      "https://github.com/mvlchain/mvltoken"
+    ],
+    "announcement": []
+  },
+  "tags": []
+}

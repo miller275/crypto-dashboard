@@ -1,0 +1,46 @@
+{
+  "id": 3957,
+  "rank": 14,
+  "name": "UNUS SED LEO",
+  "symbol": "LEO",
+  "price": 9.01369849915927,
+  "change1h": -0.00281936,
+  "change24h": 1.23599968,
+  "change7d": -3.77562919,
+  "market_cap": 8307864378.267774,
+  "volume_24h": 686482.52462797,
+  "circulating_supply": 921693173.9,
+  "max_supply": null,
+  "sparkline7d": [],
+  "description": "UNUS SED LEO (LEO) is a cryptocurrency and operates on the Ethereum platform. UNUS SED LEO has a current supply of 985,239,504 with 921,693,173.9 in circulation. The last known price of UNUS SED LEO is 9.01355634 USD and is up 1.22 over the last 24 hours. It is currently trading on 65 active market(s) with $686,089.67 traded over the last 24 hours. More information can be found at https://www.bitfinex.com/.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/3957.png",
+  "urls": {
+    "website": [
+      "https://www.bitfinex.com/"
+    ],
+    "twitter": [
+      "https://twitter.com/bitfinex"
+    ],
+    "message_board": [],
+    "chat": [
+      "https://t.me/bitfinex"
+    ],
+    "facebook": [],
+    "explorer": [
+      "https://etherscan.io/token/0x2af5d2ad76741191d15dfe7bf6ac92d4bd912ca3",
+      "https://app.nansen.ai/token-god-mode?chain=ethereum&tab=transactions&tokenAddress=0x2af5d2ad76741191d15dfe7bf6ac92d4bd912ca3",
+      "https://www.okx.com/web3/explorer/eth/token/0x2AF5D2aD76741191D15Dfe7bF6aC92d4Bd912Ca3",
+      "https://eospark.com/account/bitfinexleo1",
+      "https://eosflare.io/account/bitfinexleo1"
+    ],
+    "reddit": [
+      "https://reddit.com/r/bitfinex"
+    ],
+    "technical_doc": [
+      "https://www.bitfinex.com/wp-2019-05.pdf"
+    ],
+    "source_code": [],
+    "announcement": []
+  },
+  "tags": []
+}

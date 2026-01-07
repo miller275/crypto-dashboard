@@ -1,0 +1,50 @@
+{
+  "id": 2943,
+  "rank": 458,
+  "name": "Rocket Pool",
+  "symbol": "RPL",
+  "price": 2.1512162519737417,
+  "change1h": -0.81587712,
+  "change24h": -2.01841216,
+  "change7d": 17.39597611,
+  "market_cap": 47401335.07955127,
+  "volume_24h": 5723194.88243121,
+  "circulating_supply": 22034667.61468566,
+  "max_supply": null,
+  "sparkline7d": [],
+  "description": "Rocket Pool (RPL) is a cryptocurrency and operates on the Ethereum platform. Rocket Pool has a current supply of 22,034,667.61468566. The last known price of Rocket Pool is 2.15836993 USD and is down -1.85 over the last 24 hours. It is currently trading on 211 active market(s) with $5,720,509.51 traded over the last 24 hours. More information can be found at https://www.rocketpool.net/.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/2943.png",
+  "urls": {
+    "website": [
+      "https://www.rocketpool.net/"
+    ],
+    "twitter": [
+      "https://twitter.com/Rocket_Pool"
+    ],
+    "message_board": [
+      "https://medium.com/rocket-pool"
+    ],
+    "chat": [
+      "https://discord.gg/rocketpool",
+      "http://slack.rocketpool.net/"
+    ],
+    "facebook": [],
+    "explorer": [
+      "https://etherscan.io/token/0xd33526068d116ce69f19a9ee46f0bd304f21a51f",
+      "https://app.nansen.ai/token-god-mode?chain=ethereum&tab=transactions&tokenAddress=0xd33526068d116ce69f19a9ee46f0bd304f21a51f",
+      "https://solscan.io/token/HUCyuyqESEUV4YWTKFvvB4JiQLqoovscTBpRXfGzW4Wx",
+      "https://www.oklink.com/cn/eth/token/0xd33526068d116ce69f19a9ee46f0bd304f21a51f"
+    ],
+    "reddit": [
+      "https://reddit.com/r/rocketpool"
+    ],
+    "technical_doc": [
+      "https://docs.rocketpool.net"
+    ],
+    "source_code": [
+      "https://github.com/rocket-pool/rocketpool"
+    ],
+    "announcement": []
+  },
+  "tags": []
+}

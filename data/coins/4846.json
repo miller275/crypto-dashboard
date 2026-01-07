@@ -1,0 +1,54 @@
+{
+  "id": 4846,
+  "rank": 293,
+  "name": "Kava",
+  "symbol": "KAVA",
+  "price": 0.08563926527982979,
+  "change1h": -0.67904342,
+  "change24h": -1.62502302,
+  "change7d": 14.5079,
+  "market_cap": 92734275.01500864,
+  "volume_24h": 3885497.44103057,
+  "circulating_supply": 1082847625,
+  "max_supply": null,
+  "sparkline7d": [],
+  "description": "Kava (KAVA) is a cryptocurrency launched in 2019and operates on the Ethereum platform. Kava has a current supply of 1,082,847,625. The last known price of Kava is 0.08562377 USD and is down -1.76 over the last 24 hours. It is currently trading on 224 active market(s) with $3,894,749.91 traded over the last 24 hours. More information can be found at https://www.kava.io/.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/4846.png",
+  "urls": {
+    "website": [
+      "https://www.kava.io/",
+      "https://app.kava.io/"
+    ],
+    "twitter": [
+      "https://twitter.com/KAVA_CHAIN"
+    ],
+    "message_board": [
+      "https://medium.com/kava-labs"
+    ],
+    "chat": [
+      "https://t.me/kavalabs",
+      "https://discord.com/invite/q6QuanE4bx"
+    ],
+    "facebook": [],
+    "explorer": [
+      "https://www.mintscan.io/kava",
+      "https://app.nansen.ai/token-god-mode?chain=ethereum&tab=transactions&tokenAddress=0x0C356B7fD36a5357E5A017EF11887ba100C9AB76",
+      "https://kava.bigdipper.live",
+      "https://explorer.binance.org/asset/KAVA-10C",
+      "https://kavascan.com/"
+    ],
+    "reddit": [
+      "https://reddit.com/r/kava_platform/"
+    ],
+    "technical_doc": [
+      "https://docsend.com/view/gwbwpc3"
+    ],
+    "source_code": [
+      "https://github.com/kava-labs"
+    ],
+    "announcement": [
+      "https://medium.com/kava-labs"
+    ]
+  },
+  "tags": []
+}

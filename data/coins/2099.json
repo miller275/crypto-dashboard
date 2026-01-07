@@ -1,0 +1,48 @@
+{
+  "id": 2099,
+  "rank": 373,
+  "name": "ICON",
+  "symbol": "ICX",
+  "price": 0.05897149713514871,
+  "change1h": -0.546456,
+  "change24h": 1.24729251,
+  "change7d": 11.56692111,
+  "market_cap": 64081476.52000453,
+  "volume_24h": 3331709.42263409,
+  "circulating_supply": 1086651681.4579926,
+  "max_supply": null,
+  "sparkline7d": [],
+  "description": "ICON (ICX) is a cryptocurrency . ICON has a current supply of 1,101,141,821.29512 with 1,086,651,681.4579926 in circulation. The last known price of ICON is 0.0591165 USD and is up 1.44 over the last 24 hours. It is currently trading on 164 active market(s) with $3,328,781.67 traded over the last 24 hours. More information can be found at https://icon.community.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/2099.png",
+  "urls": {
+    "website": [
+      "https://icon.community"
+    ],
+    "twitter": [
+      "https://twitter.com/helloiconworld"
+    ],
+    "message_board": [
+      "https://forum.icon.community/"
+    ],
+    "chat": [
+      "https://discord.com/invite/7a75Hf3cFm"
+    ],
+    "facebook": [],
+    "explorer": [
+      "https://tracker.icon.community/"
+    ],
+    "reddit": [
+      "https://reddit.com/r/helloicon"
+    ],
+    "technical_doc": [
+      "https://icondev.io/"
+    ],
+    "source_code": [
+      "https://github.com/icon-project"
+    ],
+    "announcement": [
+      "https://icon.community/blog/"
+    ]
+  },
+  "tags": []
+}

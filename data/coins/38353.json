@@ -1,0 +1,46 @@
+{
+  "id": 38353,
+  "rank": 198,
+  "name": "Meteora",
+  "symbol": "MET",
+  "price": 0.27410765258987796,
+  "change1h": -0.41572104,
+  "change24h": -1.29173151,
+  "change7d": 8.93640628,
+  "market_cap": 134910425.17313495,
+  "volume_24h": 20202452.85690695,
+  "circulating_supply": 492180440.416193,
+  "max_supply": 1000000000,
+  "sparkline7d": [],
+  "description": "Meteora (MET) is a cryptocurrency launched in 2025and operates on the Solana platform. Meteora has a current supply of 997,735,995.972336 with 492,180,440.416193 in circulation. The last known price of Meteora is 0.2740933 USD and is down -1.47 over the last 24 hours. It is currently trading on 209 active market(s) with $20,194,663.12 traded over the last 24 hours. More information can be found at https://www.meteora.ag/.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/38353.png",
+  "urls": {
+    "website": [
+      "https://www.meteora.ag/"
+    ],
+    "twitter": [
+      "https://twitter.com/MeteoraAG"
+    ],
+    "message_board": [
+      "https://proposals.meteora.ag/"
+    ],
+    "chat": [
+      "https://discord.com/meteora"
+    ],
+    "facebook": [],
+    "explorer": [
+      "https://app.nansen.ai/token-god-mode?chain=solana&tab=transactions&tokenAddress=METvsvVRapdj9cFLzq4Tr43xK4tAjQfwX76z3n6mWQL"
+    ],
+    "reddit": [],
+    "technical_doc": [
+      "https://docs.meteora.ag/"
+    ],
+    "source_code": [
+      "https://github.com/MeteoraAg"
+    ],
+    "announcement": [
+      "https://x.com/MeteoraAG"
+    ]
+  },
+  "tags": []
+}

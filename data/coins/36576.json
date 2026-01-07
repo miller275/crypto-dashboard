@@ -1,0 +1,50 @@
+{
+  "id": 36576,
+  "rank": 325,
+  "name": "Huma Finance",
+  "symbol": "HUMA",
+  "price": 0.02978457623084602,
+  "change1h": 1.45136588,
+  "change24h": 2.91032985,
+  "change7d": 23.3281327,
+  "market_cap": 77175808.28102462,
+  "volume_24h": 12026401.19745764,
+  "circulating_supply": 2591133333,
+  "max_supply": 10000000000,
+  "sparkline7d": [],
+  "description": "Huma Finance (HUMA) is a cryptocurrency launched in 2025and operates on the BNB Smart Chain (BEP20) platform. Huma Finance has a current supply of 9,999,996,851.827025 with 2,591,133,333 in circulation. The last known price of Huma Finance is 0.0294198 USD and is up 1.46 over the last 24 hours. It is currently trading on 171 active market(s) with $11,737,540.04 traded over the last 24 hours. More information can be found at https://huma.finance/.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/36576.png",
+  "urls": {
+    "website": [
+      "https://huma.finance/"
+    ],
+    "twitter": [
+      "https://twitter.com/humafinance"
+    ],
+    "message_board": [
+      "https://huma.finance/blog/"
+    ],
+    "chat": [
+      "https://discord.gg/humafinance",
+      "https://www.linkedin.com/company/huma-finance"
+    ],
+    "facebook": [],
+    "explorer": [
+      "https://bscscan.com/token/0x92516e0DDf1dDBF7FAB1b79CaC26689fDC5ba8e6",
+      "https://app.nansen.ai/token-god-mode?chain=bnb&tab=transactions&tokenAddress=0x92516e0DDf1dDBF7FAB1b79CaC26689fDC5ba8e6",
+      "https://solscan.io/token/HUMA1821qVDKta3u2ovmfDQeW2fSQouSKE8fkF44wvGw",
+      "https://app.nansen.ai/token-god-mode?chain=solana&tab=transactions&tokenAddress=HUMA1821qVDKta3u2ovmfDQeW2fSQouSKE8fkF44wvGw"
+    ],
+    "reddit": [],
+    "technical_doc": [
+      "https://docs.huma.finance"
+    ],
+    "source_code": [
+      "https://github.com/00labs"
+    ],
+    "announcement": [
+      "https://discord.gg/humafinance"
+    ]
+  },
+  "tags": []
+}

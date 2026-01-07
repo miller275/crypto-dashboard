@@ -1,0 +1,45 @@
+{
+  "id": 7127,
+  "rank": 197,
+  "name": "Velo",
+  "symbol": "VELO",
+  "price": 0.007684588080293427,
+  "change1h": -1.38293892,
+  "change24h": -4.86929824,
+  "change7d": 20.96864412,
+  "market_cap": 134971153.03707942,
+  "volume_24h": 13451154.93270047,
+  "circulating_supply": 17563876115,
+  "max_supply": 24000000000,
+  "sparkline7d": [],
+  "description": "Velo (VELO) is a cryptocurrency launched in 2020and operates on the BNB Smart Chain (BEP20) platform. Velo has a current supply of 23,999,804,349 with 17,563,876,115 in circulation. The last known price of Velo is 0.00769982 USD and is down -4.76 over the last 24 hours. It is currently trading on 154 active market(s) with $13,462,207.92 traded over the last 24 hours. More information can be found at https://velo.org/.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/7127.png",
+  "urls": {
+    "website": [
+      "https://velo.org/"
+    ],
+    "twitter": [
+      "https://twitter.com/veloprotocol"
+    ],
+    "message_board": [],
+    "chat": [
+      "https://telegram.me/veloprotocol",
+      "https://www.linkedin.com/company/velolabs/"
+    ],
+    "facebook": [],
+    "explorer": [
+      "https://bscscan.com/token/0xf486ad071f3bee968384d2e39e2d8af0fcf6fd46",
+      "https://app.nansen.ai/token-god-mode?chain=bnb&tab=transactions&tokenAddress=0xf486ad071f3bee968384d2e39e2d8af0fcf6fd46",
+      "https://stellar.expert/explorer/public/search?term=GDM4RQUQQUVSKQA7S6EM7XBZP3FCGH4Q7CL6TABQ7B2BEJ5ERARM2M5M"
+    ],
+    "reddit": [],
+    "technical_doc": [
+      "https://velo.org/doc/Velo_Whitepaper_EN.pdf"
+    ],
+    "source_code": [],
+    "announcement": [
+      "https://medium.com/@VeloProtocol"
+    ]
+  },
+  "tags": []
+}

@@ -1,0 +1,39 @@
+{
+  "id": 33280,
+  "rank": 166,
+  "name": "Cheems (cheems.pet)",
+  "symbol": "CHEEMS",
+  "price": 9.850810975344524e-7,
+  "change1h": -0.48907922,
+  "change24h": -2.47256742,
+  "change7d": 8.70459294,
+  "market_cap": 184697814.63880938,
+  "volume_24h": 2720935.29419911,
+  "circulating_supply": 187495034775398,
+  "max_supply": 203672960023058,
+  "sparkline7d": [],
+  "description": "Cheems (cheems.pet) (CHEEMS) is a cryptocurrency launched in 2024and operates on the BNB Smart Chain (BEP20) platform. Cheems (cheems.pet) has a current supply of 203,672,952,644,644.19 with 187,495,034,775,398 in circulation. The last known price of Cheems (cheems.pet) is 0.00000099 USD and is down -2.51 over the last 24 hours. It is currently trading on 69 active market(s) with $2,722,447.13 traded over the last 24 hours. More information can be found at https://cheems.pet/.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/33280.png",
+  "urls": {
+    "website": [
+      "https://cheems.pet/"
+    ],
+    "twitter": [
+      "https://twitter.com/LordCheems_bsc"
+    ],
+    "message_board": [],
+    "chat": [
+      "https://t.me/LordCheems_Bsc"
+    ],
+    "facebook": [],
+    "explorer": [
+      "https://bscscan.com/token/0x0df0587216a4a1bb7d5082fdc491d93d2dd4b413",
+      "https://app.nansen.ai/token-god-mode?chain=bnb&tab=transactions&tokenAddress=0x0df0587216a4a1bb7d5082fdc491d93d2dd4b413"
+    ],
+    "reddit": [],
+    "technical_doc": [],
+    "source_code": [],
+    "announcement": []
+  },
+  "tags": []
+}

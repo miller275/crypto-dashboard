@@ -1,0 +1,50 @@
+{
+  "id": 1168,
+  "rank": 135,
+  "name": "Decred",
+  "symbol": "DCR",
+  "price": 16.829629156837008,
+  "change1h": -0.51414557,
+  "change24h": -3.18736143,
+  "change7d": -2.69163302,
+  "market_cap": 289688810.8593257,
+  "volume_24h": 2168634.25760184,
+  "circulating_supply": 17213024.01613764,
+  "max_supply": 21000000,
+  "sparkline7d": [],
+  "description": "Decred (DCR) is a cryptocurrency launched in 2016. Users are able to generate DCR through the process of mining. Decred has a current supply of 17,213,024.01613764. The last known price of Decred is 16.83353501 USD and is down -3.28 over the last 24 hours. It is currently trading on 94 active market(s) with $2,166,628.80 traded over the last 24 hours. More information can be found at https://decred.org/.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/1168.png",
+  "urls": {
+    "website": [
+      "https://decred.org/",
+      "https://proposals.decred.org/"
+    ],
+    "twitter": [
+      "https://twitter.com/decredproject"
+    ],
+    "message_board": [
+      "https://medium.com/decred"
+    ],
+    "chat": [
+      "https://chat.decred.org/",
+      "https://t.me/Decred"
+    ],
+    "facebook": [],
+    "explorer": [
+      "https://dcrdata.decred.org/"
+    ],
+    "reddit": [
+      "https://reddit.com/r/decred"
+    ],
+    "technical_doc": [
+      "https://docs.decred.org/"
+    ],
+    "source_code": [
+      "https://github.com/decred"
+    ],
+    "announcement": [
+      "https://bitcointalk.org/index.php?topic=1290358.0"
+    ]
+  },
+  "tags": []
+}

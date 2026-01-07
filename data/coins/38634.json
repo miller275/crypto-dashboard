@@ -1,0 +1,48 @@
+{
+  "id": 38634,
+  "rank": 360,
+  "name": "Yei Finance",
+  "symbol": "CLO",
+  "price": 0.5246132180918481,
+  "change1h": 0.29361377,
+  "change24h": 2.60722009,
+  "change7d": 34.6926933,
+  "market_cap": 67727566.45565759,
+  "volume_24h": 15522639.17848669,
+  "circulating_supply": 129100000,
+  "max_supply": 1000000000,
+  "sparkline7d": [],
+  "description": "Yei Finance (CLO) is a cryptocurrency launched in 2025and operates on the BNB Smart Chain (BEP20) platform. Yei Finance has a current supply of 999,999,998.3 with 129,100,000 in circulation. The last known price of Yei Finance is 0.52617622 USD and is up 2.72 over the last 24 hours. It is currently trading on 68 active market(s) with $15,567,416.38 traded over the last 24 hours. More information can be found at https://www.yei.finance/.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/38634.png",
+  "urls": {
+    "website": [
+      "https://www.yei.finance/"
+    ],
+    "twitter": [
+      "https://twitter.com/YeiFinance"
+    ],
+    "message_board": [
+      "https://mirror.xyz/0x86fA5fd00219AB3Eb91e191B92095b535add4e04"
+    ],
+    "chat": [
+      "https://discord.com/invite/yei"
+    ],
+    "facebook": [],
+    "explorer": [
+      "https://bscscan.com/token/0x81D3A238b02827F62B9f390f947D36d4A5bf89D2",
+      "https://app.nansen.ai/token-god-mode?chain=bnb&tab=transactions&tokenAddress=0x81D3A238b02827F62B9f390f947D36d4A5bf89D2",
+      "https://seitrace.com/token/0x81D3A238b02827F62B9f390f947D36d4A5bf89D2"
+    ],
+    "reddit": [],
+    "technical_doc": [
+      "https://docs.yei.finance/"
+    ],
+    "source_code": [
+      "https://github.com/Yei-Finance/core-contracts"
+    ],
+    "announcement": [
+      "https://x.com/YeiFinance/status/1978083750610444550"
+    ]
+  },
+  "tags": []
+}

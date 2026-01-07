@@ -1,0 +1,41 @@
+{
+  "id": 34958,
+  "rank": 434,
+  "name": "Tagger",
+  "symbol": "TAG",
+  "price": 0.00047114454860443857,
+  "change1h": -0.35562437,
+  "change24h": -0.10978548,
+  "change7d": -14.72834339,
+  "market_cap": 51074223.42145722,
+  "volume_24h": 3896944.38587756,
+  "circulating_supply": 108404572594,
+  "max_supply": null,
+  "sparkline7d": [],
+  "description": "Tagger (TAG) is a cryptocurrency launched in 2024and operates on the BNB Smart Chain (BEP20) platform. Tagger has a current supply of 405,380,800,000 with 108,404,572,594 in circulation. The last known price of Tagger is 0.00047152 USD and is down -0.17 over the last 24 hours. It is currently trading on 70 active market(s) with $3,899,006.09 traded over the last 24 hours. More information can be found at https://www.tagger.pro.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/34958.png",
+  "urls": {
+    "website": [
+      "https://www.tagger.pro"
+    ],
+    "twitter": [
+      "https://twitter.com/TaggerAI"
+    ],
+    "message_board": [],
+    "chat": [
+      "https://t.me/Tagger_DATA"
+    ],
+    "facebook": [],
+    "explorer": [
+      "https://bscscan.com/token/0x208bf3e7da9639f1eaefa2de78c23396b0682025",
+      "https://app.nansen.ai/token-god-mode?chain=bnb&tab=transactions&tokenAddress=0x208bf3e7da9639f1eaefa2de78c23396b0682025"
+    ],
+    "reddit": [],
+    "technical_doc": [
+      "https://tagger.gitbook.io/tagger-documentation"
+    ],
+    "source_code": [],
+    "announcement": []
+  },
+  "tags": []
+}

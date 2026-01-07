@@ -1,0 +1,42 @@
+{
+  "id": 35763,
+  "rank": 236,
+  "name": "KAITO",
+  "symbol": "KAITO",
+  "price": 0.5514992177245864,
+  "change1h": -0.31634596,
+  "change24h": 3.57349529,
+  "change7d": 8.51162308,
+  "market_cap": 133125783.45090702,
+  "volume_24h": 32168990.61121997,
+  "circulating_supply": 241388889,
+  "max_supply": 1000000000,
+  "sparkline7d": [],
+  "description": "KAITO (KAITO) is a cryptocurrency and operates on the Base platform. KAITO has a current supply of 1,000,000,000 with 241,388,889 in circulation. The last known price of KAITO is 0.55481902 USD and is up 4.05 over the last 24 hours. It is currently trading on 247 active market(s) with $32,042,912.48 traded over the last 24 hours. More information can be found at https://yaps.kaito.ai/.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/35763.png",
+  "urls": {
+    "website": [
+      "https://yaps.kaito.ai/",
+      "https://kaito.ai/"
+    ],
+    "twitter": [
+      "https://twitter.com/kaitoai"
+    ],
+    "message_board": [],
+    "chat": [
+      "https://discord.com/invite/kaitoai"
+    ],
+    "facebook": [],
+    "explorer": [
+      "https://basescan.org/token/0x98d0baa52b2D063E780DE12F615f963Fe8537553",
+      "https://app.nansen.ai/token-god-mode?chain=base&tab=transactions&tokenAddress=0x98d0baa52b2D063E780DE12F615f963Fe8537553"
+    ],
+    "reddit": [],
+    "technical_doc": [
+      "https://docs.kaito.ai/"
+    ],
+    "source_code": [],
+    "announcement": []
+  },
+  "tags": []
+}

@@ -1,0 +1,39 @@
+{
+  "id": 14806,
+  "rank": 413,
+  "name": "ConstitutionDAO",
+  "symbol": "PEOPLE",
+  "price": 0.011008380738558136,
+  "change1h": -1.02996745,
+  "change24h": -2.2392948,
+  "change7d": 24.77712381,
+  "market_cap": 55703918.369770385,
+  "volume_24h": 19783297.32092846,
+  "circulating_supply": 5060137334.7,
+  "max_supply": null,
+  "sparkline7d": [],
+  "description": "ConstitutionDAO (PEOPLE) is a cryptocurrency and operates on the Ethereum platform. ConstitutionDAO has a current supply of 5,060,137,334.7. The last known price of ConstitutionDAO is 0.01101905 USD and is down -2.24 over the last 24 hours. It is currently trading on 321 active market(s) with $19,769,677.82 traded over the last 24 hours. More information can be found at https://www.constitutiondao.com/.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/14806.png",
+  "urls": {
+    "website": [
+      "https://www.constitutiondao.com/"
+    ],
+    "twitter": [
+      "https://twitter.com/constitutiondao"
+    ],
+    "message_board": [],
+    "chat": [],
+    "facebook": [],
+    "explorer": [
+      "https://etherscan.io/token/0x7a58c0be72be218b41c608b7fe7c5bb630736c71",
+      "https://app.nansen.ai/token-god-mode?chain=ethereum&tab=transactions&tokenAddress=0x7a58c0be72be218b41c608b7fe7c5bb630736c71",
+      "https://solscan.io/token/CobcsUrt3p91FwvULYKorQejgsm5HoQdv5T8RUZ6PnLA",
+      "https://explorer.solana.com/address/CobcsUrt3p91FwvULYKorQejgsm5HoQdv5T8RUZ6PnLA"
+    ],
+    "reddit": [],
+    "technical_doc": [],
+    "source_code": [],
+    "announcement": []
+  },
+  "tags": []
+}

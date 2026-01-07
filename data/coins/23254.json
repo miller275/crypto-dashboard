@@ -1,0 +1,44 @@
+{
+  "id": 23254,
+  "rank": 239,
+  "name": "Core",
+  "symbol": "CORE",
+  "price": 0.12669874708513765,
+  "change1h": -0.73511158,
+  "change24h": -2.36562459,
+  "change7d": 18.11654296,
+  "market_cap": 129455935.79511607,
+  "volume_24h": 8938449.93735377,
+  "circulating_supply": 1021761767.7633834,
+  "max_supply": 2100000000,
+  "sparkline7d": [],
+  "description": "Core (CORE) is a cryptocurrency launched in 2023. Core has a current supply of 2,093,769,839.03528109 with 1,021,761,767.76338344 in circulation. The last known price of Core is 0.12678349 USD and is down -2.42 over the last 24 hours. It is currently trading on 110 active market(s) with $8,929,020.75 traded over the last 24 hours. More information can be found at https://www.coredao.org/.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/23254.png",
+  "urls": {
+    "website": [
+      "https://www.coredao.org/"
+    ],
+    "twitter": [
+      "https://twitter.com/Coredao_Org"
+    ],
+    "message_board": [
+      "https://medium.com/@core_dao"
+    ],
+    "chat": [
+      "https://discord.gg/coredaoofficial"
+    ],
+    "facebook": [],
+    "explorer": [
+      "https://scan.coredao.org/"
+    ],
+    "reddit": [],
+    "technical_doc": [
+      "https://docs.coredao.org/core-white-paper-v1.0.5/"
+    ],
+    "source_code": [],
+    "announcement": [
+      "https://t.me/CoreDAOTelegram"
+    ]
+  },
+  "tags": []
+}

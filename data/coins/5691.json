@@ -1,0 +1,53 @@
+{
+  "id": 5691,
+  "rank": 364,
+  "name": "SKALE",
+  "symbol": "SKL",
+  "price": 0.010938243158931226,
+  "change1h": -1.0461697,
+  "change24h": -2.22392622,
+  "change7d": 14.2740385,
+  "market_cap": 66482397.679952495,
+  "volume_24h": 8102112.52911529,
+  "circulating_supply": 6077977671,
+  "max_supply": 7000000000,
+  "sparkline7d": [],
+  "description": "SKALE (SKL) is a cryptocurrency launched in 2020and operates on the Ethereum platform. SKALE has a current supply of 6,278,125,000 with 6,077,977,671 in circulation. The last known price of SKALE is 0.01094398 USD and is down -2.19 over the last 24 hours. It is currently trading on 242 active market(s) with $8,086,652.56 traded over the last 24 hours. More information can be found at https://skale.space/?utm_medium=website&utm_source=coinmarketcap&utm_campaign=skalepage.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/5691.png",
+  "urls": {
+    "website": [
+      "https://skale.space/?utm_medium=website&utm_source=coinmarketcap&utm_campaign=skalepage"
+    ],
+    "twitter": [
+      "https://twitter.com/SkaleNetwork"
+    ],
+    "message_board": [
+      "https://forum.skale.network/"
+    ],
+    "chat": [
+      "https://t.me/skaleofficial",
+      "http://skale.chat"
+    ],
+    "facebook": [
+      "https://www.facebook.com/SkaleNetwork/"
+    ],
+    "explorer": [
+      "https://etherscan.io/token/0x00c83aecc790e8a4453e5dd3b0b4b3680501a7a7",
+      "https://app.nansen.ai/token-god-mode?chain=ethereum&tab=transactions&tokenAddress=0x00c83aecc790e8a4453e5dd3b0b4b3680501a7a7",
+      "https://explorer.skale.space/"
+    ],
+    "reddit": [
+      "https://reddit.com/r/SKALEnetwork"
+    ],
+    "technical_doc": [
+      "https://skale.space/docs/?utm_medium=website&utm_source=coinmarketcap&utm_campaign=skalepage"
+    ],
+    "source_code": [
+      "https://github.com/skalenetwork"
+    ],
+    "announcement": [
+      "https://skale.space/blog/?utm_medium=website&utm_source=coinmarketcap&utm_campaign=skalepage"
+    ]
+  },
+  "tags": []
+}

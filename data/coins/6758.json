@@ -1,0 +1,51 @@
+{
+  "id": 6758,
+  "rank": 283,
+  "name": "SushiSwap",
+  "symbol": "SUSHI",
+  "price": 0.3347059102001623,
+  "change1h": -0.51219348,
+  "change24h": -2.81335048,
+  "change7d": 22.39977853,
+  "market_cap": 96004967.1766597,
+  "volume_24h": 16876357.41783885,
+  "circulating_supply": 286833797.2258882,
+  "max_supply": null,
+  "sparkline7d": [],
+  "description": "SushiSwap (SUSHI) is a cryptocurrency launched in 2020and operates on the Ethereum platform. SushiSwap has a current supply of 287,676,365.31480285 with 286,833,797.2258882 in circulation. The last known price of SushiSwap is 0.33526317 USD and is down -2.84 over the last 24 hours. It is currently trading on 960 active market(s) with $16,850,098.35 traded over the last 24 hours. More information can be found at https://sushi.com/.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/6758.png",
+  "urls": {
+    "website": [
+      "https://sushi.com/"
+    ],
+    "twitter": [
+      "https://twitter.com/sushiswap"
+    ],
+    "message_board": [
+      "https://www.sushi.com/blog"
+    ],
+    "chat": [
+      "https://sushi.com/discord"
+    ],
+    "facebook": [],
+    "explorer": [
+      "https://etherscan.io/token/0x6b3595068778dd592e39a122f4f5a5cf09c90fe2",
+      "https://app.nansen.ai/token-god-mode?chain=ethereum&tab=transactions&tokenAddress=0x6b3595068778dd592e39a122f4f5a5cf09c90fe2",
+      "https://bscscan.com/token/0x947950BcC74888a40Ffa2593C5798F11Fc9124C4",
+      "https://blockscout.com/xdai/mainnet/tokens/0x2995D1317DcD4f0aB89f4AE60F3f020A4F17C7CE/token-transfers"
+    ],
+    "reddit": [
+      "https://reddit.com/r/SushiSwap"
+    ],
+    "technical_doc": [
+      "https://docs.sushi.com/pdf/whitepaper.pdf"
+    ],
+    "source_code": [
+      "https://github.com/sushiswap/sushiswap"
+    ],
+    "announcement": [
+      "https://www.sushi.com/blog"
+    ]
+  },
+  "tags": []
+}

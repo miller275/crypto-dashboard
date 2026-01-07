@@ -1,0 +1,53 @@
+{
+  "id": 2499,
+  "rank": 213,
+  "name": "SwissBorg",
+  "symbol": "BORG",
+  "price": 0.25833830034697336,
+  "change1h": -0.81740639,
+  "change24h": -0.85364845,
+  "change7d": 5.58330902,
+  "market_cap": 253753426.75046787,
+  "volume_24h": 322105.26573329,
+  "circulating_supply": 982252443.442,
+  "max_supply": 982602443,
+  "sparkline7d": [],
+  "description": "SwissBorg (BORG) is a cryptocurrency launched in 2018and operates on the Ethereum platform. SwissBorg has a current supply of 982,252,443.442. The last known price of SwissBorg is 0.25843408 USD and is down -0.81 over the last 24 hours. It is currently trading on 52 active market(s) with $321,677.16 traded over the last 24 hours. More information can be found at https://swissborg.com/.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/2499.png",
+  "urls": {
+    "website": [
+      "https://swissborg.com/"
+    ],
+    "twitter": [
+      "https://twitter.com/swissborg"
+    ],
+    "message_board": [
+      "https://swissborg.com/blog"
+    ],
+    "chat": [
+      "https://t.me/SwissBorg",
+      "https://discord.gg/swissborg"
+    ],
+    "facebook": [
+      "https://www.facebook.com/swissborg/"
+    ],
+    "explorer": [
+      "https://etherscan.io/token/0x64d0f55cd8c7133a9d7102b13987235f486f2224",
+      "https://app.nansen.ai/token-god-mode?chain=ethereum&tab=transactions&tokenAddress=0x64d0f55cd8c7133a9d7102b13987235f486f2224",
+      "https://solscan.io/token/3dQTr7ror2QPKQ3GbBCokJUmjErGg8kTJzdnYjNfvi3Z"
+    ],
+    "reddit": [
+      "https://reddit.com/r/SwissBorg"
+    ],
+    "technical_doc": [
+      "https://cdn.sanity.io/files/bor5n0ip/production/cfe4b53c722e617dd84070a146c291ddb0fe75e9.pdf"
+    ],
+    "source_code": [
+      "https://github.com/SwissBorg"
+    ],
+    "announcement": [
+      "https://t.me/s/swissborg"
+    ]
+  },
+  "tags": []
+}

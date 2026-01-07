@@ -1,0 +1,44 @@
+{
+  "id": 35437,
+  "rank": 224,
+  "name": "Aster USDF",
+  "symbol": "USDF",
+  "price": 0.9977070099184909,
+  "change1h": -0.00034581,
+  "change24h": -0.04991716,
+  "change7d": 0.04120464,
+  "market_cap": 169917976.4305731,
+  "volume_24h": 155921.11903812,
+  "circulating_supply": 170308492.1137868,
+  "max_supply": null,
+  "sparkline7d": [],
+  "description": "Aster USDF (USDF) is a cryptocurrency launched in 2024and operates on the BNB Smart Chain (BEP20) platform. Aster USDF has a current supply of 170,308,492.11378678. The last known price of Aster USDF is 0.99770701 USD and is down -0.05 over the last 24 hours. It is currently trading on 30 active market(s) with $155,921.12 traded over the last 24 hours. More information can be found at https://www.asterdex.com/en/usdf.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/35437.png",
+  "urls": {
+    "website": [
+      "https://www.asterdex.com/en/usdf",
+      "https://bscscan.com/token/0x5A110fC00474038f6c02E89C707D638602EA44B5"
+    ],
+    "twitter": [
+      "https://twitter.com/Aster_DEX"
+    ],
+    "message_board": [],
+    "chat": [
+      "https://t.me/AsterDEX",
+      "http://discord.gg/invite/HzrgVv7n64"
+    ],
+    "facebook": [],
+    "explorer": [
+      "https://bscscan.com/token/0x5A110fC00474038f6c02E89C707D638602EA44B5",
+      "https://app.nansen.ai/token-god-mode?chain=bnb&tab=transactions&tokenAddress=0x5A110fC00474038f6c02E89C707D638602EA44B5",
+      "https://bscscan.com/address/0x5a110fc00474038f6c02e89c707d638602ea44b5"
+    ],
+    "reddit": [],
+    "technical_doc": [
+      "https://docs.asterdex.com/product/usdf-stablecoin"
+    ],
+    "source_code": [],
+    "announcement": []
+  },
+  "tags": []
+}

@@ -1,0 +1,51 @@
+{
+  "id": 1720,
+  "rank": 98,
+  "name": "IOTA",
+  "symbol": "IOTA",
+  "price": 0.10711715683189454,
+  "change1h": -0.49306189,
+  "change24h": -2.39520796,
+  "change7d": 31.65442596,
+  "market_cap": 453395338.59067166,
+  "volume_24h": 15557045.24092014,
+  "circulating_supply": 4232705124,
+  "max_supply": null,
+  "sparkline7d": [],
+  "description": "IOTA (IOTA) is a cryptocurrency launched in 2015. IOTA has a current supply of 4,600,000,000 with 4,232,705,124 in circulation. The last known price of IOTA is 0.10724775 USD and is down -2.35 over the last 24 hours. It is currently trading on 220 active market(s) with $15,578,241.67 traded over the last 24 hours. More information can be found at https://www.iota.org/.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/1720.png",
+  "urls": {
+    "website": [
+      "https://www.iota.org/"
+    ],
+    "twitter": [
+      "https://twitter.com/iota"
+    ],
+    "message_board": [
+      "https://forum.iota.org"
+    ],
+    "chat": [
+      "https://discord.iota.org/",
+      "https://t.me/IOTA_Official_Community"
+    ],
+    "facebook": [],
+    "explorer": [
+      "http://explorer.iota.org/?",
+      "https://bscscan.com/token/0xd944f1d1e9d5f9bb90b62f9d45e447d989580782",
+      "https://www.okx.com/web3/explorer/bsc/token/0xd944f1d1e9d5f9bb90b62f9d45e447d989580782"
+    ],
+    "reddit": [
+      "https://reddit.com/r/Iota"
+    ],
+    "technical_doc": [
+      "https://iota.org/IOTA_Whitepaper.pdf"
+    ],
+    "source_code": [
+      "https://github.com/iotaledger"
+    ],
+    "announcement": [
+      "https://bitcointalk.org/index.php?topic=1216479.0"
+    ]
+  },
+  "tags": []
+}

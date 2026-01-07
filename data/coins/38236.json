@@ -1,0 +1,48 @@
+{
+  "id": 38236,
+  "rank": 422,
+  "name": "Quack AI",
+  "symbol": "Q",
+  "price": 0.017762713492682783,
+  "change1h": 1.18739724,
+  "change24h": 1.49559713,
+  "change7d": -12.92016509,
+  "market_cap": 53883189.513192035,
+  "volume_24h": 9530971.67566495,
+  "circulating_supply": 3033499894.9,
+  "max_supply": 10000000000,
+  "sparkline7d": [],
+  "description": "Quack AI (Q) is a cryptocurrency launched in 2024and operates on the Ethereum platform. Quack AI has a current supply of 9,999,999,900 with 3,033,499,894.9 in circulation. The last known price of Quack AI is 0.01773223 USD and is up 1.16 over the last 24 hours. It is currently trading on 73 active market(s) with $9,519,341.23 traded over the last 24 hours. More information can be found at https://quackai.ai/.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/38236.png",
+  "urls": {
+    "website": [
+      "https://quackai.ai/"
+    ],
+    "twitter": [
+      "https://twitter.com/QuackAI_AI"
+    ],
+    "message_board": [
+      "https://medium.com/@quackai"
+    ],
+    "chat": [
+      "https://t.me/quackai_Community"
+    ],
+    "facebook": [],
+    "explorer": [
+      "https://etherscan.io/token/0xc07e1300dc138601fa6b0b59f8d0fa477e690589",
+      "https://app.nansen.ai/token-god-mode?chain=ethereum&tab=transactions&tokenAddress=0xc07e1300dc138601FA6B0b59f8D0FA477e690589",
+      "https://bscscan.com/token/0xc07e1300dc138601fa6b0b59f8d0fa477e690589"
+    ],
+    "reddit": [],
+    "technical_doc": [
+      "https://quackai.gitbook.io/docs"
+    ],
+    "source_code": [
+      "https://github.com/quackai-labs"
+    ],
+    "announcement": [
+      "https://t.me/QuackAIAnn"
+    ]
+  },
+  "tags": []
+}

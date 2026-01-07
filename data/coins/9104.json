@@ -1,0 +1,48 @@
+{
+  "id": 9104,
+  "rank": 199,
+  "name": "AIOZ Network",
+  "symbol": "AIOZ",
+  "price": 0.10970863049667755,
+  "change1h": -0.66402327,
+  "change24h": -3.09021223,
+  "change7d": 25.00297611,
+  "market_cap": 134767432.4002381,
+  "volume_24h": 7660616.91188191,
+  "circulating_supply": 1228412311.6851726,
+  "max_supply": null,
+  "sparkline7d": [],
+  "description": "AIOZ Network (AIOZ) is a cryptocurrency . AIOZ Network has a current supply of 1,228,412,311.68517265. The last known price of AIOZ Network is 0.10967526 USD and is down -3.05 over the last 24 hours. It is currently trading on 159 active market(s) with $7,637,837.09 traded over the last 24 hours. More information can be found at https://aioz.network/.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/9104.png",
+  "urls": {
+    "website": [
+      "https://aioz.network/"
+    ],
+    "twitter": [
+      "https://twitter.com/AIOZNetwork"
+    ],
+    "message_board": [
+      "https://medium.com/aioz-network"
+    ],
+    "chat": [
+      "https://t.me/aioznetwork",
+      "https://t.me/aiozofficial"
+    ],
+    "facebook": [],
+    "explorer": [
+      "https://etherscan.io/token/0x626E8036dEB333b408Be468F951bdB42433cBF18",
+      "https://app.nansen.ai/token-god-mode?chain=ethereum&tab=transactions&tokenAddress=0x626E8036dEB333b408Be468F951bdB42433cBF18",
+      "https://explorer.aioz.network/",
+      "https://bscscan.com/token/0x33d08D8C7a168333a85285a68C0042b39fC3741D"
+    ],
+    "reddit": [],
+    "technical_doc": [],
+    "source_code": [
+      "https://github.com/AIOZNetwork"
+    ],
+    "announcement": [
+      "https://t.me/aiozofficial"
+    ]
+  },
+  "tags": []
+}

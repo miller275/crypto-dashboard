@@ -1,0 +1,46 @@
+{
+  "id": 3822,
+  "rank": 190,
+  "name": "Theta Fuel",
+  "symbol": "TFUEL",
+  "price": 0.01955276798921672,
+  "change1h": 0.01407989,
+  "change24h": 2.91971841,
+  "change7d": 13.45854169,
+  "market_cap": 140526119.89017883,
+  "volume_24h": 4380152.93099602,
+  "circulating_supply": 7187019248,
+  "max_supply": null,
+  "sparkline7d": [],
+  "description": "Theta Fuel (TFUEL) is a cryptocurrency . Theta Fuel has a current supply of 7,187,019,248. The last known price of Theta Fuel is 0.01954264 USD and is up 2.84 over the last 24 hours. It is currently trading on 88 active market(s) with $4,378,437.13 traded over the last 24 hours. More information can be found at https://www.thetatoken.org.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/3822.png",
+  "urls": {
+    "website": [
+      "https://www.thetatoken.org"
+    ],
+    "twitter": [
+      "https://twitter.com/Theta_Network"
+    ],
+    "message_board": [
+      "https://medium.com/theta-network/theta-fuel-the-operational-token-of-the-theta-network-2f6823e2182e"
+    ],
+    "chat": [
+      "https://discord.com/invite/QfMpeZBfKB"
+    ],
+    "facebook": [],
+    "explorer": [
+      "https://explorer.thetatoken.org/"
+    ],
+    "reddit": [
+      "https://reddit.com/r/theta_network"
+    ],
+    "technical_doc": [
+      "https://s3.us-east-2.amazonaws.com/assets.thetatoken.org/Theta-white-paper-latest.pdf?v=1553657855.509"
+    ],
+    "source_code": [
+      "https://github.com/thetatoken/theta-protocol-ledger"
+    ],
+    "announcement": []
+  },
+  "tags": []
+}

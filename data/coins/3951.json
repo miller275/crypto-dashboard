@@ -1,0 +1,50 @@
+{
+  "id": 3951,
+  "rank": 447,
+  "name": "Pirate Chain",
+  "symbol": "ARRR",
+  "price": 0.24556374130071912,
+  "change1h": -1.19159858,
+  "change24h": -1.00283035,
+  "change7d": -7.55585233,
+  "market_cap": 48182994.324471705,
+  "volume_24h": 124510.90992822,
+  "circulating_supply": 196213797.97055,
+  "max_supply": null,
+  "sparkline7d": [],
+  "description": "Pirate Chain (ARRR) is a cryptocurrency launched in 2018. Users are able to generate ARRR through the process of mining. Pirate Chain has a current supply of 196,213,797.97055. The last known price of Pirate Chain is 0.24621966 USD and is up 0.83 over the last 24 hours. It is currently trading on 22 active market(s) with $124,538.62 traded over the last 24 hours. More information can be found at https://piratechain.com/.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/3951.png",
+  "urls": {
+    "website": [
+      "https://piratechain.com/"
+    ],
+    "twitter": [
+      "https://twitter.com/PirateChain"
+    ],
+    "message_board": [
+      "https://medium.com/piratechain",
+      "https://pirate.black/blog"
+    ],
+    "chat": [
+      "https://t.me/piratechain",
+      "https://piratechain.com/discord"
+    ],
+    "facebook": [],
+    "explorer": [
+      "https://explorer.piratechain.com/"
+    ],
+    "reddit": [
+      "https://reddit.com/r/piratechain"
+    ],
+    "technical_doc": [
+      "https://piratechain.com/whitepaper/"
+    ],
+    "source_code": [
+      "https://github.com/PirateNetwork"
+    ],
+    "announcement": [
+      "https://bitcointalk.org/index.php?topic=4979549.0"
+    ]
+  },
+  "tags": []
+}

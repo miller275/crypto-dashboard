@@ -1,0 +1,45 @@
+{
+  "id": 19269,
+  "rank": 240,
+  "name": "CoW Protocol",
+  "symbol": "COW",
+  "price": 0.23126696713344885,
+  "change1h": -0.49908723,
+  "change24h": -2.2608085,
+  "change7d": 7.96471414,
+  "market_cap": 127695043.89151782,
+  "volume_24h": 4124829.61887476,
+  "circulating_supply": 552154272.0704832,
+  "max_supply": 1000000000,
+  "sparkline7d": [],
+  "description": "CoW Protocol (COW) is a cryptocurrency launched in 2021and operates on the Ethereum platform. CoW Protocol has a current supply of 1,000,000,000 with 552,154,272.07048321 in circulation. The last known price of CoW Protocol is 0.23140409 USD and is down -2.28 over the last 24 hours. It is currently trading on 202 active market(s) with $4,122,532.38 traded over the last 24 hours. More information can be found at https://cow.fi.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/19269.png",
+  "urls": {
+    "website": [
+      "https://cow.fi",
+      "https://cowswap.exchange"
+    ],
+    "twitter": [
+      "https://twitter.com/CoWSwap"
+    ],
+    "message_board": [
+      "https://medium.com/@cow-protocol"
+    ],
+    "chat": [
+      "https://discord.gg/cowprotocol"
+    ],
+    "facebook": [],
+    "explorer": [
+      "https://etherscan.io/token/0xDEf1CA1fb7FBcDC777520aa7f396b4E015F497aB",
+      "https://app.nansen.ai/token-god-mode?chain=ethereum&tab=transactions&tokenAddress=0xDEf1CA1fb7FBcDC777520aa7f396b4E015F497aB",
+      "https://blockscout.com/xdai/mainnet/token/0x177127622c4A00F3d409B75571e12cB3c8973d3c/token-transfers"
+    ],
+    "reddit": [],
+    "technical_doc": [],
+    "source_code": [
+      "https://github.com/gnosis/cowswap"
+    ],
+    "announcement": []
+  },
+  "tags": []
+}

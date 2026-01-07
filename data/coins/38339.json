@@ -1,0 +1,53 @@
+{
+  "id": 38339,
+  "rank": 271,
+  "name": "Unibase",
+  "symbol": "UB",
+  "price": 0.041064703127630886,
+  "change1h": 2.427756,
+  "change24h": 9.38961714,
+  "change7d": 16.19560164,
+  "market_cap": 102661757.81907721,
+  "volume_24h": 10632323.30077991,
+  "circulating_supply": 2500000000,
+  "max_supply": 10000000000,
+  "sparkline7d": [],
+  "description": "Unibase (UB) is a cryptocurrency launched in 2025and operates on the Ethereum platform. Unibase has a current supply of 10,000,000,000 with 2,500,000,000 in circulation. The last known price of Unibase is 0.04068443 USD and is up 8.02 over the last 24 hours. It is currently trading on 76 active market(s) with $10,313,144.77 traded over the last 24 hours. More information can be found at https://www.unibase.com.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/38339.png",
+  "urls": {
+    "website": [
+      "https://www.unibase.com",
+      "https://www.bitagent.io"
+    ],
+    "twitter": [
+      "https://twitter.com/unibase_ai"
+    ],
+    "message_board": [
+      "https://medium.com/@unibase"
+    ],
+    "chat": [
+      "https://t.me/unibase_ai"
+    ],
+    "facebook": [
+      "https://www.facebook.com/unibase_ai"
+    ],
+    "explorer": [
+      "https://etherscan.io/token/0x6944E1DF6Bf5972305f9Ab25dF47ef10De01bcc8",
+      "https://app.nansen.ai/token-god-mode?chain=ethereum&tab=transactions&tokenAddress=0x6944E1DF6Bf5972305f9Ab25dF47ef10De01bcc8",
+      "https://www.explorer.unibase.com"
+    ],
+    "reddit": [
+      "https://reddit.com/r/unibase"
+    ],
+    "technical_doc": [
+      "https://openos-labs.gitbook.io/unibase-docs/unibase-whitepaper"
+    ],
+    "source_code": [
+      "https://github.com/unibaseio"
+    ],
+    "announcement": [
+      "https://x.com/unibase_ai"
+    ]
+  },
+  "tags": []
+}

@@ -1,0 +1,53 @@
+{
+  "id": 4642,
+  "rank": 23,
+  "name": "Hedera",
+  "symbol": "HBAR",
+  "price": 0.12240423257544754,
+  "change1h": -0.63792633,
+  "change24h": -3.24981225,
+  "change7d": 14.95077024,
+  "market_cap": 5238061166.542733,
+  "volume_24h": 199307697.45783046,
+  "circulating_supply": 42793137592.80421,
+  "max_supply": 50000000000,
+  "sparkline7d": [],
+  "description": "Hedera (HBAR) is a cryptocurrency launched in 2017. Hedera has a current supply of 50,000,000,000 with 42,793,137,592.80420788 in circulation. The last known price of Hedera is 0.12262058 USD and is down -3.20 over the last 24 hours. It is currently trading on 410 active market(s) with $199,485,381.33 traded over the last 24 hours. More information can be found at https://www.hedera.com/.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/4642.png",
+  "urls": {
+    "website": [
+      "https://www.hedera.com/"
+    ],
+    "twitter": [
+      "https://twitter.com/hedera"
+    ],
+    "message_board": [
+      "https://hedera.com/blog",
+      "https://medium.com/hashgraph"
+    ],
+    "chat": [
+      "https://t.me/hederahashgraph",
+      "https://hedera.com/discord"
+    ],
+    "facebook": [],
+    "explorer": [
+      "https://app.dragonglass.me/hedera/home",
+      "https://app.metrika.co/hedera/dashboard/network-overview?tr=1d",
+      "https://ledger.hashlog.io/",
+      "https://hashscan.io/"
+    ],
+    "reddit": [
+      "https://reddit.com/r/hedera"
+    ],
+    "technical_doc": [
+      "https://www.hedera.com/papers"
+    ],
+    "source_code": [
+      "https://github.com/hashgraph"
+    ],
+    "announcement": [
+      "https://hedera.com/news"
+    ]
+  },
+  "tags": []
+}

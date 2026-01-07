@@ -1,0 +1,49 @@
+{
+  "id": 37070,
+  "rank": 353,
+  "name": "Impossible Cloud Network",
+  "symbol": "ICNT",
+  "price": 0.41569123744742276,
+  "change1h": 1.50744673,
+  "change24h": 11.63619421,
+  "change7d": -23.02202381,
+  "market_cap": 69514450.21536319,
+  "volume_24h": 9631243.25282825,
+  "circulating_supply": 167226162,
+  "max_supply": 700000000,
+  "sparkline7d": [],
+  "description": "Impossible Cloud Network (ICNT) is a cryptocurrency launched in 2024and operates on the Ethereum platform. Impossible Cloud Network has a current supply of 700,000,000 with 167,226,162 in circulation. The last known price of Impossible Cloud Network is 0.41726784 USD and is up 11.77 over the last 24 hours. It is currently trading on 97 active market(s) with $9,523,337.09 traded over the last 24 hours. More information can be found at https://www.icn.global/.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/37070.png",
+  "urls": {
+    "website": [
+      "https://www.icn.global/"
+    ],
+    "twitter": [
+      "https://twitter.com/icn_protocol"
+    ],
+    "message_board": [
+      "https://icnprotocol.substack.com/",
+      "https://www.icn.global/blogs-articles"
+    ],
+    "chat": [
+      "https://t.me/ICN_Protocol"
+    ],
+    "facebook": [],
+    "explorer": [
+      "https://basescan.org/token/0xE0Cd4cAcDdcBF4f36e845407CE53E87717b6601d",
+      "https://app.nansen.ai/token-god-mode?chain=base&tab=transactions&tokenAddress=0xE0Cd4cAcDdcBF4f36e845407CE53E87717b6601d",
+      "https://etherscan.io/token/0xe5e0b73380181273abCfD88695F52C4D0C825661"
+    ],
+    "reddit": [],
+    "technical_doc": [
+      "https://console.impossiblecloud.com/static/icn/whitepaper.pdf"
+    ],
+    "source_code": [
+      "https://docs.icn.global/"
+    ],
+    "announcement": [
+      "https://www.icn.global/"
+    ]
+  },
+  "tags": []
+}

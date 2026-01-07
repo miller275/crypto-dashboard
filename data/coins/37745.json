@@ -1,0 +1,43 @@
+{
+  "id": 37745,
+  "rank": 207,
+  "name": "c8ntinuum",
+  "symbol": "CTM",
+  "price": 0.12646063685980494,
+  "change1h": -0.47752862,
+  "change24h": -1.73923669,
+  "change7d": 3.76058134,
+  "market_cap": 551310471.3230793,
+  "volume_24h": 927160.73736442,
+  "circulating_supply": 4359542107.432732,
+  "max_supply": 8888888888,
+  "sparkline7d": [],
+  "description": "c8ntinuum (CTM) is a cryptocurrency launched in 2025and operates on the Ethereum platform. c8ntinuum has a current supply of 4,359,542,107.432732. The last known price of c8ntinuum is 0.12643971 USD and is down -1.77 over the last 24 hours. It is currently trading on 6 active market(s) with $925,304.45 traded over the last 24 hours. More information can be found at https://c8ntinuum.com/.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/37745.png",
+  "urls": {
+    "website": [
+      "https://c8ntinuum.com/"
+    ],
+    "twitter": [
+      "https://twitter.com/c8ntinuum"
+    ],
+    "message_board": [],
+    "chat": [
+      "https://t.me/c8ntinuumANN"
+    ],
+    "facebook": [],
+    "explorer": [
+      "https://etherscan.io/token/0xc8ef4398664b2eed5ee560544f659083d98a3888",
+      "https://app.nansen.ai/token-god-mode?chain=ethereum&tab=transactions&tokenAddress=0xc8EF4398664b2eeD5ee560544f659083d98A3888",
+      "https://solscan.io/token/C8qKVjKNf6JH2yrVVf3aFyny6ZCbHCJUBXTQAT2Em888",
+      "https://bscscan.com/token/0xc8EF4398664b2eeD5ee560544f659083d98A3888"
+    ],
+    "reddit": [],
+    "technical_doc": [
+      "https://c8ntinuum.com/lightpaper_ctm.pdf"
+    ],
+    "source_code": [],
+    "announcement": []
+  },
+  "tags": []
+}

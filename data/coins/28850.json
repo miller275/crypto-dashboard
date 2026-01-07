@@ -1,0 +1,40 @@
+{
+  "id": 28850,
+  "rank": 386,
+  "name": "Notcoin",
+  "symbol": "NOT",
+  "price": 0.0006099421676857878,
+  "change1h": -1.35969435,
+  "change24h": -1.1733665,
+  "change7d": 20.16047243,
+  "market_cap": 60646187.40923366,
+  "volume_24h": 11837276.20425319,
+  "circulating_supply": 99429405970.2978,
+  "max_supply": 102456957533.56,
+  "sparkline7d": [],
+  "description": "Notcoin (NOT) is a cryptocurrency launched in 2023and operates on the TON platform. Notcoin has a current supply of 102,452,755,971.9109 with 99,429,405,970.2978 in circulation. The last known price of Notcoin is 0.00061072 USD and is down -1.30 over the last 24 hours. It is currently trading on 258 active market(s) with $11,846,197.22 traded over the last 24 hours. More information can be found at https://notco.in/.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/28850.png",
+  "urls": {
+    "website": [
+      "https://notco.in/"
+    ],
+    "twitter": [
+      "https://twitter.com/thenotcoin"
+    ],
+    "message_board": [],
+    "chat": [
+      "https://t.me/notcoin"
+    ],
+    "facebook": [],
+    "explorer": [
+      "https://tonviewer.com/EQAvlWFDxGF2lXm67y4yzC17wYKD9A0guwPkMs1gOsM__NOT"
+    ],
+    "reddit": [],
+    "technical_doc": [
+      "https://cdn.joincommunity.xyz/notcoin/Notcoin_Whitepaper.pdf"
+    ],
+    "source_code": [],
+    "announcement": []
+  },
+  "tags": []
+}

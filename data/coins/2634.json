@@ -1,0 +1,53 @@
+{
+  "id": 2634,
+  "rank": 68,
+  "name": "XDC Network",
+  "symbol": "XDC",
+  "price": 0.05021304274962364,
+  "change1h": -0.07774731,
+  "change24h": -3.34739048,
+  "change7d": -1.55201474,
+  "market_cap": 958212562.2022471,
+  "volume_24h": 30169884.94994886,
+  "circulating_supply": 19082941597.07,
+  "max_supply": null,
+  "sparkline7d": [],
+  "description": "XDC Network (XDC) is a cryptocurrency launched in 2019. XDC Network has a current supply of 38,043,141,176.25 with 19,082,941,597.06999969 in circulation. The last known price of XDC Network is 0.05024005 USD and is down -3.32 over the last 24 hours. It is currently trading on 202 active market(s) with $30,148,256.86 traded over the last 24 hours. More information can be found at https://www.xinfin.org/.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/2634.png",
+  "urls": {
+    "website": [
+      "https://www.xinfin.org/",
+      "https://www.xdc.org/"
+    ],
+    "twitter": [
+      "https://twitter.com/XDCNetwork"
+    ],
+    "message_board": [
+      "https://medium.com/xinfin/"
+    ],
+    "chat": [
+      "https://t.me/XDC_Network_Updates",
+      "https://t.me/xinfintech"
+    ],
+    "facebook": [
+      "https://www.facebook.com/XDCNetworkBlockchain"
+    ],
+    "explorer": [
+      "https://xdcscan.com",
+      "https://xdcscan.io"
+    ],
+    "reddit": [
+      "https://reddit.com/r/xinfin"
+    ],
+    "technical_doc": [
+      "https://xinfin.org/docs/whitepaper-tech.pdf"
+    ],
+    "source_code": [
+      "https://github.com/xinfinorg"
+    ],
+    "announcement": [
+      "https://bitcointalk.org/index.php?topic=1989818.0"
+    ]
+  },
+  "tags": []
+}

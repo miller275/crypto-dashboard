@@ -1,0 +1,52 @@
+{
+  "id": 10804,
+  "rank": 89,
+  "name": "FLOKI",
+  "symbol": "FLOKI",
+  "price": 0.00005519863865723176,
+  "change1h": -1.27749778,
+  "change24h": -1.80282671,
+  "change7d": 41.29414593,
+  "market_cap": 526579172.07903594,
+  "volume_24h": 78773957.89102517,
+  "circulating_supply": 9539713023521.225,
+  "max_supply": null,
+  "sparkline7d": [],
+  "description": "FLOKI (FLOKI) is a cryptocurrency launched in 2021and operates on the Ethereum platform. FLOKI has a current supply of 9,653,175,033,062.4418106 with 9,539,713,023,521.22378297 in circulation. The last known price of FLOKI is 0.00005529 USD and is down -1.77 over the last 24 hours. It is currently trading on 686 active market(s) with $78,609,874.38 traded over the last 24 hours. More information can be found at https://floki.com/.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/10804.png",
+  "urls": {
+    "website": [
+      "https://floki.com/"
+    ],
+    "twitter": [
+      "https://twitter.com/RealFlokiInu"
+    ],
+    "message_board": [
+      "https://realflokiinu.medium.com/"
+    ],
+    "chat": [
+      "https://t.me/FlokiInuToken",
+      "https://discord.gg/floki"
+    ],
+    "facebook": [
+      "https://www.facebook.com/theflokiinu/"
+    ],
+    "explorer": [
+      "https://etherscan.io/token/0xcf0c122c6b73ff809c693db761e7baebe62b6a2e",
+      "https://app.nansen.ai/token-god-mode?chain=ethereum&tab=transactions&tokenAddress=0xcf0c122c6b73ff809c693db761e7baebe62b6a2e",
+      "https://bscscan.com/token/0xfb5b838b6cfeedc2873ab27866079ac55363d37e",
+      "https://www.oklink.com/eth/token/0xcf0c122c6b73ff809c693db761e7baebe62b6a2e"
+    ],
+    "reddit": [
+      "https://reddit.com/r/Floki"
+    ],
+    "technical_doc": [
+      "https://docs.floki.com/"
+    ],
+    "source_code": [
+      "https://github.com/floki-inu"
+    ],
+    "announcement": []
+  },
+  "tags": []
+}

@@ -1,0 +1,54 @@
+{
+  "id": 7288,
+  "rank": 334,
+  "name": "Venus",
+  "symbol": "XVS",
+  "price": 4.543149806991985,
+  "change1h": -0.1313553,
+  "change24h": -1.31021641,
+  "change7d": 8.31757133,
+  "market_cap": 74594821.21706788,
+  "volume_24h": 4779302.99436994,
+  "circulating_supply": 16419185.89218986,
+  "max_supply": null,
+  "sparkline7d": [],
+  "description": "Venus (XVS) is a cryptocurrency launched in 2020and operates on the Ethereum platform. Venus has a current supply of 30,000,000 with 16,419,185.89218986 in circulation. The last known price of Venus is 4.54835408 USD and is down -1.19 over the last 24 hours. It is currently trading on 296 active market(s) with $4,782,903.54 traded over the last 24 hours. More information can be found at https://venus.io/.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/7288.png",
+  "urls": {
+    "website": [
+      "https://venus.io/",
+      "https://app.venus.io/"
+    ],
+    "twitter": [
+      "https://twitter.com/VenusProtocol"
+    ],
+    "message_board": [
+      "https://community.venus.io/"
+    ],
+    "chat": [
+      "https://t.me/VenusProtocol",
+      "https://discord.gg/venus-protocol-912811548651708448"
+    ],
+    "facebook": [],
+    "explorer": [
+      "https://etherscan.io/token/0xd3CC9d8f3689B83c91b7B59cAB4946B063EB894A",
+      "https://app.nansen.ai/token-god-mode?chain=ethereum&tab=transactions&tokenAddress=0xd3CC9d8f3689B83c91b7B59cAB4946B063EB894A",
+      "https://bscscan.com/token/0xcf6bb5389c92bdda8a3747ddb454cb7a64626c63",
+      "https://opbnbscan.com/token/0x3E2e61F1c075881F3fB8dd568043d8c221fd5c61",
+      "https://explorer.zksync.io/address/0xD78ABD81a3D57712a3af080dc4185b698Fe9ac5A"
+    ],
+    "reddit": [
+      "https://reddit.com/r/venusprotocol"
+    ],
+    "technical_doc": [
+      "https://github.com/VenusProtocol/venus-protocol-documentation/tree/main/whitepapers"
+    ],
+    "source_code": [
+      "https://github.com/VenusProtocol"
+    ],
+    "announcement": [
+      "https://t.me/VenusNewsBroadcast"
+    ]
+  },
+  "tags": []
+}

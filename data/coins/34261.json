@@ -1,0 +1,49 @@
+{
+  "id": 34261,
+  "rank": 217,
+  "name": "WeFi",
+  "symbol": "WFI",
+  "price": 2.7238619188303037,
+  "change1h": 0.01554535,
+  "change24h": -0.70865648,
+  "change7d": -0.33246916,
+  "market_cap": 210281782.40063712,
+  "volume_24h": 2114255.84896773,
+  "circulating_supply": 77199868.66696148,
+  "max_supply": 1000000000,
+  "sparkline7d": [],
+  "description": "WeFi (WFI) is a cryptocurrency launched in 2024and operates on the BNB Smart Chain (BEP20) platform. WeFi has a current supply of 1,000,000,000 with 77,199,868.66696147 in circulation. The last known price of WeFi is 2.72279857 USD and is down -0.79 over the last 24 hours. It is currently trading on 12 active market(s) with $2,114,698.19 traded over the last 24 hours. More information can be found at https://wefi.co/.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/34261.png",
+  "urls": {
+    "website": [
+      "https://wefi.co/",
+      "https://wechain.ai/"
+    ],
+    "twitter": [
+      "https://twitter.com/wefi_official"
+    ],
+    "message_board": [
+      "https://medium.com/@wefi_official"
+    ],
+    "chat": [
+      "https://t.me/wefi_announcements",
+      "https://www.instagram.com/wefi_official/"
+    ],
+    "facebook": [],
+    "explorer": [
+      "https://bscscan.com/token/0x90c48855bb69f9d2c261efd0d8c7f35990f2dd6f",
+      "https://app.nansen.ai/token-god-mode?chain=bnb&tab=transactions&tokenAddress=0x90c48855bb69f9d2c261efd0d8c7f35990f2dd6f"
+    ],
+    "reddit": [],
+    "technical_doc": [
+      "https://gitbook.wechain.ai/"
+    ],
+    "source_code": [
+      "https://github.com/wefico/wefi-contracts"
+    ],
+    "announcement": [
+      "https://decrypt.co/292077/wefi-to-enter-new-phase-of-defi-following-november-wfi-token-generation-event"
+    ]
+  },
+  "tags": []
+}

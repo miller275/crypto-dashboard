@@ -1,0 +1,49 @@
+{
+  "id": 9260,
+  "rank": 316,
+  "name": "ZIGChain",
+  "symbol": "ZIG",
+  "price": 0.05844225604041873,
+  "change1h": -0.01808884,
+  "change24h": 0.18744198,
+  "change7d": 2.89467563,
+  "market_cap": 82341678.7011869,
+  "volume_24h": 2105923.98619891,
+  "circulating_supply": 1408940795.2396517,
+  "max_supply": 1953940796,
+  "sparkline7d": [],
+  "description": "ZIGChain (ZIG) is a cryptocurrency launched in 2021and operates on the Ethereum platform. ZIGChain has a current supply of 2,000,000,000 with 1,408,940,795.2396517 in circulation. The last known price of ZIGChain is 0.0584379 USD and is up 0.24 over the last 24 hours. It is currently trading on 128 active market(s) with $2,121,229.43 traded over the last 24 hours. More information can be found at https://zigchain.com/.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/9260.png",
+  "urls": {
+    "website": [
+      "https://zigchain.com/",
+      "https://zignaly.com/"
+    ],
+    "twitter": [
+      "https://twitter.com/ZIGChain"
+    ],
+    "message_board": [
+      "https://medium.com/zignaly"
+    ],
+    "chat": [
+      "https://discord.zignaly.com/"
+    ],
+    "facebook": [],
+    "explorer": [
+      "https://etherscan.io/token/0xb2617246d0c6c0087f18703d576831899ca94f01",
+      "https://app.nansen.ai/token-god-mode?chain=ethereum&tab=transactions&tokenAddress=0xb2617246d0c6c0087f18703d576831899ca94f01",
+      "https://solscan.io/token/26f12PmBk77wQV1TzLe8XKkNBvMFggbuypxdtMLzNLzz",
+      "https://bscscan.com/token/0x8C907e0a72C3d55627E853f4ec6a96b0C8771145",
+      "https://polygonscan.com/address/0x7bebd226154e865954a87650faefa8f485d36081"
+    ],
+    "reddit": [],
+    "technical_doc": [
+      "https://docs.zigchain.com/"
+    ],
+    "source_code": [],
+    "announcement": [
+      "https://t.me/zignalyannouncement"
+    ]
+  },
+  "tags": []
+}

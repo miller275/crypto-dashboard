@@ -1,0 +1,39 @@
+{
+  "id": 33881,
+  "rank": 337,
+  "name": "Comedian",
+  "symbol": "BAN",
+  "price": 0.07406655952947507,
+  "change1h": -0.93229669,
+  "change24h": -3.96757285,
+  "change7d": -7.87327222,
+  "market_cap": 74063734.55682805,
+  "volume_24h": 8729960.0826719,
+  "circulating_supply": 999961859,
+  "max_supply": 999961859,
+  "sparkline7d": [],
+  "description": "Comedian (BAN) is a cryptocurrency launched in 2024and operates on the Solana platform. Comedian has a current supply of 999,961,859. The last known price of Comedian is 0.07408269 USD and is down -3.97 over the last 24 hours. It is currently trading on 112 active market(s) with $8,706,389.41 traded over the last 24 hours. More information can be found at https://comedian.meme/.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/33881.png",
+  "urls": {
+    "website": [
+      "https://comedian.meme/"
+    ],
+    "twitter": [
+      "https://twitter.com/ban_comedian"
+    ],
+    "message_board": [],
+    "chat": [
+      "https://t.me/comedian_ban"
+    ],
+    "facebook": [],
+    "explorer": [
+      "https://solscan.io/token/9PR7nCP9DpcUotnDPVLUBUZKu5WAYkwrCUx9wDnSpump",
+      "https://app.nansen.ai/token-god-mode?chain=solana&tab=transactions&tokenAddress=9PR7nCP9DpcUotnDPVLUBUZKu5WAYkwrCUx9wDnSpump"
+    ],
+    "reddit": [],
+    "technical_doc": [],
+    "source_code": [],
+    "announcement": []
+  },
+  "tags": []
+}

@@ -1,0 +1,50 @@
+{
+  "id": 2469,
+  "rank": 272,
+  "name": "Zilliqa",
+  "symbol": "ZIL",
+  "price": 0.005186246510711105,
+  "change1h": -0.56095218,
+  "change24h": -1.00747123,
+  "change7d": 11.19578446,
+  "market_cap": 101862269.5616112,
+  "volume_24h": 14318551.70052246,
+  "circulating_supply": 19640846101.5565,
+  "max_supply": 21000000000,
+  "sparkline7d": [],
+  "description": "Zilliqa (ZIL) is a cryptocurrency launched in 2017. Users are able to generate ZIL through the process of mining. Zilliqa has a current supply of 20,322,001,527.2665 with 19,640,846,101.5565 in circulation. The last known price of Zilliqa is 0.00519405 USD and is down -0.92 over the last 24 hours. It is currently trading on 397 active market(s) with $14,315,323.82 traded over the last 24 hours. More information can be found at https://www.zilliqa.com/.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/2469.png",
+  "urls": {
+    "website": [
+      "https://www.zilliqa.com/"
+    ],
+    "twitter": [
+      "https://twitter.com/zilliqa"
+    ],
+    "message_board": [
+      "https://blog.zilliqa.com"
+    ],
+    "chat": [
+      "https://t.me/zilliqachat"
+    ],
+    "facebook": [],
+    "explorer": [
+      "https://viewblock.io/zilliqa",
+      "https://app.nansen.ai/token-god-mode?chain=ethereum&tab=transactions&tokenAddress=0x05f4a42e251f2d52b8ed15e9fedaacfcef1fad27",
+      "https://bscscan.com/token/0xb86abcb37c3a4b64f74f59301aff131a1becc787",
+      "https://www.oklink.com/bsc/token/0xb86abcb37c3a4b64f74f59301aff131a1becc787",
+      "https://evmx.zilliqa.com/overview"
+    ],
+    "reddit": [
+      "https://reddit.com/r/zilliqa"
+    ],
+    "technical_doc": [
+      "https://docs.zilliqa.com/whitepaper.pdf"
+    ],
+    "source_code": [
+      "https://github.com/Zilliqa/Zilliqa"
+    ],
+    "announcement": []
+  },
+  "tags": []
+}

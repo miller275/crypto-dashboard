@@ -1,0 +1,48 @@
+{
+  "id": 4950,
+  "rank": 384,
+  "name": "LCX",
+  "symbol": "LCX",
+  "price": 0.06535326008813411,
+  "change1h": -0.90671746,
+  "change24h": -5.08582306,
+  "change7d": 27.64592014,
+  "market_cap": 62050901.82218573,
+  "volume_24h": 310205.08291733,
+  "circulating_supply": 949469112,
+  "max_supply": 950000000,
+  "sparkline7d": [],
+  "description": "LCX (LCX) is a cryptocurrency launched in 2019and operates on the Ethereum platform. LCX has a current supply of 950,000,000 with 949,469,112 in circulation. The last known price of LCX is 0.06569435 USD and is down -3.94 over the last 24 hours. It is currently trading on 96 active market(s) with $309,660.70 traded over the last 24 hours. More information can be found at https://www.lcx.com.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/4950.png",
+  "urls": {
+    "website": [
+      "https://www.lcx.com",
+      "http://t.me/LCXNews"
+    ],
+    "twitter": [
+      "https://twitter.com/LCX"
+    ],
+    "message_board": [
+      "https://www.lcx.com/insights/"
+    ],
+    "chat": [
+      "http://t.me/JoinLCX",
+      "https://t.me/LCXnews"
+    ],
+    "facebook": [],
+    "explorer": [
+      "https://etherscan.io/token/0x037a54aab062628c9bbae1fdb1583c195585fe41",
+      "https://app.nansen.ai/token-god-mode?chain=ethereum&tab=transactions&tokenAddress=0x037a54aab062628c9bbae1fdb1583c195585fe41",
+      "https://ethplorer.io/address/0x037a54aab062628c9bbae1fdb1583c195585fe41"
+    ],
+    "reddit": [],
+    "technical_doc": [
+      "https://www.lcx.com/documents/"
+    ],
+    "source_code": [],
+    "announcement": [
+      "https://twitter.com/lcx"
+    ]
+  },
+  "tags": []
+}

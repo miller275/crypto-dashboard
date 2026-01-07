@@ -1,0 +1,40 @@
+{
+  "id": 7959,
+  "rank": 391,
+  "name": "Venus BUSD",
+  "symbol": "vBUSD",
+  "price": 0.022309851551292843,
+  "change1h": 0,
+  "change24h": 0,
+  "change7d": 0.08004803,
+  "market_cap": 60119929.150507644,
+  "volume_24h": 0,
+  "circulating_supply": 2694770470,
+  "max_supply": null,
+  "sparkline7d": [],
+  "description": "Venus BUSD (vBUSD) is a cryptocurrency and operates on the BNB Smart Chain (BEP20) platform. Venus BUSD has a current supply of 2,694,770,470. The last known price of Venus BUSD is 0.02231208 USD and is up 0.01 over the last 24 hours. It is currently trading on 5 active market(s) with $0.00 traded over the last 24 hours. More information can be found at https://app.venus.io/dashboard.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/7959.png",
+  "urls": {
+    "website": [
+      "https://app.venus.io/dashboard"
+    ],
+    "twitter": [],
+    "message_board": [
+      "https://medium.com/VenusProtocol"
+    ],
+    "chat": [
+      "https://t.me/VenusProtocol"
+    ],
+    "facebook": [],
+    "explorer": [
+      "https://bscscan.com/token/0x95c78222B3D6e262426483D42CfA53685A67Ab9D",
+      "https://app.nansen.ai/token-god-mode?chain=bnb&tab=transactions&tokenAddress=0x95c78222B3D6e262426483D42CfA53685A67Ab9D",
+      "https://bscscan.com/address/0x95c78222B3D6e262426483D42CfA53685A67Ab9D"
+    ],
+    "reddit": [],
+    "technical_doc": [],
+    "source_code": [],
+    "announcement": []
+  },
+  "tags": []
+}

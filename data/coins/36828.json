@@ -1,0 +1,41 @@
+{
+  "id": 36828,
+  "rank": 251,
+  "name": "Useless Coin",
+  "symbol": "USELESS",
+  "price": 0.11374875504049653,
+  "change1h": -0.86614808,
+  "change24h": -5.42692385,
+  "change7d": 83.62093603,
+  "market_cap": 113645245.72299561,
+  "volume_24h": 25617484.95580956,
+  "circulating_supply": 999090018.018535,
+  "max_supply": 1000000000,
+  "sparkline7d": [],
+  "description": "Useless Coin (USELESS) is a cryptocurrency and operates on the Solana platform. Useless Coin has a current supply of 999,090,018.018535. The last known price of Useless Coin is 0.11361386 USD and is down -5.28 over the last 24 hours. It is currently trading on 197 active market(s) with $25,736,095.48 traded over the last 24 hours. More information can be found at https://theuselesscoin.com/.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/36828.png",
+  "urls": {
+    "website": [
+      "https://theuselesscoin.com/"
+    ],
+    "twitter": [
+      "https://twitter.com/theuselesscoin"
+    ],
+    "message_board": [],
+    "chat": [
+      "https://x.com/i/communities/1921225336253042983"
+    ],
+    "facebook": [],
+    "explorer": [
+      "https://solscan.io/token/Dz9mQ9NzkBcCsuGPFJ3r1bS4wgqKMHBPiVuniW8Mbonk",
+      "https://app.nansen.ai/token-god-mode?chain=solana&tab=transactions&tokenAddress=Dz9mQ9NzkBcCsuGPFJ3r1bS4wgqKMHBPiVuniW8Mbonk"
+    ],
+    "reddit": [],
+    "technical_doc": [
+      "https://theuselesscoin.com/whitepaper"
+    ],
+    "source_code": [],
+    "announcement": []
+  },
+  "tags": []
+}

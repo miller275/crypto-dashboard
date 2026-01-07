@@ -1,0 +1,39 @@
+{
+  "id": 30063,
+  "rank": 481,
+  "name": "Gigachad",
+  "symbol": "GIGA",
+  "price": 0.004724563920811256,
+  "change1h": -0.04367654,
+  "change24h": -1.7944122,
+  "change7d": 24.35247348,
+  "market_cap": 43949839.582570516,
+  "volume_24h": 1874873.60880469,
+  "circulating_supply": 9302411888,
+  "max_supply": 10000000000,
+  "sparkline7d": [],
+  "description": "Gigachad (GIGA) is a cryptocurrency launched in 2024and operates on the Solana platform. Gigachad has a current supply of 9,603,935,545.16 with 9,302,411,888 in circulation. The last known price of Gigachad is 0.0047312 USD and is down -1.54 over the last 24 hours. It is currently trading on 208 active market(s) with $1,878,613.72 traded over the last 24 hours. More information can be found at https://www.gigachadsolana.com.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/30063.png",
+  "urls": {
+    "website": [
+      "https://www.gigachadsolana.com"
+    ],
+    "twitter": [
+      "https://twitter.com/gigachad"
+    ],
+    "message_board": [],
+    "chat": [
+      "https://t.me/GigaChadSol"
+    ],
+    "facebook": [],
+    "explorer": [
+      "https://solscan.io/token/63LfDmNb3MQ8mw9MtZ2To9bEA2M71kZUUGq5tiJxcqj9",
+      "https://app.nansen.ai/token-god-mode?chain=solana&tab=transactions&tokenAddress=63LfDmNb3MQ8mw9MtZ2To9bEA2M71kZUUGq5tiJxcqj9"
+    ],
+    "reddit": [],
+    "technical_doc": [],
+    "source_code": [],
+    "announcement": []
+  },
+  "tags": []
+}

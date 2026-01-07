@@ -1,0 +1,48 @@
+{
+  "id": 3871,
+  "rank": 104,
+  "name": "AB",
+  "symbol": "AB",
+  "price": 0.004447947833865786,
+  "change1h": -0.20281339,
+  "change24h": -1.30201861,
+  "change7d": -1.05653148,
+  "market_cap": 423016536.3297053,
+  "volume_24h": 10171995.69765301,
+  "circulating_supply": 95103753939.95,
+  "max_supply": 98823661261.46,
+  "sparkline7d": [],
+  "description": "AB (AB) is a cryptocurrency launched in 2018and operates on the BNB Smart Chain (BEP20) platform. Users are able to generate AB through the process of mining. AB has a current supply of 98,823,661,261.46 with 95,103,753,939.95 in circulation. The last known price of AB is 0.00444736 USD and is down -1.45 over the last 24 hours. It is currently trading on 69 active market(s) with $10,178,926.29 traded over the last 24 hours. More information can be found at https://ab.org.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/3871.png",
+  "urls": {
+    "website": [
+      "https://ab.org"
+    ],
+    "twitter": [
+      "https://twitter.com/ABDAO_Global"
+    ],
+    "message_board": [
+      "https://www.ab.org/announcements/"
+    ],
+    "chat": [
+      "https://t.me/Newtonproject"
+    ],
+    "facebook": [],
+    "explorer": [
+      "https://bscscan.com/token/0x95034f653d5d161890836ad2b6b8cc49d14e029a",
+      "https://app.nansen.ai/token-god-mode?chain=bnb&tab=transactions&tokenAddress=0x95034f653d5d161890836ad2b6b8cc49d14e029a",
+      "https://explorer.ab.org/"
+    ],
+    "reddit": [],
+    "technical_doc": [
+      "https://ab.org/files/AB%20Litepaper.pdf"
+    ],
+    "source_code": [
+      "https://github.com/ABFoundationGlobal"
+    ],
+    "announcement": [
+      "https://www.ab.org/announcements/"
+    ]
+  },
+  "tags": []
+}

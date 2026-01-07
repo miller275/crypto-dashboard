@@ -1,0 +1,41 @@
+{
+  "id": 18069,
+  "rank": 439,
+  "name": "GMT",
+  "symbol": "GMT",
+  "price": 0.01606917483870651,
+  "change1h": -0.81580448,
+  "change24h": -1.20409134,
+  "change7d": 4.96706708,
+  "market_cap": 49997633.085515276,
+  "volume_24h": 21334095.34252968,
+  "circulating_supply": 3111400155.102167,
+  "max_supply": null,
+  "sparkline7d": [],
+  "description": "GMT (GMT) is a cryptocurrency launched in 2021and operates on the Ethereum platform. GMT has a current supply of 5,073,850,155.102167 with 3,111,400,155.102167 in circulation. The last known price of GMT is 0.01607789 USD and is down -1.35 over the last 24 hours. It is currently trading on 444 active market(s) with $21,308,631.26 traded over the last 24 hours. More information can be found at https://www.stepn.com/.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/18069.png",
+  "urls": {
+    "website": [
+      "https://www.stepn.com/",
+      "https://www.mooar.com/"
+    ],
+    "twitter": [
+      "https://twitter.com/fslweb3"
+    ],
+    "message_board": [],
+    "chat": [],
+    "facebook": [],
+    "explorer": [
+      "https://solscan.io/token/7i5KKsX2weiTkry7jA4ZwSuXGhs5eJBEjY8vVxR4pfRx",
+      "https://app.nansen.ai/token-god-mode?chain=ethereum&tab=transactions&tokenAddress=0xe3c408bd53c31c085a1746af401a4042954ff740",
+      "https://explorer.solana.com/address/7i5KKsX2weiTkry7jA4ZwSuXGhs5eJBEjY8vVxR4pfRx",
+      "https://bscscan.com/token/0x3019BF2a2eF8040C242C9a4c5c4BD4C81678b2A1",
+      "https://etherscan.io/token/0xe3c408bd53c31c085a1746af401a4042954ff740"
+    ],
+    "reddit": [],
+    "technical_doc": [],
+    "source_code": [],
+    "announcement": []
+  },
+  "tags": []
+}
