@@ -220,6 +220,7 @@ export class App {
             // Загрузка глобальных данных
             if (this.modules.globalStats) {
                 await this.modules.globalStats.load();
+                await this.modules.globalStats.updateTrends();
             }
             
             // Загрузка рынков
