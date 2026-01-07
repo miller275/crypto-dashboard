@@ -1,0 +1,27 @@
+/* pages/coin.css */
+.coinHead{display:grid;grid-template-columns:1fr 380px;gap:var(--gap);margin:18px 0}
+.coinTitle{display:flex;align-items:center;gap:12px}
+.coinTitle__icon{width:42px;height:42px;border-radius:14px;background:rgba(255,255,255,.05);border:1px solid var(--border)}
+.coinTitle__nameRow{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+.coinHead__right{align-self:stretch}
+.priceRow{display:grid;grid-template-columns: 1.2fr .7fr .7fr .7fr;gap:12px;margin-top:12px}
+.priceRow__num{font-size:28px;font-weight:850;letter-spacing:-.3px}
+.statsGrid{display:grid;grid-template-columns:1fr 1fr;gap:10px;padding:0 14px 14px}
+.stat{border:1px solid var(--border);border-radius:14px;padding:10px 10px;background:rgba(255,255,255,.02)}
+.stat__k{font-size:11px;color:var(--muted)}
+.stat__v{font-size:13px;font-weight:700;margin-top:4px}
+.tvControls{display:flex;align-items:flex-end;gap:10px;flex-wrap:wrap}
+.tvBox{padding:0 14px 14px}
+.tvBox__inner{height:520px;border:1px solid var(--border);border-radius:14px;overflow:hidden;background:rgba(0,0,0,.12)}
+.tvBox__hint{margin-top:8px}
+.links{padding:0 14px 14px;display:flex;flex-wrap:wrap;gap:8px}
+.linkPill{display:inline-flex;gap:8px;align-items:center;padding:6px 10px;border-radius:999px;border:1px solid var(--border);background:rgba(255,255,255,.02);font-size:12px;text-decoration:none}
+.perf{padding:0 14px 14px;display:flex;flex-direction:column;gap:8px}
+.perf__row{display:flex;align-items:center;justify-content:space-between;border:1px solid var(--border);border-radius:12px;padding:8px 10px;background:rgba(255,255,255,.02)}
+.sparklineBig{padding:10px 14px 14px}
+.sparklineBig svg{width:100%;height:120px}
+.sparklineBig path{fill:none;stroke:var(--brand);stroke-width:2}
+@media (max-width: 980px){
+  .coinHead{grid-template-columns:1fr}
+  .priceRow{grid-template-columns:1fr 1fr;row-gap:12px}
+}

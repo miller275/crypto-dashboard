@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title id="docTitle">Coin — CryptoBoard</title>
+  <meta name="description" content="Coin details with TradingView chart. Data is loaded from local /data snapshots." />
+  <link rel="manifest" href="manifest.json" />
+  <link rel="icon" href="assets/img/icon-192.png" />
+  <link rel="stylesheet" href="assets/css/tokens.css" />
+  <link rel="stylesheet" href="assets/css/base.css" />
+  <link rel="stylesheet" href="assets/css/layout.css" />
+  <link rel="stylesheet" href="assets/css/components.css" />
+  <link rel="stylesheet" href="assets/css/pages/coin.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="container topbar__inner">
+      <a class="brand" href="index.html" aria-label="Back to markets">
+        <span class="brand__mark">←</span>
+        <span class="brand__name">Markets</span>
+      </a>
+
+      <div class="topbar__actions">
+        <button id="langBtn" class="btn btn--ghost" type="button" aria-label="Switch language">
+          <span class="btn__icon">🌐</span><span id="langLabel">EN</span>
+        </button>
+        <button id="themeBtn" class="btn btn--ghost" type="button" aria-label="Toggle theme">
+          <span class="btn__icon">🌓</span><span data-i18n="header.theme">Theme</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="coinHead">
+      <div class="coinHead__left">
+        <div class="coinTitle">
+          <img id="coinIcon" class="coinTitle__icon" alt="" />
+          <div>
+            <div class="coinTitle__nameRow">
+              <h1 id="coinName" class="h1">—</h1>
+              <span id="coinSymbol" class="pill mono">—</span>
+              <span id="coinRank" class="pill pill--soft mono">#—</span>
+            </div>
+            <div class="muted" id="coinSub">—</div>
+          </div>
+        </div>
+
+        <div class="priceRow">
+          <div class="priceRow__price">
+            <div class="muted" data-i18n="coin.price">Price</div>
+            <div id="coinPrice" class="priceRow__num mono">—</div>
+          </div>
+          <div class="priceRow__change">
+            <div class="muted" data-i18n="coin.change24h">24h</div>
+            <div id="coinChange24h" class="mono">—</div>
+          </div>
+          <div class="priceRow__change">
+            <div class="muted" data-i18n="coin.change7d">7d</div>
+            <div id="coinChange7d" class="mono">—</div>
+          </div>
+          <div class="priceRow__change">
+            <div class="muted" data-i18n="coin.change30d">30d</div>
+            <div id="coinChange30d" class="mono">—</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="coinHead__right card card--tight">
+        <div class="card__head">
+          <h2 class="h3" data-i18n="coin.quickStats">Quick stats</h2>
+          <div class="muted" id="coinUpdated">—</div>
+        </div>
+        <div class="statsGrid">
+          <div class="stat">
+            <div class="stat__k" data-i18n="coin.marketCap">Market cap</div>
+            <div class="stat__v mono" id="statMcap">—</div>
+          </div>
+          <div class="stat">
+            <div class="stat__k" data-i18n="coin.volume24h">Volume (24h)</div>
+            <div class="stat__v mono" id="statVol">—</div>
+          </div>
+          <div class="stat">
+            <div class="stat__k" data-i18n="coin.high24h">High (24h)</div>
+            <div class="stat__v mono" id="statHigh">—</div>
+          </div>
+          <div class="stat">
+            <div class="stat__k" data-i18n="coin.low24h">Low (24h)</div>
+            <div class="stat__v mono" id="statLow">—</div>
+          </div>
+          <div class="stat">
+            <div class="stat__k" data-i18n="coin.ath">ATH</div>
+            <div class="stat__v mono" id="statAth">—</div>
+          </div>
+          <div class="stat">
+            <div class="stat__k" data-i18n="coin.atl">ATL</div>
+            <div class="stat__v mono" id="statAtl">—</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="grid grid--coin">
+      <div class="card">
+        <div class="card__head card__head--row">
+          <h2 class="h2" data-i18n="coin.chart">Chart</h2>
+
+          <div class="tvControls">
+            <label class="field">
+              <span class="field__label" data-i18n="coin.exchange">Exchange</span>
+              <select id="exchangeSelect" class="select">
+                <option value="BINANCE">BINANCE</option>
+                <option value="COINBASE">COINBASE</option>
+                <option value="KRAKEN">KRAKEN</option>
+                <option value="BYBIT">BYBIT</option>
+                <option value="OKX">OKX</option>
+              </select>
+            </label>
+
+            <label class="field">
+              <span class="field__label" data-i18n="coin.pair">Pair</span>
+              <select id="pairSelect" class="select">
+                <option value="USDT">USDT</option>
+                <option value="USD">USD</option>
+                <option value="BTC">BTC</option>
+                <option value="ETH">ETH</option>
+              </select>
+            </label>
+
+            <button id="reloadTv" class="btn btn--soft" type="button" data-i18n="coin.reload">Reload</button>
+          </div>
+        </div>
+
+        <div class="tvBox">
+          <div id="tvContainer" class="tvBox__inner"></div>
+          <div id="tvHint" class="muted tvBox__hint" hidden>
+            TradingView may show “No data” if the symbol/pair isn't available on the selected exchange.
+          </div>
+        </div>
+      </div>
+
+      <aside class="stack">
+        <div class="card card--tight">
+          <div class="card__head">
+            <h3 class="h3" data-i18n="coin.about">About</h3>
+          </div>
+          <div id="coinAbout" class="prose">
+            <div class="muted" data-i18n="coin.aboutEmpty">No description snapshot yet.</div>
+          </div>
+          <div class="links" id="coinLinks" hidden></div>
+        </div>
+
+        <div class="card card--tight">
+          <div class="card__head">
+            <h3 class="h3" data-i18n="coin.performance">Performance</h3>
+          </div>
+          <div class="perf">
+            <div class="perf__row"><span class="muted">1h</span><span id="p1h" class="mono">—</span></div>
+            <div class="perf__row"><span class="muted">24h</span><span id="p24h" class="mono">—</span></div>
+            <div class="perf__row"><span class="muted">7d</span><span id="p7d" class="mono">—</span></div>
+            <div class="perf__row"><span class="muted">30d</span><span id="p30d" class="mono">—</span></div>
+            <div class="perf__row"><span class="muted">1y</span><span id="p1y" class="mono">—</span></div>
+          </div>
+        </div>
+      </aside>
+    </section>
+
+    <section class="card card--tight">
+      <div class="card__head">
+        <h2 class="h2" data-i18n="coin.sparkline">7d sparkline</h2>
+      </div>
+      <div id="sparklineBig" class="sparklineBig"></div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="muted">
+        <span>©</span> <span id="yearNow"></span> <span>CryptoBoard</span>
+      </div>
+      <div class="muted">
+        <span data-i18n="footer.dataSource">Data snapshots in</span> <span class="mono">/data</span>
+      </div>
+    </div>
+  </footer>
+
+  <script type="module" src="assets/js/pages/coin.js"></script>
+</body>
+</html>
