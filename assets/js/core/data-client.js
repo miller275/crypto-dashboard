@@ -2,11 +2,16 @@
 export class DataClient {
     constructor() {
         this.cache = new Map();
+        this.baseUrl = new URL('.', window.location.href);
         this.config = {
             CACHE_TTL: 5 * 60 * 1000, // 5 минут
             RETRY_COUNT: 3,
             RETRY_DELAY: 1000
         };
+    }
+
+    resolveUrl(path) {
+        return new URL(path, this.baseUrl).toString();
     }
     
     async fetch(url, options = {}) {
@@ -74,43 +79,43 @@ export class DataClient {
     
     // Методы для получения конкретных данных
     async getGlobalData() {
-        return this.fetch('/data/global.json');
+        return this.fetch(this.resolveUrl('data/global.json'));
     }
     
     async getFearGreed() {
-        return this.fetch('/data/feargreed.json');
+        return this.fetch(this.resolveUrl('data/feargreed.json'));
     }
     
     async getNews() {
-        return this.fetch('/data/news/latest.json');
+        return this.fetch(this.resolveUrl('data/news/latest.json'));
     }
     
     async getTrending() {
-        return this.fetch('/data/trending.json');
+        return this.fetch(this.resolveUrl('data/trending.json'));
     }
     
     async getCoin(id) {
-        return this.fetch(`/data/coins/${id}.json`);
+        return this.fetch(this.resolveUrl(`data/coins/${id}.json`));
     }
     
     async getMarketsPage(page = 1) {
-        return this.fetch(`/data/markets/page-${page}.json`);
+        return this.fetch(this.resolveUrl(`data/markets/page-${page}.json`));
     }
     
     async getMarketsMeta() {
-        return this.fetch('/data/markets/meta.json');
+        return this.fetch(this.resolveUrl('data/markets/meta.json'));
     }
     
     async getTVMap() {
-        return this.fetch('/data/charts/tv-map.json');
+        return this.fetch(this.resolveUrl('data/charts/tv-map.json'));
     }
     
     async getGenerated() {
-        return this.fetch('/data/generated.json');
+        return this.fetch(this.resolveUrl('data/generated.json'));
     }
     
     async getSearchIndex() {
-        return this.fetch('/data/search-index.json');
+        return this.fetch(this.resolveUrl('data/search-index.json'));
     }
     
     // Пакетная загрузка
