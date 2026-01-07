@@ -1,50 +1,77 @@
-name: Update data (hourly)
+name: Update Crypto Data
 
 on:
   schedule:
-    - cron: "0 * * * *"  # every hour
+    - cron: '0 * * * *'
   workflow_dispatch:
+    inputs:
+      force:
+        description: 'Force update even if recently updated'
+        required: false
+        default: 'false'
 
-permissions:
-  contents: write
+env:
+  NODE_VERSION: '18'
+  CACHE_TTL: 3600
 
 jobs:
-  update:
+  update-data:
     runs-on: ubuntu-latest
+    
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
-
-      - name: Setup Node
-        uses: actions/setup-node@v4
-        with:
-          node-version: "20"
-
-      - name: Pull latest (rebase)
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git pull --rebase origin "${GITHUB_REF_NAME}"
-
-      - name: Update data
-        env:
-          CMC_PRO_API_KEY: ${{ secrets.CMC_PRO_API_KEY }}
-          MAX_COINS: "1000"
-          BASE_PAGE_SIZE: "200"
-          MAX_SPARKLINE_COINS: "150"
-          SPARKLINE_DAYS: "7"
-          SPARKLINE_INTERVAL_HOURS: "4"
-        run: |
-          node scripts/update-data.js
-
-      - name: Commit changes (data + cached logos)
-        run: |
-          git add data assets/img/coins
-          if git diff --cached --quiet; then
-            echo "No changes to commit."
-            exit 0
-          fi
-          git commit -m "chore(data): update snapshots"
-          git push origin "${GITHUB_REF_NAME}"
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      with:
+        fetch-depth: 0
+        token: ${{ secrets.GITHUB_TOKEN }}
+    
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: ${{ env.NODE_VERSION }}
+        cache: 'npm'
+    
+    - name: Install dependencies
+      run: |
+        npm init -y
+        npm install
+    
+    - name: Sync with remote
+      run: |
+        git config --global user.name 'GitHub Actions'
+        git config --global user.email 'actions@github.com'
+        git pull --rebase origin main
+    
+    - name: Update crypto data
+      env:
+        CMC_PRO_API_KEY: ${{ secrets.CMC_PRO_API_KEY }}
+        CRYPTOPANIC_API_KEY: ${{ secrets.CRYPTOPANIC_API_KEY }}
+        PAGE_SIZE: 100
+        MAX_COINS: 500
+      run: |
+        node scripts/update-data.js
+    
+    - name: Commit and push changes
+      run: |
+        git add data/
+        git add assets/img/coins/
+        git diff --cached --quiet || {
+          git commit -m "📊 Update crypto data [$(date +'%Y-%m-%d %H:%M UTC')]"
+          git push origin HEAD:main
+        }
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    
+    - name: Notify on failure
+      if: failure()
+      uses: actions/github-script@v6
+      with:
+        script: |
+          const { owner, repo } = context.repo;
+          github.rest.issues.create({
+            owner,
+            repo,
+            title: 'Data update failed',
+            body: 'The scheduled data update workflow has failed. Please check the logs.',
+            labels: ['bug', 'data-update']
+          });
