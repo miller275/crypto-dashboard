@@ -1,85 +1,52 @@
-name: Update Crypto Data
+name: Update data
 
 on:
   schedule:
-    - cron: '0 * * * *'
-  workflow_dispatch:
-    inputs:
-      force:
-        description: 'Force update even if recently updated'
-        required: false
-        default: 'false'
+    - cron: "0 * * * *" # every hour
+  workflow_dispatch: {}
 
-env:
-  NODE_VERSION: '18'
+concurrency:
+  group: update-data
+  cancel-in-progress: true
 
-# Нужно для push в репозиторий и создания issue при падении.
 permissions:
   contents: write
-  issues: write
 
 jobs:
-  update-data:
+  update:
     runs-on: ubuntu-latest
-
-    # Чтобы крон-джобы не конфликтовали друг с другом.
-    concurrency:
-      group: update-data-${{ github.ref }}
-      cancel-in-progress: false
-
     steps:
-      - name: Checkout repository
+      - name: Checkout
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
-      # У нас нет зависимостей npm (скрипт использует только встроенные модули Node),
-      # поэтому кэш npm и npm install не нужны. Иначе setup-node падает без lock-файла.
-      - name: Setup Node.js
+      - name: Setup Node
         uses: actions/setup-node@v4
         with:
-          node-version: ${{ env.NODE_VERSION }}
+          node-version: 20
+          cache: "npm"
 
-      - name: Sync with remote
-        run: |
-          git config --global user.name 'GitHub Actions'
-          git config --global user.email 'actions@github.com'
-          git pull --rebase origin "${{ github.event.repository.default_branch }}"
+      - name: Install deps
+        run: npm install --no-fund --no-audit
 
-      - name: Update crypto data
+      - name: Update /data snapshots
         env:
-          CMC_PRO_API_KEY: ${{ secrets.CMC_PRO_API_KEY }}
-          CRYPTOPANIC_API_KEY: ${{ secrets.CRYPTOPANIC_API_KEY }}
-          PAGE_SIZE: 100
-          MAX_COINS: 500
-        run: |
-          node scripts/update-data.js
+          COINGECKO_API_KEY: ${{ secrets.COINGECKO_API_KEY }}
+          COINGECKO_PAGES: ${{ secrets.COINGECKO_PAGES }}
+          COINGECKO_PER_PAGE: ${{ secrets.COINGECKO_PER_PAGE }}
+          VS_CURRENCY: ${{ secrets.VS_CURRENCY }}
+          DETAILS_LIMIT: ${{ secrets.DETAILS_LIMIT }}
+        run: npm run update:data
 
-      - name: Commit and push changes
+      - name: Commit & push if changed
         run: |
-          # Данные
-          git add -A data
-          # Локальные иконки монет (если когда-нибудь появятся)
-          git add -A assets/img/coins || true
-
-          if git diff --cached --quiet; then
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          if [[ -n "$(git status --porcelain)" ]]; then
+            git add data
+            git commit -m "chore(data): hourly update"
+            git push
+          else
             echo "No changes to commit."
-            exit 0
           fi
-
-          git commit -m "📊 Update crypto data [$(date -u +'%Y-%m-%d %H:%M UTC')]"
-          git push origin "HEAD:${{ github.event.repository.default_branch }}"
-
-      - name: Notify on failure
-        if: failure()
-        uses: actions/github-script@v6
-        with:
-          script: |
-            const { owner, repo } = context.repo;
-            await github.rest.issues.create({
-              owner,
-              repo,
-              title: 'Data update failed',
-              body: 'The scheduled data update workflow has failed. Please check the logs.',
-              labels: ['bug', 'data-update']
-            });
