@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Coin — CryptoBoard</title>
+  <meta name="description" content="Coin details (static) + TradingView chart." />
+  <link rel="icon" href="./assets/img/favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="./assets/css/tokens.css" />
+  <link rel="stylesheet" href="./assets/css/base.css" />
+  <link rel="stylesheet" href="./assets/css/layout.css" />
+  <link rel="stylesheet" href="./assets/css/components.css" />
+  <link rel="stylesheet" href="./assets/css/pages/coin.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="wrap topbar__inner">
+      <a class="brand" href="./index.html" aria-label="CryptoBoard">
+        <span class="brand__mark" aria-hidden="true"></span>
+        <span class="brand__name">CryptoBoard</span>
+      </a>
+
+      <div class="topbar__search">
+        <label class="sr-only" for="search">Search</label>
+        <input id="search" class="search" type="search" autocomplete="off" placeholder="Search coins…" />
+        <div id="searchSuggest" class="suggest" hidden></div>
+      </div>
+
+      <div class="topbar__actions">
+        <button id="langBtn" class="chip" type="button" aria-label="Language">EN</button>
+        <button id="themeBtn" class="chip" type="button" aria-label="Theme">Dark</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="coinHero">
+      <div class="coinHero__left">
+        <div class="crumbs">
+          <a href="./index.html" data-i18n="markets">Markets</a>
+          <span class="dot">·</span>
+          <span id="crumbName">—</span>
+        </div>
+
+        <div class="coinTitle">
+          <div class="coinBadge" id="coinBadge" aria-hidden="true">?</div>
+          <div>
+            <h1 class="h1" id="coinName">—</h1>
+            <div class="muted">
+              <span id="coinSymbol">—</span>
+              <span class="dot">·</span>
+              <span id="coinRank">—</span>
+              <span class="dot">·</span>
+              <span id="updatedAt">—</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="coinHero__right">
+        <div class="priceLine">
+          <div class="priceLine__price" id="price">—</div>
+          <div class="priceLine__chg" id="chg24">—</div>
+        </div>
+        <div class="quickStats" id="quickStats"></div>
+      </div>
+    </section>
+
+    <section class="split">
+      <div class="leftCol">
+        <div class="sectionTitle">
+          <div class="sectionTitle__name" data-i18n="chart">Chart</div>
+          <div class="sectionTitle__hint" data-i18n="tv_hint">TradingView, default source: BINANCE</div>
+        </div>
+
+        <div class="tvWrap">
+          <div id="tvContainer" class="tv"></div>
+        </div>
+
+        <div class="sectionTitle" style="margin-top:18px;">
+          <div class="sectionTitle__name" data-i18n="about">About</div>
+          <div class="sectionTitle__hint" id="aboutHint">—</div>
+        </div>
+
+        <div class="about">
+          <p id="description" class="about__text">—</p>
+          <button id="moreBtn" class="linkBtn" type="button" hidden data-i18n="show_more">Show more</button>
+        </div>
+      </div>
+
+      <aside class="rightCol">
+        <div class="sectionTitle">
+          <div class="sectionTitle__name" data-i18n="key_stats">Key stats</div>
+          <div class="sectionTitle__hint" data-i18n="from_snapshots">From ./data snapshots</div>
+        </div>
+
+        <dl class="kv" id="kv"></dl>
+
+        <div class="sectionTitle" style="margin-top:18px;">
+          <div class="sectionTitle__name" data-i18n="links">Links</div>
+          <div class="sectionTitle__hint">—</div>
+        </div>
+
+        <div class="links" id="links"></div>
+
+        <div class="sectionTitle" style="margin-top:18px;">
+          <div class="sectionTitle__name" data-i18n="top_pairs">Top pairs</div>
+          <div class="sectionTitle__hint" data-i18n="pairs_hint">Top 10 by volume (if available)</div>
+        </div>
+
+        <div class="pairs" id="pairs"></div>
+      </aside>
+    </section>
+
+    <footer class="footer">
+      <div class="muted">
+        <span>CryptoBoard</span>
+        <span class="dot">·</span>
+        <span data-i18n="static_note">Static site: frontend reads only ./data snapshots</span>
+      </div>
+    </footer>
+  </main>
+
+  <script src="https://s3.tradingview.com/tv.js"></script>
+  <script type="module" src="./assets/js/pages/coin-page.js"></script>
+  <script type="module" src="./assets/js/core/service-worker.js"></script>
+</body>
+</html>

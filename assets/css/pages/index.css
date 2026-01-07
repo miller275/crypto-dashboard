@@ -1,0 +1,8 @@
+.headline .h1{margin-top:4px}
+.leaders, .news{padding-top:2px}
+@media (max-width: 620px){
+  .leaders__cols{grid-template-columns:1fr}
+  .col-spark{display:none}
+  .table thead th.col-spark{display:none}
+  .table tbody td.col-spark{display:none}
+}

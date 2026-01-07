@@ -1,0 +1,119 @@
+.chip{
+  border:1px solid var(--line2);
+  background:var(--chip);
+  color:var(--text);
+  padding:9px 12px;
+  border-radius:999px;
+  cursor:pointer;
+}
+.chip:hover{background:var(--chip2)}
+.search{
+  width:100%;
+  padding:11px 12px;
+  border-radius:999px;
+  border:1px solid var(--line2);
+  background:rgba(0,0,0,.18);
+  color:var(--text);
+  outline:none;
+}
+html[data-theme="light"] .search{background:rgba(255,255,255,.9)}
+.search::placeholder{color:var(--faint)}
+.suggest{
+  position:absolute;
+  top:44px; left:0; right:0;
+  border-radius:14px;
+  border:1px solid var(--line2);
+  background:rgba(0,0,0,.55);
+  box-shadow:var(--shadow);
+  overflow:hidden;
+}
+html[data-theme="light"] .suggest{background:rgba(255,255,255,.95)}
+.suggest__item{
+  display:flex; justify-content:space-between; align-items:center;
+  padding:10px 12px; cursor:pointer;
+  border-bottom:1px solid var(--line2);
+}
+.suggest__item:last-child{border-bottom:none}
+.suggest__item:hover{background:rgba(255,255,255,.05)}
+html[data-theme="light"] .suggest__item:hover{background:rgba(15,23,48,.04)}
+.suggest__left{display:flex; gap:10px; align-items:center}
+.badge{
+  width:22px; height:22px; border-radius:8px;
+  background:var(--chip);
+  display:grid; place-items:center;
+  font-weight:650; font-family:var(--mono); font-size:12px;
+}
+.sectionTitle{display:flex; justify-content:space-between; align-items:baseline; padding:4px 0 10px; border-bottom:1px solid var(--line2)}
+.sectionTitle__name{font-weight:650; letter-spacing:-.01em}
+.sectionTitle__hint{font-size:var(--fs-4); color:var(--faint)}
+.fng{padding-top:2px}
+.fng__row{display:flex; gap:10px; align-items:baseline; padding-top:4px}
+.fng__value{font-size:28px; font-weight:700; letter-spacing:-.02em}
+.fng__label{color:var(--muted); font-size:14px}
+.fng__bar{height:8px; border-radius:999px; background:var(--line2); overflow:hidden; margin-top:10px}
+.fng__barFill{height:100%; width:0%}
+.leaders__cols{display:grid; grid-template-columns:1fr 1fr; gap:14px; padding-top:10px}
+.miniList{margin:8px 0 0; padding:0; list-style:none}
+.miniList li{display:flex; justify-content:space-between; gap:10px; padding:8px 0; border-bottom:1px solid var(--line2)}
+.miniList li:last-child{border-bottom:none}
+.miniList a{display:flex; gap:10px; align-items:center}
+.pct{font-family:var(--mono); font-size:12px}
+.pct.good{color:var(--good)}
+.pct.bad{color:var(--bad)}
+.news__list{padding-top:10px; display:grid; gap:10px}
+.newsItem{display:flex; justify-content:space-between; gap:14px; padding:10px 0; border-bottom:1px solid var(--line2)}
+.newsItem:last-child{border-bottom:none}
+.newsItem__title{font-weight:560; line-height:1.2}
+.newsItem__meta{font-size:12px; color:var(--faint); margin-top:4px}
+.btn{
+  border:1px solid var(--line2);
+  background:transparent;
+  color:var(--text);
+  padding:10px 14px;
+  border-radius:999px;
+  cursor:pointer;
+}
+.btn:hover{background:var(--chip)}
+.btn:disabled{opacity:.45; cursor:not-allowed}
+.pagePill{
+  min-width:130px;
+  text-align:center;
+  font-family:var(--mono);
+  font-size:12px;
+  color:var(--muted);
+}
+.tableHeader{display:flex; justify-content:space-between; align-items:center; gap:14px; padding:14px 0}
+.tableHeader__meta{font-size:12px; color:var(--faint); padding-top:2px}
+.tableWrap{border-top:1px solid var(--line2)}
+.table{width:100%; border-collapse:collapse}
+.table thead th{
+  position:sticky; top:64px;
+  background:linear-gradient(180deg, rgba(0,0,0,.38), rgba(0,0,0,0));
+  backdrop-filter: blur(8px);
+  font-size:12px; color:var(--faint); font-weight:600;
+  padding:12px 8px;
+  text-align:right;
+  border-bottom:1px solid var(--line2);
+}
+html[data-theme="light"] .table thead th{
+  background:linear-gradient(180deg, rgba(255,255,255,.82), rgba(255,255,255,0));
+}
+.table thead th.col-coin{text-align:left}
+.table tbody td{
+  padding:12px 8px;
+  border-bottom:1px solid var(--line2);
+  text-align:right;
+  vertical-align:middle;
+}
+.table tbody td.col-coin{text-align:left}
+.col-rank{width:56px}
+.col-spark{width:140px; text-align:center !important}
+.coinCell{display:flex; gap:12px; align-items:center}
+.coinCell__name{font-weight:600; letter-spacing:-.01em}
+.coinCell__sym{font-size:12px; color:var(--faint); font-family:var(--mono)}
+.spark{width:120px; height:28px; display:block; margin:0 auto}
+.linkBtn{
+  border:none; background:transparent; color:var(--muted);
+  cursor:pointer; padding:0; font-size:13px;
+}
+.linkBtn:hover{color:var(--text)}
