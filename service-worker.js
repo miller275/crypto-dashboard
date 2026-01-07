@@ -1,21 +1,23 @@
 // Service Worker для CryptoDash
 const CACHE_NAME = 'cryptodash-v2.0';
 const DATA_CACHE_NAME = 'cryptodash-data-v2.0';
+const BASE_PATH = new URL(self.registration.scope).pathname.replace(/\/$/, '');
+const withBasePath = (path) => `${BASE_PATH}${path}`;
 
 // Статические ресурсы для кэширования
 const STATIC_ASSETS = [
-    '/',
-    '/index.html',
-    '/coin.html',
-    '/manifest.json',
-    '/assets/css/tokens.css',
-    '/assets/css/base.css',
-    '/assets/css/layout.css',
-    '/assets/css/components.css',
-    '/assets/css/pages/index.css',
-    '/assets/css/pages/coin.css',
-    '/assets/js/app.js',
-    '/assets/img/favicon.svg'
+    withBasePath('/'),
+    withBasePath('/index.html'),
+    withBasePath('/coin.html'),
+    withBasePath('/manifest.json'),
+    withBasePath('/assets/css/tokens.css'),
+    withBasePath('/assets/css/base.css'),
+    withBasePath('/assets/css/layout.css'),
+    withBasePath('/assets/css/components.css'),
+    withBasePath('/assets/css/pages/index.css'),
+    withBasePath('/assets/css/pages/coin.css'),
+    withBasePath('/assets/js/app.js'),
+    withBasePath('/assets/img/favicon.svg')
 ];
 
 // Установка Service Worker
@@ -56,7 +58,7 @@ self.addEventListener('fetch', (event) => {
     const url = new URL(event.request.url);
     
     // Данные API - Stale-While-Revalidate
-    if (url.pathname.startsWith('/data/')) {
+    if (url.pathname.startsWith(withBasePath('/data/'))) {
         event.respondWith(
             caches.open(DATA_CACHE_NAME).then((cache) => {
                 return cache.match(event.request).then((cachedResponse) => {
@@ -120,7 +122,7 @@ self.addEventListener('fetch', (event) => {
                         .catch(() => {
                             // Fallback для страниц
                             if (event.request.mode === 'navigate') {
-                                return caches.match('/index.html');
+                                return caches.match(withBasePath('/index.html'));
                             }
                             return new Response('Offline', { status: 503 });
                         });
@@ -135,7 +137,7 @@ self.addEventListener('fetch', (event) => {
 
 // Создание fallback ответа для данных
 function createFallbackResponse(url) {
-    if (url.pathname.startsWith('/data/coins/')) {
+    if (url.pathname.startsWith(withBasePath('/data/coins/'))) {
         return new Response(JSON.stringify({
             error: 'offline',
             message: 'Данные недоступны в офлайн-режиме'
@@ -168,10 +170,10 @@ async function syncData() {
     try {
         // Обновляем ключевые данные
         const urlsToSync = [
-            '/data/global.json',
-            '/data/markets/page-1.json',
-            '/data/feargreed.json',
-            '/data/generated.json'
+            withBasePath('/data/global.json'),
+            withBasePath('/data/markets/page-1.json'),
+            withBasePath('/data/feargreed.json'),
+            withBasePath('/data/generated.json')
         ];
         
         const cache = await caches.open(DATA_CACHE_NAME);
@@ -247,11 +249,11 @@ self.addEventListener('push', (event) => {
     const data = event.data.json();
     const options = {
         body: data.body || 'Новое уведомление',
-        icon: '/assets/img/icon-192.png',
-        badge: '/assets/img/badge-72.png',
+        icon: withBasePath('/assets/img/icon-192.png'),
+        badge: withBasePath('/assets/img/badge-72.png'),
         vibrate: [100, 50, 100],
         data: {
-            url: data.url || '/'
+            url: data.url || withBasePath('/')
         }
     };
     
