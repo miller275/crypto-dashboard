@@ -1,0 +1,39 @@
+{
+  "id": 36300,
+  "rank": 500,
+  "name": "SKYAI",
+  "symbol": "SKYAI",
+  "price": 0.04002085788381752,
+  "change1h": 0.46897557,
+  "change24h": 5.19003543,
+  "change7d": 6.34154527,
+  "market_cap": 40020857.883817516,
+  "volume_24h": 10291714.13254054,
+  "circulating_supply": 1000000000,
+  "max_supply": 1000000000,
+  "sparkline7d": [],
+  "description": "SKYAI (SKYAI) is a cryptocurrency launched in 2025and operates on the BNB Smart Chain (BEP20) platform. SKYAI has a current supply of 1,000,000,000. The last known price of SKYAI is 0.04002086 USD and is up 5.19 over the last 24 hours. It is currently trading on 106 active market(s) with $10,291,714.13 traded over the last 24 hours. More information can be found at https://skyai.pro.",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/36300.png",
+  "urls": {
+    "website": [
+      "https://skyai.pro"
+    ],
+    "twitter": [
+      "https://twitter.com/SKYAIpro"
+    ],
+    "message_board": [],
+    "chat": [
+      "https://t.me/SKYAI_MCP"
+    ],
+    "facebook": [],
+    "explorer": [
+      "https://bscscan.com/token/0x92aa03137385F18539301349dcfC9EbC923fFb10",
+      "https://app.nansen.ai/token-god-mode?chain=bnb&tab=transactions&tokenAddress=0x92aa03137385F18539301349dcfC9EbC923fFb10"
+    ],
+    "reddit": [],
+    "technical_doc": [],
+    "source_code": [],
+    "announcement": []
+  },
+  "tags": []
+}
