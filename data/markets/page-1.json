@@ -1,0 +1,14 @@
+{
+  "data": [
+    {
+      "id": "1",
+      "rank": 1,
+      "name": "Bitcoin",
+      "symbol": "BTC",
+      "price": 0,
+      "change24h": 0,
+      "marketCap": 0,
+      "volume24h": 0
+    }
+  ]
+}

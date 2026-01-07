@@ -1,0 +1,106 @@
+{
+    "nav": {
+        "home": "Home",
+        "favorites": "Favorites",
+        "portfolio": "Portfolio"
+    },
+    "lang": {
+        "en": "EN",
+        "ru": "RU",
+        "enFull": "English",
+        "ruFull": "Russian"
+    },
+    "search": {
+        "placeholder": "Search coins...",
+        "noResults": "No results found"
+    },
+    "button": {
+        "back": "Back",
+        "refresh": "Refresh",
+        "loadMore": "Load More"
+    },
+    "market": {
+        "cap": "Market Cap",
+        "volume": "24h Volume",
+        "feargreed": "Fear & Greed Index"
+    },
+    "trending": {
+        "title": "Market Trends"
+    },
+    "news": {
+        "title": "Latest News",
+        "noNews": "No news available"
+    },
+    "dominance": {
+        "title": "Dominance"
+    },
+    "markets": {
+        "title": "Cryptocurrency Market"
+    },
+    "table": {
+        "coin": "Coin",
+        "price": "Price",
+        "change1h": "1h",
+        "change24h": "24h",
+        "change7d": "7d",
+        "marketCap": "Market Cap",
+        "volume": "Volume",
+        "supply": "Circulating Supply",
+        "sparkline": "7 Days"
+    },
+    "coin": {
+        "rank": "Rank",
+        "stats": "Statistics",
+        "price": "Price",
+        "marketCap": "Market Cap",
+        "volume24h": "24h Volume",
+        "circulatingSupply": "Circulating Supply",
+        "maxSupply": "Max Supply",
+        "change24h": "24h Change",
+        "ath": "All Time High",
+        "atl": "All Time Low",
+        "description": "Description"
+    },
+    "chart": {
+        "unavailable": "Chart Unavailable",
+        "unavailableDesc": "No trading pairs available for this coin"
+    },
+    "loading": "Loading...",
+    "error": {
+        "loadData": "Failed to load data",
+        "retry": "Retry"
+    },
+    "favorites": {
+        "title": "Favorites",
+        "add": "Add to favorites",
+        "remove": "Remove from favorites",
+        "added": "Added to favorites",
+        "removed": "Removed from favorites",
+        "emptyTitle": "No favorites yet",
+        "emptyDescription": "Add coins to favorites to see them here",
+        "loadError": "Failed to load favorites"
+    },
+    "feargreed": {
+        "extremeFear": "Extreme Fear",
+        "fear": "Fear",
+        "neutral": "Neutral",
+        "greed": "Greed",
+        "extremeGreed": "Extreme Greed"
+    },
+    "pagination": {
+        "page": "Page",
+        "of": "of"
+    },
+    "time": {
+        "justNow": "Just now",
+        "minutesAgo": "min ago",
+        "hoursAgo": "hours ago"
+    },
+    "offline": {
+        "message": "Working in offline mode"
+    },
+    "update": {
+        "available": "Update available",
+        "reload": "Reload"
+    }
+}

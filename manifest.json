@@ -1,0 +1,72 @@
+{
+    "name": "CryptoDash",
+    "short_name": "CryptoDash",
+    "description": "Криптовалютный дашборд с реальными данными",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#0f172a",
+    "theme_color": "#0f172a",
+    "orientation": "portrait-primary",
+    "icons": [
+        {
+            "src": "/assets/img/icon-72.png",
+            "sizes": "72x72",
+            "type": "image/png"
+        },
+        {
+            "src": "/assets/img/icon-96.png",
+            "sizes": "96x96",
+            "type": "image/png"
+        },
+        {
+            "src": "/assets/img/icon-128.png",
+            "sizes": "128x128",
+            "type": "image/png"
+        },
+        {
+            "src": "/assets/img/icon-144.png",
+            "sizes": "144x144",
+            "type": "image/png"
+        },
+        {
+            "src": "/assets/img/icon-152.png",
+            "sizes": "152x152",
+            "type": "image/png"
+        },
+        {
+            "src": "/assets/img/icon-192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/assets/img/icon-384.png",
+            "sizes": "384x384",
+            "type": "image/png"
+        },
+        {
+            "src": "/assets/img/icon-512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ],
+    "categories": ["finance", "business", "productivity"],
+    "lang": "ru",
+    "dir": "ltr",
+    "prefer_related_applications": false,
+    "shortcuts": [
+        {
+            "name": "Главная",
+            "short_name": "Главная",
+            "description": "Перейти на главную страницу",
+            "url": "/",
+            "icons": [{ "src": "/assets/img/icon-96.png", "sizes": "96x96" }]
+        },
+        {
+            "name": "Избранное",
+            "short_name": "Избранное",
+            "description": "Просмотреть избранные монеты",
+            "url": "/?favorites=true",
+            "icons": [{ "src": "/assets/img/favicon.svg", "sizes": "any" }]
+        }
+    ]
+}

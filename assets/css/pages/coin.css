@@ -1,0 +1,206 @@
+/* Специфичные стили для страницы монеты */
+
+.coin-content {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-xl);
+}
+
+/* Контейнер графика */
+.chart-container {
+    position: relative;
+    min-height: 400px;
+}
+
+/* Оптимизация для мобильных устройств */
+@media (max-width: 767px) {
+    .coin-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: var(--spacing-md);
+    }
+    
+    .coin-header__info {
+        width: 100%;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: var(--spacing-md);
+    }
+    
+    .coin-header__name {
+        width: 100%;
+        justify-content: space-between;
+    }
+    
+    .coin-header__titles {
+        flex: 1;
+    }
+    
+    .coin-header__actions {
+        width: 100%;
+        justify-content: center;
+    }
+    
+    .chart-periods {
+        overflow-x: auto;
+        padding-bottom: var(--spacing-xs);
+        -webkit-overflow-scrolling: touch;
+    }
+    
+    .chart-periods::-webkit-scrollbar {
+        display: none;
+    }
+    
+    .chart-period {
+        flex-shrink: 0;
+    }
+    
+    .stats-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .tradingview-chart {
+        height: 300px;
+    }
+}
+
+/* Планшетная оптимизация */
+@media (min-width: 768px) and (max-width: 1023px) {
+    .coin-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: var(--spacing-md);
+    }
+    
+    .coin-header__info {
+        width: 100%;
+    }
+    
+    .grid--2-col {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Десктопные улучшения */
+@media (min-width: 1024px) {
+    .coin-header__actions {
+        margin-left: auto;
+    }
+    
+    .grid--2-col {
+        grid-template-columns: 2fr 1fr;
+    }
+}
+
+/* Оптимизация TradingView виджета */
+.tradingview-chart {
+    border-radius: var(--border-radius);
+    overflow: hidden;
+}
+
+/* Улучшенные периоды графика */
+.chart-periods {
+    display: flex;
+    gap: var(--spacing-xs);
+    flex-wrap: nowrap;
+}
+
+.chart-period {
+    flex: 1;
+    text-align: center;
+    padding: var(--spacing-xs) var(--spacing-sm);
+}
+
+/* Статистика в виде карточек */
+.stats-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--spacing-md);
+}
+
+.stat-item {
+    background-color: var(--color-surface-alt);
+    border-radius: var(--border-radius);
+    padding: var(--spacing-md);
+    transition: transform var(--transition-fast), box-shadow var(--transition-fast);
+}
+
+.stat-item:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-sm);
+}
+
+.stat-item__label {
+    font-size: var(--font-size-xs);
+    color: var(--color-text-secondary);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-bottom: var(--spacing-xs);
+}
+
+.stat-item__value {
+    font-size: var(--font-size-lg);
+    font-weight: var(--font-weight-bold);
+    color: var(--color-text-primary);
+}
+
+/* Анимация появления контента */
+.coin-content > * {
+    animation: slideInUp var(--transition);
+    animation-fill-mode: both;
+}
+
+.coin-content > *:nth-child(1) {
+    animation-delay: 0.1s;
+}
+
+.coin-content > *:nth-child(2) {
+    animation-delay: 0.2s;
+}
+
+.coin-content > *:nth-child(3) {
+    animation-delay: 0.3s;
+}
+
+/* Иконка монеты */
+.coin-header__icon {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid var(--color-border);
+    background-color: var(--color-surface);
+    padding: 2px;
+}
+
+/* Адаптация для высокого контраста */
+@media (prefers-contrast: high) {
+    .coin-header__icon {
+        border: 3px solid currentColor;
+    }
+    
+    .stat-item {
+        border: 1px solid currentColor;
+    }
+}
+
+/* Поддержка режима печати */
+@media print {
+    .coin-header {
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+    
+    .coin-header__actions {
+        display: none;
+    }
+    
+    .chart-container {
+        min-height: 300px;
+    }
+    
+    .coin-description {
+        font-size: 11pt;
+        line-height: 1.4;
+    }
+}
