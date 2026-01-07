@@ -1,0 +1,186 @@
+/* Специфичные стили для главной страницы */
+
+.market-overview {
+    margin-bottom: var(--spacing-xl);
+}
+
+.trends-news {
+    margin-bottom: var(--spacing-xl);
+}
+
+.markets {
+    margin-bottom: var(--spacing-xl);
+}
+
+/* Мобильная оптимизация таблицы */
+@media (max-width: 767px) {
+    .table__cell {
+        padding: var(--spacing-sm);
+        font-size: var(--font-size-xs);
+    }
+    
+    .coin-cell__name {
+        font-size: var(--font-size-sm);
+        max-width: 120px;
+    }
+    
+    .coin-cell__symbol {
+        font-size: 10px;
+    }
+    
+    .change {
+        font-size: var(--font-size-xs);
+    }
+    
+    .sparkline {
+        width: 80px;
+        height: 24px;
+    }
+    
+    .pagination-controls {
+        width: 100%;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: var(--spacing-md);
+    }
+    
+    .select {
+        min-width: 70px;
+    }
+}
+
+/* Планшетная оптимизация */
+@media (min-width: 768px) and (max-width: 1023px) {
+    .header__right {
+        gap: var(--spacing-sm);
+    }
+    
+    .search {
+        width: 180px;
+    }
+    
+    .coin-cell__name {
+        max-width: 150px;
+    }
+}
+
+/* Десктопные улучшения */
+@media (min-width: 1024px) {
+    .market-overview .grid--3-col {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    
+    .trends-news .grid--3-col {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    
+    .table__cell {
+        white-space: nowrap;
+    }
+    
+    .coin-cell__name {
+        max-width: 200px;
+    }
+}
+
+/* Ховер-эффекты для таблицы */
+@media (hover: hover) {
+    .table__row {
+        cursor: pointer;
+    }
+    
+    .table__row:hover {
+        background-color: var(--color-surface-alt);
+        transform: translateY(-1px);
+        box-shadow: var(--shadow-sm);
+    }
+}
+
+/* Улучшения для темной темы */
+[data-theme="dark"] .table__row:hover {
+    background-color: var(--color-surface);
+}
+
+/* Анимации загрузки */
+.loading-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: var(--spacing-lg);
+    margin-top: var(--spacing-lg);
+}
+
+.loading-card {
+    background-color: var(--color-surface);
+    border: var(--border-width) solid var(--color-border);
+    border-radius: var(--border-radius-lg);
+    padding: var(--spacing-lg);
+    animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+    0%, 100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.5;
+    }
+}
+
+/* Улучшенные спиннеры */
+.loading-spinner--small {
+    width: 20px;
+    height: 20px;
+    border-width: 2px;
+}
+
+.loading-spinner--large {
+    width: 60px;
+    height: 60px;
+    border-width: 4px;
+}
+
+/* Кастомные скроллбары для контейнеров */
+.scroll-container {
+    scrollbar-width: thin;
+    scrollbar-color: var(--color-border) var(--color-surface);
+}
+
+.scroll-container::-webkit-scrollbar {
+    width: 6px;
+}
+
+.scroll-container::-webkit-scrollbar-track {
+    background: var(--color-surface);
+}
+
+.scroll-container::-webkit-scrollbar-thumb {
+    background: var(--color-border);
+    border-radius: 3px;
+}
+
+/* Адаптивные медиа-запросы для очень больших экранов */
+@media (min-width: 1440px) {
+    .container {
+        max-width: 1400px;
+    }
+    
+    .grid--3-col {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+/* Поддержка режима печати */
+@media print {
+    .market-overview,
+    .trends-news {
+        break-inside: avoid;
+    }
+    
+    .table {
+        font-size: 10pt;
+    }
+    
+    .table__cell {
+        padding: 4pt;
+    }
+}
